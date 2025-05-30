@@ -96,36 +96,37 @@ See our [blog](https://www.futurehouse.org/research-announcements/demonstrating-
 - **Logs:** Detailed logs will be printed in the notebook output and/or your console, showing the progress of each step (e.g., query generation, literature search, candidate proposal, ranking).
 
 - **Files:** Results are saved in a new subdirectory within `robin_output/`, named after the `disease_name` and a timestamp (e.g., `robin_output/DISEASE_NAME_YYYY-MM-DD_HH-MM/`). This directory contains a structured set of outputs, including:
-    - Folders for detailed hypotheses and literature reviews for both experimental assays and therapeutic candidates (e.g., `experimental_assay_detailed_hypotheses/`, `therapeutic_candidate_literature_reviews/`).
-    - CSV files for ranking results and final ranked lists (e.g., `experimental_assay_ranking_results.csv`, `ranked_therapeutic_candidates.csv`).
-    - Text summaries for proposed assays and candidates (e.g., `experimental_assay_summary.txt`, `therapeutic_candidates_summary.txt`).
-    - If the optional data analysis step is run (using the `data_analysis` function), there will be an additional `data_analysis/` subfolder containing outputs from the Finch agent (e.g., `consensus_results.csv`). Correspondingly, some therapeutic candidate-related files generated after this step may have an `_experimental` suffix (e.g., `ranked_therapeutic_candidates_experimental.csv`, `therapeutic_candidate_detailed_hypotheses_experimental/`).
-
+  - Folders for detailed hypotheses and literature reviews for both experimental assays and therapeutic candidates (e.g., `experimental_assay_detailed_hypotheses/`, `therapeutic_candidate_literature_reviews/`).
+  - CSV files for ranking results and final ranked lists (e.g., `experimental_assay_ranking_results.csv`, `ranked_therapeutic_candidates.csv`).
+  - Text summaries for proposed assays and candidates (e.g., `experimental_assay_summary.txt`, `therapeutic_candidates_summary.txt`).
+  - If the optional data analysis step is run (using the `data_analysis` function), there will be an additional `data_analysis/` subfolder containing outputs from the Finch agent (e.g., `consensus_results.csv`). Correspondingly, some therapeutic candidate-related files generated after this step may have an `_experimental` suffix (e.g., `ranked_therapeutic_candidates_experimental.csv`, `therapeutic_candidate_detailed_hypotheses_experimental/`).
 
 ### Overview of `examples` Folder:
 
 The `examples` folder provides practical usage demonstrations of pre-generated output directories from complete Robin runs for 10 diseases:
-*   Age-Related Hearing Loss
-*   Celiac Disease
-*   Charcot-Marie-Tooth Disease
-*   Chronic Kidney Disease
-*   Friedreich's Ataxia
-*   Glaucoma
-*   Idiopathic Pulmonary Fibrosis
-*   Non-alcoholic Steatohepatitis
-*   Polycystic Ovary Syndrome
-*   Sarcopenia
+
+- Age-Related Hearing Loss
+- Celiac Disease
+- Charcot-Marie-Tooth Disease
+- Chronic Kidney Disease
+- Friedreich's Ataxia
+- Glaucoma
+- Idiopathic Pulmonary Fibrosis
+- Non-alcoholic Steatohepatitis
+- Polycystic Ovary Syndrome
+- Sarcopenia
 
 Each disease-specific subfolder mirrors the exact file and directory structure a user would obtain in their own `robin_output/` directory after a run:
-*   `experimental_assay_detailed_hypotheses/`: Text files containing detailed reports for each proposed experimental assay.
-*   `experimental_assay_literature_reviews/`: Text files of literature reviews generated from queries related to assay development.
-*   `experimental_assay_ranking_results.csv`: CSV file showing pairwise comparison results for assay ranking.
-*   `experimental_assay_summary.txt`: A textual summary of the proposed experimental assays.
-*   `ranked_therapeutic_candidates.csv`: CSV file listing the final ranked therapeutic candidates and their strength scores.
-*   `therapeutic_candidate_detailed_hypotheses/`: Text files with detailed reports for each proposed therapeutic candidate.
-*   `therapeutic_candidate_literature_reviews/`: Text files of literature reviews for therapeutic candidate queries.
-*   `therapeutic_candidate_ranking_results.csv`: CSV file of pairwise comparison results for candidate ranking.
-*   `therapeutic_candidates_summary.txt`: A textual summary of the proposed therapeutic candidates.
+
+- `experimental_assay_detailed_hypotheses/`: Text files containing detailed reports for each proposed experimental assay.
+- `experimental_assay_literature_reviews/`: Text files of literature reviews generated from queries related to assay development.
+- `experimental_assay_ranking_results.csv`: CSV file showing pairwise comparison results for assay ranking.
+- `experimental_assay_summary.txt`: A textual summary of the proposed experimental assays.
+- `ranked_therapeutic_candidates.csv`: CSV file listing the final ranked therapeutic candidates and their strength scores.
+- `therapeutic_candidate_detailed_hypotheses/`: Text files with detailed reports for each proposed therapeutic candidate.
+- `therapeutic_candidate_literature_reviews/`: Text files of literature reviews for therapeutic candidate queries.
+- `therapeutic_candidate_ranking_results.csv`: CSV file of pairwise comparison results for candidate ranking.
+- `therapeutic_candidates_summary.txt`: A textual summary of the proposed therapeutic candidates.
 
 These example outputs are provided to help users to understand the depth, format, and typical errors seen in Robin runs across various diseases.
 
