@@ -101,7 +101,7 @@ See our [blog](https://www.futurehouse.org/research-announcements/demonstrating-
   - Text summaries for proposed assays and candidates (e.g., `experimental_assay_summary.txt`, `therapeutic_candidates_summary.txt`).
   - If the optional data analysis step is run (using the `data_analysis` function), there will be an additional `data_analysis/` subfolder containing outputs from the Finch agent (e.g., `consensus_results.csv`). Correspondingly, some therapeutic candidate-related files generated after this step may have an `_experimental` suffix (e.g., `ranked_therapeutic_candidates_experimental.csv`, `therapeutic_candidate_detailed_hypotheses_experimental/`).
 
-### Overview of `examples` Folder:
+## Overview of `examples` Folder:
 
 The `examples` folder provides practical usage demonstrations of pre-generated output directories from complete Robin runs for 10 diseases:
 
