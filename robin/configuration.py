@@ -275,7 +275,7 @@ class RobinConfiguration(BaseModel):
         default="input_disease", description="Name of the disease to focus on."
     )
     run_folder_name: str | None = Field(
-        default=None, 
+        default=None,
         description=(
             "Name of the folder where results will be stored. "
             "If not provided or None, it will be auto-generated "
