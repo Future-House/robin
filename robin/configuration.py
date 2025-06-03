@@ -232,22 +232,22 @@ class Prompts(BaseModel):
 
 class AgentConfig(BaseModel):
     assay_lit_search_agent: JobNames = Field(
-        default=JobNames.CHIMP,
+        default=JobNames.CROW,
         description="Agent to use for literature search during assay idea generation.",
     )
     assay_hypothesis_report_agent: JobNames = Field(
-        default=JobNames.CHIMP,
+        default=JobNames.CROW,
         description="Agent to use for generating detailed reports on assay hypotheses.",
     )
     candidate_lit_search_agent: JobNames = Field(
-        default=JobNames.CHIMP,
+        default=JobNames.CROW,
         description=(
             "Agent to use for literature search during therapeutic candidate idea"
             " generation."
         ),
     )
     candidate_hypothesis_report_agent: JobNames = Field(
-        default=JobNames.CHIMP,
+        default=JobNames.FALCON,
         description=(
             "Agent to use for generating detailed reports on therapeutic candidates."
         ),
