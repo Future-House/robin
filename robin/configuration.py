@@ -275,10 +275,13 @@ class RobinConfiguration(BaseModel):
         default="input_disease", description="Name of the disease to focus on."
     )
     run_folder_name: str | None = Field(
-        default=None,
-        description="Name of the folder where results will be stored.",
+        default=None, 
+        description=(
+            "Name of the folder where results will be stored. "
+            "If not provided or None, it will be auto-generated "
+            "using the disease_name and the timestamp."
+        ),
     )
-
     futurehouse_api_key: str = "insert_futurehouse_api_key_here"
     llm_name: str = "o4-mini"
     llm_config: dict | None = Field(default_factory=get_default_llm_config)
