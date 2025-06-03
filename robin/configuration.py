@@ -59,10 +59,6 @@ def get_default_llm_config():
     return copy.deepcopy(_DEFAULT_LLM_CONFIG_DATA)
 
 
-DEFAULT_DISEASE_NAME = "dry age-related macular degeneration"
-DEFAULT_FOLDER_NAME = f"{DEFAULT_DISEASE_NAME[:70].replace(" ", "_")}_{datetime.now().strftime("%Y-%m-%d_%H-%M")}"
-
-
 def _get_prompt_args(template_string: str) -> set[str]:
     """
     Extracts root variable names from f-string like placeholders (e.g., {variable})
@@ -236,22 +232,22 @@ class Prompts(BaseModel):
 
 class AgentConfig(BaseModel):
     assay_lit_search_agent: JobNames = Field(
-        default=JobNames.CROW,
+        default=JobNames.CHIMP,
         description="Agent to use for literature search during assay idea generation.",
     )
     assay_hypothesis_report_agent: JobNames = Field(
-        default=JobNames.CROW,
+        default=JobNames.CHIMP,
         description="Agent to use for generating detailed reports on assay hypotheses.",
     )
     candidate_lit_search_agent: JobNames = Field(
-        default=JobNames.CROW,
+        default=JobNames.CHIMP,
         description=(
             "Agent to use for literature search during therapeutic candidate idea"
             " generation."
         ),
     )
     candidate_hypothesis_report_agent: JobNames = Field(
-        default=JobNames.FALCON,
+        default=JobNames.CHIMP,
         description=(
             "Agent to use for generating detailed reports on therapeutic candidates."
         ),
@@ -276,10 +272,10 @@ class RobinConfiguration(BaseModel):
         default=5, description="Number of candidates to generate for each query."
     )
     disease_name: str = Field(
-        default=DEFAULT_DISEASE_NAME, description="Name of the disease to focus on."
+        default="input_disease", description="Name of the disease to focus on."
     )
-    run_folder_name: str = Field(
-        default=DEFAULT_FOLDER_NAME,
+    run_folder_name: str | None = Field(
+        default=None,
         description="Name of the folder where results will be stored.",
     )
 
@@ -289,6 +285,14 @@ class RobinConfiguration(BaseModel):
     agent_settings: AgentConfig = Field(default_factory=AgentConfig)
     _fh_client: FutureHouseClient | None = PrivateAttr(default=None)
     _llm_client: LiteLLMModel | None = PrivateAttr(default=None)
+
+    @model_validator(mode="after")
+    def set_run_folder_name_default(self) -> "RobinConfiguration":
+        if self.run_folder_name is None:
+            disease_part = self.disease_name[:70].replace(" ", "_")
+            timestamp_part = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+            self.run_folder_name = f"{disease_part}_{timestamp_part}"
+        return self
 
     @property
     def fh_client(self) -> FutureHouseClient:

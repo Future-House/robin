@@ -251,6 +251,7 @@ def save_crow_files(
         query_text = item.get("query", "").strip()
         answer_text = item.get("answer", "").strip()
         sources_text = item.get("sources", "").strip()
+        task_id_text = item.get("task_run_id", "").strip()
 
         file_number = i + 1
 
@@ -274,6 +275,7 @@ def save_crow_files(
             content = f"Hypothesis: {hypothesis_text}\n\n"
         content += f"Query: {query_text}\n\n"
         content += f"{answer_text}\n\n"
+        content += f"Full trajectory link: https://platform.futurehouse.org/trajectories/{task_id_text}\n\n"
         content += f"References:\n{sources_text}\n"
 
         try:
@@ -297,6 +299,7 @@ def save_falcon_files(
     for i, item in enumerate(data_list):
         hypothesis_text = item.get("hypothesis", "").strip()
         formatted_output_text = item.get("formatted_output", "").strip()
+        task_id_text = item.get("task_run_id", "").strip()
 
         file_number = i + 1
 
@@ -316,7 +319,8 @@ def save_falcon_files(
         filepath = run_dir_path / filename
 
         content = f"Proposal for {hypothesis_text}\n\n"
-        content += f"{formatted_output_text}"
+        content += f"{formatted_output_text}\n\n"
+        content += f"Full trajectory link: https://platform.futurehouse.org/trajectories/{task_id_text}\n"
 
         try:
             filepath.write_text(content, encoding="utf-8")
