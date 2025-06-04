@@ -59,7 +59,7 @@ _DEFAULT_LLM_CONFIG_DATA = {
                 "api_key": os.getenv("ANTHROPIC_API_KEY"),
                 "timeout": 300,
                 "reasoning_effort": "high",
-                }
+            },
         },
         {
             "model_name": "gemini-2.5-flash-preview",
@@ -68,7 +68,7 @@ _DEFAULT_LLM_CONFIG_DATA = {
                 "api_key": os.getenv("GEMINI_API_KEY"),
                 "timeout": 300,
                 "reasoning_effort": "high",
-                }
+            },
         },
     ]
 }
@@ -303,7 +303,7 @@ class RobinConfiguration(BaseModel):
     )
     futurehouse_api_key: str = "insert_futurehouse_api_key_here"
     llm_name: str = Field(default="claude-4-opus")
-    llm_config: dict | None = Field(default_factory=get_default_llm_config)
+    llm_config: dict = Field(default_factory=get_default_llm_config)
     agent_settings: AgentConfig = Field(default_factory=AgentConfig)
     _fh_client: FutureHouseClient | None = PrivateAttr(default=None)
     _llm_client: LiteLLMModel | None = PrivateAttr(default=None)
@@ -336,40 +336,54 @@ class RobinConfiguration(BaseModel):
                 if model_def.get("model_name") == self.llm_name:
                     target_model_definition = model_def
                     break
-            
+
             if target_model_definition is None:
-                available_aliases = [md.get('model_name') for md in self.llm_config.get('model_list', [])]
+                available_aliases = [
+                    md.get("model_name") for md in self.llm_config.get("model_list", [])
+                ]
                 raise ValueError(
                     f"LLM alias '{self.llm_name}' not found in llm_config.model_list. "
                     f"Available model aliases: {available_aliases}. "
                     f"Ensure '{self.llm_name}' is defined in _DEFAULT_LLM_CONFIG_DATA."
                 )
-            
+
             litellm_params_for_model = target_model_definition.get("litellm_params", {})
             provider_model_string = litellm_params_for_model.get("model")
 
             if not provider_model_string:
-                raise ValueError(f"Missing 'model' key in litellm_params for alias '{self.llm_name}'")
+                raise ValueError(
+                    f"Missing 'model' key in litellm_params for alias '{self.llm_name}'"
+                )
 
             resolved_api_key = litellm_params_for_model.get("api_key")
             if resolved_api_key is None or resolved_api_key == "insert_openai_key_here":
                 key_env_var_name = "RELEVANT_API_KEY_ENV_VAR"
-                if "o4-mini" in self.llm_name or "openai" in provider_model_string.lower():
+                if (
+                    "o4-mini" in self.llm_name
+                    or "openai" in provider_model_string.lower()
+                ):
                     key_env_var_name = "OPENAI_API_KEY"
-                elif "claude" in self.llm_name or "anthropic" in provider_model_string.lower():
+                elif (
+                    "claude" in self.llm_name
+                    or "anthropic" in provider_model_string.lower()
+                ):
                     key_env_var_name = "ANTHROPIC_API_KEY"
-                elif "gemini" in self.llm_name or "google" in provider_model_string.lower():
+                elif (
+                    "gemini" in self.llm_name
+                    or "google" in provider_model_string.lower()
+                ):
                     key_env_var_name = "GEMINI_API_KEY"
-                
+
                 raise ValueError(
                     f"API key for LLM alias '{self.llm_name}' (provider model: {provider_model_string}) "
                     f"is not set or is still the placeholder. Please ensure the environment variable "
                     f"(e.g., {key_env_var_name}) is correctly set."
                 )
 
-            self._llm_client = LiteLLMModel(name=provider_model_string, config=litellm_params_for_model)
+            self._llm_client = LiteLLMModel(
+                name=provider_model_string, config=litellm_params_for_model
+            )
         return self._llm_client
-
 
     def get_da_client(self):
         from .multitrajectory_runner import MultiTrajectoryRunner

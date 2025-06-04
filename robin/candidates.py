@@ -167,11 +167,8 @@ async def therapeutic_candidates(  # noqa: PLR0912
     ]
 
     candidate_generation_result = await configuration.llm_client.call_single(
-        messages,
-        timeout=600,
-        temperature=1,
-        max_tokens=32000,
-        reasoning_effort="high")
+        messages, timeout=600, temperature=1, max_tokens=32000, reasoning_effort="high"
+    )
 
     llm_raw_output = cast(str, candidate_generation_result.text)
     candidate_ideas_json = []
