@@ -40,7 +40,7 @@ async def therapeutic_candidates(  # noqa: PLR0912
 
     # ### Step 1: Generating queries for Crow
 
-    logger.info("\nStep 1: Formulating relevant queries for literature search...")
+    logger.info("\n\nStep 1: Formulating relevant queries for literature search...")
 
     candidate_query_generation_system_message = (
         configuration.prompts.candidate_query_generation_system_message.format(
@@ -98,7 +98,7 @@ async def therapeutic_candidates(  # noqa: PLR0912
 
     # ### Step 2: Literature review on therapeutic candidates
 
-    logger.info("\nStep 2: Conducting literature search with FutureHouse platform...")
+    logger.info("\n\nStep 2: Conducting literature search with FutureHouse platform...")
 
     therapeutic_candidate_review = await call_platform(
         queries=candidate_generation_queries_dict,
@@ -126,7 +126,7 @@ async def therapeutic_candidates(  # noqa: PLR0912
     # ### Step 3: Proposing therapeutic candidates
 
     logger.info(
-        f"\nStep 3: Generating {configuration.num_candidates} ideas for therapeutic"
+        f"\n\nStep 3: Generating {configuration.num_candidates} ideas for therapeutic"
         " candidates..."
     )
 
@@ -166,7 +166,12 @@ async def therapeutic_candidates(  # noqa: PLR0912
         Message(role="user", content=candidate_generation_user_message),
     ]
 
-    candidate_generation_result = await configuration.llm_client.call_single(messages)
+    candidate_generation_result = await configuration.llm_client.call_single(
+        messages,
+        timeout=600,
+        temperature=1,
+        max_tokens=32000,
+        reasoning_effort="high")
 
     llm_raw_output = cast(str, candidate_generation_result.text)
     candidate_ideas_json = []
@@ -268,7 +273,7 @@ async def therapeutic_candidates(  # noqa: PLR0912
 
     # ### Step 4: Generating reports for all candidates
 
-    logger.info("\nStep 4: Detailed investigation and evaluation for candidates...")
+    logger.info("\n\nStep 4: Detailed investigation and evaluation for candidates...")
 
     def create_therapeutic_candidate_queries(
         candidate_idea_list: list[str],
@@ -329,7 +334,7 @@ async def therapeutic_candidates(  # noqa: PLR0912
 
     # ### Step 5: Ranking/selecting the therapeutic candidates
 
-    logger.info("\nStep 5: Ranking the strength of the therapeutic candidates...")
+    logger.info("\n\nStep 5: Ranking the strength of the therapeutic candidates...")
 
     candidate_information_df = extract_candidate_info_from_folder(
         f"robin_output/{run_config_folder_name}/therapeutic_candidate_detailed_hypotheses"

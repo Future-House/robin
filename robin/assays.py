@@ -30,7 +30,7 @@ async def experimental_assay(configuration: RobinConfiguration) -> str | None:
 
     # Step 1: Generating queries for Crow
 
-    logger.info("\nStep 1: Formulating relevant queries for literature search...")
+    logger.info("\n\nStep 1: Formulating relevant queries for literature search...")
 
     assay_literature_system_message = (
         configuration.prompts.assay_literature_system_message.format(
@@ -66,7 +66,7 @@ async def experimental_assay(configuration: RobinConfiguration) -> str | None:
 
     # ### Step 2: Literature review on cell culture assays
 
-    logger.info("\nStep 2: Conducting literature search with FutureHouse platform...")
+    logger.info("\n\nStep 2: Conducting literature search with FutureHouse platform...")
 
     assay_lit_review = await call_platform(
         queries=experimental_assay_queries_dict,
@@ -86,7 +86,7 @@ async def experimental_assay(configuration: RobinConfiguration) -> str | None:
 
     # ### Step 3: Proposing cell culture assays
 
-    logger.info("\nStep 3: Generating ideas for relevant experimental assays...")
+    logger.info("\n\nStep 3: Generating ideas for relevant experimental assays...")
 
     assay_proposal_system_message = (
         configuration.prompts.assay_proposal_system_message.format(
@@ -135,7 +135,7 @@ async def experimental_assay(configuration: RobinConfiguration) -> str | None:
 
     # ### Step 4: Generating reports for all assays
 
-    logger.info("\nStep 4: Detailed investigation and evaluation for each assay...")
+    logger.info("\n\nStep 4: Detailed investigation and evaluation for each assay...")
 
     def create_assay_hypothesis_queries(assay_idea_list: list[str]) -> dict[str, str]:
 
@@ -182,7 +182,7 @@ async def experimental_assay(configuration: RobinConfiguration) -> str | None:
 
     # ### Step 5: Selecting the top experimental assay
 
-    logger.info("\nStep 5: Selecting the top experimental assay...")
+    logger.info("\n\nStep 5: Selecting the top experimental assay...")
 
     assay_hypothesis_df = pd.DataFrame(assay_hypotheses["results"])
     assay_hypothesis_df["index"] = assay_hypothesis_df.index

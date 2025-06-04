@@ -49,10 +49,11 @@ _DEFAULT_LLM_CONFIG_DATA = {
                 "model": "o4-mini",
                 "api_key": os.getenv("OPENAI_API_KEY", "insert_openai_key_here"),
                 "timeout": 300,
+                "reasoning_effort": "high",
             },
         },
         {
-            "model_name": "claude-4-opus",
+            "model_name": "claude-opus-4",
             "litellm_params": {
                 "model": "anthropic/claude-opus-4-20250514",
                 "api_key": os.getenv("ANTHROPIC_API_KEY"),
@@ -61,11 +62,12 @@ _DEFAULT_LLM_CONFIG_DATA = {
                 }
         },
         {
-            "model_name": "gemini-2.5-flash",
+            "model_name": "gemini-2.5-flash-preview",
             "litellm_params": {
                 "model": "gemini/gemini-2.5-flash-preview-04-17",
                 "api_key": os.getenv("GEMINI_API_KEY"),
                 "timeout": 300,
+                "reasoning_effort": "high",
                 }
         },
     ]
