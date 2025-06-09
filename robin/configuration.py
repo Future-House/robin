@@ -303,10 +303,12 @@ class RobinConfiguration(BaseModel):
     )
     futurehouse_api_key: str = "insert_futurehouse_api_key_here"
     llm_name: str = Field(default="claude-4-opus")
+    llm_formatter_name: str = Field(default="o4-mini")
     llm_config: dict = Field(default_factory=get_default_llm_config)
     agent_settings: AgentConfig = Field(default_factory=AgentConfig)
     _fh_client: FutureHouseClient | None = PrivateAttr(default=None)
     _llm_client: LiteLLMModel | None = PrivateAttr(default=None)
+    _llm_formatter: LiteLLMModel | None = PrivateAttr(default=None)
 
     @model_validator(mode="after")
     def set_run_folder_name_default(self) -> "RobinConfiguration":
@@ -384,6 +386,63 @@ class RobinConfiguration(BaseModel):
                 name=provider_model_string, config=litellm_params_for_model
             )
         return self._llm_client
+
+    @property
+    def llm_formatter(self) -> LiteLLMModel:
+        if self._llm_formatter is None:
+            target_model_definition = None
+            for model_def in self.llm_config["model_list"]:
+                if model_def.get("model_name") == self.llm_name:
+                    target_model_definition = model_def
+                    break
+
+            if target_model_definition is None:
+                available_aliases = [
+                    md.get("model_name") for md in self.llm_config.get("model_list", [])
+                ]
+                raise ValueError(
+                    f"LLM alias '{self.llm_name}' not found in llm_config.model_list. "
+                    f"Available model aliases: {available_aliases}. "
+                    f"Ensure '{self.llm_name}' is defined in _DEFAULT_LLM_CONFIG_DATA."
+                )
+
+            litellm_params_for_model = target_model_definition.get("litellm_params", {})
+            provider_model_string = litellm_params_for_model.get("model")
+
+            if not provider_model_string:
+                raise ValueError(
+                    f"Missing 'model' key in litellm_params for alias '{self.llm_name}'"
+                )
+
+            resolved_api_key = litellm_params_for_model.get("api_key")
+            if resolved_api_key is None or resolved_api_key == "insert_openai_key_here":
+                key_env_var_name = "RELEVANT_API_KEY_ENV_VAR"
+                if (
+                    "o4-mini" in self.llm_name
+                    or "openai" in provider_model_string.lower()
+                ):
+                    key_env_var_name = "OPENAI_API_KEY"
+                elif (
+                    "claude" in self.llm_name
+                    or "anthropic" in provider_model_string.lower()
+                ):
+                    key_env_var_name = "ANTHROPIC_API_KEY"
+                elif (
+                    "gemini" in self.llm_name
+                    or "google" in provider_model_string.lower()
+                ):
+                    key_env_var_name = "GEMINI_API_KEY"
+
+                raise ValueError(
+                    f"API key for LLM alias '{self.llm_name}' (provider model: {provider_model_string}) "
+                    f"is not set or is still the placeholder. Please ensure the environment variable "
+                    f"(e.g., {key_env_var_name}) is correctly set."
+                )
+
+            self._llm_formatter = LiteLLMModel(
+                name=provider_model_string, config=litellm_params_for_model
+            )
+        return self._llm_formatter
 
     def get_da_client(self):
         from .multitrajectory_runner import MultiTrajectoryRunner

@@ -313,7 +313,7 @@ async def therapeutic_candidates(  # noqa: PLR0912
     )
 
     final_therapeutic_candidate_hypotheses = await format_final_report(
-        therapeutic_candidate_hypotheses["results"], configuration.llm_client
+        therapeutic_candidate_hypotheses["results"], configuration.llm_formatter
     )
 
     if experimental_insights:

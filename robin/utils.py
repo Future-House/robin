@@ -819,7 +819,7 @@ async def run_comparisons(  # noqa: PLR0912
 
 
 async def format_single_report(
-    report: dict[str, Any], client: LiteLLMModel
+    report: dict[str, Any], formatter_client: LiteLLMModel
 ) -> dict[str, str]:
 
     hypothesis_text = report.get("hypothesis", "").strip()
@@ -847,7 +847,13 @@ async def format_single_report(
         Message(role="user", content=final_report_formatting_user_message),
     ]
 
-    final_report_formatted_result = await client.call_single(formatting_messages)
+    final_report_formatted_result = await formatter_client.call_single(
+        formatting_messages,
+        timeout=600,
+        temperature=1,
+        max_tokens=32000,
+        reasoning_effort="high",
+    )
 
     return {
         "hypothesis": hypothesis_text,
@@ -856,10 +862,10 @@ async def format_single_report(
 
 
 async def format_final_report(
-    data_list: list[dict[str, Any]], client: LiteLLMModel
+    data_list: list[dict[str, Any]], formatter_client: LiteLLMModel
 ) -> list[dict[str, str]]:
 
-    tasks = [format_single_report(item, client) for item in data_list]
+    tasks = [format_single_report(item, formatter_client) for item in data_list]
 
     processed_results = await asyncio.gather(*tasks)
     return list(processed_results)

@@ -609,7 +609,7 @@ CANDIDATE_GENERATION_SYSTEM_MESSAGE = (
     "5.  **Novelty (Balanced with Validation):** Innovative approaches are valued, but "
     "must be grounded in strong scientific rationale and evidence.\n\n"
     "For EACH hypothesis object in the 'hypotheses' array, you MUST provide ALL of "
-    "the following fields:\n\n"  # Explicit newline for readability
+    "the following fields:\n\n"
     "    1.  `candidate`: The specific drug/therapeutic proposed. Must be a single agent, "
     "not a combination. Do not propose special formulations or delivery methods.\n"
     "    2.  `hypothesis`: A specific, compelling mechanistic hypothesis detailing how the "
