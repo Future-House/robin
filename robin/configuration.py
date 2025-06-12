@@ -62,6 +62,15 @@ _DEFAULT_LLM_CONFIG_DATA = {
             },
         },
         {
+            "model_name": "claude-sonnet-4",
+            "litellm_params": {
+                "model": "anthropic/claude-sonnet-4-20250514",
+                "api_key": os.getenv("ANTHROPIC_API_KEY"),
+                "timeout": 300,
+                "reasoning_effort": "high",
+            },
+        },
+        {
             "model_name": "gemini-2.5-flash-preview",
             "litellm_params": {
                 "model": "gemini/gemini-2.5-flash-preview-04-17",
@@ -391,8 +400,10 @@ class RobinConfiguration(BaseModel):
     def llm_formatter(self) -> LiteLLMModel:
         if self._llm_formatter is None:
             target_model_definition = None
+            formatter_alias_to_find = self.llm_formatter_name
+
             for model_def in self.llm_config["model_list"]:
-                if model_def.get("model_name") == self.llm_name:
+                if model_def.get("model_name") == formatter_alias_to_find:
                     target_model_definition = model_def
                     break
 
@@ -401,9 +412,9 @@ class RobinConfiguration(BaseModel):
                     md.get("model_name") for md in self.llm_config.get("model_list", [])
                 ]
                 raise ValueError(
-                    f"LLM alias '{self.llm_name}' not found in llm_config.model_list. "
+                    f"LLM formatter alias '{formatter_alias_to_find}' not found in llm_config.model_list. "
                     f"Available model aliases: {available_aliases}. "
-                    f"Ensure '{self.llm_name}' is defined in _DEFAULT_LLM_CONFIG_DATA."
+                    f"Ensure '{formatter_alias_to_find}' is defined in _DEFAULT_LLM_CONFIG_DATA."
                 )
 
             litellm_params_for_model = target_model_definition.get("litellm_params", {})
@@ -411,30 +422,30 @@ class RobinConfiguration(BaseModel):
 
             if not provider_model_string:
                 raise ValueError(
-                    f"Missing 'model' key in litellm_params for alias '{self.llm_name}'"
+                    f"Missing 'model' key in litellm_params for formatter alias '{formatter_alias_to_find}'"
                 )
 
             resolved_api_key = litellm_params_for_model.get("api_key")
             if resolved_api_key is None or resolved_api_key == "insert_openai_key_here":
                 key_env_var_name = "RELEVANT_API_KEY_ENV_VAR"
                 if (
-                    "o4-mini" in self.llm_name
+                    "o4-mini" in formatter_alias_to_find
                     or "openai" in provider_model_string.lower()
                 ):
                     key_env_var_name = "OPENAI_API_KEY"
                 elif (
-                    "claude" in self.llm_name
+                    "claude" in formatter_alias_to_find  # FIXED
                     or "anthropic" in provider_model_string.lower()
                 ):
                     key_env_var_name = "ANTHROPIC_API_KEY"
                 elif (
-                    "gemini" in self.llm_name
+                    "gemini" in formatter_alias_to_find  # FIXED
                     or "google" in provider_model_string.lower()
                 ):
                     key_env_var_name = "GEMINI_API_KEY"
 
                 raise ValueError(
-                    f"API key for LLM alias '{self.llm_name}' (provider model: {provider_model_string}) "
+                    f"API key for LLM formatter alias '{formatter_alias_to_find}' (provider model: {provider_model_string}) "
                     f"is not set or is still the placeholder. Please ensure the environment variable "
                     f"(e.g., {key_env_var_name}) is correctly set."
                 )
