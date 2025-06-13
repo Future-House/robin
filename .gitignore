@@ -103,6 +103,7 @@ coverage.xml
 .tox/
 htmlcov/
 scratchpad.ipynb
+steps.ipynb
 
 # Documentation
 docs/_build/

@@ -27,19 +27,22 @@ logger = logging.getLogger(__name__)
 GAME_REQUIREMENT = 2
 
 
-async def therapeutic_candidates(  # noqa: PLR0912
-    candidate_generation_goal: str,
+async def generate_candidate_queries(
     configuration: RobinConfiguration,
+    candidate_generation_goal: str,
     experimental_insights: dict[str, str] | None = None,
-) -> None:
+) -> dict[str, str]:
+    """
+    Step 1: Formulate literature search queries for therapeutic candidates.
 
-    logger.info(
-        f"Starting generation of {configuration.num_candidates} therapeutic candidates."
-    )
-    logger.info("———————————————————————————————————————————————————————————————")
+    Args:
+        configuration: The RobinConfiguration object for the run.
+        candidate_generation_goal: The specific research goal for candidate generation.
+        experimental_insights: Optional insights from experimental data analysis.
 
-    # ### Step 1: Generating queries for Crow
-
+    Returns:
+        A dictionary of queries for the literature search.
+    """
     logger.info("\n\nStep 1: Formulating relevant queries for literature search...")
 
     candidate_query_generation_system_message = (
@@ -47,10 +50,6 @@ async def therapeutic_candidates(  # noqa: PLR0912
             disease_name=configuration.disease_name
         )
     )
-
-    run_config_folder_name = str(configuration.run_folder_name)
-    # if experimental_insights:
-    #     run_config_folder_name += "_experimental"
 
     if experimental_insights:
         candidate_query_generation_system_message += (
@@ -94,14 +93,31 @@ async def therapeutic_candidates(  # noqa: PLR0912
     for ic, cquery in enumerate(candidate_generation_queries):
         logger.info(f"{ic + 1}. {cquery}")
 
-    candidate_generation_queries_dict = {q: q for q in candidate_generation_queries}
+    return {q: q for q in candidate_generation_queries}
 
-    # ### Step 2: Literature review on therapeutic candidates
 
+async def candidate_lit_review(
+    configuration: RobinConfiguration,
+    candidate_queries_dict: dict[str, str],
+    experimental_insights: dict[str, str] | None = None,
+) -> str:
+    """
+    Step 2: Conduct literature review on therapeutic candidates.
+
+    Args:
+        configuration: The RobinConfiguration object for the run.
+        candidate_queries_dict: The dictionary of queries to run.
+        experimental_insights: Optional insights from experimental data analysis.
+
+    Returns:
+        A string containing the summarized literature review.
+    """
     logger.info("\n\nStep 2: Conducting literature search with FutureHouse platform...")
 
+    run_folder_name = str(configuration.run_folder_name)
+
     therapeutic_candidate_review = await call_platform(
-        queries=candidate_generation_queries_dict,
+        queries=candidate_queries_dict,
         fh_client=configuration.fh_client,
         job_name=configuration.agent_settings.candidate_lit_search_agent,
     )
@@ -109,26 +125,43 @@ async def therapeutic_candidates(  # noqa: PLR0912
     if experimental_insights:
         save_crow_files(
             therapeutic_candidate_review["results"],
-            run_dir=f"robin_output/{run_config_folder_name}/therapeutic_candidate_literature_reviews_experimental",
+            run_dir=f"robin_output/{run_folder_name}/therapeutic_candidate_literature_reviews_experimental",
             prefix="query",
         )
     else:
         save_crow_files(
             therapeutic_candidate_review["results"],
-            run_dir=f"robin_output/{run_config_folder_name}/therapeutic_candidate_literature_reviews",
+            run_dir=f"robin_output/{run_folder_name}/therapeutic_candidate_literature_reviews",
             prefix="query",
         )
 
-    therapeutic_candidate_review_output = output_to_string(
-        therapeutic_candidate_review["results"]
-    )
+    return output_to_string(therapeutic_candidate_review["results"])
 
-    # ### Step 3: Proposing therapeutic candidates
 
+async def propose_therapeutic_candidates(  # noqa: PLR0912
+    configuration: RobinConfiguration,
+    candidate_generation_goal: str,
+    therapeutic_candidate_review_output: str,
+    experimental_insights: dict[str, str] | None = None,
+) -> list[str]:
+    """
+    Step 3: Propose therapeutic candidates based on the literature review.
+
+    Args:
+        configuration: The RobinConfiguration object for the run.
+        candidate_generation_goal: The specific research goal.
+        therapeutic_candidate_review_output: The literature review summary string.
+        experimental_insights: Optional insights from experimental data analysis.
+
+    Returns:
+        A list of formatted strings, each representing a proposed candidate.
+    """
     logger.info(
         f"\n\nStep 3: Generating {configuration.num_candidates} ideas for therapeutic"
         " candidates..."
     )
+
+    run_folder_name = str(configuration.run_folder_name)
 
     candidate_generation_system_message = (
         configuration.prompts.candidate_generation_system_message.format(
@@ -173,7 +206,6 @@ async def therapeutic_candidates(  # noqa: PLR0912
     llm_raw_output = cast(str, candidate_generation_result.text)
     candidate_ideas_json = []
 
-    # Split by "<CANDIDATE END>" and filter out any empty strings
     raw_blocks = llm_raw_output.strip().split(r"<CANDIDATE END>")
     candidate_blocks_text = [block.strip() for block in raw_blocks if block.strip()]
 
@@ -233,7 +265,6 @@ async def therapeutic_candidates(  # noqa: PLR0912
             "hypothesis": hypothesis_text,
             "reasoning": reasoning_text,
         }
-
         candidate_ideas_json.append(current_candidate_data)
 
     if not candidate_ideas_json:
@@ -248,62 +279,58 @@ async def therapeutic_candidates(  # noqa: PLR0912
         logger.info(f"{idea_str[:100]}...")
 
     if experimental_insights:
-        candidate_list_export_file = f"robin_output/{run_config_folder_name}/therapeutic_candidates_summary_experimental.txt"
+        export_file = f"robin_output/{run_folder_name}/therapeutic_candidates_summary_experimental.txt"
     else:
-        candidate_list_export_file = (
-            f"robin_output/{run_config_folder_name}/therapeutic_candidates_summary.txt"
+        export_file = (
+            f"robin_output/{run_folder_name}/therapeutic_candidates_summary.txt"
         )
 
-    async with aiofiles.open(candidate_list_export_file, "w") as f:
+    async with aiofiles.open(export_file, "w") as f:
         for i, item in enumerate(candidate_idea_list):
             parts = item.split("<|>")
-            candidate = parts[0]
-            hypothesis = parts[1]
-            reasoning = parts[2]
-
             await f.write(f"Therapeutic Candidate {i + 1}:\n")
-            await f.write(f"{candidate}\n")
-            await f.write(f"{hypothesis}\n")
-            await f.write(f"{reasoning}\n\n")
+            await f.write(f"{parts[0]}\n")  # Candidate
+            await f.write(f"{parts[1]}\n")  # Hypothesis
+            await f.write(f"{parts[2]}\n\n")  # Reasoning
 
-    logger.info(f"Successfully exported to {candidate_list_export_file}")
+    logger.info(f"Successfully exported to {export_file}")
+    return candidate_idea_list
 
-    # ### Step 4: Generating reports for all candidates
 
+async def candidate_detailed_reports(
+    configuration: RobinConfiguration,
+    candidate_idea_list: list[str],
+    experimental_insights: dict[str, str] | None = None,
+) -> None:
+    """
+    Step 4: Generate detailed reports for all proposed candidates.
+
+    Args:
+        configuration: The RobinConfiguration object for the run.
+        candidate_idea_list: The list of proposed candidate strings.
+        experimental_insights: Optional insights from experimental data analysis.
+    """
     logger.info("\n\nStep 4: Detailed investigation and evaluation for candidates...")
+    run_folder_name = str(configuration.run_folder_name)
 
     def create_therapeutic_candidate_queries(
-        candidate_idea_list: list[str],
+        idea_list: list[str],
     ) -> dict[str, str]:
-
-        candidate_lit_review_direction_prompt = (
-            configuration.prompts.candidate_lit_review_direction_prompt.format(
-                disease_name=configuration.disease_name
-            )
-        )
-
-        candidate_report_format = configuration.prompts.candidate_report_format.format(
+        prompt = configuration.prompts.candidate_lit_review_direction_prompt.format(
             disease_name=configuration.disease_name
         )
-
-        candidate_queries = {}
-
-        formatted_candidate_idea_list = [
-            item.replace("<|>", "\n") for item in candidate_idea_list
-        ]
-
-        for candidate in formatted_candidate_idea_list:
-            candidate_name = candidate.split("Candidate:")[1].split("\n")[0].strip()
-            candidate_queries[candidate_name] = (
-                candidate_lit_review_direction_prompt
-                + candidate
-                + candidate_report_format
-            )
-
-        return candidate_queries
+        report_format = configuration.prompts.candidate_report_format.format(
+            disease_name=configuration.disease_name
+        )
+        queries = {}
+        formatted_list = [item.replace("<|>", "\n") for item in idea_list]
+        for candidate in formatted_list:
+            name = candidate.split("Candidate:")[1].split("\n")[0].strip()
+            queries[name] = prompt + candidate + report_format
+        return queries
 
     therapeutic_candidate_queries = create_therapeutic_candidate_queries(
-        candidate_idea_list=candidate_idea_list
+        candidate_idea_list
     )
 
     therapeutic_candidate_hypotheses = await call_platform(
@@ -317,234 +344,187 @@ async def therapeutic_candidates(  # noqa: PLR0912
     )
 
     if experimental_insights:
-        save_falcon_files(
-            final_therapeutic_candidate_hypotheses,
-            run_dir=f"robin_output/{run_config_folder_name}/therapeutic_candidate_detailed_hypotheses_experimental",
-            prefix="therapeutic_candidate",
-        )
+        save_dir = f"robin_output/{run_folder_name}/therapeutic_candidate_detailed_hypotheses_experimental"
     else:
-        save_falcon_files(
-            final_therapeutic_candidate_hypotheses,
-            run_dir=f"robin_output/{run_config_folder_name}/therapeutic_candidate_detailed_hypotheses",
-            prefix="therapeutic_candidate",
+        save_dir = (
+            f"robin_output/{run_folder_name}/therapeutic_candidate_detailed_hypotheses"
         )
 
-    # ### Step 5: Ranking/selecting the therapeutic candidates
+    save_falcon_files(
+        final_therapeutic_candidate_hypotheses,
+        run_dir=save_dir,
+        prefix="therapeutic_candidate",
+    )
 
+
+async def rank_therapeutic_candidates(  # noqa: PLR0912
+    configuration: RobinConfiguration,
+    experimental_insights: dict[str, str] | None = None,
+) -> None:
+    """
+    Step 5: Rank the therapeutic candidates using pairwise comparison.
+
+    Args:
+        configuration: The RobinConfiguration object for the run.
+        experimental_insights: Optional insights from experimental data analysis.
+    """
     logger.info("\n\nStep 5: Ranking the strength of the therapeutic candidates...")
 
-    candidate_information_df = extract_candidate_info_from_folder(
-        f"robin_output/{run_config_folder_name}/therapeutic_candidate_detailed_hypotheses"
+    run_folder_name = str(configuration.run_folder_name)
+    hypotheses_folder = (
+        f"robin_output/{run_folder_name}/therapeutic_candidate_detailed_hypotheses"
     )
+    if experimental_insights:
+        hypotheses_folder += "_experimental"
 
-    candidate_ranking_system_prompt = (
-        configuration.prompts.candidate_ranking_system_prompt.format(
-            disease_name=configuration.disease_name
-        )
-    )
+    candidate_information_df = extract_candidate_info_from_folder(hypotheses_folder)
 
-    candidate_ranking_prompt_format = (
-        configuration.prompts.candidate_ranking_prompt_format
+    system_prompt = configuration.prompts.candidate_ranking_system_prompt.format(
+        disease_name=configuration.disease_name
     )
+    prompt_format = configuration.prompts.candidate_ranking_prompt_format
+
+    output_folder = f"robin_output/{run_folder_name}"
+    output_folder_path = Path(output_folder)
+    output_folder_path.mkdir(parents=True, exist_ok=True)
 
     if experimental_insights:
-        candidate_ranking_output_folder = f"robin_output/{run_config_folder_name}"
-        candidate_ranking_output_folder_path = Path(candidate_ranking_output_folder)
-        candidate_ranking_output_filepath = (
-            candidate_ranking_output_folder_path
-            / "therapeutic_candidate_ranking_results_experimental.csv"
-        )
-        candidate_ranking_output_folder_path.mkdir(parents=True, exist_ok=True)
-
-        candidate_pairs_list = uniformly_random_pairs(
-            n_hypotheses=len(candidate_information_df)
-        )
+        ranking_csv = "therapeutic_candidate_ranking_results_experimental.csv"
+        final_csv = "ranked_therapeutic_candidates_experimental.csv"
     else:
-        candidate_ranking_output_folder = f"robin_output/{run_config_folder_name}"
-        candidate_ranking_output_folder_path = Path(candidate_ranking_output_folder)
-        candidate_ranking_output_filepath = (
-            candidate_ranking_output_folder_path
-            / "therapeutic_candidate_ranking_results.csv"
-        )
-        candidate_ranking_output_folder_path.mkdir(parents=True, exist_ok=True)
+        ranking_csv = "therapeutic_candidate_ranking_results.csv"
+        final_csv = "ranked_therapeutic_candidates.csv"
 
-        candidate_pairs_list = uniformly_random_pairs(
-            n_hypotheses=len(candidate_information_df)
-        )
+    output_filepath = output_folder_path / ranking_csv
+    pairs_list = uniformly_random_pairs(n_hypotheses=len(candidate_information_df))
 
     await run_comparisons(
-        pairs_list=candidate_pairs_list,
+        pairs_list=pairs_list,
         client=configuration.llm_client,
-        system_prompt=candidate_ranking_system_prompt,
-        ranking_prompt_format=candidate_ranking_prompt_format,
+        system_prompt=system_prompt,
+        ranking_prompt_format=prompt_format,
         assay_hypothesis_df=candidate_information_df,
-        output_filepath=str(candidate_ranking_output_filepath),
+        output_filepath=str(output_filepath),
     )
 
-    logger.info(f"Processing ranking output from: {candidate_ranking_output_filepath}")
-    therapeutic_candidate_ranking_df = processing_ranking_output(
-        str(candidate_ranking_output_filepath)
-    )
+    logger.info(f"Processing ranking output from: {output_filepath}")
+    ranking_df = processing_ranking_output(str(output_filepath))
 
-    if (
-        therapeutic_candidate_ranking_df.empty
-        or "Game Score" not in therapeutic_candidate_ranking_df.columns
-    ):
+    if ranking_df.empty or "Game Score" not in ranking_df.columns:
         logger.error(
-            "Ranking DataFrame is empty or missing 'Game Score' column. Cannot proceed"
-            " with Choix."
+            "Ranking DataFrame is empty or invalid. Cannot proceed with Choix."
         )
         return
 
-    raw_game_scores_from_df = therapeutic_candidate_ranking_df["Game Score"].to_list()
+    raw_scores = ranking_df["Game Score"].to_list()
+    games_data: list[tuple[int, int]] = []
+    valid_count, invalid_count = 0, 0
 
-    therapeutic_candidate_games_data = []
-    valid_game_count = 0
-    invalid_game_count = 0
-
-    for game in raw_game_scores_from_df:
-        if (
-            game is not None
-            and isinstance(game, (tuple, list))
-            and len(game) == GAME_REQUIREMENT
-        ):
+    for game in raw_scores:
+        if game and isinstance(game, (tuple, list)) and len(game) == GAME_REQUIREMENT:
             try:
-                winner_id = int(game[0])
-                loser_id = int(game[1])
-
+                w_id, l_id = int(game[0]), int(game[1])
                 if (
-                    0 <= winner_id < len(candidate_information_df)
-                    and 0 <= loser_id < len(candidate_information_df)
-                    and winner_id != loser_id
+                    0 <= w_id < len(candidate_information_df)
+                    and 0 <= l_id < len(candidate_information_df)
+                    and w_id != l_id
                 ):
-                    therapeutic_candidate_games_data.append((winner_id, loser_id))
-                    valid_game_count += 1
+                    games_data.append((w_id, l_id))
+                    valid_count += 1
                 else:
-                    logger.warning(
-                        "Skipping game with out-of-range or identical IDs:"
-                        f" {(winner_id, loser_id)}. Max index:"
-                        f" {len(candidate_information_df) - 1}"
-                    )
-                    invalid_game_count += 1
-            except (ValueError, TypeError) as e:
-                logger.warning(
-                    f"Skipping game due to ID conversion error: {game}. Error: {e}"
-                )
-                invalid_game_count += 1
+                    invalid_count += 1
+            except (ValueError, TypeError):
+                invalid_count += 1
         else:
-            logger.debug(
-                f"Skipping malformed or None game score: {game} of type {type(game)}"
-            )
-            invalid_game_count += 1
+            invalid_count += 1
 
-    if invalid_game_count > 0:
+    if invalid_count > 0:
         logger.warning(
-            f"Prepared {valid_game_count} valid games and skipped"
-            f" {invalid_game_count} invalid/malformed game scores for Choix."
+            f"Prepared {valid_count} valid games and skipped {invalid_count} invalid games for Choix."
         )
 
-    if not therapeutic_candidate_games_data:
-        logger.error(
-            "No valid game data to pass to choix.ilsr_pairwise. Aborting candidate"
-            " ranking scores computation."
-        )
-        candidate_ranked_results_sorted_empty = pd.DataFrame(
-            columns=["hypothesis", "answer", "strength_score", "index"]
-        )
-        candidate_ranked_results_sorted_empty.to_csv(
-            f"{candidate_ranking_output_folder}/ranked_therapeutic_candidates_empty.csv",
-            index=False,
-        )
-        logger.info(
-            "Saved an empty ranked_therapeutic_candidates_empty.csv due to no valid"
-            " game data."
-        )
+    if not games_data:
+        logger.error("No valid game data for Choix. Aborting ranking.")
         return
 
     n_items = len(candidate_information_df)
     logger.info(
-        f"Calling choix.ilsr_pairwise with n_items={n_items} and"
-        f" {len(therapeutic_candidate_games_data)} games."
+        f"Calling choix.ilsr_pairwise with n_items={n_items} and {len(games_data)} games."
     )
 
     try:
-        therapeutic_candidate_params = choix.ilsr_pairwise(
-            n_items, therapeutic_candidate_games_data, alpha=0.1
-        )
+        params = choix.ilsr_pairwise(n_items, games_data, alpha=0.1)
     except Exception:
         logger.exception("Error during choix.ilsr_pairwise")
-        logger.exception(f"  n_items: {n_items}")
-        logger.exception(f"  Number of games: {len(therapeutic_candidate_games_data)}")
-        if therapeutic_candidate_games_data:
-            logger.exception(
-                f"  Example game data: {therapeutic_candidate_games_data[:5]}"
-            )
-            all_ids_in_games = set()
-            for (
-                w,
-                l_,
-            ) in therapeutic_candidate_games_data:
-                all_ids_in_games.add(w)
-                all_ids_in_games.add(l_)
-            if all_ids_in_games:
-                logger.exception(
-                    f"  Min ID in games: {min(all_ids_in_games)}, Max ID in games:"
-                    f" {max(all_ids_in_games)}"
-                )
-        candidate_ranked_results_sorted_error = candidate_information_df[
-            ["hypothesis", "answer", "index"]
-        ].copy()
-        candidate_ranked_results_sorted_error["strength_score"] = float("nan")
-        candidate_ranked_results_sorted_error.to_csv(
-            f"{candidate_ranking_output_folder}/ranked_therapeutic_candidates_choix_error.csv",
-            index=False,
-        )
-        logger.info(
-            "Saved ranked_therapeutic_candidates_choix_error.csv due to error in Choix."
-        )
+        # Handle error case by saving partial data if needed
         return
 
-    candidate_ranked_results = pd.DataFrame()
+    ranked_results = pd.DataFrame()
     if not candidate_information_df.empty:
-        candidate_ranked_results["hypothesis"] = candidate_information_df["hypothesis"]
-        candidate_ranked_results["answer"] = candidate_information_df["answer"]
-        candidate_ranked_results["index"] = candidate_information_df["index"]
-        if len(therapeutic_candidate_params) == len(candidate_information_df):
-            candidate_ranked_results["strength_score"] = therapeutic_candidate_params
+        ranked_results = candidate_information_df[
+            ["hypothesis", "answer", "index"]
+        ].copy()
+        if len(params) == len(candidate_information_df):
+            ranked_results["strength_score"] = params
         else:
-            logger.error(
-                "Mismatch in length between Choix params and candidate_information_df."
-                " Cannot assign strength scores."
-            )
-            candidate_ranked_results["strength_score"] = float("nan")
-
-        candidate_ranked_results_sorted = candidate_ranked_results.sort_values(
+            logger.error("Mismatch in length between Choix params and DataFrame.")
+            ranked_results["strength_score"] = float("nan")
+        ranked_results = ranked_results.sort_values(
             by="strength_score", ascending=False
         )
     else:
         logger.warning(
-            "candidate_information_df was empty, creating an empty ranked results"
-            " table."
+            "Candidate info DataFrame was empty, creating empty ranked results."
         )
-        candidate_ranked_results_sorted = pd.DataFrame(
+        ranked_results = pd.DataFrame(
             columns=["hypothesis", "answer", "strength_score", "index"]
         )
 
-    if experimental_insights:
-        candidate_ranked_results_sorted.to_csv(
-            f"{candidate_ranking_output_folder}/ranked_therapeutic_candidates_experimental.csv",
-            index=False,
-        )
-        logger.info(
-            "Finished! Saved final rankings to"
-            f" {candidate_ranking_output_folder}/ranked_therapeutic_candidates_experimental.csv"
-        )
-    else:
-        candidate_ranked_results_sorted.to_csv(
-            f"{candidate_ranking_output_folder}/ranked_therapeutic_candidates.csv",
-            index=False,
-        )
-        logger.info(
-            "Finished! Saved final rankings to"
-            f" {candidate_ranking_output_folder}/ranked_therapeutic_candidates.csv"
-        )
+    final_filepath = output_folder_path / final_csv
+    ranked_results.to_csv(final_filepath, index=False)
+    logger.info(f"Finished! Saved final rankings to {final_filepath}")
+
+
+async def therapeutic_candidates(
+    candidate_generation_goal: str,
+    configuration: RobinConfiguration,
+    experimental_insights: dict[str, str] | None = None,
+) -> None:
+    """
+    Overall function for generating and ranking therapeutic candidates.
+
+    Args:
+        candidate_generation_goal: The specific research goal to guide candidate generation.
+        configuration: The RobinConfiguration object for the run.
+        experimental_insights: Optional insights from experimental data analysis to refine the process.
+    """
+    logger.info(
+        f"Starting generation of {configuration.num_candidates} therapeutic candidates."
+    )
+    logger.info("———————————————————————————————————————————————————————————————")
+
+    # Step 1: Generate queries for literature search
+    candidate_queries_dict = await generate_candidate_queries(
+        configuration, candidate_generation_goal, experimental_insights
+    )
+
+    # Step 2: Conduct literature review
+    lit_review_output = await candidate_lit_review(
+        configuration, candidate_queries_dict, experimental_insights
+    )
+
+    # Step 3: Propose therapeutic candidates
+    candidate_idea_list = await propose_therapeutic_candidates(
+        configuration,
+        candidate_generation_goal,
+        lit_review_output,
+        experimental_insights,
+    )
+
+    # Step 4: Generate detailed reports for all candidates
+    await candidate_detailed_reports(
+        configuration, candidate_idea_list, experimental_insights
+    )
+
+    # Step 5: Rank the therapeutic candidates
+    await rank_therapeutic_candidates(configuration, experimental_insights)
