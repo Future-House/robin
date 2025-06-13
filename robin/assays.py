@@ -18,6 +18,7 @@ from .utils import (
     save_crow_files,
     uniformly_random_pairs,
 )
+from .get_mesh_terms import get_mesh_terms
 
 logger = logging.getLogger(__name__)
 
@@ -46,10 +47,13 @@ async def generate_assay_queries(
         )
     )
 
+
+    mesh_terms = get_mesh_terms(configuration.disease_name)
     assay_literature_user_message = (
         configuration.prompts.assay_literature_user_message.format(
             num_queries=configuration.num_queries,
             disease_name=configuration.disease_name,
+            mesh_terms=", ".join(mesh_terms),
         )
     )
 

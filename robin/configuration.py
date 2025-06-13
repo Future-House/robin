@@ -172,7 +172,7 @@ class Prompts(BaseModel):
                 "questions_raised",
             },
             "assay_literature_system_message": {"num_assays"},
-            "assay_literature_user_message": {"num_queries", "disease_name"},
+            "assay_literature_user_message": {"num_queries", "disease_name", "mesh_terms"},
             "assay_proposal_system_message": {"num_assays"},
             "assay_proposal_user_message": {
                 "num_assays",

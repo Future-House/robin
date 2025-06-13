@@ -385,6 +385,7 @@ ASSAY_LITERATURE_USER_MESSAGE = (
     "You have {num_queries} queries, so spread your queries out to cover as much "
     "ground as possible. Create queries both about the general biochemistry and "
     "mechanistic underpinnings of {disease_name} as well as about the assays.\n"
+    "Use the following associated MeSH terms to help guide creative queries: {mesh_terms}.\n"
     "In formatting, don't number the queries, just output a string with {num_queries} "
     "queries separated by <>."
 )
