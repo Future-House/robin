@@ -1,6 +1,10 @@
 import re
 import requests
+import random
 from bs4 import BeautifulSoup
+
+random.seed(1405)
+
 
 def extract_mesh_subheadings(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -25,7 +29,10 @@ def extract_mesh_subheadings(html_content):
     
     return sorted(subheadings)
 
-def get_mesh_terms(term:str) -> list[str]:
+def get_mesh_terms(term:str, shuffle_terms:bool=False) -> list[str]:
     url = f"https://www.ncbi.nlm.nih.gov/mesh/?term={term.replace(' ', '+')}"
     response = requests.get(url)
-    return extract_mesh_subheadings(response.text)
+    result = extract_mesh_subheadings(response.text)
+    if shuffle_terms:
+        random.shuffle(result)
+    return result

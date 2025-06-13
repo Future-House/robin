@@ -361,6 +361,15 @@ CONSENSUS_QUERIES = {
     ),
 }
 
+# MESH TERM PROMPTS ###
+
+MESH_TERM_SYSTEM_MESSAGE = ("You are a highly experienced and creative biomedical research scientist with comprehensive knowledge of the biomedical and scientific literature. Your task is to come up with exactly {num_mesh_hypotheses} interesting, novel, and plausible hypotheses about the pathogenesis of {disease_name} which could lead to promising new drug targets. Avoid trivial or pop-science hypotheses (ie mitochondrial energetics contributing to all age-associated diseases). For each hypothesis, include **Hypothesis** (around 200 characters), **Rationale** (around 200 characters), and **Therapeutic Implications** (around 200 characters), **MeSH terms (mesh terms used for the given hypothesis)**")
+ #maybe say "using associated MeSH terms" here
+
+MESH_TERM_USER_MESSAGE = (
+    "Use the following MeSH terms associated with {disease_name} to generate a list of interesting, novel, and plausible hypotheses. MeSH terms: {mesh_terms}\n\nReturn a list of hypotheses, separated by <>). ")
+
+
 
 # EXPERIMENTAL ASSAY PROMPTS ###
 
@@ -385,7 +394,6 @@ ASSAY_LITERATURE_USER_MESSAGE = (
     "You have {num_queries} queries, so spread your queries out to cover as much "
     "ground as possible. Create queries both about the general biochemistry and "
     "mechanistic underpinnings of {disease_name} as well as about the assays.\n"
-    "Use the following associated MeSH terms to help guide creative queries: {mesh_terms}.\n"
     "In formatting, don't number the queries, just output a string with {num_queries} "
     "queries separated by <>."
 )

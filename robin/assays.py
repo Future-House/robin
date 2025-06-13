@@ -23,6 +23,55 @@ from .get_mesh_terms import get_mesh_terms
 logger = logging.getLogger(__name__)
 
 
+async def generate_hypotheses_from_mesh(configuration: RobinConfiguration)-> list[str] | None:
+    """
+    Generate hypotheses based on MeSH terms for the specified disease.
+
+    Args:
+        configuration: The RobinConfiguration object for the run.
+
+    Returns:
+        list of hypotheses generated from MeSH terms, or None if no terms are found.
+    """
+    mesh_terms = get_mesh_terms(configuration.disease_name, shuffle_terms=True)
+    if not mesh_terms:
+        logger.error("No MeSH terms found for the specified disease.")
+        #TODO: maybe have an LLM rejig the disease name -OR- skip this step
+        return None
+    logger.info("\n\nStep 0: Generating hypotheses from MeSH terms...")
+
+    mesh_term_system_message = (
+        configuration.prompts.mesh_term_system_message.format(
+            disease_name=configuration.disease_name,
+            num_mesh_hypotheses=configuration.num_mesh_hypotheses,
+        )
+    )
+
+    mesh_term_user_message = (
+        configuration.prompts.mesh_term_user_message.format(
+            disease_name=configuration.disease_name,
+            mesh_terms=", ".join(mesh_terms),
+        )
+    )
+
+    mesh_term_hypotheses_query_messages = [
+        Message(role="system", content=mesh_term_system_message),
+        Message(role="user", content=mesh_term_user_message),
+    ]
+
+    mesh_term_hypotheses_query_result = await configuration.llm_client.call_single(
+        mesh_term_hypotheses_query_messages
+    )
+
+    mesh_term_hypotheses_query_result_text = cast(str, mesh_term_hypotheses_query_result.text)
+    mesh_term_hypotheses = mesh_term_hypotheses_query_result_text.split("<>")
+
+    logger.info("Hypotheses Generated from MeSH Terms:")
+    for ia, hyp_gen in enumerate(mesh_term_hypotheses):
+        logger.info(f"{ia + 1}. {hyp_gen}")
+    return mesh_term_hypotheses
+
+
 async def generate_assay_queries(
     configuration: RobinConfiguration,
 ) -> dict[str, str]:
@@ -47,13 +96,10 @@ async def generate_assay_queries(
         )
     )
 
-
-    mesh_terms = get_mesh_terms(configuration.disease_name)
     assay_literature_user_message = (
         configuration.prompts.assay_literature_user_message.format(
             num_queries=configuration.num_queries,
             disease_name=configuration.disease_name,
-            mesh_terms=", ".join(mesh_terms),
         )
     )
 

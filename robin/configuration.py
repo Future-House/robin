@@ -11,6 +11,8 @@ from .prompts import (
     ANALYSIS_QUERIES,
     ASSAY_HYPOTHESIS_FORMAT,
     ASSAY_HYPOTHESIS_SYSTEM_PROMPT,
+    MESH_TERM_SYSTEM_MESSAGE,
+    MESH_TERM_USER_MESSAGE,
     ASSAY_LITERATURE_SYSTEM_MESSAGE,
     ASSAY_LITERATURE_USER_MESSAGE,
     ASSAY_PROPOSAL_SYSTEM_MESSAGE,
@@ -105,6 +107,8 @@ def _get_prompt_args(template_string: str) -> set[str]:
 class Prompts(BaseModel):
     analysis_queries: dict[str, str] = Field(default_factory=lambda: ANALYSIS_QUERIES)
     consensus_queries: dict[str, str] = Field(default_factory=lambda: CONSENSUS_QUERIES)
+    mesh_term_system_message: str = Field(default=MESH_TERM_SYSTEM_MESSAGE)
+    mesh_term_user_message: str = Field(default=MESH_TERM_USER_MESSAGE)
     assay_literature_system_message: str = Field(
         default=ASSAY_LITERATURE_SYSTEM_MESSAGE
     )
@@ -172,7 +176,9 @@ class Prompts(BaseModel):
                 "questions_raised",
             },
             "assay_literature_system_message": {"num_assays"},
-            "assay_literature_user_message": {"num_queries", "disease_name", "mesh_terms"},
+            "mesh_term_system_message": {"num_mesh_hypotheses", "disease_name"},
+            "mesh_term_user_message": {"disease_name", "mesh_terms"},
+            "assay_literature_user_message": {"num_queries", "disease_name"},
             "assay_proposal_system_message": {"num_assays"},
             "assay_proposal_user_message": {
                 "num_assays",
@@ -294,6 +300,10 @@ class RobinConfiguration(BaseModel):
             "Number of queries to generate for each step, more means more data but also"
             " more cost."
         ),
+    )
+    num_mesh_hypotheses: int = Field(
+        default=1,
+        description="Number of hypotheses to generate about pathogenesis of the disease with respect to MeSH terms.",
     )
     num_assays: int = Field(default=3, description="Number of assay to generate.")
     num_candidates: int = Field(
