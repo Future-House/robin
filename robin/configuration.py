@@ -48,8 +48,13 @@ _DEFAULT_LLM_CONFIG_DATA = {
             "litellm_params": {
                 "model": "o4-mini",
                 "api_key": os.getenv("OPENAI_API_KEY", "insert_openai_key_here"),
-                "timeout": 300,
-                "reasoning_effort": "high",
+            },
+        },
+        {
+            "model_name": "o3-mini",
+            "litellm_params": {
+                "model": "o3-mini",
+                "api_key": os.getenv("OPENAI_API_KEY", "insert_openai_key_here"),
             },
         },
         {
@@ -260,22 +265,22 @@ class Prompts(BaseModel):
 
 class AgentConfig(BaseModel):
     assay_lit_search_agent: JobNames = Field(
-        default=JobNames.CHIMP,
+        default=JobNames.CROW,
         description="Agent to use for literature search during assay idea generation.",
     )
     assay_hypothesis_report_agent: JobNames = Field(
-        default=JobNames.CHIMP,
+        default=JobNames.CROW,
         description="Agent to use for generating detailed reports on assay hypotheses.",
     )
     candidate_lit_search_agent: JobNames = Field(
-        default=JobNames.CHIMP,
+        default=JobNames.CROW,
         description=(
             "Agent to use for literature search during therapeutic candidate idea"
             " generation."
         ),
     )
     candidate_hypothesis_report_agent: JobNames = Field(
-        default=JobNames.CHIMP,
+        default=JobNames.FALCON,
         description=(
             "Agent to use for generating detailed reports on therapeutic candidates."
         ),
@@ -311,8 +316,8 @@ class RobinConfiguration(BaseModel):
         ),
     )
     futurehouse_api_key: str = "insert_futurehouse_api_key_here"
-    llm_name: str = Field(default="claude-4-opus")
-    llm_formatter_name: str = Field(default="o4-mini")
+    llm_name: str = Field(default="o4-mini")
+    llm_formatter_name: str = Field(default="claude-opus-4")
     llm_config: dict = Field(default_factory=get_default_llm_config)
     agent_settings: AgentConfig = Field(default_factory=AgentConfig)
     _fh_client: FutureHouseClient | None = PrivateAttr(default=None)

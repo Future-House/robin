@@ -17,6 +17,7 @@ from futurehouse_client import FutureHouseClient, JobNames, TaskResponse
 from lmi import LiteLLMModel
 from tqdm.asyncio import tqdm_asyncio
 
+from .configuration import RobinConfiguration
 from .prompts import (
     FINAL_REPORT_FORMATTING_SYSTEM_MESSAGE,
     FINAL_REPORT_FORMATTING_USER_MESSAGE,
@@ -621,7 +622,7 @@ async def process_comparison_pair(
             Message(role="user", content=user_prompt),
         ]
 
-        response = await client.call_single(messages)
+        response = await client.call_single(messages, temperature=1)
 
         response_content = cast(str, response.text)
 
@@ -819,12 +820,10 @@ async def run_comparisons(  # noqa: PLR0912
 
 
 async def format_single_report(
-    report: dict[str, Any], formatter_client: LiteLLMModel
-) -> dict[str, str]:
+    report: dict[str, Any], configuration: RobinConfiguration
+) -> dict[str, Any]:
 
-    hypothesis_text = report.get("hypothesis", "").strip()
     answer_text = report.get("answer", "").strip()
-
     sources_data = report.get("sources", [])
 
     sources_for_prompt_string = ""
@@ -847,25 +846,40 @@ async def format_single_report(
         Message(role="user", content=final_report_formatting_user_message),
     ]
 
-    final_report_formatted_result = await formatter_client.call_single(
-        formatting_messages,
-        timeout=600,
-        temperature=1,
-        max_tokens=32000,
-        reasoning_effort="high",
-    )
+    final_report_formatted_result = None
 
-    return {
-        "hypothesis": hypothesis_text,
-        "formatted_output": cast(str, final_report_formatted_result.text),
-    }
+    if "claude" in configuration.llm_formatter_name:
+        final_report_formatted_result = await configuration.llm_formatter.call_single(
+            formatting_messages,
+            timeout=600,
+            temperature=1,
+            max_tokens=32000,
+            reasoning_effort="high",
+        )
+    else:
+        final_report_formatted_result = await configuration.llm_formatter.call_single(
+            formatting_messages,
+            temperature=1,
+        )
+
+    updated_report = report.copy()
+
+    if final_report_formatted_result.text:
+        # If the LLM call was successful, use its text.
+        updated_report["formatted_output"] = final_report_formatted_result.text
+    else:
+        updated_report["formatted_output"] = (
+            answer_text + "\n\n" + sources_for_prompt_string
+        )
+
+    return updated_report
 
 
 async def format_final_report(
-    data_list: list[dict[str, Any]], formatter_client: LiteLLMModel
+    data_list: list[dict[str, Any]], configuration: RobinConfiguration
 ) -> list[dict[str, str]]:
 
-    tasks = [format_single_report(item, formatter_client) for item in data_list]
+    tasks = [format_single_report(item, configuration) for item in data_list]
 
     processed_results = await asyncio.gather(*tasks)
     return list(processed_results)

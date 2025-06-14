@@ -82,7 +82,7 @@ async def generate_candidate_queries(
     ]
 
     candidate_query_generation_result = await configuration.llm_client.call_single(
-        candidate_query_generation_messages
+        candidate_query_generation_messages, temperature=1
     )
 
     candidate_query_generation_result_text = cast(
@@ -199,9 +199,19 @@ async def propose_therapeutic_candidates(  # noqa: PLR0912
         Message(role="user", content=candidate_generation_user_message),
     ]
 
-    candidate_generation_result = await configuration.llm_client.call_single(
-        messages, timeout=600, temperature=1, max_tokens=32000, reasoning_effort="high"
-    )
+    if "claude" in configuration.llm_name:
+        candidate_generation_result = await configuration.llm_client.call_single(
+            messages,
+            timeout=600,
+            temperature=1,
+            max_tokens=32000,
+            reasoning_effort="high",
+        )
+    else:
+        candidate_generation_result = await configuration.llm_client.call_single(
+            messages,
+            temperature=1,
+        )
 
     llm_raw_output = cast(str, candidate_generation_result.text)
     candidate_ideas_json = []
@@ -339,9 +349,7 @@ async def candidate_detailed_reports(
         job_name=configuration.agent_settings.candidate_hypothesis_report_agent,
     )
 
-    final_therapeutic_candidate_hypotheses = await format_final_report(
-        therapeutic_candidate_hypotheses["results"], configuration.llm_formatter
-    )
+    print(therapeutic_candidate_hypotheses)
 
     if experimental_insights:
         save_dir = f"robin_output/{run_folder_name}/therapeutic_candidate_detailed_hypotheses_experimental"
@@ -349,6 +357,10 @@ async def candidate_detailed_reports(
         save_dir = (
             f"robin_output/{run_folder_name}/therapeutic_candidate_detailed_hypotheses"
         )
+
+    final_therapeutic_candidate_hypotheses = await format_final_report(
+        therapeutic_candidate_hypotheses["results"], configuration
+    )
 
     save_falcon_files(
         final_therapeutic_candidate_hypotheses,

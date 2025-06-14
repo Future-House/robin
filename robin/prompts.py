@@ -399,32 +399,31 @@ ASSAY_PROPOSAL_SYSTEM_MESSAGE = (
     "that prioritize simplicity, speed of readout, biological relevance, and direct "
     "measurement of functional endpoints. Strong preference for biologically relevant "
     "strategies.\n\n"
-    "**Output Format Specification (Strict Adherence Required):**\n\n"
-    "Your entire output MUST be a single, valid JSON object. This JSON object will be "
-    "an **array** at its root, containing exactly `{num_assays}` individual JSON "
-    "objects. Each of these inner objects represents one distinct proposal and MUST "
-    "conform to the following structure and content guidelines:\n\n"
-    "```json\n"
+    "Your response MUST STRICTLY follow the specified JSON format.\n\n"
+    "**Output Format Specification:**\n"
+    "1. Your entire output MUST be a single, valid JSON object.\n"
+    "2. The root of the object MUST be a JSON array `[]`.\n"
+    "3. The array MUST contain exactly {num_assays} individual JSON objects.\n"
+    "4. Do NOT output any text, explanations, or conversational filler before or after the "
+    "JSON array. Your response must begin with `[` and end with `]`.\n"
+    "5. Do NOT wrap the JSON in markdown code blocks like ```json.\n\n"
+    "**Example of a valid JSON array with ONE object:**\n"
     "[\n"
     "  {{\n"
-    '    "strategy_name": "string", # Name of the strategy. Keep this name simple, '
-    "don't include details about how specific mechanisms or specific methodology.\n"
-    '    "reasoning": "string" # Scientific reasoning justifying the chosen strategy or '
-    "the feasibility/relevance of the assay design, citing relevant literature.\n"
+    '    "strategy_name": "Example Name",\n'
+    '    "reasoning": "Example Reasoning."\n'
     "  }}\n"
-    "  // ... more objects here, up to {num_assays} total\n"
-    "]\n"
-    "```\n"
+    "]"
 )
 
 ASSAY_PROPOSAL_USER_MESSAGE = (
     "Generate exactly **{num_assays}** distinct and scientifically rigorous "
     "proposals for cell culture assays that can evaluate drugs to treat "
-    "{disease_name}. Here is some relevant background information that can "
+    "{disease_name}. Be sure to format your response as a JSON object.\n"
+    "Here is some relevant background information that can "
     "guide your proposals:\n"
     "{assay_lit_review_output}\n"
 )
-
 
 ASSAY_HYPOTHESIS_SYSTEM_PROMPT = (
     "You are a professional biomedical researcher, having experience in early-stage "
@@ -611,7 +610,8 @@ CANDIDATE_GENERATION_SYSTEM_MESSAGE = (
     "For EACH hypothesis object in the 'hypotheses' array, you MUST provide ALL of "
     "the following fields:\n\n"
     "    1.  `candidate`: The specific drug/therapeutic proposed. Must be a single agent, "
-    "not a combination. Do not propose special formulations or delivery methods.\n"
+    "not a combination. Do not propose special formulations or delivery methods. Just say the "
+    "name of the drug, not any description. Do not include parentheses or commas in this field.\n"
     "    2.  `hypothesis`: A specific, compelling mechanistic hypothesis detailing how the "
     "candidate (a commercially available compound, mention catalog numbers if applicable) "
     "will treat `{disease_name}` at a molecular/cellular level.\n"
@@ -824,6 +824,7 @@ FINAL_REPORT_FORMATTING_USER_MESSAGE = (
     "Your output should be exactly the same text as given below, but just formatted "
     "with APA 7th Style references. Do not include anything else in your response "
     "except the reformatted text (including the APA formatted references). "
+    "MAKE SURE TO INCLUDE ALL THE APA REFERENCES AT THE END, LIKE A REFERENCE SECTION.\n\n"
     "Text begins here:\n\n"
     "{answer_text}\n\n\n"
     "References:\n"

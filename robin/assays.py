@@ -59,7 +59,7 @@ async def generate_assay_queries(
     ]
 
     assay_literature_query_result = await configuration.llm_client.call_single(
-        assay_literature_query_messages
+        assay_literature_query_messages, temperature=1
     )
 
     assay_literature_query_result_text = cast(str, assay_literature_query_result.text)
@@ -144,7 +144,7 @@ async def propose_experimental_assay(
     ]
 
     experimental_assay_ideas = await configuration.llm_client.call_single(
-        assay_proposal_messages
+        assay_proposal_messages, temperature=1
     )
 
     assay_idea_json = json.loads(cast(str, experimental_assay_ideas.text))
@@ -330,7 +330,7 @@ async def synthesize_candidate_goal(
         Message(role="user", content=synthesize_user_content),
     ]
 
-    response = await client.call_single(messages)
+    response = await client.call_single(messages, temperature=1)
     return cast(str, response.text)
 
 
