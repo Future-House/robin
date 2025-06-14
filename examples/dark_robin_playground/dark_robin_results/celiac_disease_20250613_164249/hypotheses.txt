@@ -1,0 +1,15 @@
+Hypothesis: : Viral infections trigger epigenetic modifications in intestinal epithelial cells, altering tight junction protein expression and creating a permeable barrier that facilitates gluten peptide translocation and immune activation in genetically susceptible individuals.
+Rationale: : Recent evidence suggests viral infections can induce lasting epigenetic changes. Rotavirus and other enteric viruses are associated with celiac disease onset, potentially through chromatin remodeling affecting barrier function genes.
+____________________________
+Hypothesis: : Parasitic helminths modulate regulatory T-cell populations through metabolic reprogramming, and their absence in developed countries contributes to loss of immune tolerance to dietary antigens including gluten proteins.
+Rationale: : The hygiene hypothesis suggests reduced parasitic exposure correlates with autoimmune disease prevalence. Helminths induce Treg expansion through metabolic shifts favoring oxidative phosphorylation over glycolysis.
+____________________________
+Hypothesis: : Dysregulated tryptophan metabolism via the kynurenine pathway creates an immunosuppressive microenvironment that paradoxically promotes Th17 cell differentiation and IL-17-mediated tissue damage in celiac disease patients.
+Rationale: : Tryptophan catabolism through IDO1/TDO2 produces kynurenine metabolites. While generally immunosuppressive, certain kynurenines can promote Th17 responses under inflammatory conditions, explaining celiac pathology.
+____________________________
+Hypothesis: : Congenital variations in intestinal stem cell niche architecture predispose to aberrant crypt development, creating microenvironments where gluten-reactive T cells preferentially expand and maintain pathogenic memory responses.
+Rationale: : Intestinal stem cell niches show individual variation in structure and cellular composition. Altered niche architecture could create specialized microenvironments that favor pathogenic T cell persistence and reactivation.
+____________________________
+Hypothesis: : Microbial production of tissue transglutaminase-modifying enzymes alters autoantigen structure and immunogenicity, with specific bacterial strains either promoting or protecting against celiac disease through post-translational modifications.
+Rationale: : Gut microbiota produce diverse enzymes that can modify host proteins. Bacterial enzymes could alter tissue transglutaminase structure, affecting its recognition by autoantibodies and T cells in celiac disease.
+____________________________

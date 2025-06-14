@@ -13,6 +13,8 @@ from .prompts import (
     ASSAY_HYPOTHESIS_SYSTEM_PROMPT,
     MESH_TERM_SYSTEM_MESSAGE,
     MESH_TERM_USER_MESSAGE,
+    MESH_HYPOTHESIS_RANKING_SYSTEM_MESSAGE,
+    MESH_HYPOTHESIS_RANKING_USER_MESSAGE,
     ASSAY_LITERATURE_SYSTEM_MESSAGE,
     ASSAY_LITERATURE_USER_MESSAGE,
     ASSAY_PROPOSAL_SYSTEM_MESSAGE,
@@ -109,6 +111,12 @@ class Prompts(BaseModel):
     consensus_queries: dict[str, str] = Field(default_factory=lambda: CONSENSUS_QUERIES)
     mesh_term_system_message: str = Field(default=MESH_TERM_SYSTEM_MESSAGE)
     mesh_term_user_message: str = Field(default=MESH_TERM_USER_MESSAGE)
+    mesh_hypothesis_ranking_system_message: str = Field(
+        default=MESH_HYPOTHESIS_RANKING_SYSTEM_MESSAGE
+    )
+    mesh_hypothesis_ranking_user_message: str = Field(
+        default=MESH_HYPOTHESIS_RANKING_USER_MESSAGE
+    )
     assay_literature_system_message: str = Field(
         default=ASSAY_LITERATURE_SYSTEM_MESSAGE
     )
@@ -178,6 +186,8 @@ class Prompts(BaseModel):
             "assay_literature_system_message": {"num_assays"},
             "mesh_term_system_message": {"num_mesh_hypotheses", "disease_name"},
             "mesh_term_user_message": {"disease_name", "mesh_terms"},
+            "mesh_hypothesis_ranking_system_message": {"disease_name"},
+            "mesh_hypothesis_ranking_user_message": {"disease_name", "hypotheses_and_conclusions"},
             "assay_literature_user_message": {"num_queries", "disease_name"},
             "assay_proposal_system_message": {"num_assays"},
             "assay_proposal_user_message": {
@@ -265,6 +275,10 @@ class Prompts(BaseModel):
 
 
 class AgentConfig(BaseModel):
+    mesh_hyp_lit_search_agent: JobNames = Field(
+        default=JobNames.CHIMP,
+        description="Agent to use for literature search for MeSH term hypotheses.",
+    )
     assay_lit_search_agent: JobNames = Field(
         default=JobNames.CHIMP,
         description="Agent to use for literature search during assay idea generation.",

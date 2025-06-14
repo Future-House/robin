@@ -1,0 +1,3 @@
+**Most Compelling Hypothesis**: Parasitic helminths modulate regulatory T-cell populations through metabolic reprogramming, and their absence in developed countries contributes to loss of immune tolerance to dietary antigens including gluten proteins.
+
+***Reasoning***: This hypothesis has the strongest mechanistic foundation with well-established evidence for helminth-induced Treg expansion, metabolic reprogramming favoring oxidative phosphorylation, and epidemiological support from the hygiene hypothesis. Unlike other hypotheses that lack direct evidence or show contradictory findings, this one builds on robust immunological principles with clear therapeutic implications.

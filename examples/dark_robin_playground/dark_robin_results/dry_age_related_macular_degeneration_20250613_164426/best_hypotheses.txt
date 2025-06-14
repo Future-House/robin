@@ -1,0 +1,3 @@
+**Most Compelling Hypothesis**: Embryological developmental programs aberrantly reactivate in aging RPE cells, leading to dedifferentiation and loss of specialized functions characteristic of dry AMD.
+
+***Reasoning***: This hypothesis has the strongest direct experimental support, with clear evidence of TGF-β and Wnt pathway reactivation driving EMT-like changes in RPE cells, leading to loss of specialized functions and AMD-like features in animal models.

@@ -1,0 +1,15 @@
+Hypothesis: : Chronic viral infections (CMV, EBV) in retinal pigment epithelium cells trigger persistent inflammatory cascades leading to complement dysregulation and drusen formation in dry AMD.
+Rationale: : Viral persistence can cause chronic inflammation and complement activation. RPE cells are susceptible to viral infection and show complement dysregulation in AMD pathogenesis.
+____________________________
+Hypothesis: : Dysbiotic ocular surface microbiome produces metabolites that cross blood-retinal barrier, altering RPE metabolism and promoting lipofuscin accumulation in dry AMD.
+Rationale: : Emerging evidence links microbiome dysbiosis to systemic diseases. Ocular microbiome metabolites could influence retinal metabolism through systemic circulation or local diffusion.
+____________________________
+Hypothesis: : Genetic variants affecting urine metabolite clearance lead to systemic accumulation of toxic compounds that preferentially damage retinal vasculature in dry AMD.
+Rationale: : Kidney-retina axis exists in other diseases. Genetic variants in renal clearance pathways could cause accumulation of metabolites toxic to retinal endothelium.
+____________________________
+Hypothesis: : Embryological developmental programs aberrantly reactivate in aging RPE cells, leading to dedifferentiation and loss of specialized functions characteristic of dry AMD.
+Rationale: : Aging tissues sometimes reactivate developmental pathways inappropriately. RPE dedifferentiation and loss of specialized functions are hallmarks of AMD pathogenesis.
+____________________________
+Hypothesis: : Parasitic infections trigger cross-reactive autoimmune responses against retinal antigens through molecular mimicry, initiating complement-mediated damage in genetically susceptible individuals.
+Rationale: : Molecular mimicry between pathogen and self-antigens can trigger autoimmunity. Complement dysregulation and genetic susceptibility are key features of AMD pathogenesis.
+____________________________

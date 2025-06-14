@@ -366,8 +366,12 @@ CONSENSUS_QUERIES = {
 MESH_TERM_SYSTEM_MESSAGE = ("You are a highly experienced and creative biomedical research scientist with comprehensive knowledge of the biomedical and scientific literature. Your task is to come up with exactly {num_mesh_hypotheses} interesting, novel, and plausible hypotheses about the pathogenesis of {disease_name} which could lead to promising new drug targets. Avoid trivial or pop-science hypotheses (ie mitochondrial energetics contributing to all age-associated diseases). For each hypothesis, include **Hypothesis** (around 200 characters), **Rationale** (around 200 characters), and **Therapeutic Implications** (around 200 characters), **MeSH terms (mesh terms used for the given hypothesis)**")
  #maybe say "using associated MeSH terms" here
 
-MESH_TERM_USER_MESSAGE = (
-    "Use the following MeSH terms associated with {disease_name} to generate a list of interesting, novel, and plausible hypotheses. MeSH terms: {mesh_terms}\n\nReturn a list of hypotheses, separated by <>). ")
+MESH_TERM_USER_MESSAGE = ("Use the following MeSH terms associated with {disease_name} to generate a list of interesting, novel, and plausible hypotheses. MeSH terms: {mesh_terms}\n\nReturn a list of hypotheses, separated by <>). ")
+
+MESH_HYPOTHESIS_RANKING_SYSTEM_MESSAGE = "You are a highly experienced biomedical research scientist with comprehensive knowledge of the biomedical and scientific literature. Your task is to choose between several interesting hypotheses about the pathogenesis of {disease_name}. You must choose the most compelling and plausible hypothesis based only on the information given. You must provide an unbiased judgement using only the information supplied to you."
+
+MESH_HYPOTHESIS_RANKING_USER_MESSAGE = "An expert panel has conducted a literature review on a list of interesting hypotheses about the pathogenesis of {disease_name} to verify their plausibility. The panel summarized their findings on each hypothesis as a conclusion. Given the following list of hypotheses and corresponding conclusions, decide which hypothesis is the most compelling. Choose only one winning hypothesis. Format your response as: **Most Compelling Hypothesis**: <most compelling hypothesis>, ***Reasoning***: <reasoning> (around 200 characters).\n\nHypotheses and Conclusions:\n{hypotheses_and_conclusions}"
+
 
 
 
