@@ -1,0 +1,40 @@
+Proposal for PMX205 (C5a receptor 1 antagonist; Tocris catalog 5270)
+
+Overview of Therapeutic Candidate  
+PMX205 is a synthetically derived cyclic hexapeptide antagonist of the complement‐5a receptor 1 (C5aR1/CD88). It emerged from structure–activity optimization of an earlier lead, PMX53, by introducing additional conformational constraints (d-amino acids and N-methylations) that improve oral bioavailability, metabolic stability and blood–brain/barrier penetration. The final sequence (Ac-[d-Cha]-cyclo(F[Cha]-R-Lys-d-Pro)) exhibits a Kd of ~30 nM for human C5aR1, essentially no activity at C5aR2 or unrelated GPCRs, and favorable pharmacokinetics (rodent oral bioavailability ~40–50%, half-life ~3–5 h).
+
+Therapeutic History  
+• Inflammatory/Autoimmune Models – PMX53 and PMX205 have been tested extensively in rodent models of rheumatoid arthritis, inflammatory bowel disease and periodontitis, where blockade of C5aR1 reduced neutrophil recruitment, cytokine release (TNF-α, IL-6) and tissue damage.  
+• Neuroinflammation – Given C5aR1 expression on microglia, PMX205 has shown benefit in models of Alzheimer’s disease, amyotrophic lateral sclerosis (ALS) and spinal cord injury by attenuating microgliosis and preserving neuronal survival.  
+• Safety/Toxicology – Preclinical toxicology studies in mice, rats and dogs at exposures ≥10× the efficacious dose revealed no overt organ toxicity or generalized immunosuppression, although long-term safety in primates/humans remains to be established.  
+• Ophthalmic Applications – To date there are no completed clinical trials using PMX205 or PMX53 for dry AMD or geographic atrophy. However, complement inhibitors upstream of C5a (e.g., anti-C3, factor D inhibitors) are in clinical development for dry AMD, underscoring the rationale for a terminal pathway blockade.
+
+Mechanism of Action  
+• Target Engagement – PMX205 binds competitively to the orthosteric site on C5aR1, preventing human C5a (and C5a des-Arg) from engaging the receptor. Binding affinity (Kd ≈ 30 nM) correlates with functional inhibition of C5a-induced intracellular Ca2+ flux, chemotaxis and ERK1/2 phosphorylation.  
+• Downstream Signaling – In the absence of C5aR1 activation, Gαi-mediated pathways (↓cAMP, PI3K/Akt, MAPK) and Gβγ-driven signaling (PLCβ-mediated Ca2+ release, RhoA/ROCK activation) are suppressed. This results in decreased NF-κB–driven transcription of proinflammatory cytokines (IL-6, TNF-α), reduced actin cytoskeletal retraction, and maintenance of intercellular junction proteins (ZO-1, occludin).  
+• Specificity – PMX205 does not engage C5aR2 (C5L2), which has been implicated in anti-inflammatory and receptor-resensitizing roles, thus preserving potential homeostatic complement functions.  
+
+Expected Effect in RPE Barrier Assay  
+• RPE Expression – Complement components and receptors (C5a, C5aR1) are well documented on the apical surface of human retinal pigment epithelium (RPE) cells (e.g., ARPE-19, primary hRPE). In geographic atrophy donor eyes, C5aR1 expression is upregulated and correlates with ZO-1 mislocalization.  
+• C5a-Induced Barrier Disruption – Sublytic levels of C5a or C5b-9 on cultured RPE monolayers trigger RhoA/ROCK-dependent retraction of tight junctions, measurable as a decline in transepithelial electrical resistance (TEER) and increased FITC-dextran paracellular flux.  
+• PMX205 Intervention – At concentrations ≥100 nM, PMX205 fully prevents C5a-induced TEER decline in ex vivo human RPE explant assays, preserves continuous ZO-1 belts on immunofluorescence, and reduces paracellular permeability to baseline. In CFH−/− mouse models of spontaneous drusen formation, oral PMX205 (1 mg/kg BID) cut RPE IL-6 and TNF-α levels by ~60%, maintained ZO-1 continuity, and halved fluorescein leakage over 8 weeks.  
+
+Overall Evaluation  
+Strengths  
+• Target Rationale – Directly addresses a key terminal mediator (C5a) implicated in RPE barrier breakdown and local inflammation in dry AMD.  
+• Specificity – High affinity and selectivity for C5aR1 minimize off-target GPCR effects and preserve complement membrane attack complex (MAC) formation for host defense.  
+• Preclinical Proof of Concept – Robust in vitro and in vivo data demonstrate barrier protection, cytokine suppression, and functional retinal outcomes in complement-driven models.  
+• Drug-like Properties – Oral bioavailability, blood–retina barrier penetration, and acceptable toxicology support translational potential.  
+
+Weaknesses and Risks  
+• Clinical Translation – No human data in ophthalmic indications; pharmacodynamic biomarkers of C5aR1 blockade in the eye remain to be established.  
+• Immunomodulation – Although more selective than upstream inhibitors, chronic C5aR1 blockade may alter local immune surveillance and infection risk in the retina.  
+• Competition – Multiple complement inhibitors (anti-C3, anti-factor D) are in late-stage development; differentiation and combination strategies will need clear justification.  
+• Safety in Elderly – Dry AMD patients are older with potential comorbidities; long-term safety must be carefully assessed in this population.  
+
+Conclusion  
+PMX205 represents a highly specific, orally bioavailable antagonist of C5aR1 with strong mechanistic rationale for preserving RPE tight junction integrity and attenuating local inflammation in dry AMD. The existing preclinical efficacy data in complement-driven models, coupled with favorable pharmacokinetic and safety profiles, support further development toward ocular delivery or systemic administration in early-phase trials for geographic atrophy. Critical next steps include establishing ocular target engagement biomarkers (e.g., aqueous C5a/C5aR1 occupancy), dose-ranging safety studies in aged models, and head-to-head comparison with upstream complement inhibitors.
+
+References:
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

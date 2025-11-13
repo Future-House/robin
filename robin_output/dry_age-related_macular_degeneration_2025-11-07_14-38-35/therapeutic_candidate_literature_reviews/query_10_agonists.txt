@@ -1,0 +1,64 @@
+Query: Agonists or modulators of nuclear hormone receptors (LXR, PPAR, RXR) AND impact on RPE barrier homeostasis AND restoration of tight junction integrity in TEER-based assays in dry AMD relevant models, plus in vivo preliminary safety and distribution data
+
+Below are 15 distinct mechanistic hypotheses or therapeutic‐strategy ideas, each centered on modulation of LXR, PPAR or RXR in dry-AMD–relevant RPE models, with proposed TEER-based in vitro assays and brief notes on in vivo safety/distribution.  
+
+1. LXRα agonist T0901317 promotes ABCA1/ABCG1-mediated cholesterol efflux in ARPE-19 cells overloaded with oxidized LDL, thereby reducing intracellular lipid–induced disruption of ZO-1/occludin junctions.  
+   • In vitro: treat ARPE-19 monolayers with 4-HNE or oxLDL, co-incubate with T0901317 (0.1–1 µM); measure TEER recovery, immunofluorescence for ZO-1, occludin, and filipin staining for cholesterol.  
+   • In vivo: single intravitreal injection (0.5 µg/eye) in C57BL/6 mice; assess retinal distribution by LC-MS/MS, fundus imaging for gross toxicity, ERG for function at 1 week.  
+
+2. Synthetic LXR partial agonist GW3965 attenuates TNF-α–induced inflammatory signaling (IL-6, MCP-1) in hiPSC-derived RPE, restoring tight junction architecture without full lipogenesis.  
+   • In vitro: hiPSC-RPE challenged with TNF-α (10 ng/mL) ± GW3965 (0.5 µM); measure TEER time course, cytokine release by ELISA, confocal ZO-1 mapping.  
+   • In vivo: topical peri-ocular application (0.2% w/v) twice daily in rats; ocular tissue drug levels, slit-lamp exam for irritation, systemic exposure.  
+
+3. PPARγ agonist pioglitazone drives mitochondrial biogenesis via PGC-1α upregulation in ARPE-19 under H₂O₂ stress, lowering ROS and re-establishing claudin-19 junctions.  
+   • In vitro: pre-treat ARPE-19 with pioglitazone (1 µM) before 200 µM H₂O₂; measure TEER, mito-ROS (MitoSOX), immunostaining for claudin-19, PGC-1α expression.  
+   • In vivo: low-dose oral (10 mg/kg/day) in mice for 7 days; measure retinal accumulation, body weight, liver enzymes.  
+
+4. PPARα agonist fenofibrate enhances β-oxidation in lipid-laden primary human RPE, preventing lipid droplet–mediated junctional gaps.  
+   • In vitro: load primary RPE with palmitate (200 µM), treat with fenofibrate (50 µM); TEER, BODIPY lipid staining, real-time PCR for CPT1A.  
+   • In vivo: oral gavage (100 mg/kg/day) in rats; ocular fenofibrate levels, ALT/AST, retinal OCT for morphology.  
+
+5. Dual PPARα/γ agonist saroglitazar provides combined anti-inflammatory and lipid-clearance effects to repair TNF-α–compromised RPE barriers.  
+   • In vitro: ARPE-19 + TNF-α ± saroglitazar (1 µM); TEER, multiplex cytokine panel, ZO-1 quantification.  
+   • In vivo: single subcutaneous injection (3 mg/kg); plasma and ocular PK at 1, 4, 24 h; ocular tolerability scoring.  
+
+6. RXR agonist bexarotene facilitates heterodimerization with PPARγ in RPE, boosting ABCA1 induction and junctional protein re-expression under 7-ketocholesterol challenge.  
+   • In vitro: treat ARPE-19 with 7KCh (20 µM) ± bexarotene (0.5 µM); measure TEER, ABCA1 mRNA, occludin by Western blot.  
+   • In vivo: topical ocular gel (0.1%); ocular deposition vs. plasma by LC-MS/MS, corneal health by slit-lamp.  
+
+7. Selective RXR modulator LG100268 improves TEER in LPS-activated primary RPE by shifting RXR dimer partners toward Nurr1 to suppress NF-κB and preserve junctions.  
+   • In vitro: primary RPE + LPS (100 ng/mL) ± LG100268 (0.1 µM); TEER, p65 nuclear translocation assay, immunostain for claudin-1.  
+   • In vivo: subconjunctival injection (1 µg); ocular PK, histology for inflammation.  
+
+8. LXRβ-selective agonist LXR-623 averts systemic hypertriglyceridemia while restoring barrier integrity in cholesterol-loaded hiPSC-RPE.  
+   • In vitro: cholesterol-methyl-β-cyclodextrin–treated hiPSC-RPE ± LXR-623 (0.2 µM); TEER, cholesterol efflux assay, ZO-1 continuity.  
+   • In vivo: topical drop (0.05%), 7 days; plasma lipids, ocular safety.  
+
+9. PPARβ/δ agonist GW501516 drives PGC-1α–dependent mitochondrial turnover in RPE under light-induced oxidative stress, reducing ROS–mediated junctional loss.  
+   • In vitro: ARPE-19 exposed to blue light (410 nm, 2 mW/cm²) ± GW501516 (1 µM); TEER, mitochondrial assays, ZO-1/occludin colocalization.  
+   • In vivo: topical eye drop (1 µM); measure retinal bioavailability, ERG changes.  
+
+10. Novel hybrid LXR/PPARα agonist (Compound X) synergistically increases lipid efflux and β-oxidation in RPE, promoting tight junction restoration under oxidized lipid stress.  
+   • In vitro: use Compound X (0.1–1 µM) in oxLDL-loaded ARPE-19; TEER, dual gene panels for ABCA1 and CPT1A, junctional imaging.  
+   • In vivo: single intravitreal microdose; ocular PK, histology for structural integrity.  
+
+11. Selective PPARγ modulator (SPPARM) INT-131 drives anti-inflammatory gene expression (IL-10) without fluid retention, rescuing TEER in IL-1β–treated hiPSC-RPE.  
+   • In vitro: hiPSC-RPE + IL-1β (10 ng/mL) ± INT-131 (0.5 µM); TEER, IL-10/IL-8 ELISA, claudin-19 staining.  
+   • In vivo: topical gel (0.2%); ocular distribution, IOP monitoring.  
+
+12. Combined topical ATRA (RAR agonist) and bexarotene (RXR agonist) to co-activate RAR/RXR heterodimers, upregulating barrier genes (CRB1, claudin-19) in A2E-stressed RPE.  
+   • In vitro: ARPE-19 + A2E (20 µM) ± ATRA (0.1 µM) + bexarotene (0.1 µM); TEER, qPCR for CRB1/claudin-19, ZO-1 imaging.  
+   • In vivo: topical combo for 5 days; ocular levels, conjunctival health.  
+
+13. Nanoparticle-encapsulated GW3965 engineered for RPE targeting via CD44 ligand to maximize local LXR activation and minimize systemic spillover.  
+   • In vitro: CD44+ iPSC-RPE treated with GW3965-NPs vs. free drug; TEER, nanoparticle uptake by confocal microscopy, efflux gene induction.  
+   • In vivo: periocular injection of fluorescently labeled NPs; in vivo imaging for ocular distribution, retinal histology.  
+
+14. Fenofibrate prodrug activated by RPE-specific esterases to release PPARα agonist intracellularly, boosting FAO and sealing junctional breaches under lipid stress.  
+   • In vitro: express RPE carboxylesterase in ARPE-19, treat with prodrug (10 µM); TEER, prodrug-to-drug conversion by LC-MS, ZO-1 recovery.  
+   • In vivo: systemic dosing; prodrug vs. parent distribution in eye and plasma, ocular safety.  
+
+15. CRISPRa–mediated upregulation of endogenous LXRα in ARPE-19 using catalytically dead Cas9–VP64, enhancing ABCA1, ABCG1 transcription to restore barrier in oxidized-lipid conditions.  
+   • In vitro: deliver dCas9–VP64 + LXRα gRNA, challenge with oxLDL; TEER, LXRα and ABCA1/ABCG1 mRNA/protein, junction staining.  
+   • In vivo (pilot): AAV2–dCas9–VP64 subretinal injection in mice; retinal LXRα upregulation, histology for safety at 4 weeks.
+

@@ -1,0 +1,60 @@
+Assay Candidate 1:
+Strategy: Complement activation assay
+Reasoning: Measure C3a/C5a release by ELISA in ARPE-19 or primary RPE after oxidative stress and complement‐competent serum to screen complement inhibitors; dry AMD is driven by alternative‐pathway complement activation with C3a/C5a and MAC deposition (buonfiglio2024recentadvancesin pages 14-15; algvere2016drusenmaculopathya pages 3-4).
+
+Assay Candidate 2:
+Strategy: Inflammasome activation assay
+Reasoning: Quantify IL-1β secretion and caspase-1 activity in hiPSC-RPE challenged with A2E plus blue light to identify NLRP3 inhibitors; photo-oxidation primes NLRP3 in RPE leading to pyroptosis and IL-1β/IL-18 release in dry AMD (buonfiglio2024recentadvancesin pages 9-10; korhonen2024inflammasomeactivationin pages 86-87).
+
+Assay Candidate 3:
+Strategy: ARE-luciferase reporter assay
+Reasoning: Use an Nrf2-ARE luciferase reporter in ARPE-19 under tert-butyl hydroperoxide stress to screen antioxidants that restore redox homeostasis; Nrf2 pathway dysfunction underlies oxidative RPE damage in AMD (catanzaro2020eyelightonagerelated pages 1-2; kaarniranta2019fattyacidsand pages 16-23).
+
+Assay Candidate 4:
+Strategy: Autophagic flux assay
+Reasoning: Employ tandem GFP-LC3-RFP in hiPSC-RPE treated with oxidized LDL to measure autophagosome maturation and flux, testing autophagy enhancers; impaired autophagy and p62 accumulation drive drusen formation (kaarniranta2019fattyacidsand pages 6-10; bu onfiglio2024recentadvancesin pages 9-10).
+
+Assay Candidate 5:
+Strategy: Mitochondrial respiration assay
+Reasoning: Perform Seahorse XF measurements of basal and maximal respiration in hiPSC-RPE exposed to rotenone and treated with NAD+ precursors, assessing rescue of mitochondrial function; mitochondrial impairment and ATP loss are key in dry AMD (buonfiglio2024recentadvancesin pages 14-15; tong2022roleofmitochondria pages 14-16).
+
+Assay Candidate 6:
+Strategy: Lipid accumulation assay
+Reasoning: Quantify neutral lipid droplets with BODIPY and unesterified cholesterol with filipin in primary RPE after oxLDL challenge to screen lipid‐modulating drugs; drusen are rich in esterified cholesterol and phosphatidylcholine (algvere2016drusenmaculopathya pages 3-4; kaarniranta2019fattyacidsand pages 6-10).
+
+Assay Candidate 7:
+Strategy: Barrier integrity assay
+Reasoning: Measure transepithelial electrical resistance (TEER) in polarized primary RPE monolayers treated with complement or candidate barrier stabilizers; sub-RPE deposit formation impairs Bruch’s membrane diffusion and RPE barrier function (algvere2016drusenmaculopathya pages 2-3; bharti2022cellculturemodels pages 8-9).
+
+Assay Candidate 8:
+Strategy: Drusen deposit assay
+Reasoning: Quantify basal deposits of APOE and collagen IV on transwell membranes in hiPSC-RPE after prolonged culture with AMD serum and test deposit inhibitors; hiPSC-RPE recapitulate drusen‐like extracellular matrix with complement augmentation (dalvi2019pluripotentstemcells pages 11-13; bharti2022cellculturemodels pages 16-17).
+
+Assay Candidate 9:
+Strategy: Ferroptosis protection assay
+Reasoning: Use lipid peroxidation sensors (e.g., Liperfluo) and viability readouts in ARPE-19 treated with erastin to screen ferroptosis inhibitors; iron‐driven lipid peroxidation and ferroptosis contribute to RPE loss in AMD (buonfiglio2024recentadvancesin pages 10-12; buonfiglio2024recentadvancesin pages 9-10).
+
+Assay Candidate 10:
+Strategy: Microglia-RPE crosstalk assay
+Reasoning: Co‐culture primary retinal microglia with hiPSC-RPE on transwells, then measure TNF-α and IL-6 release in RPE to identify anti‐inflammatory drugs; microglia‐driven para‐inflammation exacerbates RPE degeneration (ma2009microgliainthe pages 9-10; wong2022exploringthepathogenesis pages 13-15).
+
+Assay Candidate 11:
+Strategy: p62 degradation assay
+Reasoning: Assess p62 by Western blot or immunofluorescence in ARPE-19 under H2O2 stress and candidate autophagy enhancers; p62 accumulation reflects impaired proteostasis and inflammasome priming in AMD (si2023theroleof pages 7-9; bu onfiglio2024recentadvancesin pages 9-10).
+
+Assay Candidate 12:
+Strategy: Mitophagy reporter assay
+Reasoning: Deploy mt-Keima or acidification reporters in ARPE-19 exposed to A2E + blue light, screening mitophagy inducers; defective mitophagy and mtROS amplify RPE dysfunction in dry AMD (buonfiglio2024recentadvancesin pages 14-15; si2023theroleof pages 7-9).
+
+Assay Candidate 13:
+Strategy: C3b deposition assay
+Reasoning: Quantify cell‐surface C3b/C3d by flow cytometry in CFH‐genotyped hiPSC-RPE treated with human serum to assess complement regulator mimetics; CFH Y402H impairs FH anchoring and C3b inactivation on RPE (hallam2017aninducedpluripotent pages 1-5; velazquezsoto2023exogenouscfhmodulates pages 1-2).
+
+Assay Candidate 14:
+Strategy: Mitochondrial ROS assay
+Reasoning: Measure mitochondrial superoxide with MitoSOX in primary RPE challenged by H2O2 and treated with candidate antioxidants; mtROS from ETC damage drives inflammasome activation in AMD (kaarniranta2019fattyacidsand pages 6-10; buonfiglio2024recentadvancesin pages 9-10).
+
+Assay Candidate 15:
+Strategy: Lysosomal pH assay
+Reasoning: Use LysoTracker or pH‐sensitive reporters in hiPSC-RPE loaded with lipofuscin‐precursor A2E under candidate lysosomal acidifiers; lipofuscin‐mediated lysosomal inhibition contributes to proteostasis failure and drusen seeding (kaarniranta2019fattyacidsand pages 16-23; buonfiglio2024recentadvancesin pages 9-10).
+

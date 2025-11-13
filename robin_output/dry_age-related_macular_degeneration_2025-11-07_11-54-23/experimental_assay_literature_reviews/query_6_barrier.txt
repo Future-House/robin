@@ -1,0 +1,36 @@
+Query: Barrier function and tight junction integrity in RPE monolayers: optimizing transepithelial electrical resistance (TEER), zonula occludens-1 immunofluorescence, permeability assays, fluorescent dextran flux measurements, and tight junction protein quantification by western blot to evaluate compounds that preserve RPE barrier in dry AMD models
+
+Use ARPE-19 monolayers on Transwell inserts as the primary in vitro system, and apply apical VEGF as a positive disruptor to benchmark protection by test compounds such as αCT-1 (100 μM) (obert2015targetingthetight pages 40-45, obert2015targetingthetight pages 53-57). 
+
+TEER optimization: allow 2–3 weeks post-confluence with serum reduction (2% followed by 48 h serum-free) to reach stable baseline TER of ~40–45 Ω·cm2; measure with a WPI EVOM/STX2 electrode, subtract blank filter resistance, and report percent change from the starting value (obert2015targetingthetight pages 45-53, obert2015targetingthetight pages 40-45). VEGF induces time-dependent TER loss (2–4 h); αCT-1 prevents loss up to ~30 ng/mL VEGF, while 60 ng/mL produces near-complete loss; include 18-β-GCA and apyrase to probe mechanism, noting apyrase alone lowers TER without augmenting VEGF effects (obert2015targetingthetight pages 45-53, obert2017targetingthetight pages 10-11, obert2015targetingthetight pages 53-57, obert2017targetingthetight pages 11-12). ECIS or EGTA insult (0.5–1.2 mM) provides an orthogonal recovery model to quantify post-injury impedance gains with test agents (obert2017targetingthetight pages 14-15, obert2017targetingthetight pages 10-11). 
+
+ZO-1 immunofluorescence: fix 10 min in 4% PFA, block (10% NGS/0.4% Triton X-100), stain ZO-1 at 1:200 with Alexa secondary at 1:500, include no-primary controls, and acquire standardized confocal Z-stacks for quantitation (obert2015targetingthetight pages 45-53, obert2017targetingthetight pages 12-14). Quantify junctional continuity and tiling with CellProfiler; VEGF disrupts linear ZO-1 and elongates cells, whereas protective compounds preserve continuous junctions and regular morphology (obert2015targetingthetight pages 40-45, obert2015targetingthetight pages 53-57, obert2017targetingthetight pages 14-15). 
+
+Permeability/dextran flux: measure paracellular tracer flux (e.g., fluorescent dextran) across Transwells to validate TEER—higher flux indicates TJ disruption; protocol specifics are not provided in the excerpt (obert2015targetingthetight pages 53-57, obert2017targetingthetight pages 16-17, obert2015targetingthetight pages 40-45). 
+
+Western blot: quantify ZO-1, occludin, claudins, and occludin phosphorylation associated with VEGF-induced permeability, correlating with TEER and ZO-1 IF; detailed blot protocols are not included here (obert2015targetingthetight pages 53-57, obert2017targetingthetight pages 16-17, obert2015targetingthetight pages 13-19, obert2017targetingthetight pages 17-18). 
+
+A combined TEER–ZO-1 IF–dextran flux–TJ biochemistry workflow yields orthogonal evidence of barrier preservation in RPE monolayers. Apical VEGF and mechanistic controls (18-β-GCA, apyrase) validate assay sensitivity and independence from gap-junction/hemichannel activity, with αCT-1 as a benchmark protector (obert2015targetingthetight pages 40-45, obert2015targetingthetight pages 53-57, obert2017targetingthetight pages 11-12).
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/38dde9e2-0860-4b47-9383-019a3f21c49f
+
+References:
+1. (obert2015targetingthetight pages 40-45): EC Obert. Targeting the tight junction protein, zonula occludens-1, with the connexin 43 mimetic peptide, αct-1 reduces vegf-dependent rpe pathophysiology. Unknown journal, 2015.
+
+2. (obert2015targetingthetight pages 53-57): EC Obert. Targeting the tight junction protein, zonula occludens-1, with the connexin 43 mimetic peptide, αct-1 reduces vegf-dependent rpe pathophysiology. Unknown journal, 2015.
+
+3. (obert2015targetingthetight pages 45-53): EC Obert. Targeting the tight junction protein, zonula occludens-1, with the connexin 43 mimetic peptide, αct-1 reduces vegf-dependent rpe pathophysiology. Unknown journal, 2015.
+
+4. (obert2017targetingthetight pages 10-11): Elisabeth Obert, Randy Strauss, Carlene Brandon, Christina Grek, Gautam Ghatnekar, Robert Gourdie, and Bärbel Rohrer. Targeting the tight junction protein, zonula occludens-1, with the connexin43 mimetic peptide, αct1, reduces vegf-dependent rpe pathophysiology. Journal of Molecular Medicine, 95:535-552, Jan 2017. URL: https://doi.org/10.1007/s00109-017-1506-8, doi:10.1007/s00109-017-1506-8. This article has 79 citations.
+
+5. (obert2017targetingthetight pages 11-12): Elisabeth Obert, Randy Strauss, Carlene Brandon, Christina Grek, Gautam Ghatnekar, Robert Gourdie, and Bärbel Rohrer. Targeting the tight junction protein, zonula occludens-1, with the connexin43 mimetic peptide, αct1, reduces vegf-dependent rpe pathophysiology. Journal of Molecular Medicine, 95:535-552, Jan 2017. URL: https://doi.org/10.1007/s00109-017-1506-8, doi:10.1007/s00109-017-1506-8. This article has 79 citations.
+
+6. (obert2017targetingthetight pages 14-15): Elisabeth Obert, Randy Strauss, Carlene Brandon, Christina Grek, Gautam Ghatnekar, Robert Gourdie, and Bärbel Rohrer. Targeting the tight junction protein, zonula occludens-1, with the connexin43 mimetic peptide, αct1, reduces vegf-dependent rpe pathophysiology. Journal of Molecular Medicine, 95:535-552, Jan 2017. URL: https://doi.org/10.1007/s00109-017-1506-8, doi:10.1007/s00109-017-1506-8. This article has 79 citations.
+
+7. (obert2017targetingthetight pages 12-14): Elisabeth Obert, Randy Strauss, Carlene Brandon, Christina Grek, Gautam Ghatnekar, Robert Gourdie, and Bärbel Rohrer. Targeting the tight junction protein, zonula occludens-1, with the connexin43 mimetic peptide, αct1, reduces vegf-dependent rpe pathophysiology. Journal of Molecular Medicine, 95:535-552, Jan 2017. URL: https://doi.org/10.1007/s00109-017-1506-8, doi:10.1007/s00109-017-1506-8. This article has 79 citations.
+
+8. (obert2017targetingthetight pages 16-17): Elisabeth Obert, Randy Strauss, Carlene Brandon, Christina Grek, Gautam Ghatnekar, Robert Gourdie, and Bärbel Rohrer. Targeting the tight junction protein, zonula occludens-1, with the connexin43 mimetic peptide, αct1, reduces vegf-dependent rpe pathophysiology. Journal of Molecular Medicine, 95:535-552, Jan 2017. URL: https://doi.org/10.1007/s00109-017-1506-8, doi:10.1007/s00109-017-1506-8. This article has 79 citations.
+
+9. (obert2015targetingthetight pages 13-19): EC Obert. Targeting the tight junction protein, zonula occludens-1, with the connexin 43 mimetic peptide, αct-1 reduces vegf-dependent rpe pathophysiology. Unknown journal, 2015.
+
+10. (obert2017targetingthetight pages 17-18): Elisabeth Obert, Randy Strauss, Carlene Brandon, Christina Grek, Gautam Ghatnekar, Robert Gourdie, and Bärbel Rohrer. Targeting the tight junction protein, zonula occludens-1, with the connexin43 mimetic peptide, αct1, reduces vegf-dependent rpe pathophysiology. Journal of Molecular Medicine, 95:535-552, Jan 2017. URL: https://doi.org/10.1007/s00109-017-1506-8, doi:10.1007/s00109-017-1506-8. This article has 79 citations.

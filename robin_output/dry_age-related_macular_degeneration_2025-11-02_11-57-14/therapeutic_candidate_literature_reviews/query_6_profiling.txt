@@ -1,0 +1,109 @@
+Query: Profiling of hydrogen sulfide donors, nitric oxide modulators, and redox-active compounds in RPE barrier integrity assays measuring TEER and permeability, with studies confirming target engagement at molecular level, restoration of barrier function in dry AMD models, and pharmacokinetic/toxicity evaluations
+
+Below are 15 distinct mechanistic‐hypothesis proposals, each paired with a cell‐culture assay plan (TEER/permeability), molecular target‐engagement readouts, proof‐of‐concept in dry AMD RPE models, and basic PK/tox studies.
+
+1. Mitochondria-targeted H2S donor AP39  
+   • Hypothesis: AP39 S-sulfhydrates mitochondrial respiratory complexes, lowers ROS and preserves RPE tight junctions.  
+   • Assays: TEER and FITC-dextran permeability in human RPE monolayers ± AP39.  
+   • Engagement: Biotin-switch assay for S-sulfhydration of complex I subunits; ROS (MitoSOX) reduction.  
+   • AMD model: NaIO3-injured RPE with AP39 rescue, monitor ZO-1/occludin localization.  
+   • PK/Tox: Single- and multiple-dose mouse PK, liver/kidney enzymes, mitochondrial toxicity panel.
+
+2. Slow-release H2S donor GYY4137 via Nrf2 activation  
+   • Hypothesis: GYY4137 liberates H2S that activates Nrf2, upregulates HO-1/GCLM, restores barrier.  
+   • Assays: TEER/permeability; immunofluorescence for tight-junction proteins.  
+   • Engagement: Nrf2 nuclear translocation (immunoblot), HO-1/GCLM mRNA by qPCR.  
+   • AMD model: Dry AMD iPSC-RPE treated with GYY4137; measure barrier recovery.  
+   • PK/Tox: Rat PK, glutathione levels, cytotoxicity in hepatocytes.
+
+3. Fast-acting H2S donor NaHS boosting cGMP  
+   • Hypothesis: NaHS activates soluble guanylate cyclase (sGC) via sulfhydration, raising cGMP/PKG to tighten junctions.  
+   • Assays: TEER/permeability ± sGC inhibitor ODQ.  
+   • Engagement: cGMP ELISA, PKG substrate phosphorylation.  
+   • AMD model: Light-stressed RPE; NaHS restores TEER and junctional localization.  
+   • PK/Tox: Single IV dose in mice, measure blood pressure, blood gases, organ histology.
+
+4. Diallyl trisulfide (DATS) inhibiting NF-κB  
+   • Hypothesis: DATS-derived H2S prevents NF-κB p65 phosphorylation, reduces inflammation-induced barrier breakdown.  
+   • Assays: TNFα challenge + TEER/permeability with DATS.  
+   • Engagement: p-p65 by Western blot; IL-6/IL-8 secretion by ELISA.  
+   • AMD model: Cytokine-treated RPE monolayers as “dry AMD mimic”; DATS rescues barrier.  
+   • PK/Tox: Oral PK in rats, cytokine panel, GI toxicity.
+
+5. eNOS activator AVE3085 for physiological NO  
+   • Hypothesis: AVE3085 enhances eNOS coupling, increases physiological NO, promotes cGMP-dependent junction assembly.  
+   • Assays: TEER/permeability ± L-NAME; immunostain for claudin-1.  
+   • Engagement: eNOS Ser1177 phosphorylation; NO release (DAF-FM DA).  
+   • AMD model: Oxidative stress RPE + AVE3085, assess barrier and cell viability.  
+   • PK/Tox: Rodent PK, cardiovascular telemetry, eNOS uncoupling markers.
+
+6. Controlled NO donor DETA-NO limiting nitrosative stress  
+   • Hypothesis: Low-dose DETA-NO supports barrier repair without peroxynitrite formation.  
+   • Assays: Dose-response TEER/permeability; 3-NT immuno for nitrosation.  
+   • Engagement: cGMP levels; 3-nitrotyrosine quantification.  
+   • AMD model: Aged donor RPE with DETA-NO improves junction morphology.  
+   • PK/Tox: Rat PK, nitrosative stress biomarkers, nitrite/nitrate clearance.
+
+7. iNOS inhibitor 1400W reducing pathological NO  
+   • Hypothesis: Inhibition of stress-induced iNOS by 1400W lowers peroxynitrite, preserves barrier.  
+   • Assays: LPS/IFNγ challenge ± 1400W; TEER/permeability.  
+   • Engagement: iNOS expression by Western; 3-NT levels.  
+   • AMD model: Inflammogen-treated RPE; 1400W rescues barrier.  
+   • PK/Tox: Mouse PK, liver microsomal stability, immunotoxicity.
+
+8. Mitochondrial antioxidant MitoQ  
+   • Hypothesis: MitoQ scavenges mtROS, prevents redox-mediated junctional protein degradation.  
+   • Assays: H2O2-induced permeability + MitoQ; TEER.  
+   • Engagement: MitoSOX, ATP production assay, Western for occludin.  
+   • AMD model: Cigarette smoke extract on RPE; MitoQ restores barrier.  
+   • PK/Tox: Dog PK, cardiac safety, mitochondrial respiration in primary hepatocytes.
+
+9. Sulforaphane (Nrf2 inducer)  
+   • Hypothesis: Sulforaphane activates KEAP1-Nrf2, upregulating antioxidant enzymes and stabilizing barrier.  
+   • Assays: TEER/permeability; HO-1/NQO1 protein levels.  
+   • Engagement: ARE-luciferase reporter; Nrf2 ChIP at tight-junction promoters.  
+   • AMD model: A2E-photooxidation stress on RPE; sulforaphane reversal.  
+   • PK/Tox: Mouse PK, phase I/II enzyme induction, genotoxicity assay.
+
+10. Ebselen (GPx mimic)  
+   • Hypothesis: Ebselen catalyzes H2O2 elimination, shields junctional complexes from oxidative cleavage.  
+   • Assays: H2O2 challenge + ebselen; TEER/permeability.  
+   • Engagement: GPx activity assay; ROS probe (DCFDA).  
+   • AMD model: Blue-light stressed RPE; barrier rescue by ebselen.  
+   • PK/Tox: Rat PK, selenium accumulation, thyroid function.
+
+11. Tempol (SOD-mimetic)  
+   • Hypothesis: Tempol converts superoxide to H2O2, feeding endogenous catalase/GPx and preserving barrier.  
+   • Assays: Paraquat-induced ROS + Tempol; TEER.  
+   • Engagement: O2•– quantification, SOD activity.  
+   • AMD model: Iron overload RPE; Tempol restores TEER/permeability.  
+   • PK/Tox: PK in mice, oxidative stress panel, hematology.
+
+12. N-acetylcysteine (GSH precursor)  
+   • Hypothesis: NAC replenishes intracellular GSH, neutralizes electrophiles, and maintains junction integrity.  
+   • Assays: H2O2 or A2E challenge + NAC; TEER/permeability.  
+   • Engagement: GSH:GSSG ratio, γ-glutamylcysteine ligase expression.  
+   • AMD model: A2E-laden RPE; NAC restores barrier and reduces lipofuscin.  
+   • PK/Tox: Standard PK, chronic dosing, kidney/liver panels.
+
+13. Resveratrol activating SIRT1  
+   • Hypothesis: Resveratrol-mediated SIRT1 activation deacetylates NF-κB and β-catenin, promoting junctional assembly.  
+   • Assays: Cytokine disruption + resveratrol; TEER/permeability.  
+   • Engagement: SIRT1 deacetylase activity; p65 acetylation, β-catenin acetylation.  
+   • AMD model: Inflammatory RPE; barrier restored by resveratrol.  
+   • PK/Tox: Oral rat PK, SIRT1 target engagement in retina, hepatotoxicity.
+
+14. AMPK activator AICAR reducing ER stress  
+   • Hypothesis: AICAR-activated AMPK alleviates ER stress (CHOP/BiP) and prevents junctional protein misfolding.  
+   • Assays: Tunicamycin challenge + AICAR; TEER/permeability.  
+   • Engagement: p-AMPK; CHOP, BiP levels.  
+   • AMD model: ER-stress RPE; AICAR normalizes TEER and junction proteins.  
+   • PK/Tox: PK in rodents, AMPK target engagement in retina, metabolic panels.
+
+15. Methylene blue as redox cycler  
+   • Hypothesis: Methylene blue shuttles electrons in complex IV, reducing ROS spillover and preserving barrier.  
+   • Assays: Antimycin A challenge + MB; TEER/permeability.  
+   • Engagement: Cytochrome c oxidase activity; ROS probes.  
+   • AMD model: Mitochondrial inhibition in RPE; MB rescues barrier.  
+   • PK/Tox: PK in rabbits, phototoxicity, neurotoxicity screen.
+

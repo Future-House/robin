@@ -1,0 +1,28 @@
+Query: Reports of repurposed compounds modulating vacuolar H⁺-ATPase and other lysosomal proton pumps in retinal pigment epithelial cells showing improved lysosomal acidity and cathepsin D function, drusen component clearance, and geographic atrophy lesion reduction in preclinical models, including data on approved drugs or clinical-stage molecules, catalog numbers, pharmacodynamics, side effect profiles, and translational biomarker assessment
+
+I cannot answer. Across the provided sources, there are no reports in retinal pigment epithelium (RPE) or AMD/geographic atrophy (GA) models showing that repurposed compounds modulating vacuolar H+-ATPase or other lysosomal proton pumps improve lysosomal acidity, restore cathepsin D maturation/activity, clear drusen components, or reduce GA lesion area; no catalog numbers, dosing/PK/PD, or side‑effect profiles are provided for such interventions in these indications (OpenTargets Search: geographic atrophy,drusen,age-related macular degeneration-V-ATPase,ATP6V1,lysosomal proton pump, wunkhaus2021theroleof pages 44-49, wunkhaus2021theroleof pages 75-79, wunkhaus2021theroleof pages 27-30). Open Targets returns no targets for “geographic atrophy lesion growth” and only animal-model evidence for ATP6V1H in broader AMD, with no human clinical or translational biomarker data; this absence should be considered informative negative evidence within that dataset (OpenTargets Search: geographic atrophy,drusen,age-related macular degeneration-V-ATPase,ATP6V1,lysosomal proton pump). A ClinicalTrials.gov query retrieved 223 records by broad terms, but the excerpt contains no trial‑level interventions, outcomes, pharmacodynamics, or safety relevant to V‑ATPase/lysosomal acidity in AMD/GA (Clinical Trial Search: 8c1024d1ebdc).
+
+Mechanistic and non‑RPE data emphasize risk: plecomacrolide V‑ATPase inhibitors alkalinize endo‑lysosomes at low nM, disrupt trafficking, and become cytotoxic with dose/time, and chloroquine similarly alkalinizes organelles—opposite to the desired RPE pharmacology (liconmunoz2017factinreorganizationby pages 6-9, liconmunoz2017factinreorganizationby pages 9-11). Broader safety concerns include systemic liabilities from nonselective V‑ATPase inhibition (autophagy/phagocytosis impairment, inflammasome activation, insulin/secretory defects, neurotransmission effects) and the general lethality of pan‑V‑ATPase blockade, underscoring the need for selectivity (knight2025nanobodydevelopmentfor pages 60-64, knight2025nanobodydevelopmentfor pages 204-207). While several robust translational PD assays are documented for lysosomal biology in ARPE‑19 (LysoTracker/LysoSensor, cathepsin D maturation by immunoblot, DQ‑BSA, LAMP1 exocytosis, BMP/LBPA by LC‑MS/MS), these were not applied to test V‑ATPase/lysosomal proton‑pump modulators in AMD/GA models here (wunkhaus2021theroleof pages 27-30, wunkhaus2021theroleof pages 44-49, wunkhaus2021theroleof pages 75-79).
+
+No provided source demonstrates repurposed V‑ATPase/lysosomal proton‑pump modulators improving lysosomal acidity, cathepsin D function, drusen clearance, or GA lesion size in RPE/AMD models. The excerpts supply mechanistic rationale and PD tools but lack drug‑level efficacy, safety, catalog numbers, or clinical/translational data for AMD/GA (OpenTargets Search: geographic atrophy,drusen,age-related macular degeneration-V-ATPase,ATP6V1,lysosomal proton pump, Clinical Trial Search: 8c1024d1ebdc, wunkhaus2021theroleof pages 44-49, wunkhaus2021theroleof pages 75-79, wunkhaus2021theroleof pages 27-30).
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/a66a64b6-359c-48dd-891d-92432fd8c8bd
+
+References:
+1. (OpenTargets Search: geographic atrophy,drusen,age-related macular degeneration-V-ATPase,ATP6V1,lysosomal proton pump): Open Targets Query (geographic atrophy,drusen,age-related macular degeneration-V-ATPase,ATP6V1,lysosomal proton pump, 12 results). Buniello, A. et al. (2025). Open Targets Platform: facilitating therapeutic hypotheses building in drug discovery. Nucleic Acids Research.
+
+2. (wunkhaus2021theroleof pages 44-49): D Wünkhaus. The role of cln3 in the lysosomal-autophagosomal system. Unknown journal, 2021.
+
+3. (wunkhaus2021theroleof pages 75-79): D Wünkhaus. The role of cln3 in the lysosomal-autophagosomal system. Unknown journal, 2021.
+
+4. (wunkhaus2021theroleof pages 27-30): D Wünkhaus. The role of cln3 in the lysosomal-autophagosomal system. Unknown journal, 2021.
+
+5. (Clinical Trial Search: 8c1024d1ebdc): Clinical Trials Search via ClinicalTrials.gov: vacuolar H+-ATPase OR lysosomal proton pump AND geographic atrophy OR drusen OR retinal pigment epithelial
+
+6. (liconmunoz2017factinreorganizationby pages 6-9): Yamhilette Licon-Munoz, Vera Michel, Colleen A. Fordyce, and Karlett J. Parra. F-actin reorganization by v-atpase inhibition in prostate cancer. Biology Open, 6:1734-1744, Oct 2017. URL: https://doi.org/10.1242/bio.028837, doi:10.1242/bio.028837. This article has 30 citations and is from a peer-reviewed journal.
+
+7. (liconmunoz2017factinreorganizationby pages 9-11): Yamhilette Licon-Munoz, Vera Michel, Colleen A. Fordyce, and Karlett J. Parra. F-actin reorganization by v-atpase inhibition in prostate cancer. Biology Open, 6:1734-1744, Oct 2017. URL: https://doi.org/10.1242/bio.028837, doi:10.1242/bio.028837. This article has 30 citations and is from a peer-reviewed journal.
+
+8. (knight2025nanobodydevelopmentfor pages 60-64): K Knight. Nanobody development for therapeutically targeting vacuolar h+-atpases. Unknown journal, 2025.
+
+9. (knight2025nanobodydevelopmentfor pages 204-207): K Knight. Nanobody development for therapeutically targeting vacuolar h+-atpases. Unknown journal, 2025.

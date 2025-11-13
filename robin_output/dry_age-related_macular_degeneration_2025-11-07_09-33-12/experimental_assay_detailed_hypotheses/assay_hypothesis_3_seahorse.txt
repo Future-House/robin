@@ -1,0 +1,37 @@
+Hypothesis: Seahorse bioenergetics profiling
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Seahorse bioenergetics profiling
+Reasoning: Perform real-time measurements of oxygen consumption rate and extracellular acidification rate in RPE monolayers to evaluate mitochondrial respiration and glycolysis under drug treatment. Altered bioenergetics is a hallmark of AMD RPE and this assay provides direct functional endpoints (Tong et al., 2022; Fisher et al., 2022).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview: This assay employs Seahorse bioenergetics profiling to measure oxygen consumption rate (OCR) and extracellular acidification rate (ECAR) in retinal pigment epithelium (RPE) monolayers. It models the mitochondrial dysfunction and glycolytic alterations associated with dry age-related macular degeneration (AMD). These functional endpoints—basal respiration, maximal respiration, spare respiratory capacity, and ATP production—are derived from sequential injections of compounds in cultured primary human RPE, including donor‐derived AMD and non‐AMD cells (ebeling2020improvingretinalmitochondrial pages 9-10, fisher2022mitochondrialdysfunctionin pages 49-52).
+
+Biomedical Evidence: Mitochondrial dysfunction is central to AMD pathogenesis. Multiple studies have documented that AMD RPE exhibit reduced oxidative phosphorylation and altered bioenergetics that correlate with disease severity, including increased oxidative damage and compensatory glycolytic shifts. This evidence establishes that impaired mitochondrial function contributes to the “bioenergetic crisis” in AMD and underlines the importance of targeting mitochondrial pathways in therapeutic development (fisher2022mitochondrialdysfunctionin pages 32-36, fisher2022mitochondrialdysfunctionin pages 36-40).
+
+Previous Use: Seahorse profiling has been used to assess the impact of candidate drugs—such as NAC, rapamycin, PQQ, and NMN—on mitochondrial function in AMD RPE. These studies demonstrated disease-dependent drug responses and inter-donor variability while providing mechanistic insight into drug-induced rescue of mitochondrial defects (ebeling2020improvingretinalmitochondrial pages 9-10, ebeling2020improvingretinalmitochondrial pages 1-2).
+
+Overall Evaluation: Strengths of this assay include its real-time, quantitative measurement of key bioenergetic parameters and its strong mechanistic linkage to mitochondrial function in AMD. Limitations include variability inherent to primary cell cultures, potential discrepancies between in vitro and in vivo responses, and the need for rigorous standardization in assay conditions (fisher2022mitochondrialdysfunctionin pages 61-67, louie2022assessmentofposterior pages 49-56).
+
+This assay is a valuable tool for early-stage drug screening in dry AMD, offering direct functional readouts that are central to disease pathology. It enables precise evaluation of therapeutic candidates aimed at restoring mitochondrial health despite the challenges of in vitro variability.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/c60a34d0-cbfd-4b29-a2a5-48e83e5b7106
+
+References:
+1. (ebeling2020improvingretinalmitochondrial pages 9-10): Mara C. Ebeling, Jorge R. Polanco, Jun Qu, Chengjian Tu, Sandra R. Montezuma, and Deborah A. Ferrington. Improving retinal mitochondrial function as a treatment for age-related macular degeneration. Redox Biology, 34:101552, Jul 2020. URL: https://doi.org/10.1016/j.redox.2020.101552, doi:10.1016/j.redox.2020.101552. This article has 58 citations and is from a domain leading peer-reviewed journal.
+
+2. (fisher2022mitochondrialdysfunctionin pages 49-52): CR Fisher. Mitochondrial dysfunction in retinal pigment epithelium with age-related macular degeneration. Unknown journal, 2022.
+
+3. (fisher2022mitochondrialdysfunctionin pages 32-36): CR Fisher. Mitochondrial dysfunction in retinal pigment epithelium with age-related macular degeneration. Unknown journal, 2022.
+
+4. (fisher2022mitochondrialdysfunctionin pages 36-40): CR Fisher. Mitochondrial dysfunction in retinal pigment epithelium with age-related macular degeneration. Unknown journal, 2022.
+
+5. (ebeling2020improvingretinalmitochondrial pages 1-2): Mara C. Ebeling, Jorge R. Polanco, Jun Qu, Chengjian Tu, Sandra R. Montezuma, and Deborah A. Ferrington. Improving retinal mitochondrial function as a treatment for age-related macular degeneration. Redox Biology, 34:101552, Jul 2020. URL: https://doi.org/10.1016/j.redox.2020.101552, doi:10.1016/j.redox.2020.101552. This article has 58 citations and is from a domain leading peer-reviewed journal.
+
+6. (fisher2022mitochondrialdysfunctionin pages 61-67): CR Fisher. Mitochondrial dysfunction in retinal pigment epithelium with age-related macular degeneration. Unknown journal, 2022.
+
+7. (louie2022assessmentofposterior pages 49-56): S Louie. Assessment of posterior eye cup respiration in mouse models of oxidative stress, age-related macular degeneration and diabetic retinopathy. Unknown journal, 2022.

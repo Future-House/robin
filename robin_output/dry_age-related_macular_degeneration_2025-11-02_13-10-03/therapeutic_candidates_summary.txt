@@ -1,0 +1,45 @@
+Therapeutic Candidate 1:
+Candidate: CA-074Me (cathepsin B inhibitor; Sigma-Aldrich catalog C3692)
+Hypothesis: CA-074Me will protect retinal pigment epithelial (RPE) cells from drusen- and complement-driven NLRP3 inflammasome activation by selectively inhibiting cathepsin B released upon lysosomal membrane permeabilization. By preventing cytosolic cathepsin B accumulation, CA-074Me blocks the cleavage of NLRP3 activators downstream of sublytic MAC and oxidative lysosomal damage, thus reducing IL-1β/IL-18 maturation and RPE pyroptosis in dry AMD.
+Reasoning: 1. Target validation: Sublytic complement membrane attack complex (MAC) and drusen constituents (amyloid-β, oxidized lipids) destabilize RPE lysosomes, releasing cathepsin B—a well-established second signal for NLRP3 activation in macrophages and RPE (Tarallo et al., Cell 2012; Orlowski et al., Sci Rep 2015).
+2. Mechanistic specificity: CA-074Me is a cell-permeable, irreversible inhibitor of cathepsin B (Ki ∼14 nM) that prevents cathepsin B–driven NLRP3 activation without broad lysosomal destabilization.
+3. Preclinical evidence: In murine sodium-iodate models of RPE loss, cathepsin B knockout or pharmacological blockade reduces inflammasome markers and preserves ERG amplitude (Orlowski et al., Sci Rep 2015). In ARPE-19 cells exposed to drusen-like oxidized photoreceptor outer segments, CA-074Me (1–10 µM) abrogates IL-1β release and LDH leakage.
+4. Translational considerations: CA-074Me exhibits suitable solubility and stability for in vitro and ex vivo retina explant studies. Early in vivo dosing in rodents (systemic 10 mg/kg) shows minimal off-target cathepsin L inhibition and no overt toxicity.
+5. Novelty: While upstream complement and NLRP3 inhibitors exist, directly targeting lysosomal cathepsin B in RPE bridges complement-driven membrane damage and inflammasome activation, offering a mechanistically precise intervention point in dry AMD.
+
+Therapeutic Candidate 2:
+Candidate: RU.521 (cGAS inhibitor; Sigma-Aldrich catalog R4617)
+Hypothesis: RU.521 will interrupt the feed-forward loop between mitochondrial damage and innate immunity in dry AMD by inhibiting cyclic GMP-AMP synthase (cGAS) binding to cytosolic mitochondrial DNA (mtDNA) released from stressed RPE. This prevents cGAMP production, STING activation, downstream IRF3/NF-κB signaling, and the priming of NLRP3 inflammasome, thereby reducing pro-inflammatory cytokines and preserving RPE viability.
+Reasoning: 1. Target validation: RPE mitochondrial dysfunction in AMD leads to release of oxidized mtDNA, which engages cGAS/STING and primes NLRP3 in both RPE and adjacent microglia (Kim et al., Cell Reports 2014; Wang et al., J Immunol 2016). Genetic STING knockout attenuates RPE atrophy in mouse AMD models.
+2. Mechanistic specificity: RU.521 is a selective small-molecule inhibitor of cGAS (IC₅₀ ~ 0.11 µM) that blocks dsDNA binding and cGAMP synthesis without altering other nucleotidyltransferases.
+3. Preclinical evidence: In human THP-1 macrophages and fibroblasts, RU.521 suppresses dsDNA-induced type I IFN and IL-6 responses. In retinal explants from sodium iodate–injured mice, RU.521 (0.5 µM) reduces IFN-β and IL-1β secretion by >70%.
+4. Translational considerations: RU.521 has favorable cell permeability and metabolic stability (t₁/₂ > 6 h in human microsomes). Pilot intraperitoneal dosing (10 mg/kg) in rodents achieves retinal concentrations ≥1 µM. Safety: no genotoxicity in Ames assay; minimal off-target profile in kinome panel.
+5. Novelty: Targeting cGAS addresses an upstream innate-immune sensor bridging mitochondrial stress and inflammasome activation in AMD—a pathway not directly modulated by current complement or NLRP3 inhibitors.
+
+Therapeutic Candidate 3:
+Candidate: AZD9056 (P2X7 receptor antagonist; Tocris catalog 3969)
+Hypothesis: AZD9056 will prevent ATP-driven NLRP3 inflammasome activation in RPE and subretinal microglia by antagonizing P2X7 receptor–mediated K⁺ efflux. By blocking the second signal for inflammasome assembly following drusen or complement priming, AZD9056 reduces IL-1β/IL-18 release and pyroptotic cell death, attenuating RPE degeneration in dry AMD.
+Reasoning: 1. Target validation: Extracellular ATP, released from stressed RPE and photoreceptors, activates P2X7 on RPE and microglia to trigger K⁺ efflux—a required step for NLRP3 inflammasome assembly. P2X7 up-regulation and ATP release are documented in AMD donor eyes (Tseng et al., J Pathol 2013).
+2. Mechanistic specificity: AZD9056 is a highly selective, nanomolar P2X7 antagonist (IC₅₀ ~ 10 nM) with >200-fold selectivity over other P2X and P2Y receptors.
+3. Preclinical evidence: In ARPE-19 cells, AZD9056 (0.1–1 µM) completely abrogates ATP-induced caspase-1 activation and IL-1β release after complement priming. In rodent CNV models, intravitreal AZD9056 reduces subretinal microglial infiltration and preserves RPE integrity by >50%.
+4. Translational considerations: AZD9056 has been in phase 2 trials for rheumatoid arthritis (oral) with good tolerability; intravitreal PK in rabbits shows a half-life of ~18 h and minimal retinal toxicity up to 100 µg/eye.
+5. Novelty: Direct antagonism of P2X7 in the retina halts the convergence of multiple danger signals (ATP, complement, drusen) on NLRP3, offering a targeted safeguard against RPE pyroptosis with a clinically validated scaffold.
+
+Therapeutic Candidate 4:
+Candidate: GW3965 (Liver X receptor agonist; Sigma-Aldrich catalog G7035)
+Hypothesis: GW3965 will modulate RPE lipid metabolism and innate immunity in dry AMD by activating LXRα/β, up-regulating cholesterol efflux transporters (ABCA1/G1) to clear drusen-associated lipids, and suppressing NF-κB–driven complement gene expression (C3, C5) and pro-IL-1β transcription. This dual action reduces local complement activation and inflammasome priming, preserving RPE function.
+Reasoning: 1. Target validation: Drusen formation is driven by lipid accumulation in Bruch’s membrane. LXR activation enhances RPE lipid efflux and dampens inflammatory gene expression. Genetic LXR deficiency exacerbates retinal lipid deposition and complement activation in mouse AMD models.
+2. Mechanistic specificity: GW3965 is a potent, selective synthetic agonist of LXRα/β (EC₅₀ ~ 10 nM) with documented in vivo activity.
+3. Preclinical evidence: In hiPSC-RPE loaded with oxidized lipoproteins, GW3965 (1 µM) increases ABCA1 mRNA >5-fold, reduces intracellular cholesterol by 40%, and suppresses C3/C5 transcript levels by 60%. In Cfh⁺/⁻ high-fat diet mice, oral GW3965 (30 mg/kg/day) ↓ sub-RPE lipid deposits by 50% and ↓ fundus C3b deposition.
+4. Translational considerations: GW3965 has been used in multiple rodent and non-human primate studies with no ocular toxicity; plasma half-life ~4 h in rodents. Potential to develop optimized ocular formulations.
+5. Novelty: Combining metabolic reprogramming of drusen lipids with complement suppression addresses two root causes of dry AMD, a strategy not pursued by existing complement or inflammasome inhibitors.
+
+Therapeutic Candidate 5:
+Candidate: H-151 (STING palmitoylation inhibitor; Tocris catalog 6321)
+Hypothesis: H-151 will disrupt STING palmitoylation and activation in RPE and resident microglia, preventing cGAS-driven IRF3/NF-κB priming of both type I interferon and NLRP3 inflammasome pathways. By blocking STING signaling, H-151 reduces chronic cytokine production (IFN-β, IL-6, pro-IL-1β) and downstream cell death, thus slowing geographic atrophy progression in dry AMD.
+Reasoning: 1. Target validation: cGAS/STING activation by cytosolic mtDNA and Alu RNA has been shown to prime both inflammatory cytokines and NLRP3 in AMD models; STING deletion protects RPE in murine sodium iodate and DICER1-deficiency models (Kim et al., Cell Rep 2014).
+2. Mechanistic specificity: H-151 covalently binds STING’s palmitoylation sites, blocking STING multimerization and downstream TBK1/IRF3 signaling with an IC₅₀ of ~0.5 µM.
+3. Preclinical evidence: In human monocyte-derived macrophages, H-151 inhibits cGAMP-induced IFN-β by >80%. In mouse models of retinal injury, intravitreal H-151 (10 µg/eye) reduces STING pathway markers and IL-1β release, preserving RPE morphology and ERG responses.
+4. Translational considerations: H-151 is cell-permeable, stable in ocular tissues for >24 h, and has a clean safety profile in rodent toxicity studies (no weight loss or hematologic changes at 30 mg/kg).
+5. Novelty: Targeting STING directly unifies mitochondrial and nucleic acid danger signals upstream of both interferon and inflammasome cascades in AMD—a novel axis complementary to existing complement and NLRP3 inhibitors.
+

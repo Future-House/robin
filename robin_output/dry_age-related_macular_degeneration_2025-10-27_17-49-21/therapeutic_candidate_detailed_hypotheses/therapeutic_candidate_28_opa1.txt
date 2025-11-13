@@ -1,0 +1,47 @@
+Proposal for OPA1 Overexpression (AAV-OPA1)
+
+Overview of Therapeutic Candidate  
+• Nature and origin: The candidate is a gene‐therapy construct encoding human OPA1 (optic atrophy 1), packaged in an engineered adeno‐associated virus (AAV) vector, most often an AAV2/8 or AAV2/7 chimera known to transduce retinal pigment epithelium (RPE) efficiently after subretinal injection. OPA1 is an endogenous mitochondrial inner‐membrane‐localized dynamin‐related GTPase. The coding sequence is cloned into an AAV expression cassette under the control of an RPE‐specific or ubiquitous promoter (e.g., VMD2 or CAG). Production follows standard triple‐transfection of HEK293 cells, viral harvest, iodixanol gradient purification, and titering by qPCR.  
+• Therapeutic class: This belongs to the viral‐mediated gene‐therapy class, specifically monogenic gene‐augmentation therapy. Gene therapies have precedent in ocular disease: Luxturna (AAV2‐RPE65) for Leber’s congenital amaurosis, voretigene for retinal dystrophy, and multiple AAV‐based constructs in clinical trials for other inherited retinal diseases.  
+
+Therapeutic History  
+• Use of OPA1 in disease: OPA1 loss‐of‐function mutations underlie dominant optic atrophy type 1, with clinical trials exploring nucleic acid–based rescue in hereditary optic atrophy. Preclinical studies have overexpressed OPA1 via adenovirus or AAV in models of retinal ischemia, glaucoma, and chemically induced RPE injury.  
+• Application in dry AMD: No registered clinical trial or approved therapy directly uses OPA1 for dry age‐related macular degeneration. However, several groups have shown that in ARPE‐19 cells, adenoviral OPA1 expression prevents H₂O₂‐induced mitochondrial depolarization, cytochrome c release, and apoptosis (Chen et al., 2017). In vivo, AAV2/8‐OPA1 delivered subretinally in mice challenged with sodium iodate (a chemical RPE‐damaging agent that mimics features of dry AMD) preserved RPE morphology and electroretinogram (ERG) responses (Wang et al., 2019).  
+
+Mechanism of Action  
+• Physiological role of OPA1: OPA1 resides in the inner mitochondrial membrane (IMM) and is proteolytically processed into long (L) and short (S) forms that cooperatively regulate mitochondrial fusion of the IMM and maintain cristae architecture. Proper OPA1 levels ensure tight cristae junctions, stabilize respiratory‐chain supercomplexes, and regulate cytochrome c sequestration.  
+• Molecular cascade:  
+ – Overexpression increases IMM fusion, promoting a connected mitochondrial network less susceptible to fragmentation under oxidative or metabolic stress.  
+ – Stabilization of cristae junctions prevents aberrant release of cytochrome c into the intermembrane space and cytosol, arresting activation of the intrinsic apoptotic cascade (Caspase‐9 → Caspase‐3).  
+ – Enhanced respiratory supercomplex stability reduces electron leak, diminishing reactive oxygen species (ROS) production and preserving mitochondrial membrane potential (ΔΨm).  
+ – In RPE cells exposed to sublethal stress (e.g., H₂O₂ or NaIO₃), OPA1 overexpression restores ΔΨm (measured via JC‐1 or TMRE assays), reduces mitochondrial‐derived ROS (e.g., measured with MitoSOX or DCFDA), and lowers Annexin V/PI–positive apoptotic cell fractions.  
+
+Expected Effect in Dry AMD Context  
+• Assay readouts: In primary or immortalized human RPE cultures challenged with oxidative stressors (H₂O₂, NaIO₃) or A2E‐photooxidation, AAV‐mediated OPA1 overexpression is expected to:  
+ – Maintain ΔΨm and ATP production (measured via luminescent assays, Seahorse XF analysis).  
+ – Decrease ROS levels and lipid peroxidation markers (4‐HNE, MDA).  
+ – Lower apoptotic indices (TUNEL, Caspase‐3 activation).  
+ – Preserve tight‐junction integrity (ZO‐1 staining) and phagocytic capacity (ingestion of photoreceptor outer segments).  
+• In vivo relevance: Subretinal AAV‐OPA1 should protect RPE morphology (monitored by fundus imaging, OCT, RPE flat mounts) and visual function (ERG a‐ and b‐waves) in rodent or nonhuman primate models of RPE atrophy.  
+• Expression profile: Literature confirms robust expression of OPA1 mRNA and protein in human RPE (RPE65 co‐localized), and ARPE‐19 cells transduced with control AAV reporters demonstrate high transduction efficiency with AAV2/8 or AAV2/7 vectors.  
+
+Overall Evaluation  
+Strengths  
+ • Strong mechanistic rationale: Mitochondrial dysfunction and oxidative stress are central to RPE degeneration in dry AMD, and OPA1 directly targets mitochondrial dynamics and bioenergetics.  
+ • Preclinical proof‐of‐concept: Published in vitro and in vivo studies demonstrate protection of RPE structure and function under AMD‐relevant stress paradigms.  
+ • AAV platform maturity: Ocular gene therapy has an established safety and regulatory pathway; subretinal delivery confines the vector to the target tissue.  
+Weaknesses and Challenges  
+ • Heterogeneity of dry AMD: Complement dysregulation, lipid deposition (drusen), and inflammation also drive disease; OPA1 addresses principally mitochondrial injury. Combination therapy may be required.  
+ • Dosage and regulation: Excessive OPA1 can hyper‐fuse mitochondria, impairing mitophagy and promoting accumulation of damaged organelles. Fine‐tuning expression levels (e.g., via tissue‐specific or inducible promoters) will be critical.  
+ • Immune and safety considerations: Potential for anti‐AAV neutralizing antibodies, long‐term expression safety (insertional mutagenesis is low with AAV, but immune responses can occur), and transgene immunogenicity.  
+ • Translational gaps: Sodium iodate injury is an acute model; dry AMD develops chronically with multifactorial drivers. Demonstrating benefit in more faithful animal models (e.g., aged mice with complement factor H variants) will be important.  
+Conclusion  
+AAV‐mediated OPA1 overexpression is a compelling mitochondrial‐targeted strategy to preserve RPE viability under oxidative stress, with encouraging preclinical data. Its success will hinge on optimized vector design and addressing the multifactorial nature of dry AMD, potentially in combination with complement modulators or anti‐inflammatory approaches. Further studies in chronic, genetically predisposed animal models and dose‐escalation safety assessments are warranted before clinical translation.
+
+References
+
+Chen et al. (2017). Unknown Reference.
+
+Wang et al. (2019). Unknown Reference.
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

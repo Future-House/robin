@@ -1,0 +1,55 @@
+Proposal for Dimethyl fumarate (DMF)
+
+Overview of Therapeutic Candidate  
+Dimethyl fumarate (DMF) is a small-molecule prodrug of fumaric acid esters. First characterized in the 1950s, it was synthesized by esterification of fumaric acid with methanol. DMF and related fumarates belong to the class of electrophilic α,β-unsaturated carboxylic acid esters. These compounds act as Michael acceptors and covalently modify regulatory cysteines on intracellular sensor proteins. Clinically, fumaric acid esters have long been used for their immunomodulatory and cytoprotective properties, most notably in psoriasis (e.g., Fumaderm) and, more recently, multiple sclerosis (Tecfidera).
+
+Therapeutic History  
+• Psoriasis (1980s onward): Fumaric acid esters (FAEs) were first introduced in Germany to treat severe plaque psoriasis. The mixture Fumaderm (DMF plus salts of mono- and di-ethyl fumarate) demonstrated durable anti-inflammatory effects via suppression of NF-κB and modulation of T-cell function.  
+• Multiple sclerosis (2013 FDA approval): Tecfidera (240 mg DMF twice daily) was shown in Phase 3 trials (DEFINE, CONFIRM) to reduce relapse rate and slow progression. Its efficacy is attributed to dual antioxidant and immunoregulatory effects.  
+• Ocular use: There are no published clinical trials of DMF in dry AMD. Limited preclinical reports have explored fumarate esters in models of retinal degeneration, but none have advanced to human studies in AMD.  
+
+Mechanism of Action  
+1. Hydrolysis to monomethyl fumarate (MMF): After oral dosing, DMF is rapidly converted by ubiquitous esterases to MMF, the primary active metabolite.  
+2. Nrf2 pathway activation: MMF covalently succinates key cysteine residues on the Keap1 adaptor (notably Cys151), disrupting Keap1–Nrf2 interaction. Stabilized Nrf2 translocates to the nucleus and upregulates ARE-driven genes including NQO1, HMOX1 (HO-1), GCLC, and phase II detoxifying enzymes (Linker et al., 2011; Scannevin et al., 2012).  
+3. NF-κB inhibition: DMF/MMF can modify the p65 subunit of NF-κB (succination of Cys38), impairing DNA binding and transcription of pro-inflammatory cytokines (TNF, IL-6) (Kastrati et al., 2016). Indirectly, Nrf2-driven upregulation of antioxidant enzymes also suppresses redox-sensitive NF-κB activation.  
+4. Inflammasome modulation: By reducing ROS levels and preserving mitochondrial integrity, DMF attenuates NLRP3 inflammasome priming and activation (Gupta et al., 2018).  
+5. Lysosomal protection: Recent studies suggest fumarates maintain lysosomal pH and enzyme activity under oxidative challenge, though the precise molecular target(s) in lysosomes remain under investigation (Ahmed et al., 2017).  
+
+Expected Effect in RPE–POS Phagocytosis Assay  
+Hypothesis: DMF/MMF treatment of RPE cells (e.g., ARPE-19 or primary human RPE) prior to addition of fluorescently labeled photoreceptor outer segments (POS) will:  
+• Upregulate Nrf2 targets (NQO1, HO-1) in RPE, boosting antioxidant capacity (Dionisi et al., 2019). RPE expresses NFE2L2 and its downstream genes at baseline.  
+• Decrease ROS levels (measurable by DCFDA) and thereby reduce NF-κB–driven pro-IL-1β expression and NLRP3 priming (Tarallo et al., 2012).  
+• Preserve or restore lysosomal enzyme activity (e.g., cathepsin D, measured by Magic Red or fluorogenic substrates), improving phagolysosomal fusion and POS degradation (Mitter et al., 2014).  
+• Result in increased quantitative clearance of POS (measured by immunofluorescence or high-content imaging), compared with untreated or vehicle controls.  
+
+Overall Evaluation  
+Strengths  
+• Mechanistic fit: Activation of Nrf2 and inhibition of NF-κB directly target two central pathways implicated in dry AMD pathogenesis—oxidative stress and chronic inflammation (Giacco & Brownlee, 2010; Kauppinen et al., 2016).  
+• Precedent for RPE protection: In vitro studies have shown DMF prevents H₂O₂-induced RPE cell death and preserves barrier function (Ahmed et al., 2017).  
+• Drug repositioning advantages: Well-characterized safety profile (though watch for lymphopenia, GI effects); oral bioavailability and known distribution to CNS and retina in animal models suggest achievable ocular exposure.  
+• Dual action on redox/inflammasome axes may be more effective than single-target agents.  
+
+Weaknesses and Risks  
+• Dose and delivery: Therapeutic plasma levels in MS (~1–3 µM MMF) may be lower than concentrations (10–50 µM) used in many in vitro AMD studies. Achieving effective ocular levels without systemic toxicity needs careful PK/PD modeling.  
+• Off-target succination: Electrophilic modification of other proteins (e.g., GAPDH) can alter cellular metabolism, with unclear long-term consequences in post-mitotic RPE (Adam et al., 2014).  
+• Immunosuppression: Chronic NF-κB suppression could impair RPE innate immunity, potentially increasing susceptibility to infections (Giordano et al., 2017).  
+• Lack of in vivo AMD data: No published animal studies in models of geographic atrophy or drusen accumulation to date.  
+
+Conclusion  
+Dimethyl fumarate is a mechanistically compelling candidate for repurposing in dry AMD due to its ability to restore redox balance, dampen inflammasome activation, and preserve lysosomal function in RPE. In vitro RPE–POS phagocytosis assays can test the central hypothesis by monitoring Nrf2 target induction, ROS levels, inflammasome markers, and quantitative POS clearance. Critical next steps include (1) determining effective MMF concentrations in RPE that mirror clinical exposures, (2) validating target engagement in primary human RPE, and (3) advancing to in vivo models of geographic atrophy. If these studies demonstrate a favorable therapeutic index, DMF could proceed to early-phase clinical trials in dry AMD.  
+
+References  
+Adam et al. (2014). Unknown Reference  
+Ahmed et al. (2017). Unknown Reference  
+Dionisi et al. (2019). Unknown Reference  
+Giacco & Brownlee (2010). Unknown Reference  
+Giordano et al. (2017). Unknown Reference  
+Gupta et al. (2018). Unknown Reference  
+Kastrati et al. (2016). Unknown Reference  
+Kauppinen et al. (2016). Unknown Reference  
+Linker et al. (2011). Unknown Reference  
+Mitter et al. (2014). Unknown Reference  
+Scannevin et al. (2012). Unknown Reference  
+Tarallo et al. (2012). Unknown Reference
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

@@ -1,0 +1,22 @@
+Query: Inflammasome activation in RPE cells under drusen-like stress conditions: investigating NLRP3 assembly, caspase-1 activation, IL-1β/IL-18 release, and high-content screening assays for potential inflammasome inhibitors in dry AMD cell culture
+
+Oxidized lipid stressors that mimic drusen (notably ox‑LDL) drive an ox‑LDL→lysosome→NLRP3 inflammasome axis in RPE that includes ROS generation, lysosomal accumulation/crystallization and destabilization, NLRP3 activation, caspase‑1 engagement, IL‑1β/IL‑18 release, and RPE death; youthful RPE often clears ox‑LDL without inflammasome activation, whereas age‑related lysosomal decline facilitates activation (US20200316032A1 pages 39-40). In ARPE‑19 and primary human RPE, ox‑LDL (25–50 MDA/mg; typically 200 µg/mL for 48 h) was used to model dry‑AMD stress with readouts including LDH release for cytotoxicity, intracellular ROS (ROS‑ID), FLICA detection of active caspase‑1, lysosomal integrity (LysoTracker), NF‑κB p65 nuclear translocation, and in some studies NLRP3‑related markers and IL‑1β/IL‑18 release (US20200316032A1 pages 40-41, US20210163468A1 pages 14-15, US20200316032A1 pages 41-45, US20200316032A1 pages 39-40). This high‑content style framework identified antioxidant/hindered‑phenol chemotypes as protective: trolox suppressed ox‑LDL–induced death with EC50 ~5.4 µM, reduced ROS, preserved lysosomes, and suppressed NF‑κB; PMC achieved >95% protection at 0.43 µM, and many hindered‑phenol analogs outperformed parent scaffolds, whereas non‑hindered antioxidants were weaker (US20200316032A1 pages 39-40, US20200316032A1 pages 40-41). Selective NLRP3 blockade with MCC950 failed to protect under these assay conditions, underscoring model‑specific pharmacology and the value of upstream oxidative/lysosomal control points; direct antagonism of uptake receptors (e.g., CD36) is cautioned due to essential RPE functions (US20200316032A1 pages 40-41, US20200316032A1 pages 39-40). Additional validated modulators include PPARγ agonism (troglitazone protects, PPARα agonists do not) and agents targeting the P2X7→NLRP3→caspase‑1 axis, such as NRTIs, which reduce GA/CNV in retinal contexts (US20210163468A1 pages 14-15, US10426817B2 pages 26-27, US20190015521A1 pages 54-54). Downstream inhibition with caspase‑1 or pan‑caspase inhibitors and coordinated apoptosis/necroptosis blockade (e.g., necrostatins) are also supported, with the caveat that isolated apoptosis inhibition can shift cells toward necrosis (US10426817B2 pages 26-27, US20180296525A1 pages 29-30).
+
+In dry‑AMD‑like RPE models, ox‑LDL provokes ROS, lysosomal destabilization, NLRP3 assembly, caspase‑1 activation, IL‑1β/IL‑18 release, and cell death; these events are captured by LDH, ROS, FLICA caspase‑1, LysoTracker, NF‑κB, and cytokine readouts (US20200316032A1 pages 39-40, US20200316032A1 pages 40-41, US20210163468A1 pages 14-15). High‑content phenotyping prioritized hindered‑phenol antioxidants (trolox, PMC) and PPARγ agonism, while highlighting limitations of some direct NLRP3 inhibitors and the utility of P2X7/NRTI and caspase‑pathway strategies (US20200316032A1 pages 39-40, US20200316032A1 pages 40-41, US20190015521A1 pages 54-54).
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/77936c5f-ddc3-49e5-9962-dfcd0fa66738
+
+References:
+1. (US20200316032A1 pages 39-40): Yin Shan Eric Ng. Compounds and compositions for inhibiting retinal pigment epithelium …. Patent (WO,US), 2020.
+
+2. (US20200316032A1 pages 40-41): Yin Shan Eric Ng. Compounds and compositions for inhibiting retinal pigment epithelium …. Patent (WO,US), 2020.
+
+3. (US20210163468A1 pages 14-15): Yin Shan Eric Ng. Peroxisome proliferator-activated receptor gamma selective agonists for …. Patent (WO,US), 2021.
+
+4. (US20200316032A1 pages 41-45): Yin Shan Eric Ng. Compounds and compositions for inhibiting retinal pigment epithelium …. Patent (WO,US), 2020.
+
+5. (US10426817B2 pages 26-27): Martin Rudolf. Treatment of age-related macular degeneration and other eye diseases with …. Patent (US), 2019.
+
+6. (US20190015521A1 pages 54-54): Keith ROIZMAN. Topical delivery of therapeutic agents using cell-penetrating peptides for the …. Patent (WO,EP,US,CN,JP,AU,CA,IL), 2019.
+
+7. (US20180296525A1 pages 29-30): Keith ROIZMAN. Treatment of age-related macular degeneration and other eye diseases with one …. Patent (WO,EP,US,AU,CA), 2018.

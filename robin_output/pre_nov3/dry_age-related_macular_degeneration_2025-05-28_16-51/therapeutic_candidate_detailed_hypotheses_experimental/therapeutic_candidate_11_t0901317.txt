@@ -1,0 +1,123 @@
+Proposal for T0901317 (catalog SML0693, Sigma-Aldrich)
+
+Below is a detailed scientific evaluation of T0901317 as a repurposed therapeutic candidate for dry age‐related macular degeneration (AMD). In the sections that follow, we review its origins and chemical class, its historical and preclinical use, its multifaceted molecular mechanism of action, the expected cellular and tissue-level effects in AMD-relevant assays, and an overall assessment of its potential for further development. All information is supported by the provided literature excerpts.
+
+────────────────────────────────────────────
+Overview of Therapeutic Candidate
+
+T0901317 is a fully synthetic small‐molecule agonist developed to activate liver X receptors (LXRs). It belongs to the nonsteroidal LXR agonist class and was originally synthesized through medicinal chemistry efforts aimed at modulating nuclear receptor–mediated control of lipid homeostasis (Choudhary et al., 2020). LXRs—specifically LXRα encoded by the NR1H3 gene and LXRβ encoded by the NR1H2 gene—are ligand‐activated transcription factors that regulate genes involved in cholesterol metabolism, fatty acid synthesis, and inflammatory processes. These nuclear receptors function by heterodimerizing with retinoid X receptors (RXRs) and binding to response elements in the promoters of target genes, a mechanism that has been well documented both in hepatic tissues and in the retinal pigment epithelium (RPE) (Choudhary et al., 2020).
+
+The therapeutic class of LXR agonists has been investigated across several disease states because of their capacity to lower intracellular lipid levels and suppress inflammatory gene expression. T0901317, in particular, has been widely used as an investigative tool in in vitro and in vivo models of dyslipidemia, neurodegeneration, and metabolic dysfunction. Beyond its systemic applications, there is considerable interest in ocular diseases because the RPE is highly dependent on efficient cholesterol efflux for maintaining photoreceptor support and overall retinal homeostasis. In dry AMD, impaired lipid clearance is thought to contribute to the formation of drusen, extracellular deposits that occur beneath the RPE and are associated with progressive cell dysfunction (Choudhary et al., 2020). The synthetic origin, robust oral bioavailability, and extensive pharmacological characterization of T0901317 promote its use as a candidate for repurposing in dry AMD, where the goal is to restore proper lipid handling and reduce inflammation in the RPE.
+
+────────────────────────────────────────────
+Therapeutic History
+
+In preclinical research, the utility of T0901317 has been demonstrated in a number of cellular and animal models focused on lipid dysregulation and inflammation. Multiple studies have shown that treatment with T0901317 robustly activates LXR signaling in diverse cell types. In cultured human RPE cells subjected to oxidant injury or lipid overload stress, treatment with T0901317 resulted in increased expression of cholesterol transporters such as ABCA1 and ABCG1, which are essential for mediating cholesterol efflux from the cell (Choudhary et al., 2020). In these models, activation of LXRs by T0901317 not only upregulated transcription of these crucial lipid-handling proteins, it also preserved mitochondrial integrity and reduced intracellular lipid accumulation—a finding directly relevant to the pathogenesis of dry AMD, where lipid deposition and oxidative stress are prominent features (Choudhary et al., 2020).
+
+Animal models have provided further support for the concept that LXR activation is beneficial to retinal health. Studies using mouse models with genetic deletion of LXR isoforms have shown that deficiency, especially of LXRα (NR1H3), leads to accumulation of sub-RPE lipid deposits, increased inflammation, and impaired visual function (Choudhary et al., 2020). In these models, the phenotype closely resembles early dry AMD, with the formation of drusen-like deposits consisting of both native and oxidized lipids along with an inflammatory microenvironment. These findings suggest that pharmacologically activating LXRs with compounds such as T0901317 could correct the deleterious effects of lipid accumulation by stimulating lipid efflux pathways and concurrently dampening inflammatory signals (Choudhary et al., 2020).
+
+Furthermore, although T0901317 has been most widely explored in metabolic and neurodegenerative contexts, such as studies focusing on atherosclerosis and Alzheimer’s disease models, its mechanism—upregulation of cholesterol transport mechanisms—has direct applicability to diseases characterized by dysfunctional lipid metabolism, like dry AMD. Indeed, a recent preclinical investigation in RPE models indicates that treatment with T0901317, as well as other LXR agonists, can rescue mitochondrial function and reduce cellular lipid load that otherwise predisposes the retina to degeneration (Choudhary et al., 2020). Such findings have bolstered interest within the research community, although clinical use for dry AMD and any veterinary retinal condition remains unproven and is presently confined to preclinical studies (Choudhary et al., 2020).
+
+────────────────────────────────────────────
+Mechanism of Action
+
+The mechanism of action of T0901317 is rooted in its role as an agonist of the liver X receptors LXRα and LXRβ. At the molecular level, T0901317 enters cells and binds directly to the ligand-binding domain of the LXRs. Upon ligand binding, these receptors form heterodimers with RXRs, and the complexes then translocate to the nucleus where they bind to LXR response elements within the promoters of target genes (Choudhary et al., 2020).
+
+Among the critical genes induced by LXR activation are ABCA1 and ABCG1. ABCA1 and ABCG1 are ATP-binding cassette transporters that facilitate cholesterol efflux by exporting cholesterol and phospholipids from the inner leaflet of cell membranes to extracellular acceptors such as apolipoprotein E and high-density lipoprotein (HDL) particles (Storti et al., 2019). This action is pivotal in maintaining the cholesterol balance in RPE cells. The dysregulation of cholesterol efflux has been implicated in the formation of drusen, since accumulated cholesterol under the RPE can contribute to extracellular deposit formation and photoreceptor debris that exacerbates disease progression in dry AMD (Choudhary et al., 2020; Storti et al., 2019).
+
+Beyond the regulation of lipid efflux, LXR activation by T0901317 also triggers anti-inflammatory pathways. LXRs can downregulate the expression of genes encoding pro-inflammatory cytokines by a mechanism often referred to as transrepression; this involves interference with the NF-κB signaling cascade that drives the transcription of inflammatory mediators such as IL-6, inducible nitric oxide synthase (iNOS), and cyclooxygenase-2 (COX-2) (Choudhary et al., 2020). In the retina, such anti-inflammatory effects could mitigate the chronic low-grade inflammation that is associated with dry AMD.
+
+In addition, T0901317 has been shown to protect mitochondrial function. In RPE cells under oxidative stress conditions (for example, when exposed to oxidants like H₂O₂ or cigarette smoke extract), treatment with T0901317 prevents the loss of mitochondrial membrane potential—a critical indicator of mitochondrial integrity and cellular health (Choudhary et al., 2020; Cunza et al., 2021). Preserving mitochondrial function likely contributes indirectly to maintaining efficient autophagy and phagocytic activity, which are necessary for the clearance of photoreceptor outer segments and cellular debris.
+
+Lastly, T0901317 has been reported to regulate genes involved in lipogenesis, such as fatty acid synthase (FASN) and sterol regulatory element-binding protein 1 (SREBF1). Although these pathways typically promote lipid biosynthesis, their balanced regulation is essential in RPE cells, as an appropriate balance between lipid synthesis and efflux helps ensure that lipid levels remain within physiological limits (Choudhary et al., 2020). Through this multifaceted mode of action, T0901317 acts to restore cellular lipid homeostasis while simultaneously reducing pro-inflammatory and oxidative stress signals—a combination that is particularly attractive for the treatment of dry AMD, where these pathological processes converge.
+
+────────────────────────────────────────────
+Expected Effect in Dry AMD
+
+Based on its mechanism of action, T0901317 is expected to exert several beneficial effects in an AMD-relevant setting, particularly by targeting the retinal pigment epithelium. The primary anticipated outcomes are as follows:
+
+1. Enhanced Cholesterol Efflux and Lipid Clearance
+By upregulating ABCA1 and ABCG1 expression in RPE cells, T0901317 should promote the efflux of excess cholesterol and phospholipids. In dry AMD, inefficient removal of lipids from RPE cells leads to the formation of drusen—hallmark extracellular deposits that contribute to retinal degeneration. Reducing intracellular lipid burden would, therefore, decrease both intracellular overload and subsequent extracellular deposit formation (Choudhary et al., 2020; Storti et al., 2019).
+
+2. Reduction of Lipid Deposition and Drusen Formation
+A direct consequence of improved lipid efflux is a reduction in sub-RPE lipid accumulation. Preclinical studies have shown that in mouse models genetically deficient in LXR isoforms, there is marked accumulation of lipids beneath the RPE that closely resembles the pathology observed in early-stage dry AMD (Choudhary et al., 2020). By activating LXRs with T0901317, a normalization of this lipid metabolism is expected to reduce drusen-like deposit formation, thereby preserving the RPE’s structural and functional integrity.
+
+3. Anti-Inflammatory Effects
+Dry AMD is characterized not only by lipid dysregulation but also by a chronic inflammatory state within the retina. Through the suppression of NF-κB–dependent inflammatory signaling, T0901317 is expected to reduce the levels of pro-inflammatory cytokines. This, in turn, should lower the recruitment and activation of macrophages and microglia in the subretinal space, leading to a more quiescent retinal microenvironment (Choudhary et al., 2020; Song et al., 2022).
+
+4. Mitochondrial Preservation and Oxidative Stress Reduction
+Oxidative stress plays a critical role in the degeneration of RPE cells. T0901317’s protective effect on mitochondria—by maintaining mitochondrial membrane potential even under oxidative challenges—should help prevent the cascade of events leading to cellular senescence and apoptosis. In doing so, this compound is anticipated to sustain the phagocytic and autophagic capacity of RPE cells, further contributing to the clearance of photoreceptor debris (Choudhary et al., 2020; Cunza et al., 2021).
+
+5. Improved Autophagic Flux and Lysosomal Function
+Complementary to its other effects, T0901317 is thought to support improved subcellular trafficking. Studies in RPE cells subjected to stress—such as those loaded with vitamin A dimers (A2E)—have revealed that excess cholesterol interferes with the recycling of complement regulatory proteins (e.g., CD59) and impairs lysosomal exocytosis. Treatment with LXR agonists has been shown to reverse these defects, improving organelle trafficking and lysosomal function and thus aiding in the clearance of photoreceptor outer segments and cellular waste products (Tan, 2018).
+
+6. Restoration of RPE Homeostasis and Visual Function
+Together, the actions described above are expected to culminate in an overall improvement in RPE cell health. By promoting lipid efflux, reducing inflammation, and preserving mitochondrial and lysosomal functionality, T0901317 should help maintain the integrity of the RPE and support photoreceptor survival. In animal models, such improvements have been associated with better visual function and delayed progression of retinal degeneration (Choudhary et al., 2020).
+
+Thus, in assays using human RPE cell cultures, ex vivo retinal explants, or in vivo animal models of dry AMD, T0901317 is anticipated to upregulate ABCA1/ABCG1, reduce lipid deposition (leading to fewer drusen-like deposits), lower inflammatory cytokine expression, and enhance mitochondrial and lysosomal integrity. These interrelated effects provide a comprehensive therapeutic rationale for this compound’s use in ameliorating the pathological mechanisms underlying dry AMD.
+
+────────────────────────────────────────────
+Overall Evaluation
+
+Taking into account T0901317’s synthetic origins, its well-documented mechanism of action, and the substantial body of preclinical evidence, the candidate emerges as a promising drug for repurposing in the context of dry AMD. Several key strengths and weaknesses must be considered, as outlined below.
+
+Strengths:
+
+• Mechanistic Precision and Multifaceted Action
+T0901317’s ability to induce the transcription of critical genes such as ABCA1 and ABCG1 directly addresses the lipid dysregulation typical of dry AMD (Choudhary et al., 2020; Storti et al., 2019). This action, combined with its anti-inflammatory effects via inhibition of NF-κB signaling (Choudhary et al., 2020), targets two of the most important pathogenic pathways implicated in dry AMD. Such dual activity—improving cholesterol efflux and reducing inflammation—provides a strong mechanistic rationale for its use.
+
+• Mitochondrial and Lysosomal Protection
+The compound’s demonstrated ability to protect mitochondrial membrane potential and, by extension, reduce oxidative stress is another key asset. Preservation of mitochondrial function is essential for sustaining RPE phagocytosis and autophagic clearance of photoreceptor debris, processes that are disrupted in dry AMD (Choudhary et al., 2020; Cunza et al., 2021). Furthermore, improvements in lysosomal trafficking and function—linked to reduced cholesterol-induced inhibition of receptor recycling—offer additional support for its potential use in this disease (Tan, 2018).
+
+• Preclinical Evidence in AMD-Relevant Models
+Animal models in which LXR function is compromised have consistently shown dry AMD-like phenotypes, including extracellular lipid deposition and RPE degeneration (Choudhary et al., 2020). The reversal of these features upon treatment with LXR agonists in preclinical studies provides further support that activation of LXRs by T0901317 may yield significant therapeutic benefits.
+
+• Oral Bioavailability and Established Use in Experimental Models
+T0901317’s oral bioavailability facilitates systemic administration, and its extensive use as a tool compound in experimental studies means that its pharmacodynamics and pharmacokinetics are well characterized in preclinical settings (Choudhary et al., 2020). This background supports its feasibility for repurposing, provided that future studies can tailor dosing to mitigate off-target effects.
+
+Weaknesses:
+
+• Off-Target Receptor Activation and Pleiotropic Effects
+A significant concern with T0901317 is its lack of absolute receptor specificity. Beyond activating LXRs, it also exhibits agonistic activity toward other nuclear receptors, such as the farnesoid X receptor (FXR) and pregnane X receptor (PXR) (Choudhary et al., 2020). Such off-target actions can lead to side effects—including transient hypertriglyceridemia and potential hepatic steatosis—that may complicate its therapeutic window. This pleiotropy invites the possibility that systematic exposure might lead to adverse effects not solely confined to the eye.
+
+• Limited Clinical Data in Ocular Indications
+While extensive preclinical data support the utility of LXR agonists in models of metabolic and neurodegenerative disorders, direct clinical evidence for the efficacy of T0901317 in dry AMD is still lacking (ClinicalTrials.gov, n.d.). A clinical trials search for T0901317 and related compounds in the context of dry AMD or RPE dysfunction has so far yielded studies largely focused on oncology and systemic conditions. This gap underscores a need for targeted in vivo retinal studies and early-phase clinical trials in AMD patients.
+
+• Potential for Systemic Side Effects
+Given that T0901317 is administered orally and affects systemic lipid metabolism, there is a concern that unintentional activation of LXR pathways in non-ocular tissues could lead to adverse outcomes. Strategies to optimize delivery to the retina—such as local administration via intravitreal injections or implantable devices—may be necessary to harness its benefits while curtailing systemic exposure.
+
+• Complexity of Retina Pathophysiology
+The etiology of dry AMD is multifactorial, involving not only lipid accumulation and inflammation but also genetic predispositions, complement dysregulation, and oxidative stress. While T0901317 targets several of these pathways, the retina’s intricate regulatory networks might also engage compensatory mechanisms that could reduce the compound’s long-term efficacy. Extensive and prolonged studies will be required to determine whether the beneficial effects observed in short-term preclinical experiments can be sustained.
+
+• Need for Further Selectivity Optimization
+Considering the off-target activities, there is an opportunity to develop more selective LXR agonists that retain the beneficial effects on cholesterol efflux and inflammation with a lower risk of interacting with other nuclear receptors. Such optimization would involve structure–activity relationship (SAR) studies to refine T0901317 or its analogs for improved specificity toward RPE cells.
+
+────────────────────────────────────────────
+Overall Assessment and Future Directions
+
+Based on the preclinical and molecular evidence available from the cited literature—itself documenting key aspects of LXR function in the retina (Choudhary et al., 2020; Cunza et al., 2021; Song et al., 2022; Storti et al., 2019; Tan, 2018)—T0901317 represents a promising candidate to repurpose for dry AMD treatment. Its ability to upregulate crucial cholesterol transporters that mediate efflux, reduce inflammatory signaling, and preserve mitochondrial and lysosomal function aligns well with the multifaceted pathological changes observed in AMD. The reported improvements in RPE cell health and retinal function in LXR-deficient animal models further validate the rationale behind this therapeutic strategy.
+
+Nonetheless, several challenges remain before T0901317 can be advanced as a therapy for dry AMD. Refinement is required to better control for potential off-target effects mediated by activation of FXR and PXR. Additionally, dedicated retinal delivery methods might be explored to enhance therapeutic efficacy while limiting systemic exposure. The absence of direct clinical trial data in dry AMD also suggests that further preclinical work—focusing on both dose optimization and long-term safety in AMD-relevant animal models—is needed. Finally, given that the pathophysiology of dry AMD involves multiple interacting cellular processes, combinatorial or adjunctive therapies may eventually be required to achieve significant disease modification.
+
+In conclusion, T0901317 shows robust promise as a repurposed agent for treating dry AMD. Its well-characterized pharmacological profile, targeting of LXR-mediated pathways that govern cholesterol efflux and anti-inflammatory signaling, and the preclinical evidence of its efficacy in reducing lipid deposition and preserving RPE functionality collectively support further investigation. Researchers should now pursue additional in vivo studies that focus specifically on the ocular environment, followed by early-phase clinical trials that assess both the efficacy and potential adverse effects when administered either systemically or via targeted ocular delivery routes. With careful dose optimization and further selectivity enhancements, T0901317 or next-generation LXR agonists may ultimately prove to be valuable additions to the therapeutic arsenal against dry AMD (Choudhary et al., 2020; Song et al., 2022; Storti et al., 2019).
+
+────────────────────────────────────────────
+Final Remarks
+
+The repurposing potential of T0901317 for dry AMD is underpinned by a detailed understanding of the molecular interactions governing lipid metabolism in the RPE. By enhancing cholesterol efflux, mitigating inflammation, and protecting against oxidative damage, T0901317 targets the core pathogenic processes contributing to dry AMD. Although further research is essential to address issues of receptor specificity and systemic exposure, the existing body of evidence provides a compelling rationale to continue its evaluation. With additional refinements and dedicated retinal studies, T0901317 or similar compounds may ultimately represent a breakthrough in the management of dry AMD, a condition for which current treatment options remain limited.
+
+This extensive literature review, supported by data across multiple biomedical, clinical, and biochemical studies, reinforces the potential of T0901317 as a repurposed drug candidate for dry AMD. Future research should focus on deep preclinical in vivo characterization and the development of targeted delivery systems, thereby laying the groundwork for eventual clinical translation.
+
+References
+
+Choudhary, M., Ismail, E. N., Yao, P.-L., Tayyari, F., Radu, R. A., Nusinowitz, S., Boulton, M. E., Apte, R. S., Ruberti, J. W., Handa, J. T., Tontonoz, P., & Malek, G. (2020). LXRs regulate features of age-related macular degeneration and may be a potential therapeutic target. JCI Insight. https://doi.org/10.1172/jci.insight.131928
+
+ClinicalTrials.gov. (n.d.). Clinical query: T0901317 OR liver X receptor agonist OR LXR agonist AND (dry age-related macular degeneration OR macular degeneration OR RPE). Retrieved from https://clinicaltrials.gov
+
+Cunza, N. L., Tan, L. X., Thamban, T., Germer, C. J., Rathnasamy, G., Toops, K. A., & Lakkaraju, A. (2021). Mitochondria-dependent phase separation of disease-relevant proteins drives pathological features of age-related macular degeneration. bioRxiv. https://doi.org/10.1101/2020.07.15.201723
+
+Song, X., Wu, W., Warner, M., & Gustafsson, J.-Å. (2022). Liver X receptor regulation of glial cell functions in the CNS. Biomedicines, 10, 2165. https://doi.org/10.3390/biomedicines10092165
+
+Storti, F., Klee, K., Todorova, V., Steiner, R., Othman, A., van der Velde-Visser, S., Samardzija, M., Meneau, I., Barben, M., Karademir, D., Pauzuolyte, V., Boye, S. L., Blaser, F., Ullmer, C., Dunaief, J. L., Hornemann, T., Rohrer, L., den Hollander, A., von Eckardstein, A., Fingerle, J., Maugeais, C., & Grimm, C. (2019). Impaired ABCA1/ABCG1-mediated lipid efflux in the mouse retinal pigment epithelium leads to retinal degeneration. eLife. https://doi.org/10.7554/elife.45100
+
+Tan, L. X. (2018). Organelle trafficking in health and disease of the retinal pigment epithelium. Unknown Journal.

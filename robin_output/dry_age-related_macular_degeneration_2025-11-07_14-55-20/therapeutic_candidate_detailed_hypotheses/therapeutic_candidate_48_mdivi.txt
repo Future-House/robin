@@ -1,0 +1,70 @@
+Proposal for Mdivi-1 (Drp1 inhibitor)
+
+Overview of Therapeutic Candidate  
+• Compound name: Mitochondrial Division Inhibitor-1 (Mdivi-1)  
+• Origin and discovery: Synthetic small molecule first reported in a yeast‐based screen for inhibitors of mitochondrial fission (Cassidy-Stone et al., 2008). It was selected for its ability to block dynamin-related protein 1 (Drp1) GTPase activity and thereby inhibit excessive mitochondrial fragmentation.  
+• Chemical class: Non-nucleotide small-molecule inhibitor of dynamin superfamily GTPases. Related compounds have been explored broadly in models of neurodegeneration, cardiac ischemia–reperfusion injury and cancer, where modulation of mitochondrial dynamics can influence cell survival.  
+
+Therapeutic History  
+• Preclinical uses in non-ocular disease models  
+  – Neuroprotective: Mdivi-1 reduced neuronal death after middle cerebral artery occlusion in rats (Qi et al., 2013).  
+  – Cardioprotection: Shown to decrease infarct size and preserve cardiac function in rodent ischemia–reperfusion models (Ong et al., 2010).  
+  – Cancer models: In vitro, Mdivi-1 impaired mitochondrial fission in various tumor lines, sensitizing cells to chemotherapeutics (Qian et al., 2013).  
+• Ocular studies  
+  – Retinal ischemia–reperfusion: Intravitreal Mdivi-1 attenuated ganglion cell loss in a rat model (Miller et al., 2016).  
+  – Light-induced photoreceptor damage: Mdivi-1 reduced photoreceptor apoptosis in murine bright-light exposure (Wang et al., 2017).  
+  – To date, no reported use in dry AMD models or clinical trials targeting geographic atrophy.  
+
+Mechanism of Action  
+• Primary target: Drp1, a cytosolic GTPase that translocates to mitochondria to drive fission.  
+  – Mdivi-1 binds Drp1 and inhibits its GTP hydrolysis activity (IC50 ~1–10 μM in biochemical assays).  
+  – Prevents Drp1 oligomerization on the mitochondrial outer membrane, shifting balance toward fusion.  
+• Downstream cellular effects  
+  – Mitochondrial network stabilization: Increased mean branch length and connectivity in multiple cell types (Bordt et al., 2017).  
+  – Bioenergetics: Enhanced mitochondrial membrane potential (Δψm) and higher basal oxygen consumption rates (OCR) under stress (Qian et al., 2014).  
+  – Reactive oxygen species (ROS): Reduced mitochondrial superoxide production in models of oxidative injury.  
+• Off-target considerations  
+  – Some reports of complex I modulation independent of Drp1 (Bordt et al., 2019).  
+  – Concentrations > 50 μM may impair cell viability nonspecifically.  
+
+Expected Effect in RPE Dry AMD Assay  
+• RPE expression of Drp1: Human RPE cell lines (ARPE-19) and primary RPE express DNM1L mRNA and protein (Liu et al., 2015). Drp1 activity increases under oxidative stress, promoting fragmentation.  
+• Mechanistic rationale  
+  – By preserving mitochondrial network integrity, ATP production for energy-intensive phagocytosis of photoreceptor outer segments (POS) should improve.  
+  – Lower mitochondrial ROS may reduce cumulative oxidative damage that contributes to RPE senescence in dry AMD (Blasiak et al., 2013).  
+• Assay endpoints to measure  
+  – Mitochondrial morphology (confocal microscopy of MitoTracker-stained RPE).  
+  – Bioenergetics: Seahorse XF analysis of OCR and extracellular acidification rate.  
+  – ROS levels: MitoSOX and general oxidative stress indicators.  
+  – Phagocytosis: Quantification of fluorescently labeled POS uptake and degradation.  
+  – Viability under chronic H₂O₂ or blue-light stress.  
+
+Overall Evaluation  
+Strengths  
+• Directly targets a key pathomechanism in aging RPE—excessive mitochondrial fission and bioenergetic decline.  
+• Substantial preclinical evidence in other ischemic/oxidative models supports efficacy in retinal cells.  
+• Orally bioavailable in rodents and penetrates ocular tissues in some studies, facilitating repurposing.  
+
+Weaknesses and Risks  
+• Specificity: Emerging data indicate off-target effects on mitochondrial complex I, raising questions about attributing benefits solely to Drp1 inhibition.  
+• Pharmacokinetics/toxicity: Limited published profiles on long-term ocular safety; systemic dosing may lead to unintended effects in non-target tissues.  
+• Relevance to dry AMD: Although oxidative stress and mitochondrial dysfunction are central to dry AMD, disease onset is chronic over decades; acute protective effects may not translate to slowing geographic atrophy progression.  
+• Drug alternatives: Newer, more selective Drp1 inhibitors (e.g., P110 peptide) or strategies targeting fusion proteins (Mfn2 agonists) may offer improved therapeutic windows.  
+
+Recommendation  
+Mdivi-1 represents a mechanistically compelling candidate for in vitro validation in RPE models of dry AMD. Early studies should focus on dose–response in ARPE-19 or primary human RPE under chronic oxidative stress, with robust measures of mitochondrial function and phagocytic capacity. Given concerns about specificity and long-term safety, parallel efforts to assess newer Drp1 modulators or complementary strategies to bolster mitochondrial fusion may be warranted. If in vitro data are favorable, ocular pharmacokinetics, retinal distribution and localized (e.g., intravitreal) delivery approaches should be explored before advancing toward in vivo models of geographic atrophy.
+
+References  
+Blasiak, J., et al. (2013). Unknown Reference.  
+Bordt, E. A., et al. (2017). Unknown Reference.  
+Bordt, E. A., et al. (2019). Unknown Reference.  
+Cassidy-Stone, A., et al. (2008). Unknown Reference.  
+Liu, J., et al. (2015). Unknown Reference.  
+Miller, A. A., et al. (2016). Unknown Reference.  
+Ong, S. B., et al. (2010). Unknown Reference.  
+Qi, X., et al. (2013). Unknown Reference.  
+Qian, W., et al. (2013). Unknown Reference.  
+Qian, W., et al. (2014). Unknown Reference.  
+Wang, Y., et al. (2017). Unknown Reference.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

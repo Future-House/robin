@@ -1,0 +1,49 @@
+Hypothesis: A2E photo-oxidation stress assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: A2E photo-oxidation stress assay
+Reasoning: Loading RPE cultures with the bisretinoid A2E followed by blue-light exposure recapitulates lipofuscin photo-oxidation and lipid peroxidation observed in AMD (Chen et al. 2023; Lenin et al. 2023), with readouts including autofluorescent granules, ROS production, and apoptosis assays.Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+This assay employs ARPE-19 cell cultures loaded with the bisretinoid A2E and subsequently exposed to blue light. The process drives photo‐oxidation of A2E, thereby mimicking lipofuscin degradation and triggering lipid peroxidation within retinal pigment epithelium (RPE) cells. Measured endpoints include increases in autofluorescence, reactive oxygen species (ROS) production detected by fluorescent probes, and activation of apoptotic markers such as caspase‐3. The use of an established RPE cell line enables quantification of both intracellular oxidative markers and cell viability changes (seol2024noveltherapeuticeffects pages 13-15, kim2020suppressiveeffectof pages 6-8).
+
+Biomedical Evidence:  
+Oxidative stress and the chronic accumulation of lipofuscin in the RPE are central to dry age‐related macular degeneration (AMD) pathogenesis. Clinical and experimental studies have linked photo‐oxidative damage, ROS generation, and subsequent apoptosis to the progression of AMD. This assay directly recapitulates these pathogenic mechanisms, thus providing a platform for measuring therapeutically relevant endpoints that underlie the disease’s progression (chen2023oxidativestressin pages 2-3, dontsov2022watersolubleproductsof pages 12-12, abokyi2020centralroleof pages 1-2).
+
+Previous Use:  
+Prior investigations have employed A2E photo‐oxidation assays to screen potential therapeutic compounds. These studies demonstrated that natural antioxidants and other agents can reduce A2E accumulation, mitigate ROS production, and attenuate apoptosis, thereby validating the assay’s utility in identifying protective agents (seol2024noveltherapeuticeffects pages 13-15, kim2020suppressiveeffectof pages 6-8, kushwah2023oxidativestressand pages 13-14).
+
+Overall Evaluation:  
+The major strengths of this assay lie in its mechanistic relevance and reproducibility in modeling the key oxidative stress events observed in dry AMD. However, its reliance on an immortalized cell line may not fully capture the complex physiology of primary RPE, and the acute exposure paradigm does not entirely reflect the chronic nature of AMD. Thus, while valuable for initial screening and mechanistic studies, the assay should be complemented by in vivo models for comprehensive therapeutic validation (kushwah2023oxidativestressand pages 6-7, kushwah2023oxidativestressand pages 7-8, kushwah2023oxidativestressand pages 8-10, pinelli2020areappraisalof pages 1-3, tisi2021theimpactof pages 4-5).
+
+The A2E photo-oxidation stress assay is a robust and disease-relevant model for early-stage drug screening in dry AMD. It effectively mimics key pathological processes but requires additional validation with complementary models to fully capture the disease’s complexity.
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/8d406589-d402-4dd4-b7ce-4cc353ac534d
+
+References:
+1. (seol2024noveltherapeuticeffects pages 13-15): Ayun Seol, Ji-Eun Kim, You-Jeong Jin, Hee-Jin Song, Yu-Jeong Roh, Tae-Ryeol Kim, Eun-Seo Park, Ki-Ho Park, So-Hae Park, Muhammad Salah Uddin, Sang-Woo Lee, Young-Woo Choi, and Dae-Youn Hwang. Novel therapeutic effects of euphorbia heterophylla l. methanol extracts in macular degeneration caused by blue light in a2e-laden arpe-19 cells and retina of balb/c mice. Pharmaceuticals, 17:1193, Sep 2024. URL: https://doi.org/10.3390/ph17091193, doi:10.3390/ph17091193. This article has 2 citations and is from a poor quality or predatory journal.
+
+2. (kim2020suppressiveeffectof pages 6-8): Dong Hee Kim, Yae Rim Choi, J. Shim, Yun-Sang Choi, Yun-Tai Kim, Mina K. Kim, and Min Jung Kim. Suppressive effect of arctium lappa l. leaves on retinal damage against a2e-induced arpe-19 cells and mice. Molecules, 25:1737, Apr 2020. URL: https://doi.org/10.3390/molecules25071737, doi:10.3390/molecules25071737. This article has 24 citations and is from a poor quality or predatory journal.
+
+3. (chen2023oxidativestressin pages 2-3): Jing Chen, Meenakshi Maurya, Kiran Bora, AlexandraK Blomfield, MadelineC Pavlovich, Shuo Huang, and Chi-Hsiu Liu. Oxidative stress in retinal pigment epithelium degeneration: from pathogenesis to therapeutic targets in dry age-related macular degeneration. Neural Regeneration Research, 18:2173-2181, Mar 2023. URL: https://doi.org/10.4103/1673-5374.369098, doi:10.4103/1673-5374.369098. This article has 44 citations and is from a peer-reviewed journal.
+
+4. (dontsov2022watersolubleproductsof pages 12-12): Alexander Dontsov, Marina Yakovleva, Natalia Trofimova, Natalia Sakina, Alexander Gulin, Arseny Aybush, Fedor Gostev, Alexander Vasin, Tatiana Feldman, and Mikhail Ostrovsky. Water-soluble products of photooxidative destruction of the bisretinoid a2e cause proteins modification in the dark. International Journal of Molecular Sciences, 23:1534, Jan 2022. URL: https://doi.org/10.3390/ijms23031534, doi:10.3390/ijms23031534. This article has 16 citations and is from a poor quality or predatory journal.
+
+5. (abokyi2020centralroleof pages 1-2): Samuel Abokyi, Chi-Ho To, Tim T. Lam, and Dennis Y. Tse. Central role of oxidative stress in age-related macular degeneration: evidence from a review of the molecular mechanisms and animal models. Oxidative Medicine and Cellular Longevity, 2020:1-19, Feb 2020. URL: https://doi.org/10.1155/2020/7901270, doi:10.1155/2020/7901270. This article has 186 citations and is from a poor quality or predatory journal.
+
+6. (kushwah2023oxidativestressand pages 13-14): Neetu Kushwah, Kiran Bora, Meenakshi Maurya, Madeline C. Pavlovich, and Jing Chen. Oxidative stress and antioxidants in age-related macular degeneration. Antioxidants, 12:1379, Jul 2023. URL: https://doi.org/10.3390/antiox12071379, doi:10.3390/antiox12071379. This article has 118 citations and is from a poor quality or predatory journal.
+
+7. (kushwah2023oxidativestressand pages 6-7): Neetu Kushwah, Kiran Bora, Meenakshi Maurya, Madeline C. Pavlovich, and Jing Chen. Oxidative stress and antioxidants in age-related macular degeneration. Antioxidants, 12:1379, Jul 2023. URL: https://doi.org/10.3390/antiox12071379, doi:10.3390/antiox12071379. This article has 118 citations and is from a poor quality or predatory journal.
+
+8. (kushwah2023oxidativestressand pages 7-8): Neetu Kushwah, Kiran Bora, Meenakshi Maurya, Madeline C. Pavlovich, and Jing Chen. Oxidative stress and antioxidants in age-related macular degeneration. Antioxidants, 12:1379, Jul 2023. URL: https://doi.org/10.3390/antiox12071379, doi:10.3390/antiox12071379. This article has 118 citations and is from a poor quality or predatory journal.
+
+9. (kushwah2023oxidativestressand pages 8-10): Neetu Kushwah, Kiran Bora, Meenakshi Maurya, Madeline C. Pavlovich, and Jing Chen. Oxidative stress and antioxidants in age-related macular degeneration. Antioxidants, 12:1379, Jul 2023. URL: https://doi.org/10.3390/antiox12071379, doi:10.3390/antiox12071379. This article has 118 citations and is from a poor quality or predatory journal.
+
+10. (pinelli2020areappraisalof pages 1-3): Roberto Pinelli, Francesca Biagioni, Fiona Limanaqi, Miorica Bertelli, Elena Scaffidi, Maico Polzella, Carla Letizia Busceti, and Francesco Fornai. A re-appraisal of pathogenic mechanisms bridging wet and dry age-related macular degeneration leads to reconsider a role for phytochemicals. International Journal of Molecular Sciences, 21:5563, Aug 2020. URL: https://doi.org/10.3390/ijms21155563, doi:10.3390/ijms21155563. This article has 20 citations and is from a poor quality or predatory journal.
+
+11. (tisi2021theimpactof pages 4-5): Annamaria Tisi, Marco Feligioni, Maurizio Passacantando, Marco Ciancaglini, and Rita Maccarone. The impact of oxidative stress on blood-retinal barrier physiology in age-related macular degeneration. Cells, 10:64, Jan 2021. URL: https://doi.org/10.3390/cells10010064, doi:10.3390/cells10010064. This article has 134 citations and is from a poor quality or predatory journal.

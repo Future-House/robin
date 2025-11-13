@@ -1,0 +1,12 @@
+Assay Candidate 1:
+Strategy: Mitochondrial Respiration Rescue Assay
+Reasoning: This assay employs hiPSC-derived or primary human RPE seeded in Seahorse XF plates, exposed to a brief oxidative insult (e.g. H2O2 or NaIO3) to mimic AMD-relevant mitochondrial injury. Basal and maximal oxygen consumption rates (OCR) and spare respiratory capacity are measured within hours, providing a direct readout of compound effects on RPE bioenergetics. Restoration of OCR and reduction of compensatory glycolysis (ECAR) indicate improved mitochondrial function. This approach leverages the central role of mitochondrial dysfunction, NRF2/PGC-1 decline, and respiratory chain damage in dry AMD pathogenesis (Chen et al. 2023; Garcia-Garcia et al. 2022) and offers a rapid, quantitative functional endpoint amenable to medium-throughput screening.
+
+Assay Candidate 2:
+Strategy: Complement Deposition Inhibition Assay
+Reasoning: Using monolayers of iPSC-derived RPE in 96-well format, normal human serum is added as a source of activated complement to induce C3b and membrane attack complex (C5b-9) deposition on the RPE surface. Candidate inhibitors are co-incubated and complement fragment deposition is quantified by high-content immunofluorescence or ELISA after 24 h. This assay directly models drusen-associated complement dysregulation driven by CFH/C3 risk variants and ECM perturbation in dry AMD (Garcia-Garcia et al. 2022; Basyal et al. 2024) and yields a biologically relevant, fast readout of complement blockade efficacy.
+
+Assay Candidate 3:
+Strategy: Lipid and Autofluorescent Granule Clearance Assay
+Reasoning: ARPE-19 or iPSC-derived RPE are preloaded with bis-retinoid A2E or fluorescent free fatty acids to induce lipofuscin and lipid droplet accumulation, hallmarks of impaired autophagy in AMD. Test compounds targeting autophagy/lipophagy pathways are added, and reduction in autofluorescent granules is measured by plate-reader or flow cytometry, while lipid droplet area is quantified via Nile Red high-content imaging. This direct functional assay addresses autophagy impairment, lipofuscin toxicity, and lipid dysregulation central to dry AMD (Kaarniranta et al. 2023; Basyal et al. 2024) and provides a rapid, quantitative metric of cellular clearance capacity.
+

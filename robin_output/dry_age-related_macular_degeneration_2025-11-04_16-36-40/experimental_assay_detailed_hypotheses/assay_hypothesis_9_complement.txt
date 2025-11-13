@@ -1,0 +1,41 @@
+Hypothesis: Complement Membrane Attack Complex Deposition Assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Complement Membrane Attack Complex Deposition Assay
+Reasoning: After incubation with human serum, immunostaining for C5b-9 on RPE surfaces quantifies complement activation. Inhibition of MAC deposition by test compounds demonstrates potential to block chronic complement-mediated injury implicated in drusen-driven inflammation (Armento et al. 2021; Iliescu et al. 2024).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+This assay quantifies complement-mediated injury in dry AMD by measuring the deposition of the membrane attack complex (MAC, C5b-9) on retinal pigment epithelial (RPE) cell monolayers. RPE cells (e.g., ARPE-19 or primary human fetal RPE) are cultured on transwell inserts, incubated with human serum to trigger complement activation, and optionally stimulated with agents like CEP to promote alternative pathway activation. Following incubation, immunostaining with an anti-C5b-9 antibody and fluorescent secondary detection are performed to assess MAC deposition, serving as a direct readout of terminal complement activity (mulfaul2021invitromeasurement pages 7-11, armento2021thecomplementsystem pages 1-2).
+
+Biomedical Evidence:  
+Multiple studies demonstrate that complement dysregulation is central to dry AMD pathogenesis. Genetic variants in regulators such as CFH (e.g., the Y402H substitution) are strongly associated with increased MAC deposition on RPE and subsequent cellular injury. Clinical and experimental data link elevated MAC levels to drusen formation and RPE dysfunction, thereby implicating terminal complement activation as a key contributor to geographic atrophy (armento2021thecomplementsystem pages 1-2, hammadi2023bruch’smembranea pages 12-14, kassa2019complementinhibitionas pages 1-7).
+
+Previous Use:  
+Prior studies have employed MAC deposition assays on RPE cells to screen complement inhibitors, revealing that reduced MAC formation correlates with improved RPE function. These assays have provided insights into sub-lytic MAC effects, such as altered VEGF secretion and barrier disruption, thus proving useful in early-stage drug discovery for complement-targeted interventions (mulfaul2021invitromeasurement pages 7-11, ng2022membraneattackcomplex pages 13-15).
+
+Overall Evaluation:  
+The strengths of this assay include its mechanistic relevance, quantifiable endpoint, and ease of integration into early-stage screening pipelines. It directly models clinically implicated complement overactivation and RPE injury. However, limitations include its inability to fully recapitulate the complex tissue architecture of the retina and the chronic, low-grade complement activation seen in vivo. Despite these weaknesses, the assay remains a robust platform for initial therapeutic evaluation in dry AMD (armento2021thecomplementsystem pages 4-5, lynch2020complementfactorsand pages 2-2).
+
+This assay is a valuable tool for predicting the efficacy of complement-targeted therapies in dry AMD. Its ability to directly measure MAC deposition on RPE cells provides a mechanistically relevant and quantifiable endpoint for screening potential therapeutics.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/2a61b4e8-69fa-409d-801c-5213a8b8c717
+
+References:
+1. (mulfaul2021invitromeasurement pages 7-11): Kelly Mulfaul and Sarah L. Doyle. In vitro measurement of membrane attack complex in rpe cells. Bio-protocol, 11 4:e3916, Feb 2021. URL: https://doi.org/10.21769/bioprotoc.3916, doi:10.21769/bioprotoc.3916. This article has 0 citations and is from a peer-reviewed journal.
+
+2. (armento2021thecomplementsystem pages 1-2): Angela Armento, Marius Ueffing, and Simon J. Clark. The complement system in age-related macular degeneration. Cellular and Molecular Life Sciences: CMLS, 78:4487-4505, Mar 2021. URL: https://doi.org/10.1007/s00018-021-03796-9, doi:10.1007/s00018-021-03796-9. This article has 251 citations.
+
+3. (hammadi2023bruch’smembranea pages 12-14): Sarah Hammadi, Nikolaos Tzoumas, Mariantonia Ferrara, Ingrid Porpino Meschede, Katharina Lo, Claire Harris, Majlinda Lako, and David H. Steel. Bruch’s membrane: a key consideration with complement-based therapies for age-related macular degeneration. Journal of Clinical Medicine, 12:2870, Apr 2023. URL: https://doi.org/10.3390/jcm12082870, doi:10.3390/jcm12082870. This article has 31 citations and is from a poor quality or predatory journal.
+
+4. (kassa2019complementinhibitionas pages 1-7): Enoch Kassa, Thomas A. Ciulla, Rehan M. Hussain, and Pravin U. Dugel. Complement inhibition as a therapeutic strategy in retinal disorders. Expert Opinion on Biological Therapy, 19:335-342, Feb 2019. URL: https://doi.org/10.1080/14712598.2019.1575358, doi:10.1080/14712598.2019.1575358. This article has 107 citations and is from a peer-reviewed journal.
+
+5. (ng2022membraneattackcomplex pages 13-15): Eunice Ng, Nermin Kady, Jane Hu, Arpita Dave, Zhichun Jiang, Jacqueline Pei, Michael Gorin, Anna Matynia, and Roxana Radu. Membrane attack complex mediates retinal pigment epithelium cell death in stargardt macular degeneration. Cells, 11:3462, Nov 2022. URL: https://doi.org/10.3390/cells11213462, doi:10.3390/cells11213462. This article has 21 citations and is from a poor quality or predatory journal.
+
+6. (armento2021thecomplementsystem pages 4-5): Angela Armento, Marius Ueffing, and Simon J. Clark. The complement system in age-related macular degeneration. Cellular and Molecular Life Sciences: CMLS, 78:4487-4505, Mar 2021. URL: https://doi.org/10.1007/s00018-021-03796-9, doi:10.1007/s00018-021-03796-9. This article has 251 citations.
+
+7. (lynch2020complementfactorsand pages 2-2): Anne M Lynch, Alan G Palestine, Brandie D Wagner, Jennifer L Patnaik, Ashley A Frazier-Abel, Marc T Mathias, Frank S Siringo, Vernon Michael Holers, and Naresh Mandava. Complement factors and reticular pseudodrusen in intermediate age-related macular degeneration staged by multimodal imaging. BMJ Open Ophthalmology, 5:e000361, Jan 2020. URL: https://doi.org/10.1136/bmjophth-2019-000361, doi:10.1136/bmjophth-2019-000361. This article has 22 citations and is from a peer-reviewed journal.

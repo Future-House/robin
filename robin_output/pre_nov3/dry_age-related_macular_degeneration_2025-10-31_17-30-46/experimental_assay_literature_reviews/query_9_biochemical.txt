@@ -1,0 +1,62 @@
+Query: Biochemical and genetic regulation of cholesterol and lipid metabolism in RPE cells relevant to dry AMD pathogenesis: role of ABCA1, APOE isoforms, lipid droplet formation, and development of fluorescence-based lipid quantification assays
+
+1. CRISPR‐mediated ABCA1 knockout in ARPE‐19 cells  
+   Hypothesis: Loss of ABCA1 impairs cholesterol efflux and drives lipid droplet (LD) accumulation under oxidative stress.  
+   Assay: Generate ABCA1−/− RPE by CRISPR/Cas9; treat with H₂O₂; stain LDs with BODIPY 493/503 and cholesterol with filipin; quantify by fluorescence microscopy and plate reader.
+
+2. Isogenic iPSC‐RPE lines expressing APOE2, APOE3 or APOE4  
+   Hypothesis: APOE2/RPE exhibit reduced lipid efflux and larger LDs versus APOE3/4, predisposing to drusen‐like deposits.  
+   Assay: Load cells with NBD‐cholesterol; measure efflux to acceptors; quantify intracellular LDs (BODIPY) and cholesterol (filipin).
+
+3. LXR agonist–mediated upregulation of ABCA1/ABCG1  
+   Hypothesis: Pharmacological activation of LXR restores cholesterol homeostasis in RPE by boosting ABCA1/ABCG1 and reducing LD burden.  
+   Assay: Treat RPE with GW3965; measure ABCA1/ABCG1 mRNA by qPCR, efflux of fluorescent cholesterol, and LD content (BODIPY).
+
+4. miR-33 inhibition to derepress ABCA1  
+   Hypothesis: Antagomir against miR-33 increases ABCA1 translation, enhancing cholesterol efflux and diminishing LD formation.  
+   Assay: Transfect RPE with anti–miR-33; quantify ABCA1 protein (Western blot), cholesterol efflux (NBD‐cholesterol), and LDs (BODIPY).
+
+5. ACAT1 inhibition to block cholesterol esterification  
+   Hypothesis: Avasimibe (ACAT1 inhibitor) prevents esterification of free cholesterol, reducing neutral lipid droplet accumulation.  
+   Assay: Dose RPE with avasimibe; stain cholesteryl esters with Nile Red emission shift; quantify LDs and free vs. esterified cholesterol by fluorescence spectroscopy.
+
+6. DGAT1/2 knockdown to limit triglyceride‐LD biogenesis  
+   Hypothesis: Silencing DGAT1 or DGAT2 reduces TAG synthesis, shrinking lipid droplets in RPE.  
+   Assay: Use siRNA against DGAT1/2; measure triglyceride levels by AdipoRed assay; visualize LDs (BODIPY).
+
+7. PLIN2 (ADRP) knockdown to destabilize LDs  
+   Hypothesis: Reducing PLIN2 expression increases lipolysis of LDs, lowering RPE lipid burden.  
+   Assay: Transfect PLIN2 siRNA; stain LDs; measure glycerol release (lipolysis) in medium.
+
+8. Autophagy induction (rapamycin) to enhance lipophagy  
+   Hypothesis: mTOR inhibition triggers autophagy–mediated clearance of lipid droplets, protecting RPE from lipid overload.  
+   Assay: Treat RPE with rapamycin; monitor LC3 lipidation, p62 turnover, and LD clearance (BODIPY/time‐lapse imaging).
+
+9. Adeno‐associated virus (AAV)–driven ABCA1 overexpression  
+   Hypothesis: Gene therapy–level ABCA1 will correct cholesterol efflux deficits and reduce LD accumulation in RPE.  
+   Assay: Transduce RPE with AAV2/8‐ABCA1; measure efflux of fluorescent cholesterol and LD quantification.
+
+10. ApoA1‐mimetic peptide (5A) to drive ABCA1‐dependent efflux  
+    Hypothesis: Synthetic ApoA1 mimetics enhance HDL‐like acceptor function, rescuing cholesterol export and diminishing LDs in RPE.  
+    Assay: Co‐incubate RPE with 5A peptide; quantify efflux of NBD‐cholesterol and LDL‐derived lipids; image LDs.
+
+11. Small‐molecule chaperones to restore misfolded ABCA1  
+    Hypothesis: Pharmacological chaperones bind nascent ABCA1, improve folding/trafficking, and rescue efflux capacity.  
+    Assay: Screen a focused library in ABCA1‐mutant RPE; use fluorescent cholesterol efflux readout and high‐content LD imaging.
+
+12. Lysosomal acid lipase (LAL) overexpression to boost ester hydrolysis  
+    Hypothesis: Upregulating LAL accelerates cholesteryl ester breakdown in lysosomes, limiting LD biogenesis.  
+    Assay: Transduce RPE with lentiviral LIPA; track ester hydrolysis with fluorescent CE analogs; quantify LDs.
+
+13. NPC1 up‐regulation to enhance lysosomal cholesterol export  
+    Hypothesis: Elevated NPC1 activity shuttles cholesterol out of lysosomes to ABCA1 for efflux, reducing LD load.  
+    Assay: Overexpress NPC1; measure lysosomal cholesterol (filipin colocalized with LAMP1), overall efflux, and LD content.
+
+14. High‐throughput fluorescence‐based LD assay development  
+    Strategy: Establish a 96‐well Nile Red or BODIPY 493/503 plate‐reader assay in RPE to screen libraries for lipid‐modulating compounds.  
+    Readout: Automated quantification of neutral lipid fluorescence, validated by microscopic spot checking.
+
+15. Synthetic HDL nanoparticle therapy in RPE cultures  
+    Hypothesis: Reconstituted HDL particles strip excess cholesterol from RPE via ABCA1/ApoE pathways, preventing LD formation.  
+    Assay: Incubate RPE with rHDL (ApoA1 + phospholipid); monitor cholesterol efflux (radiolabeled or fluorescent) and LD reduction.
+

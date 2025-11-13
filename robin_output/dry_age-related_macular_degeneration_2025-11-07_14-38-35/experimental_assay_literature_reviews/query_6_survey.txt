@@ -1,0 +1,47 @@
+Query: survey literature on impaired autophagy and proteostasis in retinal pigment epithelium in dry age-related macular degeneration, including roles of TFEB, LC3-II conversion, p62 accumulation, and autophagosome-lysosome fusion assays in in vitro RPE cultures under stress conditions
+
+1. Hypothesis: Oxidative stress impairs TFEB nuclear translocation in ARPE-19 cells, arresting autophagic flux at the autophagosome–lysosome fusion step.  
+   Assay: Treat ARPE-19 with H₂O₂ ± TFEB overexpression or trehalose; monitor TFEB localization by immunofluorescence, LC3-II levels ± bafilomycin A1 by western blot, p62 accumulation, and fusion via mCherry-GFP-LC3 colocalization with LAMP2.
+
+2. Hypothesis: A2E photooxidation causes lysosomal membrane permeabilization (LMP) in iPSC-derived RPE, blocking autophagosome–lysosome fusion.  
+   Assay: Pulse RPE with A2E + blue light; detect LMP by galectin-3 recruitment and LysoTracker loss, quantify LC3-II and p62, assess fusion with tandem-fluorescent LC3; test rescue with cathepsin D stabilizer or TFEB activator.
+
+3. Hypothesis: Drusen-mimetic lipid extracts induce p62-positive aggresomes in primary human RPE, sequestering LC3-II and halting proteostasis.  
+   Assay: Expose cultures to lipid extracts; quantify p62 puncta and LC3-II by IF and blot, measure autophagic flux with bafilomycin, fusion by live-cell imaging of mCherry-GFP-LC3; evaluate rapamycin or trehalose treatment.
+
+4. Hypothesis: Pro-inflammatory cytokines (TNF-α/IL-1β) activate mTOR in ARPE-19, downregulating TFEB transcription and reducing lysosomal biogenesis.  
+   Assay: Treat with TNF-α/IL-1β ± rapamycin; measure mTOR phosphorylation, TFEB mRNA/protein, LC3-II, p62, fusion assays; test neutralizing antibodies as therapeutic intervention.
+
+5. Hypothesis: Mitochondrial ROS from rotenone triggers AMPK phosphorylation but fails to promote TFEB-mediated autophagy due to lysosomal dysfunction.  
+   Assay: Apply rotenone ± metformin; detect p-AMPK and TFEB nuclear translocation, LC3-II conversion, p62 levels, fusion via tandem LC3 reporter; assess mitochondrial ROS scavengers.
+
+6. Hypothesis: Nrf2 deficiency in aged RPE reduces TFEB promoter activation, impairing autophagic flux and causing p62 accumulation.  
+   Assay: Knock down Nrf2 in ARPE-19; monitor TFEB transcription, LAMP1 expression, LC3-II, p62, fusion by LysoTracker colocalization; test Nrf2 activator (bardoxolone) for rescue.
+
+7. Hypothesis: Advanced glycation end‐products (AGEs) engage RAGE-mTOR signaling in RPE, preventing TFEB nuclear entry and autophagy induction.  
+   Assay: Treat iPSC-RPE with AGEs ± RAGE antagonist; measure mTOR activity, TFEB localization, LC3-II, p62, autophagosome–lysosome fusion; test AGE breakers combined with rapamycin.
+
+8. Hypothesis: Sublytic complement attack (MAC formation) on RPE membranes disrupts lysosomal integrity, inhibiting autophagosome clearance.  
+   Assay: Incubate RPE with human serum ± C5 inhibitor; assess LAMP2 degradation, LysoTracker retention, LC3-II/p62, tandem LC3 fusion assay; explore anti-complement therapy.
+
+9. Hypothesis: Upregulation of miR-27a in dry AMD directly targets TFEB mRNA in RPE, lowering autophagic flux and increasing p62.  
+   Assay: Transfect ARPE-19 with miR-27a mimic or inhibitor; quantify TFEB levels, LC3-II, p62, fusion reporters; evaluate anti-miR-27a oligonucleotides to restore autophagy.
+
+10. Hypothesis: SIRT1 decline in aged RPE reduces deacetylation of autophagy proteins (Atg5, LC3), impairing LC3-II lipidation and fusion with lysosomes.  
+    Assay: Knock down SIRT1; assess Atg5/LC3 acetylation, LC3-II conversion, p62, fusion by mCherry-GFP-LC3; test resveratrol or SIRT1 activators for functional recovery.
+
+11. Hypothesis: Iron overload in RPE increases lysosomal ROS and LMP, leading to p62 buildup and stalled autophagy.  
+    Assay: Treat with ferric ammonium citrate ± deferoxamine; measure galectin-3/LAMP2 colocalization, LC3-II, p62, fusion by tandem LC3, lysosomal ROS probes; evaluate iron chelation therapy.
+
+12. Hypothesis: Oxidized LDL (oxLDL) impairs chaperone-mediated autophagy (CMA) in RPE by downregulating LAMP2A, exacerbating p62 aggregation.  
+    Assay: Expose to oxLDL; quantify LAMP2A, Hsc70 levels, p62, LC3-II, assess autophagosome–lysosome fusion; test retinoic acid derivatives to upregulate LAMP2A.
+
+13. Hypothesis: Oxidative stress decreases SNARE proteins (STX17, VAMP8) expression in RPE, blocking autophagosome–lysosome fusion and enhancing p62 retention.  
+    Assay: H₂O₂ challenge ± SNARE overexpression; monitor STX17/VAMP8 by blot, LC3-II/p62, fusion via live-cell imaging of tandem LC3 constructs; test small-molecule SNARE enhancers.
+
+14. Hypothesis: ER stress from misfolded BEST1 mutants overactivates the unfolded protein response in RPE, saturating proteostasis and inhibiting autophagy.  
+    Assay: Express mutant BEST1 in ARPE-19; measure BiP, CHOP, LC3-II, p62, fusion assay; evaluate chemical chaperones (4-PBA) or UPR modulators to restore autophagy.
+
+15. Hypothesis: Chronic blue-light exposure leads to DHA peroxidation in RPE, impairing lysosomal pH and autophagosome–lysosome fusion.  
+    Assay: Illuminate RPE with blue light ± lutein/zeaxanthin; monitor lysosomal pH by LysoSensor, LC3-II, p62, fusion via mCherry-GFP-LC3; assess carotenoid supplementation for protection.
+

@@ -1,0 +1,66 @@
+Query: studies on nuisance-compound filtering and off-target profiling in mitoQ‐based RPE assays, including counter‐screens for general cytotoxicity, NRF2 activation versus direct mitochondrial ROS scavenging, and human safety data for prioritized leads
+
+1. Probe-interference filtering  
+Hypothesis: Some hits quench or chemically modify the mitoSOX probe rather than genuinely scavenging mitochondrial ROS.  
+Assay: Cell-free and RPE-conditioned medium screens measuring probe fluorescence in the presence of each compound without cells.
+
+2. Mitochondrial membrane-potential uncoupling  
+Hypothesis: Leads dissipate Δψm, artificially lowering ROS production.  
+Assay: TMRM or JC-1 fluorescence in RPE cells to detect changes in membrane potential coincident with ROS reduction.
+
+3. NRF2-dependent antioxidant induction  
+Hypothesis: Hits activate the NRF2 pathway (indirect antioxidant response) rather than direct mitochondrial ROS scavenging.  
+Assay: ARE-luciferase reporter in RPE; qPCR/immunoblot for NRF2 targets (HO-1, NQO1) versus direct DHE/mitoSOX readouts.
+
+4. NADPH oxidase (NOX) off-target inhibition  
+Hypothesis: Compounds lower “mitochondrial” ROS by inhibiting cytosolic NOX enzymes that spill ROS into mitochondria.  
+Assay: Use VAS2870 (NOX inhibitor) as control; measure mitochondrial vs cytosolic ROS with compartment-selective probes.
+
+5. Mitochondrial biogenesis up-regulation  
+Hypothesis: Hits trigger PGC1α-mediated biogenesis, diluting ROS per mitochondrion.  
+Assay: mtDNA copy number, MitoTracker Green volume, PGC1α/TFAM expression in RPE over 48 h.
+
+6. Iron-chelation artifact  
+Hypothesis: Chelation of labile iron by some compounds reduces Fenton reaction–derived ROS.  
+Assay: Calcein-AM fluorescence de-quenching to quantify labile iron pool; compare ROS readouts with/without Fe2+ supplementation.
+
+7. Transporter-modulated probe accumulation  
+Hypothesis: Leads alter OCT or ABC transporter activity, changing mitoSOX uptake.  
+Assay: Co-treatment with known transporter inhibitors (e.g., cimetidine for OCT) and measure probe uptake via flow cytometry.
+
+8. ER stress and UPR induction  
+Hypothesis: Some “ROS-lowering” hits induce ER stress that secondarily modulates mitochondrial function.  
+Assay: XBP1 splicing, BiP/CHOP levels, plus ROS readout to decouple ER stress from direct antioxidant effects.
+
+9. Altered mitochondrial dynamics  
+Hypothesis: Compounds shift fission/fusion balance (DRP1 vs MFN1/2), indirectly impacting ROS generation.  
+Assay: Live-cell imaging of mitochondrial morphology; immunoblot for DRP1 phosphorylation and MFN2 levels.
+
+10. Autophagy/mitophagy activation  
+Hypothesis: Hits clear damaged mitochondria via (mito)autophagy, lowering overall ROS.  
+Assay: LC3-II conversion, p62 turnover, Parkin translocation; test in ATG5-knockdown RPE to confirm mechanism.
+
+11. General cytotoxicity counter-screen  
+Hypothesis: Some leads reduce ROS simply by killing cells or slowing metabolism.  
+Assay: ATP‐luminescence (CellTiter-Glo), LDH release, proliferation assays in parallel with ROS screening.
+
+12. Apoptosis inhibition versus true ROS scavenging  
+Hypothesis: Hits block apoptosis signaling cascades (caspase inhibition), secondarily reducing ROS.  
+Assay: Caspase-3/7 activity, Annexin V/PI staining paired with ROS measurements under assayed stress.
+
+13. Lipid peroxidation scavenging  
+Hypothesis: Compounds preferentially quench lipid-derived radicals (e.g., peroxyl), skewing mitoSOX readout.  
+Assay: C11-BODIPY 581/591 oxidation in RPE to profile lipid versus superoxide scavenging capacity.
+
+14. Complex I/III redox cycling modulation  
+Hypothesis: Hits redox-cycle at respiratory complexes, altering electron flux and ROS release.  
+Assay: Seahorse OCR/ECAR profiling under rotenone/antimycin A challenge to pinpoint site of action.
+
+15. Human safety and off-target profiling  
+Strategy: Prioritized leads screened on primary human hepatocytes, cardiomyocytes, and iPSC-derived RPE for:  
+• Cytotoxicity (ATP, LDH)  
+• hERG channel inhibition  
+• CYP450 (3A4, 2D6) activity  
+• Genotoxicity (γH2AX assay)  
+This panel will flag compounds with unacceptable safety liabilities before in vivo studies.
+

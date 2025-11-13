@@ -1,0 +1,41 @@
+Hypothesis: Tandem RFP–GFP–LC3 reporter imaging assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Tandem RFP–GFP–LC3 reporter imaging assay
+Reasoning: Live-cell imaging of RFP–GFP–LC3 distinguishes autophagosomes (GFP+RFP+) from autolysosomes (RFP+ only) to monitor flux recovery under stress or drug treatment in RPE (Cox et al. 2025; Golestaneh et al. 2018), with automated quantification of vesicle populations.Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+The tandem RFP–GFP–LC3 reporter imaging assay employs a dual-fluorescence construct fused to LC3 to differentiate immature autophagosomes (GFP+RFP+, yellow) from mature autolysosomes (RFP+ only) in live retinal pigment epithelial (RPE) cells. Automated live-cell imaging quantifies vesicle number, size, and distribution in response to stress or drug treatment, with flux controls (e.g., chloroquine) validating alterations in autophagosome–lysosome fusion. This assay is implemented in primary RPE cell cultures, which recapitulate key aspects of autophagy dysfunction seen in dry AMD (cox2025age‐associateddeclinein pages 7-8, tan2018organelletraffickingin pages 31-35).
+
+Biomedical Evidence:  
+Autophagic dysregulation is central to the pathogenesis of dry AMD, where impaired clearance leads to lipofuscin accumulation, oxidative stress, and subsequent RPE degeneration. Disruption in autophagic flux is linked to the accumulation of damaged proteins and organelles, fueling chronic inflammation and cellular demise, all of which are evident in AMD pathology (kaarniranta2023autophagyinagerelated pages 2-3, liton2023autophagyinthe pages 23-24). Hence, the modulation and restoration of autophagic flux remain promising therapeutic targets in the clinical landscape of dry AMD (zhang2015protectiveeffectof pages 1-2).
+
+Previous Use:  
+The tandem reporter has been validated in RPE models to monitor autophagy dynamics, with studies demonstrating that pharmacologic blockade (chloroquine) increases GFP signal accumulation and that treatments such as trehalose enhance autophagic flux (cox2025age‐associateddeclinein pages 7-8, rao2022monitoringbasalautophagy pages 9-11). Its quantifiable outputs have thus been effectively leveraged in early drug discovery studies to correlate flux restoration with disease-relevant cellular responses.
+
+Overall Evaluation:  
+The assay’s strength lies in its capacity for real-time, quantitative analysis of autophagic flux, providing mechanistic insights into autophagosome maturation in RPE cells—a critical event in dry AMD pathogenesis. However, technical caveats such as potential interference from lipofuscin autofluorescence and artefacts from LC3 overexpression require rigorous optimization and complementary validation (rao2022monitoringbasalautophagy pages 9-11, rao2022monitoringbasalautophagy pages 2-4).
+
+This assay is a valuable tool for early-stage screening of autophagy-modulating therapeutics in dry AMD. It offers precise mechanistic readouts essential for advancing drug discovery while demanding careful control of technical variables to ensure reliability.
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/c32a0411-a7e2-45fd-a884-e67b680a0ee1
+
+References:
+1. (cox2025age‐associateddeclinein pages 7-8): Katherine Cox, Gongyu Shi, Neve Read, Mohamed T. Patel, Kepeng Ou, Zijia Liu, Jiahui Wu, Suci Cendanawati, Jenna Le Brun Powell, Pola Goldberg Oppenheimer, Lisa J. Hill, Lindsay B. Nicholson, Andrew D. Dick, and Jian Liu. Age‐associated decline in autophagy pathways in the retinal pigment epithelium and protective effects of topical trehalose in light‐induced outer retinal degeneration in mice. Aging Cell, Apr 2025. URL: https://doi.org/10.1111/acel.70081, doi:10.1111/acel.70081. This article has 1 citations and is from a domain leading peer-reviewed journal.
+
+2. (tan2018organelletraffickingin pages 31-35): LX Tan. Organelle trafficking in health and disease of the retinal pigment epithelium. Unknown journal, 2018.
+
+3. (kaarniranta2023autophagyinagerelated pages 2-3): Kai Kaarniranta, Janusz Blasiak, Paloma Liton, Michael Boulton, Daniel J. Klionsky, and Debasish Sinha. Autophagy in age-related macular degeneration. Autophagy, 19:388-400, May 2023. URL: https://doi.org/10.1080/15548627.2022.2069437, doi:10.1080/15548627.2022.2069437. This article has 200 citations and is from a domain leading peer-reviewed journal.
+
+4. (liton2023autophagyinthe pages 23-24): Paloma B. Liton, Kathleen Boesze-Battaglia, Michael E. Boulton, Patricia Boya, Thomas A. Ferguson, Ian G. Ganley, Anu Kauppinnen, Gordon W. Laurie, Noboru Mizushima, Hideaki Morishita, Rossella Russo, Jaya Sadda, Rajalekshmy Shyam, Debasish Sinha, Debra A. Thompson, and David N. Zacks. Autophagy in the eye: from physiology to pathophysiology. Autophagy Reports, Mar 2023. URL: https://doi.org/10.1080/27694127.2023.2178996, doi:10.1080/27694127.2023.2178996. This article has 24 citations and is from a poor quality or predatory journal.
+
+5. (zhang2015protectiveeffectof pages 1-2): Jiang-Yong Zhang, Yu-jing Bai, Lvzhen Huang, Yun Qi, Qian Zhang, Shaozi Li, Yalin Wu, and Xing Li. Protective effect of autophagy on human retinal pigment epithelial cells against lipofuscin fluorophore a2e: implications for age-related macular degeneration. Cell Death &amp; Disease, 6:e1972-e1972, Nov 2015. URL: https://doi.org/10.1038/cddis.2015.330, doi:10.1038/cddis.2015.330. This article has 117 citations and is from a peer-reviewed journal.
+
+6. (rao2022monitoringbasalautophagy pages 9-11): Sriganesh Ramachandra Rao and Steven J. Fliesler. Monitoring basal autophagy in the retina utilizing cag-mrfp-egfp-map1lc3b reporter mouse: technical and biological considerations. Autophagy, 18:1187-1201, Oct 2022. URL: https://doi.org/10.1080/15548627.2021.1969634, doi:10.1080/15548627.2021.1969634. This article has 20 citations and is from a domain leading peer-reviewed journal.
+
+7. (rao2022monitoringbasalautophagy pages 2-4): Sriganesh Ramachandra Rao and Steven J. Fliesler. Monitoring basal autophagy in the retina utilizing cag-mrfp-egfp-map1lc3b reporter mouse: technical and biological considerations. Autophagy, 18:1187-1201, Oct 2022. URL: https://doi.org/10.1080/15548627.2021.1969634, doi:10.1080/15548627.2021.1969634. This article has 20 citations and is from a domain leading peer-reviewed journal.

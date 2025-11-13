@@ -1,0 +1,36 @@
+Query: Compile a comprehensive list and evaluation of quantitative biochemical and imaging-based readouts suitable for high-throughput cell culture assays in dry age-related macular degeneration research, including reactive oxygen species detection, mitochondrial membrane potential assays, transepithelial electrical resistance measurements, tight junction immunofluorescence, and complement deposition immunoassays.
+
+High-throughput, plate-compatible pipelines are established for RPE/barrier assays and support in-plate viability imaging, ATP-based proliferation/metabolism, and confocal immunofluorescence without sample transfer, which improves consistency and parallelization; microphysiological PMMA devices further reduce small-molecule absorption compared with PDMS, aiding translational readouts (lopezbernardoUnknownyear1403dhydrogelsand pages 16-18). Medium-throughput 96-well implementations for iPSC-RPE/retinal organoids have been demonstrated, enabling screening-scale imaging and immunoassays (watson2023unravellingstargardtdisease pages 215-218).
+
+Transepithelial electrical resistance (TEER) is a quantitative electrical readout of barrier tightness that correlates with tight-junction formation; values >500 Ω·cm2 are reported in vitro, but TEER requires polarized monolayers (transwells or organ-on-chip), limiting direct use in 3D RPE organoids where dextran permeability assays provide an alternative barrier metric (mesch2021…foragerelated pages 74-77). TEER has been operationalized in plate-compatible MPS and used to confirm confluence within a week; functional permeability readouts such as albumin clearance are also quantifiable in chip contexts (lopezbernardoUnknownyear1403dhydrogelsand pages 16-18).
+
+Tight-junction immunofluorescence (e.g., ZO-1) is a core imaging readout that correlates with high TEER and confirms epithelial identity/polarity; confocal IF workflows and analysis pipelines are documented and compatible with transwell-grown polarized RPE (mesch2021…foragerelated pages 70-74, mesch2021…foragerelated pages 43-47). TEM provides ultrastructural confirmation of junctions and polarity, while organoid autofluorescence/pigmentation can necessitate protocol adaptations and complicate quantification (mesch2021…foragerelated pages 52-59, mesch2021…foragerelated pages 74-77).
+
+Complement deposition immunoassays are directly applicable: iPSC-RPE show immunodetectable C3 and MAC deposition after challenge, and complement factors are measurable at protein and mRNA levels; human serum exposure modulates C3, though variability is noted and quantitative performance metrics are not provided (watson2023unravellingstargardtdisease pages 215-218, mesch2021…foragerelated pages 70-74, mesch2021…foragerelated pages 77-79).
+
+Reactive oxygen species (ROS) and mitochondrial membrane potential (MMP) assays are biologically motivated—RPE generate high mitochondrial ROS and polarization increases stress resistance—but the excerpts lack specific probe/kit details; available imaging hardware and filter sets support such live-cell readouts, while fixation-heavy workflows and intrinsic autofluorescence in aged/organoid RPE are practical constraints (parikh2023singlecelltranscriptomicsreveals pages 8-8, mesch2021…foragerelated pages 43-47, mesch2021…foragerelated pages 52-59, mesch2021…foragerelated pages 31-34, mesch2021…foragerelated pages 95-98).
+
+High-throughput AMD-relevant readouts with the strongest methodological support here are TEER (monolayers/chips), dextran permeability (organoids), tight-junction IF with confocal/TEM validation, and complement deposition immunodetection in 96-well–compatible workflows. ROS and MMP assays are appropriate but require protocols beyond these excerpts; instrumentation and biological context are in place, with autofluorescence and live-cell compatibility as key caveats (lopezbernardoUnknownyear1403dhydrogelsand pages 16-18, mesch2021…foragerelated pages 74-77, watson2023unravellingstargardtdisease pages 215-218, mesch2021…foragerelated pages 43-47, parikh2023singlecelltranscriptomicsreveals pages 8-8).
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/876cbde0-d121-4f18-bd0a-58ea8eb86b63
+
+References:
+1. (lopezbernardoUnknownyear1403dhydrogelsand pages 16-18): E Lopez-Bernardo. 140-3d hydrogels and bioinks for realistic in vitro modelling and bioprinting. Unknown journal, Unknown year.
+
+2. (watson2023unravellingstargardtdisease pages 215-218): AM Watson. Unravelling stargardt disease (stgd1): modelling genotype-phenotype correlations and unresolved genetic variants in ipsc-derived retinal organoids. Unknown journal, 2023.
+
+3. (mesch2021…foragerelated pages 74-77): L Mesch. … for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells in 2d and 3d cultures. Unknown journal, 2021.
+
+4. (mesch2021…foragerelated pages 70-74): L Mesch. … for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells in 2d and 3d cultures. Unknown journal, 2021.
+
+5. (mesch2021…foragerelated pages 43-47): L Mesch. … for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells in 2d and 3d cultures. Unknown journal, 2021.
+
+6. (mesch2021…foragerelated pages 52-59): L Mesch. … for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells in 2d and 3d cultures. Unknown journal, 2021.
+
+7. (mesch2021…foragerelated pages 77-79): L Mesch. … for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells in 2d and 3d cultures. Unknown journal, 2021.
+
+8. (parikh2023singlecelltranscriptomicsreveals pages 8-8): Bhav Harshad Parikh, Paul Blakeley, Kakkad Regha, Zengping Liu, Binxia Yang, Mayuri Bhargava, Daniel Soo Lin Wong, Queenie Shu Woon Tan, Claudine See Wei Wong, Hao Fei Wang, Abdurrahmaan Al-Mubaarak, Chai Chou, Chui Ming Gemmy Cheung, Kah Leong Lim, Veluchamy Amutha Barathi, Walter Hunziker, Gopal Lingam, Tim Xiaoming Hu, and Xinyi Su. Single-cell transcriptomics reveals maturation of transplanted stem cell–derived retinal pigment epithelial cells toward native state. Proceedings of the National Academy of Sciences of the United States of America, Jun 2023. URL: https://doi.org/10.1073/pnas.2214842120, doi:10.1073/pnas.2214842120. This article has 17 citations and is from a highest quality peer-reviewed journal.
+
+9. (mesch2021…foragerelated pages 31-34): L Mesch. … for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells in 2d and 3d cultures. Unknown journal, 2021.
+
+10. (mesch2021…foragerelated pages 95-98): L Mesch. … for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells in 2d and 3d cultures. Unknown journal, 2021.

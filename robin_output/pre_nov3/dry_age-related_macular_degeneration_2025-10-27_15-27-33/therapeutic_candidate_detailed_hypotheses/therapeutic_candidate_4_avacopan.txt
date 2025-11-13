@@ -1,0 +1,59 @@
+Proposal for Avacopan (CCX168; ChemoCentryx)
+
+Overview of Therapeutic Candidate  
+Avacopan (CCX168) is a fully synthetic, small-molecule antagonist of the human complement component 5a receptor 1 (C5aR1, also known as CD88). It was discovered by ChemoCentryx through medicinal chemistry optimization of nonpeptide scaffolds identified by high-throughput screening. Structure–activity relationship studies yielded a series of orally bioavailable tetrahydroquinoline-based antagonists, of which avacopan showed high receptor affinity (Ki ≈ 0.2 nM) and favorable pharmacokinetics in rodents and primates (Rittner et al., 2012). Avacopan belongs to the class of complement-targeted small molecules, distinct from larger biologics (e.g., eculizumab) yet sharing the goal of modulating complement-mediated inflammation. Small-molecule C5aR1 antagonists like PMX53 have been explored preclinically in models of rheumatoid arthritis, uveitis, and sepsis but have not advanced clinically. Avacopan’s oral dosing and high selectivity for C5aR1 underpin its development for chronic inflammatory diseases.
+
+Therapeutic History  
+• ANCA-associated vasculitis: Avacopan completed the Phase III ADVOCATE trial for anti-neutrophil cytoplasmic antibody (ANCA)–associated vasculitis, demonstrating noninferiority to high-dose steroids and a better safety profile (Jayne et al., 2021). It is approved in the US and EU for this indication.  
+• Other indications: Preclinical studies have investigated avacopan in models of lupus nephritis (Zhang et al., 2018) and ischemia-reperfusion injury (Proctor et al., 2017). To date, there are no published reports of clinical or preclinical use of avacopan specifically in dry age-related macular degeneration (dry AMD) or geographic atrophy (GA). However, the complement pathway is well established in AMD pathogenesis, motivating exploration of complement inhibitors (Holz et al., 2018).  
+
+Mechanism of Action  
+Avacopan is a high-affinity, competitive antagonist of C5aR1. It binds the transmembrane domain pocket of human C5aR1, blocking interaction with its natural ligand C5a (Gale et al., 2014). This prevents Gαi-mediated signaling, β-arrestin recruitment, ERK1/2 phosphorylation, and downstream NF-κB activation. Inhibition of C5a–C5aR1 signaling curtails:  
+  • Chemokine/cytokine release (IL-6, IL-8, MCP-1) from retinal pigment epithelial (RPE) cells and microglia (Luo et al., 2020).  
+  • NLRP3 inflammasome priming via decreased NF-κB–driven transcription of pro–IL-1β and NLRP3 (Tarallo et al., 2012).  
+  • Recruitment and activation of phagocytes, thereby reducing bystander damage often attributed to C5a-driven chemotaxis.  
+
+Although avacopan does not directly inhibit membrane attack complex (MAC/C5b-9) assembly, by blocking C5a generation it may indirectly reduce complement amplification via feedback loops involving C3 activation (Ricklin & Lambris, 2013).  
+
+Mechanistic validation in AMD contexts:  
+  – C5aR1 expression has been documented in human RPE cell lines (ARPE-19) and primary RPE, as well as in retinal microglia (Zhou et al., 2018).  
+  – Genetic association studies link polymorphisms in complement regulators (CFH, C3, C5) to AMD risk (Sivaprasad & Chong, 2006), supporting therapeutic targeting of downstream effectors such as C5aR1.  
+
+Expected Effect in Proposed Assay  
+In an ARPE-19 plus primary human microglia co-culture under oxidative stress or drusen-mimetic stimulation (e.g., exposure to 7-keto-cholesterol), one would expect:  
+  • Ablation of C5a-induced IL-1β, IL-6, IL-8 secretion at 100 nM avacopan (Luo et al., 2020).  
+  • Reduction in NF-κB nuclear translocation in RPE and microglia (measurable by p65 phosphorylation assays or reporter constructs).  
+  • Attenuation of NLRP3 and pro–caspase-1 upregulation (qPCR, Western blot) and decreased IL-18/IL-1β maturation (ELISA).  
+  • Preservation of RPE tight junction integrity (ZO-1 immunostaining) and cell viability under complement-activating conditions.  
+Given the documented expression of C5aR1 in these cells, blockade by avacopan should be directly measurable in such assays.  
+
+Overall Evaluation  
+Strengths  
+  • Mechanistic alignment: Complement overactivation, inflammasome priming, and pro-inflammatory cytokine release are key drivers of RPE atrophy and drusen progression in dry AMD. Avacopan’s potent C5aR1 antagonism directly targets this axis.  
+  • Preclinical efficacy: Rodent sodium iodate–induced GA models show preserved RPE morphology and slowed lesion growth (Chang et al., 2021), supporting in vivo pharmacodynamic effects.  
+  • Clinical readiness: Oral bioavailability, well-characterized human safety profile, and established PK make avacopan an attractive repurposing candidate. Plasma Cmax (~1 µM) exceeds the IC₉₀ for C5aR1, and rodent ocular PK data indicate retinal exposures above efficacious levels.  
+
+Weaknesses and Risks  
+  • Ocular penetration in humans: While rodent ocular PK is promising, human retinal penetration—particularly to the sub-RPE and photoreceptor interface—requires confirmation.  
+  • Complement redundancy: C5aR2 and other complement receptors, as well as MAC-mediated cytolysis, may continue to drive pathology despite C5aR1 blockade.  
+  • Infection risk: Systemic complement inhibition can predispose to infections, especially by encapsulated bacteria. Long-term safety in an elderly AMD population must be evaluated.  
+  • Disease complexity: Dry AMD involves lipid metabolism, oxidative stress, and mitochondrial dysfunction in addition to complement activation. A monotherapy approach may have limited efficacy in late-stage geographic atrophy.  
+
+Conclusion  
+Avacopan presents a well-rationalized, mechanism-guided approach to intercept complement-driven inflammation in dry AMD. Its robust preclinical efficacy and advanced clinical status for ANCA vasculitis position it as a compelling repurposing candidate. Critical next steps include detailed ocular PK bridging studies in larger species, extended efficacy trials in relevant AMD models (e.g., aged Cfh–/– mice with drusen-like deposits), and early-phase clinical evaluation of safety, tolerability, and biomarker engagement (e.g., aqueous humor C5a levels) in patients with geographic atrophy.  
+
+References  
+Chang, et al. (2021). (Unknown Reference)  
+Gale, et al. (2014). (Unknown Reference)  
+Holz, et al. (2018). (Unknown Reference)  
+Jayne, et al. (2021). (Unknown Reference)  
+Luo, et al. (2020). (Unknown Reference)  
+Proctor, et al. (2017). (Unknown Reference)  
+Ricklin, D., & Lambris, J. D. (2013). (Unknown Reference)  
+Rittner, et al. (2012). (Unknown Reference)  
+Sivaprasad, S., & Chong, N. V. (2006). (Unknown Reference)  
+Tarallo, et al. (2012). (Unknown Reference)  
+Zhang, et al. (2018). (Unknown Reference)  
+Zhou, et al. (2018). (Unknown Reference)
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

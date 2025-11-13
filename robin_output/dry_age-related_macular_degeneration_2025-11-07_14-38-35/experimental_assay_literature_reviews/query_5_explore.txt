@@ -1,0 +1,64 @@
+Query: explore mechanistic underpinnings of NLRP3 inflammasome activation in dry age-related macular degeneration, focusing on upstream signals such as drusen components, cholesterol crystals, and oxidative stress, and downstream IL-1β/IL-18 secretion assays in RPE cell culture models
+
+Below are 15 distinct mechanistic hypotheses (with accompanying cell-culture assays) or therapeutic strategies for probing or modulating NLRP3 inflammasome activation in RPE models of dry AMD. Each can be read out by IL-1β/IL-18 secretion, caspase-1 activation, pro-IL-1β/18 expression or upstream signal‐specific reporters.  
+
+1. C1q–TLR4/Myd88 priming  
+   • Hypothesis: drusen‐associated complement C1q binds TLR4 on RPE, drives NF-κB–dependent pro-IL-1β/18 expression (Signal 1).  
+   • Assay: treat ARPE-19 or primary hRPE with recombinant C1q ± TLR4 inhibitor (TAK-242). Read out pro-IL-1β mRNA, IL-1β release after ATP “Signal 2.”  
+
+2. Cholesterol-crystal-induced lysosomal destabilization  
+   • Hypothesis: phagocytosed unesterified cholesterol crystals rupture RPE lysosomes, releasing cathepsin B to activate NLRP3.  
+   • Assay: feed RPE cholesterol crystals, monitor lysosomal integrity (LysoTracker leakage), inhibit cathepsin B (CA-074Me), measure caspase-1 p20 and IL-18.  
+
+3. 7-Ketocholesterol–MitoROS axis  
+   • Hypothesis: drusen‐derived 7-ketocholesterol augments mitochondrial ROS, triggering NLRP3.  
+   • Assay: treat RPE with 7-ketoChol, quantify mitoROS (MitoSOX), block with MitoTEMPO, read caspase-1 activity and IL-1β secretion.  
+
+4. Oxidized LDL/CD36–TLR4 co-receptor signaling  
+   • Hypothesis: oxLDL in drusen binds CD36/TLR4, cooperatively priming NLRP3 via NF-κB.  
+   • Assay: RPE + oxLDL ± anti-CD36 antibody or TLR4 siRNA, measure pro-IL-1β transcription and mature IL-1β release after nigericin.  
+
+5. Amyloid-β oligomers & K+ efflux  
+   • Hypothesis: drusen-associated Aβ oligomers deliver Signal 1 via TLR2 and Signal 2 via K+ efflux.  
+   • Assay: treat RPE with Aβ42 oligomers, block glyburide (K+ channel inhibitor), assess IL-18 release and intracellular K+ by PBFI dye.  
+
+6. C3a/C5a receptor–mediated priming  
+   • Hypothesis: complement split products in drusen (C3a/C5a) drive NLRP3 priming through C3aR/C5aR–Gαi.  
+   • Assay: add C3a or C5a peptides to RPE, use C3aR/C5aR antagonists, quantify pro-caspase-1 and IL-1β release after ATP.  
+
+7. Advanced glycation endproducts (AGEs)–RAGE signaling  
+   • Hypothesis: glycated drusen proteins engage RAGE on RPE, upregulate NLRP3 components.  
+   • Assay: expose RPE to defined AGE-albumin, block RAGE with FPS-ZM1, monitor NF-κB nuclear translocation and IL-18 secretion.  
+
+8. Photoreceptor outer segment (POS) overload  
+   • Hypothesis: repeated POS ingestion by RPE causes lysosomal overload and NLRP3 activation.  
+   • Assay: feed fluorescently labeled POS daily, track DQ-BSA processing, inhibit autophagy or cathepsins, measure IL-1β.  
+
+9. A2E–photooxidative stress  
+   • Hypothesis: lipofuscin pigment A2E under blue-light irradiation generates ROS that provide both priming and activation signals for NLRP3.  
+   • Assay: load RPE with A2E, irradiate at 430 nm, scavenge ROS with N-acetylcysteine, read caspase-1 FLICA staining and IL-1β.  
+
+10. Cytosolic mitochondrial DNA (mtDNA) sensing  
+   • Hypothesis: chronic oxidative stress leads to mtDNA release into the cytosol, triggering NLRP3 via cGAS–STING priming.  
+   • Assay: induce oxidative stress (H2O2), use DNase I in permeabilized cells or cGAS siRNA, measure pro-IL-18 induction and inflammasome speck formation.  
+
+11. Hexokinase–VDAC dissociation by cholesterol crystals  
+   • Hypothesis: cholesterol crystals displace hexokinase II from mitochondrial VDAC, causing MAVS‐dependent NLRP3 assembly.  
+   • Assay: treat RPE with crystals, add cell-permeant HK-mimetic peptide, monitor HK2 localization, IL-1β release.  
+
+12. NLRP3 blockade with MCC950  
+   • Strategy: test the small-molecule inhibitor MCC950 for its ability to abrogate IL-1β/IL-18 release in RPE challenged with mixed drusen extracts (native drusen isolate).  
+   • Assay: co-treat RPE + drusen extract with MCC950, quantify mature cytokines and ASC speck counts by immunofluorescence.  
+
+13. Autophagy enhancement (rapamycin)  
+   • Strategy: boost RPE autophagy to clear drusen constituents and reduce NLRP3 activation.  
+   • Assay: pre-treat RPE with rapamycin or Torin1, then add cholesterol crystals or 7-ketoChol, evaluate LC3 lipidation and IL-1β secretion.  
+
+14. microRNA-223 mimic delivery  
+   • Strategy: deliver miR-223 mimic (lipid nanoparticle) to downregulate Nlrp3 mRNA in RPE under oxidative/drusen stress.  
+   • Assay: transfect RPE with miR-223 mimic or control, challenge with H2O2 + cholesterol crystals, measure NLRP3 protein and IL-18 release.  
+
+15. Mitochondria-targeted ROS scavenger nanocarrier  
+   • Strategy: encapsulate MitoQ or SS-31 into RPE‐targeted nanoparticles to quench mitochondrial ROS and prevent NLRP3 activation.  
+   • Assay: treat RPE with nanocarrier + 7-ketoChol, compare free vs. encapsulated antioxidant, quantify mitoROS and IL-1β secretion.
+

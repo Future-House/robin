@@ -1,0 +1,24 @@
+Query: What advanced human cell culture models—including induced pluripotent stem cell-derived RPE, co-cultures with choroidal endothelial cells, or retinal organoids—most accurately recapitulate key pathophysiological features of dry AMD, and what performance metrics should be used to benchmark each model’s suitability for drug evaluation?
+
+Advanced human cell culture models that recapitulate dry AMD include patient‐derived hiPSC‑RPE monocultures, co‑culture systems with choroidal endothelial cells, and 3D retinal organoids. hiPSC‑RPE cultured on aged Bruch’s membrane mimetics or nitrite‑modified ECM reproduce key disease phenotypes—such as reduced phagocytosis, impaired adhesion, altered gene expression, and increased drusen‐related proteins and inflammatory mediators—which can be quantitatively benchmarked by measuring phagocytic activity, cell viability, ECM attachment, and molecular profiles (dujardin2024developmentofa pages 267-268, dujardin2024developmentofa pages 274-276).
+
+Co‑culture platforms that combine hiPSC‑RPE with choroidal endothelial cells (and sometimes pericytes or fibroblasts) offer enhanced structural and functional fidelity by promoting basement membrane remodeling, endothelial fenestration, and improved barrier properties. These systems can be evaluated using performance metrics such as transepithelial electrical resistance (TEER), permeability assays, VEGF/PEDF balance, and endothelial maturation markers (bharti2022cellculturemodels pages 14-16, dujardin2024developmentofa pages 273-274).
+
+Retinal organoids, particularly long‐term hiPSC‑derived RPE organoids, provide a more physiologic 3D environment that replicates retinal stratification, pigmentation, and Bruch’s membrane-like structures. Benchmarking these models involves assessing structural endpoints (ultrastructural integrity, drusen-like deposit formation), functional assays (photoreceptor outer segment phagocytosis, TEER), and expression of RPE maturity markers (mesch2021towardsanin pages 74-77, 김지호2025developmentofa pages 14-21).
+
+Patient‑derived hiPSC‑RPE, co‑culture systems with choroidal endothelial cells, and retinal organoids are complementary in capturing dry AMD pathophysiology. Measurement of functional, molecular, and structural endpoints is essential for robust drug screening.
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/a303942c-ad9d-4df2-8680-efa105008c96
+
+References:
+1. (dujardin2024developmentofa pages 267-268): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+2. (dujardin2024developmentofa pages 274-276): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+3. (bharti2022cellculturemodels pages 14-16): Kapil Bharti, Anneke I. den Hollander, Aparna Lakkaraju, Debasish Sinha, David S. Williams, Silvia C. Finnemann, Catherine Bowes-Rickman, Goldis Malek, and Patricia A. D'Amore. Cell culture models to study retinal pigment epithelium-related pathogenesis in age-related macular degeneration. Experimental Eye Research, 222:109170, Sep 2022. URL: https://doi.org/10.1016/j.exer.2022.109170, doi:10.1016/j.exer.2022.109170. This article has 66 citations and is from a peer-reviewed journal.
+
+4. (dujardin2024developmentofa pages 273-274): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+5. (mesch2021towardsanin pages 74-77): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.
+
+6. (김지호2025developmentofa pages 14-21): 김지호. Development of a reproducible high-throughput microphysiological system. Unknown journal, 2025.

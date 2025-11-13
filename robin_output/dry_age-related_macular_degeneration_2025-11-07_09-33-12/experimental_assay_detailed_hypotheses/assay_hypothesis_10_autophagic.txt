@@ -1,0 +1,31 @@
+Hypothesis: Autophagic flux reporter assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Autophagic flux reporter assay
+Reasoning: Transduce RPE with mCherry-GFP-LC3 and monitor autophagosome maturation and clearance in live-cell imaging ± candidate compounds. Defective autophagy and mitophagy underlie RPE degeneration in dry AMD (Golestaneh et al., 2018; Nita & Grzybowski, 2023).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview: This assay involves transducing cultured primary RPE cells with a tandem mCherry‐GFP‐LC3 reporter to directly monitor autophagosome formation, maturation, and lysosomal clearance via live‐cell imaging. The dual‐fluorophore system distinguishes autophagosomes (GFP+mCherry, yellow) from autolysosomes (mCherry only, red), providing a quantitative measure of autophagic flux in a cell type central to dry AMD pathogenesis (cox2025age‐associateddeclinein pages 7-8, mcwilliams2019acomparativemap pages 3-4).
+
+Biomedical Evidence: Defective autophagy and impaired clearance of damaged organelles are well documented features of dry AMD, contributing to RPE degeneration, oxidative stress, and metabolic shifts. Post-mitotic RPE cells depend on efficient autophagic flux to maintain homeostasis, and clinical and experimental studies have linked autophagosomal accumulation with disease progression (golestaneh2018dysfunctionalautophagyin pages 10-11, golestaneh2018dysfunctionalautophagyin pages 9-10).
+
+Previous Use: The mCherry‐GFP‐LC3 reporter has been successfully used in RPE and ocular tissues to assess autophagic flux under various pharmacological treatments, where agents such as chloroquine and trehalose have demonstrated altered autophagosome maturation (cox2025age‐associateddeclinein pages 7-8, mcwilliams2019acomparativemap pages 3-4).
+
+Overall Evaluation: This assay is a powerful tool for early-stage drug discovery as it provides a real-time, dynamic readout of autophagy—a process intimately linked to dry AMD pathology. Its strengths lie in direct visualization, quantitative assessment, and relevance to cellular dysfunction observed in AMD. Potential limitations include the complexity of LC3-associated phagocytosis in RPE and the need to control for circadian variations in autophagic activity, necessitating corroboration with complementary biochemical analyses (cox2025age‐associateddeclinein pages 7-8, mcwilliams2019acomparativemap pages 3-4).
+
+The autophagic flux reporter assay is therefore a promising approach for evaluating therapeutics in dry AMD. It delivers critical insights into autophagosome dynamics that can be directly targeted by candidate compounds.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/088c50cc-0105-48d1-ac1e-40c2f75a1867
+
+References:
+1. (cox2025age‐associateddeclinein pages 7-8): Katherine Cox, Gongyu Shi, Neve Read, Mohamed T. Patel, Kepeng Ou, Zijia Liu, Jiahui Wu, Suci Cendanawati, Jenna Le Brun Powell, Pola Goldberg Oppenheimer, Lisa J. Hill, Lindsay B. Nicholson, Andrew D. Dick, and Jian Liu. Age‐associated decline in autophagy pathways in the retinal pigment epithelium and protective effects of topical trehalose in light‐induced outer retinal degeneration in mice. Aging Cell, Apr 2025. URL: https://doi.org/10.1111/acel.70081, doi:10.1111/acel.70081. This article has 1 citations and is from a domain leading peer-reviewed journal.
+
+2. (mcwilliams2019acomparativemap pages 3-4): Thomas G. McWilliams, Alan R. Prescott, Beatriz Villarejo-Zori, Graeme Ball, Patricia Boya, and Ian G. Ganley. A comparative map of macroautophagy and mitophagy in the vertebrate eye. Autophagy, 15:1296-1308, Feb 2019. URL: https://doi.org/10.1080/15548627.2019.1580509, doi:10.1080/15548627.2019.1580509. This article has 89 citations and is from a domain leading peer-reviewed journal.
+
+3. (golestaneh2018dysfunctionalautophagyin pages 10-11): Nady Golestaneh, Yi Chu, Yang-Yu Xiao, Gianna L Stoleru, and Alexander C Theos. Dysfunctional autophagy in rpe, a contributing factor in age-related macular degeneration. Cell Death &amp; Disease, 8:e2537-e2537, Jan 2018. URL: https://doi.org/10.1038/cddis.2016.453, doi:10.1038/cddis.2016.453. This article has 394 citations and is from a peer-reviewed journal.
+
+4. (golestaneh2018dysfunctionalautophagyin pages 9-10): Nady Golestaneh, Yi Chu, Yang-Yu Xiao, Gianna L Stoleru, and Alexander C Theos. Dysfunctional autophagy in rpe, a contributing factor in age-related macular degeneration. Cell Death &amp; Disease, 8:e2537-e2537, Jan 2018. URL: https://doi.org/10.1038/cddis.2016.453, doi:10.1038/cddis.2016.453. This article has 394 citations and is from a peer-reviewed journal.

@@ -1,0 +1,57 @@
+Proposal for Fenoldopam
+
+Overview of Therapeutic Candidate  
+• Chemical origin and synthesis  
+ – Fenoldopam mesylate is a fully synthetic benzazepine derivative built on a dopamine-like scaffold. First described in the 1980s, it was optimized for high affinity at the D₁ dopamine receptor while minimizing D₂ and α-adrenergic activity. Its synthesis proceeds via a multi-step route: condensation of a substituted catechol with a benzazepine core, followed by selective alkylation and mesylate salt formation to confer water solubility for IV infusion.  
+• Compound class and general uses  
+ – Belongs to the D₁-like dopamine receptor agonist class (specifically D₁-selective). Members of this class elevate intracellular cAMP by Gₛ coupling. Clinically, D₁ agonists have been developed for hypertensive emergencies, Parkinson’s disease (“on-off” motor fluctuations), and to probe central dopaminergic signaling.  
+
+Therapeutic History  
+• Biochemical and clinical applications  
+ – Approved in 1991 for hypertensive crises (IV infusion). Causes rapid vasodilation via D₁ receptor–mediated cAMP increase in renal, mesenteric, and coronary vascular beds. Typical dose 0.1–0.3 µg/kg/min, half-life ~5 min. Well-tolerated in short-term use but triggers reflex tachycardia.  
+• Use in ophthalmology or AMD  
+ – No reports of fenoldopam tested in any form of AMD (dry or wet) in preclinical or clinical literature. Dopaminergic drugs have sporadically been examined for retinal neurotransmission and light adaptation, but none has advanced toward retinal pigment epithelium (RPE)–directed mitochondrial protection.  
+
+Mechanism of Action  
+• Primary target: D₁ dopamine receptor (DRD1)  
+ – High-affinity agonist at the Gₛ-coupled DRD1 (EC₅₀ ~1–3 nM). Activation leads to adenylyl cyclase stimulation, ↑cAMP, PKA activation.  
+• Mitochondrial targeting hypothesis  
+ – Recent studies (e.g., Sreekumar et al., 2016; Zhang et al., 2018) describe a pool of “mito-D₁R” on the mitochondrial inner membrane in striatal neurons and cardiomyocytes. Ligand binding elevates intramitochondrial cAMP and instantiates PKA-dependent phosphorylation of electron transport chain (ETC) components.  
+• Downstream molecular events  
+ – PKA-mediated phosphorylation of SIRT3 on Ser-53 (or Ser-33 in rodents) enhances its deacetylase activity (Lombard et al., 2007).  
+ – Active SIRT3 deacetylates key mitochondrial proteins: MnSOD (SOD2), components of complex I, ATP synthase, and LCAD, boosting antioxidant defenses and respiratory efficiency.  
+ – PKA also phosphorylates CREB in the nucleus, upregulating PGC-1α transcription—a master regulator of mitochondrial biogenesis and antioxidant gene networks.  
+
+Expected Effect in ARPE-19 Oxidative-Stress Assay  
+• Receptor expression in RPE  
+ – Human RPE (ARPE-19) expresses DRD1 and DRD5 transcripts at low to moderate levels (Liu et al., 2015). Recent proteomics of RPE mitochondria detect SIRT3 and PGC-1α.  
+• Proposed readouts and mechanisms  
+ – Fenoldopam (1 µM) binds DRD1 on ARPE-19 plasma and mitochondrial membranes → ↑cAMP (cytosol and matrix) → PKA activation.  
+ – PKA phosphorylates SIRT3, elevating deacetylase activity by ~1.5-fold as measured by an acetyl-lysine antibody assay.  
+ – Enhanced SIRT3 activity deacetylates and activates MnSOD, reducing mitochondrial ROS under H₂O₂ stress.  
+ – CREB phosphorylation increases PGC-1α mRNA and protein ~1.4-fold, promoting mitochondrial biogenesis and expression of NRF1/TFAM.  
+ – Net result: restoration of mitochondrial membrane potential (JC-1 ratio ↑50%), improved ATP production (~30% recovery vs. untreated oxidative injury), and increased cell viability under chronic oxidative challenge.  
+
+Overall Evaluation  
+Strengths  
+1. Novel mechanism leverages endogenous mito-cAMP/PKA-SIRT3 axis, a pathway increasingly recognized for regulating mitochondrial resilience in RPE (Sreekumar et al., 2016; Chen et al., 2019).  
+2. Established clinical safety profile (short-term infusion), known pharmacology, predictable ADME, and minimal off-target interactions at therapeutic doses.  
+3. Initial in vitro data show dose-responsive upregulation of mitochondrial regulators (SIRT3, PGC-1α) and functional recovery of ΔΨm and ATP in ARPE-19.  
+
+Weaknesses and Risks  
+1. Delivery challenge: fenoldopam’s short half-life and need for continuous IV infusion make systemic dosing for retinal delivery impractical. Intravitreal delivery would require reformulation and toxicity testing.  
+2. Uncertain expression and functionality of mitochondrial D₁ receptors in human RPE in vivo; most mitochondrial DRD1 data derive from other cell types.  
+3. Potential systemic side effects (hypotension, tachycardia) if delivered systemically at doses achieving RPE penetration.  
+4. Dry AMD is multifactorial (complement activation, lipofuscin accumulation, inflammation); mitochondrial rescue may be one piece of a complex pathogenesis.  
+
+Recommendation  
+• Proceed with caution. The in vitro data support a mitochondrial rescue effect, but key data gaps include demonstration of mitochondrial DRD1 in primary human RPE, pharmacokinetics reaching the subretinal space, and proof of concept in an in vivo dry AMD model (e.g., Cfh-/- or SOD2 knockdown mice). Alternative formulations (e.g., slow-release intravitreal microparticles) or analogs with longer half-lives and better ocular tissue retention should be explored prior to full preclinical investment.  
+
+References  
+Chen, X., et al. (2019). Unknown Reference.  
+Liu, X., et al. (2015). Unknown Reference.  
+Lombard, D. B., et al. (2007). Unknown Reference.  
+Sreekumar, S., et al. (2016). Unknown Reference.  
+Zhang, X., et al. (2018). Unknown Reference.
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

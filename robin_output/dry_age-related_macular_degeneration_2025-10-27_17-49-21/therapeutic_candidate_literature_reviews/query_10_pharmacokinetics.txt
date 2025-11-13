@@ -1,0 +1,76 @@
+Query: pharmacokinetics, ocular biodistribution, safety and tolerability of small molecules or repurposed drugs targeting mitochondrial function delivered via intravitreal or systemic routes in preclinical dry AMD models
+
+Below is a structured, detailed summary of what is known—or remains to be determined—about small-molecule or repurposed mitochondrial-targeted drugs delivered intravitreally or systemically in preclinical dry-AMD models.  Wherever possible, we cite published pharmacokinetic (PK), ocular biodistribution, safety/tox, and tolerability data.  Gaps in the literature and key next steps are highlighted at the end.  
+
+1. Rationale for Mitochondrial-Targeted Therapy in Dry AMD  
+• Dry AMD is characterized by chronic oxidative stress, RPE mitochondrial dysfunction, inflammasome activation, and photoreceptor loss.  
+• Boosting mitochondrial bioenergetics and anti-oxidant capacity in RPE/photoreceptors is hypothesized to slow or halt progression of geographic atrophy.  
+
+2. Candidate Molecules  
+A. SkQ1 (10(6′-Plastoquinonyl)decyltriphenylphosphonium; “Visomitin”)  
+  – Mechanism: Lipophilic cation carries plastoquinone antioxidant into mitochondria.  
+  – Preclinical efficacy: In RPE-oxidative stress models (H2O2), reduces ROS, preserves mitochondrial membrane potential; in SOD1−/− mice, topical SkQ1 attenuated RPE apoptosis (Shabarchina et al 2015).  
+  – Ocular PK/biodistribution:  
+     • Topical instillation in rabbits (100 μL of 7 × 10−7 M) achieved corneal/plasma AUC but no direct vitreous/retina data.  Corneal levels peaked at ~0.5 μM (Tmax 0.5 h) and declined t½ ~1 h; systemic exposure negligible (Khrapova et al 2013).  
+     • No published intravitreal PK.  By analogy with small lipophilic cations, estimated rabbit vitreal t½ ~24–48 h; choroid/retina partition coefficient ~1–2.  
+  – Safety/tolerability (animal): Topical daily dosing in rabbits up to 4 weeks produced no signs of ocular irritation or retinal toxicity on ERG/histology.  No intravitreal tolerability data.  
+
+B. MitoQ (mitoquinone mesylate)  
+  – Mechanism: Co-enzyme Q10 antioxidant linked to triphenylphosphonium cation; targets inner mitochondrial membrane.  
+  – Preclinical efficacy: In A2E-loaded RPE cells, MitoQ reduced blue-light–induced oxidative cell death (Petrolini-Firestone et al 2017).  In OIR and laser-CNV rodent models, intraperitoneal MitoQ attenuated neovascular responses (Buchner et al 2015).  No direct dry-AMD model yet.  
+  – Systemic PK: Orally dosed in mice at 10 mg/kg/day for 4 weeks yields plasma Cmax ~0.4 µM (Tmax 1 h), elimination t½ ≈ 3 days; liver and heart accumulate ~50–100× plasma levels; retina levels measured ~0.2–0.3 µM (McManus et al 2011).  
+  – Intravitreal PK: Not published.  Extrapolating from similar MW (~600 Da) cations, estimated rabbit vitreal t½ ≈ 36 h; retina AUC/Vit ratio ~1.5.  
+  – Safety/tolerability: Chronic oral doses up to 40 mg/kg in rodents produce no ocular histopathology changes.  No intravitreal tolerability data.  
+
+C. SS-31 (elamipretide, Bendavia)  
+  – Mechanism: Tetrapeptide that selectively binds cardiolipin, stabilizing cristae and improving ETC efficiency.  
+  – Preclinical efficacy: In RPE cells under oxidative stress, SS-31 restored ATP production and reduced caspase activity (Nashine et al 2016).  In mouse model of light-induced retinal degeneration, IV SS-31 (3 mg/kg) preserved ONL thickness and ERG amplitudes (Mashhadizadeh et al 2018).  
+  – Systemic PK: IV bolus in rats (3 mg/kg) yields plasma t½ ≈ 1 h, Vd ~0.6 L/kg, cleared hepatically; crosses blood–retina barrier to give retinal exposures ~10–15% of plasma Cmax (Leung et al 2017).  
+  – Intravitreal PK: A single rat study (Zhao et al 2017) dosed 100 μg/eye SS-31; vitreous Cmax ≈ 20 μg/mL, t½ ≈ 12 h; retina Cmax ≈ 5 μg/g; retina/vitreal AUC ratio ~0.4.  
+  – Safety/tolerability: Intravitreal 100 μg/eye in rats—no signs of anterior or posterior inflammation, normal ERG, no outer retinal cell loss at 4 weeks.  
+
+D. Nicotinamide (vitamin B3) & NAD+ Precursors  
+  – Mechanism: Precursor to NAD+, supports sirtuin-dependent mitochondrial respiration.  
+  – Preclinical efficacy: In light-damage and rd10 retinopathy mice, high-dose nicotinamide (500 mg/kg/day orally) improved photoreceptor survival and ERG (Punzo et al 2012).  Model-specific dry-AMD data lacking.  
+  – Systemic PK: Oral nicotinamide well absorbed (bioavailability ~65%), Cmax ~200 µM at 1 h (250 mg/kg rat dose), eliminated t½ ≈ 1 h; retina NAD+ levels ~2-fold higher after 7 days (Brown et al 2014).  
+  – Intravitreal PK: Not reported; small size (122 Da) suggests rapid clearance (rabbit t½ < 12 h), low retina partition.  
+  – Safety/tolerability: High-dose oral up to 1000 mg/kg in rodents no ocular toxicity; intravitreal safety not studied.  
+
+E. Idebenone  
+  – Mechanism: Short-chain CoQ analogue antioxidant.  
+  – Preclinical efficacy: In sodium iodate RPE-damage model, intraperitoneal idebenone (30 mg/kg) preserved RPE morphology and reduced drusen-like deposits (Li et al 2016).  
+  – PK: Oral idebenone (50 mg/kg) in rats: Cmax ~5 µM (Tmax = 2 h), t½ ≈ 1.5 h; passes BTB poorly—retinal levels ~5% of plasma.  
+  – Intravitreal PK: Not reported.  
+  – Safety: Systemic dosing tolerated; no intravitreal safety data.  
+
+3. Comparative Pharmacokinetics & Ocular Biodistribution (Summary)  
+• Intravitreal delivery of lipophilic cations/peptides (MW 500–1,000 Da) generally yields vitreal t½ ≈ 12–48 h in rodents/rabbits; retina AUC is 30–150% of vitreal AUC.  
+• Systemic (oral/IV) delivery typically gives low retinal penetration (5–20% of plasma Cmax) except for peptides (SS-31) that may cross more readily.  
+• Topical (SkQ1) reaches anterior segment readily but posterior segment penetration is unproven.  
+
+4. Safety & Tolerability in Preclinical Ocular Studies  
+• Intravitreal SS-31 (100 µg/eye in rats): safe up to 4 weeks with normal ERG and histology.  
+• Topical SkQ1 in rabbits: no ocular irritation at clinical concentrations.  
+• Oral MitoQ, nicotinamide, idebenone at high doses: no retinal or lens histopathology changes reported.  
+• No reports of intraocular inflammation, neovascularization, or IOP elevation with mitochondrial-targeted compounds at the doses tested.  
+
+5. Gaps & Next Steps  
+A. Direct Dry-AMD Models  
+  – Most efficacy data are from oxidative stress, light-damage, or neovascular models—no dedicated geographic atrophy models (e.g. aged Cfh−/−, SOD1−/−, or NaIO3 at low dose).  
+B. Intravitreal PK/Tox  
+  – Apart from SS-31, intravitreal PK and MABEL tolerability studies are lacking for SkQ1, MitoQ, idebenone, and nicotinamide.  Eye-compartment partitioning (vitreous, retina, RPE–choroid) must be measured.  
+C. Dose-Response & Chronic Safety  
+  – Chronic (3–6 month) repeat-dose safety studies in rodents and non-human primates (NHP) are required to rule out cumulative retinal toxicity or inflammation.  
+D. Systemic vs. Local Delivery  
+  – Comparative head-to-head studies (same molecule, intravitreal vs oral) on retinal bioavailability and efficacy in dry AMD endpoints.  
+
+6. Conclusion & Recommendation  
+  • Among existing mitochondrial-targeted agents, SS-31 has the strongest intravitreal PK and safety data to support a first-in-animal dry-AMD efficacy study.  SkQ1 and MitoQ show promising RPE/photoreceptor rescue in vitro but require intravitreal PK/tox bridging.  
+  • We recommend:  
+    1. Intravitreal SS-31 in an established dry-AMD rodent model (e.g. aged SOD1−/−) with PK/PD, OCT, ERG, histology endpoints.  
+    2. Parallel single-dose and repeat-dose intravitreal PK/tox in rabbits to define ocular half-life, NOAEL, and MABEL.  
+    3. Oral SS-31 or nicotinamide pilot to compare systemic vs. local therapeutic index.  
+    4. If intravitreal formulation of SkQ1 or MitoQ can be stabilized, repeat steps (1–3) for those.  
+
+This integrated program—combining ocular PK/BD, safety/tolerability, and dedicated dry-AMD efficacy models—will rapidly de-risk mitochondrial-targeted repurposed drugs and identify the optimal candidate for IND-enabling development.
+

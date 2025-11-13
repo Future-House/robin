@@ -1,0 +1,78 @@
+Query: What in vitro strategies for recapitulating Bruch’s membrane permeability, RPE cell polarity, and drug uptake/efflux have been implemented to assess pharmacokinetics, tissue penetration, and functional efficacy of candidate therapeutics in dry AMD cell culture systems?
+
+Below is a summary of the main in vitro approaches that groups have developed to capture key features of Bruch’s membrane, preserve RPE polarity, and measure drug uptake/efflux and tissue penetration in dry-AMD–relevant cell systems.  Wherever possible I have included vendor/catalog references so you can order or reconstitute the same platforms.
+
+1. Transwell-Based RPE Monolayers on ECM-Coated Membranes  
+   • RPE cell types:  
+     – Primary human RPE (hwRPE), or human-iPSC-derived RPE (e.g. Cellular Dynamics iCell-RPE, cat. RPE-100-010-001)  
+     – ARPE-19 (ATCC® CRL-2302™) for higher throughput, though polarity and tight junctions are weaker.  
+   • Membrane inserts:  
+     – Corning® Transwell® 6-well, polyester (PET) or polycarbonate (PC), 0.4 µm pore, clear (cat. 3450 for PET, 3415 for PC)  
+     – Corning Synthemax® II SC (CovEntry ID 6003, synthetic ECM) for improved cell attachment and basement-membrane mimicry  
+   • ECM coatings to approximate Bruch’s membrane:  
+     – Human collagen IV (Sigma C7521), human laminin-521 (BioLamina LN521), fibronectin (Sigma F0895) applied at 5–10 µg/cm²  
+     – Optional 1:1 mixtures of collagen IV:laminin plus 50 µg/mL hyaluronic acid to simulate GAG content  
+   • Readouts of barrier integrity and polarity:  
+     – TEER (e.g. EVOM^2 voltohmmeter + STX2 electrodes) to monitor tight-junction formation (values >200 Ω·cm² for hiPSC-RPE)  
+     – Paracellular flux assays using FITC-dextrans (4 kDa, 40 kDa) or Lucifer yellow (457 Da) dosed apically, sampled basally, quantified by plate reader.  
+
+2. Decellularized/Explant Bruch’s Membrane Scaffolds  
+   • Human donor Bruch’s membrane: cadaveric eye cups are decellularized with 0.1% SDS, washed, then mounted in custom diffusion chambers (e.g. Franz cells).  
+   • Porcine Bruch’s membrane: similar protocol, more readily available.  
+   • Advantages: native ultrastructure, collagen/elastin mesh preserved; allows RPE attachment on “real” Bruch’s.  
+   • Readouts:  
+     – Confocal or SEM to verify ECM integrity  
+     – Drug permeability across Bruch’s alone (no cells) vs. cell-covered  
+
+3. Synthetic Nanofibrous or Microporous Membranes  
+   • Electrospun poly(ε-caprolactone) (PCL) or poly(lactic-co-glycolic acid) (PLGA) with fiber diameters ~200–800 nm to mimic Bruch’s elastin/collagen network.  
+   • Commercial example: GreyWolf PCL nanofiber inserts (custom order)  
+   • PDMS membranes with etched nanopores (40–100 nm) to allow only diffusional transport, preserving RPE polarization.  
+   • These substrates often yield higher RPE transepithelial resistance and more basal infoldings.  
+
+4. Microfluidic “Retina-on-a-Chip” Systems  
+   • Emulate “RPE-Chip” (Emulate Inc.) or Mimetas OrganoPlate®  
+     – Two parallel microchannels separated by a porous ECM‐coated membrane; upper channel seeded with RPE, lower with choroidal endothelial cells.  
+     – Continuous medium flow (~5 µL/min) provides shear stress to endothelium and dynamic supply/drain of drugs.  
+   • Measurable outputs:  
+     – Real-time TEER on-chip (integrated electrodes)  
+     – In situ live/dead, phagocytosis assays (pHrodo®-labeled POS)  
+     – Sampling of apical vs. basal effluents for LC-MS/MS quantification of drug or metabolite concentrations  
+
+5. 3D Retinal Organoids with RPE-Underlayer  
+   • hiPSC-derived retinal organoids matured for >60 days to generate photoreceptor outer segments.  
+   • Organoids placed atop an RPE monolayer on ECM membrane: allows bidirectional crosstalk, builds sub-RPE ECM deposits (“drusen‐like”).  
+   • Useful for assessing whether a compound penetrates through the photoreceptor layer and RPE to reach Bruch’s analog.  
+
+6. Functional and Pharmacokinetic Readouts  
+   a) Polarity markers:  
+      – Immunostaining for ZO-1 (tight junctions), Na⁺/K⁺-ATPase (apical), Bestrophin‐1 (basolateral), MERTK (phagocytosis receptor)  
+      – Transmission EM for apical microvilli and basal infoldings  
+   b) Drug permeability/permeation assays:  
+      – Calculate apparent permeability coefficient (Papp) from concentration–time profiles:  
+         Papp = (dQ/dt) / (A × C₀)  
+      – Use model compounds (propranolol, atenolol, propranolol‐d7) to benchmark  
+   c) Transporter activity:  
+      – P-glycoprotein (ABCB1) assays with rhodamine 123 or calcein AM; inhibitors (verapamil, 50 µM) to confirm  
+      – BCRP (ABCG2) with Hoechst 33342 and Ko143 (1 µM)  
+      – MRPs with CM-FDA and MK-571 (20 µM)  
+   d) Metabolic profiling:  
+      – LC-MS/MS of apical/basal media to identify drug metabolites  
+      – UGT/Phase II activity via 4-methylumbelliferone glucuronide assays  
+
+7. Assessing Functional Efficacy in Dry AMD Models  
+   • Oxidative stress induction: tert-butyl hydroperoxide or H₂O₂, measure cell viability (resazurin), ROS (DCFDA).  
+   • Lipofuscin‐like deposit formation: feed cells with A2E precursor, quantify autofluorescence.  
+   • Complement activation assays: add human serum, measure C3a/C5b-9 by ELISA; test complement inhibitors.  
+   • Phagocytosis of photoreceptor outer segments (isolated porcine POS, pHrodo® labeled) to measure RPE function; quantify uptake by fluorescence.  
+
+8. Putting It All Together  
+   To evaluate a new small-molecule candidate for dry AMD:  
+   1) Culture hiPSC-RPE for 4–6 weeks on collagen IV/laminin coated Transwells; confirm TEER >200 Ω·cm² and correct polarity markers.  
+   2) Measure baseline permeability of marker compounds, then dose your molecule apically (physiologic route) or basolaterally (via choroid).  
+   3) Sample apical & basal media over time, quantify compound and metabolites by LC-MS/MS.  
+   4) In parallel channels on an RPE-Choroid microfluidic chip, confirm dynamic distribution and assess transporter involvement via specific inhibitors.  
+   5) Challenge the same cultures with oxidative or complement stress, measure functional rescue (viability, ROS, phagocytosis) in the presence vs. absence of drug.  
+
+These layered strategies—moving from simple Transwells to decellularized Bruch’s scaffolds to dynamic microfluidic co-cultures—allow you to interrogate not only whether your drug reaches the RPE from the apical or basal side, but also its mechanism of uptake/efflux, its ability to traverse Bruch’s analog, and its functional rescue of dry-AMD hallmarks.
+

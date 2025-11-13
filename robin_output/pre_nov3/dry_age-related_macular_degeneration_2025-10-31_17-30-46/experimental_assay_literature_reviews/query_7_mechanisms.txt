@@ -1,0 +1,62 @@
+Query: Mechanisms of drusen biogenesis at the RPE-choroid interface: lipid and protein deposition pathways in vitro, characterization of artificial drusen-like deposits in 2D and 3D cultures, and assay development for quantifying extracellular sub-RPE aggregates
+
+1. Hypothesis: Oxidative‐stress–driven overproduction of RPE‐derived apoB‐lipoproteins nucleates lipid‐rich drusen  
+   • Model: Human iPSC‐RPE monolayers (2D) exposed to sublethal H2O2 pulses  
+   • Readouts: ApoB secretion (ELISA), neutral lipid accumulation (Oil Red O/Oil Red O quantification), sub‐RPE deposition on Transwell membranes (confocal z‐stacks)  
+   • Perturbations: Antioxidants (NAC), siRNA knockdown of microsomal triglyceride transfer protein (MTP)
+
+2. Hypothesis: Impaired autophagy in RPE causes incomplete OS digestion and extracellular release of lipid‐protein remnants  
+   • Model: ARPE-19 + fluorescently labeled bovine OS feeding in the presence/absence of 3-methyladenine or rapamycin  
+   • Readouts: Extracellular OS fragments (fluorescence in basal media), LC3‐II/ p62 levels (western blot), sub‐RPE aggregate formation on permeable supports
+
+3. Hypothesis: Local complement activation (C3a/C5a) drives ECM remodeling and protein deposition  
+   • Model: iPSC-RPE on collagen‐coated Transwell; add recombinant C3a or C5a basally  
+   • Readouts: MMP2/9 secretion (zymography), fibronectin/vitronectin deposition (immunofluorescence), MAC (C5b-9) staining in ECM
+
+4. Hypothesis: RPE‐derived extracellular vesicles (EVs) serve as scaffolds for drusen proteins  
+   • Model: Collect EVs from stressed RPE (rotational shear stress or H2O2), seed onto collagen-IV–coated wells  
+   • Readouts: EV quantity/composition (NTA + mass spec for clusterin, vitronectin), aggregation assays (light scatter), immuno-EM of EV‐drusen complexes
+
+5. Hypothesis: Chronic high‐glucose conditions glycate BrM‐like substrates promoting protein crosslinking and drusen formation  
+   • Model: RPE cultured on glyoxal‐treated Matrigel; compare normal vs 25 mM glucose  
+   • Readouts: Advanced glycation endproduct (AGE) levels (ELISA), ECM stiffness (atomic force microscopy), drusen‐like aggregate quantification (fluorescent antibodies)
+
+6. Hypothesis: ApoE isoforms differentially modulate lipid efflux and sub‐RPE deposition  
+   • Model: CRISPR‐engineered iPSC-RPE homozygous for APOE3 or APOE4, grown on Transwells  
+   • Readouts: Secreted lipoprotein profiles (FPLC), cholesterol deposition (filipin staining) beneath RPE, drusen‐mimetic plaque size (confocal)
+
+7. Hypothesis: Mitochondrial dysfunction increases RPE secretion of peroxidized lipids that co‐aggregate under the RPE  
+   • Model: Induce mild mitochondrial uncoupling (FCCP) or mitophagy inhibition (Parkin siRNA)  
+   • Readouts: Malondialdehyde (MDA) in basal media, 4-HNE‐adduct deposition in ECM (IF), lipid aggregate morphology (TEM)
+
+8. Hypothesis: Overactivation of LXR/RXR drives excessive cholesterol efflux saturating BrM binding sites  
+   • Model: RPE + LXR agonist T0901317 vs antagonist GSK2033  
+   • Readouts: ABCA1/ABCG1 expression (qPCR), basolateral cholesterol deposition (filipin), aggregate quantification (high‐content imaging)
+
+9. Hypothesis: Altered Bruch’s membrane stiffness cues RPE to secrete basement‐membrane proteins that scaffold drusen  
+   • Model: RPE on tunable‐stiffness polyacrylamide gels coated with collagen IV  
+   • Readouts: Type IV/VII collagen secretion (ELISA), fibronectin deposition (IF), sub‐RPE aggregate size vs stiffness (image analysis)
+
+10. Therapeutic strategy: Enhance RPE autophagic flux (spermidine, rapamycin analogues) to reduce sub‐RPE lipid/protein accumulation  
+    • Assay: OS feeding + autophagy enhancers; quantify extracellular lipids (Nile Red) and protein aggregates (Thioflavin T)  
+    • Endpoints: Reduced basal aggregate burden, improved phagocytic turnover
+
+11. Therapeutic strategy: Block complement terminal pathway with anti-C5 antibodies to prevent protein‐rich drusen core formation  
+    • Model: RPE–endothelial co-culture organoids; treat with anti-C5 vs isotype  
+    • Readouts: Sub-RPE immunostaining for C5b-9, vitronectin, complement regulators (CFH)
+
+12. Therapeutic strategy: Inhibit neutral sphingomyelinase (GW4869) to reduce ceramide‐rich EV budding and drusen nucleation  
+    • Assay: Measure EV release (NTA), ceramide levels (LC-MS), and sub-RPE aggregate formation (IF and TEM)
+
+13. Assay development: High‐content fluorescent lipoprotein retention assay  
+    • Approach: Incubate RPE Transwell cultures with DiI‐labeled LDL/HDL; automated image analysis of basolateral DiI signal  
+    • Utility: Screen genetic or small‐molecule modulators of lipoprotein deposition
+
+14. 3D culture model: Bioengineered RPE–BrM–choroid spheroids to reconstitute drusen‐like deposits  
+    • Features: iPSC-RPE on synthetic BrM (collagen/elastin) inside microfluidic chip with choroidal endothelial cells  
+    • Readouts: Time‐lapse confocal of fluorescently tagged clusterin/ApoE, quantitative volumetric analysis of sub-RPE aggregates
+
+15. Hypothesis: Extracellular crosslinker 4-HNE promotes covalent aggregation of RPE‐secreted complement and lipid‐binding proteins  
+    • Model: Basal media spiked with physiological 4-HNE levels; collect and analyze deposited material on synthetic BrM  
+    • Readouts: SDS-PAGE under non‐reducing conditions, mass spectrometry for crosslinked species, IF localization of 4-HNE adducts and complement proteins
+

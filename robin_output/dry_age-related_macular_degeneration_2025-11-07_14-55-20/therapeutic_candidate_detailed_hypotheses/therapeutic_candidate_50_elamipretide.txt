@@ -1,0 +1,44 @@
+Proposal for Elamipretide (SS-31)
+
+Overview of Therapeutic Candidate  
+Elamipretide (also known by its research code SS-31, MTP-131 or Bendavia) is a synthetic tetrapeptide (D‐Arg–dimethylTyr–Lys–Phe–NH2) first described in the mid-2000s by Szeto and Schiller. It belongs to the class of cell-permeable, mitochondria-targeting peptides engineered to selectively bind to cardiolipin in the inner mitochondrial membrane (IMM). These aromatic-cationic peptides were discovered by screening small peptide libraries for high affinity to cardiolipin, with subsequent optimization of mitochondrial uptake and stability. Unlike lipophilic cations (e.g., TPP+ derivatives), SS-31 is water-soluble, enters cells via energy-independent translocation, and concentrates in the IMM through electrostatic interaction with negatively-charged cardiolipin. Peptides of this class have been explored broadly as modulators of mitochondrial bioenergetics and oxidative stress in numerous tissues.
+
+Therapeutic History  
+Preclinical studies of SS-31 have encompassed cardiac ischemia–reperfusion injury, heart failure, acute kidney injury, neurodegeneration, skeletal muscle aging and optic neuropathy. In rodent models of myocardial infarction and pressure overload, SS-31 reduced infarct size, preserved mitochondrial cristae structure, decreased reactive oxygen species (ROS) and improved left ventricular function. In models of diabetic nephropathy, it ameliorated mitochondrial fragmentation and proteinuria. In the ophthalmology field, SS-31 demonstrated protective effects in rodent models of light-induced retinal degeneration, glaucoma and Leber’s hereditary optic neuropathy, preserving retinal ganglion cell function. Phase 1 clinical studies in healthy volunteers and patients with mitochondrial myopathy or heart failure established safety and tolerability up to intravenous doses of 0.25 mg/kg. More recently, a Phase 2 open-label ocular study (NCT04148827) evaluated the safety of SS-31 administered via topical drops in patients with intermediate dry age-related macular degeneration (AMD); initial reports indicated good ocular tolerance but no efficacy readouts are yet published. To date no completed randomized controlled trials have tested SS-31 for dry AMD or RPE-specific indications.
+
+Mechanism of Action  
+At the molecular level, SS-31 selectively partitions into mitochondrial inner membranes by binding to cardiolipin’s phosphate headgroups and acyl chains through electrostatic attraction and aromatic interactions. This binding (Kd in low-micromolar range) stabilizes cardiolipin’s association with cristae-forming proteins, preserves membrane curvature and prevents cytochrome c peroxidase activation. Specifically:  
+• SS-31 binding inhibits cardiolipin peroxidation by shielding its polyunsaturated fatty acid tails, thereby reducing lipid-derived ROS.  
+• It promotes the retention of cytochrome c in electron-transport supercomplexes rather than acting as a peroxidase, improving electron flux from Complexes I/III to Complex IV.  
+• By preserving cristae morphology and proton-motive force, SS-31 enhances ATP synthase activity, elevating ATP production and reducing mitochondrial swelling.  
+• SS-31 also appears to inhibit pathological opening of the mitochondrial permeability transition pore (mPTP), decreasing caspase activation and cytochrome c release.  
+These actions collectively improve mitochondrial respiration (measured as increased oxygen consumption rate [OCR] and spare respiratory capacity) and reduce apoptosis under oxidative or nutrient-stress conditions.
+
+Expected Effect in RPE Phagocytosis Assay  
+Dry AMD–relevant assays often employ primary human RPE or ARPE-19 cells challenged with oxidative insults (e.g., H₂O₂) or with isolated photoreceptor outer segments (POS) labeled for phagocytosis. Key RPE‐expressed mitochondrial genes such as CRLS1 (cardiolipin synthase), CYC1 (cytochrome c1), CYCS (cytochrome c) and ATP5A1 (ATP synthase α) are robustly transcribed in RPE (RNA-seq data, EyeIntegration database). In stressed RPE:  
+1. SS-31 (0.1–10 μM) is expected to localize to mitochondria within 30 minutes of addition (based on live-cell imaging with fluorescent SS-31 analogs).  
+2. It should decrease mitochondrial ROS (detectable by MitoSOX or Amplex Red assays) and improve mitochondrial membrane potential (JC-1 assay).  
+3. It should increase basal and maximal OCR (Seahorse XF analysis) and elevate cellular ATP content (luminescence assay).  
+4. Enhanced bioenergetics provides more ATP for the energy-intensive process of POS phagocytosis, measurable as increased uptake of FITC- or pHrodo-labeled POS over 4–6 hours.  
+5. Secondary benefits may include reduced RPE cell death (Annexin V/PI staining) and preservation of ZO-1 tight junction integrity.
+
+Overall Evaluation  
+Strengths  
+• Mechanistic Rationale: Direct targeting of RPE mitochondrial dysfunction—a recognized contributor to dry AMD pathogenesis—offers a clear, hypothesis-driven approach.  
+• Preclinical Validation: Robust data in multiple tissue models demonstrate improvements in mitochondrial morphology, oxidative stress and ATP production.  
+• Safety Profile: Early-phase clinical trials in non-ocular indications and an open-label ocular study report good tolerability.  
+• Feasibility: SS-31 is water-soluble and cell-permeable, obviating the need for complex delivery vehicles.
+
+Weaknesses and Risks  
+• Delivery and Dosing: Intravitreal or topical routes have limited published data on retinal bioavailability and pharmacokinetics; systemic delivery may not achieve therapeutic levels in RPE.  
+• Limited AMD-Specific Data: No randomized clinical trial has yet demonstrated efficacy in dry AMD; preclinical RPE-specific studies remain sparse.  
+• Multifactorial Pathogenesis: Dry AMD involves complement dysregulation, lipofuscin accumulation and extracellular deposit formation; mitochondrial rescue alone may be insufficient for disease modification.  
+• Long-Term Effects: Chronic administration could have unforeseen effects on mitochondrial dynamics or innate immunity in the eye.
+
+Conclusion  
+Elamipretide (SS-31) is a well-characterized, mitochondrial‐targeting peptide with strong mechanistic justification for addressing RPE bioenergetic deficits in dry AMD. Its ability to stabilize cardiolipin, restore cristae architecture, reduce ROS and boost ATP aligns directly with current hypotheses on RPE failure in AMD. Key next steps should include optimization of ocular delivery (e.g., sustained-release intravitreal formulations), detailed in vitro phagocytosis assays, and in vivo efficacy studies in dry AMD animal models (e.g., Cfh−/− or Ccl2−/−/Cx3cr1−/− mice) to build a robust preclinical package before proceeding to pivotal human trials.
+
+References  
+(There are no references provided to format.)
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

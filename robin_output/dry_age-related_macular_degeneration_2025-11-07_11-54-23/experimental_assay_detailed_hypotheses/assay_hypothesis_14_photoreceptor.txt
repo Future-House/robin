@@ -1,0 +1,39 @@
+Hypothesis: Photoreceptor outer segment phagocytosis kinetics
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Photoreceptor outer segment phagocytosis kinetics
+Reasoning: Use fluorescently labeled POS and LysoTracker colocalization in high-content imaging to quantify uptake rates and degradation half-life. Bafilomycin A1 chase distinguishes uptake from clearance, enabling screening of enhancers of RPE phagocytic function (Yogalingam et al. 2017; Wünkhaus 2021).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview: This assay uses high‐content imaging of cultured RPE cells challenged with fluorescently labeled photoreceptor outer segments (POS) combined with LysoTracker staining to quantify both the rate of POS uptake and the degradation half‐life. A Bafilomycin A1 chase is incorporated to distinguish initial receptor‐mediated internalization from lysosomal clearance defects, with kinetic parameters measured by colocalization analysis and potential FRET readouts. Cultured RPE models such as primary RPE or ARPE‐19 cells provide the biological substrate to recapitulate in vivo phagocytosis seen in the retina (keeling2018impairedcargoclearance pages 8-11, egbejimi2022decipheringunderlyingmechanisms pages 32-36).
+
+Biomedical Evidence: Inefficient POS clearance contributes to lipofuscin accumulation, oxidative stress, and subsequent RPE and photoreceptor degeneration observed in dry age‐related macular degeneration (AMD). The fundamental role of daily POS phagocytosis in maintaining retinal homeostasis is well established, with perturbations in lysosomal acidification and phagosome maturation directly linked to AMD pathology (egbejimi2022decipheringunderlyingmechanisms pages 26-32, egbejimi2022decipheringunderlyingmechanisms pages 21-26).
+
+Previous Use: Similar assays have been used to dissect phagosome maturation defects in genetic models of retinal degeneration, elucidating roles for key regulators such as MerTK and lysosomal enzymes, and have validated the utility of fluorescent POS and LysoTracker assays in distinguishing uptake from degradation defects (dejos2018photoreceptorinducedrpephagolysosomal pages 1-2, egbejimi2022decipheringunderlyingmechanisms pages 88-92).
+
+Overall Evaluation: This assay is a robust tool for early-stage drug screening, offering precise kinetic measurements that target a central mechanism in dry AMD pathogenesis. Its strengths lie in the quantitative assessment of phagocytic clearance, while the major limitation is that in vitro models may not fully capture the complexity of chronic in vivo disease processes (lieffrig2023clearancephagocytosisby pages 4-6, keeling2018impairedcargoclearance pages 7-8).
+
+This assay is valuable for testing therapeutics aimed at enhancing RPE phagocytic function in dry AMD. It provides mechanistically relevant, quantitative endpoints that support early-stage drug discovery.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/0f6f5e6a-fab9-44f7-8f63-cb0763d6e50a
+
+References:
+1. (keeling2018impairedcargoclearance pages 8-11): Eloise Keeling, Andrew Lotery, David Tumbarello, and J. Ratnayaka. Impaired cargo clearance in the retinal pigment epithelium (rpe) underlies irreversible blinding diseases. Cells, 7:16, Feb 2018. URL: https://doi.org/10.3390/cells7020016, doi:10.3390/cells7020016. This article has 92 citations and is from a poor quality or predatory journal.
+
+2. (egbejimi2022decipheringunderlyingmechanisms pages 32-36): A Egbejimi. Deciphering underlying mechanisms of photoreceptor outer segment degradation; involvement of intracellular trafficking. Unknown journal, 2022.
+
+3. (egbejimi2022decipheringunderlyingmechanisms pages 26-32): A Egbejimi. Deciphering underlying mechanisms of photoreceptor outer segment degradation; involvement of intracellular trafficking. Unknown journal, 2022.
+
+4. (egbejimi2022decipheringunderlyingmechanisms pages 21-26): A Egbejimi. Deciphering underlying mechanisms of photoreceptor outer segment degradation; involvement of intracellular trafficking. Unknown journal, 2022.
+
+5. (dejos2018photoreceptorinducedrpephagolysosomal pages 1-2): Camille Dejos, Sharee Kuny, Woo Hyun Han, Heather Capel, Hélène Lemieux, and Yves Sauvé. Photoreceptor-induced rpe phagolysosomal maturation defects in stargardt-like maculopathy (stgd3). Scientific Reports, Apr 2018. URL: https://doi.org/10.1038/s41598-018-24357-4, doi:10.1038/s41598-018-24357-4. This article has 22 citations and is from a peer-reviewed journal.
+
+6. (egbejimi2022decipheringunderlyingmechanisms pages 88-92): A Egbejimi. Deciphering underlying mechanisms of photoreceptor outer segment degradation; involvement of intracellular trafficking. Unknown journal, 2022.
+
+7. (lieffrig2023clearancephagocytosisby pages 4-6): Stephanie A. Lieffrig, Gavin Gyimesi, Yingyu Mao, and Silvia C. Finnemann. Clearance phagocytosis by the retinal pigment epithelial during photoreceptor outer segment renewal: molecular mechanisms and relation to retinal inflammation. Immunological Reviews, 319:81-99, Aug 2023. URL: https://doi.org/10.1111/imr.13264, doi:10.1111/imr.13264. This article has 30 citations and is from a domain leading peer-reviewed journal.
+
+8. (keeling2018impairedcargoclearance pages 7-8): Eloise Keeling, Andrew Lotery, David Tumbarello, and J. Ratnayaka. Impaired cargo clearance in the retinal pigment epithelium (rpe) underlies irreversible blinding diseases. Cells, 7:16, Feb 2018. URL: https://doi.org/10.3390/cells7020016, doi:10.3390/cells7020016. This article has 92 citations and is from a poor quality or predatory journal.

@@ -1,0 +1,60 @@
+Assay Candidate 1:
+Strategy: Barrier Integrity Assay
+Reasoning: Quantification of transepithelial electrical resistance (TEER) in iPSC‐derived or primary RPE monolayers under oxidative or complement challenge provides a rapid, label‐free readout of tight‐junction integrity. Restoring TEER correlates with protection against RPE atrophy (Levy et al., J. Cell Sci. 2015).
+
+Assay Candidate 2:
+Strategy: Lipofuscin Quantification
+Reasoning: A2E or blue‐light induced accumulation of autofluorescent lipofuscin granules in ARPE-19 or iPSC‐RPE can be measured by high‐content imaging or HPLC‐DAD. Reduction in autofluorescence directly reflects clearance of bisretinoid deposits implicated in AMD (Eldred and Lasky, PNAS 1993).
+
+Assay Candidate 3:
+Strategy: Mitochondrial Membrane Potential Assay
+Reasoning: JC-1 or TMRM probes report ΔΨm in live RPE under oxidative stress. Compounds that stabilize mitochondrial potential prevent early RPE dysfunction (Liu et al., Redox Biol. 2017).
+
+Assay Candidate 4:
+Strategy: ROS Production Assay
+Reasoning: CellROX or DCFDA fluorescence in ARPE-19 monolayers rapidly quantifies intracellular ROS levels. Inhibition of induced ROS by candidate drugs predicts antioxidant efficacy in dry AMD models (Sreekumar et al., IOVS 2010).
+
+Assay Candidate 5:
+Strategy: Complement Activation Assay
+Reasoning: Measurement of secreted C3a and C5a fragments in RPE cultures by ELISA or multiplex bead arrays assesses local complement overactivation. Complement inhibitors that lower C3a/C5a rescue RPE from sublytic damage (Lynn et al., J. Immunol. 2015).
+
+Assay Candidate 6:
+Strategy: Nrf2-ARE Reporter Assay
+Reasoning: Stable transfection of RPE cells with an ARE-luciferase construct allows direct readout of NRF2 pathway activation. Upregulation of ARE‐driven luciferase predicts induction of phase II detox enzymes and protection against oxidative injury (Nguyen et al., Mol. Cell. Biol. 2009).
+
+Assay Candidate 7:
+Strategy: Inflammasome Activation Assay
+Reasoning: FLICA probes for active caspase-1 and ELISA measurement of IL-1β in conditioned medium provide quantitative assessment of NLRP3 inflammasome activity. Blocking IL-1β release correlates with reduced RPE pyroptosis (Tseng et al., Cell Reports 2013).
+
+Assay Candidate 8:
+Strategy: Autophagic Flux Assay
+Reasoning: mCherry-GFP-LC3 reporters in RPE monolayers distinguish autophagosomes from autolysosomes, enabling rapid quantification of flux by high‐content imaging. Restoration of autophagy correlates with decreased lipofuscin and improved cell survival (Mitter et al., Autophagy 2014).
+
+Assay Candidate 9:
+Strategy: POS Phagocytosis Assay
+Reasoning: FITC-labeled photoreceptor outer segments fed to RPE cells measure phagocytic uptake via automated imaging. Enhanced clearance of POS following treatment restores a key RPE function lost in AMD (Strick et al., Exp. Eye Res. 2006).
+
+Assay Candidate 10:
+Strategy: Synthetic Drusen Deposit Assay
+Reasoning: Deposition of liposome‐complement hydroxyapatite particles on Transwell membranes mimics drusen, inducing TEER loss and cytokine release. Compounds that reverse these phenotypes target drusen-driven pathology (Umeda et al., Biomaterials 2017).
+
+Assay Candidate 11:
+Strategy: RPE-Endothelial Co-culture Assay
+Reasoning: Co-culture of RPE monolayers with choroidal endothelial cells on Transwells measures VEGF/PEDF secretion balance and barrier cross-talk. Modulators that normalize angiogenic signals may prevent choriocapillaris dropout in dry AMD (Shen et al., Tissue Eng. 2014).
+
+Assay Candidate 12:
+Strategy: Tight-Junction Imaging Assay
+Reasoning: High-content immunofluorescence of ZO-1 and occludin localization quantifies junctional belt continuity. Restoration of tight-junction morphology is a direct marker of RPE barrier rescue (Mandal et al., Sci. Rep. 2017).
+
+Assay Candidate 13:
+Strategy: Metabolic Flux Assay
+Reasoning: Seahorse XF profiling of OCR and ECAR in RPE under stress identifies drugs that restore mitochondrial respiration and glycolytic balance, key to RPE energy homeostasis (Fisher et al., Redox Biol. 2019).
+
+Assay Candidate 14:
+Strategy: Lysosomal pH Assay
+Reasoning: LysoTracker or pHrodo probes measure lysosomal acidification in live RPE. Compounds that re-acidify lysosomes reverse A2E-induced dysfunction and lipofuscin buildup (Sarks et al., Investig. Ophthalmol. Vis. Sci. 2007).
+
+Assay Candidate 15:
+Strategy: Microfluidic Perfusion Assay
+Reasoning: RPE-on-a-chip devices under flow allow real-time measurement of barrier resistance, drug permeation, and cytokine release in a dynamic microenvironment. This platform integrates kinetics and physiologic shear relevant to Bruch’s membrane (Musah et al., Lab Chip 2017).
+

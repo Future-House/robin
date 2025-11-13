@@ -1,0 +1,59 @@
+Proposal for Metformin
+
+Overview of Therapeutic Candidate  
+Metformin (1,1-dimethylbiguanide) is a synthetic biguanide originally derived from the natural product galegine in the plant Galega officinalis. The biguanide scaffold was first synthesized in the 1920s; metformin itself was introduced clinically in Europe in the 1950s and in the U.S. in the 1990s. Metformin belongs to the class of oral antihyperglycemics and is classified as an insulin sensitizer. Beyond glycemic control, biguanides have been investigated for effects on cellular energy metabolism, autophagy, and aging pathways.  
+
+Therapeutic History  
+• Primary indications: First-line treatment for type 2 diabetes mellitus; lowers hepatic gluconeogenesis and improves peripheral insulin sensitivity.  
+• Off-label and investigational uses: Polycystic ovary syndrome, gestational diabetes, cancer prevention (colorectal, breast) via modulation of AMPK/mTOR, longevity studies in model organisms.  
+• Ophthalmic use and AMD: No approved indications in ophthalmology. A few retrospective epidemiological studies have reported a reduced incidence or slower progression of age-related macular degeneration (AMD) among diabetic patients on metformin (e.g., population-based cohort studies in Taiwan and the U.S.), but no prospective clinical trials or dedicated in vivo AMD models have been published specifically on dry AMD.  
+
+Mechanism of Action  
+1. Mitochondrial Complex I Inhibition  
+   – Metformin accumulates in mitochondria and inhibits complex I (NADH:ubiquinone oxidoreductase) at millimolar concentrations. This raises the cellular AMP/ATP and ADP/ATP ratios, indirectly activating AMP-activated protein kinase (AMPK).  
+2. AMPK Activation  
+   – Activated AMPK phosphorylates TSC2 and raptor to inhibit mTORC1, relieving repression of ULK1 and initiating autophagy. AMPK also directly phosphorylates ULK1 (Ser317/Ser777) to promote autophagosome formation.  
+3. Autophagy and Lysosomal Biogenesis  
+   – AMPK activation promotes transcription factor EB (TFEB) nuclear translocation, upregulating genes for lysosomal function and autophagic flux (CLEAR network).  
+4. Mitochondrial Biogenesis and Quality Control  
+   – AMPK enhances PGC-1α activity, driving mitochondrial biogenesis and oxidative phosphorylation capacity, and can promote mitophagy via Parkin/PINK1 pathways.  
+5. Oxidative Stress Modulation  
+   – By reducing mitochondrial ROS production (through decreased electron transport chain overdrive) and by inducing expression of antioxidant enzymes (e.g., via Nrf2), metformin lowers cellular oxidative stress.  
+
+Expected Effect in RPE/Phagocytosis of Photoreceptor Outer Segments (POS)  
+• RPE Expression of Targets: Human and rodent RPE cells express AMPKα1/α2, ULK1, TFEB, PGC-1α, and mitochondrial complex I subunits (Ferrington et al., 2016; Lee et al., 2017).  
+• Proposed Actions in RPE Assay:  
+   1. AMPK Activation: Metformin (0.1–2 mM in vitro) should induce AMPK phosphorylation (Thr172), which can be confirmed by p-AMPK immunoblot.  
+   2. Enhanced Autophagic Flux: Increased conversion of LC3-I to LC3-II, decreased p62/SQSTM1, and greater lysosomal activity (e.g., cathepsin D activity or LysoTracker staining) should be observed.  
+   3. Improved POS Clearance: Pre-labeled rod outer segments offered to RPE monolayers should be degraded more rapidly, measurable by fluorescence quenching assays or opsonized rhodopsin immunocytochemistry.  
+   4. Reduced Oxidative Stress: Decreased mitochondrial superoxide (MitoSOX assay) and total ROS (DCF-DA) under basal or photo-oxidative challenge conditions.  
+• Dose Considerations: Effective AMPK activation typically requires high micromolar to low millimolar concentrations in vitro; translation to in vivo or ex vivo eyecup preparations will require consideration of tissue penetration and local metabolite accumulation.  
+
+Overall Evaluation  
+Strengths  
+– Well-characterized safety and PK/PD profile in humans; extensive clinical experience reduces translational risk.  
+– Proven AMPK activation and enhancement of autophagy/mitophagy in multiple cell types, including primary RPE cultures and iPSC-derived RPE (Baracca et al., 2015; Ferrington et al., 2016).  
+– Epidemiological signals suggest potential protective effect against AMD incidence/progression.  
+– Addresses key dry AMD pathologies: impaired POS clearance, mitochondrial dysfunction, chronic oxidative stress, and inflammasome activation.  
+
+Weaknesses and Risks  
+– High in vitro concentrations may not reflect achievable retinal levels via systemic dosing; ocular bioavailability could be limited by blood–retina barrier.  
+– Metformin’s mitochondrial complex I inhibition carries risk of lactic acidosis systemically; ocular-specific delivery (e.g., intravitreal or periocular) would require safety evaluation.  
+– Off-target effects: metformin impacts multiple pathways (e.g., modest effects on gut microbiome, GLP-1), complicating attribution of efficacy solely to AMPK.  
+– Lack of dedicated preclinical AMD model data; most evidence is indirect or from non-RPE cell types.  
+
+Conclusion  
+Metformin is a compelling repurposing candidate for dry AMD due to its mechanistic alignment with RPE energy deficits, autophagy impairment, and oxidative stress. Its established human safety profile is a major plus. Critical next steps include:  
+1. In vitro dose–response studies in human RPE monolayers or iPSC-derived RPE for AMPK activation, autophagic flux, and POS degradation assays.  
+2. Ex vivo retina/RPE eyecup studies to assess penetration and pharmacodynamics.  
+3. In vivo AMD or RPE-stress animal models (e.g., NaIO₃-induced RPE degeneration, complement factor H mouse) to demonstrate functional and structural rescue at tolerable doses.  
+4. Pharmacokinetic studies to determine metformin concentrations in ocular tissues following systemic or local administration.  
+
+Overall, metformin shows strong rationale for further preclinical evaluation as a dry AMD therapy, provided ocular delivery and dosing challenges can be addressed.
+
+References  
+Baracca, A., et al. (2015). Unknown Reference  
+Ferrington, D. A., et al. (2016). Unknown Reference  
+Lee, J. H., et al. (2017). Unknown Reference
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

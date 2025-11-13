@@ -1,0 +1,68 @@
+Proposal for Trehalose
+
+Overview of Therapeutic Candidate  
+Trehalose is a naturally occurring non‐reducing disaccharide composed of two glucose molecules linked by an α,α-1,1-glycosidic bond. It was first characterized in the late 19th century in bacteria and yeast cell extracts (Suzuki & Suzuki, 2008) and is widespread in plants, fungi, and invertebrates, where it serves as an osmoprotectant and stabilizer of proteins and membranes under desiccation or stress. Industrially, trehalose is produced by microbial fermentation (often using Arthrobacter or genetically engineered Escherichia coli strains) or by enzymatic conversion of starch via the malto-oligosyltrehalose synthase/isomerase pathway. As a small, water-soluble sugar, trehalose belongs to the osmolyte class of compounds and more recently has been recognized as an autophagy modulator.
+
+Therapeutic History  
+– Food and pharmaceutical excipient: Trehalose is Generally Recognized As Safe (GRAS) by the FDA, widely used as a stabilizer for proteins, vaccines, liposomes, and in cosmetic formulations.  
+– Neurodegenerative disease models: Beginning in the mid-2000s, trehalose was reported to reduce protein aggregation in models of Huntington’s disease (Sarkar et al., 2007), Parkinson’s disease (Rodríguez-Navarro et al., 2010), and Alzheimer’s disease (Tanaka et al., 2004) via induction of autophagy.  
+– Ophthalmic/veterinary uses: There are scattered reports of trehalose eye drops for dry eye syndrome (Gong et al., 2016) owing to its tear film–stabilizing and cytoprotective properties, but no formal clinical trials in age-related macular degeneration (AMD) have been reported.  
+– AMD or RPE-specific studies: A handful of in vitro studies have applied trehalose to RPE cells under oxidative or lipofuscin‐loaded conditions, reporting reductions in autofluorescent granules and improved cell viability (e.g., Liu et al., 2019), but no in vivo or clinical AMD trials exist as of the latest literature.
+
+Mechanism of Action  
+1. Autophagy induction – mTOR-independent pathway:  
+   • Trehalose does not inhibit mTOR directly; rather, it acts via depletion of intracellular glucose traces by competitive uptake through GLUT transporters (GLUT8/SLC2A8), leading to a mild cellular energy stress, AMPK activation, and consequent dephosphorylation and nuclear translocation of TFEB (Roczniak-Ferguson et al., 2012).  
+   • TFEB is a master transcription factor of the CLEAR network, upregulating lysosomal biogenesis (e.g., LAMP1, cathepsins) and autophagy genes (e.g., MAP1LC3B, ATG9) (Sardiello et al., 2009).  
+2. Proteostasis and membrane stabilization: Trehalose can directly stabilize partially folded proteins and lipid bilayers under oxidative or osmotic stress, reducing misfolding and aggregation.  
+3. Anti-oxidative and anti-inflammatory effects: Indirectly, by clearing damaged organelles and aggregates, trehalose attenuates mitochondrial reactive oxygen species (ROS) generation and suppresses inflammasome activation (Song et al., 2017).  
+4. Lysosomal function: Trehalose promotes lysosomal acidification and trafficking, improving clearance of substrate (e.g., photoreceptor outer segment [POS] fragments, lipofuscin precursors).  
+
+Mechanistic data in RPE:  
+– Human RPE cell lines (ARPE-19) express TFEB and key lysosomal genes (Martini-Stoica et al., 2016).  
+– In vitro, trehalose treatment (50–100 mM, 24–48 h) increases LC3-II/LC3-I ratio, decreases p62, and drives TFEB nuclear localization in ARPE-19 and primary RPE (Liu et al., 2019).  
+– Trehalose reduces lipofuscin‐like autofluorescence induced by A2E (a major fluorophore in RPE lipofuscin), likely via enhanced lysosomal degradation (Sun et al., 2018).
+
+Expected Effect in Proposed RPE Assay  
+Assay context: Human RPE cells loaded with POS fragments and/or A2E to model lipofuscin accumulation and lysosomal overload.  
+– Trehalose is expected to:  
+  1. Activate TFEB, upregulating lysosomal hydrolases (CTSB, CTSL) and LAMP proteins, measurable by qPCR or Western blot.  
+  2. Increase autophagic flux: demonstrated by higher LC3-II turnover in presence of lysosomal inhibitors (e.g., bafilomycin A1), and reduced p62 levels.  
+  3. Enhance clearance of fluorescently labeled POS or synthetic lipofuscin, quantifiable by fluorescence microscopy or flow cytometry.  
+  4. Improve RPE viability under oxidative stress (e.g., H₂O₂ challenge) via MTT assays, consistent with reduced ROS (measured by DCFDA) and lower caspase activation.  
+– Key markers to assess: nuclear TFEB translocation (immunofluorescence), CLEAR‐network transcript induction (TFEB targets), lysosomal pH (LysoTracker), and lipofuscin autofluorescence.
+
+Overall Evaluation  
+Strengths:  
+• Mechanistic alignment with AMD pathology: dry AMD is characterized by impaired autophagy-lysosomal function in RPE, leading to lipofuscin buildup and drusen formation. Trehalose directly addresses this via TFEB-mediated lysosomal enhancement.  
+• Safety and repurposing potential: decades of use as food excipient, known pharmacokinetics, minimal toxicity up to high oral doses in animals and humans.  
+• In vitro evidence in RPE: several papers report cytoprotection, reduced autofluorescence, and enhanced autophagic flux in RPE models.  
+• Broad cytoprotective effects: by reducing oxidative stress and inflammation secondarily, trehalose may confer multi-modal protection to RPE.
+
+Weaknesses and Risks:  
+• Bioavailability to the retina: oral trehalose has poor CNS uptake; its ability to cross the blood-retina barrier and accumulate in RPE at efficacious concentrations is unproven. Intravitreal administration may raise safety or formulation challenges.  
+• High concentration requirement: many in vitro studies use 50–100 mM, likely unachievable in vivo without osmotic or GI side effects.  
+• Off-target autophagy induction: systemic TFEB activation may perturb autophagy homeostasis in other tissues, with as yet unknown consequences.  
+• Lack of in vivo AMD models: no published animal studies in dry AMD endpoints (e.g., RPE degeneration, drusen analogs), limiting translational confidence.  
+• Chronic dosing unknowns: long-term safety in the eye (e.g., on photoreceptors or choroidal vasculature) has not been assessed.
+
+Conclusion  
+Trehalose is a well‐characterized autophagy inducer with a compelling mechanism for addressing RPE autophagy‐lysosomal deficits in dry AMD. In vitro data support its efficacy in reducing lipofuscin‐like deposits and protecting RPE under stress. However, critical questions around ocular bioavailability, effective dosing, in vivo efficacy, and long‐term safety in the retina remain. Before advancing to preclinical animal models of dry AMD, it would be prudent to:  
+1. Develop delivery strategies (e.g., nanoparticle-encapsulation, intravitreal formulation) to achieve therapeutic retinal concentrations.  
+2. Perform pharmacokinetic and retinal distribution studies in rodents or rabbits.  
+3. Test trehalose in established dry AMD animal models (e.g., sodium iodate–induced RPE injury, complement factor–deficient mice).  
+If favorable, trehalose merits further development as a repurposed therapeutic for dry AMD, leveraging its TFEB‐mediated autophagy enhancement to improve RPE homeostasis and slow disease progression.
+
+References  
+Gong, X., et al. (2016). Unknown Reference.  
+Liu, Y., et al. (2019). Unknown Reference.  
+Martini-Stoica, H., et al. (2016). Unknown Reference.  
+Roczniak-Ferguson, A., et al. (2012). Unknown Reference.  
+Rodríguez-Navarro, J. A., et al. (2010). Unknown Reference.  
+Sardiello, M., et al. (2009). Unknown Reference.  
+Sarkar, S., et al. (2007). Unknown Reference.  
+Song, J. X., et al. (2017). Unknown Reference.  
+Sun, J. Y., et al. (2018). Unknown Reference.  
+Suzuki, T., & Suzuki, M. (2008). Unknown Reference.  
+Tanaka, M., et al. (2004). Unknown Reference.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

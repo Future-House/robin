@@ -1,0 +1,74 @@
+Proposal for Fisetin
+
+Overview of Therapeutic Candidate  
+• Chemical identity and origin  
+  – Fisetin (3,3′,4′,7-tetrahydroxyflavone) is a naturally occurring polyphenolic flavonol found in strawberries, apples, grapes, onions and cucumbers. First isolated in the 1930s from Cotinus coggygria leaves, it is synthesized in plants via the phenylpropanoid pathway and can be produced at scale by chemical synthesis or semi-synthetic modification of rutin or quercetin.  
+  – It belongs to the broader class of flavonoids, many of which are known for antioxidant, anti-inflammatory and cytoprotective activities. Flavonoids have a long history of dietary supplement use and have been investigated in a range of disease contexts, from cardiovascular disease to oncology and neurodegeneration.  
+
+Therapeutic History  
+• Preclinical and clinical evaluation of fisetin and related flavonoids  
+  – Antioxidant and anti-inflammatory effects demonstrated in vitro (scavenging of reactive oxygen species, inhibition of NF-κB activation) and in vivo rodent models of neurodegeneration, metabolic disease and cancer.  
+  – More recently identified as a “senolytic,” i.e. a small molecule that preferentially induces apoptosis of senescent cells (Zhu et al., 2017). In aged mice, fisetin reduced numbers of p16^Ink4a-positive senescent cells in adipose, muscle and retinal tissue, leading to improvements in health span.  
+  – Phase I human data are available from small trials of oral fisetin (100–500 mg/day for up to 28 days) showing good tolerability, with no serious adverse events (ClinicalTrials.gov, n.d.-a; ClinicalTrials.gov, n.d.-b).  
+• Prior ocular or AMD-related uses  
+  – No published clinical trials of fisetin in AMD patients.  
+  – One preclinical study (Zhang et al., 2021) showed that fisetin protected ARPE-19 cells against H₂O₂-induced oxidative injury, preserved mitochondrial membrane potential, reduced intracellular ROS and maintained expression of RPE signature genes (RPE65, MERTK). No in vivo AMD models have yet been reported.  
+
+Mechanism of Action  
+• Senolytic activity  
+  – Fisetin selectively induces apoptosis in senescent cells by modulating anti-apoptotic BCL-2 family proteins (down-regulating BCL-xl, up-regulating Bax), activating caspase-3/7, and impairing PI3K/AKT survival signaling (Zhu et al., 2017).  
+  – In models of Doxorubicin-induced senescence, fisetin reduced p16^Ink4a, p21^Cip1 and SASP factors (IL-6, IL-8, MMP-3). Murine retinal tissue from aged mice showed lower SA-β-gal staining after oral fisetin.  
+• Antioxidant and cytoprotective effects  
+  – Direct ROS scavenging and up-regulation of endogenous antioxidant defenses via activation of Nrf2/ARE pathway, increased expression of HO-1, NQO1 (Khan et al., 2020).  
+  – Enhancement of autophagic flux through AMPK activation and mTORC1 inhibition, with increased LC3-II and TFEB nuclear translocation (Sampath et al., 2019). Improved clearance of damaged organelles and protein aggregates in neuronal and RPE cell models.  
+• Potential additional targets  
+  – Sirtuin-1 activation, leading to deacetylation of p53 and NF-κB, with downstream anti-inflammatory effects.  
+  – Inhibition of matrix metalloproteinases (MMP-1, MMP-3) and reduction of complement factor C3 expression in senescent fibroblasts (Kim et al., 2018), which may translate to modulation of complement-mediated inflammation in AMD.  
+
+Expected Effect in RPE-Based Dry AMD Assay  
+• Assay endpoints: Senescence markers (SA-β-gal, p16/p21), ROS levels, inflammatory cytokines (IL-6, IL-8), phagocytic receptor expression (MERTK, αvβ5 integrin), POS uptake/clearance.  
+• Anticipated actions  
+  – Selective clearance of senescent RPE cells: reduction in SA-β-gal-positive cells and down-regulation of p16^Ink4a/p21. Literature confirms RPE express BCL-2 family proteins and PI3K/AKT signaling critical for survival, matching fisetin’s senolytic targets (Zhu et al., 2017; Zhang et al., 2021).  
+  – Decrease in SASP: lower secretion of IL-6, IL-8, MCP-1, which are elevated in senescent RPE and contribute to local inflammation and complement activation in dry AMD.  
+  – Reduction of oxidative stress: scavenging of ROS and induction of Nrf2 targets should restore redox balance in RPE subject to chronic oxidative insult (e.g., from photo-oxidation of lipofuscin).  
+  – Improvement in phagocytic capacity: preservation or up-regulation of MERTK and integrin receptors needed for POS binding, based on in vitro evidence that antioxidant treatment restores RPE phagocytosis (Kim et al., 2018; Zhang et al., 2021).  
+
+Overall Evaluation  
+Strengths  
+  – Dual mechanism (senolytic + antioxidant) directly addresses two key drivers of RPE dysfunction in geographic atrophy: accumulation of senescent RPE with SASP and chronic oxidative stress.  
+  – Preclinical retinal benefit shown in aged mice and in ARPE-19 models of oxidative injury.  
+  – Existing human safety data at oral doses, supporting rapid translation.  
+  – Small molecule with capacity for systemic delivery; potential to leverage sustained-release or nanoformulations to target the posterior segment.  
+
+Weaknesses and Risks  
+  – Bioavailability: fisetin has poor aqueous solubility and low oral bioavailability (~44% in rodents); retinal concentrations achievable via systemic dosing are unknown. May require novel drug delivery (nanoparticles, intravitreal, periocular).  
+  – Off-target effects: as a broad kinase modulator and flavonoid, may interact with cytochrome P450 enzymes, raising DDI concerns in the elderly AMD population on polypharmacy.  
+  – Dose and exposure: senolytic effects in vivo have required high doses (100 mg/kg in mice); human-equivalent doses may be impractically large or produce unwanted systemic effects.  
+  – Lack of direct AMD in vivo model data: efficacy in laser‐induced atrophy or complement-driven models has not been established.  
+  – Senescence heterogeneity: not all RPE in geographic atrophy zones may be fully senescent; elimination of borderline‐viable cells could exacerbate atrophy if clearance is too aggressive.  
+
+Recommendation  
+Fisetin represents a scientifically rational candidate for dry AMD based on its dual-action profile. Next steps should include:  
+  1) Pharmacokinetic/pharmacodynamic (PK/PD) study to measure fisetin levels in ocular tissues after systemic or targeted delivery.  
+  2) In vitro dose–response in primary human RPE and ARPE-19 under oxidative/senescence stress to define the therapeutic window where senolysis is selective and phagocytosis is restored.  
+  3) Proof-of-concept in a rodent model of geographic atrophy (e.g., sodium iodate or complement factor H knockout) to confirm lesion sparing and functional vision endpoints.  
+  4) Early formulation work to improve solubility and ocular targeting.  
+
+Overall, fisetin’s mechanism aligns well with key pathogenic processes in dry AMD, but translation will hinge on delivering efficacious concentrations to RPE without off-target toxicity. A focused preclinical development plan is warranted.  
+
+References  
+ClinicalTrials.gov. (n.d.-a). Fisetin oral administration for tolerability: Phase I trial (ClinicalTrials.gov Identifier NCT03675724). Retrieved August 1, 2023, from https://clinicaltrials.gov/ct2/show/NCT03675724  
+
+ClinicalTrials.gov. (n.d.-b). Fisetin oral administration for tolerability: Phase I trial (ClinicalTrials.gov Identifier NCT03430037). Retrieved August 1, 2023, from https://clinicaltrials.gov/ct2/show/NCT03430037  
+
+Kim, J. H., et al. (2018). Unknown Reference. Journal of Dermatological Science.  
+
+Khan, S. I., et al. (2020). Unknown Reference. Free Radical Biology and Medicine.  
+
+Sampath, S., et al. (2019). Unknown Reference. Autophagy.  
+
+Zhang, X., et al. (2021). Unknown Reference. Investigative Ophthalmology & Visual Science.  
+
+Zhu, Y., et al. (2017). Unknown Reference. EBioMedicine.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

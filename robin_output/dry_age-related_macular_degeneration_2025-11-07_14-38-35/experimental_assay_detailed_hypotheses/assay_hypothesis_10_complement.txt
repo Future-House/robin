@@ -1,0 +1,55 @@
+Hypothesis: Complement deposition assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Complement deposition assay
+Reasoning: Immunofluorescent quantification of C3b or C5b-9 on RPE after exposure to human serum in 96-well format yields a direct measure of complement inhibition by candidate drugs (Nozaki et al., JCI 2006).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview  
+• Rationale and modelled pathogenesis  
+  – Dry AMD is strongly linked to chronic, local activation of the alternative complement pathway at the level of the retinal pigment epithelium (RPE) and Bruch’s membrane, leading to drusen formation and RPE injury.  
+  – This assay measures the ability of candidate therapeutics to inhibit complement activation/deposition on RPE cells in vitro.  
+• Readouts  
+  – After incubating RPE monolayers with human serum (as a source of complement), fixed cells are stained with antibodies against C3b/iC3b or the terminal complement complex (C5b-9).  
+  – Quantitation is performed by high-content immunofluorescence microscopy or plate-based fluorescence scanning, yielding per-well (or per-cell) intensity of complement complexes.  
+• Biological materials  
+  – Human RPE: immortalized ARPE-19 or primary donor RPE cultured on laminin-coated 96-well plates.  
+  – Normal or genotype-characterized human serum (e.g., CFH Y402H homozygous vs. wild-type) as complement source.  
+  – Complement inhibitors or candidate compounds added prior to or together with serum.  
+
+Biomedical Evidence  
+1. Centrality of complement in dry AMD  
+   – Genetic studies (CFH Y402H, C3 R102G, CFB, CFI polymorphisms) demonstrate that dysregulated alternative-pathway activity increases AMD risk. (Hageman et al., Science 2005; Klein et al., Nat Genet 2005; Maller et al., Nat Genet 2007)  
+   – Drusen and RPE deposits in human donor eyes contain high levels of C3 fragments and C5b-9, implicating local complement activation in early AMD lesion formation. (Johnson et al., J Pathol 2001; Crabb et al., PNAS 2002)  
+   – Elevated complement activation products (C3a, Ba, C5a) in plasma and ocular fluids from dry AMD patients correlate with disease severity. (Hecker et al., Br J Ophthalmol 2010; Scholl et al., Invest Ophthalmol Vis Sci 2008)  
+2. Relevance of RPE complement handling  
+   – RPE cells actively produce complement regulators (CFH, CD46, CD55) and are susceptible to complement-mediated lysis when regulators are overwhelmed. (Klein et al., Exp Eye Res 2008; Hughes et al., J Immunol 2006)  
+   – In vitro, exogenous serum induces complement deposition on RPE, recapitulating aspects of drusen biogenesis and RPE injury. (Nozaki et al., J Clin Invest 2006)  
+
+Previous Use  
+• Nozaki et al. (JCI 2006) pioneered this assay:  
+  – Demonstrated that RPE cultured with human serum deposits C5b-9 and that genetic or antibody-mediated blockade of C5 or factor D prevents deposition.  
+  – Provided proof of concept that complement inhibitors rescue RPE from membrane attack complex–mediated injury.  
+• Follow-on studies have employed similar platforms to screen small-molecule factor D inhibitors, anti-C5 monoclonal antibodies, and engineered complement regulators. (Hecker et al., Curr Eye Res 2015; Lin et al., Exp Eye Res 2017)  
+• Key discovery: anti-factor D and anti-C5 therapies can reduce complement deposition in RPE cultures, supporting their progression into clinical trials (e.g., lampalizumab, eculizumab).  
+
+Overall Evaluation  
+Strengths  
+ • Disease relevance: Directly models a well-validated pathogenic mechanism (RPE complement deposition).  
+ • Quantitative and relatively high-throughput: 96-well format amenable to dose–response curves and compound library screening.  
+ • Human biology: Uses human RPE and serum, capturing human-specific complement regulation.  
+ • Target engagement: Measures the actual molecular complexes (C3b, C5b-9) that are therapeutic targets.  
+
+Weaknesses  
+ • Simplified microenvironment: Lacks Bruch’s membrane, choroidal endothelium, microglia, and drusen matrix interactions that modulate complement activity in vivo.  
+ • Serum variability: Donor-to-donor differences in complement levels and regulator genotypes introduce assay variability; requires careful standardization.  
+ • End-point assay: Typically measures deposition only at one or two time points; may miss dynamic regulation or delayed toxicity.  
+ • RPE cell model limitations: ARPE-19 cells differ from native RPE in polarization and complement regulator expression; primary RPE are more physiologic but less scalable.  
+
+Conclusion  
+The complement deposition assay on human RPE is a robust, disease-relevant in vitro platform for early screening of complement-targeted therapeutics in dry AMD. Its direct measurement of C3b and C5b-9 provides a clear readout of drug efficacy. However, it should be complemented by more complex co-culture or tissue-engineered models, and by in vivo studies, to capture the full pathophysiological context of AMD.
+

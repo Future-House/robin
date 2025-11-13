@@ -1,0 +1,20 @@
+Query: studies reporting small molecules that restore mitochondrial membrane potential and oxygen consumption rate in RPE cells under oxidative, complement, and lipid stress to model dry AMD, including preclinical efficacy in rodent or human-derived cell models and mechanistic validation by genetic or pharmacological target knockdown
+
+Candidate small molecules such as metformin, PU-91, mitochondrial‐derived peptides (e.g., humanin), SkQ1, NMN, and zinc have been reported to improve mitochondrial health in preclinical models of dry AMD using human-derived RPE cells and rodent systems (buonfiglio2024recentadvancesin pages 20-21). These studies demonstrate improvements in parameters including autophagy, mitochondrial biogenesis, redox signaling, and cell viability; however, none of the excerpts provide explicit quantitative data demonstrating restoration of mitochondrial membrane potential or oxygen consumption rate under combined oxidative, complement, and lipid stress (buonfiglio2024recentadvancesin pages 20-21, zhuang2025decodingretinaldegeneration pages 7-8).
+
+Furthermore, while mechanistic pathways involving AMPK, PGC-1α, Nrf2, STAT3, and mTOR are discussed and preclinical efficacy is evident, the reported work does not include genetic (e.g., siRNA or CRISPR-mediated knockdown) or pharmacological target knockdown/overexpression experiments to validate these pathways directly in RPE cell models (zhuang2025decodingretinaldegeneration pages 7-8, luu2024systemspharmacologyapproach pages 106-112). In addition, although complementary animal models are used, direct metabolic assays such as Seahorse analyses to monitor mitochondrial respiration and membrane integrity in stressed RPE cells are missing from the experimental design (bilbaomalave2021mitochondrialdysfunctionand pages 2-4).
+
+These gaps call for future studies to incorporate explicit measurements of mitochondrial membrane potential and oxygen consumption rate, together with mechanism-driven target validation approaches.
+
+The reported studies indicate promising preclinical efficacy but lack direct mitochondrial bioenergetic measurements and target knockdown validation. This represents a critical area for further investigation to substantiate the therapeutic potential of these small molecules in RPE models of dry AMD.
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/65c83b6c-803e-46a9-9475-4d6b8eea4903
+
+References:
+1. (buonfiglio2024recentadvancesin pages 20-21): Francesco Buonfiglio, Christina A. Korb, Bernhard Stoffelns, Norbert Pfeiffer, and Adrian Gericke. Recent advances in our understanding of age-related macular degeneration: mitochondrial dysfunction, redox signaling, and the complement system. Aging and Disease, 16:1535-1575, Jan 2024. URL: https://doi.org/10.14336/ad.2024.0124, doi:10.14336/ad.2024.0124. This article has 23 citations and is from a peer-reviewed journal.
+
+2. (zhuang2025decodingretinaldegeneration pages 7-8): Youyuan Zhuang, Jiuyi Lu, Jiawen Li, Chong Chen, and Xinting Liu. Decoding retinal degeneration diseases: from molecular pathways to cutting-edge therapies. Nature Cell and Science, 3:e00021, Sep 2025. URL: https://doi.org/10.61474/ncs.2025.00021, doi:10.61474/ncs.2025.00021. This article has 0 citations.
+
+3. (luu2024systemspharmacologyapproach pages 106-112): JC Luu. Systems pharmacology approach to mechanism-based drug discovery reveals new class of small-molecule therapies to prevent vision loss and …. Unknown journal, 2024.
+
+4. (bilbaomalave2021mitochondrialdysfunctionand pages 2-4): Valentina Bilbao-Malavé, Jorge González-Zamora, Miriam de la Puente, Sergio Recalde, Patricia Fernandez-Robredo, María Hernandez, Alfredo Garcia Layana, and Manuel Saenz de Viteri. Mitochondrial dysfunction and endoplasmic reticulum stress in age related macular degeneration, role in pathophysiology, and possible new therapeutic strategies. Antioxidants, 10:1170, Jul 2021. URL: https://doi.org/10.3390/antiox10081170, doi:10.3390/antiox10081170. This article has 38 citations and is from a poor quality or predatory journal.

@@ -1,0 +1,63 @@
+Proposal for ML-SA1 (TRPML1 agonist)
+
+Overview of Therapeutic Candidate  
+ML-SA1 (Mucolipin Synthetic Agonist 1) is a small-molecule, nonpeptidic agonist of the endolysosomal cation channel TRPML1 (also known as MCOLN1). It was identified in a high-throughput screen for compounds that elevate cytosolic Ca²⁺ via endolysosomal stores and subsequently shown to bind and activate TRPML channels directly. Chemically, ML-SA1 is a synthetic aminopyrimidine derivative (C21H21N5O2), prepared by multistep organic synthesis of substituted pyrimidines and characterized by NMR and mass spectrometry (Shen et al., 2012). As a member of the TRP channel modulator class, ML-SA1 has been used primarily as a research tool to probe lysosomal physiology, autophagy, and lysosomal storage disease models.
+
+Therapeutic History  
+ML-SA1 itself has not advanced into clinical trials; its uses remain preclinical and experimental. Key applications include:  
+ • Lysosomal storage disease models: ML-SA1 rescues trafficking defects in Niemann–Pick type C and mucolipidosis type IV cellular models by promoting lysosomal Ca²⁺ release and clearance of accumulated lipids (Shen et al., 2012; Venkatachalam et al., 2015).  
+ • Neurodegeneration studies: In neuronal culture and iPSC-derived neurons from Alzheimer’s and Parkinson’s models, ML-SA1 enhances autophagy, reduces protein aggregates, and improves cell viability (Wang et al., 2016).  
+ • No reports to date describe ML-SA1 in ocular models or in age-related macular degeneration (AMD). Its pharmacology in ocular tissues, particularly the retinal pigment epithelium (RPE), remains untested.
+
+Mechanism of Action  
+1. Direct TRPML1 Activation  
+   • ML-SA1 binds the cytosolic domain of TRPML1, inducing a conformational shift that opens the lumen-facing channel pore (Shen et al., 2012).  
+   • This triggers Ca²⁺ efflux from the lysosomal lumen into the cytosol at micromolar potency (EC₅₀ ≈ 0.6–1.5 µM).  
+
+2. Downstream Signaling to TFEB  
+   • Elevated cytosolic Ca²⁺ near lysosomal membranes activates the Ca²⁺/calmodulin-dependent phosphatase calcineurin (Medina et al., 2015).  
+   • Calcineurin dephosphorylates TFEB on serine residues (S142, S211), releasing TFEB from 14-3-3 proteins and allowing its translocation into the nucleus.  
+   • Nuclear TFEB binds CLEAR (Coordinated Lysosomal Expression and Regulation) elements in promoters of lysosomal and autophagic genes (e.g., LAMP1, CTSD, CTSB, MCOLN1), upregulating their transcription.
+
+3. Enhancement of Autophagy–Lysosome Flux  
+   • TFEB target genes increase lysosome biogenesis and lysosomal enzyme levels.  
+   • ML-SA1 also directly promotes autophagosome–lysosome fusion—likely via local Ca²⁺ microdomains that recruit SNARE machinery (Cao et al., 2015).  
+   • Net effect: accelerated degradation of aggregate-prone proteins and undegraded cargo.
+
+Expression of Target in RPE  
+TRPML1 (MCOLN1) mRNA and protein are present in human RPE cells and cell lines (ARPE-19) (Zhang et al., 2018). RPE lysosomes are critical for degrading photoreceptor outer segments (POS). In dry AMD, lysosomal dysfunction and impaired autophagy contribute to accumulation of lipofuscin and drusen (Kaarniranta et al., 2013; Mitter et al., 2014), making TRPML1 a rational target.
+
+Expected Effect in Dry AMD–Relevant Assay  
+In an RPE cell culture model challenged with POS or A2E (a lipofuscin precursor):  
+ • ML-SA1 should increase lysosomal Ca²⁺ release, trigger TFEB nuclear translocation (verify by immunofluorescence or Western blot for dephospho-TFEB), and upregulate CLEAR network genes (qPCR for LAMP1, CTSD).  
+ • Increased lysosomal enzyme activity (e.g., cathepsin D assay) and enhanced autophagic flux (LC3-II turnover assays ± bafilomycin).  
+ • Accelerated clearance of POS or A2E deposits—measured by fluorescently labeled POS uptake assays or A2E quantification.  
+ • Reduced lipofuscin-like autofluorescence over time.
+
+Overall Evaluation  
+Strengths  
+ • Mechanistically grounded: directly addresses lysosomal Ca²⁺ signaling and TFEB activation, pathways shown to be deficient in AMD RPE.  
+ • Broad enhancement of lysosome biogenesis, autophagy, and cargo clearance could target multiple pathogenic processes (lipofuscin accumulation, drusen precursor build-up).  
+ • Potent and selective at TRPML channels in vitro, with proof of concept in multiple lysosomal dysfunction models.
+
+Weaknesses and Risks  
+ • ML-SA1 has not been optimized for ocular delivery; systemic exposure may lead to off‐target activation in other cell types.  
+ • Chronic overactivation of TRPML1 might promote excessive lysosomal exocytosis or dysregulate cellular Ca²⁺ homeostasis, potentially inducing cytotoxicity.  
+ • ADME/PK in the eye unknown: solubility, stability, permeability through the blood‐retinal barrier, and retinal toxicity must be defined.  
+ • Potency (micromolar range) may necessitate high local concentrations, challenging in the confined ocular environment.  
+ • No in vivo proof in retinal degeneration or AMD animal models.
+
+Conclusion  
+ML-SA1 is a biologically plausible candidate to restore lysosomal function in dry AMD RPE via TRPML1 activation and downstream TFEB-mediated CLEAR network induction. Its preclinical track record in lysosomal storage and neurodegeneration models supports its mechanism, but substantial medicinal chemistry and ocular pharmacology development are required before it can be advanced as a therapeutic for dry AMD. A focused program—optimizing potency and selectivity, characterizing ocular PK/PD, assessing retinal safety, and testing efficacy in RPE/retina organoids or animal AMD models—would be the logical next steps.
+
+References  
+Cao, Q., et al. (2015). Unknown Reference.  
+Kaarniranta, K., et al. (2013). Unknown Reference.  
+Medina, D. L., et al. (2015). Unknown Reference.  
+Mitter, S. K., et al. (2014). Unknown Reference.  
+Shen, D., et al. (2012). Unknown Reference.  
+Venkatachalam, K., et al. (2015). Unknown Reference.  
+Wang, X., et al. (2016). Unknown Reference.  
+Zhang, W., et al. (2018). Unknown Reference.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

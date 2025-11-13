@@ -1,0 +1,55 @@
+Hypothesis: AMPK agonist–stimulated mitophagy flux
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: AMPK agonist–stimulated mitophagy flux
+Reasoning: Using AICAR or a direct AMPK activator in RPE expressing mito-Keima quantifies mitophagy by high-content imaging. Rapid fluorescence shifts indicate mitochondrial turnover, a key mechanism failing in AMD models (Wang et al., 2018; Liu et al., 2014).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview  
+•  Pathway modeled: mitochondrial quality control via AMPK‐stimulated mitophagy in retinal pigment epithelium (RPE).  Mitochondrial dysfunction and impaired removal of damaged mitochondria are hallmarks of dry AMD.  
+•  Readouts:  
+   –  Mito-Keima fluorescence ratiometry (excitation at ~440 nm vs. ~561 nm) to quantify mitochondrial delivery to lysosomes.  
+   –  High‐content imaging analysis (automated segmentation of RPE, ratio pixel‐mapping).  
+   –  Orthogonal validation: immunoblot for p-AMPK (Thr172), p-ULK1, LC3-II/I, PINK1/Parkin, and flow cytometric ROS assays.  
+•  Biological materials:  
+   –  Human RPE cell model (ARPE-19 or iPSC-derived RPE) stably expressing mito-Keima via lentiviral transduction.  
+   –  Treatments: AMPK agonists (AICAR, A-769662 or MK-8722) vs. vehicle; positive control for mitophagy (CCCP) and negative control (Bafilomycin A1).  
+
+Biomedical Evidence  
+1. Mitochondrial dysfunction in dry AMD  
+   •  Multiple clinical and histopathological studies show accumulation of enlarged, dysfunctional mitochondria in RPE overlying drusen (Feher et al., 2006; Golestaneh et al., 2017).  
+   •  Proteomic analyses of AMD donor eyes reveal downregulation of key mitophagy regulators (PINK1, Parkin) and AMPK pathway members (Kaarniranta et al., 2018).  
+   •  Animal and in vitro models of RPE senescence recapitulate reduced mitochondrial turnover, increased ROS, and RPE atrophy (Mitter et al., 2014; Liu et al., 2014).  
+
+2. AMPK as a master regulator of RPE homeostasis  
+   •  AMPK senses energetic stress and directly phosphorylates ULK1 to initiate autophagy/mitophagy (Egan et al., 2011).  
+   •  In RPE, AMPK activation protects against oxidative insult, preserves mitochondrial membrane potential, and reduces lipofuscin accumulation (Kim et al., 2017; Hanus & Palczewski, 2019).  
+   •  Clinical correlations: low p-AMPK levels in RPE of aged/diseased eyes (Wang et al., 2018) support its central role.  
+
+Previous Use  
+•  Mito-Keima reporter system first described by Katayama et al. (2011) and has become the gold standard for measuring mitophagy flux in live cells.  
+•  In RPE models:  
+   –  Golestaneh et al. (2017) used mito-Keima to show impaired basal mitophagy in AMD patient–derived iPSC-RPE and partial rescue by overexpressing Parkin.  
+   –  Kaarniranta et al. (2018) demonstrated that pharmacological AMPK activation increased mitophagy and improved RPE barrier function in vitro.  
+•  Drug discovery: screening of small-molecule AMPK activators in neuronal and cardiomyocyte lines has yielded compounds now in early clinical trials for metabolic and neurodegenerative diseases (Ju et al., 2018).  
+
+Overall Evaluation  
+Strengths  
+•  Direct, quantitative measure of mitophagy flux in the disease‐relevant RPE cell type.  
+•  Amenable to medium‐throughput screening using automated imaging platforms.  
+•  Targets a well-validated pathogenic node (mitochondrial turnover) with strong biomedical and clinical support.  
+•  Orthogonal biochemical readouts (p-AMPK, ULK1, LC3) increase confidence in hits.  
+
+Weaknesses  
+•  Overexpression of mito-Keima may alter mitochondrial dynamics or autophagy capacity.  
+•  AMPK agonists (especially AICAR) can have off-target effects on adenosine receptors and nucleotide pools.  
+•  ARPE-19 cells do not fully recapitulate adult human RPE phenotype (polarization, melanosomes, drusen‐like deposits). iPSC-RPE are more physiological but less robust in high‐throughput format.  
+•  In vitro assay cannot model interplay with photoreceptors, choroidal vasculature, or inflammatory milieu present in vivo.  
+
+Conclusion:  
+An AMPK agonist–stimulated mitophagy assay in mito-Keima–expressing RPE provides a mechanistically grounded, quantifiable platform to identify compounds that restore mitochondrial quality control—a key deficit in dry AMD. Careful selection of AMPK modulators, use of physiologically relevant RPE models, and integration of orthogonal readouts will maximize translatability.
+

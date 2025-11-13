@@ -1,0 +1,39 @@
+Assay Candidate 1:
+Strategy: Mitochondrial membrane potential assay
+Reasoning: Assessment of mitochondrial membrane potential using dyes such as JC-1 or TMRM provides a rapid and sensitive endpoint for mitochondrial dysfunction driven by oxidative stress in RPE cells, a key event in dry AMD pathogenesis (basyal2024antioxidantsandmechanistic pages 34-35; shu2023roleofoxidative pages 13-14). Changes in membrane potential correlate with ATP depletion and early apoptotic signaling, enabling direct measurement of compound efficacy in preserving bioenergetic integrity.
+
+Assay Candidate 2:
+Strategy: Mitophagy flux assay
+Reasoning: Quantifying the turnover of damaged mitochondria via mitophagy markers (PINK1, Parkin recruitment, and LC3 co-localization) addresses impaired mitochondrial quality control observed in AMD RPE (brooks2023roleofmitophagy pages 5-6; basyal2024antioxidantsandmechanistic pages 35-36). This assay discriminates between enhanced clearance of dysfunctional organelles and blocked autophagic flux, offering a functional readout of compounds that restore mitophagy.
+
+Assay Candidate 3:
+Strategy: Reactive oxygen species measurement
+Reasoning: Fluorescent probes such as MitoSOX (mitochondrial superoxide) and CM-H2DCFDA (global ROS) afford quantitative detection of oxidative stress in live RPE cultures under insult conditions (shu2023roleofoxidative pages 13-14; bhattacharya2022modelingofmitochondrial pages 4-5). This simple, high-throughput compatible assay directly links drug treatment to ROS attenuation, a primary driver of RPE degeneration in dry AMD.
+
+Assay Candidate 4:
+Strategy: Complement activation assay
+Reasoning: ELISA-based quantification of C3a and C5a in RPE culture supernatants captures dysregulated complement activity implicated in chronic inflammation and RPE injury (basyal2024antioxidantsandmechanistic pages 2-4; gao2017nlrp3inflammasomeactivity pages 187-190). Measuring anaphylatoxin levels provides a scalable and specific readout to evaluate complement-modulating drug candidates.
+
+Assay Candidate 5:
+Strategy: MAC deposition assay
+Reasoning: Immunofluorescent detection of membrane attack complex (C5b-9) on RPE cell surfaces delivers spatial and quantitative insights into sublytic complement damage in AMD models (Fernandezgodino2015alocalcomplement pages 10-11; Linetsky20184hydroxy7oxo5heptenoicacidlactone pages 3-5). This endpoint directly reports cell-surface vulnerability and the protective effect of complement inhibitors.
+
+Assay Candidate 6:
+Strategy: Inflammasome activation assay
+Reasoning: Measurement of caspase-1 activity combined with IL-1β/IL-18 secretion by fluorometric assays and cytokine ELISAs allows quantification of NLRP3 inflammasome engagement in RPE under oxidative or lysosomal stress (gao2017nlrp3inflammasomeactivity pages 30-35; Linetsky20184hydroxy7oxo5heptenoicacidlactone pages 3-5). This functional readout identifies compounds that quench inflammasome-driven inflammation.
+
+Assay Candidate 7:
+Strategy: Lipofuscin accumulation assay
+Reasoning: Autofluorescence imaging at 405/488 nm excitation with digital subtraction of residual POS signal (via rhodopsin co-staining) provides a direct measure of lipofuscin and A2E aggregates in RPE (rajanala2023geographicatrophypathophysiology pages 5-6; zhang2023improvedlipofuscinmodels pages 11-13). Quantitative granule counts and intensity metrics enable rapid screening of agents that reduce lipofuscin burden.
+
+Assay Candidate 8:
+Strategy: Autophagy flux assay
+Reasoning: The tandem RFP-GFP-LC3 reporter system distinguishes autophagosomes from acidified autolysosomes in live RPE cells, offering real-time tracking of autophagic flux under stress or treatment (golestaneh2018dysfunctionalautophagyin pages 11-11; rao2022monitoringbasalautophagy pages 1-2). This sensitive method identifies compounds that restore impaired autophagy in AMD models.
+
+Assay Candidate 9:
+Strategy: Lysosomal function assay
+Reasoning: Combined use of LysoSensor to monitor pH shifts and fluorogenic cathepsin D substrates (e.g., BODIPY-FL Pepstatin-A) quantifies lysosomal acidification and enzymatic capacity in RPE (liu2016impairingautophagyin pages 10-11; bhattacharya2022modelingofmitochondrial pages 4-5). This approach detects rescue of lysosomal dysfunction that underlies both lipofuscin accumulation and inflammasome activation.
+
+Assay Candidate 10:
+Strategy: Phagocytosis assay
+Reasoning: Measurement of pHrodo-labeled photoreceptor outer segment uptake by flow cytometry or live-cell imaging provides a functional readout of RPE phagocytic capacity, which declines in dry AMD (liang2023comprehensiveanalysisof pages 8-10; zhang2023improvedlipofuscinmodels pages 14-16). Restoration of phagocytosis by test compounds can be directly quantified in high-throughput workflows.

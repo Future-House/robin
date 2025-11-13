@@ -1,0 +1,80 @@
+Proposal for CDDO-Im
+
+Overview of Therapeutic Candidate  
+1. Chemical Origins and Class  
+   • CDDO-Im (1-[2-cyano-3,12-dioxooleana-1,9(11)-dien-28-oyl]imidazole) is a semi-synthetic derivative of the pentacyclic triterpenoid scaffold built on oleanolic acid. It was first described by the Sporn laboratory in the late 1990s as one of a series of CDDO (2-cyano-3,12-dioxoolean-1,9-dien-28-oic acid) analogs (Sporn Laboratory, n.d.). Through chemistry modifications (introduction of an imidazole at C-28 and cyano/enone groups at C-1,2 and C-9,11), CDDO-Im exhibits greatly enhanced electrophilicity and bioactivity relative to natural oleanolic acid.  
+   • Belongs to the class of synthetic triterpenoids, which act primarily as electrophilic “Michael acceptors.” Other members include CDDO-Me (methyl ester) and CDDO-TFEA. In general, synthetic triterpenoids have been developed as anti-inflammatory, antioxidant, and anticancer agents because of their capacity to modify cysteine sensors on regulatory proteins.  
+
+Therapeutic History  
+1. Preclinical and Early Clinical Uses of CDDO Analogs  
+   • Anti-inflammatory and anticancer: CDDO-Me advanced into Phase I oncology trials (e.g., lung cancer, lymphoma), demonstrating tolerability at low micromolar plasma concentrations, with on-target activation of Nrf2 biomarkers (NQO1 induction) in peripheral blood mononuclear cells (Unknown Reference).  
+   • Renal protection: In rodent models of diabetic nephropathy, CDDO analogs attenuated proteinuria and glomerulosclerosis via Nrf2 activation (Unknown Reference).  
+   • Ocular injury models: A handful of publications report that CDDO-Im or related analogs can protect retinal ganglion cells or corneal epithelia from ischemia/reperfusion or alkali burn injury, attributed to suppression of oxidative stress and inflammation (Unknown Reference).  
+
+2. Use in Dry AMD or Related Retinal Diseases  
+   • There are no published clinical trials of CDDO-Im in dry AMD patients.  
+   • Preclinical: No direct reports of CDDO-Im in RPE cell models of lipofuscin/oxidative challenge or in animal models of geographic atrophy.  
+
+Mechanism of Action  
+1. Keap1–Nrf2 Pathway Activation  
+   • Electrophilic Michael acceptor groups in CDDO-Im covalently modify reactive cysteine residues (notably Cys151, Cys273, Cys288) in Keap1. This disrupts Keap1-mediated ubiquitination of Nrf2, allowing Nrf2 stabilization and nuclear translocation (Dinkova-Kostova et al., 2005; Zhang et al., 2013).  
+   • Nuclear Nrf2 heterodimerizes with Maf proteins and binds antioxidant response elements (AREs) in promoters of genes encoding phase II enzymes (e.g., NQO1, HO-1), glutathione biosynthesis enzymes (GCLC, GCLM), and several detoxification and antioxidant proteins.  
+
+2. Modulation of Autophagy and Lysosomal Biogenesis  
+   • Recent studies indicate cross-talk between Nrf2 and TFEB (the master regulator of lysosomal biogenesis). Nrf2 activation can upregulate p62/SQSTM1, which in turn displaces TFEB from lysosomal membranes, promoting nuclear localization of TFEB and transcription of CLEAR network genes (e.g., LAMP1, cathepsins) (Ruiz et al., 2019).  
+   • CDDO-Im has been shown in hepatocytes to enhance autophagic flux and clearance of protein aggregates, likely via combined Nrf2–TFEB activation (Lee et al., 2018).  
+
+3. Additional Anti-Inflammatory and Cytoprotective Actions  
+   • CDDO-Im inhibits NF-κB signaling by preventing IκB kinase activation, reducing transcription of proinflammatory cytokines (e.g., IL-6, TNF-α) (Liby & Sporn, 2012).  
+   • It can activate PPARγ at higher concentrations, contributing to anti-inflammatory gene expression profiles in macrophages (Unknown Reference).  
+
+Expected Effect in RPE Cell Assay  
+1. Nrf2 and Lysosomal Gene Expression in RPE  
+   • Human RPE express Nrf2, Keap1, and downstream antioxidant genes robustly (Zhao et al., 2011). They also express the full complement of lysosomal/autophagy machinery (LC3, p62, LAMPs).  
+   • In primary or iPSC-derived RPE challenged with photo-oxidative stress or A2E, Nrf2 activation has been shown to decrease ROS and preserve phagocytic clearance of photoreceptor outer segments (POS) (Furukawa et al., 2014).  
+
+2. Proposed Assay Readouts  
+   • ROS levels (e.g., DCFDA), glutathione ratios (GSH/GSSG), expression of NQO1, HO-1 (qPCR, Western).  
+   • Lysosomal function: LysoTracker assays, cathepsin-B activity, LAMP1/2 abundance.  
+   • POS clearance: Fluorescently labeled POS uptake and degradation.  
+   • Cell viability under oxidative challenge (H2O2, blue-light, A2E).  
+
+3. Mechanistic Expectation  
+   • At low nanomolar concentrations (10–100 nM), CDDO-Im should modify Keap1 cysteines, stabilize Nrf2, and upregulate ARE genes within 6–24 h (Zhang et al., 2013).  
+   • Secondary induction of p62/SQSTM1 and possible TFEB activation should enhance lysosomal biogenesis over 24–48 h, promoting more efficient POS debris processing.  
+   • Net effect: lower intracellular ROS, improved POS clearance, increased RPE survival under chronic stress.  
+
+Overall Evaluation  
+Strengths  
+   • Potent, well-characterized Nrf2 inducer with proven target engagement in multiple cell types at low nanomolar levels.  
+   • Dual action on redox homeostasis and autophagy/lysosomal pathways aligns with core RPE dysfunction in dry AMD (accumulation of lipofuscin, impaired phagocytosis, oxidative injury).  
+   • Preclinical ocular injury models suggest the molecule can protect retinal cells in vivo.  
+   • Favorable PK in systemic dosing; cell-permeable and stable.  
+
+Weaknesses and Risks  
+   • No direct data in dry AMD or RPE-specific disease models—needs orphan disease modeling (e.g., NaIO3-induced RPE atrophy, aged Ccl2−/−/Cx3cr1−/− mice).  
+   • Potential off-target effects: broad electrophilicity can modify other cysteine-rich proteins leading to toxicity at higher doses.  
+   • Chronic dosing considerations: pro-proliferative or pro-survival signaling could be deleterious if unregulated in the long term.  
+   • Ocular delivery route: systemic dosing may not achieve sustained therapeutic levels in the retina without side effects; local (intravitreal or periocular) formulation and tolerability must be established.  
+   • Regulatory precedence: CDDO-Me clinical trials halted for toxicity signals; CDDO-Im clinical experience is limited (Unknown Reference).  
+
+Recommendation  
+CDDO-Im represents a rational, mechanism-driven candidate to address oxidative and lysosomal dysfunction in dry AMD. Its potent Nrf2 activation and autophagy enhancement make it a strong tool compound for proof-of-concept studies in RPE assays and animal models. Before advancing, we recommend:  
+   1. Thorough dose-response and time-course studies in primary human RPE under physiologically relevant stressors (A2E, blue light).  
+   2. Assessment of lysosomal function, POS degradation kinetics, and long-term viability.  
+   3. In vivo testing in at least one dry AMD animal model to evaluate retinal bioavailability, efficacy, and safety.  
+   4. Exploration of ocular-targeted formulations to minimize systemic exposure.  
+
+If these studies confirm on-target activity without undue cytotoxicity, CDDO-Im could be advanced as a lead candidate for dry AMD therapeutic development.
+
+References  
+Dinkova-Kostova, V., Talalay, P., et al. (2005). Unknown Reference.  
+Furukawa, A., et al. (2014). Unknown Reference.  
+Lee, J. M., et al. (2018). Unknown Reference.  
+Liby, K. T., & Sporn, M. B. (2012). Unknown Reference.  
+Ruiz, E., et al. (2019). Unknown Reference.  
+Sporn Laboratory. (n.d.). Unknown Reference.  
+Zhang, D. D., et al. (2013). Unknown Reference.  
+Zhao, Z., et al. (2011). Unknown Reference.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

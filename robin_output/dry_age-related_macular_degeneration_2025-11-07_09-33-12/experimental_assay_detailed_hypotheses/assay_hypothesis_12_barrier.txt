@@ -1,0 +1,41 @@
+Hypothesis: Barrier permeability assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Barrier permeability assay
+Reasoning: Measure FITC-dextran flux across RPE monolayers in Transwells before and after oxidative or inflammatory challenge ± test drug. Tight-junction breakdown is an early pathological feature in AMD, providing a rapid functional readout (Webster, 2023; Cerniauskas et al., 2020).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+This assay employs a FITC‑dextran flux measurement across RPE monolayers in Transwell inserts to quantify paracellular permeability changes that occur after oxidative (e.g., NaIO₃) or inflammatory challenge. The readout consists of quantifying the passage of a 70 kDa fluorescent tracer across the monolayer, complemented by TEER measurements and tight junction protein (e.g., ZO-1) immunostaining. Typically cultured cells include ARPE‑19 or primary/stem cell–derived RPE, which mimic key aspects of the oBRB in vitro (김지호2025developmentofa pages 81-88, obert2017targetingthetight pages 1-2).
+
+Biomedical Evidence:  
+Disruption of RPE tight junctions is a central early event in dry AMD pathogenesis and is linked to subsequent complement activation, drusen formation, and neovascular events. Both biomedical and clinical studies underscore that preserving barrier integrity can attenuate disease progression, making this assay highly relevant (obert2017targetingthetight pages 1-2, obert2017targetingthetight pages 11-12, hellinen2020retracteddrugflux pages 8-9). 
+
+Previous Use:  
+FITC‑dextran flux assays in Transwells have been extensively used to model barrier breakdown following oxidative and inflammatory insults. These assays have been pivotal in demonstrating the efficacy of junction‑stabilizing therapeutics such as αCT1 and in correlating permeability changes with endothelial sprouting and complement deposition (김지호2025developmentofa pages 81-88, 정민환2017eyeona pages 89-100, obert2017targetingthetight pages 10-11).
+
+Overall Evaluation:  
+This assay is a robust and rapid method to evaluate early barrier dysfunction in dry AMD models. Its strengths include sensitivity to changes in tight junction integrity and adaptability for multi‑parametric readouts, whereas its weaknesses relate to the inherent limitations of certain cell lines (e.g., ARPE‑19) and the lack of full recapitulation of RPE–choroid interplay (dujardin2024developmentofa pages 266-267, hellinen2020retracteddrugflux pages 8-9).
+
+The assay provides a valuable platform for early drug screening in dry AMD by quantifying rapid functional changes in RPE barrier integrity. It offers robust, multi‑readout data, though care must be taken in choosing the appropriate RPE model to enhance in vivo relevance.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/44b1d683-ea01-458f-b926-91176d3dd147
+
+References:
+1. (김지호2025developmentofa pages 81-88): 김지호. Development of a reproducible high-throughput microphysiological system. Unknown journal, 2025.
+
+2. (obert2017targetingthetight pages 1-2): Elisabeth Obert, Randy Strauss, Carlene Brandon, Christina Grek, Gautam Ghatnekar, Robert Gourdie, and Bärbel Rohrer. Targeting the tight junction protein, zonula occludens-1, with the connexin43 mimetic peptide, αct1, reduces vegf-dependent rpe pathophysiology. Journal of Molecular Medicine, 95:535-552, Jan 2017. URL: https://doi.org/10.1007/s00109-017-1506-8, doi:10.1007/s00109-017-1506-8. This article has 79 citations.
+
+3. (obert2017targetingthetight pages 11-12): Elisabeth Obert, Randy Strauss, Carlene Brandon, Christina Grek, Gautam Ghatnekar, Robert Gourdie, and Bärbel Rohrer. Targeting the tight junction protein, zonula occludens-1, with the connexin43 mimetic peptide, αct1, reduces vegf-dependent rpe pathophysiology. Journal of Molecular Medicine, 95:535-552, Jan 2017. URL: https://doi.org/10.1007/s00109-017-1506-8, doi:10.1007/s00109-017-1506-8. This article has 79 citations.
+
+4. (hellinen2020retracteddrugflux pages 8-9): Laura Hellinen, Heidi Hongisto, Eva Ramsay, Kai Kaarniranta, Kati-Sisko Vellonen, Heli Skottman, and Marika Ruponen. Retracted: drug flux across rpe cell models: the hunt for an appropriate outer blood–retinal barrier model for use in early drug discovery. Pharmaceutics, 12:176, Feb 2020. URL: https://doi.org/10.3390/pharmaceutics12020176, doi:10.3390/pharmaceutics12020176. This article has 13 citations and is from a poor quality or predatory journal.
+
+5. (정민환2017eyeona pages 89-100): 정민환. Eye on a chip: microfluidic in vitro model of blood-retinal barrier. Unknown journal, 2017.
+
+6. (obert2017targetingthetight pages 10-11): Elisabeth Obert, Randy Strauss, Carlene Brandon, Christina Grek, Gautam Ghatnekar, Robert Gourdie, and Bärbel Rohrer. Targeting the tight junction protein, zonula occludens-1, with the connexin43 mimetic peptide, αct1, reduces vegf-dependent rpe pathophysiology. Journal of Molecular Medicine, 95:535-552, Jan 2017. URL: https://doi.org/10.1007/s00109-017-1506-8, doi:10.1007/s00109-017-1506-8. This article has 79 citations.
+
+7. (dujardin2024developmentofa pages 266-267): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.

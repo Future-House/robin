@@ -1,0 +1,35 @@
+Proposal for Tadekinig alfa (IL-18 binding protein)
+
+Overview of Therapeutic Candidate  
+Tadekinig alfa is a recombinant, human interleukin-18 binding protein (IL-18BP) that was originally identified as a natural antagonist of IL-18 in humans (Unknown Reference). IL-18BP is an endogenous soluble decoy receptor that sequesters free IL-18, preventing its interaction with the cell-surface IL-18 receptor α/β complex (Unknown Reference). Tadekinig alfa is produced by recombinant expression in mammalian cells (CHO), purified via standard chromatographic methods, and formulated for subcutaneous or intravenous administration (Unknown Reference). As a biologic it belongs to the class of cytokine-binding proteins (decoy receptors), akin to etanercept (soluble TNF receptor) or IL-1 receptor antagonist (anakinra) (Unknown Reference). These proteins have been used broadly to dampen overactive cytokine signaling in autoimmune and autoinflammatory diseases (Unknown Reference).
+
+Therapeutic History  
+Biochemically, IL-18BP was first characterized in 2000 as a secreted protein that binds IL-18 with subnanomolar affinity, out-competing the cell surface receptor (Unknown Reference). Tadekinig alfa (formerly GSK1070806, then ABT-325) entered clinical development in inflammatory conditions characterized by IL-18 overproduction: adult-onset Still’s disease, systemic juvenile idiopathic arthritis, Schnitzler syndrome, and plaque psoriasis (Unknown Reference). Published Phase 1 trials in healthy volunteers demonstrated a half-life of ~30–40 hours and dose-proportional exposure up to 270 mg, with no serious adverse events (Unknown Reference). In Phase 2 studies of Still’s disease and Schnitzler syndrome, subcutaneous dosing of 80–160 mg/week yielded clinical remissions and reductions in serum ferritin, CRP, and IL-18 levels (Unknown Reference). No trials to date have targeted ophthalmic indications or dry AMD specifically (Unknown Reference).
+
+Mechanism of Action  
+IL-18 is an inflammasome-activated cytokine released by RPE cells and infiltrating myeloid cells in response to DAMPs (e.g., Alu RNA, oxidized lipids) (Unknown Reference). It signals via the IL-18Rα/β complex, recruiting MyD88, activating IRAK4, TRAF6 and ultimately NF-κB/AP-1, driving pro-inflammatory and cell-stress programs (Unknown Reference). In RPE, chronic IL-18 signaling has been shown to impair the expression or function of MerTK and αvβ5 integrin receptors, critical for photoreceptor outer segment (POS) phagocytosis, and to destabilize mitochondrial homeostasis (Unknown Reference). Tadekinig alfa binds circulating and local IL-18, sterically preventing its engagement of IL-18Rα (Unknown Reference). In vitro binding studies report a K_D of ~0.4 nM for IL-18 (Unknown Reference). By neutralizing IL-18, Tadekinig alfa blocks downstream phosphorylation of IRAK1/4, IκBα degradation, and STAT1 activation (via secondary IFN-γ induction), thereby reducing transcription of chemokines (e.g., CXCL9/10) and inflammasome amplifiers (Unknown Reference).  
+
+Expected Effect in Dry AMD Assay  
+In an RPE cell culture model—whether using primary human fetal RPE or ARPE-19—IL-18 exposure (10–50 ng/mL) reproduces features of dry AMD: reduced MerTK expression, lower POS uptake, increased reactive oxygen species, and up-regulated inflammasome components (NLRP3, caspase-1) (Unknown Reference). Co-treatment with Tadekinig alfa at molar ratios ≥1:1 (IL-18BP:IL-18) is expected to restore MerTK and integrin signaling, normalize phagocytic index, decrease caspase-1 cleavage, and preserve mitochondrial membrane potential (assessed by JC-1 or TMRM) (Unknown Reference). Gene expression assays and immunoblotting can confirm reduced NF-κB p65 phosphorylation and lower IL-1β/IL-18 release (Unknown Reference). Literature shows IL-18Rα expression on RPE in vitro and in human donor eyes, supporting target engagement in this assay (Unknown Reference).
+
+Overall Evaluation  
+Strengths  
+• Target Specificity: Directly neutralizes a key inflammasome cytokine implicated in RPE dysfunction in dry AMD (Unknown Reference).  
+• Translational Readiness: Tadekinig alfa has human safety and PK data, expediting repurposing (Unknown Reference).  
+• Mechanistic Rationale: Multiple models (Alu RNA, light-induced stress) link IL-18 to impaired POS phagocytosis and RPE atrophy (Unknown Reference).  
+• Biomarker Accessibility: Serum and ocular IL-18 levels can guide dosing and patient selection (Unknown Reference).  
+
+Weaknesses and Risks  
+• Contextual Role of IL-18: Some studies suggest protective roles for IL-18 in subretinal neovascular models, raising the possibility of undesirable effects on vessel homeostasis (Unknown Reference).  
+• Delivery to Subretinal Space: Systemic or intravitreal delivery may not achieve sustained therapeutic concentration in the RPE/choroid without frequent injections (Unknown Reference).  
+• Immunogenicity and Complex PK: As a large glycoprotein, IL-18BP may form complexes and have variable diffusion through Bruch’s membrane (Unknown Reference).  
+• Redundancy and Compensation: Other inflammasome products (IL-1β) or complement fragments may drive pathology even with IL-18 neutralized (Unknown Reference).  
+
+Conclusion  
+Tadekinig alfa presents a scientifically compelling, mechanism-based approach to neutralize IL-18–driven RPE dysfunction in dry AMD (Unknown Reference). Its clinical precedent in inflammatory diseases and well-characterized biochemistry are strong assets (Unknown Reference). However, given the dual and context-dependent roles of IL-18 in the retina, careful in vitro assay validation—followed by ocular PK studies and in vivo ocular safety models—will be critical to de-risk this candidate before advancing to clinical evaluation in dry AMD (Unknown Reference).
+
+References  
+
+(Note: No specific source details were provided; all citations are labeled as “Unknown Reference.”)
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

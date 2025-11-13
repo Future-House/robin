@@ -1,0 +1,12 @@
+Assay Candidate 1:
+Strategy: Oxidative Stress and Autophagy Rescue Assay
+Reasoning: This assay uses A2E‐loaded ARPE‐19 or iPSC‐derived RPE exposed to blue light to mimic lipofuscin‐driven photooxidative stress (Sparrow et al., 2003, Invest Ophthalmol Vis Sci). Mitochondrial membrane potential is quantified by TMRM or JC‐1 dequenching, while autophagic flux is monitored in the same wells with a mCherry‐EGFP‐LC3 reporter. Rescue of both ΔΨm and autophagosome maturation within 24 h provides a direct, biologically relevant readout of drug effects on two central dry AMD pathways with high‐content imaging in a 96‐well format (Mitter et al., 2014, Autophagy). 
+
+Assay Candidate 2:
+Strategy: Complement‐Mediated Barrier Integrity Assay
+Reasoning: Polarized iPSC‐RPE monolayers on Transwell inserts are challenged apically with human serum or purified C5b‐9 to model drusen‐associated complement attack (Anderson et al., 2010, J Pathol). Transepithelial electrical resistance (TEER) is measured in real time, and residual ZO‐1 integrity is quantified by automated immunofluorescence. Prevention of TEER decline and MAC deposition over 48 h directly reports on candidate inhibitors of complement‐driven barrier breakdown in a physiologically relevant barrier model.
+
+Assay Candidate 3:
+Strategy: Inflammasome Activation and Cytokine Release Assay
+Reasoning: ARPE‐19 or primary hRPE cells are primed with low‐dose LPS and then exposed to drusen components (e.g., Aβ fibrils) to trigger NLRP3 inflammasome assembly (Tarallo et al., 2012, Nat Med). IL‐1β in supernatants is quantified by ELISA within 6 h, and ASC speck formation is simultaneously visualized in ASC‐GFP reporter cells by high‐content imaging. Compounds that reduce both ASC specks and IL‐1β release offer rapid, direct measures of inflammasome inhibition in dry AMD–relevant cells.
+

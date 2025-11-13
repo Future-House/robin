@@ -1,0 +1,18 @@
+Query: pharmacokinetic, ocular tissue distribution, blood-retinal barrier penetration, and toxicity data for mitochondria-targeted compounds tested in RPE cells or in vivo retina models, ideally demonstrating adequate posterior segment exposure and minimal off-target effects
+
+The evaluation of mitochondria‐targeted compounds in ocular contexts relies on robust pharmacokinetic assessments using both in vitro and in vivo models. Primary and immortalized retinal pigment epithelial (RPE) cells are employed to gauge the permeability of the blood‐retinal barrier (BRB) and to determine ocular tissue distribution. This approach is essential for confirming that compounds attain adequate posterior segment exposure while minimizing off‐target effects (williamson2021bloodretinalbarrier pages 6-7). In parallel, understanding the complex architecture of the BRB—formed by retinal capillary endothelial and retinal pigmented epithelial cells—is critical when evaluating ocular distribution and toxicity, as misdirected exposure can lead to adverse events, especially in targeted oncology therapies (williamson2021bloodretinalbarrier pages 1-2, williamson2021bloodretinalbarrier pages 2-4).
+
+With specific reference to mitochondria‐targeted compounds, current assays indicate a pressing need for further refinement. To date, only one clinical trial has addressed pharmacokinetics and toxicity in this context; however, it did not provide detailed information regarding ocular tissue distribution or BRB penetration (Clinical Trial Search: ac55c4d694c8). Thus, while established models exist to assess ocular pharmacokinetics and safety, dedicated studies and enhanced assays remain imperative to definitively characterize the ocular profile of mitochondria‐targeted compounds.
+
+Mitochondria‐targeted compounds must be evaluated with precise ocular PK assays to ensure effective posterior segment exposure and minimal off‐target toxicity. Continued refinement of these methodologies is essential for successful ocular drug development.
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/9270f4b7-8bfd-4fb4-bf23-cd74c3dd5627
+
+References:
+1. (williamson2021bloodretinalbarrier pages 6-7): Beth Williamson and Venkatesh Pilla Reddy. Blood retinal barrier and ocular pharmacokinetics: considerations for the development of oncology drugs. Biopharmaceutics &amp; Drug Disposition, 42:128-136, Apr 2021. URL: https://doi.org/10.1002/bdd.2276, doi:10.1002/bdd.2276. This article has 9 citations and is from a peer-reviewed journal.
+
+2. (williamson2021bloodretinalbarrier pages 1-2): Beth Williamson and Venkatesh Pilla Reddy. Blood retinal barrier and ocular pharmacokinetics: considerations for the development of oncology drugs. Biopharmaceutics &amp; Drug Disposition, 42:128-136, Apr 2021. URL: https://doi.org/10.1002/bdd.2276, doi:10.1002/bdd.2276. This article has 9 citations and is from a peer-reviewed journal.
+
+3. (williamson2021bloodretinalbarrier pages 2-4): Beth Williamson and Venkatesh Pilla Reddy. Blood retinal barrier and ocular pharmacokinetics: considerations for the development of oncology drugs. Biopharmaceutics &amp; Drug Disposition, 42:128-136, Apr 2021. URL: https://doi.org/10.1002/bdd.2276, doi:10.1002/bdd.2276. This article has 9 citations and is from a peer-reviewed journal.
+
+4. (Clinical Trial Search: ac55c4d694c8): Clinical Trials Search via ClinicalTrials.gov: mitochondria-targeted AND (RPE OR retina) AND (ocular OR blood-retinal barrier) AND (pharmacokinetics OR toxicity)

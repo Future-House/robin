@@ -1,0 +1,66 @@
+Query: Examine metabolic reprogramming in RPE cells under AMD-relevant stressors, including shifts in glycolytic flux versus oxidative phosphorylation, NAD+ metabolism, and glutamine dependency, and identify Seahorse XF analyzer based assays and targeted metabolomics workflows applicable for mechanism-focused drug screening.
+
+Below are 15 mechanistic‐hypothesis/drug‐screening ideas focused on metabolic reprogramming in cultured human RPE under AMD‐relevant stressors. Each pairs a Seahorse XF–based functional assay with a complementary targeted–metabolomics workflow.
+
+1. A2E‐drusen‐load induces a “glycolytic shift”  
+   • Seahorse: Glycolysis Stress Test (ECAR) and Mito Stress Test (OCR) ± glycolytic inhibitor (2‐DG)  
+   • Metabolomics: LC-MS/MS quantification of glucose‐6P, fructose-1,6-bisP, pyruvate, lactate, citrate, malate  
+
+2. Oxidative‐stress (H₂O₂) lowers NAD⁺/NADH ratio, impairing OxPhos  
+   • Seahorse: Mito Stress Test ± NAD⁺ precursor (NMN) or NAMPT inhibitor (FK866)  
+   • Metabolomics: Targeted NAD⁺, NADH, NADP⁺, NADPH by direct‐injection LC-MS/MS; isotope dilution quant  
+
+3. Ceramide‐driven lipid stress increases glutamine dependence  
+   • Seahorse: Substrate‐dependence assay (OCR with UK5099, etomoxir, BPTES)  
+   • Metabolomics: ^13C₅-glutamine tracing; LC-MS measurement of ^13C incorporation into α-KG, malate, aspartate  
+
+4. High‐glucose exposure activates the hexosamine pathway and alters respiration  
+   • Seahorse: Basal OCR/ECAR in low (5 mM) vs high (25 mM) glucose; effect of GFAT inhibitor  
+   • Metabolomics: LC-MS quantification of UDP-GlcNAc, glucosamine-6P, fructose-6P  
+
+5. IL-1β/TNFα–induced inflammation elicits a Warburg‐like phenotype  
+   • Seahorse: Glycolysis Stress Test ± rapamycin or HIF1α inhibitor  
+   • Metabolomics: Targeted assay for glycolytic intermediates (3-PG, PEP), lactate, TCA d-carboxylic acids  
+
+6. Acute blue‐light damage inhibits Complex I, reducing spare-capacity  
+   • Seahorse: Mito Stress Test before/after blue-light pulse, with/without rotenone  
+   • Metabolomics: NADH/NAD⁺ ratio; TCA intermediates; rotenone‐sensitive metabolites by LC-MS  
+
+7. Oxidized LDL (drusen model) shifts RPE toward fatty‐acid oxidation  
+   • Seahorse: FAO assay (OCR with BSA-palmitate ± etomoxir)  
+   • Metabolomics: Acylcarnitine profiling; free fatty acids by targeted GC-MS  
+
+8. Hypoxia mimetic (CoCl₂) stabilizes HIF1α, boosting glycolysis & reductive carboxylation  
+   • Seahorse: Glycolysis Stress Test; Mito Stress Test with glutaminase inhibitor  
+   • Metabolomics: ^13C₆-glucose and ^13C₅-glutamine tracing; measure succinate, 2-HG, citrate M+3/M+5  
+
+9. Age‐associated SIRT3 decline increases enzyme acetylation, impairing OxPhos  
+   • Seahorse: Mito Stress Test ± SIRT3 activator (nicotinamide riboside)  
+   • Metabolomics: Acetyl-CoA, succinyl-CoA quant; targeted acetylpeptide profiling by LC-MS/MS  
+
+10. NAMPT‐dependent NAD salvage sustains respiration under AMD stress  
+    • Seahorse: Mito Stress Test ± FK866 (NAMPT inhibitor) and rescue with NMN  
+    • Metabolomics: NMN, NAM, NAD⁺, nicotinic acid by isotope‐dilution LC-MS  
+
+11. Autophagy inhibition (chloroquine) increases reliance on glycolysis  
+    • Seahorse: Parallel Mito and Glycolysis Stress Tests ± chloroquine  
+    • Metabolomics: Amino acids (esp. glutamate, alanine), diacylglycerols, lipid‐droplet markers by LC-MS  
+
+12. Oxidative stress drives proline oxidation for redox balance  
+    • Seahorse: Substrate‐dependence assay (OCR with proline ± proline dehydrogenase inhibitor)  
+    • Metabolomics: Targeted proline, P5C, glutamate, NADP⁺/NADPH ratios by LC-MS/MS  
+
+13. Folate‐cycle disruption (methotrexate) impairs one-carbon supply for TCA  
+    • Seahorse: Mito Stress Test ± methotrexate or folinic acid rescue  
+    • Metabolomics: 5,10-methylenetetrahydrofolate, formate, serine/glycine pools via LC-MS  
+
+14. Leucine (BCAA) transport via LAT1 fuels mTOR and OxPhos  
+    • Seahorse: Mito Stress Test ± BCH (LAT1 inhibitor) or leucine supplementation  
+    • Metabolomics: BCAAs and ketoacids (KIC, KMV) by targeted LC-MS; mTOR-regulated acylcarnitines  
+
+15. PGC1α activation promotes mitochondrial biogenesis, reversing AMD‐like dysfunction  
+    • Seahorse: Spare respiratory‐capacity measurement before/after PGC1α agonist (ZLN005)  
+    • Metabolomics: Citrate synthase activity surrogate metabolites, mitochondrial DNA–encoded peptide fragments, ATP/ADP ratios by LC-MS  
+
+Each paradigm can be coupled to small‐molecule libraries (e.g. kinase inhibitors, NAD-pathway modulators, mitochondrial protectants) to identify compounds that normalize RPE bioenergetics and metabolite profiles under AMD‐relevant stress.
+

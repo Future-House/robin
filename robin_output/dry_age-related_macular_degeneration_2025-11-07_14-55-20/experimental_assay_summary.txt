@@ -1,0 +1,60 @@
+Assay Candidate 1:
+Strategy: Complement Deposition Imaging
+Reasoning: Allows quantification of sub-lytic MAC (C5b-9) deposition on RPE monolayers after serum exposure, enabling direct assessment of complement inhibition efficacy in vitro, as described by Tan et al. showing MAC-mediated mitochondrial damage at sub-lytic levels (Tan et al., 2018; Bharti et al., 2022).
+
+Assay Candidate 2:
+Strategy: NLRP3 Inflammasome Activation Assay
+Reasoning: Measures caspase-1 activity and IL-1β/IL-18 release in RPE after drusen component or ATP/P2X7 stimulation, reflecting pyroptotic signaling relevant to dry AMD pathology, aligning with studies of NLRP3-driven RPE cell death (Buonfiglio et al., 2024; Wong et al., 2022).
+
+Assay Candidate 3:
+Strategy: Lipid Droplet Accumulation Assay
+Reasoning: Uses BODIPY or Oil Red O staining to quantify neutral lipid and bisretinoid-induced droplet formation in RPE, enabling screening of small molecules that modulate lipid homeostasis; based on Tang et al.’s identification of lipid accumulation driving complement activation (Tang et al., 2024).
+
+Assay Candidate 4:
+Strategy: Oxidative Stress and Mitochondrial Potential Assay
+Reasoning: Combines TMRM for Δψm and MitoSOX for mitochondrial ROS in live RPE under H2O2 challenge, providing rapid functional readout of mitochondrial integrity and redox balance, as validated in Iannetti et al.’s high-content profiling and Chen et al.’s oxidative stress models (Iannetti et al., 2019; Chen et al., 2023).
+
+Assay Candidate 5:
+Strategy: Apoptotic Caspase Activity Assay
+Reasoning: Quantifies caspase-3/7 activation in RPE via luminogenic substrates following oxidative or complement insult, capturing downstream apoptotic responses; this assay reflects Bax/caspase-mediated RPE atrophy observed in AMD (Buonfiglio et al., 2024; Somasundaran et al., 2020).
+
+Assay Candidate 6:
+Strategy: Autophagic Flux Tandem LC3 Reporter Assay
+Reasoning: Employs mCherry-GFP-LC3 to distinguish autophagosomes versus autolysosomes in RPE, quantifying flux under A2E photooxidation or drug treatment; this method follows Pinelli et al.’s protocols to monitor impaired autophagy in AMD models (Pinelli et al., 2023; Nita et al., 2023).
+
+Assay Candidate 7:
+Strategy: Cholesterol Efflux Functional Assay
+Reasoning: Measures ABCA1-mediated efflux of radiolabeled cholesterol to apoA-I or HDL acceptors in RPE, providing direct functional assessment of lipid export pathways implicated in drusen formation, consistent with assays reported by Lyssenko et al. and Federica et al. (Lyssenko et al., 2018; Federica et al., 2019).
+
+Assay Candidate 8:
+Strategy: Cytokine Release Co-culture Assay
+Reasoning: Applies conditioned media from stressed RPE to microglia/monocytes in transwell systems and quantifies IL-6, IL-8, TNFα, and chemotaxis, capturing RPE–immune crosstalk central to AMD inflammation (Dabouz et al., 2024; Wong et al., 2022).
+
+Assay Candidate 9:
+Strategy: Barrier Integrity TEER Assay
+Reasoning: Monitors transepithelial electrical resistance and FITC-dextran permeability across RPE monolayers under stress or drug treatment, directly quantifying tight junction function and barrier restoration potential, as described by Zhou et al. and DaCosta (Zhou et al., 2022; DaCosta, 2015).
+
+Assay Candidate 10:
+Strategy: Photoreceptor Outer Segment Phagocytosis Assay
+Reasoning: Uses fluorescently labeled rod outer segments to measure uptake and lysosomal colocalization in RPE by flow cytometry and imaging, evaluating phagocytic efficiency under oxidative or genetic stress, based on Kwon & Freeman and Lieffrig et al. (Kwon & Freeman, 2020; Lieffrig et al., 2023).
+
+Assay Candidate 11:
+Strategy: High-Content Mitochondrial Morphofunction Assay
+Reasoning: Integrates multiplexed live-cell imaging of TMRM, MitoTracker, and ROS probes in 96-well format with automated analysis to profile mitochondrial health under drug libraries, adapting Iannetti et al.’s phenotypic screening pipeline for RPE (Iannetti et al., 2019).
+
+Assay Candidate 12:
+Strategy: CFH/CFI Complement Regulation Assay
+Reasoning: Assesses RPE-secreted CFH/CFI activity by measuring conversion of C3b to iC3b in conditioned media via ELISA, providing a direct readout of complement regulatory function and drug-mediated rescue (Bharti et al., 2022; Buonfiglio et al., 2024).
+
+Assay Candidate 13:
+Strategy: Lysosomal Exocytosis Defense Assay
+Reasoning: Quantifies β-hexosaminidase release from RPE following sub-lytic MAC challenge, measuring lysosome-based repair responses that limit complement damage, as established by Tan et al. (Tan et al., 2018).
+
+Assay Candidate 14:
+Strategy: Mitophagy Reporter Assay
+Reasoning: Employs mito-QC or PINK1/Parkin GFP translocation reporters to quantify selective mitochondrial clearance in RPE under stress, reflecting mitophagy deficits in AMD, following protocols by Chang et al. and Nita et al. (Chang et al., 2022; Nita et al., 2023).
+
+Assay Candidate 15:
+Strategy: Lipofuscin Autofluorescence Assay
+Reasoning: Measures intrinsic autofluorescence of accumulated A2E/lipofuscin in long-term cultured RPE as a direct functional endpoint of bisretinoid accumulation, enabling screening of compounds that reduce lipofuscin load (Federica et al., 2019; Alrashed et al., 2016).
+

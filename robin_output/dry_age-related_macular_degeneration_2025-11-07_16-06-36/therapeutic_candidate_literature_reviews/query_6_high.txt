@@ -1,0 +1,286 @@
+Query: high-throughput screening campaigns for novel modulators of mitochondrial ROS production in RPE, detailing assay optimization, Z′ factors, hit validation steps, secondary functional assays, and lead compound profiling including metabolism and toxicity
+
+Below are 15 distinct high-throughput screening (HTS) campaign concepts for identifying novel small-molecule modulators of mitochondrial reactive oxygen species (mtROS) in human retinal pigment epithelial (RPE) cells. Each concept outlines assay design and optimization parameters (including a target Z′), hit-validation steps, secondary functional assays, and lead-compound profiling for metabolism and toxicity.
+
+1. Fluorogenic MitoSOX HTS in ARPE-19  
+• Assay design  
+  – ARPE-19 plated at 5,000 cells/well in 384-well; 1-h loading with 5 µM MitoSOX Red  
+  – Read on fluorescent plate reader (Ex 510/Em 580)  
+• Optimization & Z′  
+  – Titrate menadione (positive control) vs. mitoTEMPO (negative) to achieve Z′ ≥ 0.6  
+  – Optimize cell density (4,000–7,000 cells) and dye concentration (2–8 µM)  
+• Primary screening  
+  – Single 10 µM compound/well; 1 h co-incubation; measure Δ fluorescence  
+• Hit validation  
+  – Retest in triplicate; 8-point dose–response (0.1 nM–50 µM)  
+  – Counterscreen against hydrogen peroxide–induced general ROS (H2DCFDA)  
+• Secondary assays  
+  – JC-1 assay for mitochondrial membrane potential (MMP)  
+  – Seahorse XF mitochondrial stress test (OCR, ATP-linked respiration)  
+• Lead profiling  
+  – Human liver microsome stability; CYP450 inhibition panel (1A2, 2D6, 3A4)  
+  – Cytotoxicity in HepG2 (CellTiter-Glo) and hERG binding assay  
+
+2. Genetically Encoded roGFP-Orp1 Reporter  
+• Assay design  
+  – Stable ARPE-19 line expressing mitochondria-targeted roGFP2-Orp1  
+  – Ratiometric fluorescence read (Ex 405/488; Em 510) in 1536-well  
+• Optimization & Z′  
+  – Calibration with DTT (fully reduced) vs. diamide (oxidized); target Z′ ≥ 0.7  
+  – Optimize plating density (1,000 cells/well) and reporter expression level  
+• Primary screening  
+  – 5 µM single point; measure 30 min post-treatment  
+• Hit validation  
+  – Confirm reversibility with Mito-TEMPO; 12-point titrations  
+  – Counterscreen cytosolic roGFP to exclude non-mitochondrial effects  
+• Secondary assays  
+  – Flow cytometry–based quantitation of mitochondrial superoxide (MitoSOX)  
+  – Live-cell confocal imaging for mitochondrial morphology (MitoTracker Green)  
+• Lead profiling  
+  – Intrinsic clearance in primary human hepatocytes  
+  – Ames bacterial mutagenicity test and in vitro micronucleus assay  
+
+3. Luminescent ATP/ROS Dual Assay  
+• Assay design  
+  – ARPE-19 in 384-well; sequential luminescent readouts:  
+    1) Real-time ROS (ROS Glo H2O2 kit)  
+    2) Viable ATP (CellTiter-Glo)  
+• Optimization & Z′  
+  – Use antimycin A (increase ROS, lower ATP) vs. coenzyme Q analog (decrease ROS)  
+  – Target dual-read Z′ ≥ 0.5 (ROS) and ≥ 0.7 (ATP)  
+• Primary screening  
+  – 10 µM compound; read ROS at 1 h, then ATP at 2 h  
+• Hit validation  
+  – 8-point dose responses for both ROS and ATP  
+  – Exclude cytotoxic hits (> 20% ATP loss at active doses)  
+• Secondary assays  
+  – Seahorse XF for coupling efficiency and spare respiratory capacity  
+  – MitoSOX and DCFDA multiplex in flow cytometer  
+• Lead profiling  
+  – Microsomal and cytosolic stability; plasma protein binding  
+  – Cardiotoxicity in human iPSC-derived cardiomyocytes (impedance assay)  
+
+4. High-Content Imaging of mtROS and Morphology  
+• Assay design  
+  – ARPE-19 plated in 384-well glass-bottom; stain with MitoTracker Orange + CellROX Green  
+  – Automated confocal imaging, multiparametric image analysis  
+• Optimization & Z′  
+  – Optimize dye concentrations (CellROX: 1–5 µM; MitoTracker: 50–200 nM)  
+  – Z′ ≥ 0.6 on combined mtROS intensity and mitochondrial fragmentation index  
+• Primary screening  
+  – 5 µM library; 3 h incubation; acquire 4 fields/well  
+• Hit validation  
+  – Reimage hits at 12-point dose; quantify ROS vs. morphology changes  
+  – Exclude autofluorescent artifacts using spectral unmixing  
+• Secondary assays  
+  – Transmission EM for cristae integrity  
+  – Western blot for oxidative-stress markers (SOD2, HO-1)  
+• Lead profiling  
+  – Caco-2 permeability; CYP induction assays  
+  – In vitro hepatotoxicity (3D liver spheroids, ATP + LDH readout)  
+
+5. Redox-Sensitive Luciferase Reporter (mtROS)  
+• Assay design  
+  – ARPE-19 transfected with mitochondrial roGFP–firefly luciferase fusion  
+  – Bioluminescent signal inversely correlates with oxidation  
+• Optimization & Z′  
+  – Titrate menadione vs. mitoQ; aim Z′ ≥ 0.65  
+  – Optimize luciferin concentration (50–200 µM)  
+• Primary screening  
+  – 10 µM compounds; luminescence read 45 min post-addition  
+• Hit validation  
+  – 10-point dose–response; confirm with luminescent counterscreen (cytosolic reporter)  
+• Secondary assays  
+  – MitoSOX flow cytometry; ATP/ADP ratio assay by luminescence  
+  – Mitophagy assay (Parkin-GFP translocation)  
+• Lead profiling  
+  – Metabolite ID in human liver microsomes (LC-MS/MS)  
+  – In vitro genotoxicity (Comet assay in ARPE-19)  
+
+6. ROS-Sensitive Electrochemical Sensor Array  
+• Assay design  
+  – ARPE-19 cultured on carbon-electrode 96-well plates; measure H2O2 oxidation current  
+• Optimization & Z′  
+  – Calibrate with graded H2O2 additions; target Z′ ≥ 0.6  
+  – Optimize cell density (20,000 cells/well) and electrode conditioning  
+• Primary screening  
+  – 20 µM compound; continuous current recording over 1 h  
+• Hit validation  
+  – Reproducibility across three independent runs; 8-point IC50/EC50  
+  – Counterscreen on bare electrodes for direct redox activity  
+• Secondary assays  
+  – Live/dead staining; mtDNA copy number by qPCR  
+  – Seahorse analysis for proton leak and non-mitochondrial OCR  
+• Lead profiling  
+  – Human microsomal half-life and reaction phenotyping (which CYP)  
+  – In vitro cardiomyocyte cytotoxicity (contractility assay)  
+
+7. High-Throughput FRET Sensor for Mitochondrial Redox  
+• Assay design  
+  – ARPE-19 stably expressing mitochondrial HyPer-FRET construct  
+  – Ratiometric FRET read (Ex 420/Ex 488→Em 530) in 1536-well  
+• Optimization & Z′  
+  – Validate with H2O2 pulses vs. DTT reduction; Z′ ≥ 0.7  
+  – Optimize FRET filter settings, expression stable clones  
+• Primary screening  
+  – Single 5 µM compound; 30 min incubation; endpoint FRET ratio  
+• Hit validation  
+  – 12-point titrations; confirm specificity with catalase transfection  
+  – Exclude fluorophore quenchers in parallel screen  
+• Secondary assays  
+  – MitoSOX and TMRM multiplex imaging  
+  – CRISPR knockout of key redox enzymes (PRDX3) to confirm MoA  
+• Lead profiling  
+  – CYP450 time-dependent inhibition assays  
+  – Ames test + in vitro chromosomal aberration assay  
+
+8. Resazurin-Based Redox Cycling Assay  
+• Assay design  
+  – ARPE-19 incubated with 10 µM resazurin; ROS reduces nonfluorescent to resorufin  
+  – Fluorescence (Ex 560/Em 590) read in 384-well  
+• Optimization & Z′  
+  – Titrate antimycin A vs. NAC; target Z′ ≥ 0.55  
+  – Confirm linearity over 1–4 h window  
+• Primary screening  
+  – 20 µM compounds; read after 2 h  
+• Hit validation  
+  – Multipoint dose–response, time-course profiling  
+  – Counterscreen for direct reduction of resazurin in cell-free system  
+• Secondary assays  
+  – High-content assay for mitochondrial network integrity  
+  – Western blot for OXPHOS subunit expression (Complex I–V)  
+• Lead profiling  
+  – Primary human hepatocyte stability; plasma stability  
+  – In vitro cytotoxicity across five non-retinal cell lines  
+
+9. Fluorescent Proximity Ligation Assay (PLA) of Oxidized mtDNA  
+• Assay design  
+  – ARPE-19 fixed and hybridized with antibodies for 8-oxoG and mtDNA markers  
+  – Duolink PLA signal quantified by high-content imaging  
+• Optimization & Z′  
+  – Optimize antibody concentrations and incubation times; Z′ ≥ 0.5  
+  – Validate with known mtROS inducers/inhibitors  
+• Primary screening  
+  – 50 nL compound pin-transfer for 5 µM final; 24 h incubation  
+• Hit validation  
+  – Repeat PLA and quantify PLA spot number per cell in 12-point dose  
+  – Counterscreen nuclear 8-oxoG PLA to confirm mitochondrial specificity  
+• Secondary assays  
+  – qPCR for mtDNA damage (long-amplicon assay)  
+  – Measurement of inflammatory cytokines (IL-1β, IL-6) by ELISA  
+• Lead profiling  
+  – Metabolite profiling in cryopreserved human hepatocytes (LC-MS)  
+  – In vitro 3D skin micronucleus assay  
+
+10. Time-Resolved Fluorescence (TRF) of Lanthanide-Tagged ROS Probe  
+• Assay design  
+  – ARPE-19 loaded with Tb3+-conjugated ROS sensor; TRF read minimizes background  
+  – 384-well plate; TRF delay 100 µs, window 400 µs  
+• Optimization & Z′  
+  – Optimize lanthanide conjugate concentration (0.5–2 µM) and cell density for Z′ ≥ 0.6  
+• Primary screening  
+  – 10 µM compounds; 1 h incubation; TRF measurement  
+• Hit validation  
+  – Confirm with time-course TRF; 8-point titrations  
+  – Exclude quenchers by measuring probe lifetime shifts  
+• Secondary assays  
+  – Live-cell FACS for MitoSOX and MitoTracker Deep Red  
+  – Measurement of oxidative phosphorylation enzyme activities (spectrophotometric)  
+• Lead profiling  
+  – Human microsomal and cytosolic stability; identify major metabolites  
+  – In vitro hERG patch-clamp assay  
+
+11. High-Throughput Flow Cytometry of MitoSOX and TMRM  
+• Assay design  
+  – ARPE-19 in 96-well V-bottom; dual-stain with MitoSOX and TMRM  
+  – High-throughput sampler on flow cytometer; 5,000 events/well  
+• Optimization & Z′  
+  – Optimize staining concentrations (MitoSOX 2 µM; TMRM 50 nM) for Z′ ≥ 0.7  
+• Primary screening  
+  – 10 µM compounds; 30 min stain; measure ROS vs. Δψm shifts  
+• Hit validation  
+  – 8-point dose–responses; replicate on a second RPE line (hTERT-RPE1)  
+  – Counterscreen for general ROS (DCFDA)  
+• Secondary assays  
+  – Extracellular flux (Seahorse) for basal and maximal respiration  
+  – Mitochondrial calcium uptake assay (Rhod-2 AM)  
+• Lead profiling  
+  – Reaction phenotyping across major CYP isoforms  
+  – In vitro micronucleus assay in ARPE cells  
+
+12. ATP/ROS Bifunctional Nano-BRET Sensor  
+• Assay design  
+  – ARPE-19 expressing mitochondrial NanoLuc-based ROS sensor + YFP-based ATP sensor  
+  – Dual-emission BRET read on plate reader  
+• Optimization & Z′  
+  – Optimize donor/acceptor expression ratio; aim Z′ ≥ 0.6 per channel  
+• Primary screening  
+  – 10 µM compounds; BRET read at 1 h (ROS) then 3 h (ATP)  
+• Hit validation  
+  – Dose–response curves; counterscreen in parental ARPE (no sensor)  
+• Secondary assays  
+  – Live-cell super-resolution imaging of mitochondria  
+  – Enzyme assays for complex I activity (NADH dehydrogenase spectrophotometry)  
+• Lead profiling  
+  – Human plasma protein binding; in vitro blood–brain barrier permeability (PAMPA)  
+  – In vitro safety pharmacology panel (CEREP)  
+
+13. Electrochemical H2O2-Sensitive Polymer Film Arrays  
+• Assay design  
+  – ARPE-19 plated over H2O2-sensitive polymer films in 96-well  
+  – Change in film conductivity correlates with extracellular H2O2  
+• Optimization & Z′  
+  – Titrate known ROS modulators; Z′ ≥ 0.6 after 2 h  
+  – Optimize film thickness and cell seeding density (15k–25k cells/well)  
+• Primary screening  
+  – Single 20 µM compound; continuous impedance read  
+• Hit validation  
+  – Repeat with 8-point titrations; confirm film integrity by control runs without cells  
+  – Exclude film-reactive compounds in acellular assay  
+• Secondary assays  
+  – MitoSOX live staining; glutathione redox potential (GSH/GSSG) by LC-MS  
+  – Measurement of intracellular NAD+/NADH ratio  
+• Lead profiling  
+  – Human hepatocyte and lung microsome clearance  
+  – In vitro human cardiac Nav1.5 assay (patch clamp)  
+
+14. Mitochondrial Peroxidase Activity Assay (PRDX3-Linked)  
+• Assay design  
+  – ARPE-19 overexpressing PRDX3-NanoLuc fusion; luminescence decreases with oxidation  
+  – 384-well luminescent read, 30 min post compound  
+• Optimization & Z′  
+  – Antimycin A vs. mitoTEMPO; Z′ ≥ 0.65  
+  – Optimize expression levels and NanoLuc substrate concentration  
+• Primary screening  
+  – 5 µM compound; single read luminescence  
+• Hit validation  
+  – Confirm in parental cells transfected transiently; multipoint dose  
+  – Counterscreen on cytosolic PRDX1-NanoLuc  
+• Secondary assays  
+  – Seahorse for proton leak and maximal respiration  
+  – Confocal colocalization of PRDX3 with mitochondria (immunostaining)  
+• Lead profiling  
+  – Reaction phenotyping (which CYP metabolizes compound)  
+  – In vitro alveolar epithelial toxicity (A549 lung spheroids)  
+
+15. Nano-BRET Mitochondrial Redox Sensor with CRISPR Perturbations  
+• Assay design  
+  – ARPE-19 with endogenous Keima-BRET redox reporter; CRISPRi library targeting redox genes  
+  – 1536-well, measure BRET ratio pre- and post-compound  
+• Optimization & Z′  
+  – Validate Keima BRET shift with H2O2 pulses; target Z′ ≥ 0.6  
+  – Optimize CRISPR guide pool representation, cell density  
+• Primary screening  
+  – 1,000-compound subset; 10 µM; 1 h read  
+• Hit validation  
+  – Single-guide validation of top modulatory genes; compound dose responses  
+  – Confirm with orthogonal MitoSOX imaging  
+• Secondary assays  
+  – RNA-seq to identify pathway shifts (antioxidant response genes)  
+  – Electron microscopy for mitochondrial ultrastructure  
+• Lead profiling  
+  – Human microsome clearance and metabolite ID  
+  – In vitro cardiovascular safety panel (hERG, Nav1.5, Cav1.2)  
+
+Each campaign balances robust assay performance (Z′ ≥ 0.5–0.7), rigorous hit triage (dose–response, counterscreens), mechanistic secondary assays, and comprehensive lead-profiling (metabolism, off-target safety) to drive discovery of novel mtROS modulators in RPE cells.
+

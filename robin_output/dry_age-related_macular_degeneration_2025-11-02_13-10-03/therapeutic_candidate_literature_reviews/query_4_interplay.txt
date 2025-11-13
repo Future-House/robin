@@ -1,0 +1,47 @@
+Query: Interplay between innate immune pathways, mitochondrial dysfunction, lysosomal impairment, and complement-inflammasome crosstalk in RPE degeneration during dry AMD: mechanistic studies in human RPE cell assays and animal models, emphasizing target validation and pathway modulation
+
+Below are three distinct, experimentally tractable proposals—each combines a clear mechanistic hypothesis about innate-immune/mitochondrial/lysosomal/complement-inflammasome crosstalk in RPE degeneration and a path toward target validation or modulation in human RPE–culture assays and complementary in vivo models.  
+
+1. Complement-TLR-Mediated Mitochondrial ROS → NLRP3 Activation in RPE  
+   • Hypothesis: Chronic low-grade activation of complement receptors (C5aR1/C3aR) synergizes with TLR2/4 signaling in RPE to impair mitophagy, elevate mitochondrial ROS, and thereby prime/activate the NLRP3 inflammasome.  
+   • In vitro strategy (hiPSC-RPE or primary human RPE):  
+     – Stimulate cells with recombinant C5a/C3a ± low-dose TLR2 agonist (Pam3CSK4) for 24–48 h.  
+     – Readouts: mitochondrial ROS (MitoSOX), mitophagy flux (Parkin translocation, LC3B turnover), mitochondrial membrane potential (TMRM), caspase-1 cleavage/IL-1β release.  
+     – Target validation:  
+        • C5aR1 antagonist (PMX53) or C3aR neutralizing Ab  
+        • siRNA/CRISPRi of NLRP3 and Parkin  
+        • Mitochondrial ROS scavenger (Mito-TEMPO)  
+   • In vivo follow-up (CFH−/− or human CFH Y402H knock-in mice):  
+     – Assess RPE ultrastructure, mitochondrial integrity, inflammasome markers after chronic systemic low-dose C5a infusion.  
+     – Rescue arms: PMX53 or MCC950 (NLRP3 inhibitor) co-treatment; assess Bruch’s membrane thickening and scotopic ERG.  
+
+2. A2E-Induced Lysosomal Dysfunction Primes Complement/C1q-Inflammasome Axis  
+   • Hypothesis: Drusen component A2E accumulates in RPE lysosomes, raising pH and leaking cathepsin D, which in turn enhances deposition of C1q on RPE surface and potentiates NLRP3 inflammasome activation.  
+   • In vitro strategy (ARPE-19 or hiPSC-RPE):  
+     – Preload cells with sublethal A2E for 48 h to induce lysosomal alkalinization (LysoSensor assay) and cathepsin D release.  
+     – Add purified C1q or normal human serum (as complement source).  
+     – Readouts: C1q binding (flow/immunofluorescence), lysosomal integrity (DQ-BSA assay), cathepsin D in cytosol, IL-1β maturation.  
+     – Rescue/modulation:  
+        • TFEB activator (trehalose or small-molecule agonist) to restore lysosomal acidification  
+        • C1q-blocking monoclonal Ab  
+        • Cathepsin D inhibitor (pepstatin A)  
+        • NLRP3 silencing  
+   • In vivo follow-up (sodium iodate–induced RPE injury model in rats):  
+     – Administer systemic trehalose or intravitreal anti-C1q Ab.  
+     – Endpoints: fundus autofluorescence, RPE flat mounts (ZO-1 integrity), retinal IL-1β levels.  
+
+3. Enhancing Mitochondrial Biogenesis + Complement Blockade as Dual Therapeutic Modality  
+   • Hypothesis: Upregulation of PGC-1α–driven mitochondrial turnover in RPE reduces release of oxidized mtDNA that would otherwise engage cGAS/STING and feed into complement-driven inflammasome activation. Combined with complement blockade, this dual approach prevents RPE degeneration.  
+   • In vitro strategy (hiPSC-RPE):  
+     – Pre-treat with AICAR (AMPK activator) or PGC-1α adenoviral overexpression for 48 h.  
+     – Challenge with sublytic human serum (complement source) plus ATP to trigger inflammasome.  
+     – Readouts: PGC-1α and TFAM expression, mtDNA release (cytosolic fraction qPCR), cGAS/STING pathway activation, C3b deposition, caspase-1 activity, cell viability.  
+     – Target validation:  
+        • CRISPR knockout of PGC-1α or cGAS  
+        • Anti-C5 Ab or C3 convertase inhibitor (Cp40)  
+   • In vivo follow-up (dry-AMD mouse model, e.g. Cfh+/− fed high-fat diet):  
+     – Daily AICAR plus systemic anti-C5.  
+     – Evaluate RPE cell count, fundus imaging for drusen-like spots, ERG, and retinal cytokine profiles.  
+
+Each proposal can be refined with dose–response studies, time-course analyses, and orthogonal readouts (electron microscopy for mitophagy/lysosomes, multiplex cytokine assays). Together they map causal links between complement, innate sensors, mitochondrial quality control, and lysosomal homeostasis—and identify nodes for pharmacologic or genetic intervention in dry AMD.
+

@@ -1,0 +1,12 @@
+Assay Candidate 1:
+Strategy: Phagocytic Flux Assay
+Reasoning: Defective clearance of photoreceptor outer segments (POS) by retinal pigment epithelium (RPE) is a central driver of lipofuscin accumulation and RPE dysfunction in dry AMD. An assay in which iPSC-derived RPE monolayers are challenged with pHrodo-labeled POS allows live-cell, high-content imaging of phagosome formation and acidification kinetics. Candidate compounds that restore or accelerate phagocytic flux can be identified within hours. This approach closely mimics daily RPE function and has been validated by Mazzoni et al. (J Neurosci 2011) and Young et al. (Stem Cell Reports 2017).
+
+Assay Candidate 2:
+Strategy: Complement-Mediated Cytotoxicity Assay
+Reasoning: Genetic and histological studies implicate uncontrolled complement activation and sublytic membrane attack complex (MAC) deposition in RPE cell death during geographic atrophy. Exposing iPSC-RPE monolayers to 10–20% human serum triggers C5b-9 assembly on the basal RPE surface. Co-staining for C5b-9 and propidium iodide or measuring LDH release provides a direct, functional readout of complement inhibition by test compounds. This simple, physiologically pertinent assay was pioneered by Zhou et al. (Hum Mol Genet 2009) and Anderson et al. (Invest Ophthalmol Vis Sci 2010).
+
+Assay Candidate 3:
+Strategy: Oxidative Stress and Mitochondrial Dysfunction Assay
+Reasoning: Oxidative damage and mitochondrial failure are hallmarks of RPE degeneration in dry AMD. A rapid assay combining brief H2O2 pulses or A2E + blue-light photooxidation in iPSC-RPE monolayers with CellROX (total ROS), MitoSOX (mitochondrial ROS) fluorescence and Seahorse XF metabolic profiling provides multifunctional endpoints within 24 hours. Rescue of ROS accumulation and restoration of spare respiratory capacity by test agents can be quantified directly. Ferrington et al. (Invest Ophthalmol Vis Sci 2005) and Golestaneh et al. (Stem Cells 2017) demonstrate the assay's relevance and throughput.
+

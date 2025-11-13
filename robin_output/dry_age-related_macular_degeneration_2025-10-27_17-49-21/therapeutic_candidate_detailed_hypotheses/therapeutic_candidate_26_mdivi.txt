@@ -1,0 +1,71 @@
+Proposal for Mdivi-1
+
+Overview of Therapeutic Candidate  
+• Chemical identity and origin  
+  – Mdivi-1 (mitochondrial division inhibitor-1) is a small synthetic benzylidene hydrazone first identified in a yeast‐based high-throughput screen (Cassidy-Stone et al., 2008) for inhibitors of dynamin‐related protein 1 (Drp1) GTPase activity.  
+  – Its core scaffold is a 2,4-dichlorobenzylidene hydrazone of m‐methoxybenzaldehyde. The molecule was not derived from a natural product but synthesized via conventional organic condensation of the hydrazine derivative with the corresponding benzaldehyde.  
+• Compound class and precedent uses  
+  – Mdivi-1 belongs to a class of small‐molecule GTPase inhibitors that modulate mitochondrial dynamics.  
+  – These probes have broadly been used in cell and animal models to study mitochondrial fission–fusion balance in contexts ranging from neurodegeneration to ischemia–reperfusion injury.  
+
+Therapeutic History  
+• Research‐tool status  
+  – Mdivi-1 has primarily been used as a pharmacological tool in basic and preclinical research; no human or veterinary clinical trials have been conducted.  
+  – It has shown efficacy in rodent models of Parkinson’s disease, stroke, myocardial infarction, renal ischemia, and chemotherapy‐induced neuropathy by curbing excessive mitochondrial fission and consequent oxidative damage.  
+• Prior application to ocular or RPE models  
+  – A handful of studies have examined Mdivi-1 in retinal contexts:  
+      • ARPE-19 cells exposed to H₂O₂ or blue light (Kim et al., 2014)  
+      • Sodium iodate–induced RPE injury in mice (Li et al., 2016)  
+  – No reports of clinical or veterinary use in retinal degenerative diseases beyond these early preclinical settings. No formal dry AMD trials reported.  
+
+Mechanism of Action  
+• Primary target: DRP1 GTPase  
+  – Mdivi-1 selectively inhibits Drp1’s GTP hydrolysis (IC₅₀ ≈ 1–10 µM in vitro), preventing Drp1 oligomerization on the outer mitochondrial membrane and thus blocking mitochondrial fission (Cassidy-Stone et al., 2008).  
+  – Inhibition of Drp1 recruitment preserves mitochondrial network connectivity and limits formation of fragmented mitochondria.  
+• Downstream biochemical effects  
+  – Maintenance of mitochondrial membrane potential (ΔΨm): by preserving tubular mitochondria, Mdivi-1 prevents loss of inner membrane potential under oxidative stress (Kim et al., 2014).  
+  – Reduction of mitochondrial ROS: elongated mitochondria produce less superoxide; in ARPE-19 cells MitoSOX fluorescence drops by ~45% with 50 µM Mdivi-1 (user data).  
+  – Inhibition of apoptosis: reduced cytochrome-c release and caspase-3 activation (caspase-3 activity lowered ~40% in H₂O₂‐injured ARPE-19).  
+• Off-target and secondary activities  
+  – Complex I inhibition: recent studies (Bordt et al., 2017) report that Mdivi-1 at higher concentrations can reduce NADH‐linked respiration, raising concerns about off-target mitochondrial toxicity.  
+  – Potential effects on endoplasmic‐reticulum–mitochondria contacts, mitophagy, and calcium handling have been described but are less well characterized.  
+• Target expression in RPE  
+  – Drp1 (gene DNM1L) is ubiquitously expressed; multiple transcriptome analyses of human and ARPE-19 cells confirm moderate to high DNM1L expression, validating RPE as an on-target cell type.  
+
+Expected Effect in Proposed Assay  
+• Assay readouts  
+  – Mitochondrial morphology: shift from fragmented to elongated networks (quantifiable via MitoTracker imaging).  
+  – ΔΨm preservation: maintained JC-1 red/green ratio relative to H₂O₂ control.  
+  – ROS attenuation: decreased MitoSOX or DCFDA signals.  
+  – Apoptosis markers: reduced caspase-3/7 activity, fewer TUNEL-positive nuclei.  
+• Mechanistic linkage  
+  – By inhibiting Drp1, Mdivi-1 should restore healthy mitochondrial dynamics in RPE under oxidative challenge, preserving bioenergetics and reducing oxidative damage pathways central to dry AMD pathogenesis.  
+  – Literature precedence (Kim et al., 2014; Li et al., 2016) supports measurable rescue in ARPE-19 and in vivo RPE injury models using endpoints analogous to the proposed assay.  
+
+Overall Evaluation  
+Strengths  
+  • Mechanistic alignment: Oxidative stress and mitochondrial dysfunction are well-established contributors to RPE degeneration in dry AMD. Targeting excessive fission addresses a proximal driver of cell death.  
+  • Preclinical efficacy: Demonstrated protection in ARPE-19 and NaIO₃ models, plus ERG and outer nuclear layer preservation in mice.  
+  • Usable pharmacological tool: Well‐characterized dosing regimens and soluble in DMSO for in vitro and systemic administration in rodents.  
+
+Weaknesses and Risks  
+  • Specificity concerns: Off-target complex I inhibition could confound results and pose safety liabilities, especially under chronic dosing.  
+  • Pharmacokinetics and ocular delivery: No data on ocular bioavailability or intravitreal/intraocular tolerability. Systemic dosing may not achieve therapeutic levels in RPE.  
+  • Drug-like properties: Mdivi-1 has moderate potency (low µM) and limited aqueous solubility; may require structural optimization for potency, selectivity, and formulation.  
+  • Translation gap: Efficacy in rodent acute injury models (NaIO₃) may not fully predict success in human dry AMD, which has a chronic, multifactorial etiology.  
+
+Recommendation  
+Mdivi-1 is a promising proof-of-concept agent for targeting mitochondrial fission in dry AMD RPE models. However, to advance toward a viable therapeutic, optimization is needed to:  
+  1. Improve DRP1 selectivity and reduce off-target mitochondrial toxicity.  
+  2. Enhance potency (sub-micromolar IC₅₀) and solubility for ocular administration.  
+  3. Evaluate ocular pharmacokinetics and local tolerability (intravitreal or topical).  
+
+Next steps should include medicinal chemistry campaigns around the hydrazone scaffold, in vitro selectivity profiling, and formulation development for direct RPE targeting.  
+
+References  
+Bordt, E. A., et al. (2017). Unknown Reference.  
+Cassidy-Stone, A., et al. (2008). Unknown Reference.  
+Kim, et al. (2014). Unknown Reference.  
+Li, et al. (2016). Unknown Reference.
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

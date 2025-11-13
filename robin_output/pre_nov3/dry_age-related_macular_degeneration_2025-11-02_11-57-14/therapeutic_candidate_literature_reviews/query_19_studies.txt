@@ -1,0 +1,62 @@
+Query: Studies examining cross-talk between microglia/macrophage-driven para-inflammation and RPE barrier integrity in dry AMD, focusing on cytokine-mediated tight junction modulation, in vitro co-culture barrier assays, and potential anti-inflammatory interventions to maintain TEER and reduce permeability
+
+1. TNF-α–driven ZO-1 down-regulation  
+Hypothesis: Microglia-derived TNF-α activates TNFR1 on RPE, triggering NF-κB–mediated transcriptional repression of ZO-1 and claudin-1.  
+Assay: Transwell co-culture of LPS-activated microglia with ARPE-19; measure TEER, paracellular flux, and tight-junction protein levels ± NF-κB inhibitor (e.g., Bay 11-7082).
+
+2. IL-1β/NLRP3 axis in tight-junction disruption  
+Hypothesis: Microglial NLRP3 inflammasome activation releases IL-1β, which through IL-1R1 on RPE induces MAPK signaling and occludin phosphorylation/internalization.  
+Assay: Co-culture human iPSC-derived RPE with ATP-primed microglia; assess occludin localization by immunofluorescence and TEER ± MCC950 (NLRP3 inhibitor).
+
+3. IL-6 trans-signaling and barrier leakiness  
+Hypothesis: Soluble IL-6R from para-activated macrophages fosters IL-6 trans-signaling in RPE, elevating JAK/STAT3 activity and down-modulating tight-junction gene expression.  
+Assay: Treat RPE monolayers with microglia-conditioned medium ± soluble gp130Fc; read out TEER, STAT3 phosphorylation, and claudin-3 mRNA.
+
+4. M1 vs. M2 polarization effects on RPE integrity  
+Hypothesis: Classically activated (M1) microglia secrete cytokines that disrupt RPE junctions, whereas alternatively activated (M2) microglia release IL-10/TGF-β to stabilize them.  
+Assay: Separate co-cultures with IFN-γ/LPS (M1) or IL-4/IL-13 (M2) microglia; compare TEER and permeability, and rescue M1 damage by exogenous IL-10.
+
+5. Complement C3a/C5a–mediated junctional loss  
+Hypothesis: Microglial complement activation produces C3a/C5a that bind RPE receptors, elevating intracellular Ca2+ and triggering calpain-dependent cleavage of junctional proteins.  
+Assay: Add recombinant C3a/C5a or microglia-CM to RPE; quantify calpain activity, ZO-1 integrity, and TEER ± C3aR/C5aR antagonists.
+
+6. Microglial ROS impact on RPE tight junctions  
+Hypothesis: Activated microglia generate ROS via NOX2, causing oxidative modification of RPE junctional complexes and increased barrier permeability.  
+Assay: Co-culture ± VAS2870 (NOX inhibitor) or NAC; measure ROS by DCF-DA, tight-junction protein carbonylation, and TEER.
+
+7. Exosomal miR-155 transfer from microglia to RPE  
+Hypothesis: Inflamed microglia secrete exosomes enriched in miR-155 that down-regulate RPE tight-junction transcripts (e.g., TJP1).  
+Assay: Isolate microglial exosomes, treat RPE, and assess miR-155 uptake, tight-junction mRNA/protein changes, and permeability ± antagomiR-155.
+
+8. TGF-β–mediated barrier reinforcement  
+Hypothesis: M2 microglia–derived TGF-β1 promotes SMAD signaling in RPE, enhancing transcription of junctional proteins and cytoskeletal anchoring.  
+Assay: Treat RPE with microglia-CM or recombinant TGF-β; measure SMAD2/3 activation, ZO-1 transcription, and TEER ± TGF-β neutralizing antibody.
+
+9. CX3CL1–CX3CR1 crosstalk preserves barrier  
+Hypothesis: Neuron-derived fractalkine (CX3CL1) limits microglial overactivation; loss of CX3CR1 signaling amplifies cytokine release and RPE barrier breakdown.  
+Assay: Use CX3CR1-knockdown microglia in co-culture; compare cytokine profiles, RPE TEER, and test recombinant CX3CL1 for rescue.
+
+10. IFN-γ/JAK-STAT blockade in RPE  
+Hypothesis: Microglial IFN-γ drives STAT1 activation in RPE, reducing claudin-19 expression; JAK inhibitors can restore barrier function.  
+Assay: Co-culture with IFN-γ–secreting microglia; apply tofacitinib and measure STAT1 phosphorylation, claudin-19 levels, and permeability.
+
+11. IL-17–driven actin remodeling  
+Hypothesis: Microglia or infiltrating T cells secrete IL-17A, activating RhoA/ROCK in RPE and causing junctional complex disassembly.  
+Assay: Expose RPE to IL-17A or Th17-like microglial CM; assess F-actin stress fibers, tight-junction continuity, and TEER ± Y-27632 (ROCK inhibitor).
+
+12. PDE4 inhibition to dampen microglial cytokines  
+Hypothesis: PDE4 inhibitors (e.g., roflumilast) elevate cAMP in microglia, reducing TNF-α/IL-1β output and secondarily preserving RPE barrier integrity.  
+Assay: Treat microglia ± PDE4i before co-culture; measure cytokine secretion, RPE TEER, and paracellular tracer flux.
+
+13. N-acetylcysteine pro-drug to quell para-inflammation  
+Hypothesis: NAC pro-drug reduces microglial oxidative stress and NF-κB–driven cytokine release, indirectly protecting RPE tight junctions.  
+Assay: Pre-treat microglia with NAC-conjugate; then co-culture with RPE, monitoring ROS, TNF-α levels, and TEER.
+
+14. CD59 gene therapy in RPE against complement attack  
+Hypothesis: Upregulation of complement inhibitor CD59 in RPE prevents microglial complement fragments from forming MAC and disrupting barriers.  
+Assay: Transduce RPE with CD59-AAV; expose to complement-rich microglia-CM, measuring MAC deposition, tight-junction integrity, and TEER.
+
+15. Pro-resolving lipid mediator (RvD1) therapy  
+Hypothesis: Resolvin D1 shifts microglia toward a pro-resolving phenotype, lowering pro-inflammatory cytokines and stabilizing RPE tight junctions.  
+Assay: Add RvD1 to microglia/RPE co-cultures; quantify microglial phenotype markers, cytokine milieu, RPE TEER, and junctional protein levels.
+

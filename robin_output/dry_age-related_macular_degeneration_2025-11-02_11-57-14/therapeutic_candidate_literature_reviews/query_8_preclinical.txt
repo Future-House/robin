@@ -1,0 +1,107 @@
+Query: Preclinical evidence for integrin or adhesion molecule modulators improving RPE barrier integrity in TEER and paracellular flux assays, with mechanistic analyses of focal adhesion complex regulation, efficacy in RPE-specific AMD models, and ocular bioavailability and safety data
+
+1. Small-Molecule FAK Activator (SM-FAK01)  
+   • Hypothesis: Low-dose activation of focal adhesion kinase (FAK) via integrin β1 clustering strengthens RPE barrier.  
+   • Assays: TEER and FITC-dextran flux in ARPE-19 and primary human RPE under H2O2 stress.  
+   • Mechanism: Increased FAK Y397 and paxillin Y118 phosphorylation; enhanced vinculin recruitment at focal adhesions (immunofluorescence, co-IP).  
+   • AMD Model: NaIO3-induced RPE atrophy in C57BL/6 mice; fundus imaging and RPE flat-mount ZO-1 staining.  
+   • Ocular PK & Safety: Topical ocular drops; LC-MS/MS quantitation in vitreous/retina; ERG and histology for toxicity.
+
+2. α5β1 Integrin Agonist Peptide (A5P-Ag)  
+   • Hypothesis: Selective activation of α5β1 enhances fibronectin engagement and RPE adhesion.  
+   • Assays: TEER, Lucifer Yellow flux in iPSC-derived RPE monolayers exposed to drusen-like deposits.  
+   • Mechanism: Src and FAK dual phosphorylation; increased talin-β1 binding (PLA assay); stabilization of focal adhesion plaques.  
+   • AMD Model: iPSC-RPE carrying CFH Y402H variant, challenged with complement-activated serum; barrier rescue readout.  
+   • Ocular PK & Safety: Subconjunctival injection; peptide levels in subretinal space; slit lamp exam and inflammatory cytokine panel.
+
+3. αVβ3-Stabilizing Monoclonal Antibody (mAb-V3Stab)  
+   • Hypothesis: Preventing αVβ3 internalization sustains focal adhesion integrity and barrier function.  
+   • Assays: TEER and paracellular flux in ARPE-19 under TNFα challenge.  
+   • Mechanism: Reduced MMP-2 secretion (zymography); enhanced talin and vinculin deposition at adhesion sites (confocal).  
+   • AMD Model: Laser-induced CNV in rats; OCT measurement of lesion size and fluorescein angiography.  
+   • Ocular PK & Safety: Intravitreal administration; antibody distribution by ELISA; IOP monitoring and retinal histopathology.
+
+4. Dual αVβ5/αVβ3 RGD-Mimetic (RGD‐Dual)  
+   • Hypothesis: Concurrent agonism of αV integrins drives robust focal adhesion assembly.  
+   • Assays: TEER, 4 kDa dextran flux in primary porcine RPE with photooxidative stress.  
+   • Mechanism: Co-activation of FAK and p130Cas; increased assembly of vinculin–actin complexes (super-resolution microscopy).  
+   • AMD Model: Subretinal sodium iodate in rabbits; fundus autofluorescence and ERG preservation.  
+   • Ocular PK & Safety: Topical solution; aqueous and vitreous sampling; ocular irritancy and slit lamp scoring.
+
+5. E-Cadherin Stabilizer (ECad-Enh)  
+   • Hypothesis: Strengthening adherens junctions indirectly supports focal adhesion stability and barrier function.  
+   • Assays: TEER and sulforhodamine B flux in ARPE-19 post-blue light exposure.  
+   • Mechanism: Augmented E-cadherin/β-catenin at cell borders; reduced basal FAK hyperactivation (Western blot).  
+   • AMD Model: Laser-CNV mouse; choroidal neovascular area quantification.  
+   • Ocular PK & Safety: Eye-drop formulation; corneal penetration assay; Draize test for irritation.
+
+6. α4β1 Integrin Modulator (α4β1Mod)  
+   • Hypothesis: Tuning α4β1-fibronectin interactions reinforces focal adhesions and barrier integrity.  
+   • Assays: TEER and 10 kDa dextran flux in iPSC-RPE with amyloid-β treatment.  
+   • Mechanism: Altered vinculin conformation (FRET assay); enhanced paxillin recruitment (ICC).  
+   • AMD Model: CFH knockout mice with dietary cholesterol overload; RPE flat-mount barrier staining.  
+   • Ocular PK & Safety: Sustained-release periocular implant; retinal drug levels; comprehensive ocular toxicity panel.
+
+7. ICAM-1 siRNA Nanoparticle (siICAM-NP)  
+   • Hypothesis: Reducing ICAM-1 lowers inflammatory adhesion events and preserves focal adhesions.  
+   • Assays: TEER, FITC-inulin flux in RPE treated with IL-1β.  
+   • Mechanism: Decreased Src activation; maintenance of paxillin/vinculin complexes (co-IP).  
+   • AMD Model: LPS-induced ocular inflammation in rats; RPE barrier readout.  
+   • Ocular PK & Safety: Lipid nanoparticle subconjunctival injection; off-target cytokine profiling; ERG.
+
+8. VCAM-1 DNA Aptamer (Apta-VCAM)  
+   • Hypothesis: Blocking VCAM-1 signaling preserves barrier by reducing RhoA-mediated focal adhesion turnover.  
+   • Assays: TEER and Oregon Green dextran flux in complement-challenged RPE monolayers.  
+   • Mechanism: Lower RhoA-GTP levels; increased active β1 integrin clusters (flow cytometry).  
+   • AMD Model: Complement C5a intravitreal mouse model; RPE barrier integrity by in vivo permeability imaging.  
+   • Ocular PK & Safety: Intravitreal aptamer; vitreoretinal distribution by FISH; ocular histology.
+
+9. AAV2-ITGB1 Gene Therapy  
+   • Hypothesis: Overexpressing integrin β1 enhances focal adhesion assembly and barrier strength.  
+   • Assays: TEER and Lucifer Yellow flux in RPE differentiated from AAV2-transduced iPSCs.  
+   • Mechanism: Elevated talin, kindlin recruitment at β1 tail (PLA); increased FAK recruitment (WB).  
+   • AMD Model: Abca4−/− mice with lipofuscin accumulation; barrier rescue and retinal function.  
+   • Ocular PK & Safety: Subretinal injection; vector biodistribution; immunogenicity and cytokine release.
+
+10. Talin-β Integrin Interaction Enhancer (TIE-001)  
+   • Hypothesis: Small molecule that stabilizes talin binding to β integrin tail promotes mature focal adhesions.  
+   • Assays: TEER and 3 kDa dextran flux in ARPE-19 exposed to methylglyoxal.  
+   • Mechanism: Increased talin recruitment (biotin pull-down); enhanced FAK and paxillin phosphorylation.  
+   • AMD Model: NaIO3 RPE degeneration in rabbits; OCT and barrier immunostaining.  
+   • Ocular PK & Safety: Intravitreal dosing; vitreous half-life; retinal histopathology for inflammatory markers.
+
+11. Kindlin-2 Degradation Blocker Peptide (K2Block)  
+   • Hypothesis: Preventing ubiquitination-mediated loss of kindlin-2 sustains focal adhesions.  
+   • Assays: TEER and dextran flux in oxidative stress-treated primary human RPE.  
+   • Mechanism: Reduced kindlin-2 ubiquitination (IP-Western); prolonged FAK activation.  
+   • AMD Model: Laser-induced CNV in mice; barrier function by in vivo lectin leakage assay.  
+   • Ocular PK & Safety: Eye-drop peptide; corneal absorption; ocular tolerance scoring.
+
+12. CD47–SIRPα Crosslinker (CD47-Link)  
+   • Hypothesis: Engaging CD47 stabilizes integrin β3 signaling and focal adhesions.  
+   • Assays: TEER, Lucifer Yellow flux in RPE under phototoxic stress.  
+   • Mechanism: Increased active β3 integrin (flow cytometry); downstream FAK/Src activation.  
+   • AMD Model: Subretinal A2E injection in rats; barrier integrity via in vivo imaging.  
+   • Ocular PK & Safety: Intravitreal nanoconjugate; retinal penetration; microglia activation survey.
+
+13. RhoA-ROCK Pathway Inhibitor (ROCK-RPE)  
+   • Hypothesis: Moderate ROCK inhibition reduces actomyosin contraction, promoting focal adhesion maturation.  
+   • Assays: TEER and calcein flux in ARPE-19 with pro-inflammatory cytokines.  
+   • Mechanism: Reduced pMLC; increased paxillin and vinculin colocalization at adhesion sites.  
+   • AMD Model: Complement C3a injection in mice; in vivo permeability and ERG.  
+   • Ocular PK & Safety: Topical drops; aqueous humor drug levels; IOP and ocular surface health.
+
+14. L1-CAM Agonist Peptide (L1Ag-RPE)  
+   • Hypothesis: Ectopic activation of L1-CAM boosts integrin outside-in signaling and barrier integrity.  
+   • Assays: TEER and FITC-dextran flux in primary porcine RPE with complement challenge.  
+   • Mechanism: Enhanced recruitment of FAK and paxillin to focal adhesions (ICC); elevated Rac1-GTP.  
+   • AMD Model: Aged rabbit model with laser injury; fluorescein permeability.  
+   • Ocular PK & Safety: Subconjunctival peptide injection; ocular distribution by fluorescent tag; histology.
+
+15. α6β4 Integrin Nanobody (NB-6β4)  
+   • Hypothesis: Stabilizing hemidesmosome-like complexes via α6β4 preserves RPE barrier.  
+   • Assays: TEER and 70 kDa dextran flux in ARPE-19 treated with complement-activated serum.  
+   • Mechanism: Increased plectin recruitment; decreased FAK turnover at basal membranes (FRAP).  
+   • AMD Model: Complement factor D overexpression in mice; retinal permeability and fundus imaging.  
+   • Ocular PK & Safety: Intravitreal nanobody; vitreous half-life; retinal microglia activation and morphology.
+

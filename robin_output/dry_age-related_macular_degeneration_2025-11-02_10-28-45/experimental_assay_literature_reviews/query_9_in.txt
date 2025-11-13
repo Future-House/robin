@@ -1,0 +1,42 @@
+Query: In vitro screening platforms for identifying small molecules that modulate drusen-like deposit clearance, including RPE phagocytic function assays, lipid uptake assays, high-throughput imaging, fluorescent drusen component tracers, and quantification of sub-RPE deposit reduction
+
+Model systems suitable for screening include hiPSC-derived RPE organoids (RPEorg) that, with long-term culture, spontaneously accumulate sub‑RPE, lipid- and electron‑dense material with hard/soft drusen‑like ultrastructure validated by semithin staining and TEM, alongside adherent organoid‑derived RPE (asRPE) for plate‑based assays (mesch2021towardsanin pages 79-83, mesch2021towardsanin pages 64-70, mesch2021towardsanin pages 1-6). Complementary formats—transwells, 3D spheroids, and organ‑on‑chip—support deposit formation/clearance and quantitative imaging, with scalable production enabled by directed differentiation and automation (mesch2021towardsanin pages 27-31, mesch2021towardsanin pages 95-98, mesch2021towardsanin pages 92-95).
+
+RPE phagocytic function can be assayed using FITC‑labeled bovine POS (~5 POS/cell for asRPE; 8 h; extensive washes) with uptake quantified by fluorescence imaging and co‑localization with EEA1/LAMP2 to confirm endosomal/lysosomal routing; confocal imaging and ImageJ pipelines enable robust quantification (mesch2021towardsanin pages 43-47, mesch2021towardsanin pages 59-64). Additional readouts include rhodopsin‑processing–based phagosome maturation and pathway‑focused perturbation of MerTK, αVβ5 integrin, and CD36 (mesch2021towardsanin pages 92-95, mesch2021towardsanin pages 95-98, mesch2021towardsanin pages 17-20, mesch2021towardsanin pages 83-86).
+
+Fluorescent tracers for deposit components include Nile Red for neutral lipids (noting inter‑sample variability), filipin for esterified cholesterol, and OsteoSense for hydroxyapatite spherules (mesch2021towardsanin pages 64-70, mesch2021towardsanin pages 79-83). Immunofluorescence/qPCR panels quantify drusen proteins (TIMP3, APOE, VTN, ubiquitin) and complement (C3, C5, CFH); C3 can be augmented by human serum in responsive samples (mesch2021towardsanin pages 64-70, mesch2021towardsanin pages 59-64). Age‑related autofluorescence provides a noninvasive burden metric; far‑red secondaries or Sudan Black mitigate AF interference (mesch2021towardsanin pages 59-64, mesch2021towardsanin pages 79-83).
+
+High‑content imaging (live-cell/whole‑mount, confocal) with ZEN/AxioVision/ImageJ supports automated quantification in asRPE miniaturized formats (mesch2021towardsanin pages 43-47, mesch2021towardsanin pages 34-39, mesch2021towardsanin pages 52-59). Quantify treatment effects via normalized intensity/area/volume metrics for lipid/HAP/marker signals, qPCR normalized to GAPDH/RPS9 with ANOVA, and orthogonal TEM/semithin validation; clinical “drusen volume” concepts translate to in vitro volumetrics (mesch2021towardsanin pages 64-70, mesch2021towardsanin pages 89-92, mesch2021towardsanin pages 79-83). Phenotype amplification with POS, A2E, blue light, smoke extract, or serum can increase dynamic range, with geometry/heterogeneity caveats in organoids (mesch2021towardsanin pages 77-79).
+
+In vitro screening can combine long-term RPEorg deposit formation with asRPE high-content phagocytosis and lipid/mineral tracers to quantify sub‑RPE deposit reduction. Multiplex imaging and qPCR anchored to drusen components and complement, plus TEM validation, provide rigorous, scalable endpoints for hit identification and mechanism (mesch2021towardsanin pages 64-70, mesch2021towardsanin pages 43-47, mesch2021towardsanin pages 59-64, mesch2021towardsanin pages 79-83).
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/782e20ab-94e5-437c-bb4d-b96d2a9af8e8
+
+References:
+1. (mesch2021towardsanin pages 79-83): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.
+
+2. (mesch2021towardsanin pages 64-70): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.
+
+3. (mesch2021towardsanin pages 1-6): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.
+
+4. (mesch2021towardsanin pages 27-31): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.
+
+5. (mesch2021towardsanin pages 95-98): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.
+
+6. (mesch2021towardsanin pages 92-95): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.
+
+7. (mesch2021towardsanin pages 43-47): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.
+
+8. (mesch2021towardsanin pages 59-64): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.
+
+9. (mesch2021towardsanin pages 17-20): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.
+
+10. (mesch2021towardsanin pages 83-86): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.
+
+11. (mesch2021towardsanin pages 34-39): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.
+
+12. (mesch2021towardsanin pages 52-59): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.
+
+13. (mesch2021towardsanin pages 89-92): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.
+
+14. (mesch2021towardsanin pages 77-79): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.

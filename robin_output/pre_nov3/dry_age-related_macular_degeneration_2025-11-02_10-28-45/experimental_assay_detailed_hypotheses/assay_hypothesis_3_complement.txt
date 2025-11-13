@@ -1,0 +1,39 @@
+Hypothesis: Complement NF-κB reporter
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Complement NF-κB reporter
+Reasoning: Employ ARPE-19 cells stably transduced with an NF-κB-luciferase reporter and stimulate with C5a/C3a to quantify pathway inhibition by candidate drugs, testing the capacity to block complement-driven inflammatory signaling in RPE (Cao 2016; Ong et al. 2024).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview: The proposed assay utilizes ARPE-19 cells that are stably transduced with an NF-κB-luciferase reporter. In this system, cells are stimulated with complement components C5a and C3a, and luciferase activity is measured as a quantitative indicator of NF-κB pathway activation. This approach models the complement‐driven inflammatory signaling observed in retinal pigment epithelium (RPE) during dry age‐related macular degeneration (AMD) (brandstetter2015complementcomponentc5a pages 1-2, brandstetter2016nlrp3inflammasomeactivation pages 77-80).
+
+Biomedical Evidence: Dysregulation of the complement system is central to dry AMD pathogenesis, with complement products—especially C5a—being implicated in priming RPE cells for inflammasome and NF-κB activation (brandstetter2016nlrp3inflammasomeactivationa pages 67-70, brandstetter2015complementcomponentc5a pages 2-3). The differential effects of C5a versus C3a on NF-κB activation have been documented, highlighting that C5a is a potent activator of pro‐inflammatory signaling in RPE, thus supporting the relevance of NF-κB as a readout in this context (cao2016theroleof pages 151-151).
+
+Previous Use: ARPE-19 cells with NF-κB reporters have been employed to study complement-induced inflammatory responses and to screen potential inhibitors of this pathway (brandstetter2015complementcomponentc5a pages 7-8, cao2016cfhy402hpolymorphism pages 6-6). These studies have contributed to our understanding of how complement-driven signals modulate inflammatory cytokine secretion and cell death in RPE models (brandstetter2015complementcomponentc5a pages 5-6).
+
+Overall Evaluation: The major strengths of this assay include its high-throughput, quantitative readout and its focus on a key pathogenic mechanism in dry AMD. However, limitations include its exclusive emphasis on NF-κB signaling, which may not capture the full spectrum of inflammatory and oxidative stress pathways involved in AMD. Moreover, while ARPE-19 cells are a useful model, they might not fully reflect primary RPE physiology and in vivo complexity (brandstetter2016nlrp3inflammasomeactivation pages 77-80, cao2016cfhy402hpolymorphism pages 6-6).
+
+The complement NF-κB reporter assay in ARPE-19 cells offers a robust and quantifiable platform for evaluating therapeutic candidates targeting complement-mediated inflammation in dry AMD. Its focused readout on NF-κB activation is valuable, though additional assays may be needed to fully mimic the multifactorial nature of the disease.
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/0d5c8ccd-7fb3-465d-8a90-67bd72a13dde
+
+References:
+1. (brandstetter2015complementcomponentc5a pages 1-2): Carolina Brandstetter, Frank G. Holz, and Tim U. Krohne. Complement component c5a primes retinal pigment epithelial cells for inflammasome activation by lipofuscin-mediated photooxidative damage. Journal of Biological Chemistry, 290:31189-31198, Dec 2015. URL: https://doi.org/10.1074/jbc.m115.671180, doi:10.1074/jbc.m115.671180. This article has 87 citations and is from a domain leading peer-reviewed journal.
+
+2. (brandstetter2016nlrp3inflammasomeactivation pages 77-80): C Brandstetter. Nlrp3 inflammasome activation by photooxidative damage provides a novel link between hallmark pathogenic features of age-dependent macular degeneration. Unknown journal, 2016.
+
+3. (brandstetter2016nlrp3inflammasomeactivationa pages 67-70): C Brandstetter. Nlrp3 inflammasome activation by photooxidative damage provides a novel link between hallmark pathogenic features of age-dependent macular degeneration. Unknown journal, 2016.
+
+4. (brandstetter2015complementcomponentc5a pages 2-3): Carolina Brandstetter, Frank G. Holz, and Tim U. Krohne. Complement component c5a primes retinal pigment epithelial cells for inflammasome activation by lipofuscin-mediated photooxidative damage. Journal of Biological Chemistry, 290:31189-31198, Dec 2015. URL: https://doi.org/10.1074/jbc.m115.671180, doi:10.1074/jbc.m115.671180. This article has 87 citations and is from a domain leading peer-reviewed journal.
+
+5. (cao2016theroleof pages 151-151): Sijia Cao. The role of complement activation in age-related macular degeneration. ArXiv, Jan 2016. URL: https://doi.org/10.14288/1.0307354, doi:10.14288/1.0307354. This article has 0 citations.
+
+6. (brandstetter2015complementcomponentc5a pages 7-8): Carolina Brandstetter, Frank G. Holz, and Tim U. Krohne. Complement component c5a primes retinal pigment epithelial cells for inflammasome activation by lipofuscin-mediated photooxidative damage. Journal of Biological Chemistry, 290:31189-31198, Dec 2015. URL: https://doi.org/10.1074/jbc.m115.671180, doi:10.1074/jbc.m115.671180. This article has 87 citations and is from a domain leading peer-reviewed journal.
+
+7. (cao2016cfhy402hpolymorphism pages 6-6): Sijia Cao, Jay Ching Chieh Wang, Jiangyuan Gao, Matthew Wong, Elliott To, Valerie A White, Jing Z Cui, and Joanne A Matsubara. Cfh y402h polymorphism and the complement activation product c5a: effects on nf-κb activation and inflammasome gene regulation. British Journal of Ophthalmology, 100:713-718, Jan 2016. URL: https://doi.org/10.1136/bjophthalmol-2015-307213, doi:10.1136/bjophthalmol-2015-307213. This article has 66 citations and is from a highest quality peer-reviewed journal.
+
+8. (brandstetter2015complementcomponentc5a pages 5-6): Carolina Brandstetter, Frank G. Holz, and Tim U. Krohne. Complement component c5a primes retinal pigment epithelial cells for inflammasome activation by lipofuscin-mediated photooxidative damage. Journal of Biological Chemistry, 290:31189-31198, Dec 2015. URL: https://doi.org/10.1074/jbc.m115.671180, doi:10.1074/jbc.m115.671180. This article has 87 citations and is from a domain leading peer-reviewed journal.

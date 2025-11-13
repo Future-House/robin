@@ -1,0 +1,77 @@
+Query: investigations of mitochondrial dynamics (fission/fusion), biogenesis pathways (PGC-1α, TFAM), and mitophagy regulators (PINK1/Parkin) in RPE degeneration during dry AMD, with proof of causality from genetic manipulation and functional rescue assays
+
+1. Hypothesis: Oxidative stress induces DRP1 hyperactivation, driving excessive mitochondrial fission and apoptosis in RPE.  
+   • Model: ARPE-19 cells treated with H₂O₂.  
+   • Genetic manipulation: DRP1 knockdown by siRNA; rescue via expression of dominant-negative DRP1-K38A.  
+   • Readouts: MitoTracker imaging (fragmentation index), caspase-3 activity, cell viability.
+
+2. Hypothesis: Downregulation of MFN2 under AMD‐mimicking stress leads to fragmented mitochondria, ATP depletion, and RPE senescence.  
+   • Model: Primary human RPE exposed to blue-light irradiation.  
+   • Genetic manipulation: CRISPRi against MFN2; rescue by lentiviral MFN2-WT expression.  
+   • Readouts: Mitochondrial network morphology, ATP luminescence assay, SA-β-gal staining.
+
+3. Hypothesis: Impaired PGC-1α signaling reduces mitochondrial biogenesis, lowering mtDNA content and promoting RPE degeneration.  
+   • Model: ARPE-19 under chronic low-dose H₂O₂.  
+   • Genetic manipulation: PGC-1α shRNA; rescue with ZLN005 (PGC-1α agonist) or PGC-1α overexpression.  
+   • Readouts: mtDNA copy number (qPCR), mitochondrial mass (NAO staining), ROS levels (DCFDA).
+
+4. Hypothesis: TFAM deficiency decreases mtDNA transcription, elevates ROS, and triggers inflammasome activation in RPE.  
+   • Model: iPSC-derived RPE treated with sublethal sodium iodate.  
+   • Genetic manipulation: TFAM CRISPR knockout; rescue by exogenous TFAM lentivirus.  
+   • Readouts: mtDNA transcripts (RT-qPCR), IL-1β secretion (ELISA), mitochondrial potential (JC-1).
+
+5. Hypothesis: Loss of PINK1 stabilization on damaged mitochondria blocks Parkin recruitment, preventing mitophagy and leading to RPE cell death.  
+   • Model: ARPE-19 challenged with CCCP to depolarize mitochondria.  
+   • Genetic manipulation: PINK1 siRNA; rescue by transfection of cleavage-resistant PINK1.  
+   • Readouts: Parkin translocation (immunofluorescence), mt-Keima mitophagy assay, cell survival.
+
+6. Hypothesis: Parkin deficiency causes accumulation of depolarized mitochondria, elevating oxidative stress and lipofuscin accumulation.  
+   • Model: Primary RPE with chronic photooxidation.  
+   • Genetic manipulation: Parkin knockout via CRISPR/Cas9; rescue with Parkin-WT reintroduction.  
+   • Readouts: Mitochondrial membrane potential (TMRM), ROS imaging, lipofuscin autofluorescence.
+
+7. Hypothesis: Synergistic DRP1 hyperactivity plus MFN2 downregulation exaggerates mitochondrial fragmentation and RPE apoptosis.  
+   • Model: ARPE-19 under dual oxidative (H₂O₂) and inflammatory (TNFα) stress.  
+   • Genetic manipulation: Simultaneous DRP1 overexpression and MFN2 knockdown; rescue by co-expression of DRP1-K38A and MFN2-WT.  
+   • Readouts: Morphology quantification, Annexin V/PI apoptosis assay.
+
+8. Hypothesis: AMPK activation restores PGC-1α–driven biogenesis and enhances mitophagy via PINK1/Parkin, rescuing RPE under oxidative insult.  
+   • Model: ARPE-19 plus H₂O₂.  
+   • Intervention: AICAR treatment; confirm specificity by AMPKα1/α2 siRNA.  
+   • Readouts: PGC-1α and PINK1 protein levels, mitophagy flux (mt-Keima), cell viability.
+
+9. Hypothesis: SIRT1‐mediated deacetylation of PGC-1α boosts mitochondrial biogenesis, lowering ROS and preventing RPE degeneration.  
+   • Model: Primary RPE exposed to cigarette-smoke extract.  
+   • Intervention: Resveratrol or SIRT1 overexpression; validate with SIRT1 inhibitor EX-527.  
+   • Readouts: PGC-1α acetylation status, mtDNA copy number, ROS measurement.
+
+10. Hypothesis: Ectopic UCP2 expression uncouples excess ROS production, normalizes dynamics and preserves RPE function under stress.  
+   • Model: ARPE-19 challenged with high-glucose media.  
+   • Genetic manipulation: Lentiviral UCP2 overexpression; rescue of function tested by UCP2 mutant (control).  
+   • Readouts: Mitochondrial ROS (MitoSOX), fragmentation index, transepithelial resistance.
+
+11. Hypothesis: OPA1 overexpression enhances inner‐membrane fusion, preserves cristae integrity, and reduces apoptosis in RPE under oxidative challenge.  
+   • Model: ARPE-19 + blue-light LED exposure.  
+   • Genetic manipulation: OPA1-WT vs. GTPase-dead mutant transfection; rescue by chemical fusion promoter (M1).  
+   • Readouts: TEM for cristae morphology, cytochrome c release, caspase activation.
+
+12. Hypothesis: mTORC1 inhibition by rapamycin stimulates general autophagy and specifically PINK1/Parkin–mediated mitophagy, protecting RPE.  
+   • Model: iPSC-RPE with chronic oxidative stress.  
+   • Intervention: Rapamycin; control with Raptor siRNA.  
+   • Readouts: LC3 lipidation, p62 clearance, mitophagy reporter, cell survival.
+
+13. Hypothesis: Nrf2 activation upregulates PGC-1α and TFAM, restoring mitochondrial function and attenuating RPE degeneration.  
+   • Model: ARPE-19 under paraquat treatment.  
+   • Intervention: Sulforaphane; confirm with Nrf2 siRNA.  
+   • Readouts: Nrf2 target gene expression, mtDNA copy number, ROS levels.
+
+14. Hypothesis: Expression of phospho-deficient DRP1-S616A reduces stress‐induced fission, decreasing RPE cell death.  
+   • Model: ARPE-19 with H₂O₂ insult.  
+   • Genetic manipulation: Transient transfection of DRP1-S616A vs. S616E; rescue by co-knockdown of endogenous DRP1.  
+   • Readouts: Mitochondrial morphology, TUNEL assay, ATP levels.
+
+15. Hypothesis: miR-34a upregulation in AMD targets PGC-1α mRNA, impairing biogenesis and driving RPE degeneration.  
+   • Model: ARPE-19 transfected with miR-34a mimic vs. inhibitor.  
+   • Rescue: Co-transfect PGC-1α 3′UTR mutant lacking miR-34a binding site.  
+   • Readouts: PGC-1α protein, mtDNA copy number, cell viability.
+

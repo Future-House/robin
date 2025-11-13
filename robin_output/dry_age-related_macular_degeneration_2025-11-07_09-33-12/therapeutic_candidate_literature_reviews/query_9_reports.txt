@@ -1,0 +1,22 @@
+Query: Reports on cell-based phenotypic screening platforms using RPE derived from iPSCs of dry AMD patients, focusing on assay robustness, phagocytosis readouts, and hit validation strategies
+
+Robust cell‐based phenotypic screening platforms using iPSC‐derived RPE for dry AMD rely on standardized differentiation protocols (often on transwell filters) that yield mature, polarized RPE with high reproducibility across multiple technical and biological replicates (karlUnknownyearsvenschreiterkaterina pages 10-11, karlUnknownyearsvenschreiterkaterina pages 27-28). Phagocytosis readouts are typically based on quantitative imaging of photoreceptor outer segment (POS) uptake using confocal microscopy combined with automated segmentation algorithms (e.g., CellProfiler) and supported by cytoskeletal F‑actin staining as a predictive biomarker of phagocytic capacity (karlUnknownyearsvenschreiterkaterina pages 10-11, karlUnknownyearsvenschreiterkaterina pages 1-2). Hit validation is achieved through a multi‑tiered approach that integrates dose-response confirmation, transcriptomic profiling (RNA-seq and targeted qPCR) of candidate mediators, and pharmacologic inhibition studies to delineate mechanism-of-action, such as using S1PR5 inhibitors to confirm on-target compound activity (karlUnknownyearsvenschreiterkaterina pages 13-15, karlUnknownyearsvenschreiterkaterina pages 15-17). Additionally, orthogonal assays—including ultrastructural evaluation by scanning electron microscopy and testing in disease-specific models (e.g., MERTK-mutant iPSC-RPE)—further validate compound efficacy and rescue of impaired POS digestion (li2025ipscderivedretinalpigment pages 5-6, li2025ipscderivedretinalpigment pages 4-5).
+
+This integrated pipeline demonstrates that robust assay design, combined with multiparametric functional readouts, is critical to identify and validate candidate compounds for dry AMD. The approach provides mechanistic insight and a translational basis for the development of novel therapeutics.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/fdd07294-6e63-4d0c-a1aa-cb210bb22bcd
+
+References:
+1. (karlUnknownyearsvenschreiterkaterina pages 10-11): MO Karl, EM Tanaka, and S Almedawar. Sven schreiter, katerina vafia, rico barsacchi, 2 stephen h. tsang, 4 marc bickle, 2 marius ader. Unknown journal, Unknown year.
+
+2. (karlUnknownyearsvenschreiterkaterina pages 27-28): MO Karl, EM Tanaka, and S Almedawar. Sven schreiter, katerina vafia, rico barsacchi, 2 stephen h. tsang, 4 marc bickle, 2 marius ader. Unknown journal, Unknown year.
+
+3. (karlUnknownyearsvenschreiterkaterina pages 1-2): MO Karl, EM Tanaka, and S Almedawar. Sven schreiter, katerina vafia, rico barsacchi, 2 stephen h. tsang, 4 marc bickle, 2 marius ader. Unknown journal, Unknown year.
+
+4. (karlUnknownyearsvenschreiterkaterina pages 13-15): MO Karl, EM Tanaka, and S Almedawar. Sven schreiter, katerina vafia, rico barsacchi, 2 stephen h. tsang, 4 marc bickle, 2 marius ader. Unknown journal, Unknown year.
+
+5. (karlUnknownyearsvenschreiterkaterina pages 15-17): MO Karl, EM Tanaka, and S Almedawar. Sven schreiter, katerina vafia, rico barsacchi, 2 stephen h. tsang, 4 marc bickle, 2 marius ader. Unknown journal, Unknown year.
+
+6. (li2025ipscderivedretinalpigment pages 5-6): Huirong Li, Ruchi Sharma, and Kapil Bharti. Ipsc-derived retinal pigment epithelium: an in vitro platform to reproduce key cellular phenotypes and pathophysiology of retinal degenerative diseases. Stem cells translational medicine, Dec 2025. URL: https://doi.org/10.1093/stcltm/szae097, doi:10.1093/stcltm/szae097. This article has 1 citations and is from a domain leading peer-reviewed journal.
+
+7. (li2025ipscderivedretinalpigment pages 4-5): Huirong Li, Ruchi Sharma, and Kapil Bharti. Ipsc-derived retinal pigment epithelium: an in vitro platform to reproduce key cellular phenotypes and pathophysiology of retinal degenerative diseases. Stem cells translational medicine, Dec 2025. URL: https://doi.org/10.1093/stcltm/szae097, doi:10.1093/stcltm/szae097. This article has 1 citations and is from a domain leading peer-reviewed journal.

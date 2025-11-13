@@ -1,0 +1,83 @@
+Query: What cell culture models and systems (primary RPE, ARPE-19, iPSC-derived RPE, 3D organoids, co-cultures with choroidal endothelial cells) have been validated for recapitulating key pathological features of dry AMD, and what are their advantages and limitations for mechanistic drug screening?
+
+Below is a concise survey of the major in vitro RPE-based systems that have been used to model dry AMD–relevant end points (drusen-like deposit formation, complement dysregulation, barrier breakdown, lipofuscin/oxidative stress accumulation, RPE atrophy), together with the pros and cons of each for mechanistic drug screening.  
+
+1. Primary human RPE monolayers  
+   – Key features recapitulated:  
+     • Robust apical-basal polarity and tight junctions (TEER > 100 Ω·cm²)  
+     • Vectorial secretion of VEGF (basal) and PEDF (apical)  
+     • Capable of accumulating sub-RPE deposits (“drusen-like” material) when fed lipoprotein-enriched media  
+     • Express complement regulators (CD46, CD55, CD59) at physiological levels  
+   – Advantages:  
+     • Closest to in vivo adult RPE phenotype  
+     • High barrier function—ideal for testing drugs targeting RPE tight-junction integrity  
+     • Low background of immortalization artifacts  
+   – Limitations:  
+     • Scarce donor tissue; high donor-to-donor variability  
+     • Limited population doublings (senescence after ~5–7 passages)  
+     • Labor intensive isolation and low throughput  
+
+2. ARPE-19 cell line  
+   – Key features recapitulated:  
+     • Basic RPE markers (RPE65, bestrophin) after long-term culture (>4 weeks)  
+     • Can be driven to polarize on Transwell filters (TEER 40–60 Ω·cm²)  
+     • Susceptible to oxidative stress and drusen component–induced complement activation  
+   – Advantages:  
+     • Widely available (ATCC CRL-2302), easy to expand, cost-effective  
+     • Reproducible for high-throughput screening (HTS)  
+     • Good for initial cytotoxicity and ROS assays  
+   – Limitations:  
+     • Low and variable TEER unless extensively “conditioned”  
+     • Aberrant karyotype, low RPE-specific function (phagocytosis, pigment)  
+     • Lower fidelity for drusen-like deposit formation  
+
+3. iPSC-derived RPE  
+   – Key features recapitulated:  
+     • High TEER (>150 Ω·cm²) and correct apical/basal marker distribution  
+     • Physiological expression of complement regulators, phagocytic receptors (MerTK), retinoid-cycle enzymes  
+     • Accumulate lipofuscin autofluorescence over time; form sub-RPE extracellular deposits when cultured on ECM  
+   – Advantages:  
+     • Patient-specific lines enable genotype–phenotype correlation for complement-factor risk alleles (e.g., CFH Y402H)  
+     • Long-term cultures (months) allow chronic compound exposure  
+     • Scalable 96-well–format differentiation protocols exist (R&D Systems, Cat# SC601A)  
+   – Limitations:  
+     • Differentiation takes 6–8 weeks; line-to-line variability in yield/purity  
+     • Higher cost per well; lower throughput than ARPE-19  
+     • Maturity can plateau—may not fully recapitulate aged RPE phenotypes  
+
+4. 3D retinal/RPE organoids  
+   – Key features recapitulated:  
+     • Multi-layered retinal tissue with photoreceptors overlaying a basal RPE monolayer  
+     • Native Bruch’s membrane–like ECM deposition  
+     • Photoreceptor-RPE phagocytic coupling; physiological retinoid cycling  
+     • Formation of drusen-like sub-RPE deposits when stressed with oxidized LDL or blue-light exposure  
+   – Advantages:  
+     • Closest structural mimic of the outer retina/choroid niche  
+     • Enables interrogation of RPE-photoreceptor cross-talk (e.g., for lipofuscin toxicity)  
+   – Limitations:  
+     • Very low throughput (multi-week, labor-intensive); expensive reagents  
+     • Heterogeneity in organoid size/maturation; difficult to standardize readouts  
+     • Challenging to isolate pure RPE responses  
+
+5. RPE–choroidal endothelia co-culture (transwell or microfluidic “organ-on-chip”)  
+   – Key features recapitulated:  
+     • RPE basal interface contacts choriocapillaris-like endothelial cells (e.g., human iPSC–EC or RF/6A)  
+     • Allows study of complement-driven endothelial injury and sub-RPE deposit effects on barrier permeability  
+     • Under flow, can model subretinal fluid dynamics and transcellular transport  
+   – Advantages:  
+     • Physiological cross talk for studying VEGF/PEDF balance, complement-mediated choriocapillaris dropout  
+     • Adaptable to real-time permeability and flow-based drug penetration assays  
+   – Limitations:  
+     • Complex device fabrication; requires specialized equipment  
+     • Cellular heterogeneity and media-optimization trade-offs  
+     • Moderate throughput (typically 12–24 chips per experiment)  
+
+Summary – Model Selection by Assay Goal  
+• Early HTS oxidative-stress or lipofuscin modulators: ARPE-19 (cheap, rapid)  
+• Barrier-integrity/complement–RPE interplay: primary RPE or iPSC-RPE on Transwells  
+• Genotype-driven mechanistic studies (CFH, C3 variants): patient-derived iPSC-RPE  
+• Chronic deposit-modulating therapies: long-term iPSC-RPE or 3D organoid platforms  
+• RPE-vascular cross-talk or drug penetration: microfluidic co-culture chips  
+
+In practice, a staged approach—screening hits in ARPE-19 for acute toxicity/ROS, confirming mechanism in iPSC-RPE monolayers (≥150 Ω·cm² TEER), then validating key readouts in a microfluidic co-culture—offers the optimal balance of throughput, mechanistic specificity, and physiological relevance.
+

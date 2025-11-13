@@ -1,0 +1,64 @@
+Query: Development and characterization of iPSC-derived RPE monolayers for modeling dry AMD: differentiation protocols, transepithelial resistance measurements, polarized secretion assays (VEGF/PEDF), comparative transcriptomic and proteomic profiling versus primary RPE, and validation of disease phenotypes
+
+Here are 15 distinct mechanistic hypotheses or therapeutic-strategy ideas you can test in your iPSC-derived RPE monolayers (using TEER, polarized secretion, transcriptomics/proteomics, stress or co-culture assays, etc.):
+
+1. Mitochondrial Dynamics Deficit  
+Hypothesis: AMD RPE exhibit fragmented mitochondria and reduced respiration, driving oxidative injury.  
+Assays: live-cell imaging of mitochondrial network, JC-1 or TMRE for membrane potential, Seahorse OCR. Rescue with MitoQ or DRP1 inhibitor.
+
+2. Impaired Autophagy/Lipofuscin Accumulation  
+Hypothesis: Defective autophagic flux in AMD RPE causes lipofuscin-like inclusion buildup and barrier breach.  
+Assays: LC3-II/p62 quantification ± bafilomycin, autofluorescent granule counts, TEER changes, rapamycin or trehalose treatment.
+
+3. CFH Y402H–Mediated Complement Overactivation  
+Hypothesis: The risk variant augments basal-side C3b deposition, weakening monolayer integrity.  
+Assays: immunostain for C3d/MAC, IL-6 secretion, TEER, test restoration with recombinant FH or anti-C5 antibody.
+
+4. Defective Photoreceptor Outer Segment (POS) Phagocytosis  
+Hypothesis: AMD RPE have lower MERTK/CD36 expression and fail to clear POS, exacerbating stress.  
+Assays: fluorescence-labeled POS uptake, RPE65 activity, measure apical VEGF/PEDF shift, rescue with MERTK agonist.
+
+5. Advanced Glycation End-Product (AGE) Toxicity  
+Hypothesis: AGE accumulation on BrM-mimetic substrates disrupts tight junctions and polarization.  
+Assays: expose to glycated-albumin, monitor ZO-1/occludin distribution, TEER, test aminoguanidine or rutin.
+
+6. Drusen Matrix Protein Deposition  
+Hypothesis: AMD RPE over-secrete APOE and vitronectin basally, promoting drusen-like deposits.  
+Assays: polarized secretion ELISAs, ECM mass spectrometry, interference with siRNA against APOE or integrin blockers.
+
+7. VEGF / PEDF Imbalance Under Hypoxia  
+Hypothesis: Hypoxia or HIF-1α stabilization skews RPE toward pro-angiogenic output, priming choroidal invasion.  
+Assays: incubate at 1% O₂, measure apical/basal VEGF and PEDF, test HIF inhibitors or prolyl-hydroxylase activators.
+
+8. Cholesterol-Crystal–Induced Inflammasome Activation  
+Hypothesis: Excess cholesterol uptake forms crystals that activate NLRP3, driving IL-1β release and barrier loss.  
+Assays: cholesterol–MβCD loading, caspase-1 activity, IL-1β ELISA, rescue with statins or MCC950.
+
+9. mtDNA Release & cGAS–STING–Mediated Inflammation  
+Hypothesis: Mitochondrial damage in AMD RPE liberates mtDNA into cytosol, triggering STING signaling and cytokine storm.  
+Assays: cytosolic mtDNA qPCR, p-TBK1, IFNβ expression, test STING antagonists.
+
+10. microRNA Dysregulation of Stress Pathways  
+Hypothesis: Upregulation of miR-34a (or down of miR-184) in AMD RPE suppresses SIRT1/FOXO1, sensitizing cells to ROS.  
+Assays: small-RNA seq, mimic/inhibitor transfection, viability under H₂O₂, measure SIRT1 levels.
+
+11. Retinoid-Cycle Enzyme Deficiency  
+Hypothesis: Reduced LRAT or RPE65 activity underlies poor 11-cis-retinal recycling and heightened light stress.  
+Assays: RAL-retinol conversion assays, opsin regeneration tests, rescue with 9-cis-retinal analogs.
+
+12. CRISPRa-Mediated CFH Upregulation Therapy  
+Strategy: Use dCas9-VP64 to boost endogenous CFH expression in AMD RPE and restore complement control.  
+Assays: qPCR/protein for CFH, complement deposition assays, monolayer integrity.
+
+13. AAV-Delivered SOD2 Overexpression  
+Strategy: Transduce RPE with AAV2/8–SOD2 to enhance mitochondrial ROS detox and preserve TEER under stress.  
+Assays: ROS probes, barrier function, polarized cytokine secretion after H₂O₂ challenge.
+
+14. Senescence-Associated Secretory Phenotype (SASP) Blockade  
+Hypothesis/Strategy: Senescent AMD RPE secrete IL-6, IL-8 that propagate dysfunction.  
+Assays: SA-β-gal staining, SASP ELISA, treat with navitoclax or fisetin to clear senescent cells and monitor recovery.
+
+15. Small-Molecule RAR Agonist to Boost RPE Differentiation  
+Strategy: Screen retinoic-acid receptor ligands to enhance RPE maturation, phagocytosis, and tight-junction integrity.  
+Assays: TEER, RPE marker expression, POS uptake, comparative transcriptomics with untreated controls.
+

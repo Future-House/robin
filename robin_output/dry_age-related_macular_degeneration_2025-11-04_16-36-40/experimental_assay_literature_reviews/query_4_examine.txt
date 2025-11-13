@@ -1,0 +1,32 @@
+Query: Examine inflammasome activation pathways in RPE relevant to dry AMD, including triggers of NLRP3 complex assembly, mitochondrial DNA or DAMP release, downstream IL-1β/IL-18 secretion, caspase-1 activation, and development of cell culture readouts for pyroptosis and cytokine release
+
+NLRP3 inflammasome activation in RPE cells relevant to dry AMD is driven by multiple convergent stressors. Oxidative stress, mitochondrial dysfunction, lysosomal destabilization, and drusen‐associated components such as complement proteins and amyloid‐β provide both priming and activating signals to relieve NLRP3 autoinhibition and drive complex assembly (brandli2024thecontributionof pages 10-12, korhonen2024inflammasomeactivationin pages 79-82). Extracellular ATP and P2X7 receptor signaling further promote ionic flux (notably K+ efflux) that is critical for full activation.
+
+Mitochondrial dysfunction contributes to inflammasome activation not only by generating reactive oxygen species (ROS) but also via mtDNA damage. Damage to mitochondria and consequent release of oxidized mtDNA or other DAMPs can engage DNA‐sensing pathways (e.g., cGAS and AIM2), which may act upstream or in parallel to bolster NLRP3 activation (chen2022spotlightonpyroptosis pages 12-13, korhonen2024inflammasomeactivationin pages 235-236). However, definitive demonstration of mtDNA as a direct activator remains under investigation in some reports (korhonen2024inflammasomeactivationin pages 84-86).
+
+Following inflammasome assembly, caspase‐1 becomes activated leading to cleavage of pro‐IL-1β and pro‐IL-18 into mature cytokines. Pyroptotic signaling is initiated by gasdermin family proteins (with some studies noting GSDME cleavage rather than early GSDMD activation), which contribute to membrane pore formation and cytokine release (korhonen2024inflammasomeactivationin pages 87-89, korhonen2024inflammasomeactivationin pages 82-84).
+
+In cell culture studies of RPE cells (e.g., ARPE-19), inflammasome activation is monitored by readouts including caspase-1 cleavage, ASC speck formation, and measurement of secreted IL-1β/IL-18 via ELISA (korhonen2024inflammasomeactivationin pages 224-227, piippo2019inflammasomesignalingand pages 47-49).
+
+Dry AMD pathogenesis involves diverse stress signals that trigger NLRP3 assembly, leading to caspase‐1 activation and inflammatory cytokine secretion, measurable through established cell culture pyroptosis assays. These models enable detailed study of innate immune responses in the RPE.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/6bc6a296-faef-42aa-943c-30f51733c7f1
+
+References:
+1. (brandli2024thecontributionof pages 10-12): Alice Brandli, Kirstan A. Vessey, and Erica L. Fletcher. The contribution of pattern recognition receptor signalling in the development of age related macular degeneration: the role of toll-like-receptors and the nlrp3-inflammasome. Journal of Neuroinflammation, Mar 2024. URL: https://doi.org/10.1186/s12974-024-03055-1, doi:10.1186/s12974-024-03055-1. This article has 23 citations and is from a peer-reviewed journal.
+
+2. (korhonen2024inflammasomeactivationin pages 79-82): E. Korhonen. Inflammasome activation in response to aberrations of cellular homeostasis in epithelial cells from human cornea and retina. Acta Ophthalmologica, 102:3-68, Feb 2024. URL: https://doi.org/10.1111/aos.16646, doi:10.1111/aos.16646. This article has 0 citations and is from a domain leading peer-reviewed journal.
+
+3. (chen2022spotlightonpyroptosis pages 12-13): Meini Chen, Rong Rong, and Xiaobo Xia. Spotlight on pyroptosis: role in pathogenesis and therapeutic potential of ocular diseases. Journal of Neuroinflammation, Jul 2022. URL: https://doi.org/10.1186/s12974-022-02547-2, doi:10.1186/s12974-022-02547-2. This article has 93 citations and is from a peer-reviewed journal.
+
+4. (korhonen2024inflammasomeactivationin pages 235-236): E. Korhonen. Inflammasome activation in response to aberrations of cellular homeostasis in epithelial cells from human cornea and retina. Acta Ophthalmologica, 102:3-68, Feb 2024. URL: https://doi.org/10.1111/aos.16646, doi:10.1111/aos.16646. This article has 0 citations and is from a domain leading peer-reviewed journal.
+
+5. (korhonen2024inflammasomeactivationin pages 84-86): E. Korhonen. Inflammasome activation in response to aberrations of cellular homeostasis in epithelial cells from human cornea and retina. Acta Ophthalmologica, 102:3-68, Feb 2024. URL: https://doi.org/10.1111/aos.16646, doi:10.1111/aos.16646. This article has 0 citations and is from a domain leading peer-reviewed journal.
+
+6. (korhonen2024inflammasomeactivationin pages 87-89): E. Korhonen. Inflammasome activation in response to aberrations of cellular homeostasis in epithelial cells from human cornea and retina. Acta Ophthalmologica, 102:3-68, Feb 2024. URL: https://doi.org/10.1111/aos.16646, doi:10.1111/aos.16646. This article has 0 citations and is from a domain leading peer-reviewed journal.
+
+7. (korhonen2024inflammasomeactivationin pages 82-84): E. Korhonen. Inflammasome activation in response to aberrations of cellular homeostasis in epithelial cells from human cornea and retina. Acta Ophthalmologica, 102:3-68, Feb 2024. URL: https://doi.org/10.1111/aos.16646, doi:10.1111/aos.16646. This article has 0 citations and is from a domain leading peer-reviewed journal.
+
+8. (korhonen2024inflammasomeactivationin pages 224-227): E. Korhonen. Inflammasome activation in response to aberrations of cellular homeostasis in epithelial cells from human cornea and retina. Acta Ophthalmologica, 102:3-68, Feb 2024. URL: https://doi.org/10.1111/aos.16646, doi:10.1111/aos.16646. This article has 0 citations and is from a domain leading peer-reviewed journal.
+
+9. (piippo2019inflammasomesignalingand pages 47-49): N Piippo. Inflammasome signaling and its regulation in human retinal pigment epithelial cells with dysfunctional intracellular clearance. Unknown journal, 2019.

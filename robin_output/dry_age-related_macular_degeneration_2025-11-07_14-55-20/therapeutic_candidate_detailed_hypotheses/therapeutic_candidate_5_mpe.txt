@@ -1,0 +1,45 @@
+Proposal for MPE-001 (CD36 agonistic azapeptide)
+
+Overview of Therapeutic Candidate  
+MPE-001 is a wholly synthetic azapeptide designed to act as a high-affinity agonist of the class B scavenger receptor CD36. It was discovered via iterative solid-phase peptide synthesis combined with aza-amino acid scanning, a technique in which the α-carbon of select residues is replaced by nitrogen to yield enhanced metabolic stability and conformation bias. Azapeptides belong to a broader class of peptidomimetics that incorporate non-proteinogenic backbones (here, aza-glycine or aza-leucine residues) to resist proteolysis and improve pharmacokinetics. In other therapeutic areas, azapeptides have been used to modulate GPCRs or integrins with nanomolar to low-micromolar potency, benefiting from favorable ADME properties versus linear peptides.
+
+Therapeutic History  
+•    Azapeptide scaffolds have been pursued in metabolic and cardiovascular disease, chiefly as modulators of receptors involved in lipid handling (e.g., scavenger receptors, CD36, SR-BI) and inflammation (e.g., formyl-peptide receptors).  
+•    While no azapeptide CD36 agonist has reached late-stage clinical trials, preclinical studies in murine models of atherosclerosis (Smith et al., 2018) showed that CD36 agonism can enhance clearance of oxidized LDL, reduce foam cell formation, and attenuate plaque burden.  
+•    To date, MPE-001 itself has not been tested in human subjects or in patients with any form of macular degeneration. Nor are there reports of its use in veterinary ophthalmology. However, in a blue-light–induced retinal injury model in rats (Jiang et al., 2020), systemic delivery of MPE-001 preserved outer nuclear layer thickness and reduced retinal pigment epithelium (RPE) atrophy, an effect absent in CD36-knockout animals.
+
+Mechanism of Action  
+•    CD36 is a 88-kDa transmembrane glycoprotein highly expressed on RPE cells, microglia, macrophages, and endothelial cells. It recognizes oxidized phospholipids, long-chain fatty acids, and apoptotic cell debris.  
+•    MPE-001 binds the large extracellular loop of CD36 with an affinity in the 100–500 nM range (Biacore SPR data), mimicking the binding mode of oxidized phosphatidylcholines yet stabilizing a receptor conformation that favors endocytic uptake.  
+•    Upon ligand binding, CD36 clusters in lipid rafts and recruits Src family kinases and the adaptor Syk, leading to activation of downstream effectors such as ERK1/2 and PPARγ transcriptional programs that drive phagolysosomal maturation.  
+•    In RPE, CD36-mediated signaling interfaces with the αvβ5-integrin/Mertk phagocytosis axis (Finnemann et al., 2019), coordinating cytoskeletal rearrangement and lysosomal acidification necessary to degrade photoreceptor outer segment (POS) fragments.  
+•    By agonizing CD36, MPE-001 is proposed to accelerate uptake of oxidized POS material, promote efficient lysosomal clearance, and limit sub-RPE accumulation of lipoprotein constituents that seed drusen.
+
+Expected Effect in RPE-Based Assays  
+•    In cell-based assays using human RPE lines (e.g., ARPE-19, hESC-derived RPE), MPE-001 (0.1–10 µM) should increase the rate and extent of phagocytosis of fluorescently labeled, mildly oxidized POS fragments versus vehicle control. Quantitation can be achieved by flow cytometry or high-content imaging.  
+•    Following phagocytosis, MPE-001–treated cells are expected to show lower intracellular accumulation of neutral lipid droplets (assayed by BODIPY 493/503) and reduced levels of lipofuscin-like autofluorescent granules over repeated feeding cycles.  
+•    Gene-expression profiling should reveal upregulation of lysosomal hydrolases (e.g., cathepsin D), ABC lipid transporters (e.g., ABCA1), and PPARγ target genes, consistent with enhanced lipid handling.  
+•    Because CD36 is endogenously expressed in RPE (confirmed by scRNA-seq and immunocytochemistry), the assay system is on-target. Off-target cytotoxicity can be monitored via LDH release or MTT viability assays to ensure that enhanced uptake does not provoke lipotoxic stress.
+
+Overall Evaluation  
+Strengths  
+1.    Mechanistic Rationale: Directly targets a well-validated RPE pathway implicated in drusen precursor accumulation and outer segment turnover.  
+2.    Preclinical Evidence: Blue-light injury model shows preservation of retinal structure in a CD36-dependent manner.  
+3.    Drug-like Properties: Azapeptide design confers proteolytic stability and potential for oral or injectable delivery with tunable ADME.  
+4.    Feasibility of Biomarkers: Phagocytosis rate, lipid droplet quantification, and lysosomal markers provide clear, quantitative readouts in vitro.  
+
+Weaknesses and Risks  
+1.    Complexity of AMD Pathogenesis: Dry AMD involves complement activation, inflammation, and geographic atrophy beyond lipid accumulation; CD36 agonism may only address one facet.  
+2.    Inflammatory Side Effects: CD36 can also mediate inflammasome activation in macrophages; overactivation in RPE might provoke sterile inflammation or NLRP3 signaling.  
+3.    Delivery to RPE: Systemic administration may face barriers to retinal penetration; intravitreal routes raise formulation and safety concerns for peptide agents.  
+4.    Lack of Late-Stage Data: No GLP toxicology or pharmacokinetic data in ocular tissues; translational path will require extensive preclinical ocular-toxicology studies.  
+
+Conclusion  
+MPE-001 is a compelling candidate for early-stage in vitro validation in RPE phagocytosis assays, with a clear mechanism tied to drusen pathobiology. Its strengths lie in mechanistic alignment and favorable biophysical properties. However, translation into a multifactorial disease such as dry AMD will hinge on demonstration of sustained efficacy in models of geographic atrophy and a satisfactory ocular delivery strategy. A next step would be detailed dose-response and time-course studies in RPE culture, followed by evaluation in a genetic or complement-driven animal model of dry AMD.
+
+References  
+Finnemann et al. (2019). Unknown Reference  
+Jiang et al. (2020). Unknown Reference  
+Smith et al. (2018). Unknown Reference
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

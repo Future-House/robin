@@ -1,0 +1,45 @@
+Hypothesis: Lysosomal pH normalization
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Lysosomal pH normalization
+Reasoning: Use ratiometric LysoSensor probes in ARPE-19 to monitor lysosomal pH under stress and test TFEB/mTOR modulators that restore acidity and enzyme activity, correcting lysosomal dysfunction linked to drusen biogenesis (Falcão et al. 2024; Falcão et al. 2025).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+This assay employs ratiometric LysoSensor probes in ARPE-19 cells to monitor lysosomal pH changes under stress conditions that mimic the intracellular environment of dry age‐related macular degeneration (AMD). The approach involves quantifying fluorescence ratios from the LysoSensor Yellow/Blue DND-160 probe, serving as a surrogate for lysosomal acidity, and correlating these measurements with enzyme activity and TFEB/mTOR modulation. ARPE-19 cells, widely used as a model for retinal pigment epithelium (RPE), will be utilized to assess whether TFEB activators and mTOR inhibitors restore proper lysosomal pH and enhance photoreceptor outer segment degradation (ng2024impairedcathepsind pages 5-6, li2025sustainedlysosomaldelivery pages 14-17).
+
+Biomedical Evidence:  
+Lysosomal dysfunction, characterized by elevated lysosomal pH and inefficient degradation of photoreceptor debris leading to lipofuscin accumulation, is central to dry AMD pathogenesis (boya2023lysosomesinretinal pages 4-6, falcao2024enhancinglysosomefunction pages 1-6). Dysregulation of the mTOR/TFEB axis plays a pivotal role in perturbing lysosomal biogenesis and autophagic flux, ultimately contributing to drusen biogenesis and retinal degeneration (falcao2024enhancinglysosomefunction pages 6-10, boya2023lysosomesinretinal pages 4-6).
+
+Previous Use:  
+Ratiometric LysoSensor assays in ARPE-19 cells have been successfully employed to evaluate lysosomal pH normalization and TFEB/mTOR pathway modulation in the context of retinal degeneration studies (falcao2024enhancinglysosomefunction pages 10-13, falcao2024enhancinglysosomefunction pages 13-18). These applications have provided quantitative insights into therapeutic strategies aimed at restoring lysosomal function and mitigating AMD-related pathology.
+
+Overall Evaluation:  
+The strength of this assay lies in its ability to directly quantify changes in lysosomal pH—a critical determinant of RPE cell health—while enabling the screening of modulators of the TFEB/mTOR axis. However, while ARPE-19 cells offer a convenient and relevant model, differences from primary RPE cells and the complex in vivo environment may limit translatability. Nonetheless, its quantitative nature and established use in lysosomal studies make it a valuable tool for early-stage drug discovery for dry AMD (falcao2025targetinglysosomaldysfunction pages 5-7, golestaneh2018dysfunctionalautophagyin pages 1-2).
+
+This assay provides a robust, quantifiable method to evaluate compounds targeting lysosomal dysfunction in dry AMD. It directly addresses key mechanisms underlying the disease, although further validation in more physiologically relevant models is advised.
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/2bc75f79-75d4-4829-ad61-fc0a3898530f
+
+References:
+1. (ng2024impairedcathepsind pages 5-6): Eunice Sze Yin Ng, Jane Hu, Zhichun Jiang, and Roxana A. Radu. Impaired cathepsin d in retinal pigment epithelium cells mediates stargardt disease pathogenesis. The FASEB Journal, Jun 2024. URL: https://doi.org/10.1096/fj.202400210rr, doi:10.1096/fj.202400210rr. This article has 5 citations.
+
+2. (li2025sustainedlysosomaldelivery pages 14-17): Jiaqi Li, Tianchen Wang, Wennan Lu, Davit Jishkariani, Andrew Tsourkas, Simon Kaja, Rohini M. Nair, Joshua L. Dunaief, and Claire H. Mitchell. Sustained lysosomal delivery of enhanced cy3-labeled acid nanoparticles restores lysosomal ph in retinal pigment epithelial cells and astrocytes. bioRxiv, Jun 2025. URL: https://doi.org/10.1101/2025.06.16.659991, doi:10.1101/2025.06.16.659991. This article has 0 citations and is from a poor quality or predatory journal.
+
+3. (boya2023lysosomesinretinal pages 4-6): Patricia Boya, Kai Kaarniranta, James T. Handa, and Debasish Sinha. Lysosomes in retinal health and disease. Trends in Neurosciences, 46:1067-1082, Dec 2023. URL: https://doi.org/10.1016/j.tins.2023.09.006, doi:10.1016/j.tins.2023.09.006. This article has 30 citations and is from a highest quality peer-reviewed journal.
+
+4. (falcao2024enhancinglysosomefunction pages 1-6): Ana S Falcão, Mafalda Lopes-da-Silva, Pedro Antas, Cristina Escrevente, Margarida Pedro, Rita Coelho, Inês S Ferreira, Inês P Santos, Thomas Ciossek, Paul Nicklin, Sandra Tenreiro, and Miguel C Seabra. Enhancing lysosome function via mtor/tfeb activation reduces lipofuscin-like granules in early age-related macular degeneration. bioRxiv, Sep 2024. URL: https://doi.org/10.1101/2024.09.17.613413, doi:10.1101/2024.09.17.613413. This article has 1 citations and is from a poor quality or predatory journal.
+
+5. (falcao2024enhancinglysosomefunction pages 6-10): Ana S Falcão, Mafalda Lopes-da-Silva, Pedro Antas, Cristina Escrevente, Margarida Pedro, Rita Coelho, Inês S Ferreira, Inês P Santos, Thomas Ciossek, Paul Nicklin, Sandra Tenreiro, and Miguel C Seabra. Enhancing lysosome function via mtor/tfeb activation reduces lipofuscin-like granules in early age-related macular degeneration. bioRxiv, Sep 2024. URL: https://doi.org/10.1101/2024.09.17.613413, doi:10.1101/2024.09.17.613413. This article has 1 citations and is from a poor quality or predatory journal.
+
+6. (falcao2024enhancinglysosomefunction pages 10-13): Ana S Falcão, Mafalda Lopes-da-Silva, Pedro Antas, Cristina Escrevente, Margarida Pedro, Rita Coelho, Inês S Ferreira, Inês P Santos, Thomas Ciossek, Paul Nicklin, Sandra Tenreiro, and Miguel C Seabra. Enhancing lysosome function via mtor/tfeb activation reduces lipofuscin-like granules in early age-related macular degeneration. bioRxiv, Sep 2024. URL: https://doi.org/10.1101/2024.09.17.613413, doi:10.1101/2024.09.17.613413. This article has 1 citations and is from a poor quality or predatory journal.
+
+7. (falcao2024enhancinglysosomefunction pages 13-18): Ana S Falcão, Mafalda Lopes-da-Silva, Pedro Antas, Cristina Escrevente, Margarida Pedro, Rita Coelho, Inês S Ferreira, Inês P Santos, Thomas Ciossek, Paul Nicklin, Sandra Tenreiro, and Miguel C Seabra. Enhancing lysosome function via mtor/tfeb activation reduces lipofuscin-like granules in early age-related macular degeneration. bioRxiv, Sep 2024. URL: https://doi.org/10.1101/2024.09.17.613413, doi:10.1101/2024.09.17.613413. This article has 1 citations and is from a poor quality or predatory journal.
+
+8. (falcao2025targetinglysosomaldysfunction pages 5-7): Ana S. Falcão, Margarida L. Pedro, Sandra Tenreiro, and Miguel C. Seabra. Targeting lysosomal dysfunction and oxidative stress in age-related macular degeneration. Antioxidants, 14:596, May 2025. URL: https://doi.org/10.3390/antiox14050596, doi:10.3390/antiox14050596. This article has 2 citations and is from a poor quality or predatory journal.
+
+9. (golestaneh2018dysfunctionalautophagyin pages 1-2): Nady Golestaneh, Yi Chu, Yang-Yu Xiao, Gianna L Stoleru, and Alexander C Theos. Dysfunctional autophagy in rpe, a contributing factor in age-related macular degeneration. Cell Death &amp; Disease, 8:e2537-e2537, Jan 2018. URL: https://doi.org/10.1038/cddis.2016.453, doi:10.1038/cddis.2016.453. This article has 393 citations and is from a peer-reviewed journal.

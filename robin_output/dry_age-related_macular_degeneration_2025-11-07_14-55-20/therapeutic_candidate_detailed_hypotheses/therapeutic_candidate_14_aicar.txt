@@ -1,0 +1,46 @@
+Proposal for AICAR
+
+Overview of Therapeutic Candidate  
+AICAR (5-aminoimidazole-4-carboxamide ribonucleoside; often abbreviated AICAR or ZMP upon phosphorylation) is a synthetic nucleoside analog originally identified as an intermediate in the de novo purine biosynthesis pathway. Chemically, it consists of an imidazole carboxamide moiety linked to a ribose sugar. In cells, AICAR is taken up via equilibrative nucleoside transporters (ENT1/2) and phosphorylated by adenosine kinase to 5-aminoimidazole-4-carboxamide ribotide (AICAR-monophosphate, ZMP), which closely mimics cellular AMP. AICAR belongs to the class of small-molecule metabolic regulators and is widely used in basic research as a prototypical AMP-analog AMPK agonist.  
+
+Therapeutic History  
+• Research Tool: Since the mid-1990s, AICAR has been extensively used in cell and animal studies to activate AMPK and probe metabolic signaling.  
+• Preclinical Models: In rodent studies, systemic AICAR improves insulin sensitivity, enhances mitochondrial biogenesis, and reduces diet-induced obesity. Ocular safety has been assessed in animal toxicity studies at doses up to 50 mg/kg with no gross retinal pathology reported, though formal Good Laboratory Practice (GLP) ocular toxicology packages are limited.  
+• Clinical Experience: AICAR itself has never received regulatory approval. Early-phase trials in humans for metabolic disorders were limited by poor oral bioavailability and off-target effects. No published clinical or veterinary use in dry AMD or related retinal degenerations exists.  
+
+Mechanism of Action  
+Primary Target – AMPK Activation  
+• Cellular Uptake & Conversion: AICAR is transported by ENT1/2 and converted intracellularly by adenosine kinase to ZMP.  
+• AMPK Binding: ZMP binds to the γ-subunit of AMP-activated protein kinase (AMPK), mimicking AMP. This allosterically activates AMPK and promotes phosphorylation at the activating Thr172 site on the α-subunit by upstream kinases (LKB1), while reducing dephosphorylation by PP2C phosphatases.  
+Downstream Signaling  
+• mTORC1 Inhibition: Active AMPK phosphorylates raptor (Ser792) and TSC2, inhibiting mTORC1 and thereby disinhibiting ULK1 to initiate autophagosome formation.  
+• Autophagy & Lysosomal Biogenesis: AMPK phosphorylates ULK1 directly, promoting autophagosome nucleation. It also activates transcription factor EB (TFEB) by promoting its nuclear translocation, enhancing expression of lysosomal and autophagy genes.  
+• Mitochondrial Homeostasis: AMPK phosphorylates PGC-1α and mitigates mitochondrial ROS via upregulation of antioxidant defenses (e.g., SOD2).  
+Off-Target Actions  
+• Adenosine Receptors: At high doses, extracellular AICAR can deaminate to Z-ribotide and adenosine, potentially engaging A1/A2A receptors and altering vascular tone.  
+• Purine Metabolism: Accumulation of ZMP can feedback inhibit enzymes in de novo purine synthesis, with possible nucleotide pool imbalances.  
+
+Expected Effect in RPE / Dry AMD Context  
+• RPE Expression of AMPK: Human RPE cells (ARPE-19, primary hRPE) express AMPK α1/α2 and β1/β2 subunits at moderate levels (RNA-seq TPM >10), as well as LKB1 and downstream ULK1/2, indicating a functional AMPK-autophagy axis.  
+• Autophagic Flux Enhancement: By activating AMPK, AICAR is expected to increase LC3-II formation, accelerate p62/SQSTM1 degradation, and stimulate clearance of phagocytosed photoreceptor outer segment (POS) material—a key RPE function that declines in dry AMD.  
+• Lipofuscin & A2E Clearance: Enhanced lysosomal acidification and biogenesis via TFEB should improve degradation of A2E and lipofuscin precursors, potentially reducing autofluorescent deposits associated with geographic atrophy.  
+• Bioenergetic Rescue: AMPK-driven mitochondrial biogenesis and upregulation of oxidative phosphorylation genes may correct the age-related bioenergetic decline seen in RPE from AMD donors.  
+
+Overall Evaluation  
+Strengths  
+1. Mechanism-based: Targets core pathophysiological processes in dry AMD—RPE metabolic insufficiency, autophagy blockade, lipofuscin accumulation.  
+2. Preclinical Safety: Existing ocular tolerance data in rodents and rabbits are reassuring for intravitreal or periocular delivery.  
+3. Tool Compound: Well characterized in the literature; robust assays for AMPK activation and autophagy readouts are in place.  
+
+Weaknesses & Risks  
+1. Specificity & Off-Targets: AICAR has known off-target actions (adenosine receptor engagement, purine pathway perturbation) that may confound retinal responses or induce inflammation.  
+2. Delivery & PK: Poor oral bioavailability; intravitreal half-life unknown. High local concentrations may be required to achieve effective ZMP levels in RPE.  
+3. Translational Gap: No prior clinical use in ocular diseases; regulatory path unclear. More selective AMPK activators (e.g., MK-8722, PF-06409577) or allosteric modulators may offer better profiles.  
+4. Disease Stage Dependency: In advanced dry AMD, lysosomal membranes may be irreversibly compromised by lipofuscin phototoxicity, limiting the benefit of upstream autophagy stimulation.  
+
+Conclusion  
+AICAR is a scientifically rational candidate for early-stage in vitro and ex vivo evaluation of AMPK-mediated autophagy enhancement in RPE models of dry AMD. Its strong preclinical pedigree as an AMPK agonist and the centrality of autophagy deficits in AMD pathology support proof-of-concept studies (e.g., LC3 turnover, phagocytosis assays, A2E clearance). However, off-target liabilities, delivery challenges, and lack of prior ocular clinical data warrant cautious optimization, including dose-finding, local delivery strategies, and consideration of more selective next-generation AMPK activators before advancing to in vivo efficacy or toxicity studies.
+
+References
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

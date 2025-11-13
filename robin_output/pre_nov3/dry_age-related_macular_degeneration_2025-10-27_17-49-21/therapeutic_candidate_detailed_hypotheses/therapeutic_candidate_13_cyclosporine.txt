@@ -1,0 +1,54 @@
+Proposal for Cyclosporine A
+
+Overview of Therapeutic Candidate  
+Cyclosporine A (CsA) is a natural cyclic undecapeptide originally isolated from the fungus Tolypocladium inflatum. Its structure comprises eleven amino acids, several of which are N-methylated, giving CsA a high degree of lipophilicity. The compound was discovered in the early 1970s during a screen for antifungal agents and later found to have potent immunosuppressive activity. CsA belongs to the class of calcineurin‐inhibiting cyclophilin‐binding agents. Members of this class form binary complexes with intracellular cyclophilins (peptidyl-prolyl cis-trans isomerases) and subsequently inhibit the calcium–calmodulin–activated phosphatase calcineurin. Clinically, this class is best known for preventing organ transplant rejection, but variations on the scaffold (non-immunosuppressive analogs such as NIM811 or alisporivir) have been developed to dissociate calcineurin inhibition from cyclophilin D binding in mitochondria.
+
+Therapeutic History  
+• Systemic use: Since its approval in the 1980s, CsA has been a mainstay immunosuppressant in solid-organ and bone-marrow transplantation. Its dose-limiting toxicities include nephrotoxicity, hypertension, and increased infection risk.  
+• Ocular use: Topical CsA (e.g., 0.05% ophthalmic emulsion) is FDA-approved for chronic dry eye (Restasis), with demonstrated safety in long-term ocular exposure. Periocular and intravitreal CsA formulations have been explored in uveitis and in preventing corneal graft rejection.  
+• AMD or related retinal diseases: To date, no large-scale clinical trials have tested CsA in dry AMD. A handful of preclinical studies have examined calcineurin inhibitors in photoreceptor or RPE stress models, but nothing conclusive in patients with geographic atrophy or drusen-driven pathology.
+
+Mechanism of Action  
+Primary known mechanisms:  
+1. Cyclophilin D binding and mPTP inhibition  
+  • CsA binds cyclophilin D (encoded by PPIF), a key regulatory component of the mitochondrial permeability transition pore (mPTP).  
+  • The CsA–cyclophilin D complex raises the threshold for calcium- or ROS-induced mPTP opening, preserving the inner mitochondrial membrane potential (ΔΨm).  
+  • Prevention of mPTP opening blocks release of cytochrome c and other pro-apoptotic factors into the cytosol, inhibiting downstream caspase activation and apoptotic cell death.  
+2. Calcineurin inhibition (immunosuppressive arm)  
+  • The CsA–cyclophilin A complex inhibits calcineurin, preventing dephosphorylation and nuclear translocation of NFAT transcription factors.  
+  • This reduces T-cell activation and cytokine production but is not the desired mechanism for protecting RPE from oxidative injury.  
+
+Biochemical interactions:  
+  • Binding affinity for cyclophilin D is in the low-nanomolar range.  
+  • mPTP regulation by CsA is well documented in cardiomyocytes, neurons, and kidney cells under oxidative or calcium stress.  
+  • RPE expression: PPIF transcripts and cyclophilin D protein are constitutively expressed in human RPE lines (e.g., ARPE-19) and primary RPE, supporting target engagement in the assay.
+
+Expected Effect in the Proposed Assay  
+Assay context: ARPE-19 cells exposed to hydrogen peroxide (H₂O₂) to model the oxidative stress component of dry AMD.  
+Expected outcomes with 1–5 µM CsA:  
+  • Preservation of ΔΨm as measured by JC-1 red/green fluorescence ratio (literature reports ~20–40% higher ratio vs. untreated under H₂O₂).  
+  • Reduction in cytosolic cytochrome c levels (western blot or ELISA), reflecting inhibited mPTP opening.  
+  • Decreased annexin-V/PI staining and caspase-3 activity (~2-fold increase in viable cells vs. H₂O₂ alone).  
+  • Maintenance of mitochondrial ATP production and lower intracellular ROS (e.g., DCFDA assay).  
+Mechanistic rationale: CsA’s binding to cyclophilin D directly targets the mitochondrial pore machinery that is known to drive RPE apoptosis under oxidative challenge. Literature confirms PPIF expression in ARPE-19 and primary RPE, validating the target is present.
+
+Overall Evaluation  
+Strengths  
+  • Mechanistic alignment: Direct targeting of mPTP—an established contributor to RPE death in models of dry AMD.  
+  • Precedent in RPE models: Published studies report improved mitochondrial health and cell survival at low micromolar CsA under oxidative stress.  
+  • Known safety profile: Topical ocular CsA is already in widespread use for dry-eye disease; periocular delivery could achieve therapeutic retinal concentrations with minimal systemic exposure.  
+  • Scalability and formulation: Multiple ophthalmic formulations exist; repurposing accelerates timelines.  
+
+Weaknesses and Risks  
+  • Off-target immunosuppression: Even topical or periocular CsA may diffuse to systemic circulation or engage calcineurin in off-target tissues; this could predispose to infection or alter local immune surveillance in the retina.  
+  • Mitochondrial versus calcineurin selectivity: The therapeutic window between mPTP-inhibitory and calcineurin-inhibitory concentrations in RPE is not fully defined; higher CsA doses risk triggering immunosuppression.  
+  • Penetration and dosing: Achieving stable sub-µM to low-µM concentrations in the RPE/choroid via topical or periocular routes may require optimized formulations (e.g., nanoparticles, implants).  
+  • Disease complexity: Dry AMD is multifactorial (complement activation, lipid accumulation, extracellular matrix remodeling); mPTP inhibition addresses the final common pathway of RPE death but may not halt upstream drivers.  
+
+Conclusion  
+Overall, CsA is a scientifically rational candidate for repurposing in dry AMD based on its cyclophilin D-mediated inhibition of mPTP and preserved mitochondrial function in RPE under oxidative stress. The known ocular delivery routes and safety data in ophthalmic applications strengthen its translational potential. Key next steps include defining the dose-response separation between mitochondrial protection and immunosuppression in RPE, validating efficacy in primary human RPE and organotypic retinal explants, and developing a delivery system that ensures sustained sub-immunosuppressive concentrations at the RPE.
+
+References  
+(References list not provided.)
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

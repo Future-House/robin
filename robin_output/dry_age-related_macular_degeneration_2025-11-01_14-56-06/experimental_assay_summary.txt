@@ -1,0 +1,60 @@
+Assay Candidate 1:
+Strategy: H2O2-induced oxidative stress viability assay
+Reasoning: Using H2O2 to mimic excessive ROS in ARPE-19 or iPSC-RPE mirrors key oxidative stress pathways in dry AMD (Tong et al. 2022; Chen et al. 2023) and allows rapid assessment of cell viability (e.g., MTT/LDH) and intracellular ROS (DCFDA) to screen antioxidant therapies.
+
+Assay Candidate 2:
+Strategy: A2E photo-oxidation stress assay
+Reasoning: Loading RPE cultures with the bisretinoid A2E followed by blue-light exposure recapitulates lipofuscin photo-oxidation and lipid peroxidation observed in AMD (Chen et al. 2023; Lenin et al. 2023), with readouts including autofluorescent granules, ROS production, and apoptosis assays.
+
+Assay Candidate 3:
+Strategy: Mitochondrial membrane potential assay
+Reasoning: ΔΨm dyes such as JC-1 or TMRE detect early mitochondrial dysfunction under oxidative or cigarette smoke extract stress (Kaarniranta et al. 2019; Ferrington et al. 2020), enabling plate-based or high-content quantification of candidate mitochondrial protectants.
+
+Assay Candidate 4:
+Strategy: Seahorse bioenergetic profiling assay
+Reasoning: Extracellular flux analysis of OCR and ECAR in iPSC-RPE quantifies basal, ATP-linked, and maximal respiration impaired in AMD (Ferrington et al. 2020; Bhattacharya et al. 2022), providing a direct functional endpoint for drugs targeting mitochondrial OXPHOS.
+
+Assay Candidate 5:
+Strategy: LC3-II autophagic flux immunoblot assay
+Reasoning: Quantification of LC3-II/LC3-I ratio by immunoblotting ± lysosomal inhibitors (E64d/pepstatin A) yields a robust measure of autophagic flux blockade in AMD RPE (Golestaneh et al. 2018; Kaarniranta et al. 2023) and its restoration by candidate compounds.
+
+Assay Candidate 6:
+Strategy: Tandem RFP–GFP–LC3 reporter imaging assay
+Reasoning: Live-cell imaging of RFP–GFP–LC3 distinguishes autophagosomes (GFP+RFP+) from autolysosomes (RFP+ only) to monitor flux recovery under stress or drug treatment in RPE (Cox et al. 2025; Golestaneh et al. 2018), with automated quantification of vesicle populations.
+
+Assay Candidate 7:
+Strategy: Lysosomal pH and cathepsin activity assay
+Reasoning: LysoTracker dyes report lysosomal acidification and fluorogenic cathepsin D substrates measure protease activity, together probing lysosome dysfunction—a hallmark of dry AMD RPE (Golestaneh et al. 2018; Abokyi 2021)—and rescue by lysosomal modulators.
+
+Assay Candidate 8:
+Strategy: Photoreceptor outer segment phagocytosis assay
+Reasoning: Fluorescently labeled POS uptake and degradation by RPE quantify phagocytic binding (αvβ5/MerTK) and lysosomal processing efficiency directly relevant to AMD pathology (Si et al. 2023; Bharti et al. 2022) in a high-throughput format.
+
+Assay Candidate 9:
+Strategy: TEER barrier integrity assay
+Reasoning: Measuring transepithelial electrical resistance across RPE monolayers on transwells provides a sensitive, real-time readout of tight-junction function and barrier restoration under oxidative or inflammatory challenge (Du & Yan 2023; Naylor et al. 2019).
+
+Assay Candidate 10:
+Strategy: Complement-mediated cytotoxicity and MAC deposition assay
+Reasoning: Exposing RPE to complement-active human serum and immunostaining for C5b-9 deposits models MAC-driven injury in AMD (Desai & Dugel 2022; Bora et al. 2015) and allows quantification of cell lysis and complement inhibition by therapeutic candidates.
+
+Assay Candidate 11:
+Strategy: C3a/C5a anaphylatoxin release ELISA assay
+Reasoning: Quantitative ELISA of C3a and C5a fragments in culture supernatants captures alternative-pathway activation in RPE (Chrzanowska et al. 2018; Qin et al. 2021) and enables dose–response profiling of complement regulators.
+
+Assay Candidate 12:
+Strategy: 2D basal drusen-like deposit formation assay
+Reasoning: Long-term RPE culture on permeable inserts with human serum and oxidized lipids induces sub-RPE lipid and protein aggregates visualized by Oil Red O, Von Kossa, and IF for drusen markers (Bharti et al. 2022; Usui et al. 2019), providing a platform for anti-deposit drug screening.
+
+Assay Candidate 13:
+Strategy: 3D RPE spheroid drusen accumulation assay
+Reasoning: Three-dimensional RPE spheroids loaded with glycoxidized lipofuscin forms drusen-like autofluorescent aggregates and ECM proteins (Usui et al. 2019; Mesch 2021), with readouts including live imaging, TEM, and marker quantification for therapeutic evaluation.
+
+Assay Candidate 14:
+Strategy: NLRP3 inflammasome activation and caspase-1 assay
+Reasoning: A2E or LPS priming of RPE triggers NLRP3–ASC speck formation, caspase-1 activation, and IL-1β/IL-18 release (Anderson et al. 2013; Korhonen et al. 2024), enabling screening of inflammasome inhibitors with fluorescence microscopy and activity assays.
+
+Assay Candidate 15:
+Strategy: High-content imaging of mitochondrial and lysosomal morphology
+Reasoning: Automated confocal imaging of mitochondrial network integrity (fragmentation, branching) and lysosomal size (LAMP1 staining) under dry AMD stressors with standardized image-analysis pipelines yields multiparametric subcellular phenotypes for drug screening (Escrevente et al. 2021; Ulhaq 2024).
+

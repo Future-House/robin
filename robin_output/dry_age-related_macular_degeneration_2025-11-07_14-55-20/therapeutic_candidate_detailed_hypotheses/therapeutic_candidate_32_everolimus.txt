@@ -1,0 +1,58 @@
+Proposal for Everolimus
+
+Overview of Therapeutic Candidate  
+Everolimus (RAD001) is a semi-synthetic macrolide derived from sirolimus (rapamycin). It was discovered by introducing a 2-hydroxyethyl chain at the C40 position of the parent natural product to improve oral bioavailability and pharmacokinetics (Novartis, n.d.). Everolimus belongs to the “rapalog” class of mTOR (mechanistic target of rapamycin) inhibitors, which bind FKBP12 to selectively inhibit mTORC1. Rapalogs have been widely used as immunosuppressants and, more recently, as targeted anticancer agents.
+
+Therapeutic History  
+• Immunosuppression: Everolimus is approved for prevention of organ rejection in renal and cardiac transplant recipients (trough levels 3–8 ng/mL) and for treatment of lymphangioleiomyomatosis.  
+• Oncology: Approved indications include advanced renal cell carcinoma, hormone receptor-positive breast cancer, gastroenteropancreatic neuroendocrine tumors and tuberous sclerosis complex (TSC)-associated subependymal giant cell astrocytoma and angiomyolipoma.  
+• Ocular use: There are small clinical or preclinical reports of topical or intravitreal rapamycin/everolimus in uveitis or ocular graft-versus-host disease, demonstrating safety at low doses but limited efficacy data. No published clinical trial has tested rapalogs in dry AMD to date.
+
+Mechanism of Action  
+• FKBP12 binding & mTORC1 inhibition: Everolimus forms a complex with the intracellular protein FKBP12; this complex allosterically inhibits the mTORC1 kinase, blocking phosphorylation of downstream effectors S6 kinase (S6K1) and 4E-binding protein 1 (4E-BP1) (Brown et al., 1994).  
+• Autophagy induction: By relieving ULK1 from mTORC1-mediated inhibition, everolimus activates the ULK1–Atg13–FIP200 initiation complex, increases LC3-II formation, and enhances autophagic flux (Jung et al., 2009).  
+• Lysosomal biogenesis: mTORC1 inhibition upregulates TFEB nuclear translocation, boosting expression of lysosomal and autophagy genes (Settembre et al., 2011).  
+• Relevance to RPE: RPE cells express mTOR pathway components (mTOR, RPTOR, FKBP12; Navi et al., 2017). Dysregulated mTORC1 activity has been observed in RPE from AMD donors and in oxidative-stress models (Zhang et al., 2015).
+
+Expected Effect in Dry AMD–Relevant Assay  
+Proposed assay: Human RPE cells (e.g., ARPE-19 or primary) fed photoreceptor outer segment (POS) fragments, then treated with everolimus. Readouts include:  
+  - mTORC1 signaling: decreased p-S6K1 and p-4E-BP1 by Western blot (Campbell et al., 2017).  
+  - Autophagic flux: increased LC3-II/I ratio; decreased p62/SQSTM1; TFEB nuclear localization (Li et al., 2016).  
+  - POS degradation: fluorometric quantification of opsin-derived fluorescence or rhodopsin signal (Frost et al., 2012).  
+  - Lipofuscin/A2E accumulation: HPLC or fluorescence microscopy to measure reduced A2E levels after chronic POS challenge (Yun et al., 2019).  
+Mechanistically, everolimus-mediated mTORC1 inhibition in RPE is expected to:  
+  1. Enhance autophagosome formation and lysosomal enzyme expression, improving digestion of phagocytosed POS fragments (Frost et al., 2012).  
+  2. Reduce accumulation of undegraded lipids and protein aggregates that contribute to drusen biogenesis (Nashine et al., 2019).  
+  3. Potentially slow RPE senescence by restoring proteostasis under oxidative stress (Zhang et al., 2015).
+
+Overall Evaluation  
+Strengths  
+  • Mechanism-driven: Directly targets autophagy-lysosome axis, a well-established contributor to RPE dysfunction in dry AMD.  
+  • Existing safety/PK data: Oral everolimus is well characterized; intravitreal or topical formulations could leverage known tolerability profiles.  
+  • Repurposing advantage: Shortened path to clinic versus novel compounds.  
+
+Weaknesses / Risks  
+  • Ocular exposure: Systemic everolimus yields low ocular levels; local delivery (intravitreal, periocular) may be required but raises formulation and safety challenges.  
+  • Immunosuppression: Even local administration may carry risk of infection or impaired wound healing in the eye.  
+  • mTORC2 and feedback: Chronic rapalog use can elicit AKT activation via mTORC2 preservation, potentially offsetting benefits or causing off-target effects (Lamming et al., 2013).  
+  • Multifactorial disease: Dry AMD involves complement dysregulation, drusen inflammation, Bruch’s membrane changes; autophagy augmentation may not address all pathogenic drivers.  
+  • Limited in vivo AMD data: No published animal model studies of everolimus in dry AMD; preclinical proof of concept remains to be established.
+
+Recommendation  
+Overall, everolimus is a mechanistically compelling candidate for stimulating RPE autophagy and enhancing POS clearance. Initial in vitro validation in RPE–POS degradation assays is warranted. Parallel development of a local ocular delivery strategy (e.g., slow-release intravitreal implant) and assessment in a dry AMD animal model (e.g., sodium iodate or Cfh-/- mice) should follow before committing to clinical development.
+
+References  
+Brown, et al. (1994). (Unknown Reference)  
+Campbell, et al. (2017). (Unknown Reference)  
+Frost, et al. (2012). (Unknown Reference)  
+Jung, et al. (2009). (Unknown Reference)  
+Lamming, et al. (2013). (Unknown Reference)  
+Li, et al. (2016). (Unknown Reference)  
+Nashine, et al. (2019). (Unknown Reference)  
+Navi, et al. (2017). (Unknown Reference)  
+Novartis. (n.d.). WO97/36939. (Unknown Reference)  
+Settembre, et al. (2011). (Unknown Reference)  
+Yun, et al. (2019). (Unknown Reference)  
+Zhang, et al. (2015). (Unknown Reference)
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

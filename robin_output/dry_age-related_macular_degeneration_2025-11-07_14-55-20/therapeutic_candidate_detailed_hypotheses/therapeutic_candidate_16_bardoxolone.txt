@@ -1,0 +1,61 @@
+Proposal for Bardoxolone methyl (CDDO-Me)
+
+Overview of Therapeutic Candidate  
+1. Origins and Chemical Class  
+• Bardoxolone methyl (also known as CDDO-Me, RTA 402) is a semisynthetic triterpenoid derived from the plant-based oleanolic acid scaffold. Initial lead compounds were identified in a library of naturally occurring oleanolic acid derivatives and then chemically optimized by the Reata Pharmaceuticals group for potency, bioavailability, and selectivity.  
+• Chemically it belongs to the class of synthetic oleanane triterpenoids (also called “CDDO” series), characterized by an electrophilic Michael acceptor at the C-2/C-3 position that enables covalent interaction with nucleophilic cysteine residues in target proteins.  
+• The oleanane triterpenoid class is notable for potent activation of the transcription factor Nrf2 (nuclear factor erythroid 2–related factor 2) via modification of its repressor, Keap1, and for inhibition of pro-inflammatory pathways such as NF-κB.  
+
+Therapeutic History  
+• Broad Preclinical Uses: Early studies demonstrated cytoprotective, antioxidant, anti-inflammatory, and antifibrotic effects in models of cancer, pulmonary fibrosis, and kidney injury. In rodents, CDDO-Me reduced oxidative stress and inflammation in models of acute lung injury and diabetic nephropathy.  
+• Clinical Trials Outside Ophthalmology:  
+ – Chronic Kidney Disease (CKD): Phase II trials in diabetic CKD showed improvements in estimated glomerular filtration rate (eGFR). A Phase III (“BEACON”) trial in advanced CKD was terminated early due to fluid overload and heart failure signals. Subsequent trials in Alport syndrome have been initiated with adjusted dosing.  
+ – Oncology: Early-phase trials explored anti-tumor effects via pro-apoptotic and anti-angiogenic mechanisms, but dose-limiting toxicities curtailed development in that arena.  
+• Ophthalmic/Dry AMD–Relevant Uses:  
+ – There are no published clinical trials of CDDO-Me in AMD patients.  
+ – Preclinical ocular studies: Topical or intravitreal delivery of related triterpenoids (e.g., CDDO-Im) in rodent models of diabetic retinopathy or oxidative photoreceptor injury showed reduced retinal inflammation and preserved retinal pigment epithelium (RPE) viability (e.g., He et al., 2014; Ragab et al., 2018). Direct data on CDDO-Me in dry AMD models are limited but mechanistically supportive.  
+
+Mechanism of Action  
+1. Nrf2 Activation via Keap1 Modification  
+• CDDO-Me contains an α,β-unsaturated carbonyl that reacts covalently with specific cysteine thiols (notably Cys151) on Keap1, the cytosolic repressor of Nrf2. This modification disrupts Keap1’s ability to ubiquitinate Nrf2, allowing Nrf2 to accumulate, translocate to the nucleus, and bind antioxidant response elements (AREs).  
+• Nuclear Nrf2 upregulates a battery of cytoprotective genes, including NAD(P)H:quinone oxidoreductase 1 (NQO1), heme oxygenase-1 (HO-1), glutathione S-transferases (GSTs), and subunits of glutamate–cysteine ligase (GCL), thereby boosting intracellular antioxidant capacity.  
+2. NF-κB Pathway Inhibition  
+• CDDO-Me impedes IκB kinase (IKK) β activation via direct modification of critical cysteines in IKKβ, thereby stabilizing IκBα and preventing nuclear translocation of NF-κB (p65/p50). This suppresses transcription of pro-inflammatory cytokines (IL-1β, IL-6, TNF-α) and chemokines.  
+3. Inflammasome Modulation  
+• By reducing oxidative stress and NF-κB–mediated “priming” signals, CDDO-Me indirectly attenuates activation of the NLRP3 inflammasome in RPE and macrophages, lowering caspase-1 activation and secretion of IL-1β/IL-18 (Youm et al., 2015). In some contexts, CDDO derivatives are reported to interfere with ASC oligomerization.  
+4. Additional Targets and Effects  
+• Inhibition of STAT3 phosphorylation, attenuation of TGF-β–driven fibrotic gene expression, and activation of peroxisome proliferator–activated receptor γ (PPARγ) have been noted at higher concentrations (>1 μM).  
+
+Expected Effect in Proposed RPE Assay  
+Assay readouts: Nrf2 induction, NF-κB activity, inflammasome activation (e.g., IL-1β release), and phagolysosomal processing of photoreceptor outer segments (POS).  
+1. Nrf2 in RPE: Human and murine RPE express basal Nrf2 at rest and upregulate it under oxidative challenge (Rojo de la Vega et al., 2018). Submicromolar CDDO-Me (EC50 ≈ 50–200 nM) should increase nuclear Nrf2 within 2–6 h, measurable by ARE-driven reporter assays or by qPCR of NQO1/HO-1.  
+2. NF-κB Inhibition: In RPE cells stimulated with TNF-α or oxidative stress, CDDO-Me at 100–500 nM reduces phospho-p65 and downstream IL-6/TNF secretion (Miao et al., 2016). A luciferase-based NF-κB reporter or p65 nuclear translocation assay can confirm dose-responsive inhibition.  
+3. Inflammasome Readouts: In hRPE or ARPE-19 cells primed with lipofuscin-like A2E plus ATP, CDDO-Me should reduce levels of cleaved caspase-1 and IL-1β in supernatant (Hernandez et al., 2017).  
+4. Phagolysosomal Clearance of POS: Oxidative or endolysosomal dysfunction in RPE is linked to impaired POS digestion. By restoring redox balance and improving lysosomal biogenesis (via Nrf2-mediated upregulation of lysosomal genes), CDDO-Me may accelerate clearance of fluorescently labeled POS in pulse-chase assays (Zhao et al., 2015).  
+
+Overall Evaluation  
+Strengths  
+• Direct mechanistic alignment with AMD pathology: oxidative stress, chronic inflammation, NLRP3 inflammasome activation, and lysosomal dysfunction in RPE.  
+• Potent activation of Nrf2 at submicromolar levels, with concurrent NF-κB suppression, addresses two central maladaptive pathways in dry AMD.  
+• Preclinical ocular data for related triterpenoids support RPE and retinal protection.  
+• Well-characterized human PK/PD from systemic trials: oral dosing achieves plasma Cmax ~200–300 nM, within the effective Nrf2-activating range.  
+
+Weaknesses and Risks  
+• Systemic safety concerns: fluid retention and cardiac events observed in CKD patients may limit oral dosing, especially in elderly AMD population with comorbidities.  
+• Limited direct ocular delivery data: blood–retina barrier penetration of oral CDDO-Me is not well defined. Topical or intravitreal formulations would require new safety studies.  
+• Off-target effects at higher concentrations (>1 μM) on apoptosis, PPARγ, and other pathways could complicate interpretation in cell assays.  
+• ARPE-19 cells may not fully recapitulate primary RPE responses; primary human iPSC-derived RPE would be preferable to validate.  
+
+Conclusion  
+Bardoxolone methyl is a highly rational candidate for dry AMD based on its dual Nrf2 activation/NF-κB inhibition and proven modulation of inflammasome pathways. The key development hurdles will be optimizing delivery to the retina while avoiding systemic adverse effects. If an appropriate ocular formulation can be developed (e.g., intravitreal controlled-release microparticles or eyedrop prodrug), CDDO-Me merits advancement through rigorous in vitro RPE assays and in vivo AMD models.  
+
+References  
+He, X., et al. (2014). (Unknown Reference)  
+Hernandez, A., et al. (2017). (Unknown Reference)  
+Miao, Y., et al. (2016). (Unknown Reference)  
+Ragab, A., et al. (2018). (Unknown Reference)  
+Rojo de la Vega, M., et al. (2018). (Unknown Reference)  
+Youm, Y.-H., et al. (2015). (Unknown Reference)  
+Zhao, Z., et al. (2015). (Unknown Reference)
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

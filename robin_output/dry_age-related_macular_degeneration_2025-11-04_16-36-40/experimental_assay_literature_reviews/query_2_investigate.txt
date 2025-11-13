@@ -1,0 +1,40 @@
+Query: Investigate mechanisms underpinning drusen biogenesis and complement activation in dry age-related macular degeneration, detailing contributions of complement factors C3 and C5b-9, regulatory proteins CFH and CFI, lipid–protein interactions, and potential in vitro assays to recapitulate drusen-like extracellular deposits
+
+Drusen biogenesis in dry age‐related macular degeneration (AMD) is initiated by age‑ and stress‐related alterations in Bruch’s membrane that result in the local accumulation of oxidized lipids, protein debris, and complement components. These deposits act as platforms for complement activation and chronic local inflammation (armento2021thecomplementsystem pages 8-10, park2021complementsystemand pages 4-6).
+
+Complement factor C3 plays a pivotal role in this process. Spontaneous “tick‐over” of C3 in the altered extracellular matrix generates C3 convertases, which produce the proinflammatory anaphylatoxin C3a and the opsonin C3b. Subsequent formation of C5 convertases cleaves C5, driving the assembly of the terminal pathway and deposition of the membrane attack complex (C5b–9) on the retinal pigment epithelium (RPE) and choriocapillaris, thereby exacerbating tissue injury (armento2021thecomplementsystem pages 8-10, tang2024aberrantlipidmetabolism pages 2-4, jensen2020associationsbetweenthe pages 17-19).
+
+Complement regulation is mediated by factor H (CFH) and factor I (CFI). CFH binds to glycosaminoglycans in Bruch’s membrane and acts as a cofactor for CFI to inactivate C3b, limiting alternative pathway amplification. High-risk CFH variants and decreased CFI activity result in impaired regulation and sustained complement activation (wilke2024complementregulationin pages 5-6, romerovazquez2021interlinkbetweeninflammation pages 5-7).
+
+Lipid–protein interactions are central as oxidized lipids and apolipoprotein-rich deposits provide a scaffold that traps complement components and amplifies local inflammation (hu2021interactionsbetweenapolipoprotein pages 2-4, tang2024aberrantlipidmetabolism pages 5-6).
+
+In vitro models recapitulating drusen-like deposits include serum-free RPE cultures on transwells, CRISPR-edited ARPE-19 cells harboring disease-causing mutations, and three-dimensional RPE spheroid assays. These platforms enable detection of extracellular deposits through scanning electron microscopy, immunostaining for drusen markers and activated complement fragments, and ELISA or zymography-based measurements of complement activity (fernandezgodino2018changesinextracellular pages 1-5, fernandezgodino2018changesinextracellular pages 5-8, usui2019invitrodrusen pages 1-4, fernandezgodino2018changesinextracellular pages 21-24).
+
+Drusen formation in dry AMD arises from the accumulation of oxidized lipid–protein deposits that trigger C3-dependent complement activation, leading to C5b–9 deposition, while deficiencies in CFH and CFI regulation exacerbate the inflammatory cascade. In vitro RPE-based platforms provide robust systems to mimic these pathological events and serve as valuable tools for therapeutic testing.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/c3f5e594-3f21-4bcb-a17e-00426f589130
+
+References:
+1. (armento2021thecomplementsystem pages 8-10): Angela Armento, Marius Ueffing, and Simon J. Clark. The complement system in age-related macular degeneration. Cellular and Molecular Life Sciences: CMLS, 78:4487-4505, Mar 2021. URL: https://doi.org/10.1007/s00018-021-03796-9, doi:10.1007/s00018-021-03796-9. This article has 251 citations.
+
+2. (park2021complementsystemand pages 4-6): Young Gun Park, Yong Soo Park, and In-Beom Kim. Complement system and potential therapeutics in age-related macular degeneration. International Journal of Molecular Sciences, 22:6851, Jun 2021. URL: https://doi.org/10.3390/ijms22136851, doi:10.3390/ijms22136851. This article has 50 citations and is from a poor quality or predatory journal.
+
+3. (tang2024aberrantlipidmetabolism pages 2-4): Siao Tang, Jiaqi Yang, Bingqing Xiao, Yani Wang, Yiou Lei, Dongwei Lai, and Qinghua Qiu. Aberrant lipid metabolism and complement activation in age-related macular degeneration. Investigative Ophthalmology &amp; Visual Science, 65:20, Oct 2024. URL: https://doi.org/10.1167/iovs.65.12.20, doi:10.1167/iovs.65.12.20. This article has 12 citations and is from a domain leading peer-reviewed journal.
+
+4. (jensen2020associationsbetweenthe pages 17-19): Emilie Grarup Jensen, Thomas Stax Jakobsen, Steffen Thiel, Anne Louise Askou, and Thomas J. Corydon. Associations between the complement system and choroidal neovascularization in wet age-related macular degeneration. International Journal of Molecular Sciences, 21:9752, Dec 2020. URL: https://doi.org/10.3390/ijms21249752, doi:10.3390/ijms21249752. This article has 27 citations and is from a poor quality or predatory journal.
+
+5. (wilke2024complementregulationin pages 5-6): Georgia A. Wilke and Rajendra S. Apte. Complement regulation in the eye: implications for age-related macular degeneration. The Journal of Clinical Investigation, May 2024. URL: https://doi.org/10.1172/jci178296, doi:10.1172/jci178296. This article has 24 citations.
+
+6. (romerovazquez2021interlinkbetweeninflammation pages 5-7): Sara Romero-Vazquez, Víctor Llorens, Alba Soler-Boronat, Marc Figueras-Roca, Alfredo Adan, and Blanca Molins. Interlink between inflammation and oxidative stress in age-related macular degeneration: role of complement factor h. Biomedicines, 9:763, Jun 2021. URL: https://doi.org/10.3390/biomedicines9070763, doi:10.3390/biomedicines9070763. This article has 48 citations and is from a poor quality or predatory journal.
+
+7. (hu2021interactionsbetweenapolipoprotein pages 2-4): Monica L. Hu, Joel Quinn, and Kanmin Xue. Interactions between apolipoprotein e metabolism and retinal inflammation in age-related macular degeneration. Life, 11:635, Jun 2021. URL: https://doi.org/10.3390/life11070635, doi:10.3390/life11070635. This article has 48 citations and is from a poor quality or predatory journal.
+
+8. (tang2024aberrantlipidmetabolism pages 5-6): Siao Tang, Jiaqi Yang, Bingqing Xiao, Yani Wang, Yiou Lei, Dongwei Lai, and Qinghua Qiu. Aberrant lipid metabolism and complement activation in age-related macular degeneration. Investigative Ophthalmology &amp; Visual Science, 65:20, Oct 2024. URL: https://doi.org/10.1167/iovs.65.12.20, doi:10.1167/iovs.65.12.20. This article has 12 citations and is from a domain leading peer-reviewed journal.
+
+9. (fernandezgodino2018changesinextracellular pages 1-5): Rosario Fernandez-Godino, Kinga M. Bujakowska, and Eric A. Pierce. Changes in extracellular matrix cause rpe cells to make basal deposits and activate the alternative complement pathway. Jul 2018. URL: https://doi.org/10.1101/152835, doi:10.1101/152835.
+
+10. (fernandezgodino2018changesinextracellular pages 5-8): Rosario Fernandez-Godino, Kinga M. Bujakowska, and Eric A. Pierce. Changes in extracellular matrix cause rpe cells to make basal deposits and activate the alternative complement pathway. Jul 2018. URL: https://doi.org/10.1101/152835, doi:10.1101/152835.
+
+11. (usui2019invitrodrusen pages 1-4): Hideaki Usui, Akiko Nishiwaki, Lanors Landiev, Johannes Kacza, Wolfram Eichler, Rina Wako, Aki Kato, Noriaki Takase, Soichiro Kuwayama, Kazuki Ohashi, Yousef Yafai, Andreas Bringmann, Ayae Kubota, Yuichiro Ogura, Johannes Seeger, Peter Wiedemann, and Tsutomu Yasukawa. In vitro drusen model – three-dimensional spheroid culture of retinal pigment epithelial cells. Journal of Cell Science, Feb 2019. URL: https://doi.org/10.1242/jcs.215798, doi:10.1242/jcs.215798. This article has 24 citations and is from a domain leading peer-reviewed journal.
+
+12. (fernandezgodino2018changesinextracellular pages 21-24): Rosario Fernandez-Godino, Kinga M. Bujakowska, and Eric A. Pierce. Changes in extracellular matrix cause rpe cells to make basal deposits and activate the alternative complement pathway. Jul 2018. URL: https://doi.org/10.1101/152835, doi:10.1101/152835.

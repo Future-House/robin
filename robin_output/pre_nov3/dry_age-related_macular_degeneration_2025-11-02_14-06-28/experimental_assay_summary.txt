@@ -1,0 +1,12 @@
+Assay Candidate 1:
+Strategy: RPE Phagocytosis Assay
+Reasoning: Impaired clearance of photoreceptor outer segments (POS) by RPE contributes to drusen formation and retinal degeneration in dry AMD (Lakkaraju et al., 2020). We propose a high-content imaging assay in iPSC-derived or primary human RPE monolayers using fluorescently labeled POS to quantify uptake kinetics and intracellular trafficking. Drugs that restore lysosomal function or enhance cytoskeletal remodeling can be rapidly identified by increased POS internalization and co-localization with LAMP1. This simple, direct functional readout correlates with RPE health and has been validated as predictive of in vivo efficacy (Kevany and Palczewski, 2010).
+
+Assay Candidate 2:
+Strategy: Mitochondrial Respiration Assay
+Reasoning: Mitochondrial dysfunction and bioenergetic failure are central to RPE degeneration in dry AMD (Feher et al., 2006). Using a Seahorse extracellular flux analyzer on RPE monolayers under mild oxidative challenge (e.g., low-dose H2O2), we can quantify basal respiration, ATP-linked OCR, maximal respiration, and spare respiratory capacity. Therapeutics that preserve or restore these parameters indicate improved mitochondrial resilience. This approach provides rapid, label-free measurements of real-time cellular energetics with high reproducibility and direct relevance to RPE pathology (Eells et al., 2019).
+
+Assay Candidate 3:
+Strategy: Complement Deposition Assay
+Reasoning: Overactivation of the alternative complement pathway drives chronic inflammation and RPE damage in dry AMD (Ricklin and Lambris, 2013). We propose treating iPSC-RPE monolayers with sublytic human serum to induce C3b/C5b-9 deposition, then quantifying complement markers by immunofluorescence or ELISA in the presence of candidate inhibitors. Parallel measurement of RPE viability (e.g., calcein AM) links complement regulation to cell survival. This assay directly models the key inflammatory insult in AMD and allows rapid screening of complement modulators with high biological fidelity.
+

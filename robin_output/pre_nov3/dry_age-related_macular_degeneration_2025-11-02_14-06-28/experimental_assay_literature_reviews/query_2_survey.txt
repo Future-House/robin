@@ -1,0 +1,4 @@
+Query: Survey methodologies for mechanistic in vitro assays relevant to dry AMD drug evaluation, focusing on cell culture models such as primary and iPSC-derived RPE monolayers, induction of oxidative and lipofuscin stress, complement activation assays, phagocytosis assays, mitochondrial function and autophagy flux measurements, high-content imaging, multiplexed readouts, and assay validation strategies.
+
+
+

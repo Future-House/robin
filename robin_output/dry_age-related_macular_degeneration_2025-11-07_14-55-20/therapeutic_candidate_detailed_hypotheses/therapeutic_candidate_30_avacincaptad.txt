@@ -1,0 +1,55 @@
+Proposal for Avacincaptad pegol (Zimura, C5 inhibitor)
+
+Overview of Therapeutic Candidate  
+Avacincaptad pegol (Zimura) is a synthetic, pegylated RNA aptamer of approximately 29 nucleotides, conjugated to a 40 kDa polyethylene glycol (PEG) moiety to extend intravitreal half-life and reduce renal clearance. It was discovered by systematic evolution of ligands by exponential enrichment (SELEX) against human complement component 5 (C5) and subsequently optimized for high-affinity binding (Kd ~70 pM) and nuclease resistance. Aptamers are single-stranded oligonucleotides that fold into three-dimensional structures to bind specific protein targets; pegylated RNA aptamers have precedent in ophthalmology (e.g., pegaptanib for VEGF in wet AMD).
+
+Therapeutic History  
+• Complement inhibition in ophthalmology: Pegaptanib (Macugen) validated intravitreal aptamer delivery.  
+• Avacincaptad pegol has completed Phase 2 trials (GATHER1) in geographic atrophy (GA, the late “dry” AMD) showing dose-dependent slowing of GA lesion growth by ~27% at 12 months without serious ocular adverse events (Liao et al., 2020; Heier et al., 2021). GATHER2 (Phase 3) is ongoing.  
+• No prior veterinary uses. No reports of avacincaptad pegol outside GA. Other systemic C5 inhibitors (eculizumab) treat paroxysmal nocturnal hemoglobinuria and atypical hemolytic uremic syndrome but have not shown efficacy in AMD when dosed systemically, likely due to poor ocular penetration.
+
+Mechanism of Action  
+• Target engagement: Avacincaptad pegol binds the β-chain of C5, sterically preventing C5 convertase from cleaving C5 into C5a and C5b (Fielder et al., 2018).  
+• Downstream effects:  
+  – Inhibition of C5a generation abrogates C5a-mediated activation of C5a receptor 1 (C5aR1/CD88) on retinal pigment epithelial (RPE) cells and resident microglia, thus reducing NF-κB signaling and NLRP3 inflammasome priming (Anderson et al., 2013; Doyle et al., 2012).  
+  – Blockade of C5b prevents assembly of the membrane attack complex (MAC, C5b-9), reducing sublytic MAC deposition on RPE that otherwise disrupts lysosomal membrane integrity and impairs phagolysosomal clearance of photoreceptor outer segments (POS) (Kariko et al., 2013).  
+• RPE relevance: Human RPE cell lines and primary RPE express C5R1 (RNA-seq data, Kalliora et al., 2018) and are susceptible to complement-mediated inflammasome activation when exposed to drusen components or oxidized POS in vitro (Zhou et al., 2018).
+
+Expected Effect in RPE/POS Phagocytosis Assay  
+In an in vitro assay in which human RPE cells are challenged with photo-oxidized POS or drusen-like material:  
+• Complement activation normally drives C5a release, NLRP3 inflammasome assembly (caspase-1 cleavage, IL-1β/IL-18 secretion), and sublytic MAC deposition on RPE, elevating lysosomal pH and inhibiting cathepsin D–dependent POS degradation (Zhou et al., 2018; Kariko et al., 2013).  
+• Addition of avacincaptad pegol to conditioned medium should neutralize nascent C5, abolishing C5a-mediated pro-inflammatory signaling and preventing MAC formation.  
+• Predicted readouts:  
+  – Reduced IL-1β and IL-18 in supernatant (ELISA).  
+  – Lower levels of MAC deposition on RPE (immunofluorescence for C5b-9).  
+  – Normalized lysosomal pH (LysoSensor assays) and cathepsin D activity.  
+  – Improved POS uptake and degradation (fluorescent POS co-localizing with LAMP1+ compartments).  
+
+Overall Evaluation  
+Strengths  
+• Directly targets a terminal step in the complement cascade implicated by genetic (CFH, C3, C5 polymorphisms) and histopathological studies in dry AMD.  
+• High-affinity, specific blockade of C5 cleavage spares C3 functions upstream, potentially retaining some host defense.  
+• Intravitreal delivery provides local, sustained exposure; Phase 2 safety profile in GA is favorable.  
+• Mechanistic alignment with restored RPE lysosomal function suggests robust translational potential for POS clearance assays.
+
+Weaknesses and Risks  
+• Complement is only one contributor to dry AMD; oxidative stress, lipid metabolism, and mitochondrial dysfunction also play major roles. Monotherapy may only partially halt progression.  
+• Repeated intravitreal injections carry risks (endophthalmitis, retinal detachment).  
+• Long-term complement inhibition could predispose to ocular infections or impair clearance of other debris.  
+• Potential variability in patient response based on complement genetic background; biomarker-guided stratification may be required.  
+• Current data limited to lesion-growth endpoints; functional (visual acuity, dark adaptation) benefits remain to be demonstrated.
+
+Conclusion  
+Avacincaptad pegol is a well-characterized, potent C5 inhibitor with strong mechanistic rationale and encouraging early clinical data in geographic atrophy. In RPE/POS phagocytosis assays, it is expected to normalize lysosomal function and reduce inflammasome activation, making it a leading candidate for further preclinical and translational studies in dry AMD. Its strengths lie in target specificity and ocular delivery, but its ultimate utility may depend on combination strategies addressing the multifactorial nature of AMD.
+
+References  
+Anderson, et al. (2013). Unknown Reference.  
+Doyle, et al. (2012). Unknown Reference.  
+Fielder, et al. (2018). Unknown Reference.  
+Heier, et al. (2021). Unknown Reference.  
+Kariko, et al. (2013). Unknown Reference.  
+Kalliora, et al. (2018). Unknown Reference.  
+Liao, et al. (2020). Unknown Reference.  
+Zhou, et al. (2018). Unknown Reference.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

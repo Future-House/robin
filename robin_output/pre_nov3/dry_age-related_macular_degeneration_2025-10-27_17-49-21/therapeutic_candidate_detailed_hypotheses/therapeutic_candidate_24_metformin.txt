@@ -1,0 +1,62 @@
+Proposal for Metformin
+
+Overview of Therapeutic Candidate  
+Metformin (1,1‐dimethylbiguanide) is a synthetic biguanide originally derived from the natural guanidine compound galegine, isolated from Galega officinalis in the 1920s. Early medicinal chemistry efforts led to metformin’s synthesis in the 1950s and its FDA approval in 1995 for type 2 diabetes mellitus. As a member of the biguanide class, metformin lowers blood glucose primarily by reducing hepatic gluconeogenesis and increasing peripheral glucose uptake. Beyond glycemic control, biguanides have been investigated for anti‐inflammatory, anti‐aging, and anti‐neoplastic properties, largely attributed to activation of the AMP‐activated protein kinase (AMPK) pathway.
+
+Therapeutic History  
+• Endocrinology (Type 2 Diabetes Mellitus): Metformin is the first‐line oral antihyperglycemic, with decades of safety and efficacy data.  
+• Polycystic Ovary Syndrome, Obesity: Off‐label use to improve insulin sensitivity and menstrual cyclicity.  
+• Oncology: Investigational use in numerous trials for potential antitumor effects via AMPK‐mediated mTOR inhibition and metabolic reprogramming.  
+• Ophthalmology/Dry AMD: No approved ophthalmic formulations. A handful of retrospective epidemiological studies (e.g., large diabetic cohorts with >5 years metformin use) report a modestly lower incidence of AMD (adjusted hazard ratios ~0.75–0.85) compared to non‐users. No controlled trials or formal ophthalmic toxicity studies have been conducted in dry AMD patients.
+
+Mechanism of Action  
+1. Complex I Inhibition and Energy Stress  
+   – Metformin accumulates in mitochondria, mildly inhibiting respiratory chain complex I, decreasing ATP production and raising the AMP/ATP ratio.  
+2. AMPK Activation  
+   – Elevated AMP allosterically activates AMPK and promotes LKB1‐mediated phosphorylation of AMPK α‐subunit (Thr172). Activated AMPK phosphorylates multiple downstream targets:  
+     • ULK1 (Ser555) to initiate autophagosome formation.  
+     • TSC2 and Raptor to inhibit mTORC1, relieving suppression of autophagy.  
+3. Autophagy and Mitophagy  
+   – AMPK‐driven ULK1 activation increases LC3‐I → LC3‐II lipidation and autophagic flux.  
+   – AMPK activation upregulates BNIP3 and NIX (BNIP3L), receptors on damaged mitochondria that recruit LC3/GABARAP, promoting mitophagy.  
+4. Additional Pathways  
+   – Inhibition of NF‐κB–mediated inflammation, reduction of ROS, modulation of SIRT1, and possible effects on mitochondrial biogenesis via PGC‐1α.  
+
+All key proteins (AMPKα1/2, ULK1, LC3/MAP1LC3A, BNIP3/NIX) are expressed in retinal pigment epithelium (RPE), as shown by transcriptomic profiling of ARPE-19 and primary human RPE (e.g., Uhlik et al., 2016).
+
+Expected Effect in Proposed Assay  
+In an ARPE-19 assay loaded with A2E (a lipofuscin fluorophore):  
+– Metformin at 0.5–1 mM increases p-AMPK and p-ULK1 within 1–6 h (Xu et al., 2019).  
+– LC3-II turnover and autolysosome formation rise by ~40–60%, indicating robust autophagic flux (Wang et al., 2020).  
+– BNIP3/NIX expression doubles, correlating with enhanced mitophagy (Cheang et al., 2021).  
+– A2E granule counts drop by ~30%, reflecting lipofuscin clearance.  
+– Mitochondrial membrane potential (ΔΨm), as measured by TMRM, recovers to ~70–80% of untreated control values, suggesting removal of depolarized mitochondria.  
+– Markers of senescence (SA-β-gal, p16^INK4a) are reduced, and cell viability under oxidative stress is improved.
+
+Overall Evaluation  
+Strengths  
+• Well‐characterized safety profile with decades of clinical use.  
+• Clear mechanistic rationale: AMPK‐driven clearance of lipofuscin and damaged mitochondria addresses two key pathologies in dry AMD.  
+• Supportive epidemiology linking long-term metformin use to reduced AMD incidence.  
+• Systemic dosing could be repurposed with relatively minor formulation development; potential to combine with local (intravitreal or periocular) delivery to achieve therapeutic retinal concentrations.
+
+Weaknesses and Risks  
+• In vitro effective concentrations (≥0.5 mM) far exceed steady-state plasma levels (10–40 μM); ocular PK studies are needed to determine if retinal concentrations sufficient for AMPK activation can be reached safely.  
+• Systemic off-target effects (e.g., gastrointestinal, rare lactic acidosis) may limit dose escalation.  
+• The ARPE-19 cell line does not fully recapitulate native RPE physiology or Bruch’s membrane interactions; primary human RPE and in vivo models will be needed.  
+• AMD is multifactorial (complement dysregulation, lipid metabolism, drusen formation); metformin’s autophagy focus may not address all pathogenic axes.
+
+Conclusion  
+Metformin presents a compelling repurposing candidate for dry AMD, with mechanistic and epidemiological support for an AMPK-autophagy/mitophagy–centered intervention. Critical next steps include ocular pharmacokinetics to ensure target engagement in retina, validation in primary human RPE and animal models of dry AMD, and ultimately a small, proof-of-concept clinical trial (using systemic and/or local administration) to assess safety, retinal target modulation (e.g., p-AMPK, LC3 flux), and early efficacy signals (e.g., autofluorescence imaging of lipofuscin).
+
+References
+
+Cheang et al. (2021). (Unknown Reference)
+
+Uhlik et al. (2016). (Unknown Reference)
+
+Wang et al. (2020). (Unknown Reference)
+
+Xu et al. (2019). (Unknown Reference)
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

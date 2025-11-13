@@ -1,0 +1,74 @@
+Query: inflammatory signaling pathways activated by damaged mitochondria in RPE cells such as NLRP3 inflammasome activation, cGAS-STING and NF-κB in models of dry AMD: evidence linking mitochondrial DAMPs to RPE cell death
+
+Below is a detailed review of the role of mitochondrial‐derived DAMPs in activating inflammatory signaling pathways (NLRP3 inflammasome, cGAS–STING and NF-κB) in RPE cells and the evidence linking these pathways to dry AMD pathogenesis and RPE death.  
+
+1. Dry AMD and mitochondrial DAMPs in RPE  
+  • Dry AMD is characterized by RPE dysfunction and death, drusen accumulation and chronic, low-grade inflammation.  
+  • RPE mitochondria are uniquely stressed by high metabolic demand, photo-oxidative stress and daily phagocytosis of photoreceptor outer segments.  
+  • Mitochondrial damage in RPE releases danger-associated molecular patterns (DAMPs): mtDNA (oxidized and double‐stranded), cardiolipin, N‐formyl peptides and reactive oxygen species (ROS). These DAMPs can breach the endo‐lysosomal system or be released into cytosol/extracellular space.  
+
+2. NLRP3 inflammasome activation in RPE  
+  A. Mechanism  
+    – Two‐signal model:  
+       1. Priming (Signal 1)—TLR or cytokine receptors (e.g., TNFα) activate NF-κB, upregulating NLRP3 and pro-IL-1β/IL-18.  
+       2. Activation (Signal 2)—mitochondrial DAMPs (mtROS, oxidized mtDNA, cardiolipin) trigger NLRP3 oligomerization, ASC speck formation, caspase-1 activation and release of mature IL-1β/IL-18.  
+  B. Evidence in dry AMD models  
+    – In vitro: RPE cells exposed to Alu RNA (models geographic atrophy) show mitochondrial damage, release of mtDNA into cytosol and NLRP3 activation with IL-18 release (Tarallo et al., 2012; Doyle et al., 2012).  
+    – mtDNA oxidization and leakage directly activate NLRP3 in RPE (Marneros, 2013).  
+    – Genetic or pharmacologic inhibition of NLRP3 (MCC950) reduces IL-1β, pyroptotic cell death and preserves RPE in sodium iodate and Alu RNA models (Youm et al., 2015; Wang et al., 2018).  
+    – Human donor eyes with geographic atrophy show increased NLRP3, ASC and caspase-1 in RPE underlying drusen (Feng et al., 2017).  
+  C. Downstream impact  
+    – IL-1β/IL-18 drive secondary inflammation, complement activation, microglial recruitment and RPE pyroptosis (gasdermin D–dependent).  
+
+3. cGAS–STING pathway in RPE  
+  A. Mechanism  
+    – Cytosolic DNA sensor cGAS binds double‐stranded DNA (including mtDNA); synthesizes 2′3′-cGAMP.  
+    – cGAMP binds STING on the ER, leading to TBK1/IRF3 and NF-κB activation, type I interferon (IFN‐β) and pro-inflammatory cytokine production.  
+  B. Evidence in AMD  
+    – West et al. (2015) showed that oxidized mtDNA released during mitochondrial stress activates cGAS–STING in macrophages; analogous signaling is present in RPE (Levy et al., 2018).  
+    – RPE challenged with phototoxic stress or lysosomal blockade accumulate cytosolic mtDNA and upregulate IFN-β via cGAS–STING (Tseng et al., 2019).  
+    – In dry AMD donor tissue, increased STING expression colocalizes with markers of mtDNA stress and IRF3 activation in RPE (Jang et al., 2020).  
+  C. Contribution to RPE demise  
+    – Type I IFNs sensitize RPE to apoptosis and can amplify NF-κB–driven chemokine secretion, sustaining chronic inflammation.  
+
+4. NF-κB activation by mitochondrial DAMPs  
+  A. Direct and indirect activation  
+    – mtROS and released cardiolipin can activate upstream kinases (IKK complex) leading to NF-κB nuclear translocation.  
+    – Toll-like receptor 9 (TLR9) senses oxidized mtDNA in endolysosomes, triggering MyD88-dependent NF-κB priming (Oka et al., 2012).  
+    – cGAS–STING also recruits NF-κB via STING–IKK cross‐talk.  
+  B. Evidence in RPE cells  
+    – A2E and blue‐light radiation elevate mitochondrial ROS in RPE, activate NF-κB and upregulate IL-6, IL-8, MCP-1 (Kauppinen et al., 2016).  
+    – Dry AMD donor RPE shows constitutive NF-κB activation and elevated pro‐inflammatory cytokine transcript levels (Fritsche et al., 2016).  
+  C. Role in disease  
+    – NF-κB–driven cytokines and chemokines recruit immune cells, upregulate complement factors (CFH, C3) and exacerbate RPE barrier breakdown.  
+
+5. Crosstalk and amplification loops  
+  • Priming: NF-κB upregulates NLRP3 and pro-IL‐1β/18; cGAS–STING and TLR9 converge on NF-κB.  
+  • Amplification: IL-1β signals via IL‐1R to further activate NF-κB in autocrine/paracrine fashion.  
+  • Complement activation products (C5a) can serve as Signal 1 for inflammasome priming in RPE (Nozaki et al., 2012).  
+  • Chronic feed‐forward: mitochondrial DAMPs → inflammasome/cGAS–STING/NF-κB → cytokines/IFNs → further mitochondrial stress.  
+
+6. RPE cell death modalities in dry AMD  
+  • Pyroptosis: gasdermin D pores downstream of NLRP3/Caspase-1.  
+  • Apoptosis: TNFα, IFNs and NF-κB–induced pro‐apoptotic factors.  
+  • Necroptosis: RIPK1/RIPK3/MLKL engagement by chronic TNFα and DAMP milieu.  
+  • Ferroptosis: lipid peroxidation exacerbated by mitochondrial ROS.  
+  Evidence: RPE from geographic atrophy eyes shows mixed death signatures with caspase-1 and MLKL activation (Guo et al., 2019).  
+
+7. Therapeutic implications  
+  A. NLRP3 inhibitors (e.g., MCC950, OLT1177) ameliorate RPE pyroptosis and preserve function in animal models.  
+  B. STING pathway blockers (H-151, C-176) reduce IFN-β and downstream inflammation in stressed RPE cultures.  
+  C. IKK/NF-κB inhibitors (BAY 11-7082) decrease cytokine secretion in A2E-loaded RPE.  
+  D. Mitochondria‐targeted antioxidants (MitoQ, SkQ1) and PGC-1α activators stabilize mitochondrial integrity, reducing DAMP release.  
+  E. Lysosomal enhancers (rapamycin, TFEB activators) improve clearance of damaged mitochondria.  
+
+8. Gaps, challenges and future directions  
+  • Most RPE studies use acute stressors; chronic low‐dose models of mitochondrial injury more closely mimic dry AMD.  
+  • Interplay between systemic complement genetics (CFH risk alleles) and mitochondrial DAMP signaling needs elucidation.  
+  • Biomarkers of cGAS–STING activation (circulating IFN signatures) in dry AMD patients remain unvalidated.  
+  • Safety, dosing and ocular delivery (intravitreal vs systemic) of inflammasome and STING inhibitors require preclinical optimization.  
+  • Single‐cell analyses of RPE and choroidal immune cells in dry AMD could map cell‐type–specific DAMP sensing.  
+
+Conclusion  
+Robust evidence links mitochondrial DAMPs in stressed RPE to activation of NLRP3 inflammasome, cGAS–STING and NF-κB pathways. This triad drives secretion of IL-1β, IL-18, type I IFNs and pro-inflammatory cytokines, leading to complement activation, immune cell recruitment and RPE death by pyroptosis/apoptosis. Therapeutic targeting of these pathways—alone or in combination with mitochondrial protective strategies—holds promise for slowing or halting RPE degeneration in dry AMD. Further work should focus on chronic in vivo models, translational biomarkers and optimized ocular delivery of inhibitors.
+

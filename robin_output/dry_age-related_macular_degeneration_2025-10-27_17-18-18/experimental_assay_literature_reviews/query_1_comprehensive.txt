@@ -1,0 +1,92 @@
+Query: Comprehensive literature search query to identify and characterize robust cell‐culture assays for dry age‐related macular degeneration drug screening: focus on human retinal pigment epithelial (RPE) models (primary, ARPE-19, iPSC-derived), oxidative stress induction protocols (ROS assays, mitochondrial dysfunction), complement system activation (C3a/C5a ELISA, MAC deposition), lipid accumulation and drusen‐like extracellular deposits, autophagy and lysosomal pathway markers (LC3, p62), inflammasome activation (NLRP3, IL-1β), relevant signaling pathways (Nrf2, NF-κB, complement cascade), assay formats (2D monolayer, 3D spheroid, co‐culture with choroidal endothelial cells), validated phenotypic and biochemical readouts, high‐throughput adaptation strategies, and known limitations or optimization parameters for translational relevance
+
+Below is a suggested set of PubMed (or equivalent database) search strategies—using both MeSH headings and keyword Boolean‐style strings—designed to pull together the key components you listed.  You can adapt these to other search engines (Embase, Scopus, Web of Science) by changing field tags (e.g. [MeSH] → /exp, [tiab] → ti,ab).
+
+1.  Core disease‐model linkage  
+    (“Dry Age‐Related Macular Degeneration”[MeSH] OR “non‐exudative AMD”[tiab] OR “geographic atrophy”[tiab])  
+    AND  
+    (“Retinal Pigment Epithelium”[MeSH] OR “RPE cells”[tiab] OR ARPE‐19[tiab] OR “iPSC‐derived RPE”[tiab] OR “primary RPE”[tiab])  
+    AND  
+    (assay[tiab] OR screening[tiab] OR “drug discovery”[tiab] OR “in vitro model”[tiab])
+
+2.  Oxidative‐stress induction and readouts  
+    (“Reactive Oxygen Species”[MeSH] OR oxidative stress[tiab] OR ROS[tiab] OR “mitochondrial dysfunction”[tiab])  
+    AND  
+    (“RPE cells”[tiab] OR ARPE‐19[tiab] OR “iPSC‐RPE”[tiab])  
+    AND  
+    (DHE[tiab] OR DCFH‐DA[tiab] OR JC‐1[tiab] OR Seahorse[tiab] OR NADPH oxidase[tiab])
+
+3.  Complement system activation in RPE  
+    (“Complement C3a”[Supplementary Concept] OR C5a[tiab] OR “membrane attack complex”[tiab] OR MAC[tiab])  
+    AND  
+    (“RPE”[tiab] OR ARPE‐19[tiab] OR “iPSC‐derived RPE”[tiab])  
+    AND  
+    (ELISA[tiab] OR immunofluorescence[tiab] OR Western blot[tiab] OR deposition[tiab])
+
+4.  Lipid/drusen‐like deposit formation  
+    (lipid accumulation[tiab] OR lipofuscin[MeSH] OR drusen[tiab] OR “extracellular deposits”[tiab])  
+    AND  
+    (“RPE cell culture”[tiab] OR ARPE‐19[tiab] OR “iPSC RPE”[tiab])  
+    AND  
+    (Oil Red O[tiab] OR filipin[tiab] OR Nile Red[tiab] OR TEM[tiab])
+
+5.  Autophagy & lysosomal pathway assays  
+    (“Autophagy”[MeSH] OR autophagosome[tiab] OR LC3[tiab] OR p62[tiab] OR LAMP1[tiab] OR cathepsin D[tiab])  
+    AND  
+    (“RPE”[tiab] OR ARPE‐19[tiab] OR “iPSC‐RPE”[tiab])  
+    AND  
+    (mCherry‐GFP‐LC3[tiab] OR Bafilomycin A1[tiab] OR rapamycin[tiab])
+
+6.  Inflammasome activation in RPE  
+    (“Inflammasomes”[MeSH] OR NLRP3[tiab] OR “IL-1β”[tiab] OR caspase-1[tiab])  
+    AND  
+    (“RPE cells”[tiab] OR ARPE‐19[tiab] OR “iPSC‐RPE”[tiab])  
+    AND  
+    (Western blot[tiab] OR ELISA[tiab] OR immunocytochemistry[tiab])
+
+7.  Key signaling pathways in dry AMD RPE models  
+    (“Nrf2”[tiab] OR “NF-κB”[tiab] OR “complement cascade”[tiab] OR “MAPK”[tiab] OR “PI3K/Akt”[tiab])  
+    AND  
+    (“RPE”[tiab] OR “ARPE‐19”[tiab] OR “iPSC”[tiab])  
+    AND  
+    (reporter assay[tiab] OR qPCR[tiab] OR phospho‐Western[tiab])
+
+8.  Assay formats & co‐culture systems  
+    (“3D spheroid”[tiab] OR “organoid”[tiab] OR “co-culture”[tiab] OR “microfluidic”[tiab] OR “organs‐on‐chip”[tiab])  
+    AND  
+    (RPE[tiab] OR ARPE‐19[tiab] OR “iPSC‐RPE”[tiab])  
+    AND  
+    (“choroidal endothelial”[tiab] OR HUVEC[tiab] OR pericyte[tiab])
+
+9.  High‐throughput/phenotypic screening approaches  
+    (“High‐Throughput Screening”[MeSH] OR HTS[tiab] OR “phenotypic screening”[tiab] OR “image‐based assay”[tiab] OR “fluorescence‐activated cell sorting”[tiab])  
+    AND  
+    (“RPE”[tiab] OR ARPE‐19[tiab] OR “iPSC‐derived RPE”[tiab])  
+    AND  
+    (automation[tiab] OR “384‐well”[tiab] OR “1536‐well”[tiab])
+
+10.  Limitations & optimization parameters  
+    (“translational”[tiab] OR “in vitro to in vivo”[tiab] OR “physiological relevance”[tiab] OR “benchmarking”[tiab] OR “assay validation”[tiab] OR “assay reproducibility”[tiab])  
+    AND  
+    (“RPE”[tiab] OR ARPE‐19[tiab] OR “iPSC”[tiab])  
+    AND  
+    (“dry AMD”[tiab] OR “geographic atrophy”[tiab])
+
+General filters you may wish to apply across all searches:  
+• Publication date: last 10–15 years (to capture modern cell‐culture and assay‐development techniques)  
+• Article type: original research, methods, reviews  
+• Species: human or human‐derived cells only  
+• Language: English  
+
+By running and refining these queries, you will pull in:  
+• Comparative studies of ARPE‐19 versus primary versus iPSC‐derived RPE cells  
+• Protocols for robust induction of oxidative stress, complement activation, lipidosis, autophagy defects, inflammasome signaling  
+• Readouts and reagents most commonly used—fluorescent dyes, ELISA kits, reporter constructs  
+• 2D vs. 3D vs. co‐culture system evaluations  
+• Efforts to scale to high‐throughput compatible plate formats  
+• Reported caveats, e.g. ARPE‐19’s low transepithelial resistance, iPSC batch‐to‐batch variability, lack of native Bruch’s membrane, pigment granules  
+
+Use citation chaining from key papers pulled by these searches to identify seminal protocols and head‐to‐head comparisons among models.
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/llm_direct_-9218527176748693186
+

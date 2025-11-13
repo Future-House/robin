@@ -1,0 +1,60 @@
+Assay Candidate 1:
+Strategy: C3aR antagonism in RPE cultures
+Reasoning: Blocking C3a receptor on ARPE-19 cells treated with human serum can directly test the role of local complement signaling in inflammasome activation and pyroptosis (IL-1β, caspase-1 cleavage). C3aR antagonists afford rapid readouts via ELISA and WB. This approach builds on evidence that C3a–C3aR autocrine loops amplify RPE inflammation in dry AMD (Ricklin and Lambris, 2013; Bora et al., 2011).
+
+Assay Candidate 2:
+Strategy: Sublytic MAC–induced ER stress assay
+Reasoning: Generating sublytic membrane attack complex (MAC) on RPE monolayers via complement-active serum plus anti-RPE antibody links complement attack to ER stress–mediated apoptosis. CHOP induction and TUNEL staining yield fast, functional endpoints. Prior studies show sublytic MAC triggers unfolded protein response in RPE (Balasubramanian et al., 2011; Wu et al., 2015).
+
+Assay Candidate 3:
+Strategy: CFH variant rescue of complement deposition
+Reasoning: CRISPR/Cas9 CFH knockout ARPE-19 cells challenged with human serum, rescued with wild-type or Y402H CFH, allow direct comparison of C3b deposition and cell viability (MTT, LDH). This simple genetic model recapitulates key AMD risk variant effects (Hughes et al., 2010; Geerlings et al., 2017).
+
+Assay Candidate 4:
+Strategy: CD59 upregulation to prevent necroptosis
+Reasoning: Overexpressing CD59 or adding soluble CD59 fusion prevents MAC assembly on RPE and reduces MLKL phosphorylation. PI uptake and LDH release provide quantitative necroptosis readouts. Prior work indicates CD59 loss exacerbates MAC-mediated RPE death (Johnson et al., 2005; Kavanagh et al., 2015).
+
+Assay Candidate 5:
+Strategy: Mitochondrial ROS mitigation with mitoQ
+Reasoning: Treating RPE under oxidative stress with mitochondria-targeted antioxidant mitoQ reduces MitoSOX signal and preserves OCR (Seahorse). TMRE assays for membrane potential afford rapid functional endpoints. Ferrington et al. demonstrated mitoQ efficacy in RPE mitochondrial rescue (Ferrington et al., 2017; Feher et al., 2006).
+
+Assay Candidate 6:
+Strategy: NOX4 inhibition barrier integrity assay
+Reasoning: Inducing NOX4 via TGF-β1 in ARPE-19 elevates cytosolic ROS and disrupts TEER. NOX inhibitor VAS2870 normalizes DCFDA fluorescence and TEER in hours. This leverages NOX4’s role in RPE barrier dysfunction (Sun et al., 2014; Kaarniranta et al., 2018).
+
+Assay Candidate 7:
+Strategy: LXR agonist–driven lipid efflux assay
+Reasoning: Treating lipid-loaded RPE with LXR agonist T0901317 and measuring BODIPY493/503 fluorescence plus mass spec lipidomics provides a fast, quantitative readout of neutral lipid clearance. LXR activation has been shown to reduce drusen-like lipid droplets (Curcio et al., 2011; Wang et al., 2018).
+
+Assay Candidate 8:
+Strategy: V-ATPase activation for lysosomal acidification
+Reasoning: Small-molecule V-ATPase activators restore LysoSensor pH in A2E-loaded RPE, leading to enhanced LC3-II turnover and reduced autofluorescent granules. This targets lysosomal dysfunction linked to lipofuscin accumulation (Mitter et al., 2014; Kaarniranta et al., 2015).
+
+Assay Candidate 9:
+Strategy: AMPK agonist–stimulated mitophagy flux
+Reasoning: Using AICAR or a direct AMPK activator in RPE expressing mito-Keima quantifies mitophagy by high-content imaging. Rapid fluorescence shifts indicate mitochondrial turnover, a key mechanism failing in AMD models (Wang et al., 2018; Liu et al., 2014).
+
+Assay Candidate 10:
+Strategy: A2E phototoxicity with autophagy induction
+Reasoning: Loading RPE with A2E then irradiating with blue light induces lipofuscin–mediated damage; rapamycin co-treatment accelerates LC3 puncta formation and reduces A2E autofluorescence. This simple 96-well assay evaluates autophagy-based rescue (Sparrow et al., 2010; Frost et al., 2016).
+
+Assay Candidate 11:
+Strategy: MFG-E8 supplementation for POS phagocytosis
+Reasoning: Adding recombinant MFG-E8 to lipofuscin-loaded RPE before fluorescently labeled POS challenge enhances binding and internalization, quantifiable by TIRF imaging. MFG-E8’s bridging function restores phagocytic deficits in AMD models (Finnemann et al., 2000; Stricker et al., 2005).
+
+Assay Candidate 12:
+Strategy: NLRP3 speck inhibition assay
+Reasoning: Using RPE stably expressing ASC-GFP, LPS priming plus ATP triggers speck formation. NLRP3 inhibitors (e.g., MCC950) reduce speck counts within hours by automated microscopy, directly measuring inflammasome assembly (Kauppinen et al., 2012; Kummer et al., 2014).
+
+Assay Candidate 13:
+Strategy: iPSC-RPE TEER rescue by CFH gene therapy
+Reasoning: Transducing patient-derived iPSC-RPE monolayers with AAV-CFH restores complement regulation, reduces C3d deposition and improves TEER. TEER assays provide a fast, biologically relevant functional endpoint (Maruotti et al., 2015; Carr et al., 2009).
+
+Assay Candidate 14:
+Strategy: Organ-on-chip RPE-Choroid barrier assay
+Reasoning: Microfluidic co-culture of RPE and choroidal endothelium on ECM-coated membranes under flow enables real-time fluorescent dextran permeability measurement. This physiologically relevant platform links RPE dysfunction to barrier breakdown (Achberger et al., 2019; Wang et al., 2017).
+
+Assay Candidate 15:
+Strategy: Multiplex phenotypic high-throughput screen
+Reasoning: A 384-well assay measuring cell viability (ATP), ROS (H2DCFDA), mitochondrial potential (TMRM) and complement deposition (C3b immunofluorescence) in RPE enables multiparametric scoring of compounds. Automated image analysis accelerates discovery (Shen et al., 2018; Liao et al., 2016).
+

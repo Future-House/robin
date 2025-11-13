@@ -1,0 +1,49 @@
+Query: Small molecule high-throughput screening complement-driven NLRP3 inflammasome activation assay in human retinal pigment epithelial cells: identify inhibitors, with evidence of target engagement, efficacy in AMD-relevant cell and animal models, and ADME/safety profiles
+
+Below are three distinct, mechanistically grounded strategies to discover and validate small-molecule inhibitors of complement-driven NLRP3 activation in human RPE. Each proposal outlines (1) the core hypothesis, (2) primary cell-based assays for target engagement and pathway inhibition, (3) downstream efficacy models in AMD, and (4) preliminary ADME/safety considerations.  
+
+1. Allosteric NLRP3 NACHT-domain inhibitors  
+Hypothesis  
+• Small molecules that bind the NACHT ATP-binding pocket in an allosteric mode will lock NLRP3 in an inactive conformation, blocking inflammasome assembly in complement-stimulated RPE.  
+Cell-based assays  
+• High-throughput screen (HTS) of a >100K compound library against recombinant NLRP3 NACHT (DSF or FP assay).  
+• ARPE-19 cells primed with low-dose IFNγ and challenged with human serum (5%) + C5a to trigger Ca2+ influx and NLRP3 activation. Readout: IL-1β release by HTRF and ASC speck formation by high-content imaging.  
+• Cellular thermal shift assay (CETSA) in ARPE-19 to confirm on-target engagement.  
+AMD-relevant efficacy  
+• In vitro: Induced-pluripotent-stem-cell-derived RPE from AMD patients — measure drusen-like deposit formation, pyroptotic cell death (LDH release) ± compound.  
+• In vivo: Laser-induced choroidal neovascularization (CNV) in C57BL/6 mice. Intravitreal dosing; readout: CNV area (isolectin B4 staining), ocular IL-1β/IL-18 levels.  
+ADME/safety  
+• Standard rodent microsomal stability, CYP inhibition panel, plasma protein binding.  
+• Ocular toxicity: ERG and retinal histology after repeat intravitreal dosing.  
+• Systemic toxicity: 14-day rat GLP tox (focus on hematology, liver/kidney).  
+
+2. Lysosomal-stabilizing lysosomotropic inhibitors of cathepsin B release  
+Hypothesis  
+• Complement C5b-9 sublytic pores in RPE compromise lysosomal membranes, releasing cathepsin B to trigger NLRP3 activation. Lysosomotropic molecules that reinforce lysosomal integrity or directly inhibit cathepsin B will abrogate inflammasome signaling.  
+Cell-based assays  
+• HTS in ARPE-19 stably expressing galectin-3–GFP: addition of human serum + C5b-6/7/8 to induce sublytic MAC. Readout: galectin-3 puncta (lysosomal rupture).  
+• Secondary assay: Cathepsin-B activity probe (Magic Red) ± candidate compounds.  
+• Downstream: IL-18 and caspase-1 p20 by Western blot/HTRF.  
+AMD-relevant efficacy  
+• Primary human RPE monolayers treated with pathological concentrations of C3a/C5a: assess polarized transepithelial resistance, barrier integrity, and mitochondrial ROS (MitoSOX).  
+• In vivo: Sodium iodate–induced RPE loss model in rats. Systemic or periocular dosing; readout: RPE morphology (fundus autofluorescence), ERG amplitude preservation.  
+ADME/safety  
+• Lysosomal accumulation profiling (bafilomycin rescue, TAMRA-dextran co-localization).  
+• Ames test, hERG inhibition.  
+• Ocular tolerability: slit-lamp examination, IOP, corneal thickness.  
+
+3. PROTAC-mediated degradation of ASC adaptor protein  
+Hypothesis  
+• Small-molecule PROTACs that selectively ubiquitinate and degrade ASC will prevent assembly of multiple inflammasomes, including NLRP3, downstream of complement activation in RPE.  
+Cell-based assays  
+• Design PROTACs based on an ASC-binding ligand (e.g., sulfonylurea scaffold) linked to a VHL or CRBN E3 recruiter.  
+• ARPE-19 cells with mCherry-ASC: measure proteasome-dependent loss of speck formation after serum/C5a stimulation.  
+• Validation: immunoblot for ASC levels ± MG-132, IL-1β ELISA.  
+AMD-relevant efficacy  
+• Patient-derived RPE challenged with drusen-like complement opsonized photoreceptor outer segments: assess phagocytic capacity and barrier function restoration.  
+• In vivo: Complement-factor‐H–deficient (Cfh–/–) mice that spontaneously develop RPE inflammation. Systemic or periocular PROTAC dosing; endpoints: fundus imaging, retinal thickness by OCT, ocular cytokine profiling.  
+ADME/safety  
+• PROTAC cellular permeability (NanoBRET) and metabolic stability in human hepatocytes.  
+• Off-target profiling: kinome scan, E3 ligase specificity.  
+• In vivo PK/PD: measure PROTAC and ASC levels in ocular tissues, assess systemic toxicity in 28-day GLP study.
+

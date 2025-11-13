@@ -1,0 +1,30 @@
+Query: Assess the current state of induced pluripotent stem cell-derived RPE models for dry age-related macular degeneration research, detailing standard differentiation protocols, disease-relevant genetic backgrounds, functional characterization assays, and challenges in reproducibility and scalability for high-throughput drug screening
+
+Induced pluripotent stem cell (hiPSC)‐derived retinal pigment epithelium (RPE) models for dry age‐related macular degeneration (AMD) are advancing through both spontaneous and directed differentiation approaches. Standard protocols use either spontaneous differentiation via bFGF withdrawal or directed, small molecule‐driven methods—employing agents such as Nicotinamide, Activin A, and CHIR99021—to efficiently generate RPE in planar (2D) cultures and three‐dimensional organoid formats, thereby better recapitulating native architecture and function (truong2021automatinghumaninduced pages 1-3, regent2019automationofhuman pages 1-2, gagliardi2018generationandselection pages 68-70). 
+
+Patient-specific hiPSC lines carrying disease-associated variants, for instance the CFH Y402H polymorphism, have been leveraged to model complement dysregulation and autophagy defects central to dry AMD pathology, thereby providing a genetic basis for disease-specific in vitro studies (lin2021humanpluripotentstemcellderived pages 9-10, cheng2023humanretinalorganoids pages 1-3). Functional characterization of these models relies on a battery of assays, including immunocytochemistry for key RPE markers (RPE65, BEST1, MITF), quantitative RT-PCR, transmission electron microscopy for ultrastructural assessment, transepithelial resistance measurements for barrier function, and phagocytosis assays using fluorescently labeled photoreceptor outer segments (truong2021automatinghumaninduced pages 1-3, mesch2021…anin pages 74-77, regent2019automationofhuman pages 8-10). 
+
+Challenges persist regarding reproducibility and scalability for high-throughput drug screening. Manual liquid handling, lengthy differentiation timelines, inter-line variability, and the predominantly adherent culture formats contribute to operator-dependent variability—issues that are being addressed through automation, scalable robotics, and standardized, xeno-free protocols (regent2019automationofhuman pages 1-2, li2025advancesinthe pages 8-10, gagliardi2018generationandselection pages 73-76).
+
+hiPSC-derived RPE models show promise for mimicking dry AMD pathology. Refinement in automation and standardization is key to achieving reproducible, high-throughput drug screening platforms.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/eb412332-82ee-451c-8886-e14bf1b145de
+
+References:
+1. (truong2021automatinghumaninduced pages 1-3): Vincent Truong, Kevin Viken, Zhaohui Geng, Samantha Barkan, Blake Johnson, Mara C. Ebeling, Sandra R. Montezuma, Deborah A. Ferrington, and James R. Dutton. Automating human induced pluripotent stem cell culture and differentiation of ipsc-derived retinal pigment epithelium for personalized drug testing. SLAS Technology, 26:287-299, Jun 2021. URL: https://doi.org/10.1177/2472630320972110, doi:10.1177/2472630320972110. This article has 29 citations and is from a peer-reviewed journal.
+
+2. (regent2019automationofhuman pages 1-2): Florian Regent, Lise Morizur, Léa Lesueur, Walter Habeler, Alexandra Plancheron, Karim Ben M’Barek, and Christelle Monville. Automation of human pluripotent stem cell differentiation toward retinal pigment epithelial cells for large-scale productions. Scientific Reports, Jul 2019. URL: https://doi.org/10.1038/s41598-019-47123-6, doi:10.1038/s41598-019-47123-6. This article has 72 citations and is from a peer-reviewed journal.
+
+3. (gagliardi2018generationandselection pages 68-70): G Gagliardi. Generation and selection of photoreceptor precursors from human-induced pluripotent stem cells for cell therapy. Unknown journal, 2018.
+
+4. (lin2021humanpluripotentstemcellderived pages 9-10): Xiying Lin, Jiayu Tang, and Yan-Ru Lou. Human pluripotent stem-cell-derived models as a missing link in drug discovery and development. Pharmaceuticals, 14:525, May 2021. URL: https://doi.org/10.3390/ph14060525, doi:10.3390/ph14060525. This article has 18 citations and is from a poor quality or predatory journal.
+
+5. (cheng2023humanretinalorganoids pages 1-3): Lin Cheng and Markus H. Kuehn. Human retinal organoids in therapeutic discovery: a review of applications. Handbook of experimental pharmacology, pages 157-187, Aug 2023. URL: https://doi.org/10.1007/164\_2023\_691, doi:10.1007/164\_2023\_691. This article has 12 citations and is from a peer-reviewed journal.
+
+6. (mesch2021…anin pages 74-77): L Mesch. … an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells in 2d …. Unknown journal, 2021.
+
+7. (regent2019automationofhuman pages 8-10): Florian Regent, Lise Morizur, Léa Lesueur, Walter Habeler, Alexandra Plancheron, Karim Ben M’Barek, and Christelle Monville. Automation of human pluripotent stem cell differentiation toward retinal pigment epithelial cells for large-scale productions. Scientific Reports, Jul 2019. URL: https://doi.org/10.1038/s41598-019-47123-6, doi:10.1038/s41598-019-47123-6. This article has 72 citations and is from a peer-reviewed journal.
+
+8. (li2025advancesinthe pages 8-10): Ziming Li, Zhiyong Hu, and Zhixian Gao. Advances in the study of age-related macular degeneration based on cell or cell-biomaterial scaffolds. Bioengineering, 12:278, Mar 2025. URL: https://doi.org/10.3390/bioengineering12030278, doi:10.3390/bioengineering12030278. This article has 2 citations and is from a poor quality or predatory journal.
+
+9. (gagliardi2018generationandselection pages 73-76): G Gagliardi. Generation and selection of photoreceptor precursors from human-induced pluripotent stem cells for cell therapy. Unknown journal, 2018.

@@ -1,0 +1,28 @@
+Query: Reviews and primary research on small molecules or biologics that enhance MerTK/Gas6 or Axl signaling pathways to improve RPE phagocytic function, including target validation in dry AMD models
+
+The literature extensively validates MerTK/TAM signaling as essential for RPE phagocytosis and retinal homeostasis through genetic loss‐of‐function studies and mechanistic dissection (ghosh2024intheeyes pages 15-16, tasnim2020identificationofthe pages 102-106, tasnim2020identificationofthe pages 20-23). Numerous reports document that mutations in MerTK lead to retinal degeneration and retinitis pigmentosa in both animal models and humans, underscoring the importance of this receptor for phagocytosis of photoreceptor outer segments (ghosh2024intheeyes pages 15-16, parinot2024gas6andprotein pages 15-16). Mechanistic studies further demonstrate that ligand context is critical, with Protein S promoting while Gas6 appears to inhibit internalization in RPE cells, suggesting that ligand-specific modulation may be key to a therapeutic strategy (parinot2024gas6andprotein pages 9-11, parinot2024gas6andprotein pages 1-2). However, none of the excerpts provide direct evidence of small molecules or biologic agonists that enhance MerTK/Gas6 or Axl signaling pathways, nor do they report target validation studies in dry AMD preclinical models (ghosh2024intheeyes pages 15-16, tasnim2020identificationofthea pages 20-23, nandrot2018oppositerolesof pages 7-7). While several potential approaches are proposed—such as increasing Protein S–like stimulation, modulating Gas6 levels, mitigating proteolytic receptor cleavage, or targeting ligand posttranslational modifications—these remain theoretical and have not yet been translated into validated interventions (ghosh2024intheeyes pages 7-8, tasnim2020identificationofthea pages 102-106).
+
+There is currently no direct evidence from reviews or primary research demonstrating small molecules or biologics that enhance MerTK/Gas6 or Axl signaling to improve RPE phagocytosis in dry AMD models. Further research is required to develop and validate such therapeutic agents.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/9b0caf5a-9d18-4b6a-954b-882d925f3403
+
+References:
+1. (ghosh2024intheeyes pages 15-16): Sourav Ghosh, Silvia C. Finnemann, Douglas Vollrath, and Carla V. Rothlin. In the eyes of the beholder—new mertk knockout mouse and re-evaluation of phagocytosis versus anti-inflammatory functions of mertk. International Journal of Molecular Sciences, 25:5299, May 2024. URL: https://doi.org/10.3390/ijms25105299, doi:10.3390/ijms25105299. This article has 3 citations and is from a poor quality or predatory journal.
+
+2. (tasnim2020identificationofthe pages 102-106): T Tasnim. Identification of the signalosome and signaling pathway of the efferocytic receptor mertk. Unknown journal, 2020.
+
+3. (tasnim2020identificationofthe pages 20-23): T Tasnim. Identification of the signalosome and signaling pathway of the efferocytic receptor mertk. Unknown journal, 2020.
+
+4. (parinot2024gas6andprotein pages 15-16): Célia Parinot, Jonathan Chatagnon, Quentin Rieu, Solène Roux, Dorine Néel, Florian Hamieh, and Emeline F. Nandrot. Gas6 and protein s ligands cooperate to regulate mertk rhythmic activity required for circadian retinal phagocytosis. International Journal of Molecular Sciences, 25:6630, Jun 2024. URL: https://doi.org/10.3390/ijms25126630, doi:10.3390/ijms25126630. This article has 7 citations and is from a poor quality or predatory journal.
+
+5. (parinot2024gas6andprotein pages 9-11): Célia Parinot, Jonathan Chatagnon, Quentin Rieu, Solène Roux, Dorine Néel, Florian Hamieh, and Emeline F. Nandrot. Gas6 and protein s ligands cooperate to regulate mertk rhythmic activity required for circadian retinal phagocytosis. International Journal of Molecular Sciences, 25:6630, Jun 2024. URL: https://doi.org/10.3390/ijms25126630, doi:10.3390/ijms25126630. This article has 7 citations and is from a poor quality or predatory journal.
+
+6. (parinot2024gas6andprotein pages 1-2): Célia Parinot, Jonathan Chatagnon, Quentin Rieu, Solène Roux, Dorine Néel, Florian Hamieh, and Emeline F. Nandrot. Gas6 and protein s ligands cooperate to regulate mertk rhythmic activity required for circadian retinal phagocytosis. International Journal of Molecular Sciences, 25:6630, Jun 2024. URL: https://doi.org/10.3390/ijms25126630, doi:10.3390/ijms25126630. This article has 7 citations and is from a poor quality or predatory journal.
+
+7. (tasnim2020identificationofthea pages 20-23): T Tasnim. Identification of the signalosome and signaling pathway of the efferocytic receptor mertk. Unknown journal, 2020.
+
+8. (nandrot2018oppositerolesof pages 7-7): Emeline F. Nandrot. Opposite roles of mertk ligands gas6 and protein s during retinal phagocytosis. Advances in experimental medicine and biology, 1074:577-583, Jan 2018. URL: https://doi.org/10.1007/978-3-319-75402-4\_70, doi:10.1007/978-3-319-75402-4\_70. This article has 11 citations and is from a peer-reviewed journal.
+
+9. (ghosh2024intheeyes pages 7-8): Sourav Ghosh, Silvia C. Finnemann, Douglas Vollrath, and Carla V. Rothlin. In the eyes of the beholder—new mertk knockout mouse and re-evaluation of phagocytosis versus anti-inflammatory functions of mertk. International Journal of Molecular Sciences, 25:5299, May 2024. URL: https://doi.org/10.3390/ijms25105299, doi:10.3390/ijms25105299. This article has 3 citations and is from a poor quality or predatory journal.
+
+10. (tasnim2020identificationofthea pages 102-106): T Tasnim. Identification of the signalosome and signaling pathway of the efferocytic receptor mertk. Unknown journal, 2020.

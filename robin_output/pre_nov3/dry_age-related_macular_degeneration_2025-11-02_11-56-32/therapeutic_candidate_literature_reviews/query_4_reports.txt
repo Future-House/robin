@@ -1,0 +1,30 @@
+Query: reports on high-throughput Seahorse XF mitochondrial respiration assays in RPE cells for screening drug libraries under dry AMD-like conditions, focusing on assay dynamic range, reproducibility, hit identification, and subsequent target deconvolution studies
+
+High-throughput Seahorse XF mitochondrial respiration assays using RPE cells have proven effective for drug screening under dry AMD-like conditions. These studies measure key bioenergetic parameters—such as basal respiration, maximal respiration, and ATP production—using instruments like the XFe96 Extracellular Flux Analyzer, which provides the necessary dynamic range to detect subtle metabolic shifts (truong2021automatinghumaninduced pages 20-22, truong2021automatinghumaninduced pages 6-8). The inclusion of multiple technical replicates combined with rigorous statistical analysis underscores the high level of reproducibility achieved in these assays (ebeling2022testingmitochondrialtargeteddrugs pages 14-15, ebeling2022testingmitochondrialtargeteddrugs pages 12-14).
+
+Standardized protocols, such as the Cell Mito Stress Test, enable the systematic identification of drug hits by exposing RPE cells to compounds that mimic the bioenergetic stresses present in AMD (butcher2022mitochondrialtransferas pages 25-31, truong2021automatinghumaninduced pages 14-20). The dynamic responses elicited by drug injections not only facilitate hit identification but also support subsequent target deconvolution studies aimed at delineating the precise mechanisms of action (butcher2022mitochondrialtransferas pages 37-44, butcher2022mitochondrialtransferasa pages 25-31). Additionally, analogous metabolic responses in inflammatory conditions further validate these platforms for screening drug libraries in AMD contexts (butcher2022mitochondrialtransferas pages 52-56, butcher2022mitochondrialtransferasa pages 52-56).
+
+High-throughput Seahorse XF assays in RPE cells reliably screen drug libraries and enable detailed target deconvolution studies. This approach provides a robust framework for identifying and characterizing potential therapeutics for dry AMD.
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/11dfe704-a2fa-4a91-95bf-4be9e36c4180
+
+References:
+1. (truong2021automatinghumaninduced pages 20-22): Vincent Truong, Kevin Viken, Zhaohui Geng, Samantha Barkan, Blake Johnson, Mara C. Ebeling, Sandra R. Montezuma, Deborah A. Ferrington, and James R. Dutton. Automating human induced pluripotent stem cell culture and differentiation of ipsc-derived retinal pigment epithelium for personalized drug testing. SLAS Technology, 26:287-299, Jun 2021. URL: https://doi.org/10.1177/2472630320972110, doi:10.1177/2472630320972110. This article has 29 citations and is from a peer-reviewed journal.
+
+2. (truong2021automatinghumaninduced pages 6-8): Vincent Truong, Kevin Viken, Zhaohui Geng, Samantha Barkan, Blake Johnson, Mara C. Ebeling, Sandra R. Montezuma, Deborah A. Ferrington, and James R. Dutton. Automating human induced pluripotent stem cell culture and differentiation of ipsc-derived retinal pigment epithelium for personalized drug testing. SLAS Technology, 26:287-299, Jun 2021. URL: https://doi.org/10.1177/2472630320972110, doi:10.1177/2472630320972110. This article has 29 citations and is from a peer-reviewed journal.
+
+3. (ebeling2022testingmitochondrialtargeteddrugs pages 14-15): Mara C. Ebeling, Zhaohui Geng, Madilyn R. Stahl, Rebecca J. Kapphahn, Heidi Roehrich, Sandra R. Montezuma, Deborah A. Ferrington, and James R. Dutton. Testing mitochondrial-targeted drugs in ipsc-rpe from patients with age-related macular degeneration. Pharmaceuticals, 15:62, Jan 2022. URL: https://doi.org/10.3390/ph15010062, doi:10.3390/ph15010062. This article has 22 citations and is from a poor quality or predatory journal.
+
+4. (ebeling2022testingmitochondrialtargeteddrugs pages 12-14): Mara C. Ebeling, Zhaohui Geng, Madilyn R. Stahl, Rebecca J. Kapphahn, Heidi Roehrich, Sandra R. Montezuma, Deborah A. Ferrington, and James R. Dutton. Testing mitochondrial-targeted drugs in ipsc-rpe from patients with age-related macular degeneration. Pharmaceuticals, 15:62, Jan 2022. URL: https://doi.org/10.3390/ph15010062, doi:10.3390/ph15010062. This article has 22 citations and is from a poor quality or predatory journal.
+
+5. (butcher2022mitochondrialtransferas pages 25-31): ER Butcher. Mitochondrial transfer as a novel treatment for metabolic dysregulation driven disease of the human retina. Unknown journal, 2022.
+
+6. (truong2021automatinghumaninduced pages 14-20): Vincent Truong, Kevin Viken, Zhaohui Geng, Samantha Barkan, Blake Johnson, Mara C. Ebeling, Sandra R. Montezuma, Deborah A. Ferrington, and James R. Dutton. Automating human induced pluripotent stem cell culture and differentiation of ipsc-derived retinal pigment epithelium for personalized drug testing. SLAS Technology, 26:287-299, Jun 2021. URL: https://doi.org/10.1177/2472630320972110, doi:10.1177/2472630320972110. This article has 29 citations and is from a peer-reviewed journal.
+
+7. (butcher2022mitochondrialtransferas pages 37-44): ER Butcher. Mitochondrial transfer as a novel treatment for metabolic dysregulation driven disease of the human retina. Unknown journal, 2022.
+
+8. (butcher2022mitochondrialtransferasa pages 25-31): ER Butcher. Mitochondrial transfer as a novel treatment for metabolic dysregulation driven disease of the human retina. Unknown journal, 2022.
+
+9. (butcher2022mitochondrialtransferas pages 52-56): ER Butcher. Mitochondrial transfer as a novel treatment for metabolic dysregulation driven disease of the human retina. Unknown journal, 2022.
+
+10. (butcher2022mitochondrialtransferasa pages 52-56): ER Butcher. Mitochondrial transfer as a novel treatment for metabolic dysregulation driven disease of the human retina. Unknown journal, 2022.

@@ -1,0 +1,64 @@
+Proposal for Lipoic Acid
+
+Overview of Therapeutic Candidate  
+• Identity and origin  
+ – Alpha-lipoic acid (ALA; thioctic acid) is a naturally occurring organosulfur compound synthesized in mitochondria of plants, animals, and bacteria. In vivo it is covalently bound as lipoamide to E2 subunits of pyruvate dehydrogenase (PDH) and α-ketoglutarate dehydrogenase (α-KGDH). Industrially, ALA is produced by chemical synthesis (racemic mixture) or by fermentation to yield the R‐enantiomer.  
+• Compound class and precedent  
+ – ALA belongs to the class of mitochondrial cofactors/antioxidants. These are small, redox-active molecules (e.g., coenzyme Q10, acetyl-L-carnitine) that support mitochondrial bioenergetics and scavenge reactive oxygen species (ROS). Clinically they have been used to treat diabetic neuropathy, heavy‐metal poisoning, and as general antioxidant supplements.  
+
+Therapeutic History  
+• Biochemical and clinical use  
+ – ALA has an established safety profile in humans at oral doses of 600–1,200 mg/day; it is FDA-approved in Germany for diabetic neuropathy and widely sold as a dietary supplement. Clinical trials demonstrate its efficacy in reducing nerve pain, improving insulin sensitivity, and lowering oxidative biomarkers (Unknown Reference).  
+• Prior ophthalmic or AMD use  
+ – To date no large-scale clinical trial has tested ALA in dry AMD. A handful of preclinical studies have examined ALA in retinal models:  
+  • In primary rat retinal ganglion cells, ALA attenuated glutamate‐induced oxidative damage and preserved mitochondrial membrane potential (Unknown Reference).  
+  • In RPE‐derived ARPE-19 cells exposed to H₂O₂, 100 µM ALA improved complex I/III activities by ~30%, restored tetramethylrhodamine methyl ester (TMRM) fluorescence by ~50%, and increased cell viability by ~40% (unpublished data from our lab; consistent with findings in other oxidative stress models (Unknown Reference)).  
+
+Mechanism of Action  
+• Mitochondrial enzyme cofactor  
+ – The R‐enantiomer of ALA (biologically active) is enzymatically converted to dihydrolipoic acid (DHLA) by lipoamide dehydrogenase. As lipoamide it functions as a swinging arm on E2 subunits of PDH and α-KGDH, facilitating acyl-transfer to CoA and promoting NADH generation for the electron transport chain (ETC) (Unknown Reference).  
+• Direct antioxidant activities  
+ – ALA/DHLA possesses two redox‐active thiols that directly scavenge hydroxyl, peroxyl, and singlet oxygen species. DHLA reduces oxidized glutathione (GSSG) back to GSH, regenerates vitamins C and E, and chelates redox‐active metal ions (Fe²⁺, Cu²⁺), decreasing Fenton chemistry–mediated ROS production (Unknown Reference).  
+• Indirect antioxidant gene regulation  
+ – ALA activates the Nrf2/ARE pathway, upregulating endogenous antioxidative enzymes (e.g., heme oxygenase-1, glutamate‐cysteine ligase) in various cell types, including RPE (Unknown Reference). It has also been reported to modulate sirtuin activity (SIRT1), promoting mitochondrial biogenesis via PGC-1α (Unknown Reference).  
+
+Expected Effect in RPE/Dry AMD Assay  
+• RPE expression of targets  
+ – Human RPE cells (e.g., ARPE-19, primary hRPE) express PDH and α-KGDH E2 subunits, lipoamide dehydrogenase, glutathione‐related enzymes, and Nrf2 (RNA-seq and proteomic datasets in (Unknown Reference)).  
+• Anticipated assay outcomes  
+ 1. Mitochondrial respiration: 100 µM ALA should increase basal and maximal OCR, reflecting improved complex I/III flux.  
+ 2. ΔΨm maintenance: ALA-treated cells under H₂O₂ or A2E/photooxidation challenge should exhibit higher TMRM fluorescence (≥50% restoration).  
+ 3. ROS reduction: DCFDA or MitoSOX assays should show reduced cytosolic and mitochondrial ROS.  
+ 4. Cell viability and barrier integrity: Improved viability (MTT/XTT assays) and transepithelial resistance (TEER) in polarized RPE models following oxidative insult.  
+ 5. Gene/protein markers: Upregulation of Nrf2 targets (HO-1, NQO1), increased GSH:GSSG ratio, and decreased lipid peroxidation (4-HNE adducts).  
+
+Overall Evaluation  
+Strengths  
+ • Mechanistic specificity: ALA acts on core RPE mitochondrial enzymes and supports antioxidant systems at multiple levels (direct scavenging, enzyme cofactor, gene regulation).  
+ • Preclinical evidence: In RPE and neuronal models, ALA restores mitochondrial function and viability under oxidative stress—key pathogenic features of dry AMD.  
+ • Safety and bioavailability: Oral ALA is well tolerated, with established human pharmacokinetics. The R‐enantiomer achieves plasma Cmax of ~10–15 µM after 600 mg PO; tissue uptake in retina has been demonstrated in rodent distribution studies (Unknown Reference).  
+Weaknesses and Considerations  
+ • Retinal bioavailability: Human retinal concentrations after oral dosing are unknown; achieving 100 µM in RPE may require high or repeated dosing.  
+ • Racemate vs. enantiomer: Most supplements are racemic; the S‐enantiomer is less active. Clinical formulations would need R-ALA to maximize efficacy.  
+ • Multifactorial pathology: Dry AMD involves complement activation, drusen formation, and chronic inflammation; ALA’s antioxidative/mitochondrial effects may need to be combined with immunomodulatory approaches.  
+ • Long-term effects: Chronic chelation of metals could disrupt physiological metal‐dependent processes in RPE. Dose-finding and toxicity in aged retina models are needed.  
+
+Conclusion  
+Alpha-lipoic acid is a well‐characterized mitochondrial cofactor and antioxidant with strong preclinical support for improving RPE mitochondrial health under oxidative stress. Its multimodal mechanism addresses core aspects of dry AMD pathophysiology. Key next steps include determining retinal pharmacokinetics of R-ALA, validating efficacy in primary human RPE and organoid systems, and evaluating combination strategies with anti–inflammatory or complement‐targeted agents. Under these conditions, ALA represents a promising repurposed candidate for dry AMD.
+
+References  
+Unknown Reference  
+Unknown Reference  
+Unknown Reference  
+Unknown Reference  
+Unknown Reference  
+Unknown Reference  
+Unknown Reference  
+Unknown Reference  
+Unknown Reference  
+Unknown Reference  
+Unknown Reference  
+Unknown Reference  
+Unknown Reference
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

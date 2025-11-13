@@ -1,0 +1,13 @@
+Hypothesis: Complement Deposition Assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Complement Deposition Assay
+Reasoning: Overactivation of the alternative complement pathway drives chronic inflammation and RPE damage in dry AMD (Ricklin and Lambris, 2013). We propose treating iPSC-RPE monolayers with sublytic human serum to induce C3b/C5b-9 deposition, then quantifying complement markers by immunofluorescence or ELISA in the presence of candidate inhibitors. Parallel measurement of RPE viability (e.g., calcein AM) links complement regulation to cell survival. This assay directly models the key inflammatory insult in AMD and allows rapid screening of complement modulators with high biological fidelity.Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+
+

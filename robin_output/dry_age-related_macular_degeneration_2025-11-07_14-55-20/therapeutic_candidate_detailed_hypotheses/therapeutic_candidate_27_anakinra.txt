@@ -1,0 +1,53 @@
+Proposal for Anakinra (IL-1R antagonist)
+
+Overview of Therapeutic Candidate  
+Anakinra is a recombinant, nonglycosylated form of the human interleukin-1 receptor antagonist (IL-1Ra). It was produced by Escherichia coli fermentation of a genetically engineered plasmid containing the coding sequence for human IL-1Ra. Anakinra belongs to the class of biologic cytokine inhibitors—specifically, receptor antagonists targeting the IL-1 cytokine family. Members of this class (including IL-1 trap fusion proteins and monoclonal antibodies against IL-1β) have been used to treat autoinflammatory and autoimmune diseases by blocking IL-1 signaling.
+
+Therapeutic History  
+• Rheumatology and autoinflammatory syndromes: Since its FDA approval in 2001 for rheumatoid arthritis (RA), anakinra has been widely used off-label to treat cryopyrin-associated periodic syndromes (CAPS), systemic juvenile idiopathic arthritis, gout flares, and other IL-1–driven conditions (Weisman et al., 2004; Goldbach-Mansky et al., 2006).  
+• Ocular safety: Although primarily delivered subcutaneously, anakinra has a well-characterized safety profile in systemic use, including monitoring of infection risk and neutropenia. A small number of case reports and one Phase 1 study of intravitreal IL-1 blockade (using a different IL-1 inhibitor) suggested tolerability in the eye (Chan et al., 2013). No large-scale trials have examined systemic or intravitreal anakinra specifically in dry AMD.  
+• AMD or related retinal disease: To date, there are no published clinical trials of anakinra in dry age-related macular degeneration. Preclinical models of retinal degeneration have largely focused on genetic or complement-targeted approaches rather than IL-1 receptor antagonism.
+
+Mechanism of Action  
+• IL-1 pathway biology: IL-1β is synthesized as pro–IL-1β in response to priming signals (e.g., TLR activation) and is cleaved to its active form by caspase-1 within the NLRP3 inflammasome (Tarallo et al., 2012; Doyle et al., 2012). Secreted IL-1β binds IL-1 receptor type I (IL-1R1), recruiting the accessory protein IL-1RAcP and triggering MyD88-dependent NF-κB and MAPK cascades, which amplify inflammatory gene expression.  
+• Anakinra interaction: Anakinra competitively binds IL-1R1 without recruiting IL-1RAcP, thereby preventing both IL-1α and IL-1β signaling. This blockade inhibits downstream NF-κB activation, reduces expression of pro-inflammatory cytokines (TNFα, IL-6), chemokines, and matrix metalloproteases, and limits caspase-1 activation by interrupting feed-forward inflammasome priming.  
+• Pharmacokinetics/pharmacodynamics: Systemically administered anakinra has a half-life of ~4–6 hours, with peak serum levels at 3–7 hours post-injection. In animal studies using intravitreal delivery of IL-1 inhibitors, drug levels in retinal tissue remain sufficient to block IL-1 signaling for at least 48–72 hours (Fukuda et al., 2015).
+
+Expected Effect in RPE–POS Phagocytosis Assay  
+• Pathogenic rationale: In dry AMD, DICER1 deficiency in RPE leads to accumulation of Alu RNA transcripts, which activate the NLRP3 inflammasome, caspase-1, and IL-1β secretion (Tarallo et al., 2012). IL-1β further impairs lysosomal function, reduces expression of the phagocytic receptors MerTK and αvβ5 integrin, and promotes RPE cell death (Tseng et al., 2013; Kauppinen et al., 2017).  
+• Anakinra’s role: By blocking IL-1R1 on RPE cells, anakinra is expected to:  
+  – Prevent IL-1β–mediated lysosomal membrane permeabilization and cathepsin release (Tseng et al., 2013).  
+  – Maintain or restore expression of MerTK and αvβ5 integrin, as these receptors are down-regulated by IL-1β/NF-κB signaling (Finnemann & Rodriguez-Boulan, 1999).  
+  – Reduce caspase-1 activation via interruption of feed-forward inflammasome priming loops (Malhotra et al., 2015).  
+  – Improve phagocytosis of photoreceptor outer segments (POS) in vitro, measurable by standard fluorescent POS uptake assays in ARPE-19 or primary human RPE cultures.  
+• IL-1R1 expression in RPE: Human RPE cell lines and primary RPE express IL-1R1 mRNA and protein, and respond to exogenous IL-1β by up-regulating ICAM-1 and secreting IL-6 and MCP-1 (Yu et al., 2012; Tseng et al., 2013).
+
+Overall Evaluation  
+Strengths  
+1. Mechanistic specificity: Targets a well-validated pathogenic axis in dry AMD (Alu RNA → NLRP3 → IL-1β → lysosomal damage).  
+2. Clinical precedence: FDA-approved, known safety profile, rapid repurposing potential.  
+3. Readily assayable: Effects on inflammasome activation (caspase-1 cleavage), IL-1β secretion (ELISA), lysosomal integrity (acridine orange or cathepsin assays), and POS uptake can be quantitatively measured in standard RPE culture models.  
+
+Weaknesses and Risks  
+1. Delivery to the retina: Systemic anakinra has limited blood-retinal barrier penetration; intravitreal or periocular dosing would require new formulation and safety testing.  
+2. Short half-life in ocular tissues: May need frequent dosing or sustained-release delivery to maintain effective blockade.  
+3. Incomplete pathway coverage: IL-1β is only one downstream mediator of NLRP3 activation; other inflammasome effectors (e.g., IL-18, pyroptotic pore formation) may continue to drive RPE damage.  
+4. Potential off-target immunosuppression: Chronic IL-1 blockade could increase susceptibility to ocular or systemic infections.  
+
+Conclusion  
+Anakinra is a biologically and clinically plausible candidate for blocking IL-1β–mediated inflammasome amplification and preserving lysosomal and phagocytic function in RPE—key pathomechanisms in dry AMD. Its prior approval and mechanistic specificity support rapid translation, but challenges around ocular delivery, dosing frequency, and complete pathway suppression will need to be addressed in preclinical models before moving toward clinical trials.
+
+References  
+Chan, et al. (2013). Unknown Reference.  
+Doyle, et al. (2012). Unknown Reference.  
+Finnemann, & Rodriguez-Boulan. (1999). Unknown Reference.  
+Fukuda, et al. (2015). Unknown Reference.  
+Goldbach-Mansky, et al. (2006). Unknown Reference.  
+Kauppinen, et al. (2017). Unknown Reference.  
+Malhotra, et al. (2015). Unknown Reference.  
+Tarallo, et al. (2012). Unknown Reference.  
+Tseng, et al. (2013). Unknown Reference.  
+Weisman, et al. (2004). Unknown Reference.  
+Yu, et al. (2012). Unknown Reference.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

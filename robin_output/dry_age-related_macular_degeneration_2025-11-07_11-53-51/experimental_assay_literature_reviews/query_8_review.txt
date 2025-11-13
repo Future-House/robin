@@ -1,0 +1,85 @@
+Query: Review protocols for generating human induced pluripotent stem cell-derived RPE models of dry AMD, emphasizing scalable phagocytosis assays of photoreceptor outer segments, transepithelial resistance measurements, and high-throughput adaptation for screening autophagy modulators or complement inhibitors.
+
+Below are 15 distinct, experimentally tractable hypotheses or therapeutic‐strategy concepts—each formulated for testing in human iPSC–derived RPE monolayers and readily adaptable to scalable phagocytosis assays, TEER measurements, and high-throughput screens of autophagy modulators or complement inhibitors. For each idea we note critical protocol elements (differentiation, POS assay, TEER readout, HT format, and candidate intervention).
+
+1. CFH Risk Allele–Mediated Phagocytic Deficit  
+   • Hypothesis: The AMD-associated CFH Y402H variant compromises RPE clearance of POS.  
+   • Protocol notes: Differentiate iPSCs from Y402H homozygotes vs. isogenic controls via feeder-free, small-molecule induction (CHIR99021, SB431542). Mature RPE for 6–8 weeks until >90% pigmented.  
+   • Assays: 96-well automated POS uptake using pHrodo-labeled bovine POS; TEER measured by multi-well impedance system; HT screening of compstatin analogs (e.g., APL-2) at 10–100 nM to rescue phagocytosis.
+
+2. C3 Overactivation and Lysosomal Stress  
+   • Hypothesis: Excess C3b on RPE surface induces lysosomal dysfunction and impaired digestion of POS.  
+   • Protocol notes: Expose mature iPSC-RPE to human serum with elevated C3b.  
+   • Assays: High-content imaging of DQ-BSA degradation as lysosomal readout; POS phagocytosis in 384-well plates; TEER + impedance kinetics; screen small-molecule C3 inhibitors (e.g. Cp40 derivatives).
+
+3. Autophagy Decline via mTOR Hyperactivation  
+   • Hypothesis: Chronic mTORC1 activation in RPE reduces autophagic flux, leading to lipofuscin accumulation and POS buildup.  
+   • Protocol notes: Transduce RPE with lentiviral Rheb overexpression; differentiate in Transwell plates.  
+   • Assays: LC3-GFP reporter flux in 96-well format; automated POS uptake; TEER; HT titration of rapamycin analogs (everolimus) and novel ULK1 activators.
+
+4. Inflammasome–Mediated Barrier Breakdown  
+   • Hypothesis: NLRP3 inflammasome activation disrupts RPE tight junctions and TEER.  
+   • Protocol notes: Prime mature RPE with IL-1β + ATP; culture on 96-well Transwells.  
+   • Assays: Caspase-1 activity (FLICA) + ZO-1 immunostaining; TEER kinetics; POS phagocytosis; screen NLRP3 inhibitors (MCC950 analogs).
+
+5. Mitochondrial DNA Release Triggers Complement  
+   • Hypothesis: Mitochondrial damage releases mtDNA, binding C1q and initiating classical complement on RPE apical surface.  
+   • Protocol notes: Treat RPE with low-dose rotenone to induce mtDNA stress.  
+   • Assays: qPCR of extracellular mtDNA; POS uptake; TEER; high-throughput addition of anti-C1q antibodies or small peptide inhibitors.
+
+6. Cholesterol Accumulation Impairs Autophagic Flux  
+   • Hypothesis: Excess intracellular cholesterol in RPE perturbs lysosomal acidification and autophagy.  
+   • Protocol notes: Pulse RPE with LDL + ACAT inhibitor to load cholesterol; culture on 96-well plates.  
+   • Assays: LysoTracker intensity; LC3 puncta quantification; POS phagocytosis; TEER; HT screening of LXR agonists or Niemann–Pick modulators.
+
+7. Drusen Lipid Extracts Promote Complement Deposition  
+   • Hypothesis: Human drusen lipid extracts activate alternative complement on RPE, impairing POS clearance.  
+   • Protocol notes: Isolate drusen from donor eyes; treat RPE monolayers.  
+   • Assays: C3a ELISA in supernatant; phagocytosis (pHrodo-POS); TEER; automated co-addition of factor D inhibitors.
+
+8. Oxidative Stress–Induced Autophagy Block  
+   • Hypothesis: Chronic low-level H2O2 exposure inhibits autophagosome–lysosome fusion in RPE.  
+   • Protocol notes: Expose RPE to sublethal H2O2 pulses over 1 week.  
+   • Assays: mCherry-GFP-LC3 tandem reporter; phagocytic index; TEER; 384-well screening of antioxidants plus autophagy enhancers (trehalose).
+
+9. Senescence-Associated Secretory Phenotype (SASP) and TEER Loss  
+   • Hypothesis: Senescent RPE secrete IL-6/IL-8, disrupting tight junctions and phagocytosis.  
+   • Protocol notes: Induce senescence via repeated low-dose irradiation; verify p16INK4a upregulation.  
+   • Assays: Cytokine multiplex in supernatant; ZO-1 staining + TEER; POS assay; screen JAK/STAT inhibitors.
+
+10. ABCA4 Knockdown and POS Lipid Handling Defects  
+   • Hypothesis: Reduced ABCA4 in RPE impedes retinoid export after POS ingestion, causing RPE stress.  
+   • Protocol notes: siRNA knockdown of ABCA4 in mature iPSC-RPE; culture in high-throughput 96-well.  
+   • Assays: All-trans-retinal accumulation by HPLC; phagocytosis; TEER; screen retinoid cycle modulators.
+
+11. HTRA1 Overexpression Amplifies Complement Response  
+   • Hypothesis: AMD-linked HTRA1 upregulation destabilizes Bruch’s membrane analog, increasing C5b-9 deposition on RPE.  
+   • Protocol notes: Overexpress HTRA1 via lentivirus; co-culture with synthetic Bruch’s membrane ECM.  
+   • Assays: Membrane permeability + TEER; complement MAC staining; phagocytosis; screen anti-C5 antibodies.
+
+12. Impaired Glycolysis Alters POS Clearance  
+   • Hypothesis: Metabolic shift away from glycolysis in aging RPE reduces ATP for phagosome processing.  
+   • Protocol notes: Culture RPE in galactose instead of glucose to force oxidative metabolism.  
+   • Assays: Seahorse glycolysis stress test; phagocytic throughput in 96-well; TEER; screen AMPK activators.
+
+13. APOE Isoform–Dependent Lipid Handling  
+   • Hypothesis: APOE4 expression in RPE leads to defective POS lipid efflux and complement activation.  
+   • Protocol notes: Gene-edit iPSCs to express APOE3 vs. APOE4; differentiate to RPE.  
+   • Assays: Lipid droplet quantification; C3 cleavage; phagocytosis; TEER; screening LXR agonists.
+
+14. Impaired Autophagy–Lysosome Fusion via V-ATPase Dysfunction  
+   • Hypothesis: AMD-associated V-ATPase subunit polymorphisms slow lysosomal acidification, blocking POS degradation.  
+   • Protocol notes: CRISPR introduce V0a1 SNPs; mature RPE on Transwell.  
+   • Assays: Lysosomal pH (LysoSensor ratiometric); POS assay; TEER; HT screen of V-ATPase activators or proton pump modulators.
+
+15. Drusen-Like Hydroxyapatite Crystals Induce Complement  
+   • Hypothesis: Synthetic hydroxyapatite nanoparticles mimicking drusen cores hyperactivate alternative complement on RPE.  
+   • Protocol notes: Seed RPE on 384-well plates; add graded nano-crystals.  
+   • Assays: C3b/iC3b deposition by high-content immunofluorescence; phagocytosis; TEER; screen factor B inhibitors.
+
+Common Protocol Highlights:  
+– iPSC-RPE Differentiation: feeder-free monolayer induction using dual SMAD inhibition, CHIR99021, Activin A; maturation 4–8 weeks; confirm RPE markers (RPE65, BEST1).  
+– Scalable Phagocytosis: isolate bovine or porcine POS, label with pHrodo or fluorescent retinoid analogs, incubate 4 h, automated wash/imaging in 96–384-well format.  
+– TEER & Impedance: use multi-well TEER plates (e.g., Ag/AgCl electrode arrays) or xCELLigence impedance platform for real-time barrier monitoring.  
+– High-Throughput Adaptation: robotic liquid handling for multi-step assays, automated confocal or spinning-disk imaging, image-analysis pipelines for puncta/counts, dose–response plate layouts for library screening of autophagy enhancers or complement pathway inhibitors.
+

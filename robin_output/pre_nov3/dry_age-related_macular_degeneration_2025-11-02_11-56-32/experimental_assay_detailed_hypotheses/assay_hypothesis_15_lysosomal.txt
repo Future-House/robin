@@ -1,0 +1,39 @@
+Hypothesis: Lysosomal pH assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Lysosomal pH assay
+Reasoning: Use LysoTracker or pH‐sensitive reporters in hiPSC-RPE loaded with lipofuscin‐precursor A2E under candidate lysosomal acidifiers; lipofuscin‐mediated lysosomal inhibition contributes to proteostasis failure and drusen seeding (kaarniranta2019fattyacidsand pages 16-23; buonfiglio2024recentadvancesin pages 9-10).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview: This assay utilizes hiPSC-derived RPE cells loaded with the lipofuscin precursor A2E to model a key pathogenic mechanism in dry AMD—lysosomal dysfunction. Candidate lysosomal acidifiers are evaluated by measuring changes in lysosomal acidity using LysoTracker or ratiometric pH-sensitive reporters. Complementary readouts include assessments of protease activity, autophagic flux, and autofluorescence accumulation to capture downstream effects on cellular proteostasis (cardoso2018stemcellderivedretinal pages 58-61, cardoso2018stemcellderivedretinala pages 58-61).
+
+Biomedical Evidence: Dry AMD is characterized by the accumulation of lipofuscin and impaired degradation of photoreceptor outer segments, processes that are driven by lysosomal alkalinization, A2E-induced inhibition of the V-ATPase, and consequent protease deficits. These events contribute to drusen formation and progressive RPE dysfunction, making lysosomal acidification a central target for intervention as supported by both clinical observations and mechanistic studies (miller2023impairedlysosomesin pages 2-2, falcao2025targetinglysosomaldysfunction pages 2-4).
+
+Previous Use: Similar assays have previously been applied in hESC-RPE and ARPE-19 models, where pharmacological perturbations with chloroquine or bafilomycin A1 induced measurable changes in lysosomal pH and cargo processing. Such studies have linked lysosomal dysfunction to increased autofluorescence and impaired proteolysis, validating the use of pH-sensitive reporters for drug discovery (boya2023lysosomesinretinal pages 3-4, mesquita2021purificationandcharacterization pages 50-53).
+
+Overall Evaluation: The assay presents a mechanistically relevant and scalable platform for early-stage screening of therapeutics targeting lysosomal acidification in dry AMD. Strengths include its direct measurement of a critical cellular dysfunction and its compatibility with high-throughput imaging. Weaknesses involve limitations intrinsic to dye-based pH measurements—such as potential confounds from RPE pigmentation and the indirect nature of the readout—which necessitate complementary evaluations of proteolytic activity and autophagic flux (cardoso2018stemcellderivedretinal pages 164-167, cardoso2018stemcellderivedretinala pages 164-167).
+
+This lysosomal pH assay is a promising tool to assess drug candidates aimed at restoring lysosomal function in dry AMD. However, integrating orthogonal readouts will be essential to fully capture drug efficacy in reversing the complex proteostasis defects of the disease.
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/f4f14a3a-4339-4809-9eac-31d8ecb1044d
+
+References:
+1. (cardoso2018stemcellderivedretinal pages 58-61): MHS Cardoso. Stem cell-derived retinal pigment epithelium models of lysosomal dysfunction in disease. Unknown journal, 2018.
+
+2. (cardoso2018stemcellderivedretinala pages 58-61): MHS Cardoso. Stem cell-derived retinal pigment epithelium models of lysosomal dysfunction in disease. Unknown journal, 2018.
+
+3. (miller2023impairedlysosomesin pages 2-2): Rebecca D. Miller and J. Arjuna Ratnayaka. Impaired lysosomes in the retinal pigment epithelium play a central role in the degeneration of the neuroretina. Neural Regeneration Research, 18:2697-2698, Apr 2023. URL: https://doi.org/10.4103/1673-5374.373713, doi:10.4103/1673-5374.373713. This article has 6 citations and is from a peer-reviewed journal.
+
+4. (falcao2025targetinglysosomaldysfunction pages 2-4): Ana S. Falcão, Margarida L. Pedro, Sandra Tenreiro, and Miguel C. Seabra. Targeting lysosomal dysfunction and oxidative stress in age-related macular degeneration. Antioxidants, 14:596, May 2025. URL: https://doi.org/10.3390/antiox14050596, doi:10.3390/antiox14050596. This article has 2 citations and is from a poor quality or predatory journal.
+
+5. (boya2023lysosomesinretinal pages 3-4): Patricia Boya, Kai Kaarniranta, James T. Handa, and Debasish Sinha. Lysosomes in retinal health and disease. Trends in Neurosciences, 46:1067-1082, Dec 2023. URL: https://doi.org/10.1016/j.tins.2023.09.006, doi:10.1016/j.tins.2023.09.006. This article has 30 citations and is from a highest quality peer-reviewed journal.
+
+6. (mesquita2021purificationandcharacterization pages 50-53): MÂM Mesquita. Purification and characterization of dysfunctional lysosomes in an age-related macular disease cell model. Unknown journal, 2021.
+
+7. (cardoso2018stemcellderivedretinal pages 164-167): MHS Cardoso. Stem cell-derived retinal pigment epithelium models of lysosomal dysfunction in disease. Unknown journal, 2018.
+
+8. (cardoso2018stemcellderivedretinala pages 164-167): MHS Cardoso. Stem cell-derived retinal pigment epithelium models of lysosomal dysfunction in disease. Unknown journal, 2018.

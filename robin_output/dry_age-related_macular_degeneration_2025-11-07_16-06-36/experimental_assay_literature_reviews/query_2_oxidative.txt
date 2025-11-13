@@ -1,0 +1,107 @@
+Query: Oxidative stress–driven RPE degeneration in dry AMD: intracellular ROS sources, antioxidant defense mechanisms, protocols for inducing oxidative stress in ARPE-19 and primary RPE cultures, and quantification assays using fluorescent probes and enzyme activity measurements
+
+1. Mitochondrial Complex I Dysfunction and MitoQ Rescue  
+Hypothesis: Chronic low‐grade Complex I inhibition elevates mitochondrial ROS, triggering RPE apoptosis.  
+Protocol: Treat ARPE-19 and primary human RPE with 100 nM rotenone for 24 h.  
+ROS Quantification: MitoSOX Red fluorescence (flow cytometry) and total cellular ROS by DCFDA.  
+Enzyme Assays: SOD2 activity (commercial kit) and ATP levels.  
+Therapeutic Test: Co-treat with 1 µM mitoQ; assess rescue of mitochondrial membrane potential (JC-1) and cell viability (MTT).
+
+2. NOX4‐Mediated Cytosolic ROS and NOX Inhibitors  
+Hypothesis: Upregulation of NOX4 drives cytosolic ROS bursts, impairing RPE barrier integrity.  
+Protocol: Stimulate ARPE-19 with 100 ng/mL TGF-β1 for 48 h to induce NOX4.  
+ROS Quantification: DCFDA imaging and Amplex Red H2O2 assay.  
+Enzyme Assays: Catalase and glutathione peroxidase (GPx) activities.  
+Therapeutic Test: Pre-treat with 10 µM VAS2870 (pan-NOX inhibitor) or NOX4 siRNA; measure transepithelial resistance (TEER).
+
+3. ER Stress–Driven ROS via ERO1α and 4-PBA  
+Hypothesis: Tunicamycin‐induced ER stress upregulates ERO1α, accelerating ROS leakage into cytosol.  
+Protocol: Expose primary RPE to 1 µg/mL tunicamycin for 24 h ± 2 mM 4-phenylbutyrate (4-PBA).  
+ROS Quantification: HyPer‐ER probe fluorescence and DCFDA.  
+Enzyme Assays: GPx and protein disulfide isomerase (PDI) activity.  
+Endpoints: CHOP expression by Western blot; viability by LDH release.
+
+4. Fenton Chemistry–Induced Hydroxyl Radicals and Iron Chelation  
+Hypothesis: Labile iron pool in RPE catalyzes Fenton reactions, generating ·OH and lipid peroxidation.  
+Protocol: Treat ARPE-19 with 100 µM ferric ammonium citrate + 50 µM H2O2 for 6 h.  
+ROS Quantification: HPF (hydroxyphenyl fluorescein) for ·OH; C11-BODIPY581/591 for lipid peroxides.  
+Enzyme Assays: GPx4 activity; total glutathione.  
+Therapeutic Test: Co-treatment with 50 µM deferiprone or 1 µM ferrostatin-1; assess barrier function.
+
+5. A2E Photosensitization and Blue-Light–Induced ROS  
+Hypothesis: Accumulated lipofuscin fluorophore A2E upon blue-light exposure generates singlet oxygen, injuring RPE.  
+Protocol: Load ARPE-19 with 20 µM A2E for 24 h, then irradiate with 430 nm light (2 J/cm2).  
+ROS Quantification: SOSG probe for ^1O2; DCFDA for total ROS.  
+Enzyme Assays: SOD1 activity; HO-1 expression by qPCR.  
+Therapeutic Test: Pre-treat with 10 µM quercetin; measure mitochondrial health (Seahorse OCR).
+
+6. Hyperglycemia‐Driven NADH Overload and PKM2 Modulation  
+Hypothesis: High‐glucose (HG)–induced glycolytic flux raises NADH/NAD+ ratio, fueling mitochondrial ROS.  
+Protocol: Culture primary RPE in 30 mM glucose vs. 5 mM for 72 h.  
+ROS Quantification: DCFDA and MitoSOX.  
+Enzyme Assays: Glucose-6-phosphate dehydrogenase (G6PD) for PPP capacity; lactate dehydrogenase (LDH).  
+Therapeutic Test: Add 10 mM 2-deoxyglucose or a PKM2 activator (TEPP-46); assess ROS reduction.
+
+7. Xanthine Oxidase–Derived Superoxide and Allopurinol Inhibition  
+Hypothesis: RPE xanthine oxidase (XO) activity contributes significantly to basal ROS under hypoxia–reoxygenation.  
+Protocol: Subject primary RPE to 4 h hypoxia (1% O2) then reoxygenate ± 100 µM allopurinol.  
+ROS Quantification: DHE staining for O2·– and Amplex Red.  
+Enzyme Assays: XO activity by uric acid formation; SOD activity.  
+Endpoints: Cell death (Annexin V/PI) and barrier integrity.
+
+8. Nrf2 Pathway Suppression and Sulforaphane Activation  
+Hypothesis: Defective Nrf2 nuclear translocation reduces antioxidant gene induction, sensitizing RPE to oxidative insults.  
+Protocol: SiRNA knockdown of Nrf2 in ARPE-19, then expose to 200 µM H2O2 for 2 h.  
+ROS Quantification: DCFDA and Glutathione redox sensor (roGFP2).  
+Enzyme Assays: NQO1, HO-1, GPx activities.  
+Therapeutic Test: Pre-treat with 5 µM sulforaphane; measure Nrf2 target gene induction and viability.
+
+9. Autophagy Blockade, Mitophagy Failure, and Rapamycin Rescue  
+Hypothesis: Chloroquine‐induced autophagy inhibition leads to accumulation of damaged mitochondria and elevated ROS.  
+Protocol: Treat ARPE-19 with 10 µM chloroquine for 24 h.  
+ROS Quantification: MitoSOX and LysoTracker/LC3 co-localization.  
+Enzyme Assays: Parkin translocation; SOD2 activity.  
+Therapeutic Test: Co-treatment with 100 nM rapamycin; assess restoration of mitophagy markers (PINK1).
+
+10. PUFA Enrichment and Lipid Peroxidation Propagation  
+Hypothesis: Supplementation with docosahexaenoic acid (DHA) enhances susceptibility to peroxidation upon oxidative challenge.  
+Protocol: Pre-incubate primary RPE with 50 µM DHA for 48 h, then add 100 µM tert-butyl hydroperoxide for 3 h.  
+ROS Quantification: C11-BODIPY581/591; DCFDA.  
+Enzyme Assays: GPx4; total GSH.  
+Therapeutic Test: Ferrostatin-1 (1 µM) or liproxstatin-1; measure lipid ROS suppression and cell survival.
+
+11. Calcium Overload–Induced mPTP Opening and CsA Inhibition  
+Hypothesis: Ionomycin‐induced Ca2+ influx triggers mitochondrial permeability transition pore (mPTP), boosting ROS release.  
+Protocol: Treat ARPE-19 with 1 µM ionomycin for 1 h ± 1 µM cyclosporin A (CsA).  
+ROS Quantification: Rhod-2 AM for mitochondrial Ca2+; MitoSOX.  
+Enzyme Assays: Cyclophilin D activity; SOD2.  
+Endpoints: mPTP opening (calcein/cobalt assay) and apoptosis markers.
+
+12. NLRP3 Inflammasome–ROS Feedback Loop and MCC950  
+Hypothesis: IL-1β primes NLRP3 inflammasome, increasing mitochondrial ROS that further activate IL-1β maturation.  
+Protocol: Treat primary RPE with 10 ng/mL IL-1β for 24 h ± 1 µM MCC950.  
+ROS Quantification: MitoSOX; DCFDA.  
+Enzyme Assays: Caspase-1 activity; IL-18 ELISA.  
+Therapeutic Readout: Barrier integrity (TEER) and IL-1β secretion.
+
+13. SIRT3 Deficiency–Driven Mitochondrial ROS and Resveratrol  
+Hypothesis: Inhibition of mitochondrial deacetylase SIRT3 increases acetylation of electron transport components, boosting ROS.  
+Protocol: Treat ARPE-19 with 50 µM 3-TYP (SIRT3 inhibitor) for 24 h.  
+ROS Quantification: MitoSOX; DCFDA.  
+Enzyme Assays: SOD2 acetylation by immunoblot; total SIRT3 activity.  
+Therapeutic Test: Co-treat with 20 µM resveratrol; measure deacetylation status and ROS levels.
+
+14. PARP Overactivation, NAD+ Depletion, and PJ34 Inhibition  
+Hypothesis: H2O2‐induced DNA damage hyperactivates PARP1, depleting NAD+ and impairing antioxidant defenses, thus elevating ROS.  
+Protocol: Expose ARPE-19 to 200 µM H2O2 for 30 min ± 10 µM PJ34.  
+ROS Quantification: DCFDA; total NAD+/NADH assay.  
+Enzyme Assays: PARP activity; mitochondrial complex activities.  
+Endpoints: AIF translocation and cell death.
+
+15. Catalase-Loaded Exosome Therapy  
+Hypothesis: Delivery of catalase via RPE‐derived exosomes scavenges H2O2 more efficiently than free enzyme, protecting RPE from oxidative injury.  
+Protocol: Isolate exosomes from ARPE-19 overexpressing catalase; treat naive RPE with 200 µM H2O2 ± exosomes (10 µg/mL).  
+ROS Quantification: Amplex Red for H2O2; DCFDA.  
+Enzyme Assays: Catalase activity in recipient cells; GPx.  
+Endpoints: Viability (MTT), barrier function, and inflammatory cytokine release.
+

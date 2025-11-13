@@ -1,0 +1,60 @@
+Assay Candidate 1:
+Strategy: Mitochondrial superoxide assay
+Reasoning: Quantify mitochondrial ROS in ARPE-19 or primary RPE using MitoSOX Red after H₂O₂ challenge, enabling rapid screening of compounds that restore mitochondrial redox balance—mitochondrial superoxide is a key driver of RPE injury in dry AMD (Rosales et al. 2019; Tan et al. 2022).
+
+Assay Candidate 2:
+Strategy: Autophagic flux imaging
+Reasoning: Use GFP-LC3 or mCherry-GFP-LC3 reporters in ARPE-19 with lysosomal inhibitors (E64d/pepstatin A) to measure LC3-II accumulation and p62 turnover, directly assessing enhancement of autophagic clearance—impaired autophagy underlies lipofuscin build-up in dry AMD (Golestaneh et al. 2018; Kaarniranta et al. 2023).
+
+Assay Candidate 3:
+Strategy: Complement NF-κB reporter
+Reasoning: Employ ARPE-19 cells stably transduced with an NF-κB-luciferase reporter and stimulate with C5a/C3a to quantify pathway inhibition by candidate drugs, testing the capacity to block complement-driven inflammatory signaling in RPE (Cao 2016; Ong et al. 2024).
+
+Assay Candidate 4:
+Strategy: Inflammasome IL-1β release
+Reasoning: Treat RPE with sublytic MAC in the presence of normal human serum and measure IL-1β by ELISA or caspase-1 activity assay, evaluating inhibitors of NLRP3 inflammasome activation—a central mediator of RPE degeneration in dry AMD (Cao 2016; Ebeling et al. 2022).
+
+Assay Candidate 5:
+Strategy: Senescence marker profiling
+Reasoning: Expose RPE to A2E+blue light or H₂O₂ and quantify SA-β-gal staining along with p16^INK4a/p21^Cip1 expression via immunofluorescence, enabling rapid assessment of senescence-preventing compounds—senescent RPE contribute to dry AMD pathology (Terao et al. 2022; Lee et al. 2021).
+
+Assay Candidate 6:
+Strategy: Phagocytosis kinetics assay
+Reasoning: Feed ARPE-19 or hiPSC-RPE with FITC-labeled photoreceptor outer segments and quantify uptake and lysosomal colocalization by high-content imaging, testing drugs that restore RPE phagocytic function crucial for outer segment turnover (Si et al. 2023; Mesch et al. 2021).
+
+Assay Candidate 7:
+Strategy: Collagen degradation assay
+Reasoning: Embed RPE in fluorescently labeled collagen gels and measure matrix degradation via fluorescence loss, screening for compounds that normalize MMP-2/9 activity and correct ECM remodeling defects associated with drusen formation (Fernandez-Godino et al. 2016; Curcio & Johnson 2013).
+
+Assay Candidate 8:
+Strategy: Lipofuscin autofluorescence assay
+Reasoning: Load RPE with A2E and measure lipofuscin-like autofluorescence by plate reader or confocal high-content imaging, identifying agents that accelerate lipofuscin clearance—excess lipofuscin drives RPE dysfunction in dry AMD (Falcão et al. 2024; Abukhaled 2025).
+
+Assay Candidate 9:
+Strategy: Lysosomal pH normalization
+Reasoning: Use ratiometric LysoSensor probes in ARPE-19 to monitor lysosomal pH under stress and test TFEB/mTOR modulators that restore acidity and enzyme activity, correcting lysosomal dysfunction linked to drusen biogenesis (Falcão et al. 2024; Falcão et al. 2025).
+
+Assay Candidate 10:
+Strategy: Seahorse bioenergetics profiling
+Reasoning: Perform mitochondrial stress tests (OCR/ECAR) in primary RPE treated with candidate drugs to assess improvements in basal respiration, ATP production, and spare capacity—mitochondrial bioenergetic decline is central to dry AMD (Rosales et al. 2019; Fisher et al. 2022).
+
+Assay Candidate 11:
+Strategy: Tight junction integrity assay
+Reasoning: Culture human RPE on transwells, measure transepithelial electrical resistance (TEER) and quantify ZO-1 continuity by immunostaining, screening for compounds that preserve barrier function compromised in dry AMD (Ebeling et al. 2022; Buchser et al. 2014).
+
+Assay Candidate 12:
+Strategy: 3D spheroid drusen model
+Reasoning: Generate RPE spheroids that form drusen-like sub-RPE deposits in long-term culture, then use high-content confocal imaging to measure ApoE or complement component accumulation, evaluating agents that clear early drusen analogues (Usui et al. 2019; Kurzawa-Akanbi et al. 2022).
+
+Assay Candidate 13:
+Strategy: Lipid droplet clearance assay
+Reasoning: Induce lipid loading in RPE with oxidized photoreceptor outer segments or exogenous lipids, stain with BODIPY, and quantify droplet reduction post-treatment, screening for drugs that enhance lipid efflux and prevent drusen lipoprotein aggregation (Curcio & Johnson 2013; Mesch et al. 2021).
+
+Assay Candidate 14:
+Strategy: TFEB nuclear translocation
+Reasoning: Express TFEB-GFP in ARPE-19 and measure nuclear vs cytoplasmic localization by automated imaging after treatment, identifying mTOR/TFEB activators that boost lysosomal biogenesis and autophagy to combat dry AMD (Falcão et al. 2024; Kaarniranta et al. 2023).
+
+Assay Candidate 15:
+Strategy: MAC-induced Ca²⁺ influx
+Reasoning: Treat ARPE-19 with sublytic complement and load with Fluo-4 AM to record Ca²⁺ transients, assessing compounds that inhibit MAC pore formation and downstream inflammasome activation—sublytic MAC drives RPE injury in dry AMD (Cao 2016; Jiao 2018).
+

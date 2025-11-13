@@ -1,0 +1,18 @@
+Query: Studies describing high-content imaging–based screens for enhancers of photoreceptor outer segment uptake by RPE cells, including secondary assays for target engagement, functional rescue in stress-induced RPE degeneration models, and early safety/pharmacology data
+
+High‐content imaging–based screens have been developed using zebrafish models to quantify photoreceptor outer segment renewal and monitor RPE phagocytic activity. These studies measure parameters such as disc growth, shedding, and the accumulation of rhodopsin‐positive phagosomes as an indirect readout for RPE-mediated clearance. Several candidate pathway modulators—including inhibitors of PI3K/Akt/mTOR, γ‐Secretase, and cyclooxygenase inhibitors—were identified based on their ability to alter these metrics (campbell2018ahighcontent pages 11-12, campbell2018ahighcontent pages 12-12, campbell2018ahighcontent pages 7-10).
+
+However, none of the excerpts provide evidence for secondary assays that directly address biochemical target engagement or confirm that the identified compounds are enhancing photoreceptor outer segment uptake by the RPE. Furthermore, no functional rescue experiments have been performed in stress-induced RPE degeneration models, and early safety/pharmacology data (such as ADME/toxicity or dose-response profiles) remain unreported in these screening studies (campbell2018ahighcontent pages 11-12, campbell2018ahighcontent pages 12-12, campbell2018ahighcontent pages 1-2).
+
+These studies demonstrate robust primary high-content imaging pipelines for identifying candidate compounds affecting outer segment renewal, but further work with secondary target-engagement assays, functional rescue in disease models, and detailed safety/pharmacology assessments is required. The current data serve as an initial screening platform rather than a complete validation of therapeutic candidates.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/f9fa86c5-a8c0-4ba0-aa33-53503165f18f
+
+References:
+1. (campbell2018ahighcontent pages 11-12): Leah J. Campbell, Megan C. West, and Abbie M. Jensen. A high content, small molecule screen identifies candidate molecular pathways that regulate rod photoreceptor outer segment renewal. Scientific Reports, Sep 2018. URL: https://doi.org/10.1038/s41598-018-32336-y, doi:10.1038/s41598-018-32336-y. This article has 12 citations and is from a peer-reviewed journal.
+
+2. (campbell2018ahighcontent pages 12-12): Leah J. Campbell, Megan C. West, and Abbie M. Jensen. A high content, small molecule screen identifies candidate molecular pathways that regulate rod photoreceptor outer segment renewal. Scientific Reports, Sep 2018. URL: https://doi.org/10.1038/s41598-018-32336-y, doi:10.1038/s41598-018-32336-y. This article has 12 citations and is from a peer-reviewed journal.
+
+3. (campbell2018ahighcontent pages 7-10): Leah J. Campbell, Megan C. West, and Abbie M. Jensen. A high content, small molecule screen identifies candidate molecular pathways that regulate rod photoreceptor outer segment renewal. Scientific Reports, Sep 2018. URL: https://doi.org/10.1038/s41598-018-32336-y, doi:10.1038/s41598-018-32336-y. This article has 12 citations and is from a peer-reviewed journal.
+
+4. (campbell2018ahighcontent pages 1-2): Leah J. Campbell, Megan C. West, and Abbie M. Jensen. A high content, small molecule screen identifies candidate molecular pathways that regulate rod photoreceptor outer segment renewal. Scientific Reports, Sep 2018. URL: https://doi.org/10.1038/s41598-018-32336-y, doi:10.1038/s41598-018-32336-y. This article has 12 citations and is from a peer-reviewed journal.

@@ -3,7 +3,8 @@ import os
 import re
 from datetime import datetime
 
-from futurehouse_client import FutureHouseClient, JobNames
+from edison_client import EdisonClient
+from futurehouse_client import JobNames
 from lmi import LiteLLMModel
 from pydantic import BaseModel, Field, PrivateAttr, model_validator
 
@@ -286,7 +287,7 @@ class RobinConfiguration(BaseModel):
     llm_name: str = "o4-mini"
     llm_config: dict | None = Field(default_factory=get_default_llm_config)
     agent_settings: AgentConfig = Field(default_factory=AgentConfig)
-    _fh_client: FutureHouseClient | None = PrivateAttr(default=None)
+    _fh_client: EdisonClient | None = PrivateAttr(default=None)
     _llm_client: LiteLLMModel | None = PrivateAttr(default=None)
 
     @model_validator(mode="after")
@@ -298,7 +299,7 @@ class RobinConfiguration(BaseModel):
         return self
 
     @property
-    def fh_client(self) -> FutureHouseClient:
+    def fh_client(self) -> EdisonClient:
         if self._fh_client is None:
             api_key = os.getenv("FUTUREHOUSE_API_KEY") or self.futurehouse_api_key
             if not api_key:
@@ -306,7 +307,10 @@ class RobinConfiguration(BaseModel):
                     "FutureHouse API key is not set. Please provide it in the"
                     " configuration or set FUTUREHOUSE_API_KEY env variable."
                 )
-            self._fh_client = FutureHouseClient(api_key=api_key)
+            self._fh_client = EdisonClient(
+                api_key=api_key,
+                service_uri="https://dev.api.platform.edisonscientific.com"
+            )
         return self._fh_client
 
     @property

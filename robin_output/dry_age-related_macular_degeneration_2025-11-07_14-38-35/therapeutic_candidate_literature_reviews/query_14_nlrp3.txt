@@ -1,0 +1,44 @@
+Query: NLRP3 inflammasome activation in RPE AND its causal role in tight junction disruption and barrier integrity loss in dry age-related macular degeneration models, including patient-derived iPSC-RPE studies, in vivo AMD models, and cytokine profile analysis
+
+Below are five commercially available small‐molecule inhibitors you can rapidly source and test in RPE‐based dry AMD models to block NLRP3 inflammasome–driven tight‐junction loss. All have strong target validation (genetic and pharmacologic evidence), clear mechanisms, and—in most cases—yet to be published in AMD/RPE systems. Catalog numbers are given for MedChemExpress (MCE) or Sigma-Aldrich when available.
+
+1. MCC950 (a.k.a. CP-456,773)  
+   • Mechanism: Direct, highly selective blockade of NLRP3 NACHT‐domain ATPase activity. Prevents NLRP3 oligomerization, ASC speck formation, caspase-1 activation and IL-1β/IL-18 release.  
+   • Validation: Genetic NLRP3 knock-out phenocopies MCC950’s anti-inflammatory effects in macrophages, microglia, and epithelial barrier models. In diabetic retinopathy and colitis models, MCC950 preserves barrier integrity via NLRP3 inhibition.  
+   • Rationale for AMD: NLRP3 activation in patient iPSC-RPE parallels barrier breakdown (loss of ZO-1, decreased TEER). MCC950 should “rescue” tight junctions by blocking the upstream sensor.  
+   • Novelty: Despite widespread use in systemic inflammation, MCC950 has not yet been reported in dry AMD or RPE barrier studies.  
+   • Source: MedChemExpress, Cat. #HY-12815  
+
+2. OLT1177 (Dapansutrile)  
+   • Mechanism: Orally bioavailable β‐sulfonyl nitrile small molecule that inhibits NLRP3 ATPase activity, selectively blocking inflammasome assembly.  
+   • Validation: Phase I/II safety data in gout and heart failure; preclinical rodent colitis and neuroinflammation models show reduced IL-1β, maintained epithelial tight junctions via NLRP3 suppression.  
+   • Rationale for AMD: Patient‐derived RPE show NLRP3‐dependent IL‐1β secretion drives junctional disruption. OLT1177’s clinical safety and barrier‐protective profile make it attractive for “dry” AMD topical or intravitreal formulations.  
+   • Novelty: No published use in AMD or RPE barrier assays; opens translational path from cardiovascular/gout to ophthalmology.  
+   • Source: MedChemExpress, Cat. #HY-12497  
+
+3. CY-09  
+   • Mechanism: Binds directly to NLRP3 Walker A motif, preventing ATP binding and blocking inflammasome activation without affecting NLRC4 or AIM2.  
+   • Validation: Robust blockade of IL-1β release in macrophages, pancreatic islets, and keratinocytes. Genetic “knock‐in” of ATP‐binding mutants phenocopies CY-09.  
+   • Rationale for AMD: Highly mechanistic specificity for NLRP3 with minimal off‐target activity—ideal for dissecting NLRP3’s role in RPE tight‐junction loss and barrier function.  
+   • Novelty: Not yet evaluated in eye or AMD models; ideal first‐in‐RPE study to establish proof of concept.  
+   • Source: MedChemExpress, Cat. #HY-100769  
+
+4. VX-765 (Belnacasan)  
+   • Mechanism: Prodrug of VRT043198; selective, irreversible inhibitor of caspase-1, thus blocking cleavage of IL-1β, IL-18, and gasdermin D–mediated pyroptosis.  
+   • Validation: Genetic caspase-1 knockouts and VX-765 treatment reduce barrier loss in endothelial and epithelial injury models; safety data from human trials in epilepsy and psoriasis.  
+   • Rationale for AMD: Caspase-1 inhibition should prevent both cytokine maturation and gasdermin D pore formation in RPE, thereby preserving ZO-1 organization and TEER in cytokine‐driven AMD models.  
+   • Novelty: Caspase-1 inhibitors are unexplored in RPE and AMD; offers orthogonal approach downstream of NLRP3 sensor activation.  
+   • Source: MedChemExpress, Cat. #HY-15575  
+
+5. Disulfiram  
+   • Mechanism: Repurposed ALDH inhibitor that also covalently modifies gasdermin D, blocking its pore‐forming activity and preventing pyroptotic cell death.  
+   • Validation: In macrophages and hepatocytes, disulfiram prevents gasdermin D–dependent IL-1β release and membrane rupture without affecting upstream priming. In murine endotoxemia, it protects barrier tissues.  
+   • Rationale for AMD: Even if NLRP3 and caspase-1 are activated in RPE, gasdermin D blockade preserves cellular integrity and tight junctions. Provides a unique “pore‐centric” intervention.  
+   • Novelty: No reported use in ocular RPE or AMD; leverages an FDA‐approved drug with well‐characterized pharmacology.  
+   • Source: Sigma-Aldrich, Cat. #D9775  
+
+Next Steps  
+• Acquire compounds and confirm target engagement in patient-derived iPSC-RPE (e.g., measure ASC specks, caspase-1 p20, IL-1β release).  
+• Assess barrier integrity by TEER, ZO-1/occludin immunofluorescence, and paracellular tracer flux under inflammasome‐activating conditions (e.g., A2E + Blue light or C1q/TNFα priming).  
+• Advance the top candidate into in vivo “dry” AMD models (e.g., NLRP3‐overexpressing mice or sodium iodate injury) to confirm rescue of RPE barrier and retinal function.
+

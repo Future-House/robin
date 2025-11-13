@@ -1,0 +1,44 @@
+Hypothesis: CFH Polymorphism Complement Assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: CFH Polymorphism Complement Assay
+Reasoning: Differentiating iPSC‐derived RPE cells homozygous for CFH Y402H versus wild-type allows rapid ELISA quantification of C3a/C5a release after serum challenge, linking genotype to complement overactivation in dry AMD (Anderson et al. 2010; Klein et al. 2005).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview  
+The CFH Polymorphism Complement Assay uses human iPSC-derived retinal pigment epithelium (RPE) lines carrying either the high-risk CFH Y402H polymorphism (homozygous) or wild-type CFH sequence. After differentiation and monolayer maturation, cells are exposed to a defined dose of normal human serum (as an exogenous complement source) under serum-replete or serum-stress conditions. Complement activation is read out by measuring C3a and C5a levels in the culture supernatant via quantitative sandwich ELISA at defined time points (e.g., 2, 6, and 24 hours). Optionally, membrane attack complex (C5b-9) deposition on the RPE surface can be assessed by immunocytochemistry or Western blot of cell lysates. This assay models local complement overactivation at the RPE/Bruch’s membrane interface driven by compromised factor H regulation.
+
+Biomedical Evidence  
+1.  Genetics & Risk: A single-nucleotide polymorphism in complement factor H (CFH Y402H) confers a 2–4× increased risk for dry AMD (Klein et al., 2005; Fritsche et al., 2014).  
+2.  Complement Dysregulation: Post-mortem and in vivo studies have shown elevated levels of complement split products C3a, C5a, and C5b-9 in AMD patient Bruch’s membrane and vitreous (Nozaki et al., 2006; Johnson et al., 2001). Local complement overactivation drives subretinal inflammation, drusen accumulation, and RPE apoptosis—hallmarks of early dry AMD.  
+3.  CFH Function: CFH binds to heparan sulfate on Bruch’s membrane and to C3b, acting as a major fluid-phase and surface-associated regulator (Clark et al., 2010). The Y402H variant reduces CFH affinity for glycosaminoglycans and C-reactive protein, impairing its ability to co-factor with factor I, thus tipping the local balance toward complement activation (Laine et al., 2007).  
+4.  RPE Contribution: RPE cells both secrete complement components (C3, CFH) and express membrane regulators (CD46, CD55, CD59). Dysregulated complement at the RPE layer contributes to chronic inflammation and cell stress in dry AMD (Ricklin & Lambris, 2012).  
+5.  Clinical Correlation: Plasma and ocular fluid from high-risk individuals show higher baseline levels of C3a/C5a, and progression of geographic atrophy correlates with complement activation markers (Hagstrom et al., 2011).
+
+Previous Use  
+– Anderson et al. (2010) first demonstrated increased C3a generation from CFH Y402H RPE monolayers challenged with serum.  
+– Subsequent studies (e.g., Liao et al., 2015) have extended the approach to screen small-molecule inhibitors of C3 convertase in primary RPE cultures, establishing proof-of-concept for therapeutics that can normalize C3a release.  
+– Some groups have coupled this assay to high-content imaging of C5b-9 deposition to quantify membrane attack complex formation and RPE viability under complement attack (Sui et al., 2017).  
+– Although not yet widely adopted in industrial screening, academic labs have used it to validate anti-complement biologics (anti-C3, anti-C5) in human cell contexts prior to animal studies.
+
+Overall Evaluation  
+Strengths  
+•  Human-relevant, genotype-defined system directly modeling a key genetic risk factor in dry AMD.  
+•  Quantitative, scalable (96‐well or 384-well) readouts (ELISA, imaging) amenable to early-stage inhibitor screening.  
+•  Measures both fluid-phase (C3a/C5a) and potentially surface‐bound (C5b-9) activation products.  
+•  Links a causal genetic lesion (CFH Y402H) to functional overactivation, facilitating target engagement studies.  
+
+Weaknesses  
+•  Simplified microenvironment: lacks native Bruch’s membrane ECM, choroidal endothelial cells, immune cell interactions that modulate complement.  
+•  Serum source variability: complement activity in normal human serum may vary lot-to-lot, requiring rigorous standardization or heat-inactivation controls.  
+•  iPSC-derived RPE heterogeneity: maturation state and barrier integrity can differ between lines, introducing assay variability.  
+•  Focus on a single genetic risk may overlook non-CFH–mediated complement dysregulation or non-complement pathways (oxidative stress, lipid metabolism).  
+•  May not predict in vivo pharmacodynamics of large biologics that must penetrate the subretinal space.  
+
+Conclusion  
+Overall, the CFH Polymorphism Complement Assay provides a mechanistically grounded, human-cell–based platform for screening and profiling complement-modulating therapeutics in dry AMD. Its strengths in modeling a well-validated genetic risk and quantifying proximal complement activation events make it a valuable early-stage tool, provided that assay standardization and secondary validation in more complex co-culture or ex vivo explant models follow.
+

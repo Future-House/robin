@@ -1,0 +1,26 @@
+Query: Dysregulation of mitochondrial dynamics and bioenergetics in RPE from dry AMD patients, and its impact on ATP-dependent phagocytosis processes, supported by metabolomic, proteomic, and functional phagocytosis assays, plus studies modulating mitochondrial fusion/fission proteins
+
+Proteomic studies reveal that RPE cells from dry AMD patients exhibit significant alterations in mitochondrial proteins, including reduced ATP synthase subunits and lower expression of mitochondrial chaperones (mtHsp70, HSP60), which compromise mitochondrial integrity (si2023theroleof pages 7-9, brooks2023roleofmitophagy pages 5-6). Metabolomic analyses further corroborate these findings by demonstrating declines in key cofactors such as NAD⁺ and riboflavin, with an accumulation of upstream substrates that indicates impaired oxidative phosphorylation and a compensatory shift toward glycolysis (tong2022roleofmitochondria pages 7-8, rego2023therolethe pages 33-36). These bioenergetic deficits result in reduced ATP availability, consequently impairing ATP-dependent functions such as the phagocytosis of photoreceptor outer segments—a process essential for retinal homeostasis (fisher2018perspectiveonamd pages 3-5, fisher2018perspectiveonamd pages 2-3).
+
+Functional assays in AMD models have documented notably diminished phagocytic capacity, and pharmacological studies using mitochondrial fission inhibitors (e.g., Mdivi-1) have shown that restoring the balance of fission and fusion can improve phagocytosis (si2023theroleof pages 7-9, buonfiglio2024recentadvancesin pages 10-12). However, while these multi-omics and functional data strongly support a link between disrupted mitochondrial dynamics and compromised ATP-dependent phagocytosis, direct genetic or targeted pharmacological interventions modulating specific fusion/fission proteins (such as DRP1, MFN1/2, or OPA1) remain underexplored (brooks2023roleofmitophagy pages 5-6, tong2022roleofmitochondria pages 4-6).
+
+RPE dysfunction in dry AMD is associated with impaired mitochondrial bioenergetics leading to a reduced ATP pool, which compromises critical phagocytic processes. Modulation of mitochondrial dynamics shows promise in restoring function, highlighting the need for focused studies on fusion/fission protein interventions.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/cb47132d-d691-42c7-bdaf-448de8a63523
+
+References:
+1. (si2023theroleof pages 7-9): Zhibo Si, Yajuan Zheng, and Jing Zhao. The role of retinal pigment epithelial cells in age-related macular degeneration: phagocytosis and autophagy. Biomolecules, 13:901, May 2023. URL: https://doi.org/10.3390/biom13060901, doi:10.3390/biom13060901. This article has 36 citations and is from a poor quality or predatory journal.
+
+2. (brooks2023roleofmitophagy pages 5-6): Calvin D. Brooks, Bindu Kodati, Dorota L. Stankowska, and Raghu R. Krishnamoorthy. Role of mitophagy in ocular neurodegeneration. Frontiers in Neuroscience, Oct 2023. URL: https://doi.org/10.3389/fnins.2023.1299552, doi:10.3389/fnins.2023.1299552. This article has 12 citations and is from a peer-reviewed journal.
+
+3. (tong2022roleofmitochondria pages 7-8): Yao Tong, Zunyi Zhang, and Shusheng Wang. Role of mitochondria in retinal pigment epithelial aging and degeneration. Frontiers in Aging, Jul 2022. URL: https://doi.org/10.3389/fragi.2022.926627, doi:10.3389/fragi.2022.926627. This article has 70 citations and is from a poor quality or predatory journal.
+
+4. (rego2023therolethe pages 33-36): IR Rego. The role the mitochondrial chaperone trap1 in the retinal pigment epithelium. Unknown journal, 2023.
+
+5. (fisher2018perspectiveonamd pages 3-5): Cody R. Fisher and Deborah A. Ferrington. Perspective on amd pathobiology: a bioenergetic crisis in the rpe. Investigative Opthalmology &amp; Visual Science, 59:AMD41, Jun 2018. URL: https://doi.org/10.1167/iovs.18-24289, doi:10.1167/iovs.18-24289. This article has 219 citations.
+
+6. (fisher2018perspectiveonamd pages 2-3): Cody R. Fisher and Deborah A. Ferrington. Perspective on amd pathobiology: a bioenergetic crisis in the rpe. Investigative Opthalmology &amp; Visual Science, 59:AMD41, Jun 2018. URL: https://doi.org/10.1167/iovs.18-24289, doi:10.1167/iovs.18-24289. This article has 219 citations.
+
+7. (buonfiglio2024recentadvancesin pages 10-12): Francesco Buonfiglio, Christina A. Korb, Bernhard Stoffelns, Norbert Pfeiffer, and Adrian Gericke. Recent advances in our understanding of age-related macular degeneration: mitochondrial dysfunction, redox signaling, and the complement system. Aging and Disease, 16:1535-1575, Jan 2024. URL: https://doi.org/10.14336/ad.2024.0124, doi:10.14336/ad.2024.0124. This article has 23 citations and is from a peer-reviewed journal.
+
+8. (tong2022roleofmitochondria pages 4-6): Yao Tong, Zunyi Zhang, and Shusheng Wang. Role of mitochondria in retinal pigment epithelial aging and degeneration. Frontiers in Aging, Jul 2022. URL: https://doi.org/10.3389/fragi.2022.926627, doi:10.3389/fragi.2022.926627. This article has 70 citations and is from a poor quality or predatory journal.

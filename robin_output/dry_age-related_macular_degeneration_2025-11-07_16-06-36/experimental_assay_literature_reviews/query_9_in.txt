@@ -1,0 +1,62 @@
+Query: In vitro co-culture and organ-on-chip systems recapitulating RPE-Bruch’s membrane-choroid interactions in dry AMD: optimization of extracellular matrix composition, endothelial–RPE crosstalk, barrier permeability assays, microfluidic perfusion parameters, and real-time imaging of cell–cell interactions
+
+1. Hypothesis: Increased Bruch’s membrane stiffness from advanced glycation endproduct (AGE) crosslinking disrupts RPE polarization via YAP/TAZ nuclear translocation.  
+   • Method: Fabricate chips with tunable collagen–elastin ECM treated with varying doses of glyoxal.  
+   • Readouts: TEER, immunofluorescent ZO-1/occludin distribution, YAP/TAZ localization, RPE transepithelial uptake of fluorescent photoreceptor outer segments (POS).
+
+2. Hypothesis: Drusen-associated β-amyloid oligomers deposited in BrM reduce choroidal endothelial fenestrations and elevate barrier permeability.  
+   • Method: Incorporate synthetic Aβ42 oligomers into ECM layer; co-culture iPSC-derived RPE with human choroidal endothelial cells under flow.  
+   • Readouts: Trans-ECM dextran flux, endothelial fenestrae density (scanning EM), IL-8/CXCL1 secretion.
+
+3. Hypothesis: RPE-secreted complement C3a amplifies choroidal endothelial inflammation and junctional breakdown.  
+   • Method: Stimulate RPE with photo-oxidative stress; add exogenous C3a or a C3aR antagonist; perfuse choroid compartment.  
+   • Readouts: Endothelial ICAM-1, VCAM-1 by flow cytometry, TEER drop, monocyte adhesion under flow.
+
+4. Hypothesis: Acute oxidative pulses in RPE trigger release of VEGF-rich extracellular vesicles (EVs) that prime choroidal angiogenic pathways.  
+   • Method: Apply H2O2 pulses to RPE, collect EVs from basolateral flow, add to naïve endothelial cultures.  
+   • Readouts: EV quantification (NTA), VEGF content (ELISA), endothelial tube-formation assay on Matrigel.
+
+5. Hypothesis: Shifts in laminin isoform composition (LM511 vs. LM521) of the ECM alter RPE integrin α3β1 signaling and reduce POS phagocytosis.  
+   • Method: Pattern ECM coatings with graded LM511/LM521 ratios on chip membranes.  
+   • Readouts: α3β1 activation (phospho-FAK), POS uptake assay (fluorescently labeled), RPE transepithelial resistance.
+
+6. Hypothesis: Mitochondrial dysfunction in RPE leads to mtDNA release into the sub-RPE space and activates NLRP3 inflammasomes in adjacent macrophage-like cells.  
+   • Method: Treat RPE with rotenone; co-culture with iPSC-derived macrophages; include NLRP3 inhibitor MCC950.  
+   • Readouts: IL-1β release, caspase-1 activation (Western blot), MtDNA quantification in perfusate.
+
+7. Hypothesis: AGE-mediated ECM stiffening increases paracellular leak of serum proteins across the RPE–BrM–choroid axis.  
+   • Method: Generate ECM of increasing stiffness via ribose crosslinking; perfuse fluorescently labeled albumin.  
+   • Readouts: Albumin flux rate, TEER, confocal z-stacks for junction morphology.
+
+8. Mechanistic interrogation: Role of microglia-derived cytokines in driving RPE de-differentiation under chronic low-grade inflammation.  
+   • Method: Integrate primary human microglia in a third channel; activate with low-dose LPS; perfuse cytokine mix.  
+   • Readouts: RPE expression of BEST1, RPE65 by qPCR, tight junction integrity.
+
+9. Therapeutic strategy: Test matrix metalloproteinase (MMP) activators to restore ECM turnover in aged BrM and rescue barrier function.  
+   • Method: Add small-molecule MMP-2/9 activators to the choroid side; monitor ECM degradation.  
+   • Readouts: Collagen IV degradation (fluorescent peptide probes), TEER recovery, RPE transepithelial transport of nutrients.
+
+10. Therapeutic strategy: Evaluate the AGE-crosslink breaker alagebrium on ECM mechanics and RPE barrier integrity.  
+    • Method: Pre-treat aged ECM constructs with alagebrium; measure stiffness by atomic force microscopy (AFM).  
+    • Readouts: AFM stiffness maps, TEER, RPE ZO-1 continuity, permeability to 70 kDa dextran.
+
+11. Therapeutic strategy: Delivery of nanoparticle-encapsulated complement factor H (CFH) to RPE to dampen local complement activation.  
+    • Method: Perfuse CFH-lipid nanoparticles basolaterally; include a control non-encapsulated CFH.  
+    • Readouts: C3b deposition (immunostain), TEER, cytokine multiplex panel.
+
+12. Therapeutic strategy: AAV-mediated overexpression of mitochondrial superoxide dismutase (SOD2) in RPE to mitigate oxidative injury.  
+    • Method: Transduce RPE with AAV2/8-SOD2; compare to GFP control; apply oxidative stress.  
+    • Readouts: MitoSOX fluorescence, cell viability (LDH release), TEER resilience.
+
+13. Therapeutic screening: Anti-VEGF RNA aptamers delivered via continuous microfluidic perfusion to modulate RPE-derived VEGF signaling.  
+    • Method: Incorporate aptamer reservoirs; adjust flow rates to mimic subretinal dosing.  
+    • Readouts: Basolateral VEGF levels, choroidal endothelial proliferation, barrier leak.
+
+14. Mechanistic: Influence of circadian synchronization on RPE phagocytic peak and barrier tightness.  
+    • Method: Cycle light exposure in chip incubator over 24-hour rhythm; measure phagocytosis at defined Zeitgeber times.  
+    • Readouts: POS uptake kinetics, rhythmic expression of BMAL1/CLK, TEER oscillations.
+
+15. Therapeutic delivery: Injectable hyaluronic-acid hydrogel loaded with IL-10 in the sub-RPE compartment to locally suppress inflammation and stabilize barrier function.  
+    • Method: Embed IL-10 in hydrogel microdots beneath RPE layer; evaluate sustained release.  
+    • Readouts: Local cytokine gradients, TEER maintenance under inflammatory challenge, RPE morphology by live-cell imaging.
+

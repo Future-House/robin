@@ -1,0 +1,270 @@
+Therapeutic Candidate 1:
+Candidate: Trehalose (Sigma T9531)
+Hypothesis: Trehalose will restore lysosomal acidification and enhance cathepsin D–mediated autophagy in RPE by promoting TFEB nuclear translocation, thereby improving clearance of lipofuscin-like debris and slowing geographic atrophy progression in dry AMD.
+Reasoning: Trehalose is a disaccharide autophagy enhancer that activates TFEB via AMPK‐dependent mTORC1 inhibition, increasing CLEAR network gene expression (including V-ATPase subunits and CTSD). In iPSC‐RPE and animal GA models, trehalose has been shown to lower lysosomal pH, boost CTSD activity, and reduce A2E accumulation without cytotoxicity. Its favorable safety (GRAS status), water solubility, and blood–retinal barrier penetration support rapid repurposing. Mechanistically specific TFEB activation distinguishes trehalose from nonspecific mTOR inhibitors, offering preclinical efficacy in RPE stress models and facilitating clinical translation.
+
+Therapeutic Candidate 2:
+Candidate: Sulforaphane (Sigma S4441)
+Hypothesis: Sulforaphane will engage NRF2 and TFEB pathways in RPE cells under oxidative stress to coordinate antioxidant defense and lysosomal biogenesis, normalizing lysosomal pH and restoring cathepsin D proteolytic function to mitigate dry AMD pathology.
+Reasoning: Sulforaphane, a natural isothiocyanate, induces NRF2‐driven antioxidant genes and promotes TFEB nuclear translocation via NRF2‐mTORC1 crosstalk. In RPE oxidative stress models, sulforaphane reduces ROS, enhances LAMP1‐positive lysosome number, and increases CTSD maturation. Its oral safety profile in human trials and detectable ocular tissue levels enable repurposing. The dual NRF2/TFEB mechanism provides specificity for oxidative and lysosomal dysfunction central to GA, differentiating sulforaphane from single-pathway modulators.
+
+Therapeutic Candidate 3:
+Candidate: ML-SA1 (Tocris 475342)
+Hypothesis: ML-SA1 will activate the lysosomal Ca2+ channel TRPML1 in RPE cells, triggering calcineurin‐dependent TFEB dephosphorylation, augmenting lysosomal acidification and cathepsin D activity to accelerate phagosome‐lysosome fusion and clear drusen precursors in dry AMD.
+Reasoning: ML-SA1 is a selective TRPML1 agonist shown to increase lysosomal Ca2+ release, stimulate TFEB nuclear import, and upregulate lysosomal hydrolases. In neurodegeneration and RPE‐like models ML‐SA1 restored autophagic flux and cathepsin activity. Its cell‐permeable, small‐molecule nature, known PK and low toxicity in rodents support development. TRPML1 target validation in RPE highlights mechanistic specificity over broad mTOR inhibitors and offers a novel route to correct lysosomal acidification in GA.
+
+Therapeutic Candidate 4:
+Candidate: Torin1 (Tocris 475991)
+Hypothesis: Torin1 will potently inhibit mTORC1/2 in RPE cells, releasing repression of TFEB/TFE3, thereby inducing lysosomal biogenesis, acidification, and cathepsin D activity to ameliorate lysosomal clearance defects in dry AMD.
+Reasoning: Torin1 is a selective ATP‐competitive mTORC1/2 inhibitor with nanomolar potency. In preclinical RPE and iPSC models, mTORC1 inhibition upregulates CLEAR genes, increases V-ATPase subunits, and enhances CTSD maturation and activity. Torin1’s defined kinase selectivity and robust in vivo efficacy in autophagy‐deficiency models support translational feasibility. Its deep mechanistic specificity differentiates it from partial mTOR inhibitors and aligns with target validation in GA mouse lines.
+
+Therapeutic Candidate 5:
+Candidate: MK-2206 (Selleckchem S1078)
+Hypothesis: MK-2206 will allosterically inhibit AKT2 in RPE, reducing AKT2‐mediated TFEB/TFE3 phosphorylation, thus promoting nuclear TFEB activity, improving lysosomal acidification, and increasing cathepsin D function to counteract drusen accumulation in dry AMD.
+Reasoning: AKT2 hyperactivity is implicated in CFH risk RPE models that suppress TFEB. MK-2206 blocks AKT2, restoring TFEB‐driven lysosomal gene transcription and V-ATPase expression; preclinical work shows restored CTSD activity and reduced lipofuscin in Akt2‐KI mice. MK-2206 has completed Phase I oncology trials, with known safety and PK, facilitating repurposing. The AKT2–TFEB axis provides strong target validation specific to AMD pathophysiology.
+
+Therapeutic Candidate 6:
+Candidate: Eltanexor (KPT-8602; MedKoo 406829)
+Hypothesis: Eltanexor will inhibit nuclear exportin XPO1 in RPE cells, promoting nuclear retention of TFEB/TFE3 to amplify lysosomal gene expression, lower lysosomal pH, and enhance cathepsin D–mediated cargo degradation in dry AMD.
+Reasoning: XPO1 inhibitors like eltanexor increase nuclear TFEB levels, boosting CLEAR network activation independently of upstream mTOR/AKT. Preclinical data in neurodegeneration and retinal models show improved autophagy and hydrolase function. Eltanexor’s oral bioavailability and Phase I safety data support translational feasibility. Mechanistic specificity for nuclear export regulation distinguishes it from other TFEB modulators.
+
+Therapeutic Candidate 7:
+Candidate: Genistein (Sigma G6649)
+Hypothesis: Genistein will inhibit tyrosine kinases and mTORC1 signaling in RPE, triggering TFEB activation, enhancing lysosomal acidification and cathepsin D activity to facilitate phagolysosome function and drusen clearance in dry AMD.
+Reasoning: Genistein, a phytoestrogen, suppresses PI3K/AKT/mTOR pathways and upregulates autophagy and lysosomal genes in various cell types. In RPE‐like models, genistein increases LC3 turnover and raises CTSD levels. Its oral safety in humans, known ocular distribution, and dual kinase/autophagy modulation support repurposing. Specific inhibition of upstream kinases offers mechanistic clarity compared with broad autophagy enhancers.
+
+Therapeutic Candidate 8:
+Candidate: 2-Hydroxypropyl-β-cyclodextrin (HPβCD; Sigma C0926)
+Hypothesis: HPβCD will mobilize cholesterol from RPE lysosomal membranes, restoring lipid microdomains essential for v-ATPase assembly, normalizing lysosomal pH, and boosting cathepsin D–mediated autophagy to reduce drusen lipids in dry AMD.
+Reasoning: HPβCD is approved for Niemann–Pick type C, shown to extract lysosomal cholesterol, stabilize v-ATPase function, and enhance CTSD activity in neural cells. In RPE culture, HPβCD reduces lipid‐laden lysosomes and improves acidification. Clinical safety profile and ocular penetration via systemic dosing support development. The lipid‐targeting strategy directly addresses drusen‐associated cholesterol burden with mechanistic specificity.
+
+Therapeutic Candidate 9:
+Candidate: MCC950 (AdipoGen AG-CRID3)
+Hypothesis: MCC950 will inhibit NLRP3 inflammasome activation in RPE cells, reducing caspase-1–mediated lysosomal membrane destabilization, preserving v-ATPase function and cathepsin D activity to prevent chronic inflammation and RPE loss in dry AMD.
+Reasoning: MCC950 is a potent, selective NLRP3 inhibitor that reduces IL-1β/IL-18 release and pyroptosis in RPE inflammasome models. In CFH risk RPE, NLRP3 inhibition restores lysosomal integrity and CTSD maturation. Preclinical ocular safety in rodents and translational readouts of inflammasome biomarkers support feasibility. Targeting inflammasome directly addresses inflammation‐driven lysosomal damage in GA.
+
+Therapeutic Candidate 10:
+Candidate: Pegcetacoplan (APL-2; Apellis)
+Hypothesis: Pegcetacoplan will inhibit complement C3 activation on RPE surfaces, preventing MAC deposition–induced lysosomal overload and v-ATPase inhibition, thereby preserving cathepsin D activity and RPE survival to slow geographic atrophy in dry AMD.
+Reasoning: Pegcetacoplan is a compstatin analog shown in Phase III to slow GA growth. C3 blockade reduces sub‐RPE deposit formation and inflammasome priming in preclinical RPE models, indirectly improving lysosomal acidification and CTSD function. Established intravitreal dosing, ocular tolerability, and biomarker data validate this approach. The complement–lysosome link offers mechanistic specificity.
+
+Therapeutic Candidate 11:
+Candidate: Avacincaptad pegol (Zimura; Iveric Bio)
+Hypothesis: Avacincaptad pegol will inhibit complement C5 activation in the subretinal space, preventing C5b-9 formation on RPE membranes, preserving lysosomal acidification and cathepsin D activity to protect against GA lesion enlargement.
+Reasoning: Avacincaptad pegol reduced GA progression in Phase III trials. C5 inhibition in RPE reduces MAC‐driven LMP, sustaining v-ATPase function and CTSD maturation. Its intravitreal safety and established dosing expedite development. The targeted C5 blockade directly addresses terminal complement–lysosomal cross‐talk in AMD pathogenesis.
+
+Therapeutic Candidate 12:
+Candidate: Recombinant human pro-cathepsin D (R&D Systems 1869-CD)
+Hypothesis: Exogenous pro-cathepsin D delivered to the subretinal space will supplement endogenous CTSD in RPE lysosomes, compensating for maturation deficits, restoring proteolytic flux, and preventing drusen accumulation in dry AMD.
+Reasoning: Pro-CTSD injection has rescued CatD deficiency in mouse models. Subretinal delivery enables uptake via mannose-6-phosphate receptors into RPE lysosomes, bypassing upstream acidification defects. R&D Systems proCTSD is GMP-compatibility certified, with preclinical safety in genetic CTSD deficiency. Mechanistic supplementation of the rate‐limiting hydrolase offers specificity over indirect modulators.
+
+Therapeutic Candidate 13:
+Candidate: Urolithin A (Sigma SML1791)
+Hypothesis: Urolithin A will activate mitophagy in RPE by inducing PINK1/Parkin signaling and lysosomal biogenesis via AMPK–TFEB, indirectly enhancing lysosomal acidification and cathepsin D–dependent clearance of damaged mitochondria and POS, protecting RPE in dry AMD.
+Reasoning: Urolithin A is a gut‐microbiome–derived mitophagy enhancer shown in preclinical and early human studies to improve mitochondrial quality and induce TFEB‐driven lysosomal genes. In oxidative stress RPE models, urolithin A reduces mitochondrial ROS, upregulates LAMP1, and increases CTSD activity. Favorable safety in Phase I and oral bioavailability support rapid translation. Its dual mitophagy–lysosome boost targets mitochondrial and lysosomal arms of AMD pathology.
+
+Therapeutic Candidate 14:
+Candidate: Nicotinamide riboside (NR; ChromaDex Niagen)
+Hypothesis: NR will elevate intracellular NAD+ in RPE, activating SIRT1/SIRT3 to deacetylate and activate TFEB and mitochondrial regulators, thereby restoring lysosomal acidification, boosting cathepsin D activity, and improving RPE survival under oxidative stress in dry AMD.
+Reasoning: NR is a NAD+ precursor with documented retinal distribution in rodents. NAD+ boosting activates sirtuins, leading to TFEB dephosphorylation and enhanced autophagy, plus mitochondrial rejuvenation via PGC-1α. Preclinical ocular benefit and demonstrated safety in human trials make NR development-ready. The NAD+–sirtuin–TFEB axis provides mechanistic specificity for dual organelle health in AMD.
+
+Therapeutic Candidate 15:
+Candidate: SRT1720 (Sigma SML0271)
+Hypothesis: SRT1720 will activate SIRT1 in RPE, promoting deacetylation and activation of TFEB, enhancing lysosomal acidification and cathepsin D protease activity to alleviate POS debris accumulation in dry AMD.
+Reasoning: SRT1720 is a selective SIRT1 agonist shown to induce autophagy and CLEAR network gene expression. In RPE‐like cells, SIRT1 activation increases LAMP2 and CTSD expression, improving lysosomal flux under oxidative stress. Although initial development targeted metabolic disease, SRT1720’s known PK and tolerability in rodents support repurposing. Mechanistic specificity for epigenetic regulation of lysosomal genes differentiates it from mTOR inhibitors.
+
+Therapeutic Candidate 16:
+Candidate: ZLN005 (Sigma SML1649)
+Hypothesis: ZLN005 will activate PGC-1α in RPE cells, upregulating mitochondrial biogenesis and cooperating with TFEB to enhance lysosomal acidification and cathepsin D activity, thereby improving phagosome clearance in dry AMD.
+Reasoning: ZLN005 induces PGC-1α expression and mitochondrial respiration, reducing ROS in RPE models. PGC-1α co‐activates TFEB, amplifying lysosomal gene expression. Improved mitochondrial–lysosomal coupling raises CTSD activity and reduces lipofuscin in preclinical retina studies. Oral bioavailability and rodent safety profile support feasibility. The dual PGC-1α/TFEB activation offers novel cross-organelle specificity.
+
+Therapeutic Candidate 17:
+Candidate: Rapamycin (Sigma R0395)
+Hypothesis: Rapamycin will inhibit mTORC1 in RPE, releasing TFEB to the nucleus, increasing lysosomal biogenesis, acidification, and cathepsin D–dependent degradation of drusen components to slow GA progression.
+Reasoning: Rapamycin is a clinically approved mTORC1 inhibitor with extensive safety data. In RPE models, rapamycin enhances autophagic flux, raises CTSD activity, and reduces A2E burden. Submicromolar potency and ocular penetration in animal studies enable repurposing. The well‐characterized mTORC1–TFEB pathway provides strong target validation.
+
+Therapeutic Candidate 18:
+Candidate: Everolimus (Afinitor; Novartis)
+Hypothesis: Everolimus will inhibit mTORC1 in RPE cells, promoting TFEB activation, boosting V-ATPase subunit expression and cathepsin D activity to restore lysosomal function and clear pathological debris in dry AMD.
+Reasoning: Everolimus is an FDA‐approved rapalog with known ocular PK after systemic dosing. In RPE cultures, everolimus increases LC3 turnover and CTSD maturation, improving POS clearance. Its oral formulation, clinical tolerability, and established dosing make it a feasible repurposing candidate. Mechanistic specificity for mTORC1 supports translational confidence.
+
+Therapeutic Candidate 19:
+Candidate: Temsirolimus (Torisel; Pfizer)
+Hypothesis: Temsirolimus will selectively inhibit mTORC1 in RPE, activating TFEB‐mediated lysosomal gene expression, enhancing lysosomal acidification and cathepsin D activity to attenuate GA lesion growth in dry AMD.
+Reasoning: Temsirolimus is a prodrug rapalog with parenteral use and known safety in cancer patients. Preclinical RPE work shows rapalogs restore lysosomal pH and CTSD maturation. Intravitreal or systemic delivery could be optimized for ocular exposure. The clinical experience with rapalogs aids risk assessment.
+
+Therapeutic Candidate 20:
+Candidate: Torin2 (Selleckchem S2813)
+Hypothesis: Torin2 will potently inhibit mTORC1 and mTORC2 in RPE, enhancing TFEB/TFE3‐dependent lysosomal biogenesis, acidification, and cathepsin D activation to correct degradative defects in dry AMD.
+Reasoning: Torin2 is a second‐generation mTOR inhibitor with improved in vivo stability. In cell models, Torin2 more completely dephosphorylates TFEB than rapamycin. Enhanced induction of lysosomal genes and hydrolase activity has been observed in autophagy‐deficient models. Known PK and tolerability in rodents support translational evaluation in GA.
+
+Therapeutic Candidate 21:
+Candidate: VX-765 (Belnacasan; Selleckchem S2731)
+Hypothesis: VX-765 will inhibit caspase-1 in RPE, preventing inflammasome‐mediated lysosomal membrane permeabilization, preserving v-ATPase activity and cathepsin D function to reduce RPE death in dry AMD.
+Reasoning: VX-765 is an orally bioavailable caspase-1 inhibitor with Phase II safety data. In RPE inflammasome models, caspase-1 inhibition reduces IL-1β release, stabilizes lysosomal integrity, and restores CTSD maturation. The direct blockade of caspase-1 addresses LMP amplification of inflammation and lysosomal failure in GA.
+
+Therapeutic Candidate 22:
+Candidate: AZD9056 (Axellus)
+Hypothesis: AZD9056 will antagonize P2X7 receptors on RPE, preventing ATP‐driven inflammasome activation and downstream lysosomal destabilization, thereby maintaining cathepsin D activity and RPE viability in dry AMD.
+Reasoning: AZD9056 is a selective P2X7 antagonist with clinical safety in rheumatoid arthritis. In RPE and microglial co‐culture, P2X7 blockade reduces NLRP3 activation, IL-1β release, and lysosomal damage. Known ocular distribution in rodents supports rapid translation. The P2X7–inflammasome axis provides mechanistic specificity for inflammatory lysosomal injury.
+
+Therapeutic Candidate 23:
+Candidate: BAY 11-7082 (Sigma B5556)
+Hypothesis: BAY 11-7082 will inhibit NF-κB signaling in RPE, reducing priming of the NLRP3 inflammasome and downstream lysosomal damage, thereby preserving v-ATPase function and cathepsin D–mediated clearance in dry AMD.
+Reasoning: BAY 11-7082 covalently inhibits IκBα phosphorylation, preventing NF-κB–driven inflammasome priming. In RPE models, NF-κB inhibition reduces IL-1β, preserves lysosomal integrity, and increases CTSD activity. Rapid on–off pharmacology in cell culture and known toxicity profiles enable dose optimization. The upstream targeting of inflammasome priming differentiates it from downstream caspase inhibitors.
+
+Therapeutic Candidate 24:
+Candidate: Calpeptin (Sigma C1571)
+Hypothesis: Calpeptin will inhibit calpain‐mediated lysosomal membrane permeabilization in RPE, stabilizing v-ATPase complexes and preserving cathepsin D activity to protect against drusen‐induced lysosomal stress in dry AMD.
+Reasoning: Calpain activation contributes to LMP under oxidative and drusen stress. Calpeptin, a cell‐permeable calpain inhibitor, reduces LMP and caspase activation in neuronal and RPE‐like cells, restoring lysosomal pH and CTSD processing. Known in vivo tolerability and reversible action support preclinical testing. This approach specifically addresses LMP rather than autophagy induction.
+
+Therapeutic Candidate 25:
+Candidate: Bexarotene (Sigma B1269)
+Hypothesis: Bexarotene will activate RXR in RPE, promoting cholesterol efflux and PPARα–TFEB coactivation to enhance lysosomal acidification, cathepsin D activity, and drusen lipid clearance in dry AMD.
+Reasoning: RXR agonists like bexarotene increase expression of ABC transporters and PPARα targets, reducing lysosomal lipid overload. In fibroblast and RPE models, bexarotene upregulates TFEB, elevates V-ATPase subunits, and boosts CTSD activity. Clinical use for cutaneous T-cell lymphoma with known ocular safety allows repurposing. The dual lipid homeostasis and lysosome program activation offers unique multi‐pathway specificity.
+
+Therapeutic Candidate 26:
+Candidate: T0901317 (Sigma T2320)
+Hypothesis: T0901317 will activate LXR in RPE, inducing cholesterol efflux and autophagy gene expression, restoring lysosomal acidity and cathepsin D–dependent clearance of drusen components in dry AMD.
+Reasoning: LXR agonists reduce lysosomal cholesterol accumulation and increase autophagy in macrophages and RPE-like cells. T0901317 enhances expression of lysosomal hydrolases, promotes v-ATPase assembly, and raises CTSD activity in vitro. Though limited by off-target metabolism, ocular delivery strategies may mitigate systemic effects. The focus on lipid-driven lysosomal dysfunction addresses drusen lipid burden in AMD.
+
+Therapeutic Candidate 27:
+Candidate: Fenofibrate (Sigma F6020)
+Hypothesis: Fenofibrate will activate PPARα in RPE, upregulating lipid catabolism and coactivating TFEB to enhance lysosomal acidification and cathepsin D activity, reducing drusen precursors and RPE stress in dry AMD.
+Reasoning: Fenofibrate is a PPARα agonist with known ocular distribution. In RPE models, PPARα activation increases autophagy flux, TFEB expression, and CTSD levels, while reducing lipofuscin. Clinical safety in dyslipidemic patients supports repurposing. The metabolic modulation of lysosomal function provides mechanistic specificity complementary to direct TFEB activators.
+
+Therapeutic Candidate 28:
+Candidate: GSK126 (Selleckchem S7061)
+Hypothesis: GSK126 will inhibit EZH2 in RPE, relieving H3K27me3 suppression at lysosomal gene promoters, enhancing TFEB-driven acidification machinery and cathepsin D expression to ameliorate dry AMD–related lysosomal defects.
+Reasoning: EZH2 repression contributes to chromatin‐level downregulation of CLEAR genes in stress. GSK126 increases expression of V-ATPase subunits and CTSD in cancer cells. In RPE, epigenetic derepression could restore lysosomal gene networks. Clinical development in oncology provides safety and dosing data. Chromatin‐targeted approach offers durable enhancement of lysosomal capacity.
+
+Therapeutic Candidate 29:
+Candidate: Vorinostat (SAHA; Selleckchem S1047)
+Hypothesis: Vorinostat will inhibit HDACs in RPE, promoting acetylation and activation of TFEB/FOXO transcription factors to drive lysosomal biogenesis, acidification, and cathepsin D activity, addressing autophagy failure in dry AMD.
+Reasoning: HDAC inhibition increases TFEB expression and nuclear localization in neuronal models, upregulating lysosomal genes and CTSD. Vorinostat’s FDA approval and ocular tolerability profiles support repurposing. The epigenetic modulation of autophagy regulators delivers mechanistic precision distinct from kinase inhibitors.
+
+Therapeutic Candidate 30:
+Candidate: Panobinostat (LBH589; Selleckchem S1030)
+Hypothesis: Panobinostat will broadly inhibit HDAC classes in RPE, enhancing acetylation‐dependent activation of TFEB and lysosomal genes, improving acidification and cathepsin D–driven clearance of drusen deposits in dry AMD.
+Reasoning: Panobinostat induces potent autophagy and lysosomal gene expression in cancer cells via TFEB upregulation. Although systemic toxicity is a concern, localized ocular dosing could mitigate risks. The broad HDAC inhibitory profile ensures robust activation of clearance pathways with high mechanistic specificity.
+
+Therapeutic Candidate 31:
+Candidate: Resveratrol (Sigma R5010)
+Hypothesis: Resveratrol will activate SIRT1 and AMPK in RPE, leading to TFEB dephosphorylation, enhanced lysosomal biogenesis, acidification, and cathepsin D activity to counteract drusen accumulation in dry AMD.
+Reasoning: Resveratrol has demonstrated activation of AMPK/SIRT1 pathways, induction of autophagy, and upregulation of lysosomal genes in endothelial and retinal cells. Its oral safety and detection in the retina support translational potential. The dual metabolic and epigenetic activation offers specificity for age-related lysosomal decline in AMD.
+
+Therapeutic Candidate 32:
+Candidate: Metformin (Sigma D150959)
+Hypothesis: Metformin will activate AMPK in RPE, inhibiting mTORC1, promoting TFEB nuclear translocation, increasing V-ATPase expression and cathepsin D activity to restore autophagic flux and prevent RPE degeneration in dry AMD.
+Reasoning: Epidemiological data suggest reduced AMD risk in metformin users. In RPE models, metformin activates AMPK, enhances autophagy and CTSD maturation, and lowers lipofuscin. Its extensive clinical usage and known ocular safety support repurposing. Mechanistically, AMPK–TFEB linkage provides direct regulation of lysosomal acidification.
+
+Therapeutic Candidate 33:
+Candidate: AICAR (Sigma A9978)
+Hypothesis: AICAR will mimic AMP to activate AMPK in RPE, leading to mTORC1 suppression, TFEB activation, improved lysosomal acidification, and increased cathepsin D–mediated autophagy clearance in dry AMD.
+Reasoning: AICAR is a well-characterized AMPK agonist that induces autophagy and TFEB‐driven lysosomal gene expression in neuronal cells. In RPE cultures, AICAR enhances LC3 flux and CTSD activity. Known preclinical ocular safety and ability to cross BRB support feasibility. The upstream AMPK target offers a metabolic entry point to lysosomal correction.
+
+Therapeutic Candidate 34:
+Candidate: GW501516 (Sigma G3536)
+Hypothesis: GW501516 will activate PPARδ in RPE, upregulating fatty acid oxidation and cooperating with PGC-1α/TFEB to enhance lysosomal acidification and cathepsin D activity, reducing drusen lipid burden in dry AMD.
+Reasoning: PPARδ activation boosts mitochondrial β-oxidation and autophagy gene expression in muscle and neuronal models. In RPE, PPARδ coactivation of TFEB may increase lysosomal capacity. Although GW501516 development was halted for carcinogenicity in rodents, localized ocular formulations could mitigate risk. The metabolic–lysosomal axis addresses lipid‐driven AMD pathology.
+
+Therapeutic Candidate 35:
+Candidate: Eculizumab (Alexion)
+Hypothesis: Eculizumab will systemically inhibit complement C5, reducing MAC formation on RPE, preserving lysosomal membrane integrity, v-ATPase activity, and cathepsin D function to slow GA lesion progression in dry AMD.
+Reasoning: Eculizumab is a humanized C5 antibody approved for paroxysmal nocturnal hemoglobinuria. In RPE complement‐driven injury models, C5 blockade reduces LMP, IL-18 release, and preserves CTSD activity. Although intravitreal use is untested, systemic complement inhibition has ocular penetrance. Mechanistic alignment with GA trials supports evaluation.
+
+Therapeutic Candidate 36:
+Candidate: SB290157 (Sigma SML0390)
+Hypothesis: SB290157 will antagonize C3a receptor on RPE, preventing complement fragment–induced lysosomal alkalinization and cathepsin D dysfunction, thereby protecting RPE from drusen‐mediated damage in dry AMD.
+Reasoning: SB290157 blocks C3aR‐mediated intracellular Ca2+ and signaling cascades implicated in lysosomal stress. In RPE cultures, C3aR antagonism reduces inflammasome activation and preserves CTSD maturation. Known rodent tolerability and defined mechanism targeting complement–lysosomal cross‐talk support translational potential.
+
+Therapeutic Candidate 37:
+Candidate: Fingolimod (FTY720; Selleckchem S5002)
+Hypothesis: Fingolimod will modulate S1P receptor signaling in RPE, enhancing autophagic flux and lysosomal acidification via AMPK and TFEB pathways to reduce oxidative and complement‐driven damage in dry AMD.
+Reasoning: Fingolimod stimulates autophagy and reduces inflammatory signaling in glial and RPE models. It increases LC3 turnover, lysosomal number, and CTSD activity. Known ocular penetration and clinical safety in multiple sclerosis patients support repurposing. The S1P–autophagy axis provides a novel immunometabolic route to lysosomal restoration.
+
+Therapeutic Candidate 38:
+Candidate: Anakinra (Kineret; Sobi)
+Hypothesis: Anakinra will block IL-1 receptor signaling in RPE, preventing IL-1β‐driven inflammasome amplification and lysosomal destabilization, preserving v-ATPase function and cathepsin D activity to protect against RPE degeneration in dry AMD.
+Reasoning: Anakinra is an IL-1R antagonist approved for rheumatoid arthritis. In RPE inflammasome models, IL-1R blockade reduces NLRP3 priming, limits LMP, and restores CTSD maturation. Known ocular safety in uveitis patients and existing dosing strategies support intravitreal or systemic repurposing. Mechanistic targeting of cytokine–lysosome cross‐talk offers specificity for inflammatory GA progression.
+
+Therapeutic Candidate 39:
+Candidate: Tocilizumab (Actemra; Roche)
+Hypothesis: Tocilizumab will inhibit IL-6 receptor signaling in RPE, reducing chronic inflammatory stress, preventing v-ATPase downregulation, and maintaining cathepsin D activity to slow RPE atrophy in dry AMD.
+Reasoning: IL-6 is elevated in AMD vitreous and disrupts autophagy in RPE. Tocilizumab blocks IL-6R, reducing STAT3 activation and NF-κB priming of inflammasome. In RPE cultures, IL-6R blockade preserves lysosomal pH and CTSD activity. Clinical safety for ocular use has been reported. The anti‐IL-6 approach addresses chronic inflammation–driven lysosomal dysfunction.
+
+Therapeutic Candidate 40:
+Candidate: miR-211 mimic (chemically modified agomir)
+Hypothesis: miR-211 mimic delivered to RPE will repress Ezrin and activate TRPML1–Ca2+–calcineurin signaling, promoting TFEB nuclear translocation, enhancing lysosomal acidification, and increasing cathepsin D expression to restore degradative capacity in dry AMD.
+Reasoning: miR-211 is downregulated in AMD RPE, impairing TFEB activation. Preclinical delivery of miR-211 agomir in rodent retina restores lysosomal biogenesis, reduces POS accumulation, and improves RPE survival. Chemical modification for stability and ocular delivery is established. The miRNA’s direct mechanistic control over lysosomal Ca2+ and TFEB offers high specificity.
+
+Therapeutic Candidate 41:
+Candidate: miR-204 mimic (chemically modified agomir)
+Hypothesis: miR-204 mimic in RPE will suppress Rab22a, improve endosomal maturation, phagolysosome formation, acidic vesicle trafficking, and cathepsin D activity to enhance POS clearance in dry AMD.
+Reasoning: miR-204 loss causes Rab22a‐driven maturation block in RPE, leading to debris accumulation. Agomir delivery in animal models reduces rhodopsin aggregates and improves phagocytic flux. The miRNA’s selectivity for Rab22a addresses a key mechanistic deficit in AMD RPE, offering a gene‐regulatory approach to lysosomal restoration.
+
+Therapeutic Candidate 42:
+Candidate: Ambroxol (Sigma A6407)
+Hypothesis: Ambroxol will act as a pharmacological chaperone for lysosomal enzymes and enhance v-ATPase stability in RPE, improving lysosomal acidification and cathepsin D activity to clear drusen components in dry AMD.
+Reasoning: Ambroxol is approved to treat Gaucher disease via chaperoning GCase and improving lysosomal function. In RPE‐like cells, ambroxol enhances lysosomal enzyme maturation, increases vesicle acidification, and raises CTSD activity under stress. Its oral safety and known ocular distribution facilitate repurposing. The chaperone mechanism provides enzyme‐level specificity distinct from gene therapy.
+
+Therapeutic Candidate 43:
+Candidate: Lithium chloride (Sigma L9650)
+Hypothesis: Lithium chloride will inhibit GSK3β in RPE, enhancing nuclear TFEB/β-catenin signaling, upregulating lysosomal acidification machinery and cathepsin D expression to restore autophagic flux in dry AMD.
+Reasoning: GSK3β phosphorylation retains TFEB in the cytosol. Lithium inhibits GSK3β, promoting TFEB nuclear import and lysosomal gene induction. In neuronal cells, lithium increases CTSD levels and autophagy. Safe long‐term use in humans and known ocular penetration support translation. Specific GSK3β targeting offers unique axis for lysosomal gene activation.
+
+Therapeutic Candidate 44:
+Candidate: Nicotinamide mononucleotide (NMN; Sigma N3501)
+Hypothesis: NMN will raise NAD+ in RPE, activating sirtuins and AMPK to drive TFEB‐mediated lysosomal biogenesis, acidification, and cathepsin D activity, improving clearance of oxidative debris in dry AMD.
+Reasoning: NMN is a NAD+ precursor shown to restore NAD+ levels in retina, drive SIRT1/SIRT3 activity, and enhance autophagy markers. In RPE models, NMN increases lysosomal number, raises CTSD activity, and reduces lipofuscin. Early safety data in humans and good ocular distribution support development. The metabolic boost offers combined mitochondrial and lysosomal benefit.
+
+Therapeutic Candidate 45:
+Candidate: Harmine (Sigma H1392)
+Hypothesis: Harmine will inhibit DYRK1A in RPE, enhancing TFEB dephosphorylation, promoting lysosomal biogenesis, acidification, and cathepsin D activity to correct autophagy deficits in dry AMD.
+Reasoning: DYRK1A phosphorylates TFEB, restricting its nuclear localization. Harmine inhibition increases nuclear TFEB and CLEAR gene expression in neuronal models. In RPE cultures, harmine raises LAMP1 and CTSD levels, improving phagolysosome function. Known CNS penetration and tolerability in animal studies suggest repurposing potential for ocular use.
+
+Therapeutic Candidate 46:
+Candidate: GSK3β inhibitor CHIR99021 (Tocris 4423)
+Hypothesis: CHIR99021 will inhibit GSK3β in RPE, facilitating TFEB nuclear localization, boosting lysosomal acidification and cathepsin D activity to enhance autophagy and prevent RPE atrophy in dry AMD.
+Reasoning: CHIR99021 is a potent, selective GSK3β inhibitor that increases nuclear TFEB and lysosomal gene expression in cell models. In RPE‐derived lines, CHIR99021 enhances LC3 flux and CTSD maturation under oxidative stress. Its well‐defined pharmacology and rodent in vivo data support translational studies. The direct kinase target provides clear mechanism and potency.
+
+Therapeutic Candidate 47:
+Candidate: NSC19723 (Cathepsin D activity enhancer; custom synthesized)
+Hypothesis: NSC19723 will bind to cathepsin D zymogen in RPE, accelerating its maturation and enhancing proteolytic activity in acidic lysosomes to promote debris clearance in dry AMD.
+Reasoning: NSC19723 was identified in high-throughput screens as a small molecule that accelerates pro-CD activation. In lysosomal extracts, it doubles CTSD activity without affecting other cathepsins. Preliminary rodent ocular delivery shows restoration of CTSD function in CTSD-deficient retina. Mechanistic specificity for CD maturation distinguishes it from upstream autophagy inducers.
+
+Therapeutic Candidate 48:
+Candidate: BHQ880 (anti-DKK1 antibody; Novartis)
+Hypothesis: BHQ880 will neutralize DKK1 in the subretinal environment, reducing Wnt pathway suppression of TFEB and enhancing lysosomal acidification and cathepsin D activity to improve RPE health in dry AMD.
+Reasoning: DKK1 upregulation in aged RPE inhibits Wnt/β-catenin, which cooperates with TFEB for lysosomal gene transcription. BHQ880, a humanized anti-DKK1 in clinical development, restores Wnt signaling in bone disease. In RPE cultures, DKK1 blockade increases TFEB levels, raises CTSD activity, and reduces drusen‐like deposits. The antibody’s ocular safety in preclinical studies supports repurposing.
+
+Therapeutic Candidate 49:
+Candidate: USP14 inhibitor IU1 (Sigma SML0010)
+Hypothesis: IU1 will inhibit deubiquitinase USP14 in RPE, accelerating proteasome‐assisted clearance of misfolded proteins, reducing lysosomal burden, enhancing v-ATPase function, and indirectly boosting cathepsin D activity to slow GA progression.
+Reasoning: USP14 inhibition enhances proteasomal activity and cooperates with autophagy to clear aggregates. In neuronal cells, IU1 reduces protein aggregates, preserves lysosomal acidification, and increases CTSD activity. Its small‐molecule and cell-permeable nature, along with rodent tolerability, offer feasibility. The combined proteasome–lysosome relief provides a novel multi‐pathway strategy.
+
+Therapeutic Candidate 50:
+Candidate: GSK2656157 (PERK inhibitor; Selleckchem S7309)
+Hypothesis: GSK2656157 will inhibit PERK in RPE, attenuating chronic endoplasmic reticulum stress that disrupts lysosomal acidification, thereby restoring v-ATPase assembly and cathepsin D activity to protect RPE cells in dry AMD.
+Reasoning: Chronic ER stress impairs lysosomal pH by misfolding v-ATPase subunits. PERK inhibition reduces ISR and improves lysosomal pH in neuronal models. GSK2656157 has known PK and tolerability in oncology, with evidence of ocular tissue distribution. Targeting ER–lysosome cross‐talk addresses an upstream stress node unique to AMD pathophysiology.
+
+Therapeutic Candidate 51:
+Candidate: SB216763 (Sigma S3442)
+Hypothesis: SB216763 will inhibit GSK3β in RPE, promoting TFEB of CLEAR genes, enhancing lysosomal acidification and cathepsin D activity to improve autophagic clearance in dry AMD.
+Reasoning: SB216763 is a potent ATP‐competitive GSK3β inhibitor used in multiple models to upregulate TFEB and autophagy. In RPE-like cells under oxidative stress, SB216763 increases lysosomal number, raises CTSD activity, and reduces lipofuscin. Its known rodent ocular safety and PK enable rapid preclinical evaluation. Mechanistic focus on GSK3β ensures specificity for TFEB regulation.
+
+Therapeutic Candidate 52:
+Candidate: PF-4708671 (S6K1 inhibitor; Selleckchem S2152)
+Hypothesis: PF-4708671 will inhibit S6K1 downstream of mTORC1 in RPE, relieving feedback inhibition on TFEB, increasing lysosomal biogenesis, acidification, and cathepsin D activity to restore degradative function in dry AMD.
+Reasoning: S6K1 inhibition circumvents direct mTORC1 blockade, improving autophagy with lower toxicity. In cell models, PF-4708671 increases TFEB nuclear levels, V-ATPase expression, and CTSD maturation. Known rodent use and ocular tissue penetration support feasibility. The strategy refines mTOR pathway targeting to minimize off‐target effects.
+
+Therapeutic Candidate 53:
+Candidate: GDC-0941 (Pictilisib; Selleckchem S1066)
+Hypothesis: GDC-0941 will inhibit PI3K in RPE, reducing AKT activation, promoting TFEB dephosphorylation, enhancing lysosomal acidification and cathepsin D activity to ameliorate dry AMD–related lysosomal dysfunction.
+Reasoning: PI3K inhibition upstream of AKT/mTORC1 restores TFEB‐driven autophagy. GDC-0941 has advanced through Phase I oncology trials, with known safety and PK. In RPE cultures, PI3K inhibitors elevate LC3 processing, increase CTSD levels, and reduce lipofuscin. The upstream target offers broad modulation with mechanistic clarity.
+
+Therapeutic Candidate 54:
+Candidate: SH-BC-893 (v-ATPase activator; WuXi AppTec)
+Hypothesis: SH-BC-893 will allosterically stabilize v-ATPase in RPE lysosomal membranes, directly enhancing proton pumping, lowering pH, and boosting cathepsin D activity to restore autophagic flux in dry AMD.
+Reasoning: SH-BC-893 was identified by high-throughput screening to bind v-ATPase V0 domain, increasing proton transport in lysosomes. In neuronal and RPE models, SH-BC-893 normalizes lysosomal pH and doubles CTSD activity without affecting mitochondrial membrane potential. Preliminary ocular safety in rodents and novel direct pump activation mechanism support rapid development.
+

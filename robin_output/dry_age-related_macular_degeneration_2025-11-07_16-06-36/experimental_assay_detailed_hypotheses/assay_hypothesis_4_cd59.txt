@@ -1,0 +1,52 @@
+Hypothesis: CD59 upregulation to prevent necroptosis
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: CD59 upregulation to prevent necroptosis
+Reasoning: Overexpressing CD59 or adding soluble CD59 fusion prevents MAC assembly on RPE and reduces MLKL phosphorylation. PI uptake and LDH release provide quantitative necroptosis readouts. Prior work indicates CD59 loss exacerbates MAC-mediated RPE death (Johnson et al., 2005; Kavanagh et al., 2015).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview  
+• Goal: Model complement‐mediated necroptotic death of retinal pigment epithelium (RPE) and test whether boosting CD59 function protects RPE.  
+• Disease aspect modeled: In dry AMD, chronic dysregulation of the alternative complement pathway leads to sublytic and lytic MAC (C5b-9) deposition on RPE, triggering necroptosis (Nivison-Smith et al., Invest Ophthalmol Vis Sci, 2017).  
+• Cells/materials: Primary human RPE (hfRPE) or iPSC-derived RPE monolayers (mature pigmentation, transepithelial resistance >200 Ω·cm2) or ARPE-19 as a lower-cost alternative. Human serum (10–20%) as a source of active complement; for tighter control, purified C5b-6 through C9 components can be reconstituted on cell surface.  
+• Assay arms:  
+  – Overexpression arm: Transient or lentiviral transduction of membrane-anchored CD59 (wild-type) or soluble CD59-Fc fusion added exogenously (10–50 µg/mL).  
+  – Control arms: Untreated, mock-transduced, or treated with isotype Fc.  
+• Readouts:  
+  – MAC deposition: Immunofluorescent staining for C9 neoantigen (mAb aE11) quantified by high-content imaging.  
+  – Necroptotic signaling: Western blot or phospho-MLKL (Ser358) immunofluorescence.  
+  – Membrane integrity: Propidium iodide (PI) uptake by live-cell imaging; lactate dehydrogenase (LDH) release assay from culture supernatants.  
+  – Viability: Resazurin (Alamar Blue) or MTT endpoint for total cell survival.  
+
+Biomedical Evidence  
+1. Complement dysregulation is central to dry AMD. Genome-wide association studies (Fritsche et al., Nat Genet, 2013) repeatedly implicate variants in CFH, C3, CFB, CFI, and C9, underscoring excessive alternative‐pathway activity.  
+2. Histopathology of AMD donor eyes reveals subretinal C5b-9 and RPE atrophy co-localization (Crabb et al., PNAS, 2002; Anderson et al., J Pathol, 2010).  
+3. CD59 is the primary membrane‐bound inhibitor of C9 polymerization in the MAC. RPE from AMD eyes show decreased CD59 expression in Bruch’s membrane zone (Jaulim et al., Mol Vis, 2014).  
+4. Mechanistically, sublytic MAC on RPE triggers regulated necrosis via RIPK1/RIPK3/MLKL axis (Gao et al., Cell Death Differ, 2018). Inhibition of MLKL or upstream kinases reduces RPE loss in complement‐driven models.  
+5. Clinically, systemic complement inhibitors (e.g. anti‐C5) have had mixed results in GA trials (NCT03444637), suggesting targeting local complement regulators like CD59 may yield improved safety or efficacy.  
+
+Previous Use  
+• Complement‐induced cytotoxicity assays in RPE: Several groups have used human serum–induced lysis of ARPE-19 or primary RPE to screen small-molecule complement inhibitors (Vogt et al., Invest Ophthalmol Vis Sci, 2011).  
+• CD59 knockout/knockdown studies: Johnson et al. (J Clin Invest, 2005) showed CD59–/– mice develop accelerated MAC deposition and RPE degeneration. Kavanagh et al. (Blood, 2015) characterized membrane‐attack–driven necroptosis in endothelial cells, informing similar pathways in RPE.  
+• Necroptosis readouts (PI, LDH, p-MLKL) are standard in drug discovery for inflammatory cell death and have been adapted to ocular cells (Murakami et al., J Neurosci, 2014).  
+
+Overall Evaluation  
+Strengths  
+  - Disease relevance: Directly models complement overactivation, a genetically and histologically validated AMD mechanism.  
+  - Multiplexed readouts: Enables mechanistic (p-MLKL, MAC deposition) and functional (PI, LDH, viability) endpoints.  
+  - Modularity: Can test gene-therapy (CD59 overexpression), biologics (soluble CD59-Fc), or small molecules that enhance CD59 stability or mimic its action.  
+  - Human cells: Primary or iPSC-RPE recapitulate key AMD susceptibilities better than rodent models.  
+
+Weaknesses  
+  - Simplified milieu: Lacks Bruch’s membrane, choroidal endothelium, and immune cell interactions that shape complement regulation in vivo.  
+  - ARPE-19 limitations: Poor barrier properties and incomplete phenotype may under-report protective effects; primary RPE require specialized culture.  
+  - Serum variability: Human serum lots differ in complement activity; purified components add cost and complexity.  
+  - Necroptosis debate: While emerging data support MLKL-mediated death in AMD, apoptosis and pyroptosis may also contribute; assay focuses narrowly on necroptosis.  
+
+Conclusion  
+Overall, a CD59 upregulation/soluble-CD59 assay in RPE challenged with complement provides a focused, mechanistically rich platform to screen and optimize therapies aimed at inhibiting MAC-driven necroptosis in dry AMD. Optimization around cell source, complement input, and inclusion of additional AMD stressors (e.g., oxidative stress) will further enhance its predictive power.
+

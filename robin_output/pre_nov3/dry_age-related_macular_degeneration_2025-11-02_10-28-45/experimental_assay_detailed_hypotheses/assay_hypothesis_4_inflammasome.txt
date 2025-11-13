@@ -1,0 +1,47 @@
+Hypothesis: Inflammasome IL-1β release
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Inflammasome IL-1β release
+Reasoning: Treat RPE with sublytic MAC in the presence of normal human serum and measure IL-1β by ELISA or caspase-1 activity assay, evaluating inhibitors of NLRP3 inflammasome activation—a central mediator of RPE degeneration in dry AMD (Cao 2016; Ebeling et al. 2022).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+This assay employs an in vitro RPE cell system in which cells are exposed to a sublytic dose of the membrane attack complex (MAC) in the presence of normal human serum. The goal is to trigger NLRP3 inflammasome activation, leading to the release of IL-1β and the activation of caspase-1. Readouts include quantification of IL-1β by ELISA and measurement of caspase-1 enzymatic activity. This approach models the inflammatory response and RPE degeneration observed in dry age‐related macular degeneration (AMD) (wang2016nlrp3upregulationin pages 6-9, dabouz2020anallostericinterleukin1 pages 1-2).
+
+Biomedical Evidence:  
+NLRP3 inflammasome activation is a central mediator of sterile inflammation in dry AMD. In patients, increased IL-1β and caspase-1 activity have been linked with RPE dysfunction and photoreceptor cell death, key elements in disease progression. These inflammatory markers, when elevated, mirror clinical observations of chronic retinal inflammation and degeneration, making them highly relevant for assessing therapeutic interventions (korhonen2024inflammasomeactivationin pages 76-79, wooff2019il1familymembers pages 3-4, piippo2019inflammasomesignalinganda pages 87-91).
+
+Previous Use:  
+Similar cell-based assays have been employed in drug discovery to evaluate compounds that inhibit inflammasome activation. Past studies have demonstrated that reducing IL-1β release and caspase-1 activity via specific inhibitors can mitigate RPE damage, thereby validating the use of these biomarkers in screening potential treatments (brandstetter2016nlrp3inflammasomeactivation pages 92-95, wang2016nlrp3upregulationin pages 3-6, brandstetter2016nlrp3inflammasomeactivation pages 99-102).
+
+Overall Evaluation:  
+The assay’s strength lies in its focused mimicry of a key inflammatory pathway in dry AMD and its quantifiable endpoints, making it suitable for early-stage therapeutic screening. However, limitations include potential variability in MAC-induced responses and the inability of a monoculture system to recapitulate the complex in vivo microenvironment of the retina. Thus, while promising for initial compound screening, complementary in vivo validation remains essential (korhonen2024inflammasomeactivationin pages 86-87, piippo2019inflammasomesignalingand pages 47-49).
+
+This assay offers a robust platform for screening NLRP3 inflammasome inhibitors in dry AMD. It effectively models critical inflammatory mechanisms but should be integrated into a broader validation strategy to address in vivo complexity.
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/f6605c64-8f76-40a1-8202-2b8e543bb5ad
+
+References:
+1. (wang2016nlrp3upregulationin pages 6-9): Yujuan Wang, Jakub Hanus, Mones Abu-Asab, Defen Shen, Alexander Ogilvy, Jingxing Ou, Xi Chu, Guangpu Shi, Wei Li, Shusheng Wang, and Chi-Chao Chan. Nlrp3 upregulation in retinal pigment epithelium in age-related macular degeneration. International Journal of Molecular Sciences, 17:73, Jan 2016. URL: https://doi.org/10.3390/ijms17010073, doi:10.3390/ijms17010073. This article has 83 citations and is from a poor quality or predatory journal.
+
+2. (dabouz2020anallostericinterleukin1 pages 1-2): Rabah Dabouz, Colin W. H. Cheng, Pénélope Abram, Samy Omri, Gael Cagnone, Khushnouma Virah Sawmy, Jean-Sébastien Joyal, Michel Desjarlais, David Olson, Alexander G. Weil, William Lubell, José Carlos Rivera, and Sylvain Chemtob. An allosteric interleukin-1 receptor modulator mitigates inflammation and photoreceptor toxicity in a model of retinal degeneration. Journal of Neuroinflammation, Nov 2020. URL: https://doi.org/10.1186/s12974-020-02032-8, doi:10.1186/s12974-020-02032-8. This article has 24 citations and is from a peer-reviewed journal.
+
+3. (korhonen2024inflammasomeactivationin pages 76-79): E. Korhonen. Inflammasome activation in response to aberrations of cellular homeostasis in epithelial cells from human cornea and retina. Acta Ophthalmologica, 102:3-68, Feb 2024. URL: https://doi.org/10.1111/aos.16646, doi:10.1111/aos.16646. This article has 0 citations and is from a domain leading peer-reviewed journal.
+
+4. (wooff2019il1familymembers pages 3-4): Yvette Wooff, Si Ming Man, Riemke Aggio-Bruce, Riccardo Natoli, and Nilisha Fernando. Il-1 family members mediate cell death, inflammation and angiogenesis in retinal degenerative diseases. Frontiers in Immunology, Jul 2019. URL: https://doi.org/10.3389/fimmu.2019.01618, doi:10.3389/fimmu.2019.01618. This article has 246 citations and is from a peer-reviewed journal.
+
+5. (piippo2019inflammasomesignalinganda pages 87-91): N Piippo. Inflammasome signaling and its regulation in human retinal pigment epithelial cells with dysfunctional intracellular clearance. Unknown journal, 2019.
+
+6. (brandstetter2016nlrp3inflammasomeactivation pages 92-95): C Brandstetter. Nlrp3 inflammasome activation by photooxidative damage provides a novel link between hallmark pathogenic features of age-dependent macular degeneration. Unknown journal, 2016.
+
+7. (wang2016nlrp3upregulationin pages 3-6): Yujuan Wang, Jakub Hanus, Mones Abu-Asab, Defen Shen, Alexander Ogilvy, Jingxing Ou, Xi Chu, Guangpu Shi, Wei Li, Shusheng Wang, and Chi-Chao Chan. Nlrp3 upregulation in retinal pigment epithelium in age-related macular degeneration. International Journal of Molecular Sciences, 17:73, Jan 2016. URL: https://doi.org/10.3390/ijms17010073, doi:10.3390/ijms17010073. This article has 83 citations and is from a poor quality or predatory journal.
+
+8. (brandstetter2016nlrp3inflammasomeactivation pages 99-102): C Brandstetter. Nlrp3 inflammasome activation by photooxidative damage provides a novel link between hallmark pathogenic features of age-dependent macular degeneration. Unknown journal, 2016.
+
+9. (korhonen2024inflammasomeactivationin pages 86-87): E. Korhonen. Inflammasome activation in response to aberrations of cellular homeostasis in epithelial cells from human cornea and retina. Acta Ophthalmologica, 102:3-68, Feb 2024. URL: https://doi.org/10.1111/aos.16646, doi:10.1111/aos.16646. This article has 0 citations and is from a domain leading peer-reviewed journal.
+
+10. (piippo2019inflammasomesignalingand pages 47-49): N Piippo. Inflammasome signaling and its regulation in human retinal pigment epithelial cells with dysfunctional intracellular clearance. Unknown journal, 2019.

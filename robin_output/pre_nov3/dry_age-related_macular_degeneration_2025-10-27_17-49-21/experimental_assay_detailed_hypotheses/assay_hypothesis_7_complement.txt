@@ -1,0 +1,66 @@
+Hypothesis: Complement deposition inhibition assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Complement deposition inhibition assay
+Reasoning: Monitors C3b and C5b-9 deposition on RPE monolayers treated with human serum and candidate inhibitors. Complement activation is a genetic and histopathological hallmark of dry AMD (Johnson et al. Invest Ophthalmol Vis Sci 2000; Anderson et al. Prog Retin Eye Res 2010).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview  
+1. Rationale and Pathway Modeled  
+   • Disease Aspect Modeled: Aberrant activation of the alternative complement pathway on retinal pigment epithelium (RPE), leading to deposition of opsonins (C3b) and membrane attack complex (C5b-9) in drusen and Bruch’s membrane—key histopathological hallmarks in dry AMD.  
+   • Readouts: Quantitation of surface-deposited C3b and C5b-9 on RPE monolayers by immunodetection (immunofluorescence microscopy, high-content imaging, or cell-based ELISA). Signal is normalized to cell number or total protein.  
+   • Biological Material:  
+     – Human RPE cell lines (e.g. ARPE-19, hTERT-RPE1) or primary human RPE cells cultured to a differentiated, polarized monolayer (often on transwell inserts).  
+     – Normal human serum (10–20% v/v) as a source of complement. Candidate inhibitors are co-incubated to assess inhibition of complement deposition.  
+
+2. Assay Workflow (typical)  
+   a. Differentiate RPE cells for 2–4 weeks until polarized and pigmented.  
+   b. Pre-treat with test compound or control vehicle.  
+   c. Add human serum ± inhibitors for 1–4 h at 37 °C.  
+   d. Fix cells and stain for C3b and C5b-9 (primary antibodies + fluorescent secondaries).  
+   e. Image wells in automated imager or quantify signal in situ via cell-based ELISA.  
+
+Biomedical Evidence  
+1. Genetic and Molecular Links  
+   • CFH Y402H and risk variants in C3, C2/B and CFI associate strongly with dry AMD in genome-wide studies (Klein et al. JAMA 2005; Fritsche et al. Nat Genet 2013). Those variants lead to reduced fluid-phase regulation of the alternative pathway, predisposing to local C3 activation.  
+   • Drusen in AMD eyes contain C3b fragments and C5b-9 (Johnson et al. Invest Ophthalmol Vis Sci 2000; Anderson et al. Prog Retin Eye Res 2010). Elevated levels of complement activation products are detected in the choriocapillaris and RPE–Bruch’s membrane complex.  
+
+2. Clinical and Biochemical Correlates  
+   • Elevated plasma C3a, Ba, and C5a in AMD patients correlate with progression from early to intermediate dry AMD (Heesterbeek et al. Ophthalmology 2018).  
+   • Local complement activation may drive RPE inflammasome activation, oxidative stress and cell death (Tarallo et al. Nat Commun 2012; Kauppinen et al. Front Immunol 2016).  
+   • C5b-9 deposition on RPE induces sublytic signaling (increased VEGF, cytokines) and eventually apoptosis (Liu & Johnson. Exp Eye Res 2000).  
+
+3. Preclinical Models Supporting Complement Targeting  
+   • Mouse models of CFH deficiency or Cfh–/– crossed with high-fat diet develop sub-RPE deposits and complement deposition mirroring human AMD (Zhou et al. Am J Pathol 2005).  
+   • In vitro exposure of RPE to drusen extracts or oxidized lipoproteins triggers complement activation on RPE surfaces (Wang et al. Mol Vis 2011).  
+
+Previous Use  
+1. Drug Discovery  
+   • Screening complement regulators: Soluble complement receptor 1 (sCR1) and compstatin (C3 inhibitor peptides) were first profiled in RPE-serum deposition assays to show dose-dependent inhibition of C3b and MAC assembly (Sahu et al. J Immunol 1996; Morikis et al. J Immunol 1998).  
+   • Antisense oligonucleotides and small molecules targeting factor D or factor B have been evaluated in similar deposition assays on RPE and on endothelial cells (Ricklin & Lambris. Chem Rev 2013).  
+   • High-content screening published examples: Han et al. (Sci Rep 2016) used an ARPE-19-based C5b-9 deposition assay to identify novel peptide inhibitors of MAC assembly.  
+
+2. Key Discoveries  
+   • Demonstration that RPE cells express complement regulators (CD46, CD55, CD59) and that downregulation of CD59 enhances MAC deposition and cell death, linking RPE regulatory capacity to AMD risk (Lakkaraju et al. Invest Ophthalmol Vis Sci 2009).  
+   • Identification of non-complement modulators (e.g. certain tetracyclines) that stabilized RPE complement regulators and reduced surface C5b-9 deposition (Campbell et al. Exp Eye Res 2015).  
+
+Overall Evaluation  
+Strengths  
+   • Directly tests a validated AMD pathogenic mechanism—alternative pathway overactivation on RPE.  
+   • Quantitative and amenable to medium-throughput screening (384-well plates, automated imaging).  
+   • Versatile: can be paired with genetic RPE models (e.g. CRISPR knock-in of CFH risk variants) for greater disease relevance.  
+   • Robust endpoints (C3b, C5b-9) that correlate with in vivo biomarker changes observed in patients.  
+
+Weaknesses  
+   • Serum-based complement activation is an acute, supraphysiological stimulus; may not fully capture chronic, low-grade complement dysregulation in Bruch’s membrane.  
+   • ARPE-19 often fail to fully polarize or reproduce in vivo complement regulator expression—primary RPE or iPSC-derived RPE are more physiologically relevant but lower throughput.  
+   • Does not model upstream triggers in dry AMD (lipid accumulation, oxidative damage, inflammasome activation), so hits may require secondary assays to confirm RPE viability and function outcomes.  
+   • Complement is only one of multiple pathogenic axes (inflammation, lipid metabolism, mitochondrial dysfunction), so a compound positive in this assay may not translate to broader efficacy.  
+
+Conclusion  
+The complement deposition inhibition assay on RPE monolayers is a well-validated, mechanism-focused in vitro model that faithfully recapitulates a genetically and histopathologically supported pathway in dry AMD. It has a strong track record in early-stage screening of complement inhibitors and yields quantitative, imaging-based readouts. However, to de-risk translation, hits from this assay should be followed up in complementary models addressing chronic complement exposure, RPE function (phagocytosis, barrier integrity), and broader AMD-relevant stressors.
+

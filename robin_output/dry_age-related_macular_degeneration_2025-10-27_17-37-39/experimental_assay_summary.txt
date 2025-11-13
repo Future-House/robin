@@ -1,0 +1,12 @@
+Assay Candidate 1:
+Strategy: Barrier Integrity Assay
+Reasoning: Complement overactivation and sublytic membrane attack complex (MAC) deposition on RPE are key drivers of chronic inflammation and barrier breakdown in dry AMD (Eandi et al., 2016; Lengyel et al., 2014). By culturing polarized iPSC-derived RPE on transwell inserts and monitoring transepithelial electrical resistance (TEER) after challenge with human serum or purified complement components, one obtains a rapid, quantifiable functional readout of monolayer integrity. Candidate complement inhibitors or modulators of MAC assembly can be directly assessed for their ability to preserve TEER and tight-junction morphology (ZO-1 staining), providing a biologically relevant screen for therapeutics that block complement-mediated pathology.
+
+Assay Candidate 2:
+Strategy: Mitochondrial Health Assay
+Reasoning: Mitochondrial dysfunction and oxidative stress are early and central events in RPE degeneration during dry AMD (Feher et al., 2006; Jarrett & Boulton, 2012). Using ARPE-19 or iPSC-derived RPE cultured in 96-well Seahorse XF plates, one can measure basal and maximal oxygen consumption rates (OCR) alongside extracellular acidification rates (ECAR) and mitochondrial membrane potential (via TMRE or JC-1) under oxidative challenge (e.g., H2O2 or blue-light exposure). This multiplexed metabolic profiling yields direct functional endpoints—ATP production, spare respiratory capacity, ROS levels—enabling rapid triage of candidate antioxidants, mitophagy inducers, or bioenergetic stabilizers for their capacity to restore RPE mitochondrial health.
+
+Assay Candidate 3:
+Strategy: Autophagy-Lipofuscin Imaging Assay
+Reasoning: Impaired autophagic flux and lipofuscin (A2E) accumulation are hallmark pathogenic features of dry AMD RPE (Mitter et al., 2014; Kaarniranta et al., 2013). By engineering iPSC-derived RPE to express an mCherry-GFP-LC3 reporter and challenging cells with physiologically relevant concentrations of A2E, one can perform high-content fluorescence imaging to simultaneously quantify autophagosome maturation (GFP quenching vs. mCherry signal) and intrinsic autofluorescence of lipofuscin at 580–620 nm. This approach provides a direct, rapid phenotypic readout of both lysosomal clearance capacity and pigment accumulation, allowing screening of small molecules or biologics that enhance autophagic flux and prevent lipofuscin build-up in a biologically relevant RPE model.
+

@@ -1,0 +1,60 @@
+Assay Candidate 1:
+Strategy: CFH Polymorphism Complement Assay
+Reasoning: Differentiating iPSC‐derived RPE cells homozygous for CFH Y402H versus wild-type allows rapid ELISA quantification of C3a/C5a release after serum challenge, linking genotype to complement overactivation in dry AMD (Anderson et al. 2010; Klein et al. 2005).
+
+Assay Candidate 2:
+Strategy: Sublytic MAC–Mitochondrial Function Assay
+Reasoning: Applying sublytic C5b-9 complexes to ARPE-19 monolayers with Seahorse OCR readout provides a fast, biologically relevant measure of mitochondrial impairment induced by membrane attack complex (Nozaki et al. 2006; Bora et al. 2005).
+
+Assay Candidate 3:
+Strategy: A2E‐Induced Lysosomal pH Shift
+Reasoning: Exposing RPE to photooxidized A2E and measuring lysosomal pH with LysoSensor offers a direct, ratiometric readout of lysosomal alkalinization associated with lipofuscin accumulation (Eldred & Katz 1988; Sparrow et al. 2000).
+
+Assay Candidate 4:
+Strategy: PGC-1α Activation Bioenergetics Assay
+Reasoning: Genetic or pharmacologic upregulation of PGC-1α in RPE combined with TMRE and ATP luminescence assays rapidly assesses restoration of mitochondrial membrane potential and ATP output in models of bioenergetic deficit (Choksi et al. 2014; Merle et al. 2015).
+
+Assay Candidate 5:
+Strategy: Drusen Component NLRP3 Activation
+Reasoning: Treating RPE with cholesterol crystals or oxLDL and measuring caspase-1 activity and IL-1β release provides a simple functional endpoint for inflammasome priming by drusen constituents (Mao et al. 2014; Tarallo et al. 2012).
+
+Assay Candidate 6:
+Strategy: TFEB Overexpression Autophagy Flux
+Reasoning: Adenoviral TFEB delivery into A2E-laden RPE with subsequent LC3-II/ p62 immunoblotting and LysoTracker imaging directly quantifies enhancement of lysosomal biogenesis and autophagic clearance (Settembre et al. 2011; Ferrington et al. 2016).
+
+Assay Candidate 7:
+Strategy: RPE–Endothelial Co-Culture Barrier Test
+Reasoning: Co-culturing RPE on Transwells with choroidal endothelial cells and measuring TEER and FITC-dextran flux provides a rapid, physiologically relevant readout of barrier integrity and paracrine cross-talk in dry AMD (Bhutto et al. 2010; Leung et al. 2015).
+
+Assay Candidate 8:
+Strategy: Sub-RPE Drusen-Like Aggregate Quantification
+Reasoning: Growing RPE on permeable membranes under oxidative stress and using Thioflavin T or Oil Red O staining with automated image analysis yields a high-throughput measure of extracellular lipid-protein deposit formation (Johnson et al. 2007; Wang et al. 2010).
+
+Assay Candidate 9:
+Strategy: ER Stress p53-BAX Apoptosis Assay
+Reasoning: Inducing tunicamycin-driven ER stress in RPE and quantifying caspase-3/7 activity with luminescent assays offers a direct functional measure of p53/BAX-mediated apoptosis relevant to RPE cell death in dry AMD (Liu et al. 2013; Kroemer et al. 2007).
+
+Assay Candidate 10:
+Strategy: ABCA1-Mediated Cholesterol Efflux
+Reasoning: CRISPR-knockout of ABCA1 in ARPE-19 followed by NBD-cholesterol efflux to apoA1 acceptors and BODIPY staining of lipid droplets allows quick evaluation of compounds that restore cholesterol homeostasis (Swaroop et al. 2012; Johnson et al. 2003).
+
+Assay Candidate 11:
+Strategy: Mitochondrial Potential and ROS Imaging
+Reasoning: Simultaneous live-cell TMRE and MitoSOX high-content imaging in a 96-well format delivers multiplexed, per-cell assessment of ΔΨm and ROS for rapid screening of mitochondrial protectants (Vann et al. 2015; Ferrington et al. 2016).
+
+Assay Candidate 12:
+Strategy: Lipophagy Enhancement Assay
+Reasoning: Applying rapamycin analogs to induce autophagy in lipid-loaded RPE and measuring BODIPY 493/503 clearance combined with LC3 flux assays provides a functional readout of lipophagy-mediated lipid droplet removal (Kaushik & Cuervo 2015; Ferrington et al. 2016).
+
+Assay Candidate 13:
+Strategy: TRPML1-Dependent Lysosomal Rescue
+Reasoning: Activating TRPML1 with ML-SA1 in oxidized lipofuscin-stressed RPE and recording Ca2+ transients plus LysoSensor pH changes offers a robust assay of lysosomal repair mechanisms (Dong et al. 2010; Wang et al. 2018).
+
+Assay Candidate 14:
+Strategy: C5 Blockade MAC Prevention
+Reasoning: Pre-treating RPE with anti-C5 antibodies before serum exposure and quantifying C5b-9 deposition by immunofluorescence and LDH release yields a rapid functional screen for terminal complement inhibitors (Rocha et al. 2006; Holers 2014).
+
+Assay Candidate 15:
+Strategy: Nanoparticle Antioxidant Lipofuscin Clearing
+Reasoning: Delivering cerium oxide or GSH-loaded nanoparticles to A2E-photooxidation models and monitoring autofluorescence reduction and cell viability by live/dead staining provides a direct functional endpoint for antioxidant therapies (Patel & Chan 2008; Holcomb et al. 2010).
+

@@ -1,0 +1,275 @@
+Therapeutic Candidate 1:
+Candidate: Elamipretide (SS-31; MedChemExpress HY-103007)
+Hypothesis: SS-31 binds mitochondrial cardiolipin in RPE cells, stabilizing inner membrane cristae under oxidative stress, preserving ATP synthesis and preventing apoptosis-driven dry AMD progression.
+Reasoning: SS-31 selectively localizes to mitochondria to bind cardiolipin, improving electron transport efficiency and reducing ROS leakage. Preclinical RPE models show SS-31 rescues Δψm (JC-1), lowers MitoSOX signal, and prevents cell death in NaIO3- and H2O2-induced RPE injury. Its favorable PK (s.c. t1/2 ~2.5 h) and pilot human safety profile support rapid translation for geographic atrophy.
+
+Therapeutic Candidate 2:
+Candidate: Mitoquinone mesylate (MitoQ; Cayman 10012005)
+Hypothesis: MitoQ accumulates in RPE mitochondria via the triphenylphosphonium cation, scavenging superoxide at complex I/III release sites to restore Δψm and slow RPE degeneration in dry AMD.
+Reasoning: MitoQ’s ubiquinone moiety reduces mtROS and preserves membrane potential in ARPE-19 under H2O2, as measured by MitoSOX and TMRM assays. Oral and topical PK studies demonstrate retinal uptake (~1% of plasma) and excellent safety across >200 human subjects. Its specific mitochondrial localization and robust antioxidative action provide a strong mechanistic rationale against RPE oxidative injury.
+
+Therapeutic Candidate 3:
+Candidate: SkQ1 (10-(6′-plastoquinonyl)-decyltriphenylphosphonium; Sigma SML0967)
+Hypothesis: SkQ1 targets RPE mitochondria to quench lipid peroxyl radicals and superoxide, preventing Δψm collapse under chronic photo-oxidative stress and mitigating drusen-associated mitochondrial dysfunction.
+Reasoning: SkQ1’s plastoquinone core and TPP+ linker yield potent removal of O2•– and lipid radicals at nanomolar concentrations, demonstrated by JC-1 and DCFDA assays in ARPE-19. In vivo OXYS rat and macaque studies show SkQ1 eye drops deliver drug to posterior segment with minimal systemic exposure, reducing RPE vacuolization and preserving ERG function. Its established ocular safety in human dry-eye trials supports repurposing for geographic atrophy.
+
+Therapeutic Candidate 4:
+Candidate: MitoTEMPO (InvivoGen antiox15)
+Hypothesis: MitoTEMPO accumulates in RPE mitochondria, catalytically dismuting superoxide and preventing lipid peroxidation to maintain bioenergetic function in geographic atrophy.
+Reasoning: As a TPP+-linked piperidine nitroxide, MitoTEMPO reduces MitoSOX signal and restores Δψm in H2O2-challenged ARPE-19 cells and RPE of Ccl2−/−/Cx3cr1−/− mice. Although lacking clinical ocular PK, rodent studies show tolerability up to 5 mg/kg with preserved hepatic and renal safety. Its SOD-mimetic specificity and mitochondrial targeting align mechanistically with RPE oxidative injury in dry AMD.
+
+Therapeutic Candidate 5:
+Candidate: XJB-5-131 (Sigma-Aldrich SML1115)
+Hypothesis: XJB-5-131 delivers a nitroxide radical into RPE mitochondria to catalytically neutralize superoxide and lipid radicals, preserving cristae integrity under chronic oxidative insult.
+Reasoning: The gramicidin-based delivery moiety concentrates nitroxide in mitochondria, reducing MDA-adduct formation in pig RPE explants under UVA stress. In neuronal and cardiac cells, XJB-5-131 protects against sub-threshold ROS without impairing respiration. Its dual scavenging of superoxide and lipid peroxyl radicals directly addresses drusen-driven lipid peroxidation in RPE.
+
+Therapeutic Candidate 6:
+Candidate: S1QEL-1.1 (Cayman Chemical #25658)
+Hypothesis: S1QEL-1.1 selectively suppresses superoxide production at the IQ site of complex I in RPE mitochondria, preserving oxidative phosphorylation under chronic light-induced stress.
+Reasoning: By blocking both forward- and reverse-electron-flow–mediated ROS release at the IQ site without altering NADH oxidation, S1QEL-1.1 reduces mitochondrial superoxide in cardiomyocyte and neuron models; extrapolation to RPE suggests direct attenuation of light- and complement-driven mitochondrial ROS central to dry AMD.
+
+Therapeutic Candidate 7:
+Candidate: S3QEL-2 (Cayman Chemical #26918)
+Hypothesis: S3QEL-2 inhibits ROS generation at the Qo site of complex III in RPE mitochondria, reducing inflammasome activation in dry AMD.
+Reasoning: S3QEL-2’s selective complex III ROS suppression spares electron transport and Δψm, shown to block LPS-induced mtROS and IL-1β in macrophages; application in RPE under complement dysregulation could interrupt the mtROS–NLRP3 axis central to geographic atrophy.
+
+Therapeutic Candidate 8:
+Candidate: Olaparib (Selleckchem #S1060)
+Hypothesis: Olaparib inhibits PARP1-mediated NAD+ consumption in RPE, preserving SIRT3 activity, maintaining mitochondrial deacetylation, and reducing oxidative damage in dry AMD.
+Reasoning: Dry AMD RPE exhibit PARP1 hyperactivation, NAD+ depletion, and SIRT3 inactivity leading to hyperacetylated MnSOD and increased mtROS; pharmacological PARP inhibition restores NAD+ pools and mitochondrial function in primary RPE models, supporting olaparib’s repurposing.
+
+Therapeutic Candidate 9:
+Candidate: ZLN005 (MedChemExpress HY-100726)
+Hypothesis: ZLN005 activates PGC-1α transcription in RPE, stimulating mitochondrial biogenesis and antioxidant defense to counteract bioenergetic decline in dry AMD.
+Reasoning: ZLN005 upregulates PPARGC1A and downstream OXPHOS and antioxidant genes, increasing mtDNA copy number and improving basal/maximal OCR in skeletal and hepatic cells; by restoring mitochondrial mass and function in oxidatively stressed RPE, ZLN005 may prevent RPE degeneration.
+
+Therapeutic Candidate 10:
+Candidate: Honokiol (Sigma-Aldrich SML0588)
+Hypothesis: Honokiol activates mitochondrial SIRT3 in RPE, promoting deacetylation of MnSOD and IDH2 to reduce mtROS and stabilize Δψm in geographic atrophy.
+Reasoning: Honokiol binds and enhances SIRT3 deacetylase activity, shown to boost Δψm and reduce ROS in neurons and cardiomyocytes; applying this to RPE could correct hyperacetylation-driven dysfunction observed in dry AMD donor cells.
+
+Therapeutic Candidate 11:
+Candidate: Mdivi-1 (Sigma-Aldrich M0199)
+Hypothesis: Mdivi-1 inhibits DRP1-mediated mitochondrial fission in RPE, preserving network integrity and preventing apoptosis under oxidative stress in dry AMD.
+Reasoning: Selective DRP1 GTPase inhibition by Mdivi-1 reduces fragmentation and enhances OCR and ATP production in H2O2-treated ARPE-19 cells; targeting fission restores mitochondrial function linked to RPE survival in AMD models.
+
+Therapeutic Candidate 12:
+Candidate: Urolithin A (Sigma-Aldrich SML1791)
+Hypothesis: Urolithin A enhances PINK1/Parkin-mediated mitophagy in RPE, clearing damaged mitochondria to reduce mtROS and prevent RPE atrophy in dry AMD.
+Reasoning: Urolithin A activates AMPK/ULK1 signaling and upregulates Parkin recruitment, increasing mitophagy flux and improving mitochondrial function in aged muscle; similar clearance of dysfunctional mitochondria in RPE may break the cycle of ROS-driven damage in geographic atrophy.
+
+Therapeutic Candidate 13:
+Candidate: Rapamycin (Abcam #ab120224)
+Hypothesis: Rapamycin inhibits mTORC1 in RPE, inducing general autophagy and mitophagy to remove ROS-generating mitochondria and slow dry AMD progression.
+Reasoning: mTORC1 suppression via rapamycin stimulates LC3-II lipidation, p62 clearance, and PINK1/Parkin activation under oxidative conditions; in RPE, enhanced autophagic turnover may alleviate lipofuscin/A2E accumulation and preserve mitochondrial health.
+
+Therapeutic Candidate 14:
+Candidate: Tat-Beclin 1 peptide (Tocris #4344)
+Hypothesis: Tat-Beclin 1 promotes autophagy initiation in RPE, facilitating turnover of damaged organelles including mitochondria to counteract oxidative stress in dry AMD.
+Reasoning: The cell-permeant Tat-Beclin 1 peptide binds and activates Beclin 1, enhancing autophagosome formation; preclinical studies show reduced apoptosis in stressed neurons, and in RPE this could clear A2E-laden lysosomes and dysfunctional mitochondria, preventing cell death.
+
+Therapeutic Candidate 15:
+Candidate: Nicotinamide mononucleotide (NMN; Sigma-Aldrich N3501)
+Hypothesis: NMN restores NAD+ levels in RPE, reactivating SIRT3 and SIRT5 to correct mitochondrial deacetylation deficits, reduce mtROS, and improve respiration in dry AMD.
+Reasoning: NMN supplementation in AMD RPE models normalizes NAD+/NADH, increases SIRT3 activity, reverses hyperacetylation of MnSOD, and rescues OCR and Δψm; translational feasibility is high given NMN’s clinical development for aging indications.
+
+Therapeutic Candidate 16:
+Candidate: Nicotinamide riboside (NR; ChromaDex NR-100)
+Hypothesis: NR supplementation elevates NAD+ pools in RPE, enhancing mitochondrial DNA repair and antioxidant defenses to mitigate oxidative damage in geographic atrophy.
+Reasoning: NR rapidly increases intracellular NAD+ and activates sirtuin-mediated deacetylation of mitochondrial proteins in iPSC-RPE from AMD donors, lowering ROS (DCFDA) and restoring maximal OCR (Seahorse XF), demonstrating translational promise.
+
+Therapeutic Candidate 17:
+Candidate: Bardoxolone methyl (CDDO-Me; MedChemExpress HY-15151)
+Hypothesis: Bardoxolone methyl activates Nrf2 in RPE, upregulating mitochondrial antioxidant enzymes such as SOD2 and PRDX3 to reduce mtROS and preserve function in dry AMD.
+Reasoning: As a potent electrophilic Nrf2 inducer, CDDO-Me increases expression of ARE-driven genes in RPE models, diminishes MitoSOX signal under H2O2 stress, and improves Δψm; its oral bioavailability and safety in CKD patients support ocular repurposing.
+
+Therapeutic Candidate 18:
+Candidate: Sulforaphane (Sigma-Aldrich S4441)
+Hypothesis: Sulforaphane induces Nrf2-mediated mitochondrial antioxidant pathways in RPE, reducing superoxide production and maintaining ATP generation in geographic atrophy.
+Reasoning: Sulforaphane elevates HO-1, NQO1, and SOD2 transcripts in RPE under oxidative stress, correlating with lower MitoSOX fluorescence and improved spare respiratory capacity; abundant preclinical safety data justify testing in dry AMD.
+
+Therapeutic Candidate 19:
+Candidate: Dimethyl fumarate (Tecfidera; Biogen)
+Hypothesis: Dimethyl fumarate activates Nrf2 and enhances mitochondrial glutathione synthesis in RPE, lowering oxidative damage and supporting bioenergetics in dry AMD.
+Reasoning: Approved for MS, DMF upregulates ARE genes and increases intracellular GSH in RPE models, protecting Δψm and reducing IL-1β release; oral dosing yields sustained NRF2 activation, providing translational feasibility for geographic atrophy.
+
+Therapeutic Candidate 20:
+Candidate: GKT137831 (Setanaxib; MedChemExpress HY-108921)
+Hypothesis: GKT137831 inhibits NOX4-derived ROS in RPE mitochondria, preventing oxidative damage to ETC complexes and preserving Δψm in dry AMD.
+Reasoning: Dual NOX1/4 inhibition by GKT137831 reduces cytosolic and mitochondrial ROS in oxidative-stressed RPE, improves cell viability, and has demonstrated efficacy in fibrotic and vascular models; its oral formulation and Phase II data support repurposing.
+
+Therapeutic Candidate 21:
+Candidate: Apocynin (Sigma-Aldrich A1788)
+Hypothesis: Apocynin inhibits NOX enzyme assembly in RPE, reducing ROS spillover into mitochondria and protecting against Δψm collapse in dry AMD.
+Reasoning: Apocynin blocks p47phox translocation and attenuates H2O2-induced mtROS and mitochondrial fragmentation in ARPE-19, preserving basal OCR; its historical safety in cardiovascular trials supports further AMD evaluation.
+
+Therapeutic Candidate 22:
+Candidate: EUK-134 (Cayman Chemical #10010234)
+Hypothesis: EUK-134 mimics SOD and catalase within RPE mitochondria, detoxifying superoxide and H2O2 to maintain respiratory function in geographic atrophy.
+Reasoning: The Mn-porphyrin EUK-134 localizes to mitochondria to neutralize two principal ROS species, shown to restore Δψm and ATP in oxidatively damaged cells; its small size and dual activity offer mechanistic specificity for RPE therapies.
+
+Therapeutic Candidate 23:
+Candidate: EUK-8 (Enzo Life Sciences)
+Hypothesis: EUK-8’s Mn-porphyrin core performs catalase and SOD activity in RPE mitochondria, reducing oxidative burden and preventing inflammasome activation in dry AMD.
+Reasoning: EUK-8 has demonstrated reduction of mtROS and preservation of mitochondrial respiration in neuronal and cardiac models; its dual enzyme-mimetic action at submicromolar doses positions it as a targeted antioxidant approach for RPE.
+
+Therapeutic Candidate 24:
+Candidate: GC4419 (avasopasem manganese)
+Hypothesis: GC4419 acts as a mitochondrial SOD mimetic in RPE, converting superoxide to H2O2 for subsequent clearance, protecting RPE cells from drusen-induced oxidative stress.
+Reasoning: As a small-molecule Mn-salen derivative in clinical trials for radiation mucositis, GC4419 reduces mtROS and preserves Δψm in multiple cell types; its high catalytic turnover and mitochondrial uptake support its repurposing for dry AMD.
+
+Therapeutic Candidate 25:
+Candidate: Pyrroloquinoline quinone (PQQ; Sigma-Aldrich PQQ)
+Hypothesis: PQQ stimulates mitochondrial biogenesis via upregulation of PGC-1α in RPE, increasing antioxidant capacity and restoring respiration under chronic oxidative injury.
+Reasoning: PQQ treatment elevates mitochondrial mass, enhances SOD2 expression, and lowers ROS in neuronal and hepatic cells; oral PQQ is bioavailable and safe, making it a viable candidate to boost RPE mitochondrial resilience in dry AMD.
+
+Therapeutic Candidate 26:
+Candidate: AICAR (5-Aminoimidazole-4-carboxamide ribonucleotide; Sigma-Aldrich A9978)
+Hypothesis: AICAR activates AMPK in RPE, promoting PGC-1α-driven mitochondrial biogenesis and autophagy to clear ROS-producing mitochondria in dry AMD.
+Reasoning: AMPK activation by AICAR increases PGC-1α transcription, stimulates mitophagy, and improves OCR in oxidative-stressed RPE and neuronal models; its robust preclinical profile and known pharmacology suggest translational potential.
+
+Therapeutic Candidate 27:
+Candidate: Metformin (Sigma-Aldrich D150959)
+Hypothesis: Metformin activates AMPK and inhibits mitochondrial complex I leak in RPE, reducing ROS production and enhancing mitochondrial quality control in geographic atrophy.
+Reasoning: Beyond glycemic control, metformin lowers mtROS, upregulates autophagy, and preserves Δψm in RPE under high-glucose and oxidative stress; epidemiologic data link metformin use to reduced AMD incidence, supporting repurposing.
+
+Therapeutic Candidate 28:
+Candidate: Resveratrol (Cayman Chemical #70580)
+Hypothesis: Resveratrol activates SIRT1/AMPK–PGC-1α axis in RPE, enhancing mitochondrial biogenesis and antioxidant enzyme expression to counteract oxidative stress in dry AMD.
+Reasoning: In RPE models, resveratrol increases SOD2, restores Δψm, and improves spare respiratory capacity after H2O2 challenge; extensive safety and bioavailability data support its development for AMD.
+
+Therapeutic Candidate 29:
+Candidate: SRT1720 (Sigma-Aldrich SML0260)
+Hypothesis: SRT1720 selectively activates SIRT1 in RPE, promoting deacetylation of PGC-1α and mitochondrial proteins to improve oxidative resilience in dry AMD.
+Reasoning: SRT1720 enhances mitochondrial biogenesis and reduces mtROS in aged muscle and hepatocytes; translation to RPE is supported by shared sirtuin-dependent pathways implicated in AMD.
+
+Therapeutic Candidate 30:
+Candidate: Kinetin riboside (Carbosynth #KT0012)
+Hypothesis: Kinetin riboside activates PINK1 in RPE, augmenting Parkin-dependent mitophagy to eliminate dysfunctional mitochondria and reduce oxidative damage in dry AMD.
+Reasoning: Kinetin riboside stabilizes PINK1 on depolarized mitochondria, increasing Parkin recruitment and mitophagy flux in neuronal models; targeting this pathway in RPE addresses impaired clearance of ROS-generating mitochondria in AMD.
+
+Therapeutic Candidate 31:
+Candidate: BAM15 (Sigma-Aldrich SML1888)
+Hypothesis: BAM15 induces mild mitochondrial uncoupling in RPE, reducing proton motive force and limiting electron leakage to superoxide under chronic stress in dry AMD.
+Reasoning: As a lipophilic protonophore, BAM15 dissipates Δψm modestly to decrease ROS production without blocking ATP synthesis, demonstrated in hepatocytes and neurons; applying this to RPE may lower mtROS peaks that drive inflammasome activation.
+
+Therapeutic Candidate 32:
+Candidate: SRT2104 (Sirtris/GSK)
+Hypothesis: SRT2104 enhances SIRT1 activity in RPE, activating downstream antioxidant and mitochondrial biogenesis programs to restore function in geographic atrophy.
+Reasoning: Oral SRT2104 raises PGC-1α, NRF2, and antioxidant gene expression in human skeletal muscle, improving mitochondrial respiration; translation to RPE is supported by shared sirtuin-dependent pathways implicated in AMD.
+
+Therapeutic Candidate 33:
+Candidate: Idebenone (Sigma-Aldrich I7876)
+Hypothesis: Idebenone shuttles electrons to complex III in RPE, bypassing complex I defects to maintain Δψm and ATP while scavenging lipid radicals under drusen-induced oxidative stress.
+Reasoning: Approved for LHON, idebenone improves photopic ERG and preserves mitochondrial membrane potential in RPE and neuronal models; its dual electron carrier and antioxidant roles directly address OXPHOS impairment in AMD.
+
+Therapeutic Candidate 34:
+Candidate: Coenzyme Q10 (ubiquinone; Cayman Chemical #700105)
+Hypothesis: Exogenous CoQ10 supplements RPE mitochondrial ubiquinone pools, enhancing electron transport and scavenging free radicals to prevent cell death in dry AMD.
+Reasoning: Topical and systemic CoQ10 elevates retinal levels, reduces ROS, and improves cell viability in H2O2-challenged ARPE-19; its long safety record and endogenous role in ETC support mechanistic specificity.
+
+Therapeutic Candidate 35:
+Candidate: Astaxanthin (Sigma-Aldrich A9465)
+Hypothesis: Astaxanthin integrates into RPE mitochondrial membranes to quench lipid peroxidation and stabilize Δψm under chronic oxidative insult in dry AMD.
+Reasoning: As a potent carotenoid antioxidant, astaxanthin reduces MDA formation, maintains membrane integrity, and improves Δψm in RPE and retinal neuron models; clinical safety as dietary supplement facilitates translational studies.
+
+Therapeutic Candidate 36:
+Candidate: Alda-1 (Selleck S8274)
+Hypothesis: Alda-1 allosterically activates ALDH2 in RPE mitochondria to detoxify reactive aldehydes (4-HNE) from lipid peroxidation, reducing mitochondrial protein adduct formation in dry AMD.
+Reasoning: ALDH2 activator Alda-1 enhances clearance of lipid aldehydes, lowers protein carbonylation, and preserves OCR and Δψm in cardiomyocytes under oxidative stress; targeting aldehyde detox in RPE offers a novel approach to mitigate drusen-associated lipid damage.
+
+Therapeutic Candidate 37:
+Candidate: 3-Mercaptopicolinic Acid (3-MPA; Tocris 2608)
+Hypothesis: 3-MPA inhibits mitochondrial PCK2 in RPE, redirecting flux toward TCA cycle maintenance, enhancing NADH generation, and reducing ROS during bioenergetic stress in dry AMD.
+Reasoning: By blocking maladaptive gluconeogenic flux, 3-MPA restores TCA intermediates and improves OXPHOS in hepatocytes; analogous restoration of RPE mitochondrial metabolism may counter bioenergetic deficits driving AMD progression.
+
+Therapeutic Candidate 38:
+Candidate: EPI-743 (Vatiquinone; MedChemExpress HY-113361)
+Hypothesis: EPI-743 acts as a para-benzoquinone antioxidant in RPE mitochondria, regenerating reduced glutathione and supporting NQO1-mediated redox cycling to prevent mtDNA damage in dry AMD.
+Reasoning: In mitochondrial disease models, EPI-743 reduces oxidative base lesions, preserves ETC function, and improves ATP; its ability to modulate glutathione and NQO1 suggests applicability to counteract 8-oxoG accumulation in RPE mtDNA.
+
+Therapeutic Candidate 39:
+Candidate: Liproxstatin-1 (Selleckchem S7692)
+Hypothesis: Liproxstatin-1 inhibits lipid peroxidation and ferroptotic pathways in RPE, preventing iron-driven ROS amplification and cell death in geographic atrophy.
+Reasoning: As a potent ferroptosis inhibitor, liproxstatin-1 preserves Δψm and reduces lipid ROS in neuronal and RPE models; blocking ACSL4-dependent peroxidation intersects with iron dysregulation observed in dry AMD RPE.
+
+Therapeutic Candidate 40:
+Candidate: MCC950 (Selleckchem S8643)
+Hypothesis: MCC950 selectively inhibits NLRP3 inflammasome activation in RPE, blocking caspase-1 cleavage and IL-1β release triggered by mitochondrial ROS in dry AMD.
+Reasoning: MCC950’s high potency (IC50 ~7.5 nM) suppresses NLRP3-dependent cytokine secretion in RPE and microglia, preserving barrier function in sodium-iodate and laser-induced models; its mechanism directly addresses inflammasome-driven RPE atrophy.
+
+Therapeutic Candidate 41:
+Candidate: A-438079 (Tocris 2687)
+Hypothesis: A-438079 antagonizes P2X7 receptors on RPE, preventing ATP-induced Ca2+ influx, mtROS generation, and NLRP3 priming in dry AMD.
+Reasoning: P2X7 blockade by A-438079 inhibits secondary signal for inflammasome activation, reduces caspase-1 cleavage, and preserves TEER in ATP-challenged ARPE-19; targeting the purinergic axis downstream of drusen-derived ATP offers mechanistic specificity.
+
+Therapeutic Candidate 42:
+Candidate: SB 290157 (Cayman Chemical #10006619)
+Hypothesis: SB 290157 blocks C3a receptor signaling on RPE, reducing complement-driven mitochondrial ROS and subsequent NLRP3 activation in dry AMD.
+Reasoning: C3aR antagonism prevents C3a-induced mtROS and IL-1β secretion in ARPE-19, preserving barrier integrity; its use clarifies the role of complement-mitochondria crosstalk in geographic atrophy.
+
+Therapeutic Candidate 43:
+Candidate: PMX53 (Cayman Chemical #14117)
+Hypothesis: PMX53 antagonizes C5a receptors on RPE, attenuating complement-mediated mtROS production and inflammasome-driven degeneration in dry AMD.
+Reasoning: PMX53 prevents C5a-triggered mitochondrial superoxide and IL-1β release in vitro, and protects RPE morphology in murine complement dysregulation models; targeting C5aR addresses a key amplifier of RPE oxidative injury.
+
+Therapeutic Candidate 44:
+Candidate: Melatonin (Sigma-Aldrich M5250)
+Hypothesis: Melatonin scavenges ROS and upregulates mitochondrial antioxidant enzymes in RPE, preserving Δψm and preventing apoptosis in dry AMD.
+Reasoning: Melatonin localizes to mitochondria to directly neutralize free radicals and induces SOD2 and GPX expression in RPE under UV stress, reducing cytochrome c release; its endogenous nature and ocular safety support therapeutic exploration.
+
+Therapeutic Candidate 45:
+Candidate: Mitochonic Acid-5 (MA-5; MedChemExpress HY-104308)
+Hypothesis: MA-5 binds mitofilin (Mic60) in RPE mitochondria, stabilizing cristae architecture and activating UPRmt to enhance ROS detoxification in dry AMD.
+Reasoning: MA-5 improves ATP production, reduces mtROS, and prolongs lifespan via UPRmt in fibroblast and C. elegans models; targeting mitochondrial scaffold proteins may correct cristae defects seen in AMD RPE.
+
+Therapeutic Candidate 46:
+Candidate: BGP-15 (Sigma-Aldrich B726)
+Hypothesis: BGP-15 stabilizes mitochondrial membrane proteins and induces heat shock factor 1–driven antioxidant response in RPE, mitigating oxidative stress in dry AMD.
+Reasoning: BGP-15 enhances HSP70 expression, preserves Δψm, and reduces ROS in diabetic cardiomyocytes and retinal cells; its mitochondrial membrane–targeted chaperone action addresses protein misfolding in aged RPE.
+
+Therapeutic Candidate 47:
+Candidate: Deferiprone (Sigma-Aldrich D5721)
+Hypothesis: Deferiprone chelates labile iron in RPE mitochondria, preventing Fenton reaction–mediated ROS formation and maintaining ETC integrity in dry AMD.
+Reasoning: Oral deferiprone reduces mitochondrial iron load and oxidative damage in neuronal and cardiac models; by lowering iron-catalyzed radicals, it directly addresses iron accumulation and lipid peroxidation observed in AMD RPE.
+
+Therapeutic Candidate 48:
+Candidate: Deferoxamine (Sigma-Aldrich D9533)
+Hypothesis: Deferoxamine sequesters iron in RPE, limiting hydroxyl radical generation and protecting mitochondrial DNA from oxidative lesions in dry AMD.
+Reasoning: Deferoxamine reduces 8-oxoG levels and preserves OCR in retinal and neuronal models of iron overload; its established safety for iron overload disorders supports ocular repurposing.
+
+Therapeutic Candidate 49:
+Candidate: Trolox (Sigma-Aldrich 238813)
+Hypothesis: Trolox, a water-soluble vitamin E analog, scavenges mitochondrial lipid peroxyl radicals, preventing inner membrane oxidation and preserving electron transport in dry AMD.
+Reasoning: Trolox lowers lipid peroxidation and supports Δψm in ARPE-19 under oxidative stress, restoring ATP levels; its solubility and antioxidant specificity make it a suitable probe for mitochondrial lipid damage in geographic atrophy.
+
+Therapeutic Candidate 50:
+Candidate: Spermidine (Sigma-Aldrich S2626)
+Hypothesis: Spermidine induces autophagy and mitophagy in RPE through EP300 inhibition and AMPK activation, clearing dysfunctional mitochondria and reducing mtROS in dry AMD.
+Reasoning: Spermidine-mediated autophagy increases LC3-II conversion and Parkin recruitment, protecting RPE viability under A2E and H2O2 stress; its role in organelle quality control targets a key deficit in AMD pathogenesis.
+
+Therapeutic Candidate 51:
+Candidate: Tauroursodeoxycholic acid (TUDCA; Sigma-Aldrich 12399)
+Hypothesis: TUDCA reduces ER stress in RPE, preventing secondary mitochondrial dysfunction and ROS production in geographic atrophy.
+Reasoning: TUDCA inhibits CHOP induction and preserves Δψm in ER-stressed RPE and neuronal models, resulting in lower mtROS and improved cell survival; its ocular safety profile as a neuroprotectant supports translation.
+
+Therapeutic Candidate 52:
+Candidate: Docosahexaenoic acid (DHA; Sigma-Aldrich D2534)
+Hypothesis: DHA incorporates into mitochondrial membranes in RPE, enhancing fluidity and reducing oxidative damage to ETC complexes in dry AMD.
+Reasoning: DHA supplementation lowers MDA levels, preserves cristae structure, and improves OCR in RPE and photoreceptor models; epidemiologic data link high DHA intake to lower AMD risk, supporting its mechanistic specificity.
+
+Therapeutic Candidate 53:
+Candidate: L-Carnitine (Sigma-Aldrich C0283)
+Hypothesis: L-Carnitine enhances fatty acid transport into mitochondria in RPE, boosting β-oxidation, ATP generation, and reducing ROS from lipid overload in geographic atrophy.
+Reasoning: L-Carnitine increases mitochondrial respiration, reduces lipid-induced ROS in hepatocytes and neuronal cells; by improving substrate utilization, it may correct metabolic inflexibility in AMD RPE.
+
+Therapeutic Candidate 54:
+Candidate: Beta-hydroxybutyrate (BHB; Sigma-Aldrich 389410)
+Hypothesis: BHB serves as an alternative mitochondrial fuel in RPE, sustaining Δψm and reducing NADH-driven ROS production under glycolysis-impaired conditions in dry AMD.
+Reasoning: BHB supplementation in neuronal and cardiac models maintains ATP levels and lowers mtROS during energetic stress; its capacity to bypass glycolytic defects may preserve RPE bioenergetics in geographic atrophy.
+
+Therapeutic Candidate 55:
+Candidate: Omaveloxolone (RTA 408; Reata Pharmaceuticals)
+Hypothesis: Omaveloxolone activates Nrf2 and represses NF-κB in RPE, upregulating mitochondrial antioxidant defenses while reducing inflammatory signaling in dry AMD.
+Reasoning: As a triterpenoid, omaveloxolone increases SOD2, NQO1, and HO-1 in patient-derived cells, decreases mtROS, and preserves Δψm; its clinical development in Friedreich ataxia demonstrates target engagement and safety, warranting AMD evaluation.
+

@@ -1,0 +1,41 @@
+Query: Mechanistic role of lipoprotein and cholesterol metabolism in drusen formation: exploring lipid uptake, efflux, and esterification pathways in RPE cultures and development of lipid droplet staining, filipin cholesterol assays, and Nile red quantification for drug screening
+
+Drusen biogenesis reflects an imbalance in RPE cholesterol uptake, efflux, and esterification: both unesterified (UC) and esterified cholesterol (EC) are abundant in BLinD/soft drusen, and RPE engages a lipoprotein program (apoE, ABCA1/LCAT/CETP, SR-BI/CD36) that mediates cholesterol trafficking and reverse transport across Bruch’s membrane (BrM) (alrashed2016theroleof pages 56-60, alrashed2016theroleof pages 52-56). RPE cholesterol is sourced by local synthesis and uptake but is removed via HDL-mediated efflux and LDLR-dependent clearance; lipid loading drives membrane UC accumulation and SREBF dysregulation, whereas complement activation upregulates SREBF1/2 and LDLR and can reprogram lipid handling (alrashed2016theroleof pages 222-226). Excess UC is detoxified by esterification into lipid droplets; ACAT1 co-localizes with drusen and contributes to EC generation, while filipin histochemistry captures UC accumulation in models with impaired cholesterol elimination (saadane2016retinalhypercholesterolemiatriggers pages 4-5, saadane2016retinalhypercholesterolemiatriggers pages 23-25). Impaired de-esterification/efflux amplifies droplet burden in human iRPE: CES1 downregulation or EFEMP1R345W expression attenuates cholesterol efflux and causes neutral lipid droplet accumulation, linking defective CE hydrolysis to drusen-prone phenotypes (tsai2021impairedcholesterolefflux pages 1-2).
+
+Assay implementation for screening:
+- Neutral lipid droplets (Nile red). ARPE-19: wash HBSS, incubate 30 µM Nile red in HBSS 15 min in dark, mount in 80% glycerol+DABCO; image with Nile red filter (Ex/Em ~525/590 nm; neutral lipids fluoresce green at Ex 485/Em 590; polar lipids red); quantify in ImageJ across n≥3; maintain orientation on intact Millicell-PCF inserts (alrashed2016theroleof pages 77-82). Dose-responsive lipid loading with PLO on filters and ImageJ quantification provides a robust neutral-lipid endpoint, alongside TEER/ZO-1 integrity (alrashed2016theroleof pages 70-77). iRPE: 2.0 mg/mL Nile red, 30 min at 37°C; quantify number/size within 90,000 µm2, thresholding to exclude noise (tsai2021impairedcholesterolefflux pages 2-3).
+- Free vs esterified cholesterol (filipin). For UC: 0.05% filipin, 30–60 min, UV Ex 355/Em 420; DAPI for nuclei (alrashed2016theroleof pages 77-82). For EC: ethanol extraction to remove UC followed by cholesterol esterase to liberate the 3β-OH, then filipin staining; include extraction/background controls and quantify (saadane2016retinalhypercholesterolemiatriggers pages 26-28). Filipin channels allow UC/EC mapping in tissue/cells and detect UC toxicity (saadane2016retinalhypercholesterolemiatriggers pages 23-25, alrashed2016theroleof pages 222-226).
+- Orthogonal endpoints: VEGF-A ELISA, APOE/Aβ1-42 sub-RPE deposits by immunostaining, and complement manipulations to test lipid redistribution between intracellular stores and extracellular deposits (alrashed2016theroleof pages 121-127, alrashed2016theroleof pages 212-218).
+
+This imaging workflow (Nile red neutral lipid, filipin UC/EC, DAPI normalization) with ARPE-19/iRPE models supports quantitative, multi-channel readouts suitable for mechanistic dissection and compound screening that target uptake (SR-B/CD36/LDLR), esterification (ACAT1), and efflux/de-esterification (ABCA1/LCAT/CES1, apoE/HDL) (alrashed2016theroleof pages 247-249, alrashed2016theroleof pages 56-60, tsai2021impairedcholesterolefflux pages 1-2).
+
+Drusen arises from RPE lipid flux imbalance: excessive uptake and/or impaired efflux with compensatory esterification produces intracellular droplets and EC-rich extracellular deposits at BrM (alrashed2016theroleof pages 56-60, alrashed2016theroleof pages 222-226). Nile red droplet quantification and filipin UC/EC assays, implemented as described, deliver scalable endpoints to screen interventions that restore efflux, normalize SREBF/LDLR programs, or modulate ACAT/CES1 activity (alrashed2016theroleof pages 77-82, saadane2016retinalhypercholesterolemiatriggers pages 26-28, tsai2021impairedcholesterolefflux pages 1-2).
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/ae54a3b2-d950-4234-85a8-956f010132b6
+
+References:
+1. (alrashed2016theroleof pages 56-60): F Al-Rashed. The role of lipid toxicity and para-inflammation as potential mechanisms of age related macular degeneration. Unknown journal, 2016.
+
+2. (alrashed2016theroleof pages 52-56): F Al-Rashed. The role of lipid toxicity and para-inflammation as potential mechanisms of age related macular degeneration. Unknown journal, 2016.
+
+3. (alrashed2016theroleof pages 222-226): F Al-Rashed. The role of lipid toxicity and para-inflammation as potential mechanisms of age related macular degeneration. Unknown journal, 2016.
+
+4. (saadane2016retinalhypercholesterolemiatriggers pages 4-5): Aicha Saadane, Natalia Mast, Tung Dao, Baseer Ahmad, and Irina A. Pikuleva. Retinal hypercholesterolemia triggers cholesterol accumulation and esterification in photoreceptor cells. Journal of Biological Chemistry, 291:20427-20439, Sep 2016. URL: https://doi.org/10.1074/jbc.m116.744656, doi:10.1074/jbc.m116.744656. This article has 33 citations and is from a domain leading peer-reviewed journal.
+
+5. (saadane2016retinalhypercholesterolemiatriggers pages 23-25): Aicha Saadane, Natalia Mast, Tung Dao, Baseer Ahmad, and Irina A. Pikuleva. Retinal hypercholesterolemia triggers cholesterol accumulation and esterification in photoreceptor cells. Journal of Biological Chemistry, 291:20427-20439, Sep 2016. URL: https://doi.org/10.1074/jbc.m116.744656, doi:10.1074/jbc.m116.744656. This article has 33 citations and is from a domain leading peer-reviewed journal.
+
+6. (tsai2021impairedcholesterolefflux pages 1-2): Yi-Ting Tsai, Yao Li, Joseph Ryu, Pei-Yin Su, Chia-Hua Cheng, Wen-Hsuan Wu, Yong-Shi Li, Peter M.J. Quinn, Kam W. Leong, and Stephen H. Tsang. Impaired cholesterol efflux in retinal pigment epithelium of individuals with juvenile macular degeneration. The American Journal of Human Genetics, 108:903-918, May 2021. URL: https://doi.org/10.1016/j.ajhg.2021.04.006, doi:10.1016/j.ajhg.2021.04.006. This article has 22 citations.
+
+7. (alrashed2016theroleof pages 77-82): F Al-Rashed. The role of lipid toxicity and para-inflammation as potential mechanisms of age related macular degeneration. Unknown journal, 2016.
+
+8. (alrashed2016theroleof pages 70-77): F Al-Rashed. The role of lipid toxicity and para-inflammation as potential mechanisms of age related macular degeneration. Unknown journal, 2016.
+
+9. (tsai2021impairedcholesterolefflux pages 2-3): Yi-Ting Tsai, Yao Li, Joseph Ryu, Pei-Yin Su, Chia-Hua Cheng, Wen-Hsuan Wu, Yong-Shi Li, Peter M.J. Quinn, Kam W. Leong, and Stephen H. Tsang. Impaired cholesterol efflux in retinal pigment epithelium of individuals with juvenile macular degeneration. The American Journal of Human Genetics, 108:903-918, May 2021. URL: https://doi.org/10.1016/j.ajhg.2021.04.006, doi:10.1016/j.ajhg.2021.04.006. This article has 22 citations.
+
+10. (saadane2016retinalhypercholesterolemiatriggers pages 26-28): Aicha Saadane, Natalia Mast, Tung Dao, Baseer Ahmad, and Irina A. Pikuleva. Retinal hypercholesterolemia triggers cholesterol accumulation and esterification in photoreceptor cells. Journal of Biological Chemistry, 291:20427-20439, Sep 2016. URL: https://doi.org/10.1074/jbc.m116.744656, doi:10.1074/jbc.m116.744656. This article has 33 citations and is from a domain leading peer-reviewed journal.
+
+11. (alrashed2016theroleof pages 121-127): F Al-Rashed. The role of lipid toxicity and para-inflammation as potential mechanisms of age related macular degeneration. Unknown journal, 2016.
+
+12. (alrashed2016theroleof pages 212-218): F Al-Rashed. The role of lipid toxicity and para-inflammation as potential mechanisms of age related macular degeneration. Unknown journal, 2016.
+
+13. (alrashed2016theroleof pages 247-249): F Al-Rashed. The role of lipid toxicity and para-inflammation as potential mechanisms of age related macular degeneration. Unknown journal, 2016.

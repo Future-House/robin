@@ -1,0 +1,30 @@
+Query: Gather mechanistic insights into autophagy and mitophagy dysregulation in retinal pigment epithelial cells during dry age-related macular degeneration progression, covering upstream regulatory kinases like mTOR and ULK1, autophagosome formation dynamics, lysosomal acidification processes, and relevant assay techniques to measure autophagic flux.
+
+Autophagy and mitophagy dysregulation in RPE during dry AMD involves aberrant upstream kinase signaling, altered autophagosome biogenesis and compromised lysosomal acidification. mTORC1 is hyperactive in AMD RPE, and by phosphorylating ULK1 and Atg13 it prevents the proper initiation of autophagy; conversely, AMPK activation relieves mTOR inhibition via direct phosphorylation of ULK1, thus favoring autophagic induction (golestaneh2018dysfunctionalautophagyin pages 10-11, nita2023antioxidativeroleof pages 9-11, si2023theroleof pages 10-12, wang2023potentialregulatoryroles pages 9-11).
+
+Autophagosome formation proceeds via canonical steps initiated by the ULK1–Atg13–FIP200 complex, which then activates the Beclin1–Class III PI3K complex to nucleate phagophore membranes. This is followed by elongation mediated by the ATG12–ATG5–ATG16L1 complex and LC3 lipidation, with oxidative stress modulating Atg4 activity to preserve LC3-II levels essential for membrane expansion (si2023theroleof pages 5-7, nita2023antioxidativeroleof pages 16-18, wang2023potentialregulatoryroles pages 9-11).
+
+Lysosomal acidification is critical for cargo degradation, yet in AMD RPE, accumulation of lipofuscin and A2E impairs ATP-driven V-ATPase function, leading to swollen, dysfunctional autophagolysosomes and reduced degradative capacity (golestaneh2018dysfunctionalautophagyin pages 10-11, si2023theroleof pages 15-16).
+
+Autophagic flux is typically assessed using assays that monitor LC3-II/LC3-I conversion, p62/SQSTM1 turnover and lysosomal morphology via LAMP-1 immunostaining, as well as tandem fluorescent LC3 reporters to distinguish autophagosome from autolysosome compartments (golestaneh2018dysfunctionalautophagyin pages 10-11, nita2023antioxidativeroleof pages 9-11, liton2023autophagyinthe pages 21-23).
+
+RPE degeneration in dry AMD reflects combined defects in mTOR–ULK1 regulated autophagosome formation and lysosomal acidification, resulting in impaired clearance of damaged organelles and protein aggregates. These integrated molecular failures, demonstrated through robust autophagic flux assays, underlie the progressive cellular dysfunction observed in AMD.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/65ff021a-d442-4b01-91ec-c7474503782d
+
+References:
+1. (golestaneh2018dysfunctionalautophagyin pages 10-11): Nady Golestaneh, Yi Chu, Yang-Yu Xiao, Gianna L Stoleru, and Alexander C Theos. Dysfunctional autophagy in rpe, a contributing factor in age-related macular degeneration. Cell Death &amp; Disease, 8:e2537-e2537, Jan 2018. URL: https://doi.org/10.1038/cddis.2016.453, doi:10.1038/cddis.2016.453. This article has 394 citations and is from a peer-reviewed journal.
+
+2. (nita2023antioxidativeroleof pages 9-11): Małgorzata Nita and Andrzej Grzybowski. Antioxidative role of heterophagy, autophagy, and mitophagy in the retina and their association with the age-related macular degeneration (amd) etiopathogenesis. Antioxidants, 12:1368, Jun 2023. URL: https://doi.org/10.3390/antiox12071368, doi:10.3390/antiox12071368. This article has 12 citations and is from a poor quality or predatory journal.
+
+3. (si2023theroleof pages 10-12): Zhibo Si, Yajuan Zheng, and Jing Zhao. The role of retinal pigment epithelial cells in age-related macular degeneration: phagocytosis and autophagy. Biomolecules, 13:901, May 2023. URL: https://doi.org/10.3390/biom13060901, doi:10.3390/biom13060901. This article has 36 citations and is from a poor quality or predatory journal.
+
+4. (wang2023potentialregulatoryroles pages 9-11): Jingyi Wang, Qiaoyun Gong, Yupeng Xu, Jingfa Zhang, and Haiyan Wang. Potential regulatory roles of accumulated aβ and autophagy dysfunction in the pathogenesis of dry age-related macular degeneration. Jan 2023. URL: https://doi.org/10.2139/ssrn.4623208, doi:10.2139/ssrn.4623208.
+
+5. (si2023theroleof pages 5-7): Zhibo Si, Yajuan Zheng, and Jing Zhao. The role of retinal pigment epithelial cells in age-related macular degeneration: phagocytosis and autophagy. Biomolecules, 13:901, May 2023. URL: https://doi.org/10.3390/biom13060901, doi:10.3390/biom13060901. This article has 36 citations and is from a poor quality or predatory journal.
+
+6. (nita2023antioxidativeroleof pages 16-18): Małgorzata Nita and Andrzej Grzybowski. Antioxidative role of heterophagy, autophagy, and mitophagy in the retina and their association with the age-related macular degeneration (amd) etiopathogenesis. Antioxidants, 12:1368, Jun 2023. URL: https://doi.org/10.3390/antiox12071368, doi:10.3390/antiox12071368. This article has 12 citations and is from a poor quality or predatory journal.
+
+7. (si2023theroleof pages 15-16): Zhibo Si, Yajuan Zheng, and Jing Zhao. The role of retinal pigment epithelial cells in age-related macular degeneration: phagocytosis and autophagy. Biomolecules, 13:901, May 2023. URL: https://doi.org/10.3390/biom13060901, doi:10.3390/biom13060901. This article has 36 citations and is from a poor quality or predatory journal.
+
+8. (liton2023autophagyinthe pages 21-23): Paloma B. Liton, Kathleen Boesze-Battaglia, Michael E. Boulton, Patricia Boya, Thomas A. Ferguson, Ian G. Ganley, Anu Kauppinnen, Gordon W. Laurie, Noboru Mizushima, Hideaki Morishita, Rossella Russo, Jaya Sadda, Rajalekshmy Shyam, Debasish Sinha, Debra A. Thompson, and David N. Zacks. Autophagy in the eye: from physiology to pathophysiology. Autophagy Reports, Mar 2023. URL: https://doi.org/10.1080/27694127.2023.2178996, doi:10.1080/27694127.2023.2178996. This article has 24 citations and is from a poor quality or predatory journal.

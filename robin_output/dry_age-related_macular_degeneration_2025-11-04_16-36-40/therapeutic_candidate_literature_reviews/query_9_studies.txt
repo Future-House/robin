@@ -1,0 +1,28 @@
+Query: Studies defining structure-activity relationships for small-molecule modulators of lysosomal acidification and cathepsin D, with insights on potency, selectivity, off-target profiles, docking and medicinal chemistry optimization against v-ATPase or cathepsin D, cell-based functional assays in RPE models, ADME and toxicity profiling, and candidate prioritization criteria for dry AMD therapy
+
+Studies in this area have applied integrated computational and experimental pipelines to identify small‐molecule modulators of lysosomal acidification. In these workflows, high‐quality structural databases (Protein Data Bank) and docking tools (Maestro, LigPrep, Glide) are used to perform docking‐driven SAR and virtual screening, with ADME predictors such as QikProp guiding ligand selection based on druglike properties (maestro2022moduladoresdemitofagia pages 174-176, maestro2022moduladoresdemitofagia pages 79-86). Bafilomycin A1 has been used as a biochemical control for v‑ATPase inhibition, although its poor solubility and toxicity preclude clinical advancement (giovannucci2021tippingthescales pages 50-53). Phenotypic assays in RPE-derived models, notably using ARPE-19 MitoQC cells with tandem fluorescent reporters and LC3/p62 readouts, provide robust measures of lysosomal acidification and autophagic flux (maestro2022moduladoresdemitofagia pages 147-151, maestro2022moduladoresdemitofagia pages 51-55). Off-target evaluation is performed using kinase panels and chemical proteomics approaches to delineate selectivity profiles, although detailed selectivity data for cathepsin D remain limited (maestro2022moduladoresdemitofagia pages 112-117, giovannucci2021tippingthescales pages 59-62). Additionally, structure-activity relationships have been explored through medicinal chemistry optimization of specific scaffolds, where modifications such as aliphatic chain length can dictate efficacy independent of alternate targets (maestro2022moduladoresdemitofagia pages 102-106). Candidate prioritization for dry AMD is proposed to integrate potency in cell-based assays, docking scores, ADME/toxicity profiles, and off-target liabilities; however, explicit thresholds for v‑ATPase or cathepsin D remain to be defined (kalsum2019characterizingphenotypesof pages 49-51, maestro2022moduladoresdemitofagia pages 55-60).
+
+Small-molecule modulators of lysosomal acidification show promise when evaluated via combined docking, medicinal chemistry, and RPE cell-based assays. Prioritizing candidates for dry AMD will require further quantitative data on potency, selectivity, and safety.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/cace0d73-5928-44a0-a879-5871c24f4cd5
+
+References:
+1. (maestro2022moduladoresdemitofagia pages 174-176): I Maestro. Moduladores de mitofagia como fármacos innovadores en enfermedades neurodegenerativas. Unknown journal, 2022.
+
+2. (maestro2022moduladoresdemitofagia pages 79-86): I Maestro. Moduladores de mitofagia como fármacos innovadores en enfermedades neurodegenerativas. Unknown journal, 2022.
+
+3. (giovannucci2021tippingthescales pages 50-53): TA Giovannucci. Tipping the scales in cancer: novel mechanisms of inhibiting protein degradation. Unknown journal, 2021.
+
+4. (maestro2022moduladoresdemitofagia pages 147-151): I Maestro. Moduladores de mitofagia como fármacos innovadores en enfermedades neurodegenerativas. Unknown journal, 2022.
+
+5. (maestro2022moduladoresdemitofagia pages 51-55): I Maestro. Moduladores de mitofagia como fármacos innovadores en enfermedades neurodegenerativas. Unknown journal, 2022.
+
+6. (maestro2022moduladoresdemitofagia pages 112-117): I Maestro. Moduladores de mitofagia como fármacos innovadores en enfermedades neurodegenerativas. Unknown journal, 2022.
+
+7. (giovannucci2021tippingthescales pages 59-62): TA Giovannucci. Tipping the scales in cancer: novel mechanisms of inhibiting protein degradation. Unknown journal, 2021.
+
+8. (maestro2022moduladoresdemitofagia pages 102-106): I Maestro. Moduladores de mitofagia como fármacos innovadores en enfermedades neurodegenerativas. Unknown journal, 2022.
+
+9. (kalsum2019characterizingphenotypesof pages 49-51): Sadaf Kalsum. Characterizing phenotypes of mycobacterium tuberculosis and exploring anti-mycobacterial compounds through high content screening. Linköping University Medical Dissertations, Feb 2019. URL: https://doi.org/10.3384/diss.diva-153735, doi:10.3384/diss.diva-153735. This article has 2 citations.
+
+10. (maestro2022moduladoresdemitofagia pages 55-60): I Maestro. Moduladores de mitofagia como fármacos innovadores en enfermedades neurodegenerativas. Unknown journal, 2022.

@@ -1,0 +1,41 @@
+Hypothesis: Lysosomal pH and protease activity profiling
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Lysosomal pH and protease activity profiling
+Reasoning: Use ratiometric LysoSensor and BODIPY-pepstatin A probes to assess lysosomal acidification and cathepsin D activity under drug treatment. This distinguishes fusion/maturation blocks from pH dysregulation and verifies lysosomal competence (Cardoso et al. 2018; Rao et al. 2018).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+This assay utilizes a ratiometric LysoSensor dye to measure lysosomal pH and BODIPY‑pepstatin A to quantify active cathepsin D in retinal pigment epithelial (RPE) cells. It models a key aspect of dry AMD pathogenesis—the impairment of lysosomal acidification and subsequent failure of protease activation that leads to lipofuscin accumulation and compromised photoreceptor outer segment degradation. Measurements are taken by live cell fluorescence imaging and quantitative microscopy in biologically relevant systems such as iPSC‑derived RPE or ARPE‑19 cells (li2025sustainedlysosomaldelivery pages 17-20, li2025sustainedlysosomaldelivery pages 25-28).  
+
+Biomedical Evidence:  
+Lysosomal dysregulation is central to dry AMD, where disturbed acidification impairs lysosomal enzyme function and autophagic clearance, leading to RPE dysfunction and drusen formation (lynn2021oligomericaβ142induces pages 1-2, kaarniranta2023autophagyinagerelated pages 2-3). Cathepsin D activity, dependent on an acidic lysosomal environment, is crucial for maintaining RPE homeostasis, and its malfunction has been directly linked to disease pathology (li2025sustainedlysosomaldelivery pages 1-6, falcao2025targetinglysosomaldysfunction pages 5-7).  
+
+Previous Use:  
+Similar approaches have been demonstrated in studies where nanoparticle-mediated reacidification restored lysosomal function and cathepsin D activity in RPE models (li2025sustainedlysosomaldelivery pages 1-6, li2025sustainedlysosomaldelivery pages 13-17). The combination of pH and protease activity probes has provided mechanistic insights into lysosomal competence and its perturbation by oxidative stress or Aβ accumulation (li2025sustainedlysosomaldelivery pages 17-20).  
+
+Overall Evaluation:  
+The assay is strong in its mechanistic relevance and offers quantifiable, physiologically pertinent readouts in disease-relevant RPE systems. Potential weaknesses include probe sensitivity to experimental conditions and cell-to-cell heterogeneity in dye uptake, which must be rigorously controlled (li2025sustainedlysosomaldelivery pages 13-17, li2025sustainedlysosomaldelivery pages 17-20).  
+
+Lysosomal pH and cathepsin D activity assays effectively model a central pathogenic mechanism in dry AMD. They provide a robust platform for early-stage therapeutic testing when used in validated RPE culture systems.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/13af55a5-048f-4bda-bce8-f922794716fc
+
+References:
+1. (li2025sustainedlysosomaldelivery pages 17-20): Jiaqi Li, Tianchen Wang, Wennan Lu, Davit Jishkariani, Andrew Tsourkas, Simon Kaja, Rohini M. Nair, Joshua L. Dunaief, and Claire H. Mitchell. Sustained lysosomal delivery of enhanced cy3-labeled acid nanoparticles restores lysosomal ph in retinal pigment epithelial cells and astrocytes. bioRxiv, Jun 2025. URL: https://doi.org/10.1101/2025.06.16.659991, doi:10.1101/2025.06.16.659991. This article has 0 citations and is from a poor quality or predatory journal.
+
+2. (li2025sustainedlysosomaldelivery pages 25-28): Jiaqi Li, Tianchen Wang, Wennan Lu, Davit Jishkariani, Andrew Tsourkas, Simon Kaja, Rohini M. Nair, Joshua L. Dunaief, and Claire H. Mitchell. Sustained lysosomal delivery of enhanced cy3-labeled acid nanoparticles restores lysosomal ph in retinal pigment epithelial cells and astrocytes. bioRxiv, Jun 2025. URL: https://doi.org/10.1101/2025.06.16.659991, doi:10.1101/2025.06.16.659991. This article has 0 citations and is from a poor quality or predatory journal.
+
+3. (lynn2021oligomericaβ142induces pages 1-2): Savannah A. Lynn, David A. Johnston, Jenny A. Scott, Rosie Munday, Roshni S. Desai, Eloise Keeling, Ruaridh Weaterton, Alexander Simpson, Dillon Davis, Thomas Freeman, David S. Chatelet, Anton Page, Angela J. Cree, Helena Lee, Tracey A. Newman, Andrew J. Lotery, and J. Arjuna Ratnayaka. Oligomeric aβ1-42 induces an amd-like phenotype and accumulates in lysosomes to impair rpe function. Cells, 10:413, Feb 2021. URL: https://doi.org/10.3390/cells10020413, doi:10.3390/cells10020413. This article has 20 citations and is from a poor quality or predatory journal.
+
+4. (kaarniranta2023autophagyinagerelated pages 2-3): Kai Kaarniranta, Janusz Blasiak, Paloma Liton, Michael Boulton, Daniel J. Klionsky, and Debasish Sinha. Autophagy in age-related macular degeneration. Autophagy, 19:388-400, May 2023. URL: https://doi.org/10.1080/15548627.2022.2069437, doi:10.1080/15548627.2022.2069437. This article has 202 citations and is from a domain leading peer-reviewed journal.
+
+5. (li2025sustainedlysosomaldelivery pages 1-6): Jiaqi Li, Tianchen Wang, Wennan Lu, Davit Jishkariani, Andrew Tsourkas, Simon Kaja, Rohini M. Nair, Joshua L. Dunaief, and Claire H. Mitchell. Sustained lysosomal delivery of enhanced cy3-labeled acid nanoparticles restores lysosomal ph in retinal pigment epithelial cells and astrocytes. bioRxiv, Jun 2025. URL: https://doi.org/10.1101/2025.06.16.659991, doi:10.1101/2025.06.16.659991. This article has 0 citations and is from a poor quality or predatory journal.
+
+6. (falcao2025targetinglysosomaldysfunction pages 5-7): Ana S. Falcão, Margarida L. Pedro, Sandra Tenreiro, and Miguel C. Seabra. Targeting lysosomal dysfunction and oxidative stress in age-related macular degeneration. Antioxidants, 14:596, May 2025. URL: https://doi.org/10.3390/antiox14050596, doi:10.3390/antiox14050596. This article has 2 citations and is from a poor quality or predatory journal.
+
+7. (li2025sustainedlysosomaldelivery pages 13-17): Jiaqi Li, Tianchen Wang, Wennan Lu, Davit Jishkariani, Andrew Tsourkas, Simon Kaja, Rohini M. Nair, Joshua L. Dunaief, and Claire H. Mitchell. Sustained lysosomal delivery of enhanced cy3-labeled acid nanoparticles restores lysosomal ph in retinal pigment epithelial cells and astrocytes. bioRxiv, Jun 2025. URL: https://doi.org/10.1101/2025.06.16.659991, doi:10.1101/2025.06.16.659991. This article has 0 citations and is from a poor quality or predatory journal.

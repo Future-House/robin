@@ -1,0 +1,66 @@
+Query: Comprehensive mechanistic review of complement system dysregulation in RPE cells in dry AMD including roles of C3a, C5a, membrane attack complex and factor H polymorphisms and in vitro cell culture assays recapitulating complement-mediated RPE injury
+
+Below are 15 distinct mechanistic hypotheses or therapeutic‐strategy concepts focused on complement dysregulation in RPE cells in dry AMD—with suggested in vitro assays for each idea:
+
+1. CFH Y402H Polymorphism Enhances C3a-Driven Inflammation  
+   • Hypothesis: The AMD-risk CFH Y402H variant in RPE fails to curb C3b, leading to excess C3a generation and NF-κB–mediated cytokine release.  
+   • Assay: Differentiate iPSC-RPE from CFH^Y402 and CFH^H402 donors; expose to normal human serum; quantify C3a in supernatant and IL-6/IL-8 by ELISA and p65 nuclear translocation by immunofluorescence.
+
+2. C5a-Induced Sublytic MAC Triggers Mitochondrial Dysfunction  
+   • Hypothesis: C5a primes RPE for sublytic C5b-9 deposition, which impairs mitochondrial respiration.  
+   • Assay: Treat ARPE-19 cells with recombinant C5a plus 10% active serum, detect MAC by anti-C5b-9 immunostaining, and measure OCR/ECAR using Seahorse XF.
+
+3. Impaired Surface Regulation of C3b on CFH-Risk RPE  
+   • Hypothesis: CFH-risk RPE cannot inactivate deposited C3b on their basal surface, prompting alternative pathway amplification.  
+   • Assay: Culture primary RPE on Bruch’s-membrane–mimetic ECM, add serum from CFH^Y402 vs. CFH^H402 carriers, then quantify surface C3b by flow cytometry and convertase activity by hemolytic assay.
+
+4. Sublytic MAC Induces Epithelial–Mesenchymal Transition (EMT) in RPE  
+   • Hypothesis: Repeated sublytic C5b-9 insults cause RPE to lose tight junctions and upregulate α-SMA, contributing to barrier breakdown.  
+   • Assay: Apply low-dose purified C5b-6, C7–C9 components to RPE monolayers, then stain for ZO-1 disruption and α-SMA by confocal microscopy.
+
+5. C3aR Activation Drives Pathologic VEGF Release  
+   • Hypothesis: C3a engagement of C3aR on RPE elevates VEGF secretion, predisposing to subclinical neovascular signals in dry AMD.  
+   • Assay: Treat RPE with graded C3a; measure VEGF by ELISA and assess VEGF mRNA by qPCR; include a C3aR antagonist arm.
+
+6. CD59 Downregulation in CFH-Risk RPE Exacerbates MAC Injury  
+   • Hypothesis: RPE bearing CFH risk alleles express less CD59, lowering the threshold for lytic MAC formation.  
+   • Assay: Knock down CD59 in genotype-stratified RPE via siRNA, challenge with 20% human serum, assess cell death (LDH release) and MAC deposition.
+
+7. Chronic C5a Signaling Promotes RPE Senescence  
+   • Hypothesis: Sustained low-level C5a exposure induces senescence-associated secretory phenotype (SASP) in RPE.  
+   • Assay: Expose RPE to 50 ng/mL C5a for 7 days; stain for SA-β-gal, quantify p16^INK4a and IL-1β expression.
+
+8. Oxidative Stress Potentiates Complement Deposition on RPE  
+   • Hypothesis: Sublethal H₂O₂ damage exposes phosphatidylserine and oxPLs that accelerate complement opsonization.  
+   • Assay: Pre-treat RPE with 200 μM H₂O₂; incubate with complement-active serum; measure C3b and C5b-9 by immunofluorescence and flow cytometry.
+
+9. Complement-Altered Extracellular Vesicles (EVs) from RPE Promote Drusen-Like Aggregates  
+   • Hypothesis: Complement activation changes RPE-derived EV cargo, increasing deposition of complement proteins in sub-RPE space.  
+   • Assay: Isolate EVs from complement-treated vs. control RPE; profile their protein content by mass spectrometry and test deposition on collagen matrices.
+
+10. Mini-Factor H as a Rescue Agent for CFH-Risk RPE  
+    • Hypothesis: A recombinant CCP1–5/18–20 “mini-FH” restores complement control on CFH^H402 RPE surfaces.  
+    • Assay: Add mini-FH to complement-challenged RPE cultures; compare C3b/C5b-9 deposition and cell viability to untreated controls.
+
+11. C5 Blockade Prevents MAC-Mediated Apoptosis in RPE  
+    • Hypothesis: Inhibition of C5 cleavage (e.g., eculizumab analog) protects RPE from complement-driven apoptosis.  
+    • Assay: Pre-treat RPE with anti-C5 antibody, then add 20% serum; measure caspase-3/7 activity and annexin V staining.
+
+12. Complement Activation Disrupts RPE Autophagy, Driving Lipofuscin Accumulation  
+    • Hypothesis: C3a/C5a signaling impairs autophagic flux in RPE, accelerating lipofuscin precursor build-up.  
+    • Assay: Treat RPE with C3a or C5a; monitor LC3-II accumulation with/without bafilomycin; quantify autofluorescent granules by flow cytometry.
+
+13. CRISPR Correction of CFH Y402H Improves Complement Homeostasis in iPSC-RPE  
+    • Hypothesis: Restoring the non-risk CFH allele in patient iPSC-RPE reduces spontaneous complement activation.  
+    • Assay: Use CRISPR/Cas9 to edit CFH^H402→Y402 in AMD iPSC lines; differentiate to RPE; challenge with serum and quantify C3a/C5b-9 release.
+
+14. C5a–TLR4 Crosstalk Amplifies Pro-Inflammatory Signaling in RPE  
+    • Hypothesis: Simultaneous engagement of C5aR1 and TLR4 synergistically up-regulates IL-8 and MCP-1 in RPE.  
+    • Assay: Co-treat RPE with C5a and low-dose LPS; measure cytokines by multiplex immunoassay; include receptor antagonists to dissect pathways.
+
+15. Dual C3aR/C5aR Antagonism Preserves RPE Barrier Integrity  
+    • Hypothesis: Small-molecule blockade of both C3aR and C5aR prevents complement-mediated tight-junction disruption and permeability increases.  
+    • Assay: Grow RPE on Transwells, challenge basolaterally with 10% active serum ± antagonists; measure TEER and dextran flux; stain for ZO-1.
+
+Each idea can be validated in vitro with established RPE cell models (ARPE-19, primary human RPE, or iPSC-derived RPE), complement-active human serum or purified components, and readouts spanning complement deposition, inflammation, cell death, barrier function, and metabolic profiling.
+

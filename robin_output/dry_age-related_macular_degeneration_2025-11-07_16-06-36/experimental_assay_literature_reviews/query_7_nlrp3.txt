@@ -1,0 +1,76 @@
+Query: NLRP3 inflammasome activation and inflammatory cytokine release in RPE cells during dry AMD: priming signals, inflammasome assembly, caspase-1 activation assays, quantification of IL-1β/IL-18 secretion, and screening of small‐molecule inflammasome inhibitors
+
+1. A2E-mediated NF-κB priming of NLRP3  
+   • Hypothesis: Lipofuscin pigment A2E primes RPE cells via NF-κB upregulation of NLRP3 and IL1B.  
+   • Assay: Treat ARPE-19 or primary RPE with subcytotoxic A2E or LPS controls; measure NLRP3/IL1B mRNA by qPCR, NF-κB p65 nuclear translocation by immunofluorescence, and IL-1β secretion by ELISA.  
+   • Control: NF-κB inhibitor (BAY 11-7082) should abrogate priming and cytokine release.  
+
+2. Cholesterol-crystal–induced lysosomal destabilization  
+   • Hypothesis: Drusen cholesterol crystals trigger cathepsin B release from RPE lysosomes, driving NLRP3 assembly.  
+   • Assay: Incubate RPE with synthetic cholesterol crystals; monitor lysosomal integrity (LysoTracker), cathepsin B activity, ASC speck formation by confocal microscopy, and IL-1β/IL-18 ELISA.  
+   • Control: Pre-treat with cathepsin B inhibitor CA-074Me to block inflammasome activation.  
+
+3. Mitochondrial ROS and TXNIP recruitment  
+   • Hypothesis: Oxidative stress (H2O2) elevates mitochondrial ROS, causing TXNIP dissociation from thioredoxin and binding to NLRP3.  
+   • Assay: Expose RPE to H2O2; quantify mtROS (MitoSOX), co-IP of TXNIP–NLRP3, caspase-1 activity (FLICA probe), and IL-1β release.  
+   • Control: TXNIP siRNA knockdown or antioxidant (MitoTEMPO) should reduce inflammasome markers.  
+
+4. Parkin/PINK1-deficient mitophagy accelerates NLRP3 activation  
+   • Hypothesis: Impaired mitophagy in Parkin or PINK1 knockdown RPE leads to damaged‐mitochondria accumulation and NLRP3 activation.  
+   • Assay: Use siRNA against Parkin/PINK1, monitor mitophagy flux (LC3, p62), mtROS, NLRP3 oligomerization (crosslinking + western blot), and IL-18 secretion.  
+   • Rescue: Overexpress Parkin or add Urolithin A (mitophagy inducer).  
+
+5. Drusen-derived extracellular vesicles (EVs) as inflammasome activators  
+   • Hypothesis: EVs isolated from AMD donor–conditioned media contain DAMPs that prime and activate NLRP3 in healthy RPE.  
+   • Assay: Isolate EVs by ultracentrifugation, treat naïve RPE, assess NLRP3/ASC specks, caspase-1 activation, and IL-1β release.  
+   • Control: Inhibit EV uptake with dynasore or annexin V.  
+
+6. P2X7 receptor–mediated K+ efflux  
+   • Hypothesis: Extracellular ATP in the RPE microenvironment activates P2X7, triggering K+ efflux required for NLRP3 assembly.  
+   • Assay: Stimulate RPE with ATP post-priming; measure intracellular K+ (atomic absorption), ASC specks, caspase-1 FLICA, and IL-1β ELISA.  
+   • Control: P2X7 antagonist A438079 or high extracellular K+ buffer will inhibit activation.  
+
+7. Intracellular Ca2+ flux in inflammasome activation  
+   • Hypothesis: Calcium influx through store‐operated channels contributes to NLRP3 activation in RPE under stress.  
+   • Assay: Use thapsigargin to deplete ER Ca2+, monitor cytosolic Ca2+ (Fura-2), NLRP3 oligomers, caspase-1 p20 by western blot, and IL-18 secretion.  
+   • Control: BAPTA-AM chelation or Orai1 siRNA to block activation.  
+
+8. miR-223 regulation of NLRP3 expression  
+   • Hypothesis: Downregulation of miR-223 in aged RPE removes posttranscriptional repression of NLRP3.  
+   • Assay: Transfect RPE with miR-223 mimic or inhibitor; use luciferase reporter with NLRP3 3′UTR; quantify NLRP3 protein and IL-1β release after LPS + ATP.  
+   • Control: Mutant 3′UTR reporter to confirm specificity.  
+
+9. Autophagy induction to degrade assembled inflammasomes  
+   • Hypothesis: Enhancing autophagy accelerates clearance of NLRP3/ASC specks, reducing cytokine release.  
+   • Assay: Treat RPE with rapamycin or spermidine during inflammasome activation; measure LC3-II flux, p62 turnover, NLRP3 levels, and IL-18 ELISA.  
+   • Control: Add chloroquine to block autophagic degradation and confirm dependence on autophagy.  
+
+10. Gasdermin D (GSDMD)–mediated pyroptosis in RPE  
+   • Hypothesis: Caspase-1 cleavage of GSDMD drives pyroptotic membrane pores, amplifying IL-1β release in dry AMD.  
+   • Assay: Stimulate primed RPE; detect GSDMD N-terminal fragment by western blot, LDH release, and lactate dehydrogenase assay, alongside IL-1β.  
+   • Control: GSDMD CRISPR knockout or necrosulfonamide to block pore formation.  
+
+11. Caspase-1 versus caspase-4/5 noncanonical inflammasome pathways  
+   • Hypothesis: Intracellular LPS (from gut dysbiosis) activates noncanonical caspase-4/5 pathways in RPE, contributing to IL-18 release independent of NLRP3.  
+   • Assay: Transfect LPS; measure caspase-4/5 activation by activity assays, GSDMD cleavage, IL-18 secretion.  
+   • Control: Specific caspase-4/5 inhibitors or siRNA.  
+
+12. High‐throughput screening (HTS) for novel NLRP3 inhibitors  
+   • Strategy: Establish a 384-well assay in RPE stably expressing ASC-GFP; prime with LPS, activate with ATP; read ASC speck count by automated imaging; screen small‐molecule library for inhibitors that reduce speck formation.  
+   • Secondary assays: Confirm hits by caspase-1 FLICA and IL-1β/IL-18 ELISA.  
+
+13. Comparative efficacy of known inflammasome inhibitors  
+   • Strategy: Test MCC950, OLT1177, CY-09, and oridonin head-to-head in RPE assays.  
+   • Assays: Dose–response on ASC specks, caspase-1 activity, IL-1β/IL-18 secretion, and cell viability.  
+   • Goal: Rank potency and selectivity for translational priority.  
+
+14. JNK-mediated phosphorylation of NLRP3 as a regulatory switch  
+   • Hypothesis: Stress‐activated JNK phosphorylates NLRP3, enhancing its oligomerization in RPE under oxidative insult.  
+   • Assay: Induce stress (e.g., cigarette‐smoke extract), detect phospho-NLRP3 by phospho‐specific antibody, ASC speck formation, and cytokine release.  
+   • Control: JNK inhibitor SP600125 or JNK1/2 siRNA to confirm mechanism.  
+
+15. SIRT2-dependent deacetylation of NLRP3 to suppress activation  
+   • Hypothesis: Activation of SIRT2 deacetylates NLRP3, preventing its assembly in senescent RPE.  
+   • Assay: Treat RPE with resveratrol or a SIRT2-specific agonist; immunoprecipitate NLRP3 to assess acetylation status, monitor ASC specks, caspase-1 activity, and IL-1β secretion.  
+   • Control: SIRT2 inhibitor AGK2 or SIRT2 knockdown to reverse effects.
+

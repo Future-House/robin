@@ -1,0 +1,43 @@
+Hypothesis: Barrier integrity TEER and flux
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Barrier integrity TEER and flux
+Reasoning: Measure transepithelial electrical resistance and paracellular fluorescent-dextran flux in RPE monolayers challenged with VEGF or complement. Compounds that preserve TEER and reduce flux demonstrate barrier-protective activity (Obert et al. 2015, 2017).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+This assay employs RPE monolayers grown on permeable supports where barrier integrity is quantified by measuring transepithelial electrical resistance (TEER) and paracellular flux of fluorescent dextran. The cells—typically ARPE-19 or fhRPE—are challenged with disease-relevant insults such as VEGF or complement factors to simulate stress‐induced barrier breakdown. Candidate drugs are evaluated on their ability to preserve TEER and reduce dextran permeability, thereby restoring or maintaining junctional integrity (ablonczy2009pigmentepitheliumderivedfactor pages 1-2, campa2013effectofvegf pages 1-2).
+
+Biomedical Evidence:  
+RPE barrier disruption is central to AMD pathogenesis, contributing to subretinal fluid accumulation, edema, and inflammation that precede advanced disease stages. VEGF and complement activation are implicated in compromising tight junction protein expression and paracellular barrier function, correlating with clinical features of dry AMD (melhorn2012amodelto pages 19-22, kozlowski2015senescentretinalpigment pages 5-6). Quantitative barrier readouts thus serve as relevant surrogates for early pathological changes that might be modulated by therapeutic interventions.
+
+Previous Use:  
+TEER and fluorescent-dextran flux assays have been employed in various in vitro RPE models to study VEGF-induced permeability changes and to evaluate protective factors such as PEDF (ablonczy2009pigmentepitheliumderivedfactor pages 1-2, ablonczy2011humanretinalpigment pages 1-2). These approaches have provided mechanistic insights and aided early drug discovery by linking in vitro barrier function with molecular and cellular events relevant to AMD (kozlowski2015senescentretinalpigment pages 3-5, melhorn2012amodelto pages 86-88).
+
+Overall Evaluation:  
+This assay is a robust, quantitative platform that directly measures a key aspect of RPE dysfunction implicated in dry AMD. Its strengths lie in its sensitivity to VEGF and complement challenges and potential scalability for high-throughput screening. However, variable model maturity and differences in cell source may affect assay reproducibility and translatability, necessitating optimization and the inclusion of complementary readouts to fully capture the multifactorial nature of AMD (ablonczy2011humanretinalpigment pages 1-2, melhorn2012amodelto pages 70-73).
+
+This assay offers a biologically relevant and methodologically sound approach to evaluate barrier-protective therapeutics for dry AMD. It combines quantitative barrier measurements with disease-relevant challenges, although optimizing RPE model parameters remains critical for maximal clinical translation.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/27d08f75-3242-4d37-8df7-102168192e76
+
+References:
+1. (ablonczy2009pigmentepitheliumderivedfactor pages 1-2): Zsolt Ablonczy, Annamalai Prakasam, James Fant, Abdul Fauq, Craig Crosson, and Kumar Sambamurti. Pigment epithelium-derived factor maintains retinal pigment epithelium function by inhibiting vascular endothelial growth factor-r2 signaling through γ-secretase. Journal of Biological Chemistry, 284:30177-30186, Oct 2009. URL: https://doi.org/10.1074/jbc.m109.032391, doi:10.1074/jbc.m109.032391. This article has 102 citations and is from a domain leading peer-reviewed journal.
+
+2. (campa2013effectofvegf pages 1-2): Claudio Campa. Effect of vegf and anti-vegf compounds on retinal pigment epithelium permeability: an <i>in vitro</i> study. European Journal of Ophthalmology, 23:690-696, Mar 2013. URL: https://doi.org/10.5301/ejo.5000248, doi:10.5301/ejo.5000248. This article has 19 citations and is from a peer-reviewed journal.
+
+3. (melhorn2012amodelto pages 19-22): Mark Ivan Melhorn. A model to examine the outer blood-retinal barrier in rodents. Unknown, Jan 2012. URL: https://doi.org/10.13140/rg.2.1.1133.4807, doi:10.13140/rg.2.1.1133.4807. This article has 1 citations.
+
+4. (kozlowski2015senescentretinalpigment pages 5-6): Michael R. Kozlowski. Senescent retinal pigment epithelial cells are more sensitive to vascular endothelial growth factor: implications for "wet" age-related macular degeneration. Journal of ocular pharmacology and therapeutics : the official journal of the Association for Ocular Pharmacology and Therapeutics, 31 2:87-92, Mar 2015. URL: https://doi.org/10.1089/jop.2014.0071, doi:10.1089/jop.2014.0071. This article has 10 citations.
+
+5. (ablonczy2011humanretinalpigment pages 1-2): Zsolt Ablonczy, Mohammad Dahrouj, Peter H. Tang, Yueying Liu, Kumar Sambamurti, Alan D. Marmorstein, and Craig E. Crosson. Human retinal pigment epithelium cells as functional models for the rpe in vivo. Investigative ophthalmology & visual science, 52 12:8614-20, Nov 2011. URL: https://doi.org/10.1167/iovs.11-8021, doi:10.1167/iovs.11-8021. This article has 286 citations and is from a domain leading peer-reviewed journal.
+
+6. (kozlowski2015senescentretinalpigment pages 3-5): Michael R. Kozlowski. Senescent retinal pigment epithelial cells are more sensitive to vascular endothelial growth factor: implications for "wet" age-related macular degeneration. Journal of ocular pharmacology and therapeutics : the official journal of the Association for Ocular Pharmacology and Therapeutics, 31 2:87-92, Mar 2015. URL: https://doi.org/10.1089/jop.2014.0071, doi:10.1089/jop.2014.0071. This article has 10 citations.
+
+7. (melhorn2012amodelto pages 86-88): Mark Ivan Melhorn. A model to examine the outer blood-retinal barrier in rodents. Unknown, Jan 2012. URL: https://doi.org/10.13140/rg.2.1.1133.4807, doi:10.13140/rg.2.1.1133.4807. This article has 1 citations.
+
+8. (melhorn2012amodelto pages 70-73): Mark Ivan Melhorn. A model to examine the outer blood-retinal barrier in rodents. Unknown, Jan 2012. URL: https://doi.org/10.13140/rg.2.1.1133.4807, doi:10.13140/rg.2.1.1133.4807. This article has 1 citations.

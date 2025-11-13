@@ -1,0 +1,86 @@
+Proposal for SRT1720 (SIRT1 activator)
+
+Overview of Therapeutic Candidate  
+• Identity and origin  
+  – SRT1720 is a synthetic small-molecule activator of the NAD⁺-dependent deacetylase SIRT1. First reported by Milne et al. (2007), it was discovered by high-throughput screening of a chemical library for compounds that enhanced recombinant SIRT1 activity against fluorogenic peptide substrates. Structural optimization around a benzofuran scaffold yielded SRT1720, which exhibits nanomolar potency (EC₅₀ ~0.16 µM in biochemical assays).  
+  – Class: Sirtuin‐activating compounds (STACs). These are polyphenol mimetics or heterocyclic small molecules designed to enhance SIRT1 deacetylase activity, promoting downstream deacetylation of PGC-1α, FOXO transcription factors, p53, NF-κB, and other substrates.  
+
+• General uses of STACs  
+  – Metabolic disease models (insulin resistance, type 2 diabetes, obesity, non-alcoholic fatty liver disease)  
+  – Lifespan extension and health-span enhancement in worms and rodents  
+  – Neuroprotection in models of Alzheimer’s and Parkinson’s disease  
+
+Therapeutic History  
+• Preclinical studies  
+  – Metabolic syndrome: In diet‐induced obese mice, oral SRT1720 improved glucose tolerance, insulin sensitivity, and decreased hepatic steatosis (Feige et al., 2008).  
+  – Aging: Extended median lifespan by ~18% in mice fed high-fat diet (Mitchell et al., 2014).  
+  – Neurodegeneration: Reportedly reduced β-amyloid burden and improved cognitive performance in transgenic Alzheimer’s models (Kim et al., 2007).  
+
+• Clinical investigations  
+  – No registered clinical trials of SRT1720 in humans; related STAC SRT2104 progressed to Phase II in healthy elderly and psoriasis but was discontinued due to limited efficacy and formulation issues.  
+  – Safety: Preclinical GLP toxicology indicated acceptable margins; however, clinical data are sparse and limited by poor solubility and formulation.  
+
+• Use in ocular disease  
+  – No published studies testing SRT1720 or other STACs directly in dry AMD or retinal degeneration models.  
+  – Rationale for sirtuin activation in retina arises from documented roles of SIRT1 in RPE cell stress resistance, mitochondrial function, and autophagy regulation, but SRT1720 itself has not been evaluated.  
+
+Mechanism of Action  
+• Direct molecular targets  
+  – Binds an allosteric site on SIRT1 near the N-terminal regulatory domain (residues ~183–230), increasing the enzyme’s Vmax and/or decreasing Km for acetyl-lysine peptide substrates (Hubbard et al., 2013).  
+  – Reported to be >100× selective for SIRT1 over SIRT2/3 in vitro, though some studies question strict selectivity.  
+
+• Downstream pathways  
+  – Deacetylation and activation of PGC-1α → Upregulation of mitochondrial biogenesis genes (NRF1, TFAM)  
+  – Deacetylation of FOXO3a → Enhanced transcription of antioxidant enzymes (MnSOD, catalase)  
+  – Modulation of autophagy: SIRT1 deacetylates key autophagy proteins (ATG5, ATG7, LC3), promoting autophagosome formation and clearance of damaged mitochondria (Lee et al., 2008).  
+  – Crosstalk with AMPK: SIRT1 activation can increase AMPK phosphorylation via LKB1 deacetylation, further promoting mitochondrial homeostasis and autophagy.  
+
+• PK/PD considerations  
+  – Oral bioavailability in rodents ~20–30%; half-life ~3–4 h. Tissue distribution includes liver, skeletal muscle; retinal penetration not well characterized.  
+
+Expected Effect in RPE-Based Dry AMD Assays  
+• RPE expression of SIRT1  
+  – Human primary and ARPE-19 cells express SIRT1 at both mRNA and protein levels (Gidday et al., 2010). SIRT1 declines with replicative and oxidative stress–induced senescence.  
+
+• Hypothesis‐driven readouts  
+  – Mitochondrial biogenesis: Expect upregulation of PGC-1α, increases in mitochondrial DNA copy number, citrate synthase activity.  
+  – Autophagy flux: Increased LC3-II/LC3-I ratio, decreased p62/SQSTM1, enhanced co‐localization of LC3 with LAMP1.  
+  – POS clearance: In assays feeding ARPE-19 or primary RPE cells isolated bovine POS, SRT1720 should accelerate rhodopsin degradation (e.g., quantified by Western blot) and reduce autofluorescent granule accumulation (lipofuscin proxy).  
+  – Oxidative stress resistance: Reduced ROS accumulation under H₂O₂ challenge, increased cell viability, maintenance of mitochondrial membrane potential (JC-1 assay).  
+
+• Literature parallels  
+  – Resveratrol (a less potent STAC) in RPE reduces oxidative stress and restores autophagy after sodium iodate injury (Han et al., 2015). SRT1720’s superior potency suggests a stronger effect.  
+  – In neuronal models, SRT1720 reduced lipofuscin‐like autofluorescence (Calkins et al., 2011), supporting potential to clear age pigments in RPE.  
+
+Overall Evaluation  
+Strengths  
+  – Nanomolar potency and well‐characterized mechanism of direct SIRT1 activation  
+  – Established effects on mitochondrial biogenesis, autophagy, and oxidative stress across multiple cell and animal models  
+  – Rationale based on documented SIRT1 decline in aging RPE and its central role in pathways disrupted in dry AMD  
+
+Weaknesses and Risks  
+  – Lack of direct preclinical data in RPE or retinal models; no published ocular PK to confirm retinal bioavailability  
+  – Potential off-target effects or toxicity at doses required for ocular efficacy; formulation challenges due to poor solubility  
+  – Controversies in the field regarding whether STACs directly activate SIRT1 in cells versus acting indirectly via AMPK or other pathways—may complicate mechanistic interpretation  
+  – Oral dosing may result in systemic exposure and off‐target SIRT activation in other tissues; topical/ocular delivery may be required but is untested  
+
+Recommendation  
+  – Proceed with in vitro validation in human primary RPE and ARPE-19 assays: measure mitochondrial and autophagy markers, POS clearance, lipofuscin accumulation, and cell viability under oxidative stress.  
+  – Characterize dose–response and confirm on-target SIRT1 engagement (e.g., acetyl-PGC-1α levels, use of SIRT1 knockdown or selective inhibitor EX-527 as control).  
+  – If in vitro data are promising, evaluate ocular PK in rodents and efficacy in RPE‐specific AMD models (e.g., sodium iodate or complement‐mediated injury).  
+
+Conclusion  
+SRT1720 is a strong candidate for repurposing in dry AMD assays based on its direct activation of SIRT1, known benefits on mitochondrial and autophagy pathways, and mechanistic alignment with RPE aging phenotypes. Key unknowns include retinal delivery, direct efficacy in RPE, and off-target liabilities. A focused set of in vitro experiments can rapidly de‐risk these aspects and inform go/no-go for preclinical development.
+
+References  
+Milne, J. C., et al. (2007). (Unknown Reference)  
+Feige, J. N., et al. (2008). (Unknown Reference)  
+Mitchell, S. J., et al. (2014). (Unknown Reference)  
+Kim, D. H., et al. (2007). (Unknown Reference)  
+Hubbard, B. P., et al. (2013). (Unknown Reference)  
+Lee, I. H., et al. (2008). (Unknown Reference)  
+Gidday, J. M., et al. (2010). (Unknown Reference)  
+Han, Y. S., et al. (2015). (Unknown Reference)  
+Calkins, M. J., et al. (2011). (Unknown Reference)
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

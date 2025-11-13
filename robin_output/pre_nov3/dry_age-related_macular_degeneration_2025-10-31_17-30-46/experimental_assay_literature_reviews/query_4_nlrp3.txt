@@ -1,0 +1,77 @@
+Query: NLRP3 inflammasome activation mechanisms in RPE cells in response to drusen components and oxLDL in dry AMD: signaling pathways, IL-1β release, caspase-1 activation assays, and pharmacological modulators evaluated in cell-based assays for mechanistic drug screening
+
+1. Hypothesis: Drusen-derived amyloid-β primes NLRP3 via TLR4/MyD88–NF-κB signaling  
+   • Model: ARPE-19 cells treated with purified amyloid-β fibrils ± OxLDL  
+   • Readouts: pro–IL-1β mRNA (qPCR), p65 nuclear translocation (immunofluorescence), IL-1β release (ELISA), caspase-1 activity (FLICA)  
+   • Modulator: TLR4 inhibitor (TAK-242) or MyD88 inhibitory peptide  
+
+2. Hypothesis: Sublytic complement C5b-9 deposition on RPE triggers K+ efflux–dependent NLRP3 activation  
+   • Model: RPE monolayers exposed to sublytic C5b-9 complexes + drusen extracts  
+   • Readouts: intracellular K+ levels (ion-sensitive dye), ASC speck formation (confocal), IL-18 release (ELISA)  
+   • Modulator: P2X7 receptor antagonist (A438079) or high extracellular K+  
+
+3. Hypothesis: Cholesterol crystals in drusen induce lysosomal destabilization and cathepsin B–driven NLRP3 activation  
+   • Model: ARPE-19 cells loaded with synthetic cholesterol crystals ± OxLDL  
+   • Readouts: lysosomal integrity (LysoTracker release), cathepsin B activity (fluorogenic substrate), caspase-1 cleavage (Western blot)  
+   • Modulator: cathepsin B inhibitor (CA-074 Me)  
+
+4. Hypothesis: OxLDL–driven mitochondrial ROS causes TXNIP dissociation and NLRP3 activation  
+   • Model: Primary human RPE treated with OxLDL alone or with mitochondrial stressors  
+   • Readouts: mitochondrial ROS (MitoSOX), TXNIP–NLRP3 co-IP, IL-1β secretion, caspase-1 p20 by WB  
+   • Modulator: mitochondrial antioxidant (MitoTEMPO) or TXNIP siRNA  
+
+5. Hypothesis: Endoplasmic reticulum (ER) stress from drusen lipids activates PERK–eIF2α–CHOP axis to sensitize NLRP3  
+   • Model: RPE cells incubated with drusen lipid extracts  
+   • Readouts: BiP, p-PERK, CHOP levels (Western blot), IL-1β release, caspase-1 FLICA  
+   • Modulator: PERK inhibitor (GSK2606414) or chemical chaperone (4-PBA)  
+
+6. Hypothesis: Impaired autophagy in RPE by OxLDL leads to accumulation of damaged mitochondria and NLRP3 activation  
+   • Model: ARPE-19 ± OxLDL with or without autophagy blockers (bafilomycin)  
+   • Readouts: LC3-II/I ratio (WB), p62 levels, mitochondrial mass (MitoTracker), IL-18 ELISA  
+   • Modulator: autophagy enhancer (rapamycin) or ATG5 knockdown  
+
+7. Hypothesis: Drusen-associated complement component C3a engages C3aR and primes NLRP3 via ERK1/2 phosphorylation  
+   • Model: RPE treated with recombinant C3a ± OxLDL  
+   • Readouts: p-ERK1/2 (WB), pro–IL-1β transcription, IL-1β secretion, caspase-1 activity  
+   • Modulator: C3aR antagonist (SB 290157) or MEK inhibitor (U0126)  
+
+8. Hypothesis: NEK7–mediated cytoskeletal remodeling is required for drusen-induced NLRP3 speck formation  
+   • Model: Human iPSC-derived RPE exposed to drusen extracts  
+   • Readouts: NEK7–NLRP3 interaction (co-IP), F-actin reorganization (phalloidin), ASC specks (confocal)  
+   • Modulator: NEK7 siRNA or small-molecule NEK7 inhibitor  
+
+9. Hypothesis: HMGB1 released from OxLDL-stressed RPE acts in an autocrine loop through RAGE to amplify NLRP3 activation  
+   • Model: RPE treated with OxLDL; recombinant HMGB1 added or neutralized  
+   • Readouts: HMGB1 release (ELISA), RAGE phosphorylation, IL-1β & IL-18 secretion, caspase-1 cleavage  
+   • Modulator: RAGE inhibitor (FPS-ZM1) or HMGB1-neutralizing antibody  
+
+10. Hypothesis: Drusen lipoprotein–derived 7-ketocholesterol triggers Ca2+ influx through ORAI1, enabling NLRP3 activation  
+   • Model: ARPE-19 with 7-ketocholesterol ± drusen peptides  
+   • Readouts: cytosolic Ca2+ (Fura-2), ORAI1 knockdown, IL-1β ELISA, caspase-1 FLICA  
+   • Modulator: ORAI1 blocker (Synta-66)  
+
+11. Hypothesis: MicroRNA-223 downregulation by OxLDL relieves suppression of NLRP3 translation in RPE  
+   • Model: Transfect RPE with miR-223 mimic or inhibitor before OxLDL challenge  
+   • Readouts: miR-223 levels (qPCR), NLRP3 protein, IL-1β release, caspase-1 activity  
+   • Strategy: Therapeutic miR-223 mimic delivery  
+
+12. Hypothesis: STING activation by cytosolic mtDNA after drusen-induced mitochondrial damage primes NLRP3  
+   • Model: RPE treated with drusen extracts; cGAS/STING pathway blocked  
+   • Readouts: cGAMP levels, STING phosphorylation, IFN-β expression, IL-1β secretion, caspase-1 p20  
+   • Modulator: STING inhibitor (H-151)  
+
+13. Hypothesis: SIRT1 downregulation by OxLDL increases acetylated NF-κB p65, boosting pro–IL-1β expression  
+   • Model: RPE exposed to OxLDL ± resveratrol  
+   • Readouts: SIRT1 protein, p65 acetylation (WB), pro–IL-1β mRNA, IL-1β ELISA, caspase-1 activity  
+   • Modulator: SIRT1 activator (SRT1720)  
+
+14. Hypothesis: Drusen-derived oxidation-specific epitopes engage SR-A1 receptor to induce NADPH oxidase–dependent ROS and NLRP3 activation  
+   • Model: RPE treated with MDA-modified LDL ± SR-A1 blocking antibody  
+   • Readouts: NADPH oxidase activity (luminescence), ROS (DCFDA), IL-18 secretion, caspase-1 FLICA  
+   • Modulator: NOX2 inhibitor (GSK2795039)  
+
+15. Hypothesis: GSDMD cleavage and pore formation are essential for drusen-induced IL-1β release from RPE  
+   • Model: RPE cells stimulated with drusen extracts±OxLDL  
+   • Readouts: GSDMD N-terminal fragment (WB), PI uptake assay for membrane pores, IL-1β quantification  
+   • Modulator: GSDMD inhibitor (disulfiram) or caspase-1 inhibitor (VX-765)
+

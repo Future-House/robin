@@ -1,0 +1,60 @@
+Proposal for Torin1 (mTORC1/2 inhibitor)
+
+Overview of Therapeutic Candidate  
+• Compound identity and origin  
+  – Torin1 is a fully synthetic small-molecule inhibitor of the mechanistic target of rapamycin (mTOR) kinase. It was first described in 2010 (Liu et al., 2010) following a high-throughput screen for ATP-competitive inhibitors of mTOR. Chemically, Torin1 features a diaminopyrimidine core linked to a substituted phenyl urea moiety; structure–activity relationship (SAR) studies optimized it for high affinity and selectivity against the mTOR ATP-binding site.  
+• Therapeutic class and prior general use  
+  – Torin1 belongs to the “TORKinibs” (TOR kinase inhibitors) class, distinct from rapalogs (e.g., rapamycin) in that it competes with ATP rather than binding to the FKBP12-rapamycin–binding (FRB) domain. TORKinibs have primarily been used as research tools to dissect mTORC1 versus mTORC2 signaling in cancer, metabolism, and neurodegeneration models. No clinical approvals exist for Torin1 itself, although closely related compounds (e.g., INK-128/MlN0128) have entered oncology trials.  
+
+Therapeutic History  
+• Preclinical/biochemical uses  
+  – Widely employed in cell-based and animal studies to achieve near-complete, dual inhibition of mTORC1 and mTORC2. Demonstrated robust suppression of phospho-S6K (Thr389), phospho-4E-BP1, and phospho-Akt (Ser473) at low nanomolar doses. Used to study autophagy induction, lysosome biogenesis via TFEB activation (Settembre et al., n.d.-a), and metabolic reprogramming.  
+• Clinical or veterinary uses  
+  – Torin1 itself has not progressed into human or veterinary clinical trials. Other ATP-competitive mTOR inhibitors have, but primarily in oncology. There are no reports of Torin1 in ophthalmic applications or in AMD patients. Rapalogs (e.g., sirolimus) have been tested intravitreally for geographic atrophy without major success but demonstrate the feasibility of mTOR modulation in the eye.  
+
+Mechanism of Action  
+• Direct molecular target  
+  – Torin1 binds the ATP-binding pocket of mTOR in both mTORC1 and mTORC2 complexes, yielding IC₅₀ values in the low-nanomolar range (~2–10 nM).  
+• Downstream biochemical effects  
+  – Inhibition of mTORC1: loss of phosphorylation on p70 S6 kinase (Thr389) and 4E-BP1, resulting in global translation suppression and de-repression of ULK1 (Ser757), the core autophagy-initiating kinase.  
+  – Inhibition of mTORC2: blockade of Akt Ser473 phosphorylation impairs downstream survival and growth signals.  
+  – Activation of TFEB: by preventing mTORC1-mediated phosphorylation of TFEB at Ser142/Ser211, Torin1 promotes nuclear translocation of TFEB, upregulating CLEAR network genes responsible for lysosomal biogenesis and function (Settembre et al., n.d.-b).  
+  – Autophagy and mitophagy flux: dual mTOR inhibition leads to pronounced accumulation of LC3-II, expansion of the autophagosome/autolysosome pool, and accelerated mitochondrial turnover in a variety of cell types (Kim et al., n.d.).  
+• Selectivity  
+  – Torin1 shows minimal off-target activity against PI3K isoforms and other kinases up to micromolar concentrations, though very high doses may affect ATM, ATR, and DNA-PK.  
+
+Expected Effect in Dry AMD RPE Assay  
+• RPE expression and disease context  
+  – Human RPE cells express mTORC1/C2 components, ULK1, TFEB, and core autophagy machinery (LC3, p62) at high levels (Kunchithapautham & Rohrer, n.d.). Dry AMD is characterized by accumulated POS debris, lipofuscin, and impaired autophagy/lysosomal clearance in RPE (Zhao et al., n.d.).  
+• Assay readouts and mechanisms  
+  – mTORC1/C2 inhibition: Torin1 treatment should reduce p-S6K and p-Akt (Ser473) in RPE lysates (detectable by western blot) at concentrations of ~20–100 nM.  
+  – Autophagic flux: increased LC3-II/LC3-I ratio, decreased p62 levels, and formation of autolysosomes visualized by mCherry-GFP-LC3 reporters.  
+  – TFEB activation and lysosome biogenesis: nuclear redistribution of TFEB (immunofluorescence) and upregulation of LAMP1/CTSD transcripts (qPCR).  
+  – Mitochondrial turnover: enhanced Parkin-dependent mitophagy (co-localization of TOM20 with LC3) and reduction of mitochondrial ROS (MitoSOX).  
+  – POS degradation: in a phagocytosis assay, Torin1-treated RPE should clear fluorescently labeled POS more efficiently than controls, demonstrating enhanced lysosomal clearance.  
+
+Overall Evaluation  
+Strengths  
+  – Mechanistically aligned: dry AMD RPE pathology involves autophagy/lysosomal insufficiency and mitochondrial dysfunction; dual mTORC1/C2 inhibition directly targets these deficits.  
+  – Potent TFEB activation: superior to rapamycin in driving lysosomal gene expression and organelle clearance.  
+  – High selectivity in vitro: reduces risk of broad kinase off-target effects at efficacious doses.  
+  – Precedent for ocular delivery: while Torin1 itself lacks direct ocular data, intravitreal or periocular administration of related mTOR inhibitors (e.g., rapalogs) has established acceptable safety profiles in animal models.  
+
+Weaknesses and risks  
+  – mTORC2 inhibition consequences: chronic suppression of Akt Ser473 could predispose RPE to apoptosis or impair survival signaling under stress.  
+  – Potential toxicity: mTOR is critical for protein synthesis and cell metabolism; excessive or prolonged inhibition may compromise RPE viability, especially in a post-mitotic cell type reliant on basal mTOR signaling.  
+  – Delivery challenges: Torin1’s solubility and stability in intravitreal formulations would require optimization; off-target delivery to neural retina may have unintended effects.  
+  – Lack of in vivo efficacy/safety data in ocular models: no published studies on Torin1 for AMD or other retinal diseases.  
+
+Conclusion  
+Torin1 represents a scientifically rational candidate to rescue autophagy and lysosomal clearance pathways in RPE cells afflicted by dry AMD pathology. Its potent dual inhibition of mTOR complexes and robust TFEB activation may enhance POS debris clearance and mitochondrial quality control. However, careful dose-finding, assessment of RPE survival and function under chronic dosing, and development of a suitable ocular delivery vehicle will be critical before advancing to animal models. A stepwise evaluation—beginning with dose–response and toxicity profiling in primary human RPE cultures and ex vivo retinal explants, followed by rodent intravitreal studies—would be the recommended path forward.
+
+References  
+Kunchithapautham, K., & Rohrer, B. (n.d.). Unknown Reference  
+Kim, J., et al. (n.d.). Unknown Reference  
+Liu, X., et al. (2010). Unknown Reference  
+Settembre, C., et al. (n.d.-a). Unknown Reference  
+Settembre, C., et al. (n.d.-b). Unknown Reference  
+Zhao, C., et al. (n.d.). Unknown Reference
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

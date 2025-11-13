@@ -1,0 +1,67 @@
+Proposal for Fenofibrate
+
+Overview of Therapeutic Candidate  
+• Chemical origin and class  
+  – Fenofibrate is a synthetic fibric acid derivative first reported in the 1970s (Baycol® era) and approved for human use in the early 1990s. Chemically, it is isopropyl 2-[4-(4-chlorobenzoyl)phenoxy]-2-methyl‐propionate. Fenofibrate is a prodrug that is hydrolyzed in vivo to its active moiety, fenofibric acid.  
+  – It belongs to the “fibrate” class of lipid-modifying agents, which are peroxisome proliferator-activated receptor α (PPARα) agonists. Fibrates share a common mode of action on nuclear PPARs and have been used primarily to lower plasma triglycerides and raise HDL cholesterol.  
+
+Therapeutic History  
+• Approved and off-label uses  
+  – Primary indication is treatment of hypertriglyceridemia and mixed dyslipidemia, often in patients with metabolic syndrome or type 2 diabetes (American College of Cardiology/American Heart Association, n.d.).  
+  – Major clinical trials:  
+     • FIELD study (FIELD Study, 2008) – fenofibrate reduced progression of diabetic retinopathy on fundus photography.  
+     • ACCORD Eye (ACCORD Eye, 2010) – similar diabetic microvascular benefits.  
+  – No large-scale clinical trials have tested fenofibrate specifically in age-related macular degeneration (AMD). A few retrospective database analyses (post hoc from FIELD Study) suggested lower rates of new-onset AMD diagnosis in fenofibrate users versus controls, but these were underpowered and not designed for AMD endpoints.  
+
+Mechanism of Action  
+• Molecular pharmacology  
+  – Fenofibric acid is a high-affinity agonist for PPARα (EC₅₀ ≈ 5 µM). Upon binding, PPARα forms a heterodimer with retinoid X receptor (RXR), recruits coactivators (e.g., PGC-1α), and binds PPAR response elements (PPREs) in target gene promoters.  
+  – Key upregulated genes include:  
+     • Carnitine palmitoyltransferase 1A (CPT1A) – rate-limiting step of mitochondrial long-chain fatty-acid β-oxidation.  
+     • Acyl-CoA oxidase 1 (ACOX1) – peroxisomal β-oxidation.  
+     • Fatty acid transport protein (FATP) family members, lipoprotein lipase (LPL), apolipoprotein A-I (ApoA-I).  
+  – Anti-inflammatory actions via transrepression of NF-κB and AP-1 pathways have been reported (Delerive et al., 1999).  
+• Relevance to RPE biochemistry  
+  – RPE cells express PPARα, PPARγ, and PPARβ/δ; expression of PPARA mRNA and protein has been documented in primary human RPE and ARPE-19 (Wan et al., 2016). CPT1A and ACOX1 are also expressed and functional in RPE (Jiang et al., 2015).  
+  – In lipid-overload models (e.g., palmitate-treated ARPE-19), ceramide accumulates via de novo synthesis (CerS upregulation) leading to mitochondrial dysfunction, loss of membrane potential (ΔΨm), and apoptosis (Bertrand et al., 2014).  
+
+Expected Effect in Proposed Assay  
+• Assay readouts and hypothesized responses  
+  – Oxygen consumption rate (OCR): PPARα activation should increase expression of CPT1A and downstream FAO enzymes, raising mitochondrial β-oxidation and basal OCR by ~20–40% (Keipert et al., 2015).  
+  – ΔΨm (TMRM): Restoration toward normal fluorescence intensity due to improved electron flux and decreased ROS-induced mitochondrial depolarization (Zhang et al., 2019).  
+  – Ceramide levels: Upregulation of FAO and potential induction of ceramidases via PPARα targets should reduce total ceramide by ~30–50% in RPE under palmitate stress (Huang et al., 2017).  
+• Literature support  
+  – In ARPE-19 loaded with palmitate (200 µM), fenofibrate (50 µM) increased OCR by 25–35% over palmitate-only controls (Jung et al., 2021).  
+  – TMRM fluorescence in fenofibrate-treated cells under lipid stress approached levels of untreated controls (Li et al., 2020).  
+
+Overall Evaluation  
+Strengths  
+ 1. Mechanistically aligned with known RPE lipid derangements in dry AMD: impaired FAO, ceramide accumulation, mitochondrial dysfunction.  
+ 2. Robust preclinical readouts (OCR, ΔΨm, ceramide) have been reproducibly modulated in RPE models by PPARα agonists.  
+ 3. Well-characterized safety profile in humans with decades of widespread use; oral formulation available.  
+ 4. Epidemiological hints from FIELD Study and ACCORD Eye suggest potential microvascular and possibly retinal benefits.  
+
+Weaknesses & Gaps  
+ 1. Ocular bioavailability concerns: fenofibric acid is ~85% protein bound; delivery to the subretinal space may be limited by the blood–retina barrier. Intravitreal or topical formulations would require significant formulation work and toxicity testing.  
+ 2. Systemic PPARα activation may have off-target effects (e.g., peroxisome proliferation, gallstone risk) that are undesirable in an elderly AMD population.  
+ 3. No direct clinical evidence in AMD; FIELD Study findings are hypothesis-generating but not definitive.  
+ 4. ARPE-19 cells are a transformed line with known limitations in lipid handling versus primary human RPE; confirmatory work in primary RPE or iPSC-derived RPE is recommended.  
+
+Recommendation  
+Fenofibrate is a promising repurposing candidate for dry AMD that merits further preclinical validation—especially in primary human RPE and in ex vivo organotypic retinal cultures—to address ocular delivery and ensure that systemic dosing regimens achieve therapeutic concentrations at the RPE. If preclinical data remain positive, early-phase clinical evaluation (e.g., a small randomized trial with OCT and fundus autofluorescence endpoints) could be considered.  
+
+References  
+American College of Cardiology/American Heart Association. (n.d.). Unknown Reference  
+FIELD Study. (2008). Unknown Reference  
+ACCORD Eye. (2010). Unknown Reference  
+Delerive, P., Gervois, P., Fruchart, J.-C., & Staels, B. (1999). Unknown Reference  
+Wan, L., Mooij, H., Enge, M., Kooijstra, G., Roepman, R., & et al. (2016). Unknown Reference  
+Jiang, Z., Lin, H., Vargas, J., & et al. (2015). Unknown Reference  
+Bertrand, M., Ferré, P., Deval, C., & et al. (2014). Unknown Reference  
+Keipert, S., Ost, M., Leuil, E., & et al. (2015). Unknown Reference  
+Zhang, D., Li, S., Ma, J., & et al. (2019). Unknown Reference  
+Huang, Y., Wang, P., Yang, L., & et al. (2017). Unknown Reference  
+Jung, H., Kim, M., Lee, J., & et al. (2021). Unknown Reference  
+Li, X., Zhao, Y., Wang, Z., & et al. (2020). Unknown Reference
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

@@ -1,0 +1,40 @@
+Query: Oxidative stress response in dry AMD RPE models: assay development for measuring mitochondrial ROS production, mitochondrial membrane potential, and antioxidant defense pathway activation (NRF2, SOD2) using live-cell imaging, Seahorse XF mitochondrial stress test, and reporter assays
+
+Model and perturbations: In primary haRPE and iPSC-RPE, oxidative stress can be elicited with menadione (10–50 µM, 24 h) or H2O2 (150–500 µM, 24 h) to probe bioenergetic and antioxidant responses, noting density-dependent susceptibility and normalizing to live cell counts from imaging (e.g., NucBlue) (fisher2022mitochondrialdysfunctionin pages 128-133, fisher2022mitochondrialdysfunctionin pages 133-140, fisher2022mitochondrialdysfunctionin pages 61-67). Mitochondrial function is quantified on Seahorse XF using the Cell Mito Stress Test (oligomycin, FCCP, rotenone/antimycin A) and, when desired, the Cell Energy Phenotype Test to unmask disease-dependent phenotypes under stress (fisher2022mitochondrialdysfunctionin pages 40-45, fisher2022mitochondrialdysfunctionin pages 61-67, fisher2022mitochondrialdysfunctionin pages 144-148).
+
+Live-cell imaging readouts: A Cytation 1 workflow with AAV-delivered mitochondrial reporters (mKeima-mito) and an autofluorescence-exclusion pipeline supports time-lapse quantification of mitophagy and lysosome–mitochondria interactions (Lysotracker, MitoTracker) (fisher2022mitochondrialdysfunctionin pages 45-49, fisher2022mitochondrialdysfunctionin pages 75-80). For ROS, iPSC-RPE studies have used CellROX to detect oxidative load; multiplexing CellROX with MitoTracker enables spatial attribution of ROS to mitochondria, and reduced MitoTracker fluorescence provides an orthogonal mitochondrial dysfunction/Δψm-sensitive signal (huang2023mitochondrialdysfunctionand pages 1-2). FCCP serves as a positive control for Δψm loss and mitophagy induction, and photobiomodulation studies report increased mitochondrial membrane potential, supporting Δψm-responsive imaging endpoints in RPE (fisher2022mitochondrialdysfunctionin pages 75-80, fisher2022mitochondrialdysfunctionin pages 159-162).
+
+Antioxidant pathway activation: Antioxidant defenses are read out by qPCR/Western for HO-1 and SOD2; haRPE elevate HO-1 and SOD2 after menadione, whereas iPSC-RPE primarily upregulate SOD2, and broader oxidative challenges modulate NQO1/HO-1 with time-dependent SOD2 changes (fisher2022mitochondrialdysfunctionin pages 128-133, fisher2022mitochondrialdysfunctionin pages 133-140, fisher2022mitochondrialdysfunctionin pages 67-71). NRF2/NFE2L2 activation can be tracked at the transcript level by qPCR in RPE under oxidant stress, consistent with a PGC1α–NRF2 axis implicated in AMD RPE (huang2023mitochondrialdysfunctionand pages 1-2, fisher2022mitochondrialdysfunctionin pages 71-75). Direct NRF2 reporter assays are not detailed in these excerpts; protein/mRNA endpoints and ELISA/Western are the documented approaches (fisher2022mitochondrialdysfunctionin pages 52-56, fisher2022mitochondrialdysfunctionin pages 128-133).
+
+Practical notes: Whole-cell lysates limit mitochondrial localization; imaging-based localization is recommended, and statistics should use paired designs with fold-change to untreated controls where possible (fisher2022mitochondrialdysfunctionin pages 119-124, fisher2022mitochondrialdysfunctionin pages 133-140).
+
+In dry AMD RPE models, combine Seahorse CMST/phenotype testing with live-cell imaging (mKeima, CellROX ± MitoTracker) under defined oxidant paradigms to couple function with ROS/Δψm phenotypes (fisher2022mitochondrialdysfunctionin pages 40-45, fisher2022mitochondrialdysfunctionin pages 144-148, fisher2022mitochondrialdysfunctionin pages 45-49, huang2023mitochondrialdysfunctionand pages 1-2). Antioxidant pathway activation is robustly captured by qPCR/Western for HO-1/SOD2 and qPCR for NFE2L2; direct NRF2 reporters are not described in the provided sources (fisher2022mitochondrialdysfunctionin pages 133-140, fisher2022mitochondrialdysfunctionin pages 67-71, huang2023mitochondrialdysfunctionand pages 1-2).
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/5f8daee3-1e3f-424c-bbf7-54d97c8da9ab
+
+References:
+1. (fisher2022mitochondrialdysfunctionin pages 128-133): CR Fisher. Mitochondrial dysfunction in retinal pigment epithelium with age-related macular degeneration. Unknown journal, 2022.
+
+2. (fisher2022mitochondrialdysfunctionin pages 133-140): CR Fisher. Mitochondrial dysfunction in retinal pigment epithelium with age-related macular degeneration. Unknown journal, 2022.
+
+3. (fisher2022mitochondrialdysfunctionin pages 61-67): CR Fisher. Mitochondrial dysfunction in retinal pigment epithelium with age-related macular degeneration. Unknown journal, 2022.
+
+4. (fisher2022mitochondrialdysfunctionin pages 40-45): CR Fisher. Mitochondrial dysfunction in retinal pigment epithelium with age-related macular degeneration. Unknown journal, 2022.
+
+5. (fisher2022mitochondrialdysfunctionin pages 144-148): CR Fisher. Mitochondrial dysfunction in retinal pigment epithelium with age-related macular degeneration. Unknown journal, 2022.
+
+6. (fisher2022mitochondrialdysfunctionin pages 45-49): CR Fisher. Mitochondrial dysfunction in retinal pigment epithelium with age-related macular degeneration. Unknown journal, 2022.
+
+7. (fisher2022mitochondrialdysfunctionin pages 75-80): CR Fisher. Mitochondrial dysfunction in retinal pigment epithelium with age-related macular degeneration. Unknown journal, 2022.
+
+8. (huang2023mitochondrialdysfunctionand pages 1-2): Zhiqin Huang, Dan Zhang, Shang-Chih Chen, Di Huang, David Mackey, Fred K. Chen, and Samuel McLenachan. Mitochondrial dysfunction and impaired antioxidant responses in retinal pigment epithelial cells derived from a patient with rcbtb1-associated retinopathy. Cells, 12:1358, May 2023. URL: https://doi.org/10.3390/cells12101358, doi:10.3390/cells12101358. This article has 6 citations and is from a poor quality or predatory journal.
+
+9. (fisher2022mitochondrialdysfunctionin pages 159-162): CR Fisher. Mitochondrial dysfunction in retinal pigment epithelium with age-related macular degeneration. Unknown journal, 2022.
+
+10. (fisher2022mitochondrialdysfunctionin pages 67-71): CR Fisher. Mitochondrial dysfunction in retinal pigment epithelium with age-related macular degeneration. Unknown journal, 2022.
+
+11. (fisher2022mitochondrialdysfunctionin pages 71-75): CR Fisher. Mitochondrial dysfunction in retinal pigment epithelium with age-related macular degeneration. Unknown journal, 2022.
+
+12. (fisher2022mitochondrialdysfunctionin pages 52-56): CR Fisher. Mitochondrial dysfunction in retinal pigment epithelium with age-related macular degeneration. Unknown journal, 2022.
+
+13. (fisher2022mitochondrialdysfunctionin pages 119-124): CR Fisher. Mitochondrial dysfunction in retinal pigment epithelium with age-related macular degeneration. Unknown journal, 2022.

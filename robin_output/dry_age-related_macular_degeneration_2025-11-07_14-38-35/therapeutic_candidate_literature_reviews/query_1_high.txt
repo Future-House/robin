@@ -1,0 +1,62 @@
+Query: High-throughput small-molecule screening AND RPE barrier integrity assays AND transepithelial electrical resistance (TEER) measurements AND paracellular permeability reduction in dry AMD models AND identification of lead compounds with pathway-specific activity and preliminary ADME or safety data
+
+1. Nrf2 activator library screen  
+   Mechanistic hypothesis: Enhancing Nrf2-driven antioxidant defenses in RPE restores tight junction integrity.  
+   Strategy: High-throughput screen of small molecules for Nrf2 nuclear translocation in iPSC-derived RPE under H2O2 stress. Measure TEER and FITC-dextran flux to quantify barrier rescue. Identify hits with selective up-regulation of NQO1/HO-1 and favorable microsomal stability.
+
+2. Complement factor D inhibitors  
+   Mechanistic hypothesis: Reducing local complement activation prevents sublethal RPE inflammation and preserves barrier function.  
+   Strategy: Screen a 50K-compound library for inhibitors of factor D using a fluorogenic peptide assay. Test lead hits in TNFα-treated RPE monolayers, quantify TEER recovery and paracellular permeability, profile metabolic stability in hepatocytes.
+
+3. Autophagy enhancers targeting ULK1  
+   Mechanistic hypothesis: Promoting ULK1-mediated autophagy clears drusen precursors, stabilizing tight junction proteins.  
+   Strategy: Reporter-based HTS for ULK1 kinase activation. Validate top compounds in A2E-loaded RPE cultures by TEER, ZO-1 immunofluorescence, and autophagic flux assays. Assess CYP450 inhibition and cytotoxicity.
+
+4. Mitochondrial fusion promoters  
+   Mechanistic hypothesis: Boosting mitochondrial fusion via MFN2 agonists improves ATP supply to junctional complexes.  
+   Strategy: Screen for small molecules that increase mitochondrial network connectivity in RPE labeled with mito-GFP. Measure TEER under oxidative stress and evaluate lead permeability in Caco-2 cells for absorption prediction.
+
+5. Lysosomal pH stabilizers  
+   Mechanistic hypothesis: Normalizing lysosomal acidity prevents lipofuscin accumulation and junctional degradation.  
+   Strategy: HTS of small molecules that restore LysoTracker signal in A2E-laden RPE. Assess barrier integrity by TEER and sucrose permeability. Screen leads in hERG assays for cardiac safety.
+
+6. ROCK2-specific inhibitors  
+   Mechanistic hypothesis: Inhibiting ROCK2 reduces actin stress fibers, enhancing adherens junction assembly.  
+   Strategy: Biochemical screen for ROCK2 over ROCK1 selectivity. In RPE monolayers treated with cytokine mix, quantify TEER and paracellular flux, and measure p-MLC levels. Early ADME profiling in microsomes.
+
+7. Wnt/β-catenin pathway modulators  
+   Mechanistic hypothesis: Activating non-canonical Wnt signaling reinforces junctional complex formation.  
+   Strategy: Small-molecule screen for Wnt5a mimetic activity using β-catenin reporter assay. Validate TEER improvement in RPE under complement stress and check plasma protein binding.
+
+8. Tight junction scaffolding stabilizers (ZO-1 binders)  
+   Mechanistic hypothesis: Small molecules that bind ZO-1 PDZ domains stabilize tight junctions directly.  
+   Strategy: FP-based HTS to find ZO-1 PDZ ligands. Test compounds in low-calcium RPE to measure TEER recovery and dextran permeability, plus in vitro safety in primary hepatocytes.
+
+9. Integrin β1 agonists  
+   Mechanistic hypothesis: Engaging integrin β1 enhances RPE–ECM adhesion and barrier integrity.  
+   Strategy: Screen for small molecules that promote β1 integrin clustering in RPE using conformation-sensitive antibodies. Measure TEER and paracellular flux; perform early hERG cardiotoxicity assay.
+
+10. Senolytic compounds targeting BCL-xL  
+    Mechanistic hypothesis: Clearing senescent RPE cells reduces inflammatory milieu, supporting barrier function.  
+    Strategy: HTS for BCL-xL inhibitors that selectively kill p16Ink4a-positive RPE. Assess surviving monolayer TEER and permeability. Screen leads for solubility and CYP inhibition.
+
+11. AGEs-RAGE interaction blockers  
+    Mechanistic hypothesis: Interrupting advanced glycation end-product binding to RAGE reduces junctional breakdown.  
+    Strategy: AlphaLISA screen for RAGE–AGE inhibitors. Validate barrier protection in methylglyoxal-exposed RPE by TEER and FITC-dextran assays. Conduct preliminary blood–brain barrier PAMPA.
+
+12. SREBP2 pathway inhibitors  
+    Mechanistic hypothesis: Lowering cholesterol synthesis via SREBP2 inhibition prevents lipid deposition at cell contacts.  
+    Strategy: Luciferase reporter HTS for SREBP2 activity in RPE. Test hits for barrier rescue under high-lipid challenge with TEER and NBD-cholesterol efflux assays. Profile microsomal clearance.
+
+13. TNF receptor 1 decoys  
+    Mechanistic hypothesis: Blocking TNFα–TNFR1 interaction prevents cytokine-induced barrier loss.  
+    Strategy: Screen peptide mimetics that bind TNFR1 extracellular domain. In cytokine-exposed RPE, measure TEER and solute flux. Evaluate serum stability and immunogenicity risk.
+
+14. P2X7 receptor antagonists  
+    Mechanistic hypothesis: Inhibiting ATP-gated P2X7 channels reduces inflammasome activation and preserves tight junctions.  
+    Strategy: High-throughput patch-clamp screen for P2X7 blockers. Confirm TEER protection in ATP-treated RPE and measure IL-1β release. Check hERG liability.
+
+15. AMPK allosteric activators  
+    Mechanistic hypothesis: Activating AMPK supports energy homeostasis and tight junction maintenance under stress.  
+    Strategy: Fluorescence-based screen for AMPK activators. In oxidative/elevated glucose RPE, quantify TEER, paracellular permeability, and ACC phosphorylation. Profile pharmacokinetics in hepatocyte co-culture.
+

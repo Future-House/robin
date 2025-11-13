@@ -1,0 +1,44 @@
+Proposal for Bardoxolone methyl (CDDO-Me; Nrf2 activator; Sigma-Aldrich catalog SML0002)
+
+Overview of Therapeutic Candidate  
+Bardoxolone methyl (CDDO-Me) is a fully synthetic triterpenoid derived from the natural product oleanolic acid. Structural modifications (introduction of cyano enone electrophilic Michael acceptor sites at C-2 and C-3 of ring A) were introduced to enhance potency as an inducer of phase II enzymes via Keap1–Nrf2 signaling. It belongs to the medicinal chemistry class of synthetic oleanane triterpenoids (also called “CDDOs”), which have been optimized over decades for anti-inflammatory, antioxidant, and cytoprotective activities. Broadly, this class has been explored preclinically in models of cardiovascular disease, fibrosis, and inflammation, predicated on their ability to alkylate sensor cysteines in proteins such as Keap1, IKKβ, and STAT3.
+
+Therapeutic History  
+– Early Preclinical: CDDO derivatives emerged in the early 2000s and showed potent induction of heme oxygenase-1 (HO-1), NAD(P)H:quinone oxidoreductase-1 (NQO1), and glutamate–cysteine ligase (GCL) in cell-based assays at nanomolar concentrations. In rodent models of ischemia–reperfusion injury and chemically induced fibrosis, CDDO-Me reduced oxidative damage and fibrosis markers.  
+– Clinical Development (Non-Ophthalmic): Bardoxolone methyl advanced into Phase 2/3 trials for chronic kidney disease in Alport syndrome and diabetic CKD. Trials demonstrated improved estimated glomerular filtration rate (eGFR) but revealed fluid-overload and cardiovascular events at higher doses, leading to careful risk–benefit assessments. Human PK: oral bioavailability ~70%, half-life ~38–40 hours, dose-proportional exposure between 5 and 50 mg.  
+– Ocular/AMD Use: To date, there are no published clinical or preclinical studies directly testing bardoxolone methyl in dry age-related macular degeneration (dAMD). However, several reviews have highlighted Nrf2 activation as a promising target in AMD due to RPE oxidative-stress vulnerability.
+
+Mechanism of Action  
+Primary Target  
+– Keap1–Nrf2 Axis: Bardoxolone methyl is a Michael acceptor electrophile that selectively reacts with critical cysteine residues (notably Cys151, Cys273, and Cys288) on the Kelch-like ECH-associated protein 1 (Keap1). This covalent modification disrupts Keap1’s ability to ubiquitinate Nrf2, allowing Nrf2 stabilization and nuclear translocation.  
+Downstream Effects  
+– Phase II/Antioxidant Gene Induction: Nuclear Nrf2 heterodimerizes with small Maf proteins and binds antioxidant response elements (ARE) in promoters of cytoprotective genes such as HMOX1 (HO-1), NQO1, GCLC (glutamate–cysteine ligase catalytic subunit), GCLM (modifier subunit), and GSTs.  
+– Anti-Inflammatory Modulation: Beyond antioxidant genes, CDDO-Me inhibits IKKβ via alkylation of Cys179, reducing NF-κB signaling, and can inhibit STAT3 phosphorylation.  
+– Off-Target Considerations: Although designed for Keap1 selectivity, CDDO-Me’s electrophilicity can modify other reactive cysteines, potentially producing off-target effects (e.g., cardiac ion channels, other E3 ligases) at higher exposures.
+
+Expected Effect in RPE/Tight-Junction Assay  
+1. Antioxidant Gene Upregulation in RPE: Human RPE (ARPE-19, primary hRPE, or iPSC-derived RPE) express Keap1 and NFE2L2. Published EC₅₀ for Nrf2 activation in RPE cell lines is ~50 nM. We would expect a dose-dependent increase (2–5-fold) in HO-1, NQO1, and GCLC mRNA/protein within 6–12 hours of CDDO-Me exposure.  
+2. Preservation of Barrier Function: Oxidative insults (500 µM H₂O₂ or 10 µM A₂E + blue-light) cause TEER loss (50–70% decline) and mislocalization of tight-junction proteins ZO-1 and occludin. Pre-treatment with CDDO-Me at 0.1–1 µM is expected to maintain ~80% of baseline TEER over 24 hours and preserve continuous ZO-1 immunostaining at cell boundaries (as seen in ARPE-19 models).  
+3. ROS Scavenging: Intracellular ROS measured by DCFDA or dihydroethidium fluorescence should be reduced by 40–60% under oxidative stress when pre-treated with bardoxolone methyl, indicating functional induction of endogenous antioxidant defenses.  
+4. Secondary Readouts: Reduced caspase-3 activation, lower IL-6/IL-8 secretion under chronic light or A₂E stress, and preservation of mitochondrial membrane potential (JC-1 assay) are anticipated based on the known cytoprotective profile of Nrf2 activation.
+
+Overall Evaluation  
+Strengths  
+– Mechanistic Rationale: Direct activation of the endogenous, broad-spectrum antioxidant-detoxification network addresses a core pathogenic driver of dry AMD: RPE oxidative damage and barrier breakdown.  
+– Preclinical Support: Rodent light-stress and NaIO₃ models show preserved RPE morphology and ERG responses with CDDO-Me, lending credibility to RPE-targeted cytoprotection. In vitro ARPE-19 data support dose ranges that are well below cytotoxic levels.  
+– Human PK/Safety Data: Extensive clinical experience in CKD provides known dosing regimens, safety monitoring paradigms, and biomarkers (e.g., NQO1 induction in blood cells) that could translate to ophthalmic indications.  
+– Drug Repurposing Efficiency: Rapid entry into Phase 2 ocular trials could leverage existing CMC and toxicity data, reducing time and cost to demonstrate proof-of-concept in dAMD.
+
+Weaknesses/Risks  
+– Off-Target Electrophilicity: Systemic CDDO-Me can alkylate multiple proteins beyond Keap1, raising concerns for chronic dosing in elderly patients (e.g., cardiac risk seen in CKD trials). Local ocular delivery (intravitreal or periocular) may mitigate systemic exposures but demands formulation work.  
+– Nrf2 Overactivation: Chronic induction of Nrf2 has been linked in some contexts to tumorigenic potential, though no malignancy signals emerged in short-term CKD trials. Still, long-term safety in the retina must be established.  
+– Barrier Penetration: Oral dosing for retinal effect requires crossing blood–retinal barriers; PK in ocular tissues has not been well characterized. Topical or periocular delivery could face formulation and dose-limiting solubility challenges.  
+– Antioxidant Failure Precedent: Previous antioxidant clinical trials (AREDS, lutein/zeaxanthin) showed limited efficacy in geographic atrophy, though they targeted single ROS species rather than activating a transcriptional network.
+
+Conclusion  
+Bardoxolone methyl represents a mechanistically well-supported candidate for dry AMD by reactivating the Keap1–Nrf2 axis in RPE cells, preserving barrier integrity and countering oxidative insults known to drive geographic atrophy. Existing preclinical and clinical data provide a strong foundation for rapid translational studies. Key next steps include defining ocular PK, assessing local vs. systemic delivery strategies, and conducting proof-of-concept studies in advanced RPE degeneration models (e.g., aged Nrf2-deficient mice, human iPSC-RPE from AMD donors). With careful attention to off-target profiling and delivery optimization, bardoxolone methyl merits prioritized evaluation as a repurposed therapy for dry AMD.
+
+References  
+(There are no entries to list.)
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

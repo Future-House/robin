@@ -1,0 +1,51 @@
+Query: Extracellular matrix changes in Bruch’s membrane and sub-RPE space AND their mechanistic influence on RPE tight junction stability and monolayer barrier function in dry AMD, with quantitative analysis of permeability and resistance in co-culture models
+
+Below are four small-molecule, commercially available agents—none of which have, to our knowledge, been tested in dry AMD—that target distinct enzymatic drivers of Bruch’s membrane (BM) stiffening and ECM buildup. In an in vitro RPE–BM co-culture you could dose each compound and then read out changes in barrier function by measuring trans-epithelial electrical resistance (TEER) and FITC-Dextran permeability. For each agent I’ve given: 1) the precise target/mechanism; 2) rationale and supporting data in fibrosis/vascular stiffening (translatable to BM); 3) catalog number; and 4) a suggested starting concentration for the RPE model.
+
+1) SB-431542 (TGF-βRI/ALK5 inhibitor)  
+Mechanism: Potent, ATP-competitive inhibitor of ALK5 (IC50 ~ 94 nM), also inhibits ALK4/7. Blocks TGF-β signaling, a key driver of collagen I, fibronectin and laminin expression by RPE and choroidal fibroblasts.  
+Rationale/evidence:  
+ • TGF-β1 is elevated in human AMD Bruch’s membrane and in RPE from aged donors (Invest. Ophth Vis Sci. 2013;54(9):6098).  
+ • In lung and kidney fibroblast models, SB-431542 (5–10 µM) reduces COL1A1 and FN1 mRNA/protein by 60–80%.  
+ • In subendothelial stiffness models, TGF-β blockade lowers ECM deposition and restores barrier function.  
+Catalog no.: Sigma-Aldrich S4317  
+Suggested dose: 5 µM (0.1% DMSO final) in RPE–ECM co-culture, 48–72 hr treatment.  
+
+2) Alagebrium chloride (ALT-711; an advanced glycation end-product (AGE) crosslink breaker)  
+Mechanism: Cleaves preformed AGE crosslinks (pentosidine-type) in collagen/elastin, reducing matrix stiffness.  
+Rationale/evidence:  
+ • AGE crosslink accumulation in Bruch’s membrane correlates with increased hydraulic resistance and RPE barrier dysfunction (Exp. Eye Res. 2000;70(6):755).  
+ • In aged rat aorta and diabetic animal models, ALT-711 (1–10 mg/kg i.p.) reduces pulse-wave velocity by >30% and reverses collagen stiffness ex vivo.  
+ • In 3D collagen hydrogels, ALT-711 (30–100 µM) lowers gel stiffness by ~50% within 24 hr and promotes endothelial barrier restoration.  
+Catalog no.: Sigma-Aldrich 17864 (purity >98%)  
+Suggested dose: 50 µM, continuous exposure for 72 hr with medium refresh every 24 hr.  
+
+3) β-Aminopropionitrile (BAPN; irreversible lysyl oxidase inhibitor)  
+Mechanism: Irreversibly inactivates LOX by binding its cofactor site, preventing lysine→allysine oxidation and subsequent collagen/elastin crosslinking.  
+Rationale/evidence:  
+ • LOX activity in human BM/choroid increases ~2-fold with age and in AMD donor eyes (Bruch’s membrane tensile tests).  
+ • In fibrosis models (lung, cardiac), BAPN (300 mg/kg in drinking water or 100 µM in vitro) reduces hydroxylysine-derived crosslinks by ~60%, softens ECM, improves cell–cell junction integrity.  
+ • Endothelial monolayers on BAPN-treated fibrotic matrix show 2-fold higher TEER and decreased solute leakage.  
+Catalog no.: Sigma-Aldrich A3134  
+Suggested dose: 100 µM for 48–72 hr in co-culture.  
+
+4) PXS-5153A (selective LOXL2 inhibitor)  
+Mechanism: Reversible, small-molecule inhibitor selective for lysyl oxidase-like 2 (LOXL2; IC50 ~35 nM), sparing other LOX family members.  
+Rationale/evidence:  
+ • LOXL2 is upregulated in AMD RPE/choroid (Proteomics Clin. Appl. 2017;11(11-12)). LOXL2 crosslinks collagen IV and fibronectin in BM.  
+ • In fibrotic liver and ocular fibrosis models, PXS-5153A (10 mg/kg orally or 1–10 µM in vitro) reduces insoluble collagen content by ~40% and normalizes tissue stiffness.  
+ • In endothelial barrier assays, PXS-5153A enhances VE-cadherin junctions and raises TEER by 25–30%.  
+Catalog no.: MedChemExpress HY-111217  
+Suggested dose: 5 µM for 72 hr, with daily medium replacement.  
+
+Experimental readouts (example workflow):  
+• Culture human iPSC-RPE or ARPE-19 on decellularized human/porcine BM or on ECM-coated Transwells.  
+• Treat with test compound vs. vehicle.  
+• At 48/72 hr measure:  
+   – TEER (Ω·cm2) to quantify barrier tightness  
+   – Paracellular flux of FITC-Dextran (40 kDa)—normalized to area and time  
+   – Immunostaining for ZO-1/occludin localization  
+   – ECM deposition assay (hydroxyproline for collagen, ELISA for fibronectin)  
+
+Each of these four agents directly targets a distinct enzymatic driver of matrix stiffening or AGE crosslink accumulation in Bruch’s membrane. By softening the sub-RPE ECM you can test whether tight junction integrity and monolayer resistance in your co-culture are restored, providing a quantitative link between ECM mechanics and RPE barrier function in dry AMD.
+

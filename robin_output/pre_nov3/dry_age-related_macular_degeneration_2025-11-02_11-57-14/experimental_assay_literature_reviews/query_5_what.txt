@@ -1,0 +1,69 @@
+Query: What are the roles of inflammasome activation, NF-κB signaling, and pro-inflammatory cytokine release in RPE cell pathology in dry AMD, and which quantitative readouts and reporter systems exist to monitor these pathways in cell culture?
+
+Inflammasome activation, NF-κB signaling and downstream pro-inflammatory cytokine release are now well-established drivers of RPE dysfunction and death in dry AMD.  Below is a concise overview of their roles in RPE pathology, followed by the most widely used quantitative assays and live-cell or endpoint reporter systems you can deploy in ARPE-19 or iPSC-derived RPE cultures.  
+
+1. Role in RPE Pathology  
+  a. Inflammasome (primarily NLRP3)  
+    • “Priming” via NF-κB up-regulates NLRP3 and pro-IL-1β/pro-IL-18 in RPE (e.g. by drusen components such as oxidized cholesterol, A2E, Alu RNA).  
+    • “Activation” (e.g. K⁺ efflux, lysosomal rupture) leads to caspase-1 cleavage, IL-1β/IL-18 maturation, GSDMD pore formation and pyroptosis.  
+    • Consequences: RPE barrier breakdown, local complement activation, microglial recruitment, chronic low-grade inflammation that accelerates geographic atrophy.  
+
+  b. NF-κB signaling  
+    • Triggered by drusen-derived DAMPs (oxidized lipids, complement fragments), TLRs and IL-1R engagement.  
+    • Nuclear translocation of p65/p50 drives transcription of NLRP3, pro-inflammatory cytokines (IL-6, IL-8), chemokines (CCL2), adhesion molecules.  
+    • Sustained NF-κB activity correlates with RPE senescence markers, impaired phagocytosis, and increased susceptibility to oxidative stress.  
+
+  c. Pro-inflammatory cytokines  
+    • IL-1β/IL-18 amplify inflammasome priming in an autocrine loop.  
+    • IL-6/IL-8/CCL2 recruit monocytes/microglia, perpetuate subretinal inflammation.  
+    • TNF-α (in part from choroidal macrophages) synergizes with oxidative stress to induce RPE apoptosis or necroptosis.  
+
+2. Quantitative Readouts & Reporter Systems  
+   A. Inflammasome Activation  
+     1) Caspase-1 Activity  
+        – Caspase-Glo® 1 Assay (Promega, cat# G9951): luminescent readout in 96/384-well plates.  
+        – FAM-YVAD-FMK FLICA (ImmunoChemistry Technologies, cat# 912): live-cell fluorescent probe for active caspase-1.  
+     2) ASC Speck Formation  
+        – ARPE-19 stably transduced with ASC-GFP (published approach; Hallé et al. 2008). Speck count by automated confocal.  
+        – Anti-ASC immunofluorescence (Cell Signaling, #67824) + high-content imaging.  
+     3) IL-1β / IL-18 Release  
+        – ELISA kits: R&D Systems IL-1β (DY201), IL-18 (DY318).  
+        – Multiplex bead array (Luminex Millipore HCYTOMAG-60K; MSD U-PLEX custom panels).  
+     4) Cell Death / Pyroptosis  
+        – LDH release: Promega CytoTox-96® (G1780).  
+        – Propidium iodide or PI/Yo-Pro-1 uptake by flow cytometry.  
+
+   B. NF-κB Signaling  
+     1) Reporter Assays  
+        – ARPE-19 NF-κB-Luc stable line (Signosis, cat# L1200) or pNF-κB-Luc (Promega E8491): firefly luciferase under NF-κB response elements.  
+        – pNiFty2-SEAP (Invivogen, cat# pNiFty2-SEAP): SEAP secreted reporter, easy colorimetric readout.  
+     2) p65 Nuclear Translocation  
+        – Immunofluorescence: anti-p65 (Cell Signaling #8242) + DAPI; quantify nuclear/cytoplasmic ratio.  
+     3) IκBα Degradation / Phospho-p65  
+        – Western blot: anti-IκBα (#9242), phospho-p65 Ser536 (#3033) from Cell Signaling.  
+     4) DNA-Binding (EMSA)  
+        – NF-κB EMSA kits (Thermo Fisher, cat# 20148).  
+     5) qRT-PCR of NF-κB Targets  
+        – mRNA of NFKBIA, IL6, IL8, CCL2 measured by TaqMan assays (Thermo Fisher) or SYBR Green.  
+
+   C. Pro-inflammatory Cytokine Release  
+     1) Single-Analyte ELISA  
+        – IL-6 (R&D Systems DY206), IL-8 (DY208), TNF-α (DY210).  
+     2) Multiplex Platforms  
+        – Luminex (Millipore), MSD V-Plex (MesoScale Discovery).  
+     3) Intracellular Flow Cytometry  
+        – Brefeldin A block + intracellular staining (BD Biosciences CBA flex kits).  
+     4) mRNA Expression  
+        – qRT-PCR panels for inflammasome & cytokine genes (SABiosciences RT² Profiler).  
+
+Summary Workflow in RPE Culture  
+  1) Prime cells with low-dose TNF-α or drusen extracts to induce NLRP3/pro-IL-1β.  
+  2) Add secondary stimulus (ATP, nigericin) to trigger inflammasome.  
+  3) In parallel wells monitor:  
+     – Caspase-1 activity (Glo or FLICA) at 1–4 h post-stimulus.  
+     – IL-1β/IL-18 in supernatant by ELISA at 4–24 h.  
+     – NF-κB reporter luminescence 2–6 h after priming.  
+     – Cell death (LDH or PI) at 6–24 h.  
+
+All of these assays are quantitative, scalable to 96-well plates, and have been widely adopted in dry AMD RPE models. Together they allow you to dissect the timeline: NF-κB-mediated priming → inflammasome activation → cytokine release/pyroptosis.
+

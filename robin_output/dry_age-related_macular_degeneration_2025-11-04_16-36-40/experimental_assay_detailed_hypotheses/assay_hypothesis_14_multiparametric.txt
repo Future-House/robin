@@ -1,0 +1,37 @@
+Hypothesis: Multiparametric High-Content Screening Assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Multiparametric High-Content Screening Assay
+Reasoning: Simultaneous live-cell staining for ROS, Δψm, Ca2+ flux, and viability followed by fixation and immunolabeling of LC3 enables high-throughput, single-cell profiling in 384-well RPE assays. This comprehensive phenotyping approach accelerates identification of multi-targeted therapeutic candidates (Mills et al. 2022).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview: This multiparametric high‐content screening assay targets key aspects of dry AMD pathogenesis by simultaneously quantifying oxidative stress (via ROS probes), mitochondrial dysfunction (through Δψm dyes), alterations in Ca2+ flux (using calcium indicators), and cell viability in live RPE cells, followed by fixed‐cell immunolabeling of LC3 to evaluate autophagy flux. The assay is designed for 384‐well plate formats using RPE cells to recapitulate the in vitro environment of AMD (bhattacharya2022modelingofmitochondrial pages 20-21, bhattacharya2022modelingofmitochondrial pages 5-6).
+
+Biomedical Evidence: Oxidative stress, mitochondrial bioenergetic decline, disrupted Ca2+ homeostasis, and impaired autophagy are central mechanisms driving RPE dysfunction and dry AMD progression. Clinical and preclinical studies have consistently linked elevated ROS, reduced Δψm, and autophagy failures—often evidenced by altered LC3 levels—with AMD pathophysiology, and emerging data indicate that Ca2+-dependent signaling further modulates mitophagy (buonfiglio2024recentadvancesin pages 10-12, hermannssonUnknownyeartheroleof pages 24-27, lenin2023dysfunctionalautophagyproteostasis pages 2-4).
+
+Previous Use: Similar high-content approaches have been employed to dissect mitochondrial bioenergetics and autophagic impairments in RPE models, leading to insights on AMPK/STAT3 signaling and validating LC3-based autophagy assessments in drug discovery (bhattacharya2022modelingofmitochondrial pages 1-2, abokyi2021antioxidativeroleof pages 23-27).
+
+Overall Evaluation: The assay’s strength lies in its capacity to capture multiple, interconnected disease-relevant endpoints at the single-cell level, thereby accelerating multi-target therapeutic discovery for dry AMD. Its weaknesses include the technical challenge of multiplexing signals without interference and the need for rigorous assay validation, particularly for Ca2+ flux measurements. 
+
+This platform provides a robust, integrative approach to evaluate candidate drugs that modulate oxidative stress, mitochondrial function, and autophagy in AMD. It offers significant promise in early-stage therapeutic screening once optimized and fully validated.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/f5eeecd6-969b-4ec2-b883-9e97f60ab237
+
+References:
+1. (bhattacharya2022modelingofmitochondrial pages 20-21): Sujoy Bhattacharya, Jinggang Yin, Weihong Huo, and Edward Chaum. Modeling of mitochondrial bioenergetics and autophagy impairment in melas-mutant ipsc-derived retinal pigment epithelial cells. Stem Cell Research & Therapy, Jun 2022. URL: https://doi.org/10.1186/s13287-022-02937-6, doi:10.1186/s13287-022-02937-6. This article has 27 citations and is from a peer-reviewed journal.
+
+2. (bhattacharya2022modelingofmitochondrial pages 5-6): Sujoy Bhattacharya, Jinggang Yin, Weihong Huo, and Edward Chaum. Modeling of mitochondrial bioenergetics and autophagy impairment in melas-mutant ipsc-derived retinal pigment epithelial cells. Stem Cell Research & Therapy, Jun 2022. URL: https://doi.org/10.1186/s13287-022-02937-6, doi:10.1186/s13287-022-02937-6. This article has 27 citations and is from a peer-reviewed journal.
+
+3. (buonfiglio2024recentadvancesin pages 10-12): Francesco Buonfiglio, Christina A. Korb, Bernhard Stoffelns, Norbert Pfeiffer, and Adrian Gericke. Recent advances in our understanding of age-related macular degeneration: mitochondrial dysfunction, redox signaling, and the complement system. Aging and Disease, 16:1535-1575, Jan 2024. URL: https://doi.org/10.14336/ad.2024.0124, doi:10.14336/ad.2024.0124. This article has 23 citations and is from a peer-reviewed journal.
+
+4. (hermannssonUnknownyeartheroleof pages 24-27): K Hermannsson. The role of mitf in autophagy and oxidative stress in human retinal epithelial cells. Unknown journal, Unknown year.
+
+5. (lenin2023dysfunctionalautophagyproteostasis pages 2-4): Raji Rajesh Lenin, Yi Hui Koh, Zheting Zhang, Yan Zhuang Yeo, Bhav Harshad Parikh, Ivan Seah, Wendy Wong, and Xinyi Su. Dysfunctional autophagy, proteostasis, and mitochondria as a prelude to age-related macular degeneration. International Journal of Molecular Sciences, 24:8763, May 2023. URL: https://doi.org/10.3390/ijms24108763, doi:10.3390/ijms24108763. This article has 20 citations and is from a poor quality or predatory journal.
+
+6. (bhattacharya2022modelingofmitochondrial pages 1-2): Sujoy Bhattacharya, Jinggang Yin, Weihong Huo, and Edward Chaum. Modeling of mitochondrial bioenergetics and autophagy impairment in melas-mutant ipsc-derived retinal pigment epithelial cells. Stem Cell Research & Therapy, Jun 2022. URL: https://doi.org/10.1186/s13287-022-02937-6, doi:10.1186/s13287-022-02937-6. This article has 27 citations and is from a peer-reviewed journal.
+
+7. (abokyi2021antioxidativeroleof pages 23-27): S Abokyi. Antioxidative role of autophagy in the protection against in vitro and in vivo oxidative stress-induced models of age-related retinal degeneration. Unknown journal, 2021.

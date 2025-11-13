@@ -1,0 +1,36 @@
+Query: “Development and optimization of in vitro cell-culture assays modeling key dry AMD phenotypes: survey protocols using primary or hiPSC-derived RPE cells for quantifying phagocytosis of photoreceptor outer segments, barrier integrity (TEER), reactive oxygen species generation, lipofuscin or A2E accumulation, complement activation responses, inflammasome signaling, and high-throughput readouts for drug screening.”
+
+1. Hypothesis: Impaired autophagy in RPE drives A2E/lipofuscin accumulation, oxidative stress and secondary inflammasome activation.  
+   • Model system: hiPSC-derived RPE or primary human RPE cultured on Transwells.  
+   • Perturbation: genetic knockdown of ATG5 or ATG7 (siRNA or CRISPRi) and/or pharmacologic blockade of lysosomal function (bafilomycin A1).  
+   • Assays:  
+     – Quantify autophagic flux by LC3-II turnover (western blot or immunofluorescence).  
+     – Measure lipofuscin/A2E levels via autofluorescence or LC–MS.  
+     – Detect ROS (CM-H2DCFDA), mitochondrial superoxide (MitoSOX).  
+     – Assess NLRP3 inflammasome activation (ASC speck imaging, IL-1β ELISA).  
+     – Monitor barrier integrity (TEER) and cell viability (MTT).  
+   • Therapeutic arm: test autophagy enhancers (rapamycin, trehalose, spermidine) or TFEB activators to restore lysosomal clearance. Endpoints: reduction in A2E, ROS, IL-1β, and rescue of TEER.
+
+2. Hypothesis: The AMD-associated CFH Y402H variant in RPE exacerbates alternative complement activation, undermines barrier function and triggers inflammasome signaling.  
+   • Model system: isogenic hiPSC-RPE lines (wild-type vs. homozygous Y402H CFH knock-in) differentiated to maturity on permeable supports.  
+   • Challenge: expose monolayers to oxidative stress (4 h H2O2 pulse) or drusen-mimetic lipid extracts.  
+   • Assays:  
+     – Complement deposition: immunofluorescence for C3b and C5b-9.  
+     – Soluble complement activation: measure C3a, Ba fragments in supernatants by ELISA.  
+     – TEER and paracellular flux (FITC-dextran).  
+     – Inflammasome readouts (caspase-1 activity, IL-18/IL-1β secretion).  
+   • Therapeutic arm: treat cultures with compstatin analogs (Cp40), anti-C5 antibody or small-molecule factor D inhibitors. Endpoints: normalized complement deposition, improved TEER, reduced inflammasome activation.
+
+3. Hypothesis: Deficient MerTK-mediated phagocytosis of photoreceptor outer segments (POS) in RPE leads to secondary oxidative injury, lipofuscin build-up and barrier breakdown.  
+   • Model system: human RPE on Transwells, fed daily with fluorescently labeled bovine POS.  
+   • Perturbation:  
+     – Pharmacologic inhibition of MerTK (UNC569) or genetic knockdown (shRNA).  
+     – Induction of sublethal oxidative stress (tert-butyl hydroperoxide).  
+   • Assays:  
+     – Quantify POS uptake and digestion by high-content imaging (pHrodo-labeled POS).  
+     – Measure TEER before and after phagocytosis cycles.  
+     – Lipofuscin accumulation (A2E autofluorescence).  
+     – ROS generation (DCFDA assay).  
+     – Complement activation on RPE surface (C3b immunostaining).  
+   • Therapeutic arm: evaluate MerTK agonists (Gas6 protein supplementation or small-molecule enhancers like BMS-777607 at low doses), alongside mitochondrial antioxidants (MitoQ) to determine synergy in restoring phagocytosis, lowering ROS/lipofuscin and preserving barrier function.
+

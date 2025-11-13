@@ -1,0 +1,27 @@
+Query: Characterization of commercially available lysosomal modulators that increase cathepsin D activity in RPE cells, including reported catalog numbers, mechanism of action studies, target engagement assays, efficacy in dry AMD rodent or non-human primate models, with data on dosing parameters, in vivo pharmacokinetics, ocular safety evaluations, and potential for repurposing or lead optimization
+
+I cannot answer, because the provided sources do not identify any commercially available lysosomal modulators that increase cathepsin D activity in RPE cells and do not report catalog numbers, RPE-target engagement assays, dosing parameters, in vivo pharmacokinetics, ocular safety, or efficacy in dry AMD rodent or non-human primate models (falcao2025targetinglysosomaldysfunction pages 5-7).  
+The reviews supply mechanistic rationale—reduced cathepsin D activity in AMD RPE, and pathway-level strategies to restore lysosomal capacity via TFEB/mTORC1 or coordinated TFEB–NRF2 activation (including sulforaphane-mediated TFEB nuclear translocation and NRF2 engagement)—but still lack product-level details requested (falcao2025targetinglysosomaldysfunction pages 5-7, falcao2025targetinglysosomaldysfunction pages 11-13).  
+Rapamycin and trehalose are discussed as autophagy/lysosome modulators beneficial in RPE models, yet no data are given for direct enhancement of cathepsin D activity, commercial identifiers, ocular PK, or AMD in vivo efficacy and safety (falcao2025targetinglysosomaldysfunction pages 5-7).  
+Exogenous cathepsin D restoration has preclinical proof-of-concept outside the eye (e.g., recombinant pro–cathepsin D 25 mg/kg IV in Ctsd−/− mice), but these are not presented as commercially deployable RPE/AMD therapeutics with the requested translational package (cao2021targetinglysosomesin pages 10-10).  
+Agents that deacidify lysosomes (v-ATPase inhibitors, chloroquine-class drugs) are listed but would be expected to decrease, not increase, cathepsin D activity, and again lack RPE/AMD efficacy or safety packages (alhowyan2025frommoleculartherapies pages 12-14, cao2021targetinglysosomesin pages 9-10).  
+ClinicalTrials.gov searches matching this query space return no registered trials, underscoring the absence of clinical programs aligned with the requested profile (Clinical Trial Search: f7b007618763, Clinical Trial Search: df0a32bb2868).
+
+There are no data in the provided sources that characterize commercially available lysosomal modulators which increase cathepsin D activity in RPE, with catalog numbers and full translational packages. The context provides only pathway rationale and indirect modulators without RPE-specific cathepsin D activation or AMD in vivo efficacy, PK, and safety details (falcao2025targetinglysosomaldysfunction pages 5-7).
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/27590d04-00f3-4a36-8038-8b4f44f050b1
+
+References:
+1. (falcao2025targetinglysosomaldysfunction pages 5-7): Ana S. Falcão, Margarida L. Pedro, Sandra Tenreiro, and Miguel C. Seabra. Targeting lysosomal dysfunction and oxidative stress in age-related macular degeneration. Antioxidants, 14:596, May 2025. URL: https://doi.org/10.3390/antiox14050596, doi:10.3390/antiox14050596. This article has 2 citations and is from a poor quality or predatory journal.
+
+2. (falcao2025targetinglysosomaldysfunction pages 11-13): Ana S. Falcão, Margarida L. Pedro, Sandra Tenreiro, and Miguel C. Seabra. Targeting lysosomal dysfunction and oxidative stress in age-related macular degeneration. Antioxidants, 14:596, May 2025. URL: https://doi.org/10.3390/antiox14050596, doi:10.3390/antiox14050596. This article has 2 citations and is from a poor quality or predatory journal.
+
+3. (cao2021targetinglysosomesin pages 10-10): Mengdie Cao, Xiangyuan Luo, Kongming Wu, and Xingxing He. Targeting lysosomes in human disease: from basic research to clinical applications. Signal Transduction and Targeted Therapy, Nov 2021. URL: https://doi.org/10.1038/s41392-021-00778-y, doi:10.1038/s41392-021-00778-y.
+
+4. (alhowyan2025frommoleculartherapies pages 12-14): Adel A. Alhowyan and Gamaleldin I. Harisa. From molecular therapies to lysosomal transplantation and targeted drug strategies: present applications, limitations, and future prospects of lysosomal medications. Biomolecules, 15:327, Feb 2025. URL: https://doi.org/10.3390/biom15030327, doi:10.3390/biom15030327. This article has 5 citations and is from a poor quality or predatory journal.
+
+5. (cao2021targetinglysosomesin pages 9-10): Mengdie Cao, Xiangyuan Luo, Kongming Wu, and Xingxing He. Targeting lysosomes in human disease: from basic research to clinical applications. Signal Transduction and Targeted Therapy, Nov 2021. URL: https://doi.org/10.1038/s41392-021-00778-y, doi:10.1038/s41392-021-00778-y.
+
+6. (Clinical Trial Search: f7b007618763): Clinical Trials Search via ClinicalTrials.gov: commercially available lysosomal modulator RPE cathepsin D
+
+7. (Clinical Trial Search: df0a32bb2868): Clinical Trials Search via ClinicalTrials.gov: lysosomal modulator cathepsin D AMD

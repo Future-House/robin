@@ -1,0 +1,11 @@
+Assay Candidate 1:
+Strategy: Autophagy Enhancement
+Reasoning: RPE autophagy deficiency contributes to accumulation of lipofuscin and drusen precursors in dry AMD (Abokyi et al., 2021; Basyal et al., 2024). A cell-based mCherry-GFP-LC3 flux assay in ARPE-19 or iPSC-derived RPE under controlled oxidative stress provides a rapid, quantitative measure of autophagosome formation and clearance. Hits that restore LC3 flux, reduce p62 levels and diminish autofluorescent granule buildup can be directly linked to improved RPE homeostasis and smaller drusen-like deposits, offering a high-content imaging endpoint for mechanistic drug screening.
+
+Assay Candidate 2:
+Strategy: Complement Pathway Modulation
+Reasoning: Chronic complement activation drives RPE injury and drusen formation in dry AMD (Borchert et al., 2023; Chen et al., 2023). Exposing polarized RPE monolayers to human serum and candidate complement inhibitors, followed by ELISA quantification of C3a/C5a and immunostaining for membrane attack complex deposition, provides a direct readout of complement‐mediated damage. Combining these biochemical assays with transepithelial resistance measurements yields a fast, biologically relevant assessment of barrier integrity rescue.
+
+Assay Candidate 3:
+Strategy: Mitochondrial Protection
+Reasoning: Mitochondrial dysfunction amplifies ROS production and energy deficits in AMD-affected RPE (Bilbao-Malavé et al., 2021; Ebeling et al., 2022). Screening mitochondrial-targeted antioxidants in iPSC-derived RPE using CM-H2DCFDA or MitoSOX for real-time ROS detection, together with Seahorse XFe analysis of basal and maximal respiration, yields rapid, quantitative measures of oxidative stress mitigation and bioenergetic improvement. This dual readout directly links mitochondrial rescue to functional restoration in an AMD-relevant cell model.

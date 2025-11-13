@@ -1,0 +1,64 @@
+Query: reports on structure–activity relationship (SAR) and target engagement assays confirming direct interaction of candidate compounds with mitochondrial antioxidant targets (e.g., SOD2, peroxiredoxin 3, cardiolipin) in RPE cell models of oxidative stress
+
+Here are 15 distinct mechanistic‐hypothesis or therapeutic‐strategy ideas—each designed for cell‐culture SAR and target‐engagement assays in RPE models of oxidative stress:
+
+1. Phenolic‐Hydroxyl SAR for SOD2 Orthosteric Binding  
+   Hypothesis: Varying the position (ortho/​meta/​para) and number of phenolic OH groups on a benzene scaffold will modulate H-bonding to SOD2’s active‐site loop, improving superoxide dismutation in ARPE-19 cells.  
+   Assays: CETSA or thermal‐shift MST in live cells; mitochondrial O2•– quantification (MitoSOX); SOD2 enzyme‐activity assays.
+
+2. Benzothiazole Series Targeting Prx3 Oligomer Interface  
+   Hypothesis: Substitutions at benzothiazole C-2 and C-6 positions stabilize Prx3 decamer formation and accelerate peroxide turnover.  
+   Assays: Native‐PAGE to monitor Prx3 oligomer states; Prx3 peroxidase activity in RPE lysates; CETSA for target engagement.
+
+3. Cardiolipin‐Selective Amphiphiles by Alkyl‐Chain Length SAR  
+   Hypothesis: Amphipathic cations with optimized alkyl tails will preferentially insert into cardiolipin-rich IMM, shielding it from peroxidation.  
+   Assays: SPR or lipid‐coating BLI with cardiolipin vesicles; BODIPY C11 oxidation in RPE under H2O2; mitochondrial membrane potential (TMRE).
+
+4. TPP‐Linker Length SAR for Mitochondrial Uptake  
+   Hypothesis: Triphenylphosphonium‐linked antioxidant cores with 5–15 carbon spacers will differentially accumulate in mitochondria and engage SOD2.  
+   Assays: ICP-MS quantitation of TPP-compound in purified mitochondria; CETSA on mitochondrial fractions; MitoSOX assays.
+
+5. Disulfide‐Caged Prodrugs Tuned for Mitochondrial GSH  
+   Hypothesis: Modulating disulfide bond electronics adjusts prodrug activation by mitochondrial glutathione, releasing active peroxiredoxin-3 modulators.  
+   Assays: LC-MS for disulfide cleavage kinetics; Western blot for Prx3 sulfenylation; ROS assays in RPE cells.
+
+6. Photoreactive Crosslinker SAR for SOD2  
+   Hypothesis: Incorporating diazirine vs. aryl‐azide at different scaffold positions will yield optimal photo‐crosslinking to SOD2 in intact RPE cells.  
+   Assays: UV-triggered photoaffinity in live cells; click‐chemistry pull-down and MS identification of SOD2 adducts.
+
+7. Polyphenol Methylation SAR to Prevent Cardiolipin Peroxidation  
+   Hypothesis: Systematic O-methylation of catechol rings enhances lipophilicity and binding to cardiolipin, reducing lipid peroxidation.  
+   Assays: ITC against cardiolipin micelles; BODIPY C11 oxidation; cell viability under oxidative stress.
+
+8. Peptidomimetic SAR Targeting Prx3 Resolving Cys  
+   Hypothesis: Varying peptidomimetic side-chain length and stereochemistry improves binding to Prx3’s resolving‐Cys region and accelerates catalytic turnover.  
+   Assays: Fluorescence polarization for target engagement; H2O2 clearance rates; CETSA.
+
+9. Bifunctional SOD2/Prx3 Dual‐Engagers  
+   Hypothesis: Linking known SOD2 and Prx3 pharmacophores via optimized tethers will synergistically enhance mitochondrial ROS detoxification.  
+   Assays: AlphaLISA proximity assay for dual target binding; combined superoxide and peroxide scavenging in RPE.
+
+10. Mitochondria‐Targeted Liposomal Delivery of SAR Hits  
+   Hypothesis: Encapsulation of SAR‐optimized antioxidants in liposomes decorated with mitochondrial‐targeting peptide (e.g., MLS) will boost cardiolipin binding and rescue RPE cells.  
+   Assays: Cryo‐EM for liposome-IMM fusion; mitochondrial ROS assays; cell‐survival under H2O2.
+
+11. Cell‐Penetrating Peptide Conjugates for SOD2 Engagement  
+   Hypothesis: Conjugating antioxidant small molecules to arginine‐rich CPPs enhances mitochondrial import and increases SOD2 target occupancy.  
+   Assays: Proximity ligation assay (PLA) for SOD2‐compound colocalization; MitoSOX and viability assays.
+
+12. pH‐Responsive SAR Probes Releasing Active Moiety in Mitochondria  
+   Hypothesis: Acid‐labile linkers that cleave in the modestly acidic mitochondrial matrix will unmask potent Prx3 activators only upon entry.  
+   Assays: Live‐cell FRET release sensors; Prx3 sulfinic acid reversal by Western; ROS clearance.
+
+13. Lipid‐Mimetic SAR Small Molecules Inserting into IMM  
+   Hypothesis: Tuning hydrophobic tail unsaturation and headgroup polarity in lipid‐mimetic analogs will mimic cardiolipin structure, stabilizing cristae and reducing ROS.  
+   Assays: Solid‐state NMR for membrane insertion; EM for cristae morphology; mitochondrial ROS/protection assays.
+
+14. Covalent SAR Warheads for Selective SOD2 Modification  
+   Hypothesis: Introducing tuned electrophiles (e.g., acrylamides, epoxides) at specific scaffold positions achieves selective, reversible covalent bonding to SOD2 His-residues, boosting enzyme stability.  
+   Assays: LC-MS/MS mapping of covalent adducts; residual SOD2 activity post-oxidative insult; CETSA.
+
+15. CRISPR‐Engineered RPE Reporter for Live‐Cell BRET Target Engagement  
+   Hypothesis: Knocking‐in NanoLuc or HaloTag into endogenous SOD2 or Prx3 will enable real‐time BRET/​fluorescence readouts of SAR compounds’ mitochondrial engagement and kinetics.  
+   Assays: Live‐cell BRET dose–response; correlation of BRET signal with functional ROS reduction.
+

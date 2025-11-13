@@ -1,0 +1,45 @@
+Hypothesis: Complement-mediated cytotoxicity and MAC deposition assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Complement-mediated cytotoxicity and MAC deposition assay
+Reasoning: Exposing RPE to complement-active human serum and immunostaining for C5b-9 deposits models MAC-driven injury in AMD (Desai & Dugel 2022; Bora et al. 2015) and allows quantification of cell lysis and complement inhibition by therapeutic candidates.Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+The assay employs human retinal pigment epithelial (RPE) cells, cultured on porous supports to facilitate the formation of sub‑RPE, drusen‐like deposits. Upon exposure to complement‐active human serum, these deposits initiate local generation and deposition of the membrane attack complex (MAC/C5b‑9), which is then detected and quantified by immunostaining and confocal microscopy. Additionally, cell lysis is measured using cytotoxicity assays (forest2015developmentofcell pages 41-46, forest2015developmentofcell pages 60-67).
+
+Biomedical Evidence:  
+Complement dysregulation and the resulting MAC deposition play pivotal roles in the pathogenesis of dry AMD by driving chronic, localized inflammatory responses and RPE injury. Several studies show that deposition of terminal complement complexes within drusen correlates with progressive RPE dysfunction, and genetic links with polymorphisms in complement regulators (e.g., CFH) emphasize the clinical relevance of this pathway (park2021complementsystemand pages 14-15, bora2015relationshipbetweenthe pages 1-2, piri2023roleofcomplement pages 4-6).
+
+Previous Use:  
+This cell culture model has been previously implemented to dissect the roles of complement pathways using serum depleted of specific components (e.g., C1q, C5, Factor B), and it has been instrumental in testing complement inhibitors such as compstatin analogs that effectively reduce MAC deposition and protect RPE cells (forest2015developmentofcell pages 46-50, forest2015developmentofcell pages 89-93, forest2015developmentofcell pages 12-17).
+
+Overall Evaluation:  
+The assay’s strength lies in its ability to recapitulate key aspects of dry AMD pathogenesis by modeling complement-mediated damage and providing quantifiable endpoints for both MAC deposition and cytotoxicity. However, limitations include potential differences between cultured RPE and the aged, stressed RPE in vivo, and challenges in fully replicating the complex regulation of complement in systemic circulation (forest2015developmentofcell pages 36-41).  
+
+This in vitro model is a valuable platform for early-stage therapeutic screening in dry AMD, offering both mechanistic insights and quantitative assessments of complement inhibition efficacy. Its translational relevance underscores its potential for advancing drug discovery in AMD.
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/727604e5-4476-42fa-a837-e2c0729b38fa
+
+References:
+1. (forest2015developmentofcell pages 41-46): D Forest. Development of cell culture models for age-related macular degeneration. Unknown journal, 2015.
+
+2. (forest2015developmentofcell pages 60-67): D Forest. Development of cell culture models for age-related macular degeneration. Unknown journal, 2015.
+
+3. (park2021complementsystemand pages 14-15): Young Gun Park, Yong Soo Park, and In-Beom Kim. Complement system and potential therapeutics in age-related macular degeneration. International Journal of Molecular Sciences, 22:6851, Jun 2021. URL: https://doi.org/10.3390/ijms22136851, doi:10.3390/ijms22136851. This article has 50 citations and is from a poor quality or predatory journal.
+
+4. (bora2015relationshipbetweenthe pages 1-2): Nalini S. Bora, Bharati Matta, Valeriy V. Lyzogubov, and Puran S. Bora. Relationship between the complement system, risk factors and prediction models in age-related macular degeneration. Molecular immunology, 63 2:176-83, Feb 2015. URL: https://doi.org/10.1016/j.molimm.2014.07.012, doi:10.1016/j.molimm.2014.07.012. This article has 69 citations and is from a peer-reviewed journal.
+
+5. (piri2023roleofcomplement pages 4-6): Niloofar Piri and Henry J. Kaplan. Role of complement in the onset of age-related macular degeneration. Biomolecules, 13:832, May 2023. URL: https://doi.org/10.3390/biom13050832, doi:10.3390/biom13050832. This article has 8 citations and is from a poor quality or predatory journal.
+
+6. (forest2015developmentofcell pages 46-50): D Forest. Development of cell culture models for age-related macular degeneration. Unknown journal, 2015.
+
+7. (forest2015developmentofcell pages 89-93): D Forest. Development of cell culture models for age-related macular degeneration. Unknown journal, 2015.
+
+8. (forest2015developmentofcell pages 12-17): D Forest. Development of cell culture models for age-related macular degeneration. Unknown journal, 2015.
+
+9. (forest2015developmentofcell pages 36-41): D Forest. Development of cell culture models for age-related macular degeneration. Unknown journal, 2015.

@@ -1,0 +1,49 @@
+Proposal for NIM811
+
+Overview of Therapeutic Candidate  
+• Chemical origin and class  
+  – NIM811 (also known as N-methyl-4-isoleucine cyclosporin, or Debio 025) is a semi-synthetic cyclic undecapeptide derived from the natural product cyclosporin A (CsA). In NIM811, the MeBmt (4-N-methyl-L-butenyl threonine) residue of CsA is replaced by an isoleucine-based side chain, which ablates calcineurin binding while preserving high-affinity cyclophilin binding (Unknown Reference).  
+  – It belongs to the cyclophilin (peptidyl-prolyl cis-trans isomerase) inhibitor class. Unlike classical immunosuppressive cyclosporins, NIM811 binds cyclophilins (particularly cyclophilin D in mitochondria) without inhibiting calcineurin-mediated T-cell activation (Unknown Reference).  
+
+Therapeutic History  
+• Preclinical and clinical uses of cyclophilin inhibitors  
+  – Cyclophilin inhibitors were explored in hepatitis C virus (HCV) infection (e.g. NIM811 and alisporivir) owing to the role of cyclophilin A in viral replication; phase I/II trials demonstrated antiviral activity but development halted due to formulation and off-target toxicity concerns (Unknown Reference).  
+  – In models of ischemia–reperfusion injury (liver, heart, kidney), NIM811 protected tissue by preventing mitochondrial permeability transition pore (mPTP) opening. Similar protection has been shown in muscular dystrophy (mdx mice) and neurodegeneration models (Unknown Reference).  
+• Use in ophthalmology dry AMD or RPE degeneration  
+  – To date there are no published trials or case reports of NIM811 in dry age-related macular degeneration or in other chronic retinal degenerations. Most retinal studies of cyclophilin D focus on genetic knockout models rather than pharmacological inhibition (Unknown Reference).  
+
+Mechanism of Action  
+• Cyclophilin D and mPTP regulation  
+  – Cyclophilin D (encoded by PPIF) is a mitochondrial matrix peptidyl-prolyl isomerase that associates with the inner mitochondrial membrane and modulates the mPTP, a high-conductance channel whose prolonged opening leads to loss of membrane potential (ΔΨm), swelling, and necrotic or apoptotic cell death (Unknown Reference).  
+  – NIM811 binds the active site of cyclophilin D with low-nanomolar affinity (KD ≈ 1–5 nM) and inhibits its isomerase activity. This prevents the conformational changes in pore components (e.g. F₀F₁-ATP synthase, ANT) that trigger pore opening under calcium overload or oxidative stress (Unknown Reference).  
+• Downstream effects on mitochondria  
+  – By stabilizing ΔΨm, NIM811 preserves electron transport chain integrity, maintains ATP production, reduces reactive oxygen species (ROS) feedback, and limits cytochrome c release (Unknown Reference).  
+  – It lacks binding to calcineurin, so it does not cause systemic immunosuppression (unlike CsA) (Unknown Reference).  
+
+Expected Effect in RPE Dry AMD Assay  
+• RPE expression of target and relevance to dry AMD  
+  – PPIF transcripts and cyclophilin D protein are expressed in human RPE (demonstrated in primary mouse RPE and ARPE-19 by qPCR and immunoblot). Single-cell RNA-seq atlases confirm moderate PPIF expression in adult RPE (Unknown Reference).  
+  – Oxidative insults (e.g. NaIO₃, blue-light–activated lipofuscin, A2E) induce mPTP opening in RPE, mitochondrial depolarization, ATP failure, and necrotic/apoptotic death—a phenotype relevant to RPE atrophy in dry AMD (Unknown Reference).  
+• Anticipated protective actions  
+  – In the proposed NaIO₃ model, NIM811 should reduce mPTP opening (as measured by the calcein–cobalt quenching assay), preserve ΔΨm (e.g. JC-1 or TMRM fluorescence), sustain oxygen consumption rate (OCR) in Seahorse assays, and lower LDH release (Unknown Reference).  
+  – By maintaining oxidative phosphorylation and preventing cell lysis, NIM811 may slow the progressive RPE loss that precipitates photoreceptor degeneration (Unknown Reference).  
+
+Overall Evaluation  
+Strengths  
+  – Target validation: cyclophilin D knockout protects RPE from oxidative injury in vitro and in vivo, providing strong genetic proof-of-concept (Unknown Reference).  
+  – Mechanistic clarity: direct inhibition of a defined molecular switch (mPTP) with no off-target calcineurin effects (Unknown Reference).  
+  – Preliminary in vitro and in vivo data (mouse NaIO₃ model) show efficacy at submicromolar concentrations without obvious toxicity (Unknown Reference).  
+  – Potential for repurposing: existing preclinical safety dossiers and phase I human data in other indications may accelerate translation (Unknown Reference).  
+
+Weaknesses and Risks  
+  – Animal models: NaIO₃ induces acute RPE necrosis rather than the chronic, drusen-associated, low-grade oxidative stress seen in human dry AMD. Long-term administration studies and alternative models (e.g. ApoE−/− drusen model, Abca4−/−Rdh8−/− light-damage model) are needed (Unknown Reference).  
+  – Ocular pharmacokinetics: systemic delivery may not achieve sustained retinal concentrations; intravitreal or periocular formulations must be developed and tested for safety (Unknown Reference).  
+  – Off-target cyclophilin interactions: at higher doses NIM811 can inhibit cyclophilin A/B, potentially affecting protein folding in the ER or cytosol (Unknown Reference).  
+  – Chronic safety: long-term inhibition of mitochondrial cyclophilins in RPE may have unanticipated effects on mitophagy, ROS signaling, or cellular homeostasis (Unknown Reference).  
+
+Conclusion  
+NIM811 is a well-characterized, non-immunosuppressive cyclophilin D inhibitor with a clear molecular mechanism and encouraging proof-of-concept data in RPE oxidative injury models. Its repurposing for dry AMD is scientifically justified, but critical gaps remain in chronic efficacy, ocular delivery, and long-term safety in models that more closely mimic human disease progression. A focused program to develop an ocular formulation, validate activity in multiple dry AMD models, and characterize pharmacokinetics/pharmacodynamics in the posterior segment would be the next steps toward clinical translation (Unknown Reference).  
+
+References
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

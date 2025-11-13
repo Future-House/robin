@@ -1,0 +1,39 @@
+Hypothesis: RPE-Endothelial Coculture Angiogenesis Assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: RPE-Endothelial Coculture Angiogenesis Assay
+Reasoning: Non-contact or contact coculture of RPE with choroidal endothelial cells on transwells enables paracrine signaling studies. Quantification of endothelial sprouting or tube formation under compound treatment reveals modulators of VEGF/PDGF crosstalk implicated in transition from dry to neovascular AMD (Fietz et al. 2023; Ghareeb et al. 2020).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview: This assay utilizes either a contact or non‐contact transwell coculture system in which retinal pigment epithelial (RPE) cells are paired with choroidal (or surrogate) endothelial cells to mimic paracrine signaling. It models the transition from dry AMD to neovascular AMD by replicating the increased secretion of pro‐angiogenic factors such as VEGF and PDGF by stressed RPE. Quantitative endpoints include endothelial sprouting and tube formation measurements—assessed via image analysis of tube length and node numbers—using conditioned media from the basal (choroidal) compartment (farjood2019effectofphysical pages 109-115, farjood2019effectofphysical pages 78-84).
+
+Biomedical Evidence: Clinical and experimental data indicate that mechanical stress and loss of junctional integrity in RPE cells trigger upregulation of VEGF and other mediators that drive endothelial activation and subsequent neovascularization (farjood2019effectofphysical pages 19-23, farjood2019effectofphysical pages 52-57). Since the paracrine crosstalk between RPE and endothelial cells is central to CNV development in AMD, modeling this interaction is highly relevant for testing drugs aimed at preventing the dry-to-wet transition (helotera2022alinkagebetween pages 2-4, farjood2019effectofphysical pages 109-115).
+
+Previous Use: Prior studies have demonstrated that mechanical perturbation of RPE leads to increased VEGF secretion and enhanced tube formation in coculture assays, providing key insights into anti-VEGF and potential anti-PDGF therapeutic strategies (farjood2019effectofphysical pages 109-115, farjood2019effectofphysical pages 84-88, wu2022tissueengineeringin pages 7-9).
+
+Overall Evaluation: This assay’s strength lies in its ability to capture directional paracrine signaling via transwell setups and to quantitatively assess endothelial angiogenic responses. However, it may oversimplify the multifactorial microenvironment of AMD, as it does not fully recapitulate chronic RPE atrophy, ECM changes, or immune cell interactions (farjood2019effectofphysical pages 12-19, farjood2019effectofphysical pages 19-23). It remains a valuable early-stage screening tool, but complementary models may be necessary to cover additional aspects of dry AMD pathology.
+
+This coculture angiogenesis assay is a suitable platform for evaluating therapeutic modulation of RPE-derived angiogenic signaling in dry AMD. It provides quantifiable endpoints relevant to the disease progression while maintaining a degree of experimental simplicity.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/9869c052-3bcd-4e57-96f2-ec0418238b21
+
+References:
+1. (farjood2019effectofphysical pages 109-115): Farhad Farjood. Effect of physical stimuli on angiogenic factor expression in retinal pigment epithelial cells. ArXiv, 2019. URL: https://doi.org/10.26076/fmv2-ns35, doi:10.26076/fmv2-ns35. This article has 0 citations.
+
+2. (farjood2019effectofphysical pages 78-84): Farhad Farjood. Effect of physical stimuli on angiogenic factor expression in retinal pigment epithelial cells. ArXiv, 2019. URL: https://doi.org/10.26076/fmv2-ns35, doi:10.26076/fmv2-ns35. This article has 0 citations.
+
+3. (farjood2019effectofphysical pages 19-23): Farhad Farjood. Effect of physical stimuli on angiogenic factor expression in retinal pigment epithelial cells. ArXiv, 2019. URL: https://doi.org/10.26076/fmv2-ns35, doi:10.26076/fmv2-ns35. This article has 0 citations.
+
+4. (farjood2019effectofphysical pages 52-57): Farhad Farjood. Effect of physical stimuli on angiogenic factor expression in retinal pigment epithelial cells. ArXiv, 2019. URL: https://doi.org/10.26076/fmv2-ns35, doi:10.26076/fmv2-ns35. This article has 0 citations.
+
+5. (helotera2022alinkagebetween pages 2-4): Hanna Heloterä and Kai Kaarniranta. A linkage between angiogenesis and inflammation in neovascular age-related macular degeneration. Cells, 11:3453, Nov 2022. URL: https://doi.org/10.3390/cells11213453, doi:10.3390/cells11213453. This article has 93 citations and is from a poor quality or predatory journal.
+
+6. (farjood2019effectofphysical pages 84-88): Farhad Farjood. Effect of physical stimuli on angiogenic factor expression in retinal pigment epithelial cells. ArXiv, 2019. URL: https://doi.org/10.26076/fmv2-ns35, doi:10.26076/fmv2-ns35. This article has 0 citations.
+
+7. (wu2022tissueengineeringin pages 7-9): Andres Wu, Renhao Lu, and Esak Lee. Tissue engineering in age-related macular degeneration: a mini-review. Journal of Biological Engineering, May 2022. URL: https://doi.org/10.1186/s13036-022-00291-y, doi:10.1186/s13036-022-00291-y. This article has 15 citations and is from a peer-reviewed journal.
+
+8. (farjood2019effectofphysical pages 12-19): Farhad Farjood. Effect of physical stimuli on angiogenic factor expression in retinal pigment epithelial cells. ArXiv, 2019. URL: https://doi.org/10.26076/fmv2-ns35, doi:10.26076/fmv2-ns35. This article has 0 citations.

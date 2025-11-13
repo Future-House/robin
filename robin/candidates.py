@@ -9,7 +9,9 @@ import pandas as pd
 from aviary.core import Message
 
 from .configuration import RobinConfiguration
+from futurehouse_client import JobNames
 from .utils import (
+    call_llm_direct,
     call_platform,
     extract_candidate_info_from_folder,
     format_candidate_ideas,
@@ -98,25 +100,48 @@ async def therapeutic_candidates(  # noqa: PLR0912
 
     # ### Step 2: Literature review on therapeutic candidates
 
-    logger.info("\nStep 2: Conducting literature search with FutureHouse platform...")
-
-    therapeutic_candidate_review = await call_platform(
-        queries=candidate_generation_queries_dict,
-        fh_client=configuration.fh_client,
-        job_name=configuration.agent_settings.candidate_lit_search_agent,
+    job_name = configuration.agent_settings.candidate_lit_search_agent
+    # Compare by enum name to handle both configuration_CROW_ablation and base configuration
+    use_direct_llm = (
+        configuration.agent_settings.use_direct_llm_for_crow
+        if job_name.name == "CROW"
+        else configuration.agent_settings.use_direct_llm_for_falcon
     )
+
+    # Convert to futurehouse_client JobNames enum for function calls
+    job_name_fh = JobNames[job_name.name]
+
+    if use_direct_llm:
+        logger.info("\nStep 2: Conducting literature search with direct LLM calls...")
+        therapeutic_candidate_review = await call_llm_direct(
+            queries=candidate_generation_queries_dict,
+            llm_client=configuration.llm_client,
+            job_name=job_name_fh,
+            configuration=configuration,
+        )
+    else:
+        logger.info(
+            f"\nStep 2: Conducting literature search with {job_name.value} platform agent..."
+        )
+        therapeutic_candidate_review = await call_platform(
+            queries=candidate_generation_queries_dict,
+            fh_client=configuration.fh_client,
+            job_name=job_name_fh,
+        )
 
     if experimental_insights:
         save_crow_files(
             therapeutic_candidate_review["results"],
             run_dir=f"robin_output/{run_config_folder_name}/therapeutic_candidate_literature_reviews_experimental",
             prefix="query",
+            platform_base_url=configuration.platform_base_url,
         )
     else:
         save_crow_files(
             therapeutic_candidate_review["results"],
             run_dir=f"robin_output/{run_config_folder_name}/therapeutic_candidate_literature_reviews",
             prefix="query",
+            platform_base_url=configuration.platform_base_url,
         )
 
     therapeutic_candidate_review_output = output_to_string(
@@ -304,11 +329,33 @@ async def therapeutic_candidates(  # noqa: PLR0912
         candidate_idea_list=candidate_idea_list
     )
 
-    therapeutic_candidate_hypotheses = await call_platform(
-        queries=therapeutic_candidate_queries,
-        fh_client=configuration.fh_client,
-        job_name=configuration.agent_settings.candidate_hypothesis_report_agent,
+    job_name = configuration.agent_settings.candidate_hypothesis_report_agent
+    # Compare by enum name to handle both configuration_CROW_ablation and base configuration
+    use_direct_llm = (
+        configuration.agent_settings.use_direct_llm_for_crow
+        if job_name.name == "CROW"
+        else configuration.agent_settings.use_direct_llm_for_falcon
     )
+
+    # Convert to futurehouse_client JobNames enum for function calls
+    job_name_fh = JobNames[job_name.name]
+
+    if use_direct_llm:
+        therapeutic_candidate_hypotheses = await call_llm_direct(
+            queries=therapeutic_candidate_queries,
+            llm_client=configuration.llm_client,
+            job_name=job_name_fh,
+            configuration=configuration,
+        )
+    else:
+        logger.info(
+            f"Using {job_name.value} platform agent for candidate hypothesis reports..."
+        )
+        therapeutic_candidate_hypotheses = await call_platform(
+            queries=therapeutic_candidate_queries,
+            fh_client=configuration.fh_client,
+            job_name=job_name_fh,
+        )
 
     final_therapeutic_candidate_hypotheses = await format_final_report(
         therapeutic_candidate_hypotheses["results"], configuration.llm_client
@@ -319,12 +366,14 @@ async def therapeutic_candidates(  # noqa: PLR0912
             final_therapeutic_candidate_hypotheses,
             run_dir=f"robin_output/{run_config_folder_name}/therapeutic_candidate_detailed_hypotheses_experimental",
             prefix="therapeutic_candidate",
+            platform_base_url=configuration.platform_base_url,
         )
     else:
         save_falcon_files(
             final_therapeutic_candidate_hypotheses,
             run_dir=f"robin_output/{run_config_folder_name}/therapeutic_candidate_detailed_hypotheses",
             prefix="therapeutic_candidate",
+            platform_base_url=configuration.platform_base_url,
         )
 
     # ### Step 5: Ranking/selecting the therapeutic candidates

@@ -1,0 +1,47 @@
+Query: High-throughput phenotypic screening assays for dry AMD therapeutics in RPE cells: multiplexed readouts including cell viability, oxidative stress, mitochondrial dysfunction, lipofuscin accumulation, complement activation, inflammatory cytokines, and automated image-based analytics
+
+1. KEAP1–Nrf2 pathway activation  
+Hypothesis: Small‐molecule inhibitors of the KEAP1–Nrf2 interaction will upregulate antioxidant genes in RPE, reduce H2O2–induced ROS (H2DCFDA), preserve mitochondrial membrane potential (TMRM), decrease lipofuscin autofluorescence, and dampen complement C3b deposition.
+
+2. PARP1 inhibition to preserve NAD+ and mitochondrial function  
+Hypothesis: Under oxidative stress, PARP1 hyperactivation depletes NAD+ and impairs mitochondrial ATP production. PARP inhibitors will restore NAD+ levels, maintain Δψm, improve cell viability, and reduce inflammasome‐driven IL-1β/IL-18 release.
+
+3. mTOR inhibition to boost autophagy and lipofuscin clearance  
+Hypothesis: Chronic mTOR signaling blockade (e.g., via low‐dose rapamycin analogs) will increase LC3‐II puncta, accelerate lipofuscin degradation, rescue mitochondrial morphology, and lower secretion of proinflammatory cytokines (IL-6, IL-8).
+
+4. Small peptides mimicking complement factor H (CFH)  
+Hypothesis: CFH‐mimetic peptides will competitively block C3 convertase assembly on RPE, decrease C3b and membrane attack complex (C5b-9) deposition, improve cell viability, and attenuate downstream inflammatory signaling.
+
+5. NLRP3 inflammasome inhibition  
+Hypothesis: Direct inhibitors of NLRP3 (e.g., MCC950 derivatives) will prevent ASC speck formation, reduce caspase-1 activation, lower IL-1β/IL-18 levels, protect mitochondrial integrity, and sustain RPE survival under drusen‐like stress.
+
+6. Mitochondria‐targeted antioxidants (MitoQ/SkQ1 analogs)  
+Hypothesis: Lipophilic quinone derivatives targeted to mitochondria will scavenge intramitochondrial ROS, maintain Δψm, reduce mitochondrial fragmentation, decrease lipofuscin deposition, and blunt complement activation.
+
+7. SIRT3 activation to boost mitochondrial biogenesis  
+Hypothesis: Small‐molecule SIRT3 activators will enhance PGC-1α–mediated mitochondrial biogenesis, elevate mitochondrial DNA copy number, reduce oxidative damage, and limit secretion of inflammatory cytokines in aged RPE.
+
+8. RIPK1/RIPK3 necroptosis blockade  
+Hypothesis: Inhibitors of RIPK1 or RIPK3 kinases will prevent MLKL‐mediated necroptosis, preserve RPE membrane integrity, reduce DAMP release, and thus lower both complement activation and cytokine secretion.
+
+9. Lysosomal acidification enhancers  
+Hypothesis: Compounds that stimulate V-ATPase activity or increase lysosomal proton gradients (e.g., small‐molecule enhancers of clathrin-mediated trafficking) will accelerate phagosome–lysosome fusion, clear autofluorescent lipofuscin, and improve cell survival.
+
+10. miR-146a mimic delivery via lipid nanoparticles  
+Hypothesis: Augmenting miR-146a in RPE will downregulate TRAF6/IRAK1, dampen NF-κB signaling, lower IL-6/IL-8 secretion, reduce oxidative and complement stress, and preserve cell viability.
+
+11. AMPK agonists to promote mitophagy  
+Hypothesis: Pharmacological AMPK activation (e.g., AICAR or direct small‐molecule activators) will enhance ULK1‐dependent autophagy, clear dysfunctional mitochondria, reduce ROS, and mitigate inflammatory cytokine release.
+
+12. Epigenetic upregulation of membrane complement regulators  
+Hypothesis: HDAC or DNMT inhibitors will increase cell-surface expression of CD46, CD55, and CD59 on RPE, diminish C3/C5b-9 deposition, and improve resistance to complement‐mediated injury.
+
+13. Spermidine supplementation to modulate polyamine metabolism  
+Hypothesis: Exogenous spermidine will induce autophagy, enhance lipofuscin clearance, protect mitochondrial function, lower oxidative stress, and reduce complement activation in RPE.
+
+14. RAGE (receptor for advanced glycation end products) antagonists  
+Hypothesis: Small‐molecule or antibody inhibitors of RAGE will prevent AGE‐driven NF-κB activation, reduce ROS and cytokine release, protect mitochondrial function, and decrease complement deposition.
+
+15. Exosome‐mediated PGC-1α delivery  
+Hypothesis: Engineering MSC‐derived exosomes loaded with PGC-1α mRNA or protein will transfer mitochondrial‐biogenesis signals to RPE, boost antioxidant defenses, lower lipofuscin, and attenuate inflammatory/complement responses.
+

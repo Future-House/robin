@@ -1,0 +1,12 @@
+Assay Candidate 1:
+Strategy: Mitochondrial Function Rescue Assay
+Reasoning: Treat hiPSC-derived RPE cells with an acute oxidative insult (e.g. H2O2 or t-butyl hydroperoxide) in the presence or absence of candidate drugs, then perform extracellular flux analysis (Seahorse Cell Mito Stress Test) to quantify basal and maximal oxygen consumption rates and spare respiratory capacity, together with high-content fluorescent ROS probes (e.g. CellROX). This direct readout of mitochondrial respiration and ROS levels tests the mechanistic hypothesis that drug-mediated improvement of mitochondrial function and reduction of oxidative stress can protect RPE from AMD-like injury (Bilbao-Malavé et al. Antioxidants 2021; Ebeling et al. Pharmaceuticals 2022). Fast plate-based readouts and established workflows enable rapid screening of multiple compounds.
+
+Assay Candidate 2:
+Strategy: Autophagy and Lipofuscin Clearance Assay
+Reasoning: Expose hiPSC-RPE or ARPE-19 cells to the bisretinoid A2E to induce lipofuscin-like autofluorescent deposits, then treat with compounds hypothesized to enhance autophagy. Monitor autophagic flux by quantifying LC3-II turnover with fluorescent reporters and LysoTracker colocalization, and measure lipofuscin clearance via autofluorescence intensity. A decrease in autofluorescence together with increased LC3-II turnover directly tests the hypothesis that enhancing autophagy mitigates lipofuscin accumulation in dry AMD (Kaarniranta et al. Autophagy 2023; Zhou et al. Cell Death & Disease 2024). This assay offers a biologically relevant, image-based endpoint with same-day results.
+
+Assay Candidate 3:
+Strategy: Complement Activation and Barrier Integrity Assay
+Reasoning: Culture polarized RPE monolayers on transwell inserts and add complement-active serum or recombinant C3a/C5a to the basolateral chamber, with or without test drugs. Measure transepithelial electrical resistance (TEER) to assess barrier integrity in real time, and collect apical and basal media for multiplex ELISA quantification of complement fragments (C3a, C5a) and pro-inflammatory cytokines (IL-1β, IL-18). Restoration of TEER and reduction in complement-driven cytokine release directly tests the hypothesis that inhibiting complement activation preserves RPE barrier function in dry AMD (Chen et al. Neural Regen. Res. 2023; Open Targets Platform 2025). The assay is scalable and provides functional barrier and immunological endpoints.
+

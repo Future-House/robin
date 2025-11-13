@@ -1,0 +1,37 @@
+Hypothesis: Photoreceptor Outer Segment Phagocytosis Assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Photoreceptor Outer Segment Phagocytosis Assay
+Reasoning: Uses fluorescently labeled rod outer segments to measure uptake and lysosomal colocalization in RPE by flow cytometry and imaging, evaluating phagocytic efficiency under oxidative or genetic stress, based on Kwon & Freeman and Lieffrig et al. (Kwon & Freeman, 2020; Lieffrig et al., 2023).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview: This assay employs fluorescently labeled rod outer segments (POS) to quantify RPE phagocytosis using flow cytometry and imaging. It measures key aspects of phagocytic efficiency including binding, internalization, and lysosomal colocalization, which serve as surrogates for uptake and degradation. The assay is applied to cultured RPE cells derived from primary human donors or iPSC-RPE, and its readouts can be modulated under oxidative or genetic stress conditions to mimic aspects of dry AMD pathology (inana2018rpephagocyticfunction pages 1-2, stahl2021evaluatingthephagocytosis pages 1-5).
+
+Biomedical Evidence: RPE dysfunction in POS clearance is intimately linked to the pathogenesis of dry AMD, where impaired phagocytosis contributes to lipofuscin and drusen accumulation, increased oxidative stress, and disrupted autophagy. Clinical and experimental studies have identified altered RPE phagocytic function as a critical early event in AMD progression, underscoring the assay’s relevance (mazzoni2014understandingphotoreceptorouter pages 2-4, liang2023comprehensiveanalysisof pages 1-2).
+
+Previous Use: Similar assays have been successfully used to compare phagocytic efficiencies between normal and AMD-derived RPE cells and to test candidate therapeutics—including cell-conditioned media and receptor-targeted ligands—that rescued phagocytic deficits (inana2018rpephagocyticfunction pages 1-2, zhang2023improvedlipofuscinmodels pages 1-3).
+
+Overall Evaluation: The assay’s strengths lie in its direct measurement of a disease-relevant RPE function, quantitativeness, and adaptability for high-throughput screening. Its weaknesses include potential variability from donor differences and the incomplete recapitulation of the in vivo AMD microenvironment, necessitating follow‐up in complementary models (stahl2021evaluatingthephagocytosis pages 12-16, westenskow2012usingflowcytometry pages 2-2).
+
+This assay is a valuable tool for early-stage drug discovery in dry AMD. It provides mechanistic insights into RPE dysfunction but should be integrated with additional models to fully capture disease complexity.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/12565a0c-e889-4e80-880e-46793ea318cd
+
+References:
+1. (inana2018rpephagocyticfunction pages 1-2): George Inana, Christopher Murat, Weijun An, Xiang Yao, Ian R. Harris, and Jing Cao. Rpe phagocytic function declines in age-related macular degeneration and is rescued by human umbilical tissue derived cells. Journal of Translational Medicine, Mar 2018. URL: https://doi.org/10.1186/s12967-018-1434-6, doi:10.1186/s12967-018-1434-6. This article has 141 citations and is from a peer-reviewed journal.
+
+2. (stahl2021evaluatingthephagocytosis pages 1-5): M Stahl. Evaluating the phagocytosis of diseased photoreceptor outer segments by retinal pigment epithelial cells in age-related macular degeneration. Unknown journal, 2021.
+
+3. (mazzoni2014understandingphotoreceptorouter pages 2-4): Francesca Mazzoni, Hussein Safa, and Silvia C. Finnemann. Understanding photoreceptor outer segment phagocytosis: use and utility of rpe cells in culture. Experimental eye research, 126:51-60, Sep 2014. URL: https://doi.org/10.1016/j.exer.2014.01.010, doi:10.1016/j.exer.2014.01.010. This article has 291 citations and is from a peer-reviewed journal.
+
+4. (liang2023comprehensiveanalysisof pages 1-2): Haoqian Liang, Qiang Wu, Xinzheng Victor Guo, Linda Chan, Tin Mao, Cinzia Stella, Axel Guilbaud, and Julien Camperi. Comprehensive analysis of photoreceptor outer segments: flow cytometry characterization and stress-driven impact on retinal pigment epithelium phagocytosis. International Journal of Molecular Sciences, 24:12889, Aug 2023. URL: https://doi.org/10.3390/ijms241612889, doi:10.3390/ijms241612889. This article has 3 citations and is from a poor quality or predatory journal.
+
+5. (zhang2023improvedlipofuscinmodels pages 1-3): Qitao Zhang, Gillian A. Autterson, and Jason M. L. Miller. Improved lipofuscin models and quantification of outer segment phagocytosis capacity in highly polarized human retinal pigment epithelial cultures. Journal of visualized experiments : JoVE, Apr 2023. URL: https://doi.org/10.3791/65242, doi:10.3791/65242. This article has 1 citations.
+
+6. (stahl2021evaluatingthephagocytosis pages 12-16): M Stahl. Evaluating the phagocytosis of diseased photoreceptor outer segments by retinal pigment epithelial cells in age-related macular degeneration. Unknown journal, 2021.
+
+7. (westenskow2012usingflowcytometry pages 2-2): Peter D. Westenskow, Stacey K. Moreno, Tim U. Krohne, Toshihide Kurihara, Saiyong Zhu, Zhen-ning Zhang, Tongbiao Zhao, Yang Xu, Sheng Ding, and Martin Friedlander. Using flow cytometry to compare the dynamics of photoreceptor outer segment phagocytosis in ips-derived rpe cells. Investigative Opthalmology &amp; Visual Science, 53:6282, Sep 2012. URL: https://doi.org/10.1167/iovs.12-9721, doi:10.1167/iovs.12-9721. This article has 65 citations.

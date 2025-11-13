@@ -1,0 +1,60 @@
+Assay Candidate 1:
+Strategy: Antioxidant response activation assay
+Reasoning: Measures Nrf2 nuclear translocation and induction of HO-1/NQO1 in RPE under oxidative stress. Nrf2 dysregulation is implicated in RPE degeneration in dry AMD (Zhang et al. Invest Ophthalmol Vis Sci 2010; Zhao et al. Free Radic Biol Med 2011).
+
+Assay Candidate 2:
+Strategy: Mitochondrial ROS detection assay
+Reasoning: Quantifies mitochondrial superoxide production via MitoSOX in RPE after oxidative challenge. Elevated mtROS drives mitochondrial dysfunction and apoptosis in AMD models (Terluk et al. Invest Ophthalmol Vis Sci 2015; Kim et al. J Biol Chem 2008).
+
+Assay Candidate 3:
+Strategy: Mitochondrial membrane potential assay
+Reasoning: Assesses ΔΨm preservation using JC-1 or TMRE dyes in stressed RPE. Loss of membrane potential triggers cytochrome c release and RPE apoptosis in dry AMD (Terluk et al. Invest Ophthalmol Vis Sci 2015).
+
+Assay Candidate 4:
+Strategy: Lipid peroxidation suppression assay
+Reasoning: Measures lipid peroxidation by C11-BODIPY oxidation in RPE after pro-oxidant insult and tests ferroptosis inhibitors. Lipid peroxidation and ferroptosis-like death contribute to RPE atrophy in AMD (Skouta et al. Nat Chem Biol 2014; Beatty et al. Exp Eye Res 2013).
+
+Assay Candidate 5:
+Strategy: Glutathione restoration assay
+Reasoning: Quantifies intracellular GSH/GSSG ratio via luminescence to evaluate thiol-boosting compounds. Reduced glutathione levels in AMD donor RPE exacerbate oxidative damage (Gao et al. Free Radic Biol Med 2013; Jones et al. Invest Ophthalmol Vis Sci 2003).
+
+Assay Candidate 6:
+Strategy: Ferroptosis inhibition assay
+Reasoning: Tests protection of RPE against erastin- or RSL3-induced ferroptosis via cell viability and GPX4 activity. Ferroptotic pathways are implicated in RPE degeneration in dry AMD (Skouta et al. Nat Chem Biol 2014).
+
+Assay Candidate 7:
+Strategy: Complement deposition inhibition assay
+Reasoning: Monitors C3b and C5b-9 deposition on RPE monolayers treated with human serum and candidate inhibitors. Complement activation is a genetic and histopathological hallmark of dry AMD (Johnson et al. Invest Ophthalmol Vis Sci 2000; Anderson et al. Prog Retin Eye Res 2010).
+
+Assay Candidate 8:
+Strategy: RPE–microglia co-culture inflammation assay
+Reasoning: Measures IL-1β, IL-6 and TNF-α release in RPE–microglia co-cultures exposed to drusen components and drugs. NLRP3 inflammasome activation drives subretinal inflammation in AMD (Kerur et al. Nat Med 2013; Tarallo et al. Cell 2012).
+
+Assay Candidate 9:
+Strategy: Cholesterol efflux enhancement assay
+Reasoning: Assesses efflux of fluorescent cholesterol from RPE to ApoA1 acceptors to test ABCA1/LXR modulators. Impaired cholesterol efflux contributes to drusen lipid deposition in AMD (Ramirez et al. Invest Ophthalmol Vis Sci 2014; Levy et al. J Lipid Res 2017).
+
+Assay Candidate 10:
+Strategy: Lipid droplet reduction assay
+Reasoning: Quantifies neutral lipid droplets in RPE by BODIPY staining after lipid overload and drug treatment. Lipid droplet accumulation is linked to RPE dysfunction and drusen formation in AMD (Mitter et al. Autophagy 2014).
+
+Assay Candidate 11:
+Strategy: Autophagy flux restoration assay
+Reasoning: Monitors LC3-II turnover and p62 clearance in RPE with and without lysosomal inhibitors. Defective autophagy and lysosomal clearance contribute to lipofuscin and drusen buildup in dry AMD (Mitter et al. Autophagy 2014; Klionsky et al. Autophagy 2016).
+
+Assay Candidate 12:
+Strategy: Lysosomal pH normalization assay
+Reasoning: Measures lysosomal pH using LysoSensor or pHrodo dyes in A2E-loaded RPE treated with candidate compounds. Lysosomal alkalinization impairs POS degradation and promotes lipofuscin accumulation (Wavre-Shapton et al. J Cell Sci 2013; Sparrow et al. Exp Eye Res 2012).
+
+Assay Candidate 13:
+Strategy: Photoreceptor outer segment phagocytosis assay
+Reasoning: Evaluates clearance of fluorescently labeled photoreceptor outer segments by RPE via high-content imaging. Impaired phagocytosis leads to sub-RPE debris and drusen formation in AMD (Le Bihan et al. Invest Ophthalmol Vis Sci 2014; Mazzoni et al. Autophagy 2014).
+
+Assay Candidate 14:
+Strategy: Mitophagy activation assay
+Reasoning: Measures PINK1 stabilization, Parkin recruitment, and mitophagosome formation in RPE under oxidative stress. Defective mitophagy drives mitochondrial damage in AMD RPE (Ferrington et al. Invest Ophthalmol Vis Sci 2015).
+
+Assay Candidate 15:
+Strategy: Barrier integrity and drug permeability assay
+Reasoning: Uses TEER or real-time impedance in RPE–endothelial co-cultures on Bruch's membrane analogues and FITC-dextran permeability to assess barrier restoration and drug passage. Bruch’s membrane thickening and barrier breakdown are critical in AMD progression (Achberger et al. Stem Cell Reports 2019; Macleod et al. Exp Eye Res 2018).
+

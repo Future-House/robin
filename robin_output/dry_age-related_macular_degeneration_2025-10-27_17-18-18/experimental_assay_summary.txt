@@ -1,0 +1,12 @@
+Assay Candidate 1:
+Strategy: Oxidative Stress Rescue Assay
+Reasoning: This assay uses human iPSC-derived RPE monolayers challenged with a sublethal dose of H2O2 or tert-butyl hydroperoxide to mimic the chronic oxidative insults seen in dry AMD (Beatty et al. 2000; Grimm et al. 2014). Candidate drugs are added prior to challenge and intracellular ROS is quantified by DCFH-DA fluorescence, mitochondrial membrane potential by JC-1 ratiometric imaging, and cell viability by ATP‐based luminescence (e.g. CellTiter‐Glo). Rescue of these readouts directly reports on antioxidant/Nrf2 pathway activation and mitochondrial protection, providing a rapid, high‐content functional endpoint with strong relevance to RPE degeneration in dry AMD.
+
+Assay Candidate 2:
+Strategy: Complement Deposition Inhibition Assay
+Reasoning: ARPE-19 cells are cultured to confluence and exposed to 10–20% normal human serum to induce C3b opsonization and membrane attack complex (MAC) deposition, modeling sublytic complement activation in dry AMD (Anderson et al. 2010; Zipfel & Skerka 2014). Test molecules are co-incubated and inhibition is assessed by measuring supernatant C3a/C5a levels via ELISA and MAC staining on the RPE surface by immunofluorescence. This direct readout of complement activation on human RPE enables screening of complement‐targeting therapeutics in a medium‐throughput 2D format.
+
+Assay Candidate 3:
+Strategy: Lipid Accumulation and Autophagy Flux Assay
+Reasoning: Primary or iPSC-derived RPE are chronically exposed to photo‐oxidized photoreceptor outer segment (POS) fragments to induce drusen-like lipid and lipofuscin accumulation (Curcio et al. 2010; Mitter et al. 2014). Candidate compounds targeting lysosomal function or TFEB activation are added during POS feeding. Intracellular neutral lipid is quantified by Nile Red or BODIPY staining, while autophagy flux is measured in mCherry-GFP-LC3 reporter RPE by automated confocal imaging. Reduction of Nile Red+ deposits coupled with increased autolysosome formation provides a biologically relevant, functional readout of drusen clearance mechanisms.
+

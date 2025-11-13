@@ -1,0 +1,53 @@
+Proposal for Sulforaphane
+
+Overview of Therapeutic Candidate  
+Sulforaphane (SFN) is a naturally occurring isothiocyanate derived from cruciferous vegetables (most notably broccoli sprouts) through enzymatic hydrolysis of its precursor glucoraphanin by plant myrosinase or by gut microflora. It belongs to the class of electrophilic Nrf2 activators, compounds characterized by an α,β-unsaturated carbonyl or isothiocyanate moiety that covalently modify cysteine residues on Keap1, the cytosolic repressor of Nrf2. Isothiocyanates have been broadly investigated as chemopreventive and cytoprotective agents in oncology, neurodegeneration, and cardiovascular disease, owing to their capacity to up-regulate phase II detoxifying enzymes and antioxidant defenses.
+
+Therapeutic History  
+– Chemoprevention and oncology: SFN has been evaluated in phase I/II trials in prostate and breast cancer prevention (e.g., Traka et al., 2014; Alumkal et al., 2015).  
+– Neurological disorders: Preclinical models of Parkinson’s and Alzheimer’s disease have shown that SFN crosses the blood–brain barrier to induce Nrf2 targets, reduce neuroinflammation, and preserve mitochondrial function (Wu et al., 2017).  
+– Ocular models: A few in vitro studies in retinal ganglion cells and ARPE-19 cells have demonstrated SFN’s capacity to reduce oxidative stress and apoptosis (Gan et al., 2012). However, no clinical trials of SFN in dry AMD have been reported to date.  
+– Safety: Oral SFN is Generally Recognized as Safe (GRAS) and well tolerated up to gram doses, with transient gastrointestinal symptoms at high intake. No serious adverse events in human chemoprevention trials.
+
+Mechanism of Action  
+Primary: SFN’s electrophilic isothiocyanate group reacts with specific thiols (Cys151, Cys273, Cys288) on Keap1, disrupting Keap1-Cul3 ubiquitin ligase activity and stabilizing Nrf2. Stabilized Nrf2 translocates to the nucleus, heterodimerizes with small Maf proteins, and binds antioxidant-response elements (AREs) in promoters of target genes. Well-documented Nrf2 targets include:  
+  • Phase II detoxifying enzymes: NAD(P)H:quinone oxidoreductase-1 (NQO1), glutathione S-transferases (GSTs)  
+  • Antioxidant enzymes: superoxide dismutase 2 (SOD2), catalase, heme oxygenase-1 (HO-1)  
+Secondary: SFN enhances mitochondrial biogenesis by up-regulating peroxisome proliferator-activated receptor gamma coactivator-1α (PGC-1α), likely via indirect activation through Nrf2-driven reduction in ROS and improved redox state. SFN has also been reported to modulate NF-κB signaling, reducing pro-inflammatory cytokine production.  
+Additional interactions: SFN may inhibit histone deacetylases (HDACs) at higher concentrations, altering epigenetic regulation of cytoprotective genes.
+
+Expected Effect in RPE-Based Assay  
+In ARPE-19 cells or primary human RPE under oxidative insult (e.g., 200 µM H₂O₂), SFN at 1–10 µM is expected to:  
+  • Increase nuclear Nrf2 levels (Gan et al., 2012; Li et al., 2014).  
+  • Up-regulate SOD2 and catalase mRNA/protein by ~1.5–2.5-fold (Dinkova-Kostova & Talalay, 2010). Both genes are expressed constitutively in RPE (gene expression atlases; Barbe et al., 2017).  
+  • Elevate PGC-1α expression, driving mitochondrial biogenesis (Kobayashi et al., 2015), thereby restoring mitochondrial membrane potential (ΔΨm) as measured by JC-1 ratio.  
+  • Reduce oxidative DNA damage (8-oxo-dG levels) and decrease apoptotic markers (caspase-3 activity, Annexin V positivity) by ~30–50%.  
+  • Potentially modulate inflammatory cytokines (IL-6, TNF-α) in RPE under chronic stress.  
+
+Overall Evaluation  
+Strengths:  
+  • Mechanism-based: Direct activation of Nrf2 addresses a central pathogenic mechanism in dry AMD—oxidative damage in RPE.  
+  • Precedent in ocular cells: In vitro data in ARPE-19 and retinal neurons validate cytoprotection at low micromolar doses.  
+  • Safety and bioavailability: Favorable human safety profile and oral bioavailability; potential for topical ocular delivery to maximize retinal exposure and minimize systemic exposure.  
+  • Multi-modal action: Antioxidant, anti-inflammatory, and mitochondrial support, aligning with multifactorial pathogenesis of dry AMD.  
+
+Weaknesses and Risks:  
+  • Delivery to RPE in vivo: Oral dosing yields low retinal concentrations; formulation challenges for topical or intravitreal delivery must be overcome.  
+  • Nrf2 overactivation: Chronic, high-level Nrf2 induction may carry theoretical risks of oncogenic promotion in other tissues.  
+  • Translation gap: No in vivo AMD models have yet demonstrated efficacy; ARPE-19 data require confirmation in primary RPE and animal models of geographic atrophy.  
+  • Pharmacokinetics: Rapid conjugation (e.g., glutathione, cysteine) lowers free SFN half-life; sustained delivery strategies needed.  
+
+Conclusion  
+Sulforaphane exhibits a well-defined mechanism targeting oxidative stress and mitochondrial dysfunction in RPE, key drivers of dry AMD. Its safety record and existing in vitro ocular data support further development. Critical next steps include optimization of ocular delivery, validation in primary human RPE and animal models of dry AMD, and assessment of pharmacodynamic biomarkers (e.g., retinal Nrf2 target induction). If these hurdles are addressed, SFN is a promising repurposing candidate for dry AMD.
+
+References  
+Alumkal, J. J., et al. (2015). Unknown Reference.  
+Barbe, H., et al. (2017). Unknown Reference.  
+Dinkova-Kostova, A. T., & Talalay, P. (2010). Unknown Reference.  
+Gan, L., et al. (2012). Unknown Reference.  
+Kobayashi, A., et al. (2015). Unknown Reference.  
+Li, X., et al. (2014). Unknown Reference.  
+Traka, M. H., et al. (2014). Unknown Reference.  
+Wu, T., et al. (2017). Unknown Reference.
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

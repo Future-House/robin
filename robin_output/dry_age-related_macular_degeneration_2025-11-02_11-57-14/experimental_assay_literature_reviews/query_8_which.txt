@@ -1,0 +1,67 @@
+Query: Which antioxidant and redox-regulating signaling pathways (e.g., Nrf2/Keap1, SIRT1, PGC-1α, glutathione synthesis) are disrupted in dry AMD RPE pathology, and what cell-based reporter assays or biochemical readouts enable screening of compounds that modulate these pathways?
+
+Below are 15 antioxidant/redox‐regulating pathways known to be dysregulated in dry AMD–associated RPE stress, each paired with a cell-based reporter assay or biochemical readout suitable for high-throughput or medium-throughput screening of small molecules or biologics.
+
+1. Nrf2/Keap1–ARE signaling  
+   • Disruption: Impaired Nrf2 nuclear translocation and reduced ARE target gene induction in AMD RPE.  
+   • Assay: Stably transfected ARE–luciferase reporter (e.g. 4×ARE-Luc) in ARPE-19 or hiPSC-RPE; measure luciferase after compound challenge.
+
+2. Nrf2 nuclear translocation  
+   • Disruption: Cytoplasmic retention of Nrf2 under chronic oxidative stress.  
+   • Assay: High-content imaging of RPE cells expressing Nrf2–GFP fusion; automated scoring of nuclear vs. cytoplasmic fluorescence.
+
+3. HMOX1 (HO-1) promoter activation  
+   • Disruption: Blunted HO-1 induction downstream of Nrf2 in diseased RPE.  
+   • Assay: HMOX1 promoter–driven luciferase reporter; assessment of fold-induction by candidate compounds.
+
+4. SIRT1 deacetylase activity  
+   • Disruption: Reduced SIRT1 expression/activity leads to hyperacetylation of key antioxidant transcription factors.  
+   • Assay: Fluorogenic deacetylation assay using an acetyl-p53 peptide substrate and NAD+; fluorescent readout in RPE lysates.
+
+5. Live-cell SIRT1 FRET biosensor  
+   • Disruption: Dynamic loss of SIRT1 activity under chronic stress.  
+   • Assay: RPE stably expressing a SIRT1 FRET reporter (e.g. substrate–YFP–CFP); ratiometric imaging to detect deacetylation in real time.
+
+6. PGC-1α transcriptional induction  
+   • Disruption: Down-regulated PGC-1α promoter activity correlates with mitochondrial decline.  
+   • Assay: PGC-1α promoter–luciferase reporter in RPE; luciferase readout after oxidative challenge ± compound.
+
+7. Mitochondrial biogenesis (mtDNA copy number)  
+   • Disruption: Reduced mtDNA content in dry AMD RPE.  
+   • Assay: qPCR-based mtDNA/nDNA ratio in cell lysates after treatment; semi-automated extraction and TaqMan readout.
+
+8. Glutathione redox potential (roGFP2-Grx sensor)  
+   • Disruption: Shift toward a more oxidized GSH/GSSG balance in AMD RPE.  
+   • Assay: Live imaging of RPE expressing cytosolic or mitochondrial roGFP2-Grx; ratiometric fluorescence change reports redox potential.
+
+9. Total GSH/GSSG quantification  
+   • Disruption: Lower total GSH levels and elevated GSSG in diseased RPE.  
+   • Assay: Luminescent or colorimetric GSH/GSSG assay kit (e.g. Promega GSH/GSSG-Glo); plate reader quantification.
+
+10. Thioredoxin reductase (TrxR) activity  
+    • Disruption: Diminished TrxR leads to impaired protein disulfide reduction.  
+    • Assay: Insulin disulfide reduction assay (DTNB-coupled) in cell lysates; absorbance at 412 nm.
+
+11. NAD+/NADH redox state  
+    • Disruption: Decreased NAD+ pools and elevated NADH/NAD+ ratio in stressed RPE.  
+    • Assay: Genetically encoded Peredox or SoNar sensor in RPE for live-cell fluorescence; or enzymatic cycling assay on extracts.
+
+12. FOXO3 transcriptional activity  
+    • Disruption: Reduced nuclear FOXO3 and downstream SOD2/catalase expression.  
+    • Assay: FOXO-responsive 6×DBE-luciferase reporter; luciferase readout after oxidative stimulus ± test compound.
+
+13. NF-κB activation (inflammatory redox crosstalk)  
+    • Disruption: Persistent NF-κB activation exacerbates oxidative damage.  
+    • Assay: NF-κB–luciferase reporter in RPE; measure luminescence after pro-oxidant or TNFα challenge.
+
+14. AMPK activation status  
+    • Disruption: Lower p-AMPK levels compromise metabolic/redox adaptation.  
+    • Assay A: AMPK-KTR (kinase translocation reporter) fluorescent construct; imaging of nuclear/cytoplasmic redistribution.  
+    • Assay B: AlphaLISA or ELISA for phospho-ACC (Ser79) in cell lysates.
+
+15. Mitochondrial ROS production  
+    • Disruption: Excess mitochondrial superoxide and H2O2 in AMD RPE.  
+    • Assay: MitoSOX Red probe quantified by high-content imaging or flow cytometry; data normalized to cell number.
+
+Each of these readouts can be adapted to 96- or 384-well formats and paired with viability (e.g. ATP or resazurin) and morphology controls for a robust screening cascade of redox-modulating therapeutics in dry AMD RPE models.
+

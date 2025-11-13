@@ -1,0 +1,64 @@
+Query: ("dry age-related macular degeneration" OR geographic atrophy) AND (pathophysiology OR mechanism OR "disease progression") AND ("retinal pigment epithelium" OR RPE) AND (oxidative stress OR inflammation OR complement OR lipid OR drusen) AND (genetic OR GWAS OR polymorphism OR knockdown OR knockout OR functional assay) AND ("barrier dysfunction" OR "tight junction disruption") AND ("target validation" OR causative pathway OR "therapeutic target")
+
+Below is a structured review of the evidence around RPE barrier dysfunction in dry age-related macular degeneration (dry AMD, a.k.a. geographic atrophy), with an eye to whether an in vitro RPE tight-junction/barrier assay could serve as a useful platform for early-stage therapeutic screening and target validation.
+
+1. Dry AMD pathophysiology and the RPE barrier  
+  • Central role of RPE monolayer integrity: The retinal pigment epithelium forms the outer blood–retina barrier via tight junctions (ZO-1, occludin, claudins). In dry AMD, multiple “hits” (oxidative stress, complement activation, lipid/drusen accumulation, chronic inflammation) converge on RPE, causing barrier breakdown, altered fluid transport, and eventually geographic atrophy. (Bhutto & Lutty, Prog Retin Eye Res 2012; Sarks et al., Eye 2016)  
+  • Early barrier changes: Clinical and histopathologic studies report subclinical RPE tight-junction disruption in early AMD, preceding frank atrophy (McLeod et al., Invest Ophthalmol Vis Sci 2011). Elevated retinal permeability (fluorescein leakage) has even been documented in intermediate dry AMD patients.  
+
+2. Key stressors that drive RPE barrier dysfunction in dry AMD models  
+  A. Oxidative stress  
+    – H2O2 and tert-butyl hydroperoxide rapidly reduce TEER in ARPE-19 and primary human RPE, correlate with ZO-1 disorganization. (Zhu et al., Mol Vis 2004; Krohne et al., Free Radic Biol Med 2012)  
+    – Lipofuscin bisretinoid A2E plus blue-light illumination produces ROS, lysosomal alkalinization, and tight-junction disruption. (Wu et al., Invest Ophthalmol Vis Sci 2007)  
+  B. Complement activation  
+    – Sublytic C5b-9 assemblies on RPE apical surface induce actin remodeling and ZO-1 mislocalization; paracellular permeability increases in vitro. (Lakkaraju et al., J Cell Sci 2009)  
+    – Genetic high-risk CFH Y402H iPSC-RPE exhibit exaggerated barrier loss upon complement challenge versus low-risk lines. (Keeling et al., Stem Cells Transl Med 2019)  
+  C. Inflammatory cytokines  
+    – TNF-α, IL-1β, IL-6 treatments decrease TEER and downregulate claudin-1/occludin expression in polarized cultures. Synergy with oxidative stress amplifies barrier breakdown. (Zhou et al., J Neuroinflammation 2011)  
+  D. Lipid and drusen components  
+    – Oxidized low-density lipoprotein (ox-LDL) and cholesterol crystals drive inflammatory signaling and impair tight junction integrity in RPE monolayers. (Liu et al., Am J Pathol 2013)  
+    – 7-Ketocholesterol (a major drusen sterol) promotes VEGF release and tight-junction loss. (Yu et al., Exp Eye Res 2011)  
+
+3. Genetic and functional validation of barrier disruption as a causative pathway  
+  • GWAS hits (CFH, C3, C2/CFB, HTRA1/ARMS2) implicate complement and inflammatory regulators. Dysregulated complement on RPE parallels barrier defects in vitro.  
+  • Knockdown or CRISPR knockout of NFE2L2 (NRF2) in iPSC-RPE heightens sensitivity to oxidative-stress–induced TEER loss, linking antioxidant defenses to barrier maintenance. (Zhao et al., Cell Rep 2020)  
+  • Overexpression of protective factors (e.g. clusterin, vitronectin) can partially rescue complement-induced barrier leakage. (Nozaki et al., J Clin Invest 2006)  
+
+4. In vitro RPE models and readouts for barrier assays  
+  A. Cell models  
+    – ARPE-19: Easy to grow, but low baseline TEER and junctional protein expression—requires long differentiation protocols or supplement with ECM components.  
+    – Primary human RPE: Gold standard for physiology, but donor variability, limited lifespan.  
+    – iPSC-derived RPE: Attractive for personalized/genotype-specific studies, robust TEER (>200 Ω·cm2) when matured on permeable supports.  
+  B. Substrates and culture format  
+    – Transwell inserts with coated Bruch’s-membrane–mimetic ECM (collagen IV, laminin, fibronectin) support polarization and tight-junction formation.  
+    – Microfluidic “retina-on-a-chip” platforms allow flow, co-culture with choroidal endothelial cells, and dynamic monitoring of barrier function.  
+  C. Assay readouts  
+    – TEER measurement: Real-time, noninvasive quantification of paracellular resistance.  
+    – Paracellular tracer flux (e.g. FITC-dextran), quantifying molecule passage.  
+    – Immunofluorescence for ZO-1, occludin, claudins to score junction morphology.  
+    – Live-cell imaging for calcium flux and actin remodeling.  
+    – Gene expression (qPCR/RNA-seq) of junctional proteins and stress/inflammatory markers.  
+    – Multiplex ELISA for secreted cytokines, complement activation fragments.  
+
+5. Strengths and limitations of RPE barrier assays for dry AMD drug screening  
+  Strengths:  
+    • Direct readout of a mechanistically relevant phenotype—tight-junction integrity is an early AMD endophenotype.  
+    • Amenable to medium-throughput using 96-well TEER plates or FluoroBlok Transwells.  
+    • Can be tuned to various stressors (oxidative, complement, inflammatory, lipid) reflecting multiple dry AMD “hits.”  
+    • Allows isogenic comparisons of risk vs. protective genotypes via iPSC technology.  
+  Limitations:  
+    • 2D monolayers lack full Bruch’s membrane/choroid microenvironment—may miss contributions from drusen–Bruch’s interactions.  
+    • Endpoint variability if culture conditions (ECM coating, differentiation time) are not tightly controlled.  
+    • Barrier loss can be secondary to outright cell death; it’s critical to separate cytotoxicity from specific tight-junction modulation.  
+
+6. Recommendations for assay implementation and therapeutic evaluation  
+  • Use iPSC-RPE or well-differentiated primary RPE on Transwell inserts with validated high baseline TEER (>150–200 Ω·cm2).  
+  • Establish standardized stress-induction protocols (e.g. 200 μM H2O2 for 24 h, sublytic C5b-9 at defined doses, or 7-ketocholesterol at physiological drusen-equivalent concentrations) with dose–response curves for barrier readouts and viability.  
+  • Multiplex readouts: TEER + tracer flux + ZO-1 IF + LDH release/ATP viability to distinguish barrier modulation from toxicity.  
+  • Include genetically defined iPSC-RPE lines (CFH Y402H vs. wild-type; NFE2L2 KO vs. control) to validate target engagement and to build a panel of “risk” vs. “resilience” phenotypes.  
+  • Use the assay for both target validation (e.g. knockdown/overexpression of candidate genes) and compound screening (small molecules, biologics) to rescue barrier integrity under each stress paradigm.  
+  • Where possible, integrate transcriptomic or proteomic readouts to confirm pathway modulation (e.g. reduced NF-κB activation, restored antioxidant gene expression, normalized complement factor secretion).  
+
+Conclusion  
+A well-controlled RPE tight-junction/barrier assay captures a key early event in dry AMD pathobiology (barrier disruption driven by oxidative, inflammatory, complement, and drusen-derived insults). When implemented in a physiologically relevant RPE model (iPSC- or primary-derived, polarized on Transwells), with multiplexed readouts to separate toxicity from specific junctional effects, it provides a robust platform for both target validation and preclinical screening of candidate therapeutics aimed at halting or reversing geographic atrophy progression.
+

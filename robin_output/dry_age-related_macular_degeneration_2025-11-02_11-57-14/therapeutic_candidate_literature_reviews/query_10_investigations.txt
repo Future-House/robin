@@ -1,0 +1,92 @@
+Query: Investigations of mitochondrial-targeted antioxidants or metabolic modulators that preserve RPE barrier integrity in TEER and permeability assays under AMD-like stressors, with mechanistic confirmation of mitochondrial function improvement, efficacy in animal models of geographic atrophy, and pharmacokinetic and toxicity data
+
+1. MitoQ Derivatives for RPE Barrier Preservation  
+   • Mechanistic hypothesis: A novel MitoQ analog reduces mitochondrial ROS, stabilizes Δψm and ATP production, and prevents tight-junction protein (ZO-1, occludin) loss under H₂O₂ or A2E+blue-light stress.  
+   • Cell-culture assays: TEER and FITC-dextran permeability, MitoSOX staining, JC-1 membrane potential, Seahorse OCR/ECAR.  
+   • Animal studies: NaIO₃-induced geographic atrophy in C57BL/6 mice—fundus autofluorescence, OCT lesion volume.  
+   • PK/toxicity: LC-MS/MS quantification in plasma, retina/choroid; ocular histopathology, liver/kidney panels.
+
+2. SkQ1 Combined with SIRT3 Activation  
+   • Hypothesis: Mitochondrial–targeted plastoquinone (SkQ1) plus a SIRT3 allosteric activator synergize to boost antioxidant defenses and deacetylate mitochondrial enzymes, preserving RPE barrier under lipofuscin accumulation.  
+   • Assays: TEER, FITC-Dextran, NAD⁺/NADH ratio, SOD2 acetylation Western blots, respirometry.  
+   • In vivo: Cfh⁻/⁻ mice with age-related complement dysregulation; GA lesion scoring.  
+   • PK/Tox: Ocular microdialysis, cytokine panels, body-weight and organ-weight toxicity.
+
+3. PGC-1α Overexpression via AAV2  
+   • Hypothesis: AAV2-mediated PGC-1α upregulation enhances mitochondrial biogenesis, preserves barrier integrity under chronic low-grade inflammation (TNFα challenge).  
+   • Assays: TEER, paracellular flux, mtDNA copy number, citrate synthase activity, TOM20 immunofluorescence.  
+   • Animal model: Subretinal TNFα-injection GEAP mice, GA lesion progression.  
+   • PK/Tox: AAV biodistribution, anti-AAV neutralizing antibodies, hepatic toxicity.
+
+4. SS-31 (Elamipretide) in Combination with Catalase Overexpression  
+   • Hypothesis: SS-31 stabilizes cardiolipin and, together with adenoviral catalase targeted to mitochondria, reduces H₂O₂-mediated barrier breakdown.  
+   • Assays: TEER, H₂O₂ permeability, mitochondrial catalase activity, MitoPY1 ROS probe, ATP levels.  
+   • In vivo: NaIO₃ rat model of dry AMD—ERG, fundus imaging.  
+   • PK/Tox: Ocular half-life by ELISA, systemic cytokines, histology of off-target tissues.
+
+5. NAD⁺ Precursor NMN Analog with PARP1 Inhibitor  
+   • Hypothesis: Elevating mitochondrial NAD⁺ via a stabilized NMN analog plus PARP1 inhibition maintains bioenergetics and prevents barrier leak under oxidative stress.  
+   • Assays: TEER, FITC-dextran, NAD⁺/NADH assays, PAR polymer ELISA, Seahorse.  
+   • Animal testing: Abca4⁻/⁻ mice under chronic light stress; GA progression by OCT.  
+   • PK/Tox: Plasma/ocular NMN analog levels, complete blood count, liver enzymes.
+
+6. Drp1 Inhibitor (Mdivi-1) for Fission Modulation  
+   • Hypothesis: Inhibiting excessive mitochondrial fission preserves network integrity, reduces ROS bursts, and maintains RPE barrier under lipid peroxidation stress.  
+   • Assays: TEER, TOM20 network morphology, DRP1 phosphorylation status, mitochondrial ROS.  
+   • Model: Cfh⁻/⁻ mice challenged with A2E/blue light; GA lesion quantification.  
+   • PK/Tox: Retina bioavailability, motor function tests, histopathology of major organs.
+
+7. BH3-Mimetic to Enhance Mitophagy (e.g., P110)  
+   • Hypothesis: Targeting the Drp1–Fis1 interaction via P110 promotes removal of damaged mitochondria, preserves barrier function under chronic oxidative challenge.  
+   • Assays: TEER, mitophagy flux (mt-Keima), LC3-II/LC3-I ratio, lysosomal co-localization.  
+   • Animal: NaIO₃-treated rats; lesion area, behavioral visual acuity.  
+   • PK/Tox: CSF/plasma levels, complete metabolic panel, ocular inflammation markers.
+
+8. CoQ10 Nanocarriers with Mitochondrial Targeting Peptide  
+   • Hypothesis: Liposomal CoQ10 conjugated to a mitochondrial targeting sequence penetrates RPE mitochondria, rescues ETC complex I/III activity, and maintains tight junctions under A2E.  
+   • Assays: TEER, complex I/III enzyme assays, JC-1, MitoTimer reporter for oxidative aging.  
+   • In vivo: Light-induced GA in albino rats; lesion area via OCT.  
+   • PK/Tox: Nanocarrier size/distribution, complement activation, ocular irritation.
+
+9. Low-Dose Mitochondrial Uncoupler (BAM15)  
+   • Hypothesis: Mild uncoupling by BAM15 reduces ROS generation, preserves barrier integrity under high-glucose and oxidative stress.  
+   • Assays: TEER, proton leak measurements (Seahorse), MitoSOX, ATP levels.  
+   • Model: Diabetic rat model with retinal degeneration, GA markers.  
+   • PK/Tox: Dose–response for uncoupling effect, systemic temperature monitoring, histology.
+
+10. AMPK Activation via Direct Agonist (A-769662)  
+   • Hypothesis: AMPK activation shifts RPE metabolism toward FAO and mitophagy, reducing oxidative damage and preventing permeability under A2E stress.  
+   • Assays: TEER, p-AMPK/AMPK ratio, FAO flux assays, PINK1/Parkin recruitment.  
+   • Animals: Cfh⁻/⁻ mice; retinal thickness, lesion scoring.  
+   • PK/Tox: Ocular and plasma drug levels, glucose tolerance, organ histopathology.
+
+11. Mitochondrial NADPH Production Boost by IDH2 Activator  
+   • Hypothesis: Allosteric activation of mitochondrial IDH2 enhances NADPH, supports glutathione recycling, and maintains barrier function under phototoxic stress.  
+   • Assays: TEER, NADPH/NADP⁺ ratio, GSH/GSSG, ROS measurement, viability.  
+   • In vivo: Light-exposure GA model in rats; fundus autofluorescence.  
+   • PK/Tox: Retina/plasma distribution, G6PD status, systemic toxicity.
+
+12. Mito-PKCε Activator to Modulate ETC Supercomplexes  
+   • Hypothesis: Specific mitochondrial PKCε activation promotes assembly of respiratory supercomplexes, lowers ROS, stabilizes RPE junctions under TNFα.  
+   • Assays: TEER, BN-PAGE for supercomplexes, PKCε translocation, mitochondrial ROS.  
+   • Animal: NaIO₃-challenged mice; ERG, OCT.  
+   • PK/Tox: Kinase selectivity profiling, systemic kinase assays, histopathology.
+
+13. Tfam Augmentation via Small-Molecule Stabilizer  
+   • Hypothesis: A compound that binds and stabilizes mitochondrial transcription factor A (Tfam) increases mtDNA transcription, augmenting OXPHOS and barrier function under A2E.  
+   • Assays: TEER, mtDNA transcription (qPCR), OXPHOS complex levels, ATP.  
+   • Model: ABCA4⁻/⁻ mice under light stress; GA metrics.  
+   • PK/Tox: Ocular PK, mtDNA integrity in off-target tissues, liver toxicity.
+
+14. CRISPRa of SOD2 in RPE Cells  
+   • Hypothesis: dCas9-VP64–mediated activation of mitochondrial SOD2 gene expression raises intrinsic antioxidant defenses, preventing TEER loss under O₂⁻ surge.  
+   • Assays: TEER, SOD2 mRNA/protein, MitoSOX, apoptosis assays.  
+   • In vivo: Subretinal injection of CRISPRa vector in NaIO₃ mice; lesion analysis.  
+   • PK/Tox: Off-target gene activation profiling, immune response, histology.
+
+15. Mitochondrial-Targeted Glutaminase Inhibitor  
+   • Hypothesis: Inhibiting glutaminase in mitochondria shifts RPE metabolism away from glutamine-driven ROS production, preserving barrier under nutrient stress.  
+   • Assays: TEER, glutamate/glutamine flux, OCR, ROS, cell viability.  
+   • Animal: Diet-induced metabolic AMD model in mice; GA lesion quantification.  
+   • PK/Tox: Tissue glutaminase occupancy, CNS toxicity screening, liver/kidney panels.
+

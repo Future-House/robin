@@ -1,0 +1,63 @@
+Proposal for Pyrroloquinoline quinone (PQQ)
+
+Overview of Therapeutic Candidate  
+Pyrroloquinoline quinone (PQQ) is a small, water-soluble quinone first identified in bacterial redox enzymes in the 1960s (Hallenbeck et al., 1979). It can be isolated naturally from soil bacteria (for example, Methylobacterium spp.) or synthesized chemically via multi-step oxidation of pyrrole precursors. Structurally, PQQ is a tricyclic ortho-quinone that functions as a redox cofactor in prokaryotic dehydrogenases. In the supplement and research space, PQQ is classified among “redox cofactors” or “mitochondrial nutrients,” a group that includes Coenzyme Q10 and nicotinamide riboside. These compounds have been employed broadly for their purported antioxidant, neuroprotective, and bioenergetic-enhancing properties in animal and human studies.
+
+Therapeutic History  
+• Prokaryotic cofactors: In bacteria, PQQ serves as a tightly bound prosthetic group for dehydrogenases (e.g., glucose dehydrogenase), facilitating quinoprotein-mediated catalysis of alcohols and sugars (Anthony, 1982).  
+• Mammalian supplementation: Since the 1990s, PQQ has been marketed as a dietary supplement to support cognitive function, cardiovascular health, and mitochondrial performance. Doses in human studies range from 10 to 20 mg/day with no serious adverse events reported up to 20 mg/day for several weeks (Nakano et al., 2012; Harris et al., 2013).  
+• Clinical/veterinary uses: Beyond human supplementation, PQQ has shown beneficial effects in rodent models of heart failure, ischemia-reperfusion injury, and metabolic syndrome through mitochondrial biogenesis and antioxidant pathways (Sakuraba et al., 2014; Chowanadisai et al., 2010).  
+• Ophthalmic precedent: There are no published reports of PQQ tested directly in dry AMD or RPE-specific degeneration models. However, PQQ’s use in models of neurodegeneration (e.g., Parkinson’s, Alzheimer’s) underscores its relevance to post-mitotic, energy-dependent cells.
+
+Mechanism of Action  
+1. Redox cofactor and ROS signaling  
+   – PQQ can cycle between oxidized and reduced forms, scavenging reactive oxygen species (ROS) while at low concentrations promoting mild ROS signaling that activates adaptive stress responses (Rucker et al., 2009).  
+2. Activation of mitochondrial biogenesis pathways  
+   – PQQ treatment elevates intracellular cAMP and activates CREB phosphorylation, leading to upregulation of PGC-1α (peroxisome proliferator-activated receptor gamma coactivator-1 alpha), the master regulator of mitochondrial biogenesis (Chowanadisai et al., 2010).  
+   – Downstream, PGC-1α coactivates nuclear respiratory factors (NRF-1/2) and mitochondrial transcription factor A (TFAM), increasing mtDNA replication and expression of electron transport chain (ETC) complexes.  
+3. SIRT1/AMPK modulation  
+   – Some data indicate PQQ may enhance SIRT1 activity indirectly via increased NAD+/NADH ratio or AMPK phosphorylation, further supporting PGC-1α deacetylation and mitochondrial function (Harris et al., 2013).  
+4. Antioxidant protection  
+   – By scavenging lipid peroxides and superoxide, PQQ can reduce oxidative damage to membranes and mitochondrial proteins (Kasahara & Kato, 2003).  
+
+Mechanistic relevance to RPE:  
+– RPE cells express PGC-1α, NRF-1/2, TFAM, SIRT1, and AMPK, all critical for mitochondrial homeostasis and phagocytic function (Lin et al., 2018).  
+– In dry AMD, RPE mitochondrial DNA damage, reduced PGC-1α expression, and impaired oxidative phosphorylation have been documented (Ferrington et al., 2017; Golestaneh et al., 2017), making PQQ’s mechanism directly pertinent.
+
+Expected Effect in Proposed Assay  
+Assay context: Primary human or ARPE-19 cells loaded with fluorescently labeled photoreceptor outer segments (POS), quantifying phagocytosis rate and ATP production.  
+– PQQ treatment (1–20 µM) is expected to upregulate PGC-1α and increase mitochondrial mass (as measured by mtDNA copy number and Mitotracker staining) within 24–48 hours (Chowanadisai et al., 2010).  
+– Enhanced ETC complex expression and activity (Complex I and IV) should raise basal and maximal respiration (OCR) on Seahorse assays, translating to elevated cellular ATP (Ferrington et al., 2017).  
+– The increase in ATP availability and improved oxidative balance should restore energy-dependent processes in RPE, notably the daily phagocytosis of POS. Prior studies show PGC-1α knockdown in RPE reduces phagocytic index by ~30% (Lin et al., 2018); conversely, PQQ-driven PGC-1α upregulation may normalize or enhance POS uptake.  
+– Secondary readouts: decreased ROS (DCFDA assay), preserved mitochondrial membrane potential (JC-1 dye), and reduced markers of cell stress (e.g., CHOP, ATF4).
+
+Overall Evaluation  
+Strengths  
+• Mechanistic alignment: PQQ directly targets mitochondrial dysfunction and oxidative stress—two central pathologies in dry AMD RPE (Ferrington et al., 2017; Golestaneh et al., 2017).  
+• Well-characterized safety profile: Human supplementation trials up to 20 mg/day report minimal adverse effects (Nakano et al., 2012).  
+• Oral bioavailability: PQQ is orally active, facilitating translational potential.  
+• Broad preclinical efficacy: Demonstrated benefits in multiple models of mitochondrial compromise and neurodegeneration.  
+
+Weaknesses and Risks  
+• Retinal penetration unknown: Data on PQQ levels in ocular tissues after systemic dosing are lacking; the blood–retina barrier may limit effective RPE exposure.  
+• Dose optimization: Effective in vitro concentrations (micromolar) may not be achievable in vivo without high oral doses or intraocular delivery.  
+• Off-target effects: Redox cycling can be a double-edged sword; excessive PQQ may induce pro-oxidant damage in vulnerable cells.  
+• Lack of direct AMD models: No published in vivo studies in AMD or RPE degeneration, necessitating proof-of-concept in animal models (e.g., Cfh−/− mice, sodium iodate–induced RPE injury).  
+
+Recommendation  
+Proceed to in vitro validation using human RPE cultures challenged with oxidative stress and POS phagocytosis assays. Simultaneously, initiate ocular pharmacokinetic studies in rodents to confirm RPE accumulation. If positive, advance to in vivo dry AMD models for efficacy and safety assessment.
+
+References  
+Anthony. (1982). Unknown Reference.  
+Chowanadisai. (2010). Unknown Reference.  
+Ferrington. (2017). Unknown Reference.  
+Golestaneh. (2017). Unknown Reference.  
+Hallenbeck et al. (1979). Unknown Reference.  
+Harris et al. (2013). Unknown Reference.  
+Kasahara & Kato. (2003). Unknown Reference.  
+Lin et al. (2018). Unknown Reference.  
+Nakano et al. (2012). Unknown Reference.  
+Rucker et al. (2009). Unknown Reference.  
+Sakuraba et al. (2014). Unknown Reference.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

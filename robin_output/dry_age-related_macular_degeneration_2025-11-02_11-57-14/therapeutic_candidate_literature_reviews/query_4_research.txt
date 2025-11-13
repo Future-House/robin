@@ -1,0 +1,94 @@
+Query: Research on PPARγ agonists or modulators that enhance RPE barrier function in TEER-based assays under oxidative stress conditions mimicking dry AMD, with mechanistic studies confirming PPRE activation, in vivo proof-of-concept in AMD animal models, and systemic/ocular pharmacokinetic and toxicity assessments
+
+Below are 15 distinct mechanistic hypotheses or therapeutic‐strategy proposals, each amenable to cell‐culture readouts (e.g. TEER, reporter assays, biochemical end points) and follow‐up in vivo proof‐of-concept plus PK/Tox profiling.
+
+1. PPARγ Agonists to Fortify RPE Barrier  
+Hypothesis: Selective PPARγ agonists restore TEER in ARPE-19 under H₂O₂ stress by activating PPRE-driven transcription of tight‐junction genes (ZO-1, occludin).  
+Cell assays: TEER, luciferase PPRE reporter, qPCR/Western for junctional proteins.  
+In vivo: Oral/topical dosing in dry AMD mouse (e.g. Cfh⁻/⁻) → OCT/fundus, RPE flat mounts.  
+PK/Tox: Ocular vs systemic exposure, retinal safety, systemic pathology.
+
+2. Nrf2 Keap1-Disruptors to Boost Antioxidant Defenses  
+Hypothesis: Small molecules that disrupt Keap1–Nrf2 interaction upregulate HO-1/NQO1, preserving TEER under oxidative insult.  
+Cell assays: Nrf2 nuclear translocation (immunofluorescence), ARE-luciferase, ROS assays, TEER.  
+In vivo: Oral gavage in NaIO₃-induced RPE degeneration model; ERG, RPE histology.  
+PK/Tox: Brain/ocular penetration, liver toxicity panel.
+
+3. SIRT1 Activators to Suppress RPE Senescence  
+Hypothesis: SIRT1 agonists deacetylate p53/FOXO, reduce SA-βgal and p16 levels, and restore barrier function.  
+Cell assays: SA-βgal staining, acetyl-p53 Western, TEER, mtDNA copy number.  
+In vivo: Systemic dosing in aged mouse AMD model; fundus autofluorescence, RPE morphology.  
+PK/Tox: Hematology, renal/hepatic enzymes, ocular histopath.
+
+4. Mitochondria-Targeted Antioxidants (MitoQ Derivatives)  
+Hypothesis: Lipophilic triphenylphosphonium-linked antioxidants prevent Δψm collapse and tight-junction loss under H₂O₂.  
+Cell assays: JC-1 Δψm, ROS (MitoSOX), TEER, ATP levels.  
+In vivo: Intravitreal vs systemic in NaIO₃ mouse; mitochondrial rescue in RPE by EM.  
+PK/Tox: Mitochondrial accumulation, off-target cardiac toxicity.
+
+5. Autophagy Enhancers (mTOR Inhibitors) to Clear Lipofuscin Precursors  
+Hypothesis: Rapalogs stimulate LC3-II conversion, reduce A2E accumulation, and preserve TEER.  
+Cell assays: LC3 puncta, p62 turnover, A2E fluorescence, TEER.  
+In vivo: Rapalog injection in ABCA4⁻/⁻ mouse; measure drusen-like deposits, RPE integrity.  
+PK/Tox: Immune profiling, retinal immune cell activation.
+
+6. Factor D (FD) Inhibitors to Block Complement-Mediated RPE Injury  
+Hypothesis: FD blockade prevents C3b accumulation on stressed RPE, reducing cell death and TEER decline.  
+Cell assays: Incubate ARPE-19 with human serum + FD inhibitor; detect C3a/C3b ELISA, LDH release, TEER.  
+In vivo: Systemic FD inhibitor in Cfh⁻/⁻ mice; assess complement deposition, RPE survival.  
+PK/Tox: Complement profiling, animal immunocompetence.
+
+7. NLRP3 Inflammasome Inhibitor (MCC950) in RPE  
+Hypothesis: MCC950 blocks NLRP3-ASC speck formation, lowers IL-1β release, and improves barrier.  
+Cell assays: ASC speck imaging, IL-1β ELISA, caspase-1 activity, TEER.  
+In vivo: Intravitreal MCC950 in NaIO₃ mice; evaluate RPE inflammatory markers and morphology.  
+PK/Tox: Local toxicity, systemic immunomodulation.
+
+8. LOX-1 Antagonists to Prevent Oxidized‐Lipid Uptake  
+Hypothesis: Small-molecule LOX-1 blockers reduce ox-LDL internalization, lipid peroxidation, and junctional breakdown.  
+Cell assays: Dil-oxLDL uptake, malondialdehyde (MDA) assay, TEER.  
+In vivo: Oral LOX-1 antagonist in AMD rat; fundus lipid staining, RPE ultrastructure.  
+PK/Tox: Lipid panels, vascular function.
+
+9. MerTK Agonists (Gas6 Mimetics) to Enhance RPE Phagocytosis  
+Hypothesis: Gas6 analogs boost MerTK signaling, improving phagocytic clearance of photoreceptor outer segments and TEER.  
+Cell assays: FITC-POS uptake assay, MerTK phosphorylation (WB), TEER.  
+In vivo: Subconjunctival Gas6 mAb in Royal College of Surgeons (RCS) rat; photoreceptor counts, ERG.  
+PK/Tox: Retinal inflammation, systemic coagulation.
+
+10. miR-146a Mimics to Damp NF-κB–Driven Inflammation  
+Hypothesis: miR-146a restoration suppresses TRAF6/IRAK1, lowering cytokines (TNFα, IL-6) and rescuing barrier.  
+Cell assays: Transfect miR-146a mimic, NF-κB reporter, cytokine ELISA, TEER.  
+In vivo: Intravitreal nanoparticle delivery in NaIO₃ or laser-injury model; cytokine profiling, RPE ultrastructure.  
+PK/Tox: Off-target immune suppression, miRNA biodistribution.
+
+11. Sphingosine-1-Phosphate Receptor Modulators to Tighten Junctions  
+Hypothesis: S1PR2 or S1PR3 agonists enhance Rac1 signaling, promoting tight‐junction assembly and TEER recovery.  
+Cell assays: GTP-Rac1 pull-down, ZO-1 immunostaining, TEER.  
+In vivo: Topical S1PR agonist in PDT-induced RPE injury; barrier function by fluorescein leakage.  
+PK/Tox: Vascular reactivity, systemic lymphocyte counts.
+
+12. RAGE Antagonists (sRAGE) to Block AGE-Mediated Damage  
+Hypothesis: Soluble RAGE decoy reduces AGEs-induced NF-κB activation, cytokine release, and TEER drop.  
+Cell assays: RAGE reporter, IL-8 release, ROS, TEER.  
+In vivo: Systemic sRAGE in diabetic-accelerated AMD model; OCT, neovascular markers.  
+PK/Tox: Glucose homeostasis, renal clearance.
+
+13. PGC-1α Inducers to Drive Mitochondrial Biogenesis  
+Hypothesis: Small molecules that increase PGC-1α expression restore OXPHOS and barrier function under chronic stress.  
+Cell assays: mtDNA copy number, oxygen consumption (Seahorse), TEER.  
+In vivo: Oral PGC-1α inducer in aged mice; mitochondrial EM in RPE, visual behavior.  
+PK/Tox: Muscle metabolism, weight change.
+
+14. Erythropoietin (EPO) Analogs to Protect RPE from Hypoxic Injury  
+Hypothesis: Non-erythropoietic EPO derivatives activate EPOR–Stat3 signaling, boosting survival and junction integrity.  
+Cell assays: pStat3 WB, TUNEL assay under CoCl₂ hypoxia mimic, TEER.  
+In vivo: Intravitreal EPO analog in laser-induced RPE injury; RPE barrier by fluorescein angiography.  
+PK/Tox: Hematocrit, systemic EPO receptor engagement.
+
+15. MSC-Derived Exosomes to Deliver Protective miRNAs  
+Hypothesis: Exosomes from hypoxia-preconditioned MSCs carry miR-21/miR-222 to downregulate pro-apoptotic pathways in RPE, preserving TEER.  
+Cell assays: Exosome uptake (PKH26), target gene knockdown, apoptosis assay, TEER.  
+In vivo: Subconjunctival exosome injections in NaIO₃ model; retinal thickness, RPE integrity.  
+PK/Tox: Exosome biodistribution, immunogenicity.
+

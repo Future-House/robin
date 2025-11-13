@@ -1,0 +1,50 @@
+Hypothesis: Organ-on-chip RPE-Choroid barrier assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Organ-on-chip RPE-Choroid barrier assay
+Reasoning: Microfluidic co-culture of RPE and choroidal endothelium on ECM-coated membranes under flow enables real-time fluorescent dextran permeability measurement. This physiologically relevant platform links RPE dysfunction to barrier breakdown (Achberger et al., 2019; Wang et al., 2017).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview  
+• Goal: Model RPE–choriocapillaris barrier integrity under physiologic flow and test compounds that preserve or restore barrier function in dry AMD.  
+• Cells and materials: Primary or iPSC-derived human RPE cells seeded on the upper side of a porous, ECM-coated microfluidic membrane; human choroidal microvascular endothelial cells (hCMECs) on the lower side. A thin layer of collagen IV, fibronectin and laminin mimics Bruch’s membrane. Medium flows independently on each side at low shear (0.5–2 dyn/cm2).  
+• Readouts:  
+   – Real-time transepithelial electrical resistance (TEER) sensors integrated into the chip.  
+   – Fluorescent-dextran (10–70 kDa) permeability assays: quantitation of dextran flux from the apical (RPE) to basal (choroid) channel by time-lapse fluorescence.  
+   – High-content imaging of tight-junction proteins (ZO-1, occludin) and cell viability (live/dead dyes).  
+   – Optionally, oxidative-stress challenge (e.g. H2O2, blue-light irradiation) or complement-activation stimuli (C3a, C5a) can be applied to the apical side to simulate early AMD insults.  
+
+Biomedical Evidence  
+• Centrality of RPE–Bruch’s–choriocapillaris axis in dry AMD:  
+   – Clinically, geographic atrophy correlates with RPE cell loss and choriocapillaris dropout (Sarks et al. 2018; Mullins et al. 2011).  
+   – Aging Bruch’s membrane thickening and lipidization impair nutrient/waste exchange (Curcio et al. 2014), promote RPE dysfunction and barrier breakdown.  
+   – RPE tight-junction disassembly precedes overt cell death in AMD (Ghosh et al. 2017). Barrier compromise permits pro-inflammatory and complement factors to accumulate sub-RPE, fueling drusen formation (Anderson et al. 2010).  
+• Flow and shear stress as modulators of endothelial and RPE physiology:  
+   – Choriocapillaris endothelial cells are exposed to unique hemodynamics. Shear influences tight junction expression and cytokine secretion (Fleming 2014).  
+   – Static Transwell systems fail to capture mechanotransduction effects on barrier integrity (Achberger et al. 2019).  
+
+Previous Use  
+• Achberger et al. (Nature Communications 2019): Developed a full “retina-on-chip” including RPE, retinal neurons and choroidal endothelium. Demonstrated that oxidative stress decreased TEER and increased dextran leakage; they rescued barrier function with the antioxidant lutein.  
+• Wang et al. (Lab on a Chip 2017): Focused on RPE–endothelium co-culture under flow. Validated that VEGF from stressed RPE increased endothelial permeability; anti-VEGF partially restored barrier.  
+• Pharmacological screening: Wu et al. (2021) used a simpler RPE–endothelial Transwell with shear to identify small molecules that stabilize ZO-1 under H2O2 challenge. Their top hit is now in early in vivo testing.  
+
+Overall Evaluation  
+Strengths  
+• Physiologic relevance: Co-culture under flow on an ECM-mimetic membrane better recapitulates in vivo mass transport, cell–cell contacts and mechanobiology than static Transwells.  
+• Multiplexed, non-destructive end points (TEER, real-time permeability, live imaging) enable time-course studies and early go/no-go decisions.  
+• Flexibility: Can introduce oxidative, inflammatory or complement stimuli apically to model progressive dry AMD insults.  
+• Human primary/iPSC-derived cells reduce species-translation gaps.  
+
+Weaknesses  
+• Lack of immune cells (microglia, macrophages) and complement-producing cell types limits modeling of drusen-associated inflammation.  
+• Does not include photoreceptors or inner retina—cannot assess outer-retinal neuroprotection or RPE-driven retinoid cycling.  
+• Bruch’s membrane mimic is simplified; true aged Bruch’s has complex multilamellar lipid deposits and advanced glycation end-products.  
+• Throughput is modest (10–20 chips/run), device costs and technical expertise present a barrier for large screening campaigns.  
+
+Conclusion  
+An RPE–choroid organ-on-chip barrier assay addresses a core dry AMD pathomechanism—breakdown of the outer-blood–retinal barrier—and provides physiologically relevant readouts not achievable in static cultures. While it cannot capture the full complexity of drusen biogenesis or immune-mediated atrophy, it is a powerful mid-throughput platform for triaging barrier-protective drug candidates prior to in vivo validation.
+

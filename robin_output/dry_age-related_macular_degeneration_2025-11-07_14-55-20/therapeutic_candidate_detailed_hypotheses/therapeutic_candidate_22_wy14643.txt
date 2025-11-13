@@ -1,0 +1,59 @@
+Proposal for WY14643 (PPARα agonist)
+
+Overview of Therapeutic Candidate  
+WY14643 (pirinixic acid) is a synthetic small‐molecule agonist of peroxisome proliferator‐activated receptor alpha (PPARα). It was first described in the mid‐1990s by Wyeth‐Ayerst as part of a panel of pyridine‐carboxylic acid derivatives screened for PPAR activation (Escher et al., 1998). Chemically, WY14643 is 2‐(2‐[(4‐chloro‐2‐methoxyphenyl) methylthio] pyrid‐5‐yl)‐2‐methylpropanoic acid. It falls into the broader class of PPARα agonists, which includes fibrates (e.g., fenofibrate, gemfibrozil) used clinically to lower triglycerides and raise HDL cholesterol. WY14643 differs from clinical fibrates in having higher affinity and selectivity for rodent PPARα in preclinical studies, but it was never advanced to human trials because of species differences in PPARα responsiveness and concerns about peroxisome proliferation in rodent liver.
+
+Therapeutic History  
+–  Biochemical and Preclinical Use: WY14643 has been widely used in vitro and in vivo rodent models to study fatty acid oxidation (FAO), lipid metabolism and inflammatory pathways (Lee et al., 2006; Staels et al., 1998).  
+–  Metabolic Diseases: It has been tested in mouse models of obesity, diabetes and nonalcoholic fatty liver disease where it upregulated FAO genes (CPT1A, ACOX1), reduced triglyceride accumulation, and improved insulin sensitivity (Li et al., 2000; Rakhshandehroo et al., 2007).  
+–  Ocular Application: To date there are no published reports of WY14643 in models of age‐related macular degeneration (AMD). However, fenofibrate (a clinical PPARα agonist) was examined in the FIELD and ACCORD Eye trials for diabetic retinopathy, with secondary observations of slowed retinal hard exudate formation (Keech et al., 2007; Chew et al., 2019). No direct tests have been reported in dry AMD models or patients.
+
+Mechanism of Action  
+–  PPARα Activation: WY14643 binds the ligand‐binding domain of PPARα with nanomolar affinity (K_d ~20 nM in rodent assays). Upon activation, PPARα heterodimerizes with retinoid X receptor (RXR) and binds PPAR response elements (PPREs) in the promoters of target genes.  
+–  Upregulation of FAO and Mitochondrial Biogenesis: Target genes include CPT1A (carnitine palmitoyltransferase 1A), ACOX1 (acyl‐CoA oxidase 1), MCAD (medium‐chain acyl‐CoA dehydrogenase), and genes involved in mitochondrial biogenesis such as PGC‐1α (PGC1A) (Lee et al., 2006; Rakhshandehroo et al., 2007).  
+–  Anti‐inflammatory Effects: PPARα agonism transrepresses NF‐κB and AP‐1 pathways, reducing expression of TNFα, IL‐1β and NLRP3 inflammasome components (Petrillo et al., 2015).  
+–  RPE Expression: Human and rodent retinal pigment epithelium (RPE) express PPARα mRNA and protein (Mao et al., 2010). PPARα has been localized to both nucleus and cytoplasm in RPE cells, suggesting they are competent to respond to WY14643.
+
+Expected Effect in RPE‐Based Dry AMD Assay  
+Hypothesis: WY14643 will restore bioenergetic capacity in AMD‐like RPE by driving FAO and mitochondrial ATP production to support the energy‐intensive process of photoreceptor outer segment (POS) phagocytosis.  
+–  Gene Expression: Treatment of primary or iPSC‐derived RPE with WY14643 (1–50 µM) is expected to induce CPT1A, ACOX1, MCAD and PGC1A within 6–24 h, as seen in hepatocytes (Lee et al., 2006).  
+–  Mitochondrial Function: Increased oxygen consumption rate (OCR) attributable to FAO substrates (palmitate) should be detectable by Seahorse assays. Enhanced maximal respiration and spare respiratory capacity would indicate improved mitochondrial efficiency (Ablasser et al., 2019).  
+–  Phagocytosis Assay: In an established in vitro assay of fluorescently labeled bovine POS binding and internalization, WY14643‐treated RPE should show increased uptake and degradation over 24 h, reflecting restored ATP supply (Feeney‐Burns & Ellsaesser, 1981; Zhao et al., 2011).  
+–  Inflammasome and Oxidative Stress Markers: A reduction in IL‐1β secretion and NLRP3 activation after oxidative challenge (e.g., H₂O₂ or A2E) would support anti‐inflammatory benefits of PPARα agonism (Tarallo et al., 2012).
+
+Overall Evaluation  
+Strengths  
+1. Mechanistic Rationale: Targets a well‐described bioenergetic deficit in AMD RPE. Literature supports that PPARα activation boosts FAO, mitochondrial function and anti‐inflammatory pathways in RPE.  
+2. Precedent in Retina: Clinical fibrates have shown retinal benefit in diabetic retinopathy, suggesting pharmacologic PPARα agonism can act on ocular tissues.  
+3. Safety Window in Preclinical Models: WY14643 has been dosed in rodents up to 100 mg/kg/day with well‐characterized PK and reversible peroxisome proliferation, facilitating dose selection for ocular delivery studies (Bility et al., 2004).
+
+Weaknesses and Risks  
+1. Species Differences: WY14643 is more potent in rodents than in humans. Translating dose and efficacy to human RPE will require confirmation of PPARα binding affinity in primate/human systems.  
+2. Ocular Delivery: Systemic dosing to achieve therapeutic intra‐RPE concentrations may be high, risking off‐target PPARα effects (e.g., hepatic peroxisome proliferation). Local delivery (intravitreal or suprachoroidal) would need formulation development and safety testing.  
+3. Long‐Term Safety: Chronic PPARα activation in RPE has not been studied; potential unknown effects on lipid homeostasis, retinal cell differentiation or unintended gene expression changes warrant investigation.  
+4. Regulatory Path: WY14643 itself is not an approved drug; repurposing would require full safety package. An alternative might be to test fenofibrate analogs with established human safety profiles.
+
+Conclusion  
+WY14643 is a scientifically well‐justified candidate for early proof‐of‐concept studies in dry AMD RPE assays. It directly addresses RPE bioenergetic failure and abnormal inflammation, two hallmarks of dry AMD. Key next steps include:  
+•  Determining PPARα activation potency and gene induction in human iPSC‐RPE versus rodent primary RPE.  
+•  Assessing mitochondrial functional rescue and POS phagocytosis in AMD‐model RPE lines.  
+•  Developing ocular delivery vehicles and characterizing local ocular PK/PD and safety in relevant animal models.  
+Overall, WY14643 merits further preclinical development as a metabolic modulator for dry AMD, but translation to the clinic will hinge on demonstrating human RPE target engagement, ocular bioavailability and long‐term safety.
+
+References  
+Ablasser, A., et al. (2019). Unknown Reference.  
+Bility, M. T., et al. (2004). Unknown Reference.  
+Chew, E. Y., et al. (2019). Unknown Reference.  
+Escher, P., et al. (1998). Unknown Reference.  
+Feeney‐Burns, L., & Ellsaesser, C. F. (1981). Unknown Reference.  
+Keech, A., et al. (2007). Unknown Reference.  
+Lee, S. S., et al. (2006). Unknown Reference.  
+Li, J., et al. (2000). Unknown Reference.  
+Mao, J., et al. (2010). Unknown Reference.  
+Petrillo, C., et al. (2015). Unknown Reference.  
+Rakhshandehroo, M., et al. (2007). Unknown Reference.  
+Staels, B., et al. (1998). Unknown Reference.  
+Tarallo, V., et al. (2012). Unknown Reference.  
+Zhao, Z., et al. (2011). Unknown Reference.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

@@ -1,0 +1,41 @@
+Hypothesis: MAC-induced Ca²⁺ influx
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: MAC-induced Ca²⁺ influx
+Reasoning: Treat ARPE-19 with sublytic complement and load with Fluo-4 AM to record Ca²⁺ transients, assessing compounds that inhibit MAC pore formation and downstream inflammasome activation—sublytic MAC drives RPE injury in dry AMD (Cao 2016; Jiao 2018).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+This assay employs ARPE-19 cells exposed to sublytic complement to induce membrane attack complex (MAC) formation. Following treatment, cells are loaded with Fluo‑4 AM to monitor intracellular Ca²⁺ transients in real time. The measured endpoints include the kinetics of Ca²⁺ influx—specifically, an initial rapid transient followed by a sustained plateau—which serve as proxies for sublytic MAC triggers of downstream inflammasome activation and VEGF secretion (rohrer2014prolongedsrckinase pages 4-6, rohrer2014prolongedsrckinase pages 1-4).
+
+Biomedical Evidence:  
+Sublytic MAC formation is a central event in the pathogenesis of dry age‑related macular degeneration, as it activates inflammatory pathways, including NF‑κB, and promotes pro‑inflammatory cytokine release in retinal pigment epithelial cells (cao2016theroleof pages 1-6). The biphasic Ca²⁺ response observed is mechanistically linked to Src kinase activation and altered gene expression, which further underlie chronic inflammation and endothelial growth factor deregulation (busch2023increasedplasmalevel pages 2-3, rohrer2014prolongedsrckinase pages 4-6). This in vitro model thus recapitulates critical aspects of the disease’s pathological cascade documented in both biomedical and clinical literature.
+
+Previous Use:  
+ARPE‑19-based assays measuring MAC‑induced Ca²⁺ influx have been previously employed to elucidate the roles of complement activation in RPE injury and VEGF overproduction, providing a mechanistic basis for therapeutic intervention in AMD (yang2014retinalpigmentepithelial pages 1-2, rohrer2014prolongedsrckinase pages 4-6). Such approaches have yielded key insights into the modulation of lethal versus sublytic complement effects in RPE cells (yang2014retinalpigmentepithelial pages 1-2).
+
+Overall Evaluation:  
+Strengths of this assay include its direct modeling of a key pathogenic process in dry AMD and its quantitative, real‑time readout of intracellular Ca²⁺ signaling. It is amenable to high‑throughput screening for compounds that inhibit MAC formation and downstream inflammasome activation. However, limitations arise from the use of an immortalized cell line that may not fully replicate primary RPE responses, as well as challenges in correlating acute signaling events with long‑term therapeutic outcomes in complex in vivo systems (brandstetter2016nlrp3inflammasomeactivation pages 95-99, merle2023thenoncanonicalimpact pages 17-21).
+
+This assay is a valuable tool for early‑stage drug discovery targeting complement‑mediated RPE injury in dry AMD. It offers mechanistic insights into acute Ca²⁺ signaling events that are pivotal in disease progression.
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/5914b0c0-0965-4deb-966d-0d4ec2b5c225
+
+References:
+1. (rohrer2014prolongedsrckinase pages 4-6): Bärbel Rohrer, Kannan Kunchithapautham, Andreas Genewsky, and Olaf Strauß. Prolonged src kinase activation, a mechanism to turn transient, sublytic complement activation into a sustained pathological condition in retinal pigment epithelium cells. Advances in experimental medicine and biology, 801:221-7, Jan 2014. URL: https://doi.org/10.1007/978-1-4614-3209-8\_29, doi:10.1007/978-1-4614-3209-8\_29. This article has 9 citations and is from a peer-reviewed journal.
+
+2. (rohrer2014prolongedsrckinase pages 1-4): Bärbel Rohrer, Kannan Kunchithapautham, Andreas Genewsky, and Olaf Strauß. Prolonged src kinase activation, a mechanism to turn transient, sublytic complement activation into a sustained pathological condition in retinal pigment epithelium cells. Advances in experimental medicine and biology, 801:221-7, Jan 2014. URL: https://doi.org/10.1007/978-1-4614-3209-8\_29, doi:10.1007/978-1-4614-3209-8\_29. This article has 9 citations and is from a peer-reviewed journal.
+
+3. (cao2016theroleof pages 1-6): Sijia Cao. The role of complement activation in age-related macular degeneration. ArXiv, Jan 2016. URL: https://doi.org/10.14288/1.0307354, doi:10.14288/1.0307354. This article has 0 citations.
+
+4. (busch2023increasedplasmalevel pages 2-3): Catharina Busch, Saskia Rau, Andjela Sekulic, Luce Perie, Christian Huber, Miranda Gehrke, Antonia M. Joussen, Peter F. Zipfel, Gerhild Wildner, Christine Skerka, and Olaf Strauß. Increased plasma level of terminal complement complex in amd patients: potential functional consequences for rpe cells. Frontiers in Immunology, Jun 2023. URL: https://doi.org/10.3389/fimmu.2023.1200725, doi:10.3389/fimmu.2023.1200725. This article has 6 citations and is from a peer-reviewed journal.
+
+5. (yang2014retinalpigmentepithelial pages 1-2): Ping Yang, Peter Baciu, Brittany C. Parker Kerrigan, Menna Etheridge, Eric Sung, Brett A. Toimil, Jacob E. Berchuck, and Glenn J. Jaffe. Retinal pigment epithelial cell death by the alternative complement cascade: role of membrane regulatory proteins, calcium, pkc, and oxidative stress. Investigative ophthalmology & visual science, 55 5:3012-21, May 2014. URL: https://doi.org/10.1167/iovs.13-13554, doi:10.1167/iovs.13-13554. This article has 44 citations and is from a domain leading peer-reviewed journal.
+
+6. (brandstetter2016nlrp3inflammasomeactivation pages 95-99): C Brandstetter. Nlrp3 inflammasome activation by photooxidative damage provides a novel link between hallmark pathogenic features of age-dependent macular degeneration. Unknown journal, 2016.
+
+7. (merle2023thenoncanonicalimpact pages 17-21): DA Merle. The non-canonical impact of complement factor h on mtor signaling and cellular metabolism in retinal pigment epithelium (rpe) cells. Unknown journal, 2023.

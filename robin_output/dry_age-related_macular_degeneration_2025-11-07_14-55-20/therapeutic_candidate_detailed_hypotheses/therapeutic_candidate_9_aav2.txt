@@ -1,0 +1,75 @@
+Proposal for AAV2-MERTK gene therapy
+
+Overview of Therapeutic Candidate  
+• Identity and origins  
+  – AAV2-MERTK is a recombinant adeno-associated virus serotype 2 vector encoding the full-length human MERTK cDNA under an RPE-selective promoter (e.g., VMD2 or CAG).  
+  – MERTK (MER proto-oncogene, tyrosine kinase) is a receptor tyrosine kinase expressed on the apical surface of the retinal pigment epithelium (RPE). It binds bridging ligands Gas6 and Protein S to mediate engulfment of photoreceptor outer segments (POS).  
+  – The construct is assembled by standard molecular cloning: human MERTK coding sequence is cloned into an AAV2 transfer plasmid, co-transfected with rep/cap and helper plasmids into HEK293 or Sf9 cells, and vector purified (cesium chloride or iodixanol).  
+• Therapeutic class and precedent  
+  – AAV-mediated gene replacement therapy.  
+  – AAV2 is the most extensively characterized serotype for subretinal delivery and RPE transduction, including landmark RPE65-LCA clinical trials (Luxturna) demonstrating durable expression and safety.  
+  – AAV2-based RPE gene therapies have been tested in preclinical models for other inherited retinal degenerations and for complement inhibitors in AMD.  
+
+Therapeutic History  
+• Inherited retinopathies and MerTK  
+  – MERTK loss-of-function underlies the Royal College of Surgeons (RCS) rat phenotype and rare forms of autosomal recessive retinitis pigmentosa in humans (D’Cruz et al., 2000; Gal et al., 2000).  
+  – Preclinical: Subretinal AAV2-MERTK rescued RCS rats, restoring POS phagocytosis, preserving ERG responses and ONL thickness (Vollrath et al., 2001; Tsai et al., 2009).  
+  – Clinical: No trials to date target MERTK mutations in humans, but MERTK is a validated target in inherited RPE phagocytic failure.  
+• Use in dry AMD or related diseases  
+  – No published clinical or preclinical studies specifically deploying AAV2-MERTK in dry AMD models.  
+  – Some groups have looked at complement factor gene therapies (e.g., AAV2-CFH) or antioxidant genes, but none target MERTK directly.  
+
+Mechanism of Action  
+• Normal MerTK signaling in RPE phagocytosis  
+  – RPE daily engulfs ∼10% of POS; failure leads to debris accumulation, inflammation, drusen formation (Kevany & Palczewski, 2010).  
+  – MerTK dimerizes upon binding Gas6/Protein S, autophosphorylates tyrosines in its kinase domain, and recruits downstream effectors (e.g., Grb2, PI3K). This activates cytoskeletal remodeling via Rac1 to drive phagocytic cup formation (Sevastou et al., 2013).  
+• Gene therapy restoral  
+  – Subretinal AAV2 delivers MERTK cDNA to RPE, driving membrane expression of functional MerTK protein.  
+  – Restored kinase activity re-establishes POS clearance, prevents subretinal debris and secondary complement activation.  
+• RPE expression evidence  
+  – Endogenous MERTK mRNA and protein are highly expressed in human and rodent RPE (Mullins et al., 2007).  
+  – AAV2 vectors with RPE-specific promoters yield >80% transduction efficiency in RPE, sustained for years in nonhuman primates (Beltran et al., 2015).  
+
+Expected Effect in Dry AMD Assay  
+• In vitro assay  
+  – Use human iPSC-derived RPE or ARPE-19 cells differentiated on transwell inserts.  
+  – Transduce with AAV2-MERTK at MOI 1e4–1e5. Confirm MerTK expression by Western blot and immunocytochemistry (apical localization).  
+  – Feed fluorescently labeled bovine POS; quantify uptake by flow cytometry or confocal imaging.  
+  – Expect a >2-fold increase in bound and internalized POS compared to control AAV2-GFP (based on RCS rat studies).  
+• Downstream biomarkers  
+  – Decreased extracellular debris, lower secretion of drusen-associated proteins (e.g., APOE, complement C3a) into medium.  
+  – Reduced inflammatory cytokines (IL-6, IL-18) in supernatant if phagocytosis restores homeostasis (Wang et al., 2015).  
+
+Overall Evaluation  
+Strengths  
+ 1. Mechanistic alignment: Directly targets a validated RPE phagocytosis defect implicated in debris/drusen accumulation.  
+ 2. Precedent in RCS rat: AAV2-MERTK robustly rescues phagocytosis and retinal structure/function.  
+ 3. Vector platform maturity: AAV2 subretinal delivery established in humans (RPE65 therapy).  
+ 4. RPE selectivity: Limits off-target expression; promoter choice further refines safety.  
+
+Weaknesses and Risks  
+ 1. Disease complexity: Dry AMD is multifactorial—complement dysregulation, oxidative stress, inflammation, lipidopathy. MerTK restoration alone may be insufficient.  
+ 2. Age-related decline: In elderly patients, RPE may have irreversible atrophy or senescence limiting transduction efficiency and functional rescue.  
+ 3. Delivery invasiveness: Subretinal injection carries surgical risks, localized effect; treating widespread geographic atrophy may require multiple blebs or repeat dosing.  
+ 4. Immunogenicity: Preexisting anti-AAV2 capsid antibodies in older population could reduce efficacy or provoke inflammation.  
+ 5. Unproven in AMD models: No published data in AMD animal models (e.g., complement factor H–deficient mice or aging primates).  
+
+Conclusion  
+AAV2-MERTK gene therapy is a strong mechanistically driven candidate for rescuing RPE phagocytosis deficits and preventing debris accumulation in dry AMD. The approach leverages solid preclinical evidence from RCS rat models and a clinically validated AAV2 platform. Major gaps include the multifactorial nature of AMD, potential limitations in aged RPE, delivery challenges, and lack of efficacy data in relevant AMD models. Addressing these will require:  
+  • Demonstrating MerTK augmentation in aged or complement-activated RPE in vitro and in vivo (e.g., sodium iodate or CFH knockout models).  
+  • Optimization of vector dose and promoter for robust transduction in senescent RPE.  
+  • Combination strategies (e.g., co-delivery of antioxidant or anti-inflammatory genes) to address the multifactorial pathogenesis.  
+Overall, AAV2-MERTK warrants further preclinical development and proof-of-concept studies in AMD-relevant models before clinical translation.  
+
+References  
+Beltran et al. (2015). Unknown Reference  
+D’Cruz et al. (2000). Unknown Reference  
+Gal et al. (2000). Unknown Reference  
+Kevany & Palczewski (2010). Unknown Reference  
+Mullins et al. (2007). Unknown Reference  
+Sevastou et al. (2013). Unknown Reference  
+Tsai et al. (2009). Unknown Reference  
+Vollrath et al. (2001). Unknown Reference  
+Wang et al. (2015). Unknown Reference
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

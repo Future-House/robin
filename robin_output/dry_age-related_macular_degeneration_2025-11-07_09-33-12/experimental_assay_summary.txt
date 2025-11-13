@@ -1,0 +1,60 @@
+Assay Candidate 1:
+Strategy: Oxidative stress viability assay
+Reasoning: Measure RPE cell survival and intracellular ROS with a fluorescent probe (e.g., CellROX) following H₂O₂ or A2E + light challenge to directly assess antioxidant efficacy. This readout is fast, quantitative, and biologically relevant, as oxidative injury is a primary driver of RPE degeneration in dry AMD (Buonfiglio et al., 2024; Shu et al., 2023).
+
+Assay Candidate 2:
+Strategy: Mitochondrial membrane potential assay
+Reasoning: Use JC-1 or TMRE to quantify mitochondrial Δψm in RPE cells under basal and stress conditions, evaluating drug effects on mitochondrial health. Loss of Δψm is an early indicator of mitochondrial dysfunction in AMD RPE (Kaarniranta et al., 2019; Buonfiglio et al., 2024).
+
+Assay Candidate 3:
+Strategy: Seahorse bioenergetics profiling
+Reasoning: Perform real-time measurements of oxygen consumption rate and extracellular acidification rate in RPE monolayers to evaluate mitochondrial respiration and glycolysis under drug treatment. Altered bioenergetics is a hallmark of AMD RPE and this assay provides direct functional endpoints (Tong et al., 2022; Fisher et al., 2022).
+
+Assay Candidate 4:
+Strategy: Lipofuscin accumulation assay
+Reasoning: Quantify RPE autofluorescence or A2E-specific emission after repeated photoreceptor outer segment ingestion and drug exposure. Lipofuscin buildup is central to RPE dysfunction in dry AMD and its modulation indicates therapeutic potential (Algvere et al., 2016; Tang et al., 2024).
+
+Assay Candidate 5:
+Strategy: mtDNA damage quantification
+Reasoning: Use long-amplicon qPCR to measure lesion frequency in mitochondrial DNA isolated from RPE after oxidative insult and treatment. Direct assessment of mtDNA integrity addresses a key mechanistic axis in AMD pathogenesis (Kaarniranta et al., 2019; Buonfiglio et al., 2024).
+
+Assay Candidate 6:
+Strategy: Complement deposition assay
+Reasoning: Incubate RPE monolayers with human serum ± drug and immunostain for C3b/C5b-9 deposition to evaluate complement inhibition. Aberrant alternative pathway activation at the RPE–BrM interface is a validated driver of dry AMD progression (Armento et al., 2021; Akhtar-Schäfer et al., 2018).
+
+Assay Candidate 7:
+Strategy: Inflammasome activation assay
+Reasoning: Prime RPE with sublytic MAC or C5a and activate with ATP or lysosomal destabilizers, then quantify ASC specks by high-content imaging and IL-1β release by ELISA. NLRP3 inflammasome engagement contributes to RPE inflammation in dry AMD (Akhtar-Schäfer et al., 2018; Korhonen, 2024).
+
+Assay Candidate 8:
+Strategy: Drusen-like deposit formation assay
+Reasoning: Culture polarized RPE on Transwells with supplemented LDL/ApoB100 lipoproteins and AGE-modified ECM, then stain basal deposits with Oil Red O. This recapitulates lipid-rich drusen biogenesis and enables direct testing of interventions (Meng & Chen, 2021; Sharif, 2015).
+
+Assay Candidate 9:
+Strategy: ECM stiffness barrier assay
+Reasoning: Seed RPE on hydrogels of tunable stiffness or nitrite-crosslinked ECM, then measure TEER and paracellular flux. Matrix stiffening in Bruch’s membrane impairs barrier function in AMD, and this assay probes drug effects on mechanotransduction (Biasella et al., 2023; Eamegdool et al., 2020).
+
+Assay Candidate 10:
+Strategy: Autophagic flux reporter assay
+Reasoning: Transduce RPE with mCherry-GFP-LC3 and monitor autophagosome maturation and clearance in live-cell imaging ± candidate compounds. Defective autophagy and mitophagy underlie RPE degeneration in dry AMD (Golestaneh et al., 2018; Nita & Grzybowski, 2023).
+
+Assay Candidate 11:
+Strategy: Lysosomal acidification assay
+Reasoning: Use LysoSensor or LysoTracker dyes to measure endolysosomal pH in RPE after A2E loading and drug treatment. Impaired lysosomal acidification by lipofuscin contributes to RPE dysfunction, and restoration is a key therapeutic strategy (Gonestaneh et al., 2018; Si et al., 2023).
+
+Assay Candidate 12:
+Strategy: Barrier permeability assay
+Reasoning: Measure FITC-dextran flux across RPE monolayers in Transwells before and after oxidative or inflammatory challenge ± test drug. Tight-junction breakdown is an early pathological feature in AMD, providing a rapid functional readout (Webster, 2023; Cerniauskas et al., 2020).
+
+Assay Candidate 13:
+Strategy: Photoreceptor outer segment phagocytosis assay
+Reasoning: Offer pHrodo-labeled POS to RPE monolayers ± therapeutic and quantify uptake by fluorescence. Reduced POS clearance is implicated in dry AMD and its rescue indicates functional restoration (Chen et al., 2023; Si et al., 2023).
+
+Assay Candidate 14:
+Strategy: Cytokine secretion profiling assay
+Reasoning: Subject RPE or co-cultures with choroidal endothelial cells to stressors and profile IL-1β, IL-6, TNFα, and MCP-1 release by multiplexed immunoassay. Chronic inflammation drives AMD progression, and modulation of cytokine signatures is predictive of efficacy (Shafi et al., 2024; Korhonen, 2024).
+
+Assay Candidate 15:
+Strategy: MMP activity assay
+Reasoning: Collect RPE conditioned media after oxidative or complement challenge ± drug and perform gelatin zymography for MMP-2/9. Dysregulated ECM remodeling via MMP/TIMP imbalance contributes to Bruch’s membrane changes in dry AMD (Bandyopadhyay & Rohrer, 2012; Caban et al., 2022).
+

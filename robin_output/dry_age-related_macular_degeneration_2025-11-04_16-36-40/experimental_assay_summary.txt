@@ -1,0 +1,60 @@
+Assay Candidate 1:
+Strategy: ROS Accumulation Assay
+Reasoning: Quantitative measurement of intracellular reactive oxygen species using probes such as H2DCFDA or MitoSOX provides a rapid readout of oxidative burden in RPE cells under AMD-like stress. This assay directly tests compounds for their ability to reduce ROS, a key driver of lipid peroxidation and mitochondrial damage in dry AMD (Chen et al. 2023; Basyal et al. 2024).
+
+Assay Candidate 2:
+Strategy: NRF2 Activation Reporter Assay
+Reasoning: A luciferase or GFP reporter under control of an antioxidant response element (ARE) allows high-throughput quantification of NRF2 pathway activation. Given the central role of NRF2 in upregulating SOD, catalase, HO-1 and other defenses in RPE, this assay identifies compounds that restore redox balance (Nita & Grzybowski 2023; Basyal et al. 2024).
+
+Assay Candidate 3:
+Strategy: Enzymatic Antioxidant Activity Assay
+Reasoning: Colorimetric or fluorometric kits to measure SOD, catalase, and glutathione peroxidase activities in RPE lysates enable direct functional assessment of core antioxidant enzymes. Enhancements in enzyme activity upon drug treatment indicate restoration of endogenous defenses compromised in AMD (Chen et al. 2023; Basyal et al. 2024).
+
+Assay Candidate 4:
+Strategy: Mitochondrial Membrane Potential Assay
+Reasoning: Fluorescent dyes such as JC-1 or TMRE measure mitochondrial membrane polarization, a sensitive indicator of mitochondrial health. Compounds that prevent stress-induced loss of Δψm in RPE can be rapidly identified, addressing a hallmark of AMD-associated mitochondrial dysfunction (Chen et al. 2023).
+
+Assay Candidate 5:
+Strategy: Mitochondrial Respiration Profiling
+Reasoning: Seahorse extracellular flux analysis quantifies oxygen consumption rate (OCR) parameters including basal respiration, ATP-linked respiration and spare capacity in RPE monolayers. Drugs that improve these metrics counteract the bioenergetic deficits observed in AMD RPE (Buonfiglio et al. 2024; Chen et al. 2023).
+
+Assay Candidate 6:
+Strategy: Autophagic Flux Reporter Assay
+Reasoning: Use of a tandem mCherry-GFP-LC3 construct distinguishes autophagosome formation from lysosomal degradation in live RPE cells. This assay directly measures restoration of autophagic flux, which is impaired in AMD due to p62 accumulation and lysosomal dysfunction (Golestaneh et al. 2018; Cerniauskas et al. 2020).
+
+Assay Candidate 7:
+Strategy: Lysosomal pH and Cathepsin Activity Assay
+Reasoning: Combining pH-sensitive LysoSensor probes with fluorogenic cathepsin D substrates quantifies lysosomal acidification and protease function. Compounds that normalize lysosomal pH and cathepsin activity rescue lysosomal clearance defects central to lipofuscin buildup in dry AMD (Cerniauskas et al. 2020; Jeong et al. 2019).
+
+Assay Candidate 8:
+Strategy: Lipofuscin Autofluorescence Assay
+Reasoning: High-content imaging of endogenous lipofuscin-like autofluorescence in RPE cultures provides a direct measure of bisretinoid accumulation. Reduction of autofluorescence by candidate drugs indicates mitigation of photo-oxidative bisretinoid toxicity, a key contributor to RPE degeneration (Iliescu et al. 2024).
+
+Assay Candidate 9:
+Strategy: Complement Membrane Attack Complex Deposition Assay
+Reasoning: After incubation with human serum, immunostaining for C5b-9 on RPE surfaces quantifies complement activation. Inhibition of MAC deposition by test compounds demonstrates potential to block chronic complement-mediated injury implicated in drusen-driven inflammation (Armento et al. 2021; Iliescu et al. 2024).
+
+Assay Candidate 10:
+Strategy: Drusen-like Deposit Quantification Assay
+Reasoning: Differentiated RPE cultured on transwell inserts form basal extracellular deposits containing ApoE, CFH and oxidized lipids. Imaging and image-analysis quantification of deposit area tests drugs for their ability to prevent or clear drusen-like material in vitro (Fernandez-Godino et al. 2018; Usui et al. 2019).
+
+Assay Candidate 11:
+Strategy: ECM Protease Activity Assay
+Reasoning: Gelatin zymography of conditioned medium measures pro-MMP-2/9 activation and activity. Since impaired MMP-2 activation and increased TIMP-2 contribute to Bruch’s membrane stiffening, this assay identifies agents that restore balanced ECM remodeling (García-Onrubia et al. 2020).
+
+Assay Candidate 12:
+Strategy: Barrier Function TEER Assay
+Reasoning: Measurement of trans-epithelial electrical resistance (TEER) across RPE monolayers on porous supports provides a real-time, quantitative indicator of tight junction integrity. Drugs that maintain or restore TEER under oxidative or hypoxic stress fortify the outer blood-retinal barrier compromised in AMD (Lugano et al. 2023).
+
+Assay Candidate 13:
+Strategy: RPE-Endothelial Coculture Angiogenesis Assay
+Reasoning: Non-contact or contact coculture of RPE with choroidal endothelial cells on transwells enables paracrine signaling studies. Quantification of endothelial sprouting or tube formation under compound treatment reveals modulators of VEGF/PDGF crosstalk implicated in transition from dry to neovascular AMD (Fietz et al. 2023; Ghareeb et al. 2020).
+
+Assay Candidate 14:
+Strategy: Multiparametric High-Content Screening Assay
+Reasoning: Simultaneous live-cell staining for ROS, Δψm, Ca2+ flux, and viability followed by fixation and immunolabeling of LC3 enables high-throughput, single-cell profiling in 384-well RPE assays. This comprehensive phenotyping approach accelerates identification of multi-targeted therapeutic candidates (Mills et al. 2022).
+
+Assay Candidate 15:
+Strategy: Cell Death Mode Profiling Assay
+Reasoning: Combined live assays for caspase-3/7 (apoptosis), caspase-1 and IL-1β release (pyroptosis), p-RIPK1/p-MLKL (necroptosis) and LDH leakage provides a multiplexed readout of death pathways. Mapping how drugs shift RPE from inflammatory or necrotic death to survival informs mechanism-based AMD therapies (Chen et al. 2022; Piippo 2019).
+

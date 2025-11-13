@@ -1,0 +1,12 @@
+Assay Candidate 1:
+Strategy: Autophagy Restoration Assay
+Reasoning: Defective lysosomal clearance of lipofuscin/A2E in RPE drives drusen biogenesis and cell death (Falcão et al. 2025). Rapid measurement of autophagic flux can be achieved in 2D human RPE monolayers expressing tandem mCherry-GFP-LC3. Upon compound treatment (e.g. TFEB activators, AMPK agonists), increased red-only puncta reflect enhanced lysosomal fusion, while p62 degradation (immunoblot or ELISA) confirms proteostasis recovery. This simple, high-content fluorescence readout correlates with reduced lipofuscin autofluorescence and improved viability (Kaarniranta et al. 2023).
+
+Assay Candidate 2:
+Strategy: Complement-Driven Deposition Assay
+Reasoning: Complement dysregulation (CFH variants, C5b-9 accumulation) seeds drusen and impairs RPE lysosomes in dry AMD (Korhonen et al. 2024). In primary or iPSC-derived RPE monolayers, brief co-treatment with sublethal NaIO3 and complement-competent human serum induces C5b-9 and APOE deposition on the basal side within 24 h. Automated immunofluorescence quantification of sub-RPE deposits provides a rapid, disease-relevant endpoint. Testing complement inhibitors (Cp40, anti-C5 antibodies) directly measures on-target efficacy by reduction of C5b-9 signal (Chen et al. 2023).
+
+Assay Candidate 3:
+Strategy: Mitochondrial Protection and Lipid Peroxidation Assay
+Reasoning: Mitochondrial dysfunction and ferroptotic lipid peroxidation drive RPE loss in dry AMD (Buonfiglio et al. 2024). Human RPE monolayers or iPSC-RPE are subjected to photo-oxidative stress (blue light+/- A2E). Real-time dual-probe imaging with TMRM (Δψm) and BODIPY-C11 (lipid ROS) yields quantitative readouts within hours. Candidate mitoprotectants (elamipretide, NMN) or ferroptosis inhibitors (ferrostatin-1) rescue Δψm and suppress oxidized lipid signal. This assay directly links mitochondrial health to lipid peroxidation, enabling rapid hit identification in a biologically relevant context (Shu et al. 2023).
+

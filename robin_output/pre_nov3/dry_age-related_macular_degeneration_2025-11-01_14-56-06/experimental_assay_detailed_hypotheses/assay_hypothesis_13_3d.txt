@@ -1,0 +1,37 @@
+Hypothesis: 3D RPE spheroid drusen accumulation assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: 3D RPE spheroid drusen accumulation assay
+Reasoning: Three-dimensional RPE spheroids loaded with glycoxidized lipofuscin forms drusen-like autofluorescent aggregates and ECM proteins (Usui et al. 2019; Mesch 2021), with readouts including live imaging, TEM, and marker quantification for therapeutic evaluation.Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+This assay uses 3D RPE spheroids loaded with glycoxidized lipofuscin to mimic drusen accumulation, a hallmark of dry AMD. The model comprises primary or hiPSC-derived RPE forming a differentiated outer monolayer, which, along with an underlying Bruch’s membrane–like ECM, enables the deposition of lipofuscin-driven, autofluorescent aggregates. Readouts include live imaging of deposit formation, transmission electron microscopy for ultrastructural analysis, and quantification of drusen-associated markers (e.g., TIMP3, APOE) via immunostaining and gene expression assays (mesch2021agedhumanipscrpe pages 15-17, usui2019invitrodrusen pages 1-4).
+
+Biomedical Evidence:  
+Drusen formation, directly linked to RPE dysfunction, oxidative stress, and impaired phagocytosis, is central to the pathogenesis of dry AMD. The assay recapitulates key pathological events including ECM remodeling and complement pathway activation. Clinical studies corroborate that the accumulation of such deposits precedes RPE atrophy and vision loss, making this model highly relevant for understanding disease progression (geathers2023developmentofaa pages 20-24, geathers2023developmentofa pages 20-24).
+
+Previous Use:  
+Prior studies have successfully employed similar 3D RPE spheroid models to explore drusen biogenesis and identify molecular signatures of aging RPE. Usui et al. demonstrated that glycoxidized lipofuscin accelerates drusen-like deposit formation and alters the expression of key biomarkers, advancing our understanding of RPE-derived drusen formation (mesch2021agedhumanipscrpe pages 15-17, usui2019invitrodrusen pages 1-4).
+
+Overall Evaluation:  
+The assay’s strengths include physiological relevance through the recreation of a native-like RPE–Bruch’s membrane interface, multiparametric readouts, and the ability to monitor age-related, oxidative stress–induced changes in drusen formation. Weaknesses involve potential variability in RPE differentiation, challenges in quantifying deposits due to pigmentation, and the need for further validation against in vivo data (mesch2021…anin pages 74-77, usui2019invitrodrusen pages 1-4).
+
+This 3D RPE spheroid drusen accumulation assay is a promising tool for early-stage drug discovery in dry AMD. It enables detailed mechanistic studies of RPE dysfunction and extracellular deposition while providing multiple endpoints for therapeutic evaluation.
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/505b5489-ff26-4909-a9ad-e27c325221ba
+
+References:
+1. (mesch2021agedhumanipscrpe pages 15-17): Lena Mesch, Natalia Pashkovskaia, Virginia Cora, Selin Pars, Serena Corti, Madalena Cipriano, Peter Loskill, Elod Koertvely, Stefan Kustermann, Marina Mesquida, Alexander Kleger, Stefan Liebau, and Kevin Achberger. Aged human ipsc-rpe organoid cultures display hallmarks of drusen formation. bioRxiv, Oct 2021. URL: https://doi.org/10.1101/2021.10.12.463899, doi:10.1101/2021.10.12.463899. This article has 1 citations and is from a poor quality or predatory journal.
+
+2. (usui2019invitrodrusen pages 1-4): Hideaki Usui, Akiko Nishiwaki, Lanors Landiev, Johannes Kacza, Wolfram Eichler, Rina Wako, Aki Kato, Noriaki Takase, Soichiro Kuwayama, Kazuki Ohashi, Yousef Yafai, Andreas Bringmann, Ayae Kubota, Yuichiro Ogura, Johannes Seeger, Peter Wiedemann, and Tsutomu Yasukawa. In vitro drusen model – three-dimensional spheroid culture of retinal pigment epithelial cells. Journal of Cell Science, Feb 2019. URL: https://doi.org/10.1242/jcs.215798, doi:10.1242/jcs.215798. This article has 24 citations and is from a domain leading peer-reviewed journal.
+
+3. (geathers2023developmentofaa pages 20-24): J Geathers. Development of a rapid and clinically relevant model of amd. Unknown journal, 2023.
+
+4. (geathers2023developmentofa pages 20-24): J Geathers. Development of a rapid and clinically relevant model of amd. Unknown journal, 2023.
+
+5. (mesch2021…anin pages 74-77): L Mesch. … an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells in 2d …. Unknown journal, 2021.

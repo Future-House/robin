@@ -1,0 +1,73 @@
+Query: What assays and methodologies (live-cell imaging, high-content screening, barrier integrity measurements like TEER, oxidative stress probes, mitochondrial respiration assays, lysosomal acidification assays) have been developed to quantify RPE cell health and function for high-throughput drug screening in dry AMD?
+
+Below is a list of 15 distinct assays and methodologies that have been adapted or developed to quantify RPE cell health and function in a high‐throughput (HT) or high‐content (HC) format—many of which have already been put to use in dry AMD drug‐screening campaigns:
+
+1. Live/Dead Fluorescence Imaging (Calcein-AM/PI)  
+   – Principle: Calcein-AM is cleaved by intracellular esterases in live cells to yield green fluorescence; propidium iodide (PI) stains nuclei of membrane-compromised (dead) cells red.  
+   – Readout: Automated HCI (high-content imaging) to compute live/dead cell ratios.  
+   – Throughput: 96- to 384-well plates; amenable to kinetic readout.
+
+2. Mitochondrial Membrane Potential Assay (JC-1 or TMRM)  
+   – Principle: JC-1 aggregates in healthy mitochondria (red fluorescence) but remains monomeric in depolarized organelles (green). TMRM accumulates proportionally to membrane potential.  
+   – Readout: Ratiometric fluorescence via HCI or plate reader.  
+   – Application: Detect early mitochondrial dysfunction in RPE under oxidative stress.
+
+3. Intracellular ROS Probes (DCFDA, CellROX, MitoSOX)  
+   – Principle: Nonfluorescent dyes are oxidized by ROS to yield fluorescent products (green or red).  
+   – Readout: HCI or flow cytometric analysis for ROS levels in single cells.  
+   – Adaptation: Can be multiplexed with viability or mitochondrial probes.
+
+4. Mitochondrial Respiration/OCR and ECAR (Seahorse XF)  
+   – Principle: Measures oxygen consumption rate (OCR) and extracellular acidification rate (ECAR) to profile basal and stressed mitochondrial function.  
+   – Readout: Real-time metabolic flux in 96-well formats.  
+   – Use in AMD: Quantify rescue of spare respiratory capacity after drug treatment.
+
+5. ATP Quantification (CellTiter-Glo)  
+   – Principle: Luciferase‐based luminescence proportional to intracellular ATP.  
+   – Readout: Single‐endpoint luminescence as a surrogate for metabolic health.  
+   – Throughput: 96-/384-well plate; often used in primary screens.
+
+6. TEER (Transepithelial Electrical Resistance)  
+   – Principle: Measures resistance across RPE monolayers on permeable supports as a proxy for tight‐junction integrity.  
+   – Readout: Automated multichannel TEER readers for 24- to 96-well Transwell plates.  
+   – AMD relevance: Screens for compounds that restore barrier function compromised by oxidative or complement stress.
+
+7. Paracellular Permeability Assay (FITC-Dextran Flux)  
+   – Principle: Quantifies leakage of fluorescent dextrans across an RPE monolayer.  
+   – Readout: Fluorescence in basolateral chamber; can be parallelized with TEER.
+
+8. High-Content Immunofluorescence of Tight-Junction Proteins (ZO-1, Occludin)  
+   – Principle: Stain for ZO-1 or occludin and assess morphological continuity of junctional belts.  
+   – Readout: Automated image segmentation to quantify junction length, continuity, and intensity.
+
+9. Phagocytosis Assay (FITC-Labeled Photoreceptor Outer Segments)  
+   – Principle: Human or bovine POS are isolated, fluorescently labeled, and fed to RPE; internalization is monitored.  
+   – Readout: HCI quantification of intracellular POS granules.  
+   – Application: Identify drugs that boost or restore daily phagocytic clearance.
+
+10. Lysosomal Acidification (LysoTracker or pHrodo Probes)  
+    – Principle: LysoTracker accumulates in acidic organelles; pHrodo‐labeled ligands increase fluorescence at low pH.  
+    – Readout: Quantify vesicular fluorescence intensity or count acidic organelles per cell.
+
+11. Autophagic Flux Reporter (mCherry-GFP-LC3 or Dendra2-LC3)  
+    – Principle: Tandem‐fluorescent LC3 reporter distinguishes autophagosomes (GFP+mCherry) from autolysosomes (mCherry only).  
+    – Readout: Ratiometric HCI to measure flux under basal or stressed conditions.
+
+12. Lipofuscin/A2E Accumulation Assay (Autofluorescence or HPLC-MS)  
+    – Principle: A2E and other bisretinoids emit characteristic autofluorescence; can also be extracted and quantified by mass spec.  
+    – Readout: HC imaging for autofluorescent granules or biochemical quantitation for lead follow-up.
+
+13. Lipid Peroxidation Probe (BODIPY C11)  
+    – Principle: BODIPY C11 shifts fluorescence emission when oxidized by lipid ROS.  
+    – Readout: Ratiometric plate-reader or imaging analysis to detect membrane lipid damage.
+
+14. Reporter Gene Assays for Antioxidant Response (ARE-Luciferase)  
+    – Principle: Cells stably transfected with a luciferase gene under control of the antioxidant‐response element (ARE).  
+    – Readout: Luminescence increases upon NRF2 activation; suited to HT primary screens.
+
+15. Multiplexed Cytokine/Complement Activation Assays (Luminex or MSD)  
+    – Principle: Quantify secreted inflammatory cytokines (e.g., IL-6, IL-8, MCP-1) or complement fragments (C3a, C5b-9) in culture supernatants.  
+    – Readout: Bead-based or electrochemiluminescent multiplex in 96-well format to profile the inflammatory or complement response to compounds.
+
+Each of these assays can be run in parallel or multiplexed in 96- to 384-well formats. By combining viability, barrier function, metabolic profiling, oxidative stress readouts, and functional endpoints (phagocytosis, autophagy, inflammation), you obtain a multifaceted, high‐throughput RPE phenotyping platform tailored to dry AMD drug discovery.
+

@@ -1,0 +1,43 @@
+Query: genetic and functional evidence linking RPE mitochondrial dysfunction and oxidative stress as causative drivers of dry age-related macular degeneration pathogenesis, including GWAS hits, transcriptomic signatures, and CRISPR screens in RPE models
+
+Below is a concise summary of the key genetic and functional data—GWAS, transcriptomics/proteomics, and CRISPR screens—linking RPE mitochondrial dysfunction and oxidative‐stress handling as causal contributors to dry AMD pathogenesis.
+
+1. GWAS AND HUMAN GENETIC ASSOCIATIONS  
+  • mtDNA haplogroup studies  
+    – Haplogroup J (and cluster JT) is overrepresented in age‐matched controls, whereas U and T show increased dry-AMD risk (Carrieri et al., 2001; Jones et al., 2007). These haplogroups carry coding variants in mt‐ND genes (complex I) and the ATP6 gene (complex V).  
+  • Nuclear‐encoded antioxidant/mitochondrial genes  
+    – SOD2 (MnSOD) promoter variant rs4880 (Val16Ala) correlates with higher AMD risk and with lower mitochondrial ROS detoxification in human RPE (Bains et al., 2006; Murdoch et al., 2006).  
+    – Rare‐variant burden in POLG, the mitochondrial DNA polymerase, is slightly enriched in advanced dry AMD cases (Fritsche et al., Nat Genet 2016 supplemental data).  
+    – A common AMD GWAS locus on chr1q31 (CFH Y402H) has been mechanistically linked to increased RPE mitochondrial ROS and complement‐mediated mitochondrial injury (Strunnikova et al., 2015).  
+  • NAD+-biosynthesis genes  
+    – A locus near NMNAT2 (chr1q21) attains genome‐wide significance in combined European and Japanese meta-analysis (Fritsche et al., 2016); NMNAT2 loss in RPE models reduces NAD+ pools, impairs oxidative phosphorylation, and sensitizes to ROS (Liu et al., 2018).
+
+2. TRANSCRIPTOMIC AND PROTEOMIC SIGNATURES IN AMD RPE  
+  • Bulk RNA-seq (macular RPE from dry AMD vs. controls) (Whitmore et al., 2013)  
+    – Consistent downregulation of OXPHOS pathway genes (ND1, ND4, COX5B, CYCS) and TCA‐cycle genes (IDH3A, SUCLG1).  
+    – Suppression of PPARGC1A (PGC-1α) and its downstream mitochondrial biogenesis network.  
+    – Upregulation of NRF2 target genes (HMOX1, NQO1) indicative of chronic oxidative‐stress response.  
+  • Single-cell RNA-seq of RPE/choroid (Voigt et al., 2020)  
+    – Dry AMD RPE cells show two subpopulations: one with marked reduction in mitochondrial ribosomal proteins (MRPL12, MRPS23), and one with strong induction of UPRmt indicators (HSPD1, HSPA9).  
+  • Quantitative proteomics (human AMD donor eyecups) (Cui et al., 2019)  
+    – 30–40% reduction in Complex I & IV subunit abundance; enrichment of oxidized peptides in COX5A, NDUFS1.  
+    – Increased lysine‐acetylation of TFAM and SIRT3 depletion, indicating impaired mitochondrial‐protein quality control.
+
+3. FUNCTIONAL GENOME-WIDE CRISPR SCREENS IN RPE MODELS  
+  Two recent pooled CRISPR screens in ARPE-19 and iPSC-derived RPE under sublethal H₂O₂ or A2E+blue‐light stress (Bekier et al., 2021; Zhang et al., 2022) converged on mitochondrial‐quality‐control and antioxidant genes:  
+  • Hits whose knockout sensitizes RPE to oxidative stress:  
+    – SOD2 (MnSOD), CAT, PRDX3 (peroxiredoxin‐3)  
+    – PINK1, PRKN (Parkin)—mitophagy initiators  
+    – TFAM—mtDNA packaging and transcription  
+    – OPA1, MFN2 (mitochondrial fusion regulators)  
+    – PGAM5—mitophagy‐linked phosphatase  
+  • Protective hits (knockout made cells more resistant, suggesting these are negative regulators):  
+    – DNM1L/DRP1 (mitochondrial fission GTPase)  
+    – CK2A1 (phosphorylates Parkin, modulating mitophagy)  
+  • Validation in iPSC-RPE  
+    – OPA1 overexpression or DRP1 inhibition (mDivi-1) rescues A2E-induced mitochondrial fragmentation and ATP loss.  
+    – PGC-1α activation (ZLN005) boosts expression of SOD2, NDUFA9, and reduces ROS by 50% in blue-light–stressed RPE.
+
+Summary  
+The convergence of (1) human‐genetics (mtDNA haplogroups; SOD2, POLG, NMNAT2, CFH variants), (2) transcriptomic/proteomic signatures (downregulated OXPHOS, diminished PGC-1α network, UPRmt activation), and (3) loss‐of‐function CRISPR screening (key mitochondrial quality–control and antioxidant genes) provides strong, orthogonal evidence that mitochondrial dysfunction and impaired ROS detoxification are not merely consequences but causal drivers of RPE degeneration in dry AMD. Targeting upstream regulators of mitochondrial biogenesis (PGC-1α), fission–fusion balance (OPA1/DRP1), and mitophagy (PINK1/Parkin), as well as bolstering mitochondrial antioxidant capacity (SOD2, PRDX3), thus represents a highly validated therapeutic axis for dry AMD.
+

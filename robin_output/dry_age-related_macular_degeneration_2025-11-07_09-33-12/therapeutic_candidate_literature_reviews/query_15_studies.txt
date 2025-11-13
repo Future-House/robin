@@ -1,0 +1,24 @@
+Query: Studies elucidating how complement dysregulation in the subretinal space impairs RPE phagocytosis and contributes to drusen formation, with target validation in dry AMD specimens
+
+Complement dysregulation in the subretinal space disrupts RPE phagocytosis by impairing the normal processing of cellular debris. Loss or reduced function of key regulatory proteins such as CFH, CD46, and CD55—often exacerbated by genetic variants like CFH Y402H—compromises Factor I–mediated inactivation of C3b, leading to increased opsonization that misdirects clearance away from RPE-mediated phagocytosis (behnke2022ifnβimmunomodulationand pages 31-33, tang2024aberrantlipidmetabolism pages 10-11). Enhanced C3 convertase activity results in elevated C3a and C5a production, which recruits and activates microglia and macrophages; these immune cells, in turn, sequester debris and contribute to chronic inflammation at the RPE–Bruch’s membrane interface (biber2023thecomplementsystem pages 34-35, jiao2018theroleof pages 35-40). Oxidative stress and lipofuscin accumulation further exacerbate the situation by downregulating local complement inhibitors and promoting membrane attack complex deposition, thereby impairing lysosomal degradation within RPE cells (tang2024aberrantlipidmetabolism pages 20-21, jiao2018theroleof pages 40-46). Proteomic and immunohistochemical studies from dry AMD specimens have validated these mechanisms by demonstrating co-localization of complement components and altered regulator expression within drusen deposits (lin2018theroleof pages 75-78, jiao2018theroleof pages 187-191).
+
+Complement dysregulation impairs the RPE’s ability to clear debris, which promotes inflammation and drusen formation in dry AMD. These findings validate targets such as CFH dysfunction and excessive complement activation as central to disease pathology.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/e5a985b4-aebe-41e1-8872-4147c0316961
+
+References:
+1. (behnke2022ifnβimmunomodulationand pages 31-33): V Behnke. Ifn-β immunomodulation and complement receptor analysis in a mouse model of age-related macular degeneration (amd). Unknown journal, 2022.
+
+2. (tang2024aberrantlipidmetabolism pages 10-11): Siao Tang, Jiaqi Yang, Bingqing Xiao, Yani Wang, Yiou Lei, Dongwei Lai, and Qinghua Qiu. Aberrant lipid metabolism and complement activation in age-related macular degeneration. Investigative Ophthalmology &amp; Visual Science, 65:20, Oct 2024. URL: https://doi.org/10.1167/iovs.65.12.20, doi:10.1167/iovs.65.12.20. This article has 12 citations and is from a domain leading peer-reviewed journal.
+
+3. (biber2023thecomplementsystem pages 34-35): Josef Biber. The complement system in the retina. Dissertation, Jan 2023. URL: https://doi.org/10.5282/edoc.32987, doi:10.5282/edoc.32987. This article has 0 citations.
+
+4. (jiao2018theroleof pages 35-40): Helen Jiao. The role of complement in a new mouse model of focal retinal degeneration. ArXiv, Jan 2018. URL: https://doi.org/10.25911/5d611de917770, doi:10.25911/5d611de917770. This article has 0 citations.
+
+5. (tang2024aberrantlipidmetabolism pages 20-21): Siao Tang, Jiaqi Yang, Bingqing Xiao, Yani Wang, Yiou Lei, Dongwei Lai, and Qinghua Qiu. Aberrant lipid metabolism and complement activation in age-related macular degeneration. Investigative Ophthalmology &amp; Visual Science, 65:20, Oct 2024. URL: https://doi.org/10.1167/iovs.65.12.20, doi:10.1167/iovs.65.12.20. This article has 12 citations and is from a domain leading peer-reviewed journal.
+
+6. (jiao2018theroleof pages 40-46): Helen Jiao. The role of complement in a new mouse model of focal retinal degeneration. ArXiv, Jan 2018. URL: https://doi.org/10.25911/5d611de917770, doi:10.25911/5d611de917770. This article has 0 citations.
+
+7. (lin2018theroleof pages 75-78): Yuchen Lin. The role of age-related maculopathy susceptibility protein 2 (arms2) in the complement regulation of arpe-19 cells. ArXiv, Jan 2018. URL: https://doi.org/10.22032/dbt.34410, doi:10.22032/dbt.34410. This article has 0 citations.
+
+8. (jiao2018theroleof pages 187-191): Helen Jiao. The role of complement in a new mouse model of focal retinal degeneration. ArXiv, Jan 2018. URL: https://doi.org/10.25911/5d611de917770, doi:10.25911/5d611de917770. This article has 0 citations.

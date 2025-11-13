@@ -1,0 +1,62 @@
+Query: studies screening mitochondria-targeted antioxidants in retinal pigment epithelial cell models of dry age-related macular degeneration using mitoQ or analogous mitochondrial ROS mitigation assays, with emphasis on potency, specificity, downstream functional rescue of mitochondrial respiration and safety/PK characterization
+
+1. Alkyl‐Chain Length Structure–Activity Study  
+Hypothesis: MitoQ analogs with varying alkyl linker lengths (C6–C12) differ in mitochondrial uptake, ROS scavenging potency and specificity in ARPE-19 cells.  
+Assays: MitoSOX for mitochondrial superoxide; H2DCFDA for cytosolic ROS; Seahorse XF for basal/ATP‐linked respiration; AlamarBlue for cytotoxicity; LC‐MS/MS for intracellular compound levels.  
+
+2. Peptide‐Enhanced Targeting of Mitochondrial Antioxidants  
+Hypothesis: Conjugation of mitoQ to mitochondria‐penetrating peptides (e.g. Szeto-Schiller motifs) increases RPE mitochondrial delivery and functional rescue at lower doses.  
+Assays: Fluorescent tracking of uptake; subcellular fractionation + LC‐MS for specificity; Seahorse assays; mitochondrial membrane potential (JC-1); MTT viability.  
+
+3. Activation of PGC-1α–Mediated Biogenesis by MitoQ  
+Hypothesis: MitoQ treatment under oxidative stress upregulates PGC-1α, driving mtDNA replication and improved respiration in primary human RPE.  
+Assays: qPCR for PGC-1α, NRF1, TFAM; mtDNA copy number; Seahorse OCR; Western blot for OXPHOS subunits; ROS measurements.  
+
+4. Inhibition of NLRP3 Inflammasome via Mitochondrial ROS Scavenging  
+Hypothesis: MitoQ suppresses NLRP3 activation in A2E-loaded iPSC-derived RPE by reducing mitochondrial ROS.  
+Assays: IL-1β ELISA; caspase-1 FLICA; MitoSOX; Seahorse; LDH release for cytotoxicity; time‐course PK of mitoQ efflux.  
+
+5. ROS-Activated Prodrug for On‐Demand Antioxidant Release  
+Hypothesis: A boronate‐caged mitoQ prodrug releases active moiety only upon high H2O2, improving specificity and safety in RPE under light stress.  
+Assays: H2O2 dose–response cleavage (HPLC); ROS assays; Seahorse; cell viability; off‐target oxidation in cysteine‐rich probes.  
+
+6. Synergistic Rescue with MitoQ plus Nrf2 Activator  
+Hypothesis: Combined low‐dose mitoQ and sulforaphane yield greater restoration of mitochondrial function than either alone in H2O2‐challenged RPE.  
+Assays: Isobologram analysis for synergy; ROS assays; Seahorse; Nrf2 target gene qPCR; cytotoxicity; intracellular accumulation PK.  
+
+7. Preservation of Cristae Structure via OPA1 Stabilization  
+Hypothesis: MitoQ prevents oxidative‐stress–induced OPA1 cleavage, maintaining mitochondrial cristae and ATP production in ARPE-19.  
+Assays: Western blot for L-OPA1/S-OPA1; transmission EM for cristae density; ATP luminescence assay; ROS measurements.  
+
+8. Triphenylphosphonium versus Guanidinium Targeting Moieties  
+Hypothesis: Guanidinium‐tagged antioxidants achieve similar mitochondrial targeting as TPP (mitoQ) with reduced plasma membrane depolarization in RPE.  
+Assays: Mitochondrial uptake (LC‐MS); membrane potential (TMRM); Seahorse; cytosolic ROS; cell‐based PK (uptake/efflux kinetics).  
+
+9. Rescue of A2E-Induced Mitochondrial Dysfunction  
+Hypothesis: MitoQ and analogs mitigate lipofuscin A2E–driven mitochondrial fragmentation and respiration loss in iPSC-RPE.  
+Assays: A2E loading + blue‐light exposure; MitoSOX; Seahorse; confocal imaging of mitochondrial network (MitoTracker); cell survival.  
+
+10. Chronic Dosing Safety and Intracellular Accumulation  
+Hypothesis: Repeated low-dose mitoQ over weeks accumulates within RPE mitochondria without off‐target toxicity and sustains respiratory function.  
+Assays: 14-day dosing; LC-MS for intracellular levels; Seahorse time course; cytotoxicity panels (LDH, caspase-3); genotoxicity (γH2AX).  
+
+11. Enhancement of Mitophagy via Pink1/Parkin Pathway  
+Hypothesis: MitoQ promotes clearance of damaged mitochondria in RPE by facilitating Pink1 stabilization and Parkin recruitment under oxidative insult.  
+Assays: Pink1/Parkin immunofluorescence; LC3/p62 Western blot; mtKeima reporter for mitophagy; Seahorse for functional outcome.  
+
+12. Mn-Porphyrin–Mitochondrial Conjugates as Dual ROS Catalysts  
+Hypothesis: Conjugating Mn-porphyrin SOD mimetics to TPP yields higher H2O2 conversion and broad‐spectrum ROS mitigation than mitoQ alone.  
+Assays: Cell-free SOD/peroxidase kinetics; MitoSOX/H2DCFDA; Seahorse; viability; PK: half‐life in culture medium and cells.  
+
+13. Real‐Time Imaging of Antioxidant Kinetics with Fluorescent Tags  
+Hypothesis: Fluorescently labeled mitoQ analogs allow correlation of mitochondrial accumulation kinetics to ROS reduction and respiratory rescue.  
+Assays: Live‐cell confocal FRET; timed ROS bursts; Seahorse; photobleaching controls; toxicity assessment.  
+
+14. Stress‐Paradigm–Specific Antioxidant Efficacy  
+Hypothesis: MitoQ potency differs between H2O2 and photo‐oxidative stress models in RPE; optimal dosing regimens vary accordingly.  
+Assays: Parallel H2O2 vs blue–light + riboflavin models; ROS; Seahorse; apoptosis assay (Annexin V); intracellular drug retention.  
+
+15. Combination of MitoQ with Mild Mitochondrial Uncouplers  
+Hypothesis: Low‐dose uncoupler (FCCP analog) plus mitoQ decreases ROS production while preserving respiration better than mitoQ alone.  
+Assays: Titration of uncoupler + mitoQ; Seahorse (proton leak, spare capacity); MitoSOX; cell viability; PK interactions (LC‐MS).
+

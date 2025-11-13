@@ -1,0 +1,47 @@
+Query: Gather information on extracellular matrix remodeling and Bruch’s membrane stiffening in dry AMD, focusing on MMP and TIMP expression changes in RPE, contributions of advanced glycation end products, and development of in vitro co-culture or biomimetic substrate stiffness assays to evaluate ECM-targeted compounds.
+
+1. Hypothesis: Advanced glycation end‐product (AGE) crosslinking of Bruch’s membrane collagen suppresses RPE MMP-2 secretion.  
+   Assay: Culture ARPE-19 cells on collagen I substrates pre‐treated with ribose to induce AGE crosslinks; quantify MMP-2/TIMP-2 by ELISA and zymography.
+
+2. Hypothesis: Increased substrate stiffness drives RPE TIMP-1 upregulation via YAP/TAZ mechanotransduction.  
+   Assay: Grow primary human RPE on polyacrylamide hydrogels of 2, 10, and 50 kPa; measure nuclear YAP, TIMP-1 mRNA/protein and test verteporfin inhibition.
+
+3. Therapeutic Strategy: AGE‐breaker (e.g., alagebrium) restores MMP/TIMP balance in stiffened BM models.  
+   Assay: Treat RPE cultured on AGE‐crosslinked matrices with alagebrium; assess ECM degradation by DQ-collagen fluorescence and MMP activity assays.
+
+4. Co-culture Model: RPE and choroidal endothelial cells on tunable‐stiffness biomimetic membranes to study paracrine ECM remodeling.  
+   Readouts: MMP-9/TIMP-3 secretion profiles, collagen IV deposition, and cell migration in response to AGE‐modified substrates.
+
+5. Hypothesis: Oxidative stress augments TIMP-2 expression via NF-κB in RPE on stiff matrices.  
+   Assay: Expose RPE on 30 kPa gels to H₂O₂ ± NF-κB inhibitor (BAY 11-7082); quantify TIMP-2 transcription and promoter‐reporter activity.
+
+6. Therapeutic Strategy: Nanoparticle delivery of recombinant MMP-9 to degrade AGE‐stiffened ECM beneath RPE.  
+   Assay: Encapsulate MMP-9 in lipid nanoparticles; apply to RPE on AGE‐crosslinked collagen; monitor ECM degradation and RPE barrier integrity.
+
+7. Hypothesis: Lysyl oxidase (LOX)–mediated collagen crosslinking increases BM stiffness and disrupts RPE tight junctions.  
+   Assay: Culture RPE atop LOX‐treated collagen with or without β-aminopropionitrile (LOX inhibitor); examine ZO-1 distribution and transepithelial resistance.
+
+8. Mechanistic Test: CRISPRi knockdown of TIMP-3 in RPE reduces pathological ECM accumulation on stiff substrates.  
+   Assay: Engineer RPE lines with dCas9-KRAB targeting TIMP3; seed on 25 kPa hydrogels and measure collagen I/IV deposition by immunofluorescence.
+
+9. Therapeutic Screening: Anti-glycation peptides (e.g., carnosine analogs) prevent AGE formation and preserve MMP activity.  
+   Assay: Culture RPE in high‐glucose media ± peptides; assess AGE fluorescence, MMP-2/TIMP-2 ratios, and substrate stiffness by atomic force microscopy.
+
+10. Microfluidic Co-culture: RPE with macrophages under flow on tunable‐stiffness chambers to study immune‐driven MMP/TIMP shifts.  
+    Endpoints: Cytokine profiling, MMP-3 secretion, macrophage phenotype, and ECM deposition on flexible membranes.
+
+11. Hypothesis: Integrin β1 blockade attenuates stiffness‐induced downregulation of MMP-14 in RPE.  
+    Assay: Treat RPE on 40 kPa gels with anti-β1 antibody; measure membrane‐type MMP-14 levels, collagen degradation, and focal adhesion kinase phosphorylation.
+
+12. Natural Compound Screen: Resveratrol and baicalein for reducing AGE accumulation and normalizing MMP-2/TIMP-2 in RPE.  
+    Assay: High‐throughput 96-well format with AGE-modified collagen; quantify AGE levels by ELISA and MMP/TIMP by multiplex immunoassay.
+
+13. Therapeutic Strategy: Injectable MMP-2–loaded hydrogel to locally soften BM in ex vivo human eye cups.  
+    Assay: Deliver MMP-2 hydrogel under RPE in organ-cultured posterior segments; measure local stiffness changes by AFM and RPE viability.
+
+14. Hypothesis: TGF-β1 secreted by RPE on stiff matrices drives TIMP-1 overexpression; TGF-β receptor inhibition will restore MMP activity.  
+    Assay: Culture RPE on 20 kPa gels ± SB-431542; assay TGF-β1 levels, TIMP-1/MMP-2 ratio, and collagen degradation kinetics.
+
+15. Biomimetic Substrate: Decellularized Bruch’s membrane ECM from aged donors as culture surface to test ECM‐targeted therapeutics.  
+    Readouts: Baseline MMP/TIMP expression in RPE, AGE content, substrate stiffness; screen candidate compounds for stiffness reduction and ECM turnover.
+

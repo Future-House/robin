@@ -1,0 +1,30 @@
+Query: Identify cellular and molecular determinants of RPE tight junction integrity loss in dry AMD, highlighting Zo-1, occludin, claudins, and signaling pathways like Wnt/β-catenin and TGF-β, and establish assays to measure transepithelial resistance and permeability changes in RPE monolayers
+
+RPE tight junction integrity loss in dry AMD is driven by both the disruption of key junctional proteins and the activation of EMT-associated signaling pathways. The RPE barrier relies on proteins such as ZO-1, occludin, and claudins. Loss or redistribution of ZO-1 disrupts its role in sequestering signaling regulators (e.g., ZONAB), thereby promoting proliferation and EMT, while transcriptional repression of occludin and claudins by EMT drivers such as Snail leads to compromised junctional sealing (zhou2020roleofepithelialmesenchymal pages 6-7, zhou2022extracellularvesiclemediatedepithelial pages 29-33, zhou2020roleofepithelialmesenchymal pages 1-2). Aberrant Wnt/β-catenin signaling facilitates nuclear translocation of β-catenin, which in turn induces Snail expression and further suppresses occludin and claudin expression (zhou2022extracellularvesiclemediatedepithelial pages 25-29, zhou2020roleofepithelialmesenchymal pages 7-9). TGF-β signaling, through both canonical Smad-dependent and non-canonical pathways, also drives EMT and junctional protein loss, linking environmental or stress-induced cues to barrier failure (zhou2020roleofepithelialmesenchymal pages 7-9, zhou2022extracellularvesiclemediatedepithelial pages 29-33). In addition, cellular stress from misfolded proteins such as mutant R345W-Fibulin-3 triggers the unfolded protein response via the IRE1α/XBP1 pathway, which further promotes EMT and junctional disassembly (zhou2022extracellularvesiclemediatedepithelial pages 47-51, zhou2022extracellularvesiclemediatedepithelial pages 55-60).
+
+Transepithelial resistance and permeability changes in RPE monolayers can be rigorously assessed using Transwell-based assays. TER measurements are performed using an epithelial voltohmmeter (e.g., EVOM2) by subtracting the blank insert resistance and multiplying by the effective membrane area to yield Ω·cm² (zhou2022extracellularvesiclemediatedepithelial pages 105-110, tasinato2024developmentofan pages 67-70). Complementary permeability assays include quantification of paracellular tracer leakage using Lucifer Yellow, radiolabeled markers, or FITC-Albumin, while immunocytochemical staining of ZO-1 via confocal microscopy confirms structural integrity (zhou2022extracellularvesiclemediatedepithelial pages 105-110, tasinato2024developmentofan pages 221-224).
+
+Dry AMD manifests as RPE barrier dysfunction due to loss of ZO-1, occludin, and claudins mediated by Wnt/β-catenin and TGF-β signaling, measurable by TER and tracer permeability assays. This integrated approach provides both functional and molecular insights into tight junction disruption.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/0df06b7d-a209-4726-87ca-275b804c3b6e
+
+References:
+1. (zhou2020roleofepithelialmesenchymal pages 6-7): Mi Zhou, Jasmine S. Geathers, Stephanie L. Grillo, Sarah R. Weber, Weiwei Wang, Yuanjun Zhao, and Jeffrey M. Sundstrom. Role of epithelial-mesenchymal transition in retinal pigment epithelium dysfunction. Frontiers in Cell and Developmental Biology, Jun 2020. URL: https://doi.org/10.3389/fcell.2020.00501, doi:10.3389/fcell.2020.00501. This article has 187 citations and is from a poor quality or predatory journal.
+
+2. (zhou2022extracellularvesiclemediatedepithelial pages 29-33): M Zhou. Extracellular vesicle-mediated epithelial to mesenchymal transition as a disease mechanism in retinal pigment epithelia. Unknown journal, 2022.
+
+3. (zhou2020roleofepithelialmesenchymal pages 1-2): Mi Zhou, Jasmine S. Geathers, Stephanie L. Grillo, Sarah R. Weber, Weiwei Wang, Yuanjun Zhao, and Jeffrey M. Sundstrom. Role of epithelial-mesenchymal transition in retinal pigment epithelium dysfunction. Frontiers in Cell and Developmental Biology, Jun 2020. URL: https://doi.org/10.3389/fcell.2020.00501, doi:10.3389/fcell.2020.00501. This article has 187 citations and is from a poor quality or predatory journal.
+
+4. (zhou2022extracellularvesiclemediatedepithelial pages 25-29): M Zhou. Extracellular vesicle-mediated epithelial to mesenchymal transition as a disease mechanism in retinal pigment epithelia. Unknown journal, 2022.
+
+5. (zhou2020roleofepithelialmesenchymal pages 7-9): Mi Zhou, Jasmine S. Geathers, Stephanie L. Grillo, Sarah R. Weber, Weiwei Wang, Yuanjun Zhao, and Jeffrey M. Sundstrom. Role of epithelial-mesenchymal transition in retinal pigment epithelium dysfunction. Frontiers in Cell and Developmental Biology, Jun 2020. URL: https://doi.org/10.3389/fcell.2020.00501, doi:10.3389/fcell.2020.00501. This article has 187 citations and is from a poor quality or predatory journal.
+
+6. (zhou2022extracellularvesiclemediatedepithelial pages 47-51): M Zhou. Extracellular vesicle-mediated epithelial to mesenchymal transition as a disease mechanism in retinal pigment epithelia. Unknown journal, 2022.
+
+7. (zhou2022extracellularvesiclemediatedepithelial pages 55-60): M Zhou. Extracellular vesicle-mediated epithelial to mesenchymal transition as a disease mechanism in retinal pigment epithelia. Unknown journal, 2022.
+
+8. (zhou2022extracellularvesiclemediatedepithelial pages 105-110): M Zhou. Extracellular vesicle-mediated epithelial to mesenchymal transition as a disease mechanism in retinal pigment epithelia. Unknown journal, 2022.
+
+9. (tasinato2024developmentofan pages 67-70): E Tasinato. Development of an in vitro 3d model of the proximal tubule interstitial interface as a high throughput renal fibrosis assay platform. Unknown journal, 2024.
+
+10. (tasinato2024developmentofan pages 221-224): E Tasinato. Development of an in vitro 3d model of the proximal tubule interstitial interface as a high throughput renal fibrosis assay platform. Unknown journal, 2024.

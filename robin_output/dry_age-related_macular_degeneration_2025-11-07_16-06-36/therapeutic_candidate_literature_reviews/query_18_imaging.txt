@@ -1,0 +1,47 @@
+Query: imaging-based assays measuring mitochondrial morphology, cristae integrity, and ROS generation in RPE from dry AMD animal models or human post-mortem eyes, correlating ultrastructural damage with functional deficits
+
+1. Imaging‐based assay of mitochondrial ultrastructure in RPE from dry AMD models or post‐mortem eyes  
+   Mechanistic hypothesis: Ultrastructural mitochondrial defects (fragmented morphology, cristae loss) correlate directly with ROS overproduction and impaired phagocytosis.
+
+2. Autophagy‐flux quantification in ARPE-19 cells under oxidative stress  
+   Mechanistic hypothesis: H₂O₂‐induced lysosomal dysfunction impairs TFEB nuclear translocation, leading to autophagosome accumulation and RPE degeneration.
+
+3. CRISPR–Cas9 knockout of complement factor H (CFH) in iPSC‐derived RPE  
+   Mechanistic hypothesis: Loss of CFH increases C3b deposition on RPE, triggers membrane attack complex formation, and reduces photoreceptor outer segment clearance.
+
+4. NAD⁺ precursor supplementation in senescent RPE cultures  
+   Mechanistic hypothesis: Nicotinamide riboside restores SIRT1/3 activity, rescues mitochondrial respiration, and prevents senescence‐associated secretory phenotype.
+
+5. AntagomiR‐34a treatment in oxidative‐stressed RPE  
+   Mechanistic hypothesis: Inhibiting miR-34a shifts the balance toward mitochondrial fusion (via upregulation of MFN2), reducing ROS and apoptosis.
+
+6. High‐content small‐molecule screen for NLRP3 inflammasome inhibitors in RPE  
+   Mechanistic hypothesis: Specific blockade of NLRP3 activation reduces caspase-1–dependent IL-1β release and pyroptotic death under H₂O₂ challenge.
+
+7. RPE–microglia transwell co-culture under complement activation  
+   Mechanistic hypothesis: Complement‐activated RPE secrete chemokines that hyperactivate microglia, creating a feed-forward loop that disrupts RPE tight junctions.
+
+8. Lipidomics of A2E‐loaded RPE to identify peroxidation toxins  
+   Mechanistic hypothesis: Photooxidation of A2E generates specific oxidized phospholipids that act as DAMPs, triggering TLR2/4 signaling and cell death.
+
+9. AAV‐mediated SOD2 gene delivery to RPE under blue-light stress  
+   Therapeutic strategy: Overexpression of mitochondrial SOD2 lowers superoxide levels, preserves mitochondrial membrane potential, and enhances RPE survival.
+
+10. 3D RPE–choroid organoid model to test drusen‐mimetic deposits  
+    Therapeutic strategy: Evaluate compounds that prevent sub-RPE lipid‐protein aggregate formation and maintain barrier function as drusen prophylactics.
+
+11. Lentiviral overexpression of CD59 in RPE followed by complement challenge  
+    Therapeutic strategy: Enhanced CD59 expression blocks membrane attack complex insertion, reducing complement‐mediated cytotoxicity.
+
+12. Senolytic drug testing (e.g., navitoclax) on late‐passage RPE  
+    Mechanistic hypothesis/therapeutic strategy: Clearance of p16^INK4A+ senescent RPE restores phagocytic capacity and abrogates inflammatory cytokine release.
+
+13. Dietary carotenoid (lutein/zeaxanthin) treatment in RPE oxidative‐stress assays  
+    Mechanistic hypothesis: Carotenoids activate Nrf2, upregulate phase II antioxidant enzymes, and reduce ROS‐mediated DNA damage.
+
+14. Optogenetic control of CRAC (Orai1) channels in RPE to probe Ca²⁺‐induced toxicity  
+    Mechanistic hypothesis: Sustained Ca²⁺ influx via Orai1 activates calpain and promotes mitochondrial permeability transition, leading to apoptosis.
+
+15. Nanoparticle‐mediated delivery of mitochondria‐targeted antioxidant (MitoQ) to RPE  
+    Therapeutic strategy: Assess nanoparticle uptake, MitoQ release kinetics, ROS scavenging efficacy, and rescue of mitochondrial respiration under stress.
+

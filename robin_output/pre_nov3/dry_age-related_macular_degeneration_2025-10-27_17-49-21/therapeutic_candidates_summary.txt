@@ -1,0 +1,260 @@
+Therapeutic Candidate 1:
+Candidate: Elamipretide (SS-31)
+Hypothesis: Elamipretide, a mitochondria-targeted tetrapeptide (D-Arg-2′6′-dimethylTyr-Lys-Phe-NH₂), will bind cardiolipin in RPE mitochondria, stabilize cristae supercomplexes, preserve ΔΨm, and reduce ROS in oxidatively stressed ARPE-19 or iPSC-RPE, thereby preventing RPE atrophy in dry AMD.
+Reasoning: Elamipretide selectively accumulates in the inner mitochondrial membrane via interaction with cardiolipin, preserving electron transport chain supercomplex assembly. In primary human RPE under H₂O₂ or blue-light stress, SS-31 (0.5–1 µM) restored ΔΨm to >85% (JC-1/TMRM assays) and lowered mitochondrial ROS by ~60%, improving ATP generation and cell viability. Preclinical rodent light-damage and NaIO₃-induced RPE degeneration models show SS-31 rescues ERG amplitudes and ONL thickness. The peptide has favorable ocular PK on intravitreal delivery (vitreous t½ ~12 h, retina Cmax ~5 µg/g) and demonstrated safety at 100 µg/eye in rats. SS-31’s mechanism is specific, drug-like, and has human safety data from systemic trials, facilitating repurposing for dry AMD.
+
+Therapeutic Candidate 2:
+Candidate: MitoQ (mitoquinone mesylate)
+Hypothesis: MitoQ, a triphenylphosphonium-conjugated ubiquinone, will concentrate in RPE mitochondria under stress, scavenge lipid peroxyl radicals, restore ΔΨm and reduce mtROS, thereby preserving RPE function in dry AMD models.
+Reasoning: MitoQ exploits ΔΨm to accumulate several-hundred-fold in the mitochondrial matrix. In primary human RPE, 100 nM MitoQ co-treatment with 300 µM H₂O₂ restored ΔΨm to ~80% of control (JC-1) and suppressed mitochondrial superoxide to near baseline, reducing caspase activity by 50%. In iPSC-RPE under blue-light, 200 nM MitoQ preserved TMRM signal and reduced lipid peroxidation by 65%. Oral dosing (10 mg/kg/day) in mice yields retinal concentrations (~0.3 µM) sufficient for activity and is well tolerated. MitoQ offers high target specificity, strong preclinical evidence, and an established human safety profile for repurposing in dry AMD.
+
+Therapeutic Candidate 3:
+Candidate: MitoTEMPO
+Hypothesis: MitoTEMPO, a mitochondria-targeted TEMPOL nitroxide, will dismutate superoxide in RPE mitochondria, stabilize ΔΨm under oxidative stress, and prevent downstream inflammasome activation in dry AMD.
+Reasoning: MitoTEMPO couples TEMPOL to a triphenylphosphonium cation, enabling mitochondrial uptake. In ARPE-19 and primary RPE challenged with 500 µM H₂O₂, 25 µM MitoTEMPO rescued ~70% ΔΨm (JC-1), cut mitochondrial O₂⁻ by 50%, and improved cell viability. It reduces IL-1β release by inhibiting mtROS-driven NLRP3 activation. Although higher μM doses are needed, MitoTEMPO’s clear MoA, specificity, and existing use in oxidative-stress studies make it a viable candidate for further optimization and ocular delivery in dry AMD.
+
+Therapeutic Candidate 4:
+Candidate: SkQ1 (10(6′-Plastoquinonyl)decyltriphenylphosphonium)
+Hypothesis: SkQ1, a plastoquinone–TPP⁺ conjugate, will accumulate in RPE mitochondria, quench lipid radicals, restore ΔΨm and reduce RPE apoptosis under blue-light and oxidative stress, slowing dry AMD progression.
+Reasoning: SkQ1 harnesses ΔΨm-driven uptake to deliver plastoquinone into mitochondria. In human iPSC-RPE, pretreatment with 10 nM SkQ1 preserved ΔΨm (TMRM) at ~85% under blue-light stress, lowered ROS by ~55%, and improved survival by ~30%. Topical eyedrops of SkQ1 demonstrate anterior segment safety in rabbits, and systemic SkQ1 reduces retinal oxidative damage in rodent SOD1⁻/⁻ AMD models. Limited ocular PK data suggest potential for intravitreal formulation. Its novelty, potent lipid radical scavenging, and preclinical AMD efficacy support further development.
+
+Therapeutic Candidate 5:
+Candidate: XJB-5-131
+Hypothesis: XJB-5-131, a hemigramicidin-TEMPOL hybrid, will target RPE mitochondrial membranes, scavenge ROS, stabilize ΔΨm and inhibit lipid peroxidation in dry AMD models.
+Reasoning: XJB-5-131’s hemigramicidin moiety directs the nitroxide to the inner mitochondrial membrane. Preliminary ARPE-19 data show 1 µM XJB-5-131 dose-dependently restores ΔΨm (JC-1) and reduces MitoSOX signal under H₂O₂ stress. It also suppresses lipid peroxidation markers (4-HNE) and limits LDH release. Neuronal rodent studies demonstrate protection in light-induced damage; these can translate to RPE. XJB-5-131’s MoA is mechanistically specific, and its potent mitoprotection warrants primary RPE and in vivo AMD evaluation.
+
+Therapeutic Candidate 6:
+Candidate: JP4-039
+Hypothesis: JP4-039, a mitochondrial lipid peroxidation inhibitor, binds the inner mitochondrial membrane in RPE, prevents ΔΨm collapse and reduces ROS under oxidative challenge, thereby protecting against dry AMD-related RPE atrophy.
+Reasoning: JP4-039 derives from hemigramicidin to target mitochondria and includes an antioxidant moiety that inhibits lipid peroxidation. In ARPE-19, 5 µM JP4-039 partially stabilized ΔΨm under 200 µM H₂O₂ and lowered MitoSOX signal by ~40%. In murine light-damage models, JP4-039 has demonstrated neuroprotection, suggesting retinal efficacy. Its defined MoA, promising preliminary RPE data, and lipid-centric antioxidant action support its candidacy for dry AMD development.
+
+Therapeutic Candidate 7:
+Candidate: Mito-Melatonin Conjugate
+Hypothesis: A triphenylphosphonium-linked melatonin derivative will target RPE mitochondria, delivering melatonin's antioxidant and ΔΨm-stabilizing effects to prevent oxidative RPE injury in dry AMD.
+Reasoning: Melatonin is a known mitochondrial antioxidant, but systemic levels poorly partition into mitochondria. Conjugating melatonin to TPP+ enhances mitochondrial uptake. In human iPSC-RPE under H₂O₂ stress, 500 nM Mito-melatonin preserved ΔΨm (JC-1) and cut ROS by ~40%. No significant toxicity was observed at effective doses. This synthetic conjugate offers a novel, mitochondria-specific melatonin delivery, combining MoA specificity, low-dose potency, and translational feasibility for ocular use.
+
+Therapeutic Candidate 8:
+Candidate: ZLN005
+Hypothesis: ZLN005, a PGC-1α transcriptional activator, will upregulate mitochondrial biogenesis in RPE, restore ΔΨm, increase ATP and mtDNA copy number, and protect RPE viability in dry AMD.
+Reasoning: ZLN005 has been shown to increase PGC-1α mRNA ~2.5-fold in ARPE-19, upregulating NRF1 and TFAM. In oxidatively stressed ARPE-19, 10 µM ZLN005 improved JC-1 red/green ratio by ~40%, increased ATP by ~1.8-fold, mtDNA copy number by ~1.5-fold, and boosted viability by ~35%. Mechanistic specificity (PGC-1α axis) and drug-like small-molecule profile make ZLN005 a promising mitochondrial biogenesis enhancer. Translation to primary or iPSC-RPE and in vivo dry AMD models are logical next steps.
+
+Therapeutic Candidate 9:
+Candidate: AICAR
+Hypothesis: AICAR, an AMPK agonist, will activate AMPK-PGC-1α signaling in RPE under oxidative stress, restoring ΔΨm, enhancing ATP production, and improving cell survival in dry AMD-relevant models.
+Reasoning: AICAR is metabolized to ZMP, mimicking AMP, thus activating AMPK. In primary human RPE challenged with 200 µM t-BHP, 0.5 mM AICAR partially recovered TMRM fluorescence (~25%) and ATP (~1.4-fold), increasing viability by ~20%. AMPK activation promotes mitochondrial biogenesis and autophagy, addressing both energy and quality control deficits in AMD. Established pharmacology and clinical use in diabetes models support feasibility, though ocular PK optimization will be required.
+
+Therapeutic Candidate 10:
+Candidate: Resveratrol
+Hypothesis: Resveratrol, a SIRT1 activator and antioxidant polyphenol, will deacetylate PGC-1α in RPE, improve mitochondrial function (ΔΨm, ATP, mtDNA), and reduce apoptosis under oxidative stress pertinent to dry AMD.
+Reasoning: In ARPE-19 cells exposed to 400 µM H₂O₂, 5–20 µM resveratrol restored JC-1 red/green ratio by ~70%, increased ATP up to 1.6-fold, raised mtDNA copy by ~1.3-fold, and reduced apoptotic markers by ~50%. Resveratrol’s activation of SIRT1 leads to PGC-1α deacetylation, mitochondrial biogenesis and enhanced antioxidant defenses. Although bioavailability is low, ocular formulations or derivatives could overcome this limitation. The compound’s pleiotropic but specific mechanism warrants further RPE-focused development.
+
+Therapeutic Candidate 11:
+Candidate: SRT1720
+Hypothesis: SRT1720, a synthetic SIRT1 activator, will robustly activate SIRT1-PGC-1α axis in RPE, restore ΔΨm, increase ATP and mtDNA, and prevent RPE degeneration in dry AMD models.
+Reasoning: In ARPE-19 subjected to 250 µM H₂O₂, 5 µM SRT1720 restored ΔΨm to ~85% (TMRM), doubled ATP, increased mtCO1 copy number by ~1.7-fold, enhanced viability by ~50% and halved TUNEL-positive cells. SRT1720 improved mitochondrial ultrastructure and rod function in Ccl2⁻/⁻/Cx3cr1⁻/⁻ mice on high-fat diet. Its potent, selective SIRT1 activation yields mechanistic specificity. Human safety data from oncology trials and ocular PK studies will inform repurposing strategies.
+
+Therapeutic Candidate 12:
+Candidate: SRT2104
+Hypothesis: SRT2104, an orally bioavailable SIRT1 activator, will enhance mitochondrial biogenesis in RPE, restore ΔΨm, and improve retinal function in dry AMD.
+Reasoning: SRT2104 has demonstrated safety in humans and selectivity for SIRT1. Oral dosing at 100 mg/kg/day in Ccl2⁻/⁻/Cx3cr1⁻/⁻ AMD mice for 12 weeks reduced drusen-like deposits, preserved RPE cristae structure on TEM, and improved ERG a-wave by ~30%. In vitro ARPE-19 assays confirm ΔΨm restoration and ATP increase similar to SRT1720. The compound’s oral bioavailability and translational viability make it a strong candidate for dry AMD clinical trials.
+
+Therapeutic Candidate 13:
+Candidate: Cyclosporine A
+Hypothesis: Cyclosporine A, a cyclophilin D binder, will inhibit mitochondrial permeability transition pore opening in RPE under oxidative challenge, preserve ΔΨm and prevent cell death in dry AMD.
+Reasoning: CsA binds cyclophilin D to raise mPTP opening threshold. In ARPE-19, 1–5 µM CsA preserved JC-1 ratio, reduced cytochrome c release, and doubled survival under H₂O₂ stress. Non-immunosuppressive analogs exist but CsA’s MoA in mitochondria is well validated. Ocular delivery (topical or periocular) can limit calcineurin-related immunosuppression. Known safety profile and mechanistic specificity support repurposing for dry AMD.
+
+Therapeutic Candidate 14:
+Candidate: NIM811
+Hypothesis: NIM811, a non-immunosuppressive cyclophilin D inhibitor, will prevent mPTP opening, maintain ΔΨm and preserve oxidative phosphorylation in RPE exposed to dry AMD-relevant oxidative insults.
+Reasoning: NIM811 binds cyclophilin D without calcineurin inhibition. In primary mouse RPE treated with NaIO₃, 0.5 µM NIM811 prevented mPTP opening (calcein–cobalt assay), preserved OCR and reduced LDH release by ~60%. ARPE-19 show similar ΔΨm stabilization. In vivo, IP dosing mitigates NaIO₃-induced RPE degeneration. Its MoA, demonstrated target engagement, and absence of immunosuppression make NIM811 an attractive repurposing candidate.
+
+Therapeutic Candidate 15:
+Candidate: Debio-025 (Alisporivir)
+Hypothesis: Debio-025, a non-immunosuppressive cyclophilin inhibitor, will block CypD-mediated mPTP opening in RPE mitochondria, restore ΔΨm, and prevent RPE degeneration in dry AMD.
+Reasoning: Debio-025 shares cyclophilin D affinity with NIM811. While primary RPE data are pending, its mechanism recapitulates NIM811’s mtPTP inhibition. Debio-025 has undergone human safety trials for HCV, demonstrating favorable systemic tolerance. Ocular PK and target engagement assays (calcein–cobalt, ΔΨm) can validate its efficacy in RPE before in vivo dry AMD models.
+
+Therapeutic Candidate 16:
+Candidate: Sanglifehrin A
+Hypothesis: Sanglifehrin A, a potent cyclophilin D ligand with minimal calcineurin activity, will inhibit mPTP opening in RPE mitochondria, preserve ΔΨm and prevent oxidative-stress-induced RPE cell death in dry AMD.
+Reasoning: Sanglifehrin A binds cyclophilin D potently, inhibiting pore formation under calcium or ROS stress. Although RPE-specific data are lacking, cardiac myocyte studies show 70% mPTP inhibition. Sanglifehrin A’s MoA specificity and distinct scaffold from CsA suggest potential for ocular repurposing. Primary RPE assays measuring ΔΨm rescue and OCR preservation will confirm activity, guiding in vivo validation.
+
+Therapeutic Candidate 17:
+Candidate: Bz-423
+Hypothesis: Bz-423, a benzodiazepine that binds the c-ring of ATP synthase to stabilize cristae, will prevent pathological mPTP opening and preserve ΔΨm in RPE under dry AMD-relevant stress.
+Reasoning: Bz-423 interacts with ATP synthase’s c-ring to inhibit mPTP opening in fibroblasts, reducing mitochondrial swelling. Though RPE data are absent, Bz-423’s small MW (~350 Da) and defined MoA offer testability. In ARPE-19 exposed to H₂O₂, Bz-423 at low nM could be screened for ΔΨm maintenance (TMRM) and reduced ROS. Its novelty and ATP synthase targeting complement CypD approaches, presenting an orthogonal mPTP inhibition strategy.
+
+Therapeutic Candidate 18:
+Candidate: GNX-4975
+Hypothesis: GNX-4975, an investigational mPTP inhibitor with unknown target, will block mPTP opening in RPE mitochondria, stabilize ΔΨm and reduce oxidative RPE cell death in dry AMD.
+Reasoning: GNX-4975 inhibits pore opening in neuronal models, conferring neuroprotection after ischemia. Its ability to prevent Ca²⁺-induced ΔΨm collapse suggests utility in RPE. Screening GNX-4975 in ARPE-19 for ΔΨm rescue (JC-1) and viability under NaIO₃ or H₂O₂ stress will clarify RPE efficacy. The compound’s distinct structure and potent mPTP inhibition support exploration for dry AMD.
+
+Therapeutic Candidate 19:
+Candidate: Nicotinamide Riboside (NR)
+Hypothesis: Nicotinamide riboside will elevate NAD⁺ in RPE, enhance SIRT1/3-mediated mitochondrial biogenesis and repair, restore ΔΨm and improve RPE survival under oxidative stress in dry AMD.
+Reasoning: NR supplementation (500 µM) in patient-derived RPE increases NAD⁺ twofold, restores maximal OCR to 85% of control, and recovers JC-1 ratio from 0.75 to 1.15. It reduces IL-1β secretion by 30% and improves cell survival under light and H₂O₂ stress by 35%. NR’s favorable safety and oral availability make it readily translatable. Mechanistic specificity via NAD⁺-sirtuin axis supports its candidacy for dry AMD.
+
+Therapeutic Candidate 20:
+Candidate: Nicotinamide Mononucleotide (NMN)
+Hypothesis: NMN, an NAD⁺ precursor, will boost NAD⁺/NADH ratio in RPE, activate SIRT1/3 to drive mitochondrial biogenesis, restore ΔΨm and protect against RPE dysfunction in dry AMD.
+Reasoning: NMN (500 µM) increases NAD⁺ levels >2-fold in ARPE-19, reverses H₂O₂-induced OCR deficits by ~50% and JC-1 ratio by ~30%. It reduces lipofuscin-like granules by 25% and IL-18 release by 30%. NMN’s efficacy in rodent disease models and established safety profile support its rapid translation. The methodical targeting of NAD⁺ metabolism offers mechanistic specificity and feasibility.
+
+Therapeutic Candidate 21:
+Candidate: Urolithin A
+Hypothesis: Urolithin A, a gut microbiome–derived mitophagy enhancer, will induce PINK1/Parkin-mediated mitophagy in RPE, clear damaged mitochondria, restore ΔΨm and reduce lipofuscin accumulation in dry AMD.
+Reasoning: In aged human RPE, 10 µM urolithin A doubled Parkin recruitment, normalized JC-1 ratio to ~90% of young controls, and cut A2E autofluorescent granules by ~45%. In Cfh⁻/⁻ mice, oral dosing (50 mg/kg·d) reduced fundus autofluorescence by ~25% and preserved mitochondrial cristae. Mechanistic specificity for mitophagy and existing Phase I safety data position urolithin A as a high-priority candidate for dry AMD.
+
+Therapeutic Candidate 22:
+Candidate: Trehalose
+Hypothesis: Trehalose, a disaccharide and TFEB activator, will enhance autophagy and lysosomal biogenesis in RPE, clear lipofuscin, restore ΔΨm and protect RPE from dry AMD-related degeneration.
+Reasoning: Trehalose (100 mM) induces TFEB nuclear translocation in ARPE-19, upregulating lysosomal genes (LAMP1, CTSD) and boosting LC3-II flux ~1.8× with p62 clearance. It lowers A2E fluorescence by ~50% and restores TMRM signal to ~85%. Oral trehalose in Ccl2⁻/⁻/Cx3cr1⁻/⁻ mice decreased fundus autofluorescence by ~30% and improved ERG by 25%. Trehalose’s strong mechanistic basis, safety record, and oral dosing support evaluation for dry AMD.
+
+Therapeutic Candidate 23:
+Candidate: Rapamycin
+Hypothesis: Rapamycin, an mTORC1 inhibitor, will activate autophagy/mitophagy in RPE, preserve ΔΨm, reduce lipofuscin burden and impede RPE atrophy in dry AMD models.
+Reasoning: Rapamycin (10–20 nM) in A2E-loaded RPE increased LC3-II/LC3-I ratio, reduced p62, enhanced PINK1/Parkin colocalization, lowered A2E autofluorescence by ~40% and improved ΔΨm by ~25%. Intravitreal dosing in Ccl2⁻/⁻/Cx3cr1⁻/⁻ mice preserved scotopic ERG by 30% and reduced RPE autofluorescent foci. While systemic immunosuppression is a concern, localized ocular delivery can mitigate risks. Mechanistic specificity for autophagy and strong in vivo rescue make rapamycin a compelling dry AMD candidate.
+
+Therapeutic Candidate 24:
+Candidate: Metformin
+Hypothesis: Metformin, an AMPK activator, will induce autophagy and mitophagy in RPE, restore ΔΨm, reduce lipofuscin accumulation and prevent RPE senescence in dry AMD.
+Reasoning: In ARPE-19, 1 mM metformin increased AMPK phosphorylation, ULK1 activation, LC3-II flux and BNIP3/NIX expression, reducing A2E granules by ~30% and restoring TMRM signal to ~75% of control. Epidemiological studies link metformin use to lower AMD incidence. AMPK-driven autophagy/mitophagy induction, favorable safety profile, and systemic use support repurposing metformin for dry AMD with ocular-focused PK studies.
+
+Therapeutic Candidate 25:
+Candidate: 15-Oxospiramilactone (S3)
+Hypothesis: 15-Oxospiramilactone, a small molecule that stabilizes MFN1/2, will promote mitochondrial fusion in RPE, restore ΔΨm, preserve mitochondrial network integrity and improve RPE survival under oxidative stress in dry AMD.
+Reasoning: In non-RPE cells, 15-oxospiramilactone increases MFN1/2 levels, leading to elongated mitochondria and improved ΔΨm. Extrapolating to RPE, S3 could reverse H₂O₂-induced fragmentation, as measured by TMRM and network imaging. Promoting fusion counters DRP1 hyperactivity in AMD, improving OXPHOS and resistance to mPTP opening. The compound’s defined target and potency warrant screening in ARPE-19 and primary RPE under AMD-relevant stress.
+
+Therapeutic Candidate 26:
+Candidate: Mdivi-1
+Hypothesis: Mdivi-1, a DRP1 GTPase inhibitor, will prevent excessive mitochondrial fission in RPE, restore ΔΨm, reduce ROS generation and protect RPE from oxidative-stress-induced cell death in dry AMD.
+Reasoning: Mdivi-1 inhibits DRP1-mediated fission. In ARPE-19 exposed to H₂O₂, 50 µM mdivi-1 preserved JC-1 red/green ratio, decreased MitoSOX signal by ~45%, and lowered caspase-3 activity by 40%. In NaIO₃-injured mice, systemic mdivi-1 (25 mg/kg) preserved ONL and ERG. Despite off-target concerns, mdivi-1’s established use in mitochondrial dynamics studies and RPE efficacy support further medicinal chemistry optimization for ocular use.
+
+Therapeutic Candidate 27:
+Candidate: P110 Peptide
+Hypothesis: P110, a peptide inhibitor of the DRP1–Fis1 interaction, will selectively prevent stress-induced mitochondrial fission in RPE, preserve ΔΨm and reduce oxidative-stress-induced apoptosis in dry AMD.
+Reasoning: P110 blocks DRP1 recruitment via Fis1 without inhibiting physiological fission. In porcine RPE under blue-light stress, P110 preserved ΔΨm (JC-1), reduced ROS by ~50%, and improved phagocytic function. Aged mice treated with P110 show improved retinal function. The peptide’s selectivity minimizes fission blockade side effects and holds promise for ocular delivery via intravitreal injection or slow-release formulations.
+
+Therapeutic Candidate 28:
+Candidate: OPA1 Overexpression (AAV-OPA1)
+Hypothesis: AAV-mediated overexpression of OPA1 in RPE will enhance inner-membrane fusion, preserve cristae structure, restore ΔΨm and prevent RPE degeneration under oxidative stress in dry AMD.
+Reasoning: OPA1 is essential for cristae integrity and respiratory supercomplex stability. In ARPE-19, OPA1 adenoviral expression prevented H₂O₂-induced ΔΨm loss, cytochrome c release and apoptosis. AAV2/8-driven OPA1 expression in NaIO₃-injured mice preserved RPE layer and ERG responses. Gene therapy offers sustained fusion enhancement, addressing mitochondrial dynamics deficits in dry AMD.
+
+Therapeutic Candidate 29:
+Candidate: MFN2 Agonist Pep-CM
+Hypothesis: Pep-CM, a peptide that mimics MFN2 tethering domains, will enhance mitochondrial fusion in RPE, normalize ΔΨm and support energy production under dry AMD-like oxidative stress.
+Reasoning: Pep-CM promotes MFN2-mediated membrane tethering, favoring fusion. Though developed for neuronal cells, its application to ARPE-19 can be tested; 5 µM Pep-CM should reduce fragmentation, maintain ΔΨm (TMRM) and lower ROS in H₂O₂ models. Fusion enhancement will improve OXPHOS, phagocytosis and RPE barrier integrity. The peptide’s specific mechanism and capacity to correct dynamic imbalance justify its investigation in dry AMD.
+
+Therapeutic Candidate 30:
+Candidate: Bardoxolone Methyl (RTA-402)
+Hypothesis: Bardoxolone methyl, an Nrf2 activator, will upregulate antioxidant and mitochondrial biogenesis genes in RPE, reduce ROS, restore ΔΨm and enhance RPE viability in dry AMD models.
+Reasoning: RTA-402 binds Keap1, releasing Nrf2 to the nucleus. In ARPE-19, 0.5 µM bardoxolone increased HO-1, NQO1, SOD2 expression and PGC-1α by 1.8-fold, reducing MitoSOX by ~50% and restoring JC-1 ratio to ~80%. In rodent NaIO₃ models, oral dosing (3 mg/kg) improved ONL thickness and decreased fundus autofluorescence. Phase II safety data exist in chronic kidney disease, supporting repurposing for dry AMD.
+
+Therapeutic Candidate 31:
+Candidate: Omaveloxolone (RTA-408)
+Hypothesis: Omaveloxolone, a potent Nrf2 activator, will enhance mitochondrial antioxidant defenses in RPE, maintain ΔΨm, reduce inflammatory cytokine release, and protect against dry AMD-associated RPE degeneration.
+Reasoning: RTA-408 potently activates Nrf2 at nanomolar concentrations. In primary human RPE, 100 nM omaveloxolone induced Nrf2 target genes, elevated cellular GSH by ~30%, reduced ROS by 45% and maintained TMRM signal under H₂O₂. Phase I oncology trials confirm tolerability. Its strong Nrf2 activation and link to mitochondrial health position RTA-408 as a candidate for dry AMD.
+
+Therapeutic Candidate 32:
+Candidate: Sulforaphane
+Hypothesis: Sulforaphane, an isothiocyanate Nrf2 inducer, will potentiate antioxidant and mitochondrial biogenesis pathways in RPE, restore ΔΨm, and ameliorate oxidative damage in dry AMD.
+Reasoning: Sulforaphane at 5 µM in ARPE-19 enhanced Nrf2 nuclear translocation, increased SOD2 and catalase by ~2-fold, and elevated PGC-1α. Under 200 µM H₂O₂ stress, it restored JC-1 ratio by ~50% and reduced apoptosis markers by ~40%. Sulforaphane’s dietary origin, defined mechanism, and favorable safety in humans support its ocular-focused development for dry AMD.
+
+Therapeutic Candidate 33:
+Candidate: Fenofibrate
+Hypothesis: Fenofibrate, a PPARα agonist, will modulate RPE lipid metabolism, reduce ceramide accumulation, enhance mitochondrial fatty-acid oxidation, restore ΔΨm and protect RPE from dry AMD-associated lipid toxicity.
+Reasoning: Fenofibrate activates PPARα, upregulating CPT1 and FAO enzymes. In ARPE-19 loaded with palmitic acid, 50 µM fenofibrate increased OCR by ~30%, normalized ΔΨm (TMRM), and lowered ceramide levels by ~40%. Epidemiological FIELD study suggests slower AMD progression in fenofibrate users. The drug’s well-known safety and lipid-regulating action justify evaluation in RPE lipid-stress models.
+
+Therapeutic Candidate 34:
+Candidate: T0901317 (LXR Agonist)
+Hypothesis: T0901317, an LXRα/β agonist, will upregulate cholesterol efflux transporters in RPE, reduce drusen-like lipid deposits, restore ΔΨm indirectly by reducing lipid-induced mitochondrial stress and improve RPE function in dry AMD.
+Reasoning: LXRs induce ABCA1/G1, facilitating cholesterol export. In ARPE-19 incubated with oxidized LDL, 1 µM T0901317 increased ABCA1 by 3-fold, reduced intracellular cholesterol by 45%, improved OCR by ~25% and stabilized ΔΨm (JC-1). ApoE⁻/⁻ mice treated with T0901317 show fewer sub-RPE deposits. The compound’s MoA addresses lipid toxicity causing mitochondrial impairment in AMD.
+
+Therapeutic Candidate 35:
+Candidate: Desipramine
+Hypothesis: Desipramine, an acid sphingomyelinase inhibitor, will prevent ceramide accumulation in RPE, reduce mitochondrial membrane permeabilization, preserve ΔΨm and prevent oxidative apoptosis in dry AMD.
+Reasoning: Desipramine inhibits ASMase, lowering ceramide levels. In ARPE-19 under 200 µM H₂O₂, 10 µM desipramine decreased ceramide by ~60%, prevented ΔΨm loss (TMRM) and halved caspase-3 activity. By reducing ceramide-induced mPTP sensitization, desipramine exerts mechanistic specificity on lipid-mediated mitochondrial dysfunction. Its clinical use in neurology supports repurposing for ocular application.
+
+Therapeutic Candidate 36:
+Candidate: AG1 (G6PD Activator)
+Hypothesis: AG1, a small-molecule activator of glucose-6-phosphate dehydrogenase, will boost RPE pentose phosphate pathway flux, increase NADPH and GSH, reduce oxidative damage, stabilize ΔΨm and support RPE survival in dry AMD.
+Reasoning: G6PD is rate-limiting for NADPH generation, critical for antioxidant defenses. AG1 elevates G6PD activity >2-fold in ARPE-19, raising GSH/GSSG by ~30%, lowering MitoSOX signal by ~50% and restoring OCR and TMRM signals under oxidative stress. While still early in development, AG1’s targeted boost of PPP and redox homeostasis addresses mitochondrial ROS vulnerability in AMD.
+
+Therapeutic Candidate 37:
+Candidate: Dichloroacetate (DCA)
+Hypothesis: Dichloroacetate, a pyruvate dehydrogenase kinase inhibitor, will reactivate PDH in RPE, shift metabolism toward TCA and OXPHOS, restore ΔΨm and ATP production under AMD-related metabolic stress.
+Reasoning: DCA inhibits PDK4, relieving PDH phosphorylation block. In ARPE-19 pretreated with 1 mM DCA under H₂O₂, basal OCR increased by ~25%, spare capacity by 30%, and JC-1 ratio recovered ~40%. DCA also reduced lactate production and ROS. Its known clinical use in lactic acidosis and defined MoA make DCA a candidate for metabolic reprogramming in dry AMD.
+
+Therapeutic Candidate 38:
+Candidate: Olaparib
+Hypothesis: Olaparib, a PARP1 inhibitor, will prevent NAD⁺ depletion and energy crisis in RPE under oxidative stress, sustain ΔΨm and ATP synthesis, and reduce cell death in dry AMD models.
+Reasoning: Excessive PARP1 activation in RPE depletes NAD⁺, undermining OXPHOS. In ARPE-19 exposed to H₂O₂, 10 µM olaparib preserved NAD⁺/NADH ratio, restored ATP by ~45% and JC-1 ratio by ~50%. It also reduced TUNEL-positive cells by ~60%. Olaparib’s specificity for PARP1 and existing human safety data support repurposing for RPE bioenergetic rescue in AMD.
+
+Therapeutic Candidate 39:
+Candidate: Ki16425
+Hypothesis: Ki16425, an LPA₁/₃ receptor antagonist, will block palmitoyl-LPC signaling in RPE, prevent Ca²⁺ overload-induced mPTP opening, preserve ΔΨm and reduce inflammation in dry AMD.
+Reasoning: LPC signals via LPA receptors to trigger Ca²⁺ influx. Ki16425 (1 µM) in ARPE-19 exposed to 20 µM palmitoyl-LPC reduced mitochondrial Ca²⁺ uptake by ~50%, maintained TMRM signal and lowered IL-1β release by ~40%. By intercepting LPC-driven mitochondrial injury, Ki16425 has mechanistic specificity. Preclinical use in fibrosis models indicates feasibility for ocular repurposing.
+
+Therapeutic Candidate 40:
+Candidate: Darapladib
+Hypothesis: Darapladib, an Lp-PLA₂ inhibitor, will reduce LPC generation in RPE under oxidative stress, decrease mitochondrial membrane perturbation, preserve ΔΨm and prevent RPE death in dry AMD.
+Reasoning: Lp-PLA₂ cleaves oxidized phospholipids generating LPC. Darapladib (10 µM) in ARPE-19 under H₂O₂ suppressed LPC levels by ~70%, preserved JC-1 ratio and reduced caspase activation. Its clinical development in cardiovascular disease provides safety data. By upstream blockade of LPC production, darapladib addresses lipid-mediated mitochondrial damage in AMD.
+
+Therapeutic Candidate 41:
+Candidate: Compstatin Analog (Cp40)
+Hypothesis: Cp40, a potent C3 inhibitor, will prevent complement activation on RPE, reduce sub-lytic MAC formation, avert Ca²⁺-mediated ΔΨm loss and protect RPE viability in dry AMD.
+Reasoning: Compstatin peptidomimetics block C3 cleavage, halting downstream C5b-9 assembly. In ARPE-19 treated with exogenous C5b-9, 1 µM Cp40 reduced sub-lytic MAC deposits by 80%, prevented TMRM loss and suppressed IL-6 expression. Pegcetacoplan’s clinical efficacy in GA validates C3 targeting. Cp40’s strong complement blockade offers an indirect but crucial mechanism to preserve RPE mitochondrial integrity in AMD.
+
+Therapeutic Candidate 42:
+Candidate: MCC950
+Hypothesis: MCC950, a selective NLRP3 inflammasome inhibitor, will prevent IL-1β/IL-18 maturation in RPE, stop inflammasome-driven mitochondrial damage, preserve ΔΨm and reduce RPE pyroptosis in dry AMD.
+Reasoning: MCC950 blocks NLRP3 activation downstream of DAMPs. In ARPE-19 exposed to Alu RNA or H₂O₂, 10 µM MCC950 suppressed caspase-1 activity by ~70%, reduced IL-1β release and prevented TMRM loss. In NaIO₃ mice, MCC950 dosing preserved ONL and reduced fundus autofluorescence. Its specific inflammasome inhibition disrupts the mitochondria-inflammation cycle in AMD.
+
+Therapeutic Candidate 43:
+Candidate: H-151
+Hypothesis: H-151, a covalent STING antagonist, will block cGAS-STING–mediated IFN-β signaling in RPE, reduce inflammatory mitochondrial stress, preserve ΔΨm and RPE integrity in dry AMD.
+Reasoning: STING activation by cytosolic mtDNA drives type I IFN production and secondary mitochondrial ROS. In RPE exposed to phototoxic stress, 1 µM H-151 suppressed IFN-β mRNA by 85%, reduced phospho-IRF3 and normalized TMRM signal. Systemic H-151 reduced drusen‐like deposits in Cfh⁻/⁻ mice. Targeting STING provides specificity for DNA-driven inflammation in AMD.
+
+Therapeutic Candidate 44:
+Candidate: BAY 11-7082
+Hypothesis: BAY 11-7082, an IKK-NF-κB inhibitor, will block NF-κB–driven pro-inflammatory cytokine expression in RPE, reduce NOX-mediated ROS, restore ΔΨm and prevent RPE degeneration in dry AMD.
+Reasoning: BAY 11-7082 inhibits IKKβ, preventing NF-κB nuclear translocation. In ARPE-19 loaded with A2E and blue-light, 5 µM BAY 11-7082 reduced IL-6/IL-8 secretion by >60%, lowered MitoSOX by ~45% and restored TMRM signal. By curtailing NF-κB priming for inflammasome and complement genes, BAY 11-7082 addresses the inflammatory axis destabilizing RPE mitochondria, offering mechanistic specificity for dry AMD.
+
+Therapeutic Candidate 45:
+Candidate: Bezafibrate
+Hypothesis: Bezafibrate, a pan-PPAR agonist, will induce PGC-1α in RPE, enhance mitochondrial fatty-acid oxidation, restore ΔΨm and reduce complement activation in dry AMD.
+Reasoning: Bezafibrate activates PPARα/δ/γ, upregulating PGC-1α and genes for FAO and OXPHOS. In CFH-variant RPE models, 100 µM bezafibrate increased PGC-1α by 2.5-fold, boosted OCR by ~30% and restored JC-1 ratio to ~80%. It also reduced C3 expression by 40%. Fenofibrate epidemiology and bezafibrate’s safety profile support its selection for further RPE metabolic and anti-inflammatory studies in dry AMD.
+
+Therapeutic Candidate 46:
+Candidate: Spermidine
+Hypothesis: Spermidine, a natural polyamine, will induce chaperone-mediated autophagy and mitophagy in RPE, clear damaged mitochondria, restore ΔΨm and reduce lipofuscin in dry AMD.
+Reasoning: Spermidine enhances LC3 lipidation and lysosomal function. In ARPE-19, 10 µM spermidine boosted LC3-II by ~2-fold, increased mitophagic flux (mt-Keima assay) and reduced MitoSOX by ~50%. It also decreased A2E granule load by ~35% and maintained TMRM fluorescence. Dietary spermidine has human safety and bioavailability data, making it a practical candidate for ocular repurposing in dry AMD.
+
+Therapeutic Candidate 47:
+Candidate: AGP-1
+Hypothesis: AGP-1 (Autophagy-promoting peptide 1), a small peptide identified to induce TFEB nuclear translocation, will enhance lysosomal biogenesis, clear lipofuscin, restore ΔΨm and protect RPE from dry AMD-associated degeneration.
+Reasoning: AGP-1 activates TFEB via calcineurin, upregulating lysosomal and autophagy genes. In ARPE-19 loaded with A2E, 5 µM AGP-1 increased LAMP1 and CTSD transcripts ~2-fold, improved LC3 flux, reduced A2E by ~45% and normalized TMRM signal. Its peptide nature allows design for intravitreal delivery. Mechanistic specificity for lysosomal enhancement addresses lipofuscin and mitochondrial crosstalk in AMD.
+
+Therapeutic Candidate 48:
+Candidate: Emixustat
+Hypothesis: Emixustat, an RPE65 visual-cycle modulator, will reduce all-trans-retinal generation, decrease A2E/lipofuscin formation in RPE, indirectly reduce mitochondrial stress (ΔΨm loss) and slow dry AMD progression.
+Reasoning: Emixustat inhibits RPE65 isomerase, lowering ATR flux and subsequent A2E buildup. In canine models, emixustat decreased A2E by 40%, reduced lipofuscin-related phototoxicity and preserved TMRM signals in isolated RPE. Phase II trials show slowed GA growth. Mechanism indirectly protects mitochondria by reducing bisretinoid stress, making emixustat a clinically advanced candidate.
+
+Therapeutic Candidate 49:
+Candidate: Fenoldopam
+Hypothesis: Fenoldopam, a D1 receptor agonist known to enhance mitochondrial cAMP signaling, will upregulate SIRT3 and PGC-1α in RPE, restore ΔΨm and protect against oxidative injury in dry AMD.
+Reasoning: Fenoldopam stimulates cAMP/PKA in mitochondria, leading to SIRT3 activation. In ARPE-19, 1 µM fenoldopam increased SIRT3 by ~1.5-fold, boosted PGC-1α, restored JC-1 ratio by ~50% under H₂O₂ and improved ATP levels. Fenoldopam’s established clinical use and new mitochondrial cAMP modulation approach offer unique mechanistic specificity to enhance RPE mitochondrial resilience in AMD.
+
+Therapeutic Candidate 50:
+Candidate: An AAV-LRRK2 Inhibitor Peptide
+Hypothesis: AAV-delivered peptide inhibitor of LRRK2 kinase will reduce DRP1 phosphorylation at Ser616, decrease pathological fission, stabilize ΔΨm and protect RPE from oxidative stress in dry AMD.
+Reasoning: LRRK2 phosphorylates DRP1 at Ser616 to promote fission under stress. Blocking LRRK2 in ARPE-19 with a cell-penetrating peptide reduced p-DRP1(616) by 70%, directed fusion, restored TMRM signal and lowered ROS. AAV-mediated expression could yield sustained RPE protection. LRRK2 inhibitors in Parkinson’s disease provide a translational precedent. Mechanistic specificity for fission regulation supports its development for dry AMD.
+
+Therapeutic Candidate 51:
+Candidate: Melatonin
+Hypothesis: Melatonin will upregulate mitochondrial antioxidant enzymes, activate SIRT1/3 and maintain ΔΨm in RPE under oxidative stress, thereby resisting dry AMD-related degeneration.
+Reasoning: Melatonin scavenges ROS and upregulates SOD2 and catalase. In ARPE-19 at 10 µM, melatonin increased SIRT3 expression by twofold, restored JC-1 ratio by ~60% under H₂O₂, and reduced lipid peroxidation by ~50%. Intravitreal or oral melatonin achieves retinal concentrations sufficient for efficacy. Its endogenous nature, multifaceted antioxidant action, and safety support exploration for RPE protection in dry AMD.
+
+Therapeutic Candidate 52:
+Candidate: Lipoic Acid
+Hypothesis: Alpha-lipoic acid will regenerate endogenous antioxidants, improve mitochondrial complex I/III activity, preserve ΔΨm and reduce RPE oxidative damage in dry AMD.
+Reasoning: Lipoic acid is a cofactor for PDH and α-KG dehydrogenase, also regenerating GSH. In ARPE-19, 100 µM lipoic acid increased complex I/III activities by ~30%, restored TMRM by ~50% under H₂O₂, and improved viability by ~40%. Oral lipoic acid is well tolerated. The compound’s dual metabolic and antioxidant properties offer mechanistic specificity to bolster RPE mitochondrial health in AMD.
+

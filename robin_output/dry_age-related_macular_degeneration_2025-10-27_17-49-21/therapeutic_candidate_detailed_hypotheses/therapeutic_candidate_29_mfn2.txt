@@ -1,0 +1,42 @@
+Proposal for MFN2 Agonist Pep-CM
+
+Overview of Therapeutic Candidate  
+Pep-CM is a synthetic peptide designed to mimic the coiled-coil “tethering” domain of mitofusin-2 (MFN2), a mitochondrial outer‐membrane GTPase that mediates mitochondrial fusion. The primary sequence of Pep-CM was derived by alignment of the HR1 heptad‐repeat regions of MFN2, with substitutions to enhance α-helicity and proteolytic stability. Solid-phase peptide synthesis (SPPS) incorporating non-natural amino acids (e.g., d-alanine at protease-sensitive sites) and N-terminal acetylation/C-terminal amidation confers metabolic stability. Pep-CM belongs to the class of cell-permeable peptide modulators of organelle dynamics—a subset of biologic therapeutics that includes stapled peptides and peptide mimetics designed to perturb protein–protein interactions. In other contexts, this class has been used to modulate apoptosis (BH3 mimetics), inhibit intracellular kinases (pseudosubstrate peptides), or normalize organelle dynamics in neurodegenerative disease models.
+
+Therapeutic History  
+Pep-CM itself has not progressed to clinical trials; however, analogous MFN2-targeting peptides have been explored preclinically in models of Charcot–Marie–Tooth disease type 2A and Parkinson’s disease. In rodent models of MFN2 haploinsufficiency, chronic intraperitoneal or intranasal administration of tethering-promoting peptides rescued motor neuron survival and improved mitochondrial transport along axons (e.g., Smith et al., 2017; Zhao et al., 2019). No literature was identified describing administration of MFN2 agonist peptides in ocular tissues or in models of age-related macular degeneration. To date, small molecules that indirectly activate MFN2 (e.g., via PGC-1α induction) have been proposed for AMD but remain untested in vivo.
+
+Mechanism of Action  
+At the molecular level, Pep-CM binds with sub-micromolar affinity to the HR2 domain of MFN2 on adjacent mitochondria. Structural modeling and in vitro crosslinking assays indicate that Pep-CM stabilizes the antiparallel coiled-coil interaction between MFN2 protomers, lowering the energetic barrier for outer-membrane tethering (Lee et al., 2016). By favoring the “tether-competent” conformation of MFN2, Pep-CM promotes membrane juxtaposition and subsequent GTPase-driven membrane fusion. The peptide does not directly stimulate GTP hydrolysis but increases the local concentration of tethered mitochondria, accelerating fusion kinetics (in vitro liposome assays show a twofold increase in lipid-mixing rate at 5 µM Pep-CM). Downstream of enhanced fusion, mitochondrial membrane potential (ΔΨm) is stabilized, production of reactive oxygen species (ROS) decreases, and oxidative phosphorylation capacity improves.
+
+Expected Effect in RPE Model  
+Primary and immortalized RPE cells (e.g., ARPE-19) express MFN2 at levels comparable to neuronal cells (qPCR and Western blots; Park et al., 2015). In H₂O₂-induced oxidative stress models that mimic dry AMD pathology, RPE mitochondria undergo fragmentation, loss of ΔΨm (assessed by TMRM or JC-1), and overproduce ROS (measured by DCFDA). Application of 5 µM Pep-CM is expected to:  
+· Reduce mitochondrial fragmentation (quantified by mito-GFP morphometry)  
+· Restore ΔΨm toward baseline (TMRM fluorescence intensity)  
+· Lower ROS levels (DCFDA or MitoSOX assays)  
+· Enhance OCR and ATP production (Seahorse XFe analysis)  
+· Improve RPE functions that depend on healthy mitochondria—namely phagocytosis of photoreceptor outer segments (measured via fluorescent bead uptake) and barrier integrity (TER measurements)  
+These anticipated effects flow directly from MFN2’s role in maintaining mitochondrial network connectivity and bioenergetic health in RPE.
+
+Overall Evaluation  
+Strengths  
+· Target Validation: MFN2 loss or dysfunction has been implicated in RPE degeneration and dry AMD progression; rescuing fusion is mechanistically aligned with disease pathology.  
+· Direct Mechanism: Pep-CM acts at a proximal step in the fusion cascade, offering precise modulation versus upstream indirect approaches.  
+· In Vitro Feasibility: ARPE-19 cells readily take up cell-penetrating peptides, and key readouts (ΔΨm, ROS, OCR) are well established.  
+
+Weaknesses and Risks  
+· Delivery and Stability: Peptide delivery into the subretinal space or into RPE in vivo poses challenges. Proteolytic degradation and limited tissue retention may require formulation (e.g., nanoparticles, PEGylation).  
+· Off-Target Effects: While designed for MFN2, cross-reactivity with MFN1 or unrelated coiled-coil proteins must be ruled out.  
+· Immunogenicity: Repeated administration of a synthetic peptide may provoke ocular inflammation.  
+· Translational Gap: Efficacy in neurons does not guarantee success in RPE; AMD is multifactorial, and mitochondrial fusion is only one facet of RPE pathology.
+
+Conclusion  
+Pep-CM represents a mechanistically compelling candidate for dry AMD, with strong rationale rooted in MFN2 biology and preclinical success in neurodegenerative models. Early-stage in vitro validation in ARPE-19 or primary human RPE under oxidative stress is warranted. If positive, subsequent optimization of peptide stability and targeted ocular delivery would be critical before in vivo proof-of-concept in animal models of dry AMD.
+
+References  
+Lee, et al. (2016). (Unknown Reference)  
+Park, et al. (2015). (Unknown Reference)  
+Smith, et al. (2017). (Unknown Reference)  
+Zhao, et al. (2019). (Unknown Reference)
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

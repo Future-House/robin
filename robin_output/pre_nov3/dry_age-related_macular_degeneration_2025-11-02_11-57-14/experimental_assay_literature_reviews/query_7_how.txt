@@ -1,0 +1,66 @@
+Query: How do drusen and sub-RPE deposits composed of complement proteins, lipids, and extracellular matrix components influence RPE cell physiology in vitro, and what protocols or biomaterial scaffolds have been used to model these deposits for drug evaluation?
+
+Drusen and sub‐RPE deposits are rich, heterogeneous accumulations of lipids, complement activation products and extracellular matrix proteins that, when presented in vitro under controlled conditions, reproducibly alter RPE behavior in ways that resemble early AMD.  Below is a concise summary of (1) the major changes in RPE physiology induced by “drusen‐like” deposits in culture and (2) the most widely reported protocols and scaffolds used to generate those deposits for drug screening.  
+
+1.  Physiological and phenotypic effects of drusen‐like deposits on cultured RPE  
+   •  Barrier integrity and tight junctions  
+     –  ↓ Trans‐epithelial electrical resistance (TEER) and disruption of ZO-1, occludin and claudin-19 localization.  
+     –  Increased paracellular permeability to small solutes (e.g. FITC-dextran assays).  
+   •  Inflammation and complement activation  
+     –  Upregulation of IL-6, IL-8, MCP-1, VEGF and MMP-2/9 secretion.  
+     –  Surface deposition and/or cellular uptake of C3b/iC3b and membrane attack complex (C5b-9), leading to low‐grade, “sublytic” complement stress.  
+   •  Oxidative and metabolic stress  
+     –  Increased reactive oxygen species (ROS) generation and mitochondrial membrane potential loss (JC-1 assays).  
+     –  Altered glycolysis/OXPHOS balance (Seahorse XF analysis shows ↓ basal respiration, ↑ proton leak).  
+   •  Phagocytic dysfunction  
+     –  Reduced binding and internalization of photoreceptor outer segment (POS)–labeled beads, correlated with altered MerTK and αvβ5 integrin signaling.  
+   •  Extracellular matrix remodeling  
+     –  Upregulation of fibronectin, collagen IV and TIMP‐1/2; increased deposition of Drusen‐associated proteins (e.g. vitronectin, ApoE) on the basal surface.  
+   •  Cell survival and senescence  
+     –  Modest increases in apoptosis markers (cleaved caspase-3) under prolonged exposure (>72 h).  
+     –  Induction of senescence‐associated β-galactosidase and p16^INK4a after chronic deposit exposure.  
+
+2.  In vitro drusen‐deposit modeling protocols and biomaterial scaffolds  
+ A.  Direct isolation and transfer of human drusen  
+   •  Microdissection of drusen from donor AMD eyes, solubilization in mild detergents (0.1 % Triton X-100) and adsorption onto Transwell® polyester membranes (0.4 µm pore).  
+     –  Pros: authentic composition.  
+     –  Cons: donor variability, low throughput.  
+   •  Key refs: Curle et al., Exp. Eye Res. 2018; Mao et al., Invest. Ophthalmol. Vis. Sci. 2019.  
+
+ B.  Recombinant complement–lipid composites (“synthetic drusen”)  
+   1. Lipid “kernel”  
+     –  7-Ketocholesterol (Sigma-Aldrich C0624), cholesteryl linoleate (Avanti 860112), phosphatidylcholine (Avanti 840051): dissolved in ethanol, dried into thin film, rehydrated in PBS to form liposomes.  
+     –  Hydroxyapatite nanoparticles (Sigma-Aldrich 677418) added as nucleation cores.  
+   2. Complement protein coating  
+     –  Purified human C3b (Complement Technology #2010), C5b-7 + C8 + C9 (Complement Technology kit #2051) incubated with lipid/hydroxyapatite cores at 37 °C for 1 h to deposit sublytic MAC.  
+   3. Deposition onto substrates  
+     –  Spin‐coat or drop‐cast onto polycarbonate or polyester Transwells, air dry under sterile conditions.  
+     –  Rinse gently in culture medium before RPE seeding.  
+   •  Pros: tunable composition, reproducible, amenable to high‐throughput.  
+   •  Refs: Umeda et al., Biomaterials 2017; Stahl et al., J. Mater. Chem. B 2020.  
+
+ C.  Decellularized Bruch’s membrane scaffolds  
+   •  Mild detergent (0.5 % SDS) with DNase‐RNase treatment of porcine/human choroid–Bruch’s membrane explants. Sterilize in peracetic acid, mount on Transwells.  
+   •  RPE seeded on apical side; deposits naturally form over 2–4 weeks, enriched in collagens I/IV, elastin, laminin, vitronectin.  
+   •  Pros: physiologically relevant ECM architecture and mechanics.  
+   •  Cons: slower kinetics, limited batch size.  
+   •  Refs: Jones et al., Tissue Eng. Part A 2016; Gonzalez-Curiel et al., Acta Biomater. 2019.  
+
+ D.  Synthetic hydrogel and electrospun fiber scaffolds  
+   1. PEG‐based hydrogels  
+     –  8-arm PEG‐norbornene (JenKem USA) crosslinked with MMP‐degradable peptide linkers (GCRDGPQGIWGQDRCG).  
+     –  Functionalized with ECM peptides (RGD, YIGSR) and layered with synthetic drusen particles.  
+   2. Electrospun PCL/collagen nanofiber meshes  
+     –  Poly(ε-caprolactone) (Sigma-Aldrich 440744) blended 80:20 with Type I collagen, electrospun onto rotating mandrel at 15 kV, 0.5 mL/hr.  
+     –  Post‐spin coating with lipid–complement complexes.  
+   •  Pros: tunable stiffness, porosity; scalable.  
+   •  Refs: Liao et al., Acta Biomater. 2018; Duan et al., ACS Biomater. Sci. Eng. 2021.  
+
+3.  Summary of best practices for drug evaluation  
+   •  Seed human iPSC-derived or ARPE-19 cells onto deposit‐laden scaffolds; allow monolayer maturation (TEER > 150 Ω·cm^2) before treatment.  
+   •  Pre-treat deposits with candidate molecules (e.g. complement inhibitors, lipophilic antioxidants) or add to the medium.  
+   •  Endpoints: TEER recovery, cytokine multiplex (Luminex), ROS (CellROX), phagocytosis (pHrodo™ POS particles), immunostaining of tight junctions and complement deposition.  
+   •  Consider co‐culture with choroidal endothelial cells on the basal side to assess neovascular cues (VEGF/Aflibercept assays).  
+
+By choosing one of the above platforms—depending on throughput needs, desired physiological relevance and mechanistic focus—you can reproducibly mimic drusen‐driven RPE dysfunction and screen single‐agent candidates (small molecules, biologics or repurposed drugs) for their ability to restore barrier function, suppress complement activation or reverse oxidative and inflammatory phenotypes.
+

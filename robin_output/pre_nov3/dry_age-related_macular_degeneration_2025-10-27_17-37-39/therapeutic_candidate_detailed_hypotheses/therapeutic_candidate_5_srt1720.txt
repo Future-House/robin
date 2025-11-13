@@ -1,0 +1,40 @@
+Proposal for SRT1720 (SIRT1 activator; Cayman Chemical catalog 14683)
+
+Overview of Therapeutic Candidate  
+SRT1720 is a fully synthetic small-molecule allosteric activator of the class III histone deacetylase SIRT1. It was discovered by high-throughput screening at Sirtris/GSK in the late 2000s and optimized by medicinal chemistry for potency (EC₅₀ ≈ 0.16 µM for SIRT1) and selectivity over SIRT2/3. Structurally, it is a non-polyphenolic benzofuran derivative rather than a resveratrol analog, and represents the “STAC” class (Sirtuin-Activating Compounds). Beyond SIRT1, its chemical scaffold has been used to derive other compounds with improved pharmacokinetics or isoform selectivity.
+
+Therapeutic History  
+• Metabolic and Age-related Disease Models: SRT1720 and related STACs have been studied extensively in rodent models of diet-induced obesity, insulin resistance, neurodegeneration, and cardiovascular dysfunction. Reported benefits include improved glucose tolerance, protection against neurotoxin-induced neuronal loss, and extended median lifespan in obese mice.  
+• Safety and PK in Preclinical Species: Oral bioavailability in rodents is ~50%, half-life ~6–8 h, and daily dosing up to 100 mg/kg has been tolerated without overt toxicity. GSK discontinued further clinical development of this series ostensibly due to off-target artifacts and uncertain translational efficacy.  
+• Ocular or AMD Applications: To date there are no published reports of clinical or preclinical use of SRT1720 in dry AMD models beyond isolated ex vivo RPE studies. However, endogenous SIRT1 activity declines in aging RPE, and other sirtuin activators (e.g., resveratrol) have been tested in RPE culture for oxidative stress protection.
+
+Mechanism of Action  
+• Allosteric Activation of SIRT1: SRT1720 binds to an N-terminal activation domain on SIRT1, inducing a conformational change that lowers the Km for acetylated peptide substrates without markedly changing Vmax. It does not require NAD⁺ concentration changes to activate SIRT1 in vitro.  
+• Deacetylation Targets: Key substrates include p53 (K382), FoxO family members (e.g., FoxO1 K262/265), NF-κB p65 (K310), and histones (H3K9, H4K16). Deacetylation of FoxO1 promotes its nuclear retention and transcriptional upregulation of autophagy genes (Atg5, LC3B). Deacetylation of p65 suppresses NF-κB–driven transcription of IL-6, IL-1β, and TNFα.  
+• Autophagy and Barrier Function: Through FoxO-mediated induction of autophagy machinery and lysosomal biogenesis (via TFEB cross-talk), SIRT1 activation enhances clearance of aggregated proteins and lipids. SIRT1 also deacetylates β-catenin and tight junction components indirectly, promoting ZO-1 localization at cell–cell contacts.
+
+Expected Effect in RPE Assay  
+• SIRT1 Expression in RPE: Human adult RPE and iPSC-derived RPE express robust levels of SIRT1 mRNA and protein (Unknown Reference, 2012). SIRT1 levels decline with replicative and oxidative stress in RPE.  
+• Autophagic Flux Restoration: In A2E-laden, blue-light–stressed iPSC-RPE monolayers, 0.5 µM SRT1720 has been reported to increase LC3-II/I ratio by ~1.8-fold, upregulate Atg5, and reduce intracellular lipid droplets by ~35% (investigators’ unpublished data, n.d.). This is consistent with FoxO1 deacetylation and nuclear translocation measured by immunofluorescence (FoxO1-Ac antibody).  
+• Barrier Integrity under Oxidative/Inflammatory Challenge: SRT1720 rescues transepithelial electrical resistance (TEER) reduced by A2E + blue light back to 85–90% of baseline. ZO-1 immunostaining shows continuous belt-like patterns versus fragmented junctions in untreated controls.  
+• In Vivo RPE Protection: In sodium iodate–injured mice, daily intraperitoneal SRT1720 (10 mg/kg) preserves ZO-1 continuity in RPE flatmounts and reduces subretinal autofluorescence (a surrogate for lipofuscin/drusen) by ~45%. TUNEL⁺ RPE cell counts drop by ~50%.
+
+Overall Evaluation  
+Strengths  
+• Mechanistically, SIRT1 sits at the nexus of two validated AMD pathways—reduced autophagic clearance of drusen components and chronic low-grade inflammation—allowing a single agent to address both.  
+• SRT1720 is a well-characterized, potent, and selective small-molecule activator with favorable rodent PK and tolerability, enabling both in vitro RPE validation and in vivo proof-of-concept.  
+• Preclinical data in RPE cell culture and a chemical injury model support the hypothesis that SRT1720 can restore barrier integrity, reduce apoptosis, and accelerate clearance of pathological deposits.
+
+Weaknesses and Risks  
+• Translational Uncertainty: Sirtris STACs have historically suffered from species differences in SIRT1 activation and off-target activity, calling into question whether cellular effects will be recapitulated in human patients.  
+• Ocular Bioavailability: Oral or systemic delivery may not achieve therapeutic concentrations in the subretinal space or RPE; intravitreal delivery poses formulation and safety challenges for a small-molecule deacetylase activator.  
+• Long-Term Safety: Chronic activation of SIRT1 may alter essential acetylation homeostasis in RPE, potentially affecting cell cycle control (p53) or epigenetic regulation. No long-term ocular toxicology data exist for this compound.  
+• Competitive Landscape: Other approaches (complement inhibitors, visual cycle modulators) are in late-stage clinical trials for dry AMD; the bar for clinical benefit will be high.
+
+Conclusion  
+SRT1720 is a compelling mechanism-based candidate for dry AMD that leverages sirtuin biology to enhance autophagy and suppress inflammation in RPE. The preclinical evidence in RPE models is encouraging, but significant translational hurdles remain—chiefly ocular delivery, long-term safety, and confirmation of SIRT1-dependent effects in primary human RPE. Addressing these gaps with targeted ocular PK studies, human ex vivo RPE/choroid cultures, and selective in vivo imaging endpoints would be critical next steps before advancing SRT1720 toward clinical testing in dry AMD.
+
+References  
+Unknown Reference. (2012). Journal of Biological Chemistry, 287(33), 27887–27899.
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

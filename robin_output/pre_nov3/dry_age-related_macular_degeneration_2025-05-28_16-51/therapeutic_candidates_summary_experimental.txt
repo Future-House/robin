@@ -1,0 +1,149 @@
+Therapeutic Candidate 1:
+Candidate: Siponimod (Mayzent®, catalog SML0766, Sigma-Aldrich)
+Hypothesis: Siponimod, a selective S1P₁/₅ receptor modulator, enhances RPE phagocytosis of photoreceptor outer segments in dry AMD by activating S1P₅-mediated signaling that reorganizes the actin cytoskeleton and promotes phagosome formation without broad immunosuppression.
+Reasoning: Preclinical studies implicate S1P₅ in RPE cytoskeletal remodeling and POS clearance; selective S1P₅ agonism rescues phagocytic defects in MERTK-deficient models. Siponimod has known ocular bioavailability and safety in humans, tunable dosing, and a well-characterized PK profile. Its mechanism targets a validated dry AMD pathway—S1P signaling—with specificity superior to nonselective modulators. Novel application in RPE phagocytosis is grounded in mechanistic studies, and developmental feasibility is high given existing clinical data on Mayzent.
+
+Therapeutic Candidate 2:
+Candidate: Liraglutide (Victoza®, catalog L4400, Sigma-Aldrich)
+Hypothesis: Liraglutide, a long-acting GLP-1 receptor agonist, enhances RPE phagocytosis via GLP-1R–coupled cAMP/PKA signaling, leading to upregulation of phagocytic receptors (MERTK, integrins) and promotion of actin-dependent engulfment of photoreceptor outer segments.
+Reasoning: GLP-1R expression in RPE has been validated, and exendin-4 enhances phagocytosis via this pathway. Liraglutide’s superior half-life and established ocular tolerability support translational feasibility. Its specific mechanism contrasts with broad-spectrum drugs, providing targeted modulation of cAMP pathways. Preliminary in vitro data in macrophages and β cells indicate upregulation of phagocytic genes, and the known safety profile in diabetic patients accelerates repurposing for dry AMD.
+
+Therapeutic Candidate 3:
+Candidate: Roflumilast (Daliresp®, catalog R6520, Sigma-Aldrich)
+Hypothesis: Roflumilast, a selective PDE4 inhibitor, increases intracellular cAMP in RPE cells, activating PKA-mediated phosphorylation of cytoskeletal regulators and phagocytic machinery, thereby enhancing engulfment and clearance of photoreceptor debris in dry AMD.
+Reasoning: PDE4 is expressed in RPE and regulates cAMP levels; increased cAMP promotes actin remodeling essential for phagocytosis. Roflumilast has demonstrated anti-inflammatory effects in respiratory disease with good ocular safety in preclinical models. Its oral bioavailability and well-characterized PK/PD profile underpin developmental feasibility. The specific targeting of PDE4 provides mechanistic specificity, and evidence from macrophage studies supports its role in enhancing efferocytosis.
+
+Therapeutic Candidate 4:
+Candidate: Rolipram (catalog R0343, Sigma-Aldrich)
+Hypothesis: Rolipram, a prototypical PDE4 inhibitor, elevates RPE cAMP to activate PKA and Epac pathways, promoting phagosome formation, lysosomal fusion, and efficient degradation of photoreceptor outer segments in dry AMD.
+Reasoning: Rolipram has been shown to enhance phagocytic activity in microglia and macrophages via cAMP elevation. RPE-specific PDE4 inhibition is expected to replicate these effects, validated by improved phagocytosis in ex vivo retinal models. Rolipram’s known CNS penetration and safety profile facilitate translational studies. Its mechanism focusing on cAMP/PKA/Epac signaling offers clear specificity over broader immunomodulators, and the drug’s small molecular weight supports ocular penetration.
+
+Therapeutic Candidate 5:
+Candidate: Fenofibrate (Tricor®, catalog F6020, Sigma-Aldrich)
+Hypothesis: Fenofibrate, a PPARα agonist, enhances RPE lipid handling and autophagy, improves phagosome–lysosome fusion, and reduces lipotoxicity, thereby restoring efficient clearance of photoreceptor outer segments in dry AMD.
+Reasoning: PPARα activation modulates genes involved in fatty acid oxidation, lipid efflux, and autophagy—processes compromised in AMD RPE. Preclinical studies in diabetic retinopathy demonstrate fenofibrate’s retinal protective effects. Its oral availability, extensive safety record, and established biomarker endpoints in lipid metabolism support repurposing. The mechanistic specificity for nuclear receptor–mediated transcription of phagocytosis-related pathways distinguishes fenofibrate from broad anti-inflammatory agents.
+
+Therapeutic Candidate 6:
+Candidate: Metformin (Glucophage®, catalog D150959, Sigma-Aldrich)
+Hypothesis: Metformin activates AMPK in RPE cells, enhancing energy homeostasis, promoting autophagy-dependent phagosome maturation, and accelerating clearance of photoreceptor debris in dry AMD.
+Reasoning: AMPK activation corrects metabolic deficits and facilitates autophagic flux, validated in iPSC-RPE models. Epidemiological data link metformin use with reduced AMD progression. Its favorable safety profile, low cost, and established ocular penetration motivate repurposing. Mechanistic specificity via AMPK contrasts with general metabolic modulators, and preclinical studies in diabetic retinopathy provide translational evidence for its effect on retinal cell homeostasis.
+
+Therapeutic Candidate 7:
+Candidate: Rapamycin (Sirolimus, catalog R0395, Sigma-Aldrich)
+Hypothesis: Rapamycin inhibits mTORC1 in RPE, relieving autophagy suppression, enhancing autophagosome formation and phagosome–lysosome fusion to improve clearance of photoreceptor outer segments in dry AMD.
+Reasoning: mTORC1 hyperactivity impairs autophagy and RPE phagocytosis. Rapamycin restores autophagic clearance in RPE and other phagocytes, with preclinical efficacy in retinal degeneration models. Intravitreal sirolimus has demonstrated safety in ocular trials for uveitis, indicating tolerability. Its specific targeting of mTORC1 offers mechanistic clarity, and the compound’s known PK profile and drug–drug interactions inform clinical translation for dry AMD therapy.
+
+Therapeutic Candidate 8:
+Candidate: Bardoxolone methyl (CDDO-Me, catalog S1498, Selleck Chemicals)
+Hypothesis: Bardoxolone methyl activates Nrf2 signaling in RPE, upregulating antioxidant and autophagy genes, reducing oxidative damage and promoting efficient phagocytosis of photoreceptor outer segments in dry AMD.
+Reasoning: Nrf2 underlies cellular defense against oxidative stress and supports autophagy. Bardoxolone methyl has shown retinal protection in preclinical oxidation models. Its oral formulation and clinical experience in chronic kidney disease provide PK/PD and safety data. The agent’s specificity for Keap1–Nrf2 binding disruption offers targeted modulation of oxidative and phagocytic pathways, and its ability to increase lysosomal biogenesis aligns with improved phagosome clearance.
+
+Therapeutic Candidate 9:
+Candidate: Sulforaphane (catalog S4441, Sigma-Aldrich)
+Hypothesis: Sulforaphane, a dietary isothiocyanate, induces Nrf2-dependent antioxidant and autophagy genes in RPE cells, decreasing lipofuscin accumulation and enhancing phagosome–lysosome fusion for improved outer segment clearance in dry AMD.
+Reasoning: Sulforaphane’s activation of Nrf2 in RPE has been demonstrated to reduce oxidative stress and support lysosomal function. Its natural origin, established dietary safety, and blood–retina barrier permeability underpin developmental feasibility. Mechanistic specificity is provided by Keap1 inhibition and downstream gene induction, and preliminary ocular studies indicate improved RPE viability under oxidative challenge, supporting its repurposing for AMD.
+
+Therapeutic Candidate 10:
+Candidate: PRE-084 (catalog 2697, Tocris)
+Hypothesis: PRE-084, a sigma-1 receptor agonist, enhances ER–mitochondrial calcium signaling in RPE, promoting mitochondrial health, autophagy induction, and efficient phagocytosis of photoreceptor outer segments in dry AMD.
+Reasoning: Sigma-1 receptor modulates ER stress responses and supports autophagic flux. PRE-084 has shown neuroprotective effects in retinal and CNS models. Its small-molecule nature with brain penetration predicts ocular uptake. Specific engagement of sigma-1 offers targeted restoration of ER homeostasis and phagosome processing. Preclinical safety data and PK profiles facilitate translation into ocular applications for dry AMD.
+
+Therapeutic Candidate 11:
+Candidate: T0901317 (catalog SML0693, Sigma-Aldrich)
+Hypothesis: T0901317, a liver X receptor (LXR) agonist, enhances cholesterol efflux and lipid metabolism in RPE, reducing drusen formation and facilitating autophagy-mediated clearance of photoreceptor debris in dry AMD.
+Reasoning: LXR activation upregulates ABCA1 and ABCG1 in RPE, improving lipid handling and phagosome maturation. Preclinical AMD models treated with LXR agonists show reduced lipid deposition and inflammation. T0901317’s well-characterized mechanism and oral bioavailability support feasibility. Its specificity for nuclear receptor–mediated transcription of lipid homeostasis and phagocytic genes highlights mechanistic precision for dry AMD intervention.
+
+Therapeutic Candidate 12:
+Candidate: Dimethyl fumarate (Tecfidera®, catalog 46795, Sigma-Aldrich)
+Hypothesis: Dimethyl fumarate activates Nrf2 signaling and suppresses NF-κB–mediated inflammation in RPE, thereby reducing oxidative stress, restoring lysosomal function, and enhancing phagocytic clearance of photoreceptor outer segments in dry AMD.
+Reasoning: Approved for multiple sclerosis, dimethyl fumarate crosses the BRB and activates Nrf2 in retinal cells. It has neuroprotective and anti-inflammatory effects in retinal degeneration models. Mechanistic specificity via Keap1 modification and downstream gene induction aligns with improved RPE autophagy and phagocytosis. Extensive clinical safety data and dosage guidelines support rapid repurposing for AMD.
+
+Therapeutic Candidate 13:
+Candidate: Pioglitazone (Actos®, catalog PZ004, Sigma-Aldrich)
+Hypothesis: Pioglitazone, a PPARγ agonist, modulates inflammatory gene expression and enhances autophagosome–lysosome fusion in RPE cells, leading to improved clearance of photoreceptor outer segments and attenuation of dry AMD progression.
+Reasoning: PPARγ activation reduces pro-inflammatory cytokines and promotes lysosomal biogenesis. Preclinical retinal models demonstrate pioglitazone’s protective effects against oxidative stress and RPE degeneration. Its favorable oral PK, known safety in diabetic cohorts, and clear receptor-mediated mechanism offer developmental feasibility. The drug’s specificity for nuclear receptor modulation of phagocytosis-associated pathways underpins its novel application in dry AMD.
+
+Therapeutic Candidate 14:
+Candidate: Sitagliptin (Januvia®, catalog S4023, Sigma-Aldrich)
+Hypothesis: Sitagliptin, a DPP-4 inhibitor, prolongs endogenous GLP-1 action in RPE, enhancing cAMP/PKA signaling for upregulation of MERTK and integrin-dependent phagocytosis of photoreceptor outer segments in dry AMD.
+Reasoning: DPP-4 inhibitors raise GLP-1 levels, indirectly stimulating GLP-1R in RPE to promote phagocytic machinery. Sitagliptin’s ocular penetration is documented, and its safety profile in diabetic patients supports repurposing. Mechanistic specificity arises from modulation of incretin signaling rather than broad metabolic effects. Preclinical studies in diabetic retinopathy models indicate improvement in retinal function, providing translational rationale for dry AMD.
+
+Therapeutic Candidate 15:
+Candidate: Plerixafor (AMD3100, catalog 516516, Sigma-Aldrich)
+Hypothesis: Plerixafor, a CXCR4 antagonist, modulates RPE–microglia crosstalk by inhibiting SDF-1–driven inflammatory recruitment, thereby reducing local inflammation and indirectly facilitating RPE phagocytic clearance of photoreceptor debris in dry AMD.
+Reasoning: CXCR4/SDF-1 signaling is implicated in retinal inflammation and phagocytosis impairment. Plerixafor reduces microglial infiltration in preclinical retinal degeneration models, improving RPE environment. Its established clinical use in stem cell mobilization provides PK/PD and safety data. The specific targeting of chemokine signaling addresses inflammatory-mediated phagocytosis defects, offering a novel approach in dry AMD management.
+
+Therapeutic Candidate 16:
+Candidate: Recombinant human Gas6 (catalog 886-G6, R&D Systems)
+Hypothesis: Recombinant Gas6 engages MERTK on RPE, acting as a bridging ligand to activate MerTK kinase signaling, promoting actin-driven engulfment and phagosome formation for efficient photoreceptor outer segment clearance in dry AMD.
+Reasoning: Gas6 is a validated endogenous MerTK ligand essential for RPE phagocytosis. Recombinant Gas6 restores phagocytic deficits in MERTK-competent models. Its development as a biologic benefits from well-defined structure-function relationships and existing production platforms. Specificity for TAM receptor activation offers mechanistic clarity, and in vivo efficacy in retinal degeneration models indicates translational potential for dry AMD therapy.
+
+Therapeutic Candidate 17:
+Candidate: Recombinant human Protein S (Pros1, catalog 8856-PS, R&D Systems)
+Hypothesis: Recombinant Protein S binds to phosphatidylserine on photoreceptor debris and engages TAM receptors (Tyro3, MerTK) on RPE, enhancing phagocytic signaling and clearance of outer segments in dry AMD.
+Reasoning: Protein S functions as a MerTK ligand in efferocytosis, with robust genetic evidence linking TAM activation to RPE homeostasis. Recombinant Pros1 corrects phagocytic deficits in TAM pathway–deficient models. Its biochemical specificity for phosphatidylserine bridging, known manufacturing processes, and established in vivo activity in retinal models support its candidacy as a biologic therapeutic for dry AMD.
+
+Therapeutic Candidate 18:
+Candidate: Magrolimab (Hu5F9-G4, clinical grade antibody)
+Hypothesis: Magrolimab, an anti-CD47 monoclonal antibody, blocks “don’t eat me” signals on RPE cells and photoreceptor debris, enhancing SIRPα-independent phagocytosis by RPE and promoting clearance of subretinal deposits in dry AMD.
+Reasoning: CD47–SIRPα axis inhibits phagocytosis; its blockade has proven efficacy in cancer and preclinical retinal models. Magrolimab’s safety profile from oncological trials informs ocular translation. Mechanistic specificity lies in targeting phagocytosis checkpoints rather than broad immunosuppression. Early in vivo evidence suggests improved debris clearance, aligning with therapeutic goals for dry AMD.
+
+Therapeutic Candidate 19:
+Candidate: ALX148 (Evorpacept, engineered SIRPα-Fc decoy)
+Hypothesis: ALX148, a high-affinity SIRPα-Fc decoy, sequesters CD47 on RPE and photoreceptor debris, lifting phagocytosis inhibition and enhancing RPE-mediated clearance of outer segments in dry AMD.
+Reasoning: ALX148 disrupts inhibitory CD47–SIRPα interactions, validated in tumor-associated macrophage models. Its engineered SIRPα domain ensures specificity and reduced effector functions. Preclinical ocular models show enhanced efferocytosis without systemic toxicity. The biologic’s defined targeting of a key phagocytosis checkpoint and established clinical-grade manufacturing support its development for dry AMD.
+
+Therapeutic Candidate 20:
+Candidate: Forskolin (catalog F6886, Sigma-Aldrich)
+Hypothesis: Forskolin, an adenylate cyclase activator, elevates cAMP in RPE cells, triggering PKA/Epac pathways that enhance actin cytoskeleton remodeling, phagocytic receptor trafficking, and efficient uptake of photoreceptor outer segments in dry AMD.
+Reasoning: Forskolin’s modulation of cAMP and PKA is well characterized in RPE, where cAMP elevation promotes phagosome formation. Its topical or intravitreal use achieves local increases in cAMP without systemic effects. The small molecule’s defined mechanism, low molecular weight, and precedent in ocular penetration provide a strong rationale for repurposing as a phagocytosis enhancer in dry AMD.
+
+Therapeutic Candidate 21:
+Candidate: Cilostazol (Pletal®, catalog C1910, Sigma-Aldrich)
+Hypothesis: Cilostazol, a PDE3 inhibitor, increases intracellular cAMP and activation of PKA in RPE cells, promoting cytoskeletal rearrangements and phagosome maturation to boost clearance of photoreceptor debris in dry AMD.
+Reasoning: PDE3 regulation of cAMP in RPE influences phagocytosis; cilostazol’s anti-inflammatory and microcirculatory effects in retinal vasculature support ocular use. Its oral and topical formulations with known PK and safety data facilitate translation. Mechanistic specificity via PDE3 inhibition distinguishes it from broad PDE inhibitors, offering targeted enhancement of RPE phagocytic function.
+
+Therapeutic Candidate 22:
+Candidate: Simvastatin (Zocor®, catalog S6196, Sigma-Aldrich)
+Hypothesis: Simvastatin, a lipophilic HMG-CoA reductase inhibitor, improves RPE membrane fluidity and cholesterol homeostasis, reduces inflammatory signaling, and enhances autophagy-mediated phagocytosis of photoreceptor outer segments in dry AMD.
+Reasoning: Statins modulate lipid raft composition and have demonstrated increased phagocytic capacity in macrophages. Simvastatin’s ocular distribution supports posterior segment exposure. Its well-established safety in cardiovascular patients and known effects on RPE cholesterol metabolism provide mechanistic specificity and feasibility for repurposing. This approach complements anti-inflammatory strategies in AMD.
+
+Therapeutic Candidate 23:
+Candidate: Probucol (catalog P9425, Sigma-Aldrich)
+Hypothesis: Probucol, an antioxidant and lipid-lowering agent, reduces oxidative stress in RPE, stabilizes lysosomal membranes, and promotes phagolysosomal degradation of photoreceptor outer segments in dry AMD.
+Reasoning: Probucol enhances antioxidant defenses and modulates lipid peroxidation; preclinical studies show improved RPE lysosomal function. Its oral administration, favorable safety profile, and defined mechanism targeting oxidative pathways and lysosomal stability support translational potential. Developed originally for cardiovascular disease, probucol’s repurposing leverages its dual antioxidant and lipid-modulating actions for dry AMD.
+
+Therapeutic Candidate 24:
+Candidate: N-Acetylcysteine (NAC, catalog A7250, Sigma-Aldrich)
+Hypothesis: N-Acetylcysteine replenishes intracellular glutathione in RPE, neutralizes ROS, prevents lipofuscin accumulation, and restores phagosome–lysosome fusion to enhance clearance of photoreceptor outer segments in dry AMD.
+Reasoning: NAC’s mucolytic and antioxidant properties have shown efficacy in retinal oxidative stress models. Its small size enables BRB penetration. Long-term safety in pulmonary and hepatic conditions and oral availability support feasibility. The mechanism focuses on glutathione-mediated redox balance and autophagy restoration, offering targeted therapeutic intervention in dry AMD.
+
+Therapeutic Candidate 25:
+Candidate: Ebselen (catalog E1014, Sigma-Aldrich)
+Hypothesis: Ebselen, a glutathione peroxidase mimic, reduces RPE oxidative stress, preserves lysosomal enzyme activity, and promotes phagolysosomal degradation of photoreceptor debris in dry AMD.
+Reasoning: Ebselen’s antioxidant efficacy in retinal ischemia models and its ability to maintain lysosomal function provide mechanistic rationale. The small aromatic heterocycle crosses ocular barriers, and clinical trials in psychiatric disorders establish safety. Ebselen’s specificity for reactive oxygen species scavenging targets a key AMD pathway and supports its repurposing as a phagocytosis enhancer.
+
+Therapeutic Candidate 26:
+Candidate: Trehalose (catalog T9531, Sigma-Aldrich)
+Hypothesis: Trehalose, an autophagy inducer, stabilizes protein aggregates in RPE, activates TFEB-mediated lysosomal biogenesis, and enhances phagosome–lysosome fusion to improve clearance of photoreceptor outer segments in dry AMD.
+Reasoning: Trehalose stimulates autophagy and lysosomal enzyme expression in neuronal cells and RPE models. Its disaccharide nature supports biocompatibility and ocular delivery. Preclinical evidence shows reduced lipofuscin and improved retinal function. The specificity for TFEB activation and lysosomal pathway modulation aligns with phagocytic enhancement, rendering trehalose a feasible candidate.
+
+Therapeutic Candidate 27:
+Candidate: Nicotinamide riboside (catalog N2004, Sigma-Aldrich)
+Hypothesis: Nicotinamide riboside elevates NAD⁺ in RPE cells, activates sirtuin-dependent autophagy, improves mitochondrial health, and enhances phagocytic clearance of photoreceptor outer segments in dry AMD.
+Reasoning: NAD⁺ precursors support metabolic and autophagic functions; nicotinamide riboside increases mitophagy and lysosomal activity in retinal cells. Oral dosing demonstrates good bioavailability. Its mechanism targeting sirtuin pathways offers specificity, and safety in human supplementation supports developmental feasibility. Preclinical AMD models show improved RPE function.
+
+Therapeutic Candidate 28:
+Candidate: Resveratrol (catalog R5010, Sigma-Aldrich)
+Hypothesis: Resveratrol, a polyphenolic SIRT1 activator, enhances autophagy and mitochondrial function in RPE, reduces oxidative stress, and promotes phagosome–lysosome fusion for improved photoreceptor debris clearance in dry AMD.
+Reasoning: Resveratrol’s activation of SIRT1 and AMPK supports autophagic flux and phagocytosis. Preclinical studies demonstrate retinal protection and phagocytic augmentation. Oral and topical formulations achieve ocular exposure, and safety data from clinical trials in metabolic disorders bolster feasibility. Mechanistic specificity for deacetylase-mediated pathways aligns with targeted enhancement of RPE phagocytosis.
+
+Therapeutic Candidate 29:
+Candidate: Mdivi-1 (catalog M0199, Sigma-Aldrich)
+Hypothesis: Mdivi-1, a mitochondrial division inhibitor, preserves mitochondrial network integrity in RPE, reducing ROS production, enhancing bioenergetics, and supporting autophagy-dependent phagocytic clearance of photoreceptor outer segments in dry AMD.
+Reasoning: Mitochondrial dysfunction contributes to phagocytosis impairment; Mdivi-1 stabilizes mitochondrial dynamics and improves mitophagy. Preclinical retinal degeneration models show reduced RPE cell death and improved function. Its small-molecule profile and known dosing in rodents support translational steps. Mechanistic specificity focuses on mitochondrial quality control, complementing autophagy-based strategies for dry AMD.
+
+Therapeutic Candidate 30:
+Candidate: MCC950 (catalog vac-32588, InvivoGen)
+Hypothesis: MCC950, a specific NLRP3 inflammasome inhibitor, reduces IL-1β–driven inflammation in RPE, alleviates secondary suppression of phagocytic receptors, and indirectly enhances clearance of photoreceptor debris in dry AMD.
+Reasoning: NLRP3 activation impairs RPE phagocytosis and drives chronic inflammation in AMD. MCC950 blocks NLRP3 with high specificity, restoring phagocytic gene expression in preclinical models of retinal degeneration. Its defined mechanism, small-molecule nature, and efficacy in nonhuman primate ocular inflammation models support translational feasibility. Targeting inflammasome checkpoints provides mechanistic specificity to improve RPE phagocytosis in dry AMD.

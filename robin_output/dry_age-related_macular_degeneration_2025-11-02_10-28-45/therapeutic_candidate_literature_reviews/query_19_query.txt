@@ -1,0 +1,30 @@
+Query: Query genetic risk factors (ARMS2/HTRA1, CFH, C3) for dry AMD and their mechanistic links to impaired RPE phagocytosis in cell and animal models, including rescue experiments and pathway validation
+
+Genetic risk factors at the ARMS2/HTRA1, CFH, and C3 loci significantly contribute to dry age‐related macular degeneration (AMD) by perturbing complement regulation and impairing retinal pigment epithelium (RPE) phagocytosis. ARMS2, with risk polymorphisms such as rs10490924, enhances complement opsonization of apoptotic cells through properdin binding, and its deficiency leads to the accumulation of cellular debris that the RPE must clear. In combination with HTRA1 variants, which are implicated in extracellular matrix remodeling, these alterations exacerbate complement dysregulation and impair RPE phagocytosis in cell-based models (lin2018theroleof pages 67-70, bhumika2024geneticinsightsinto pages 7-9, lin2018theroleof pages 24-26).
+
+CFH risk alleles, notably the Y402H polymorphism, diminish CFH’s capacity to bind critical ligands, resulting in unrestrained activation of the alternative complement pathway. This leads to increased deposition of C3 breakdown products and the membrane attack complex (MAC), thereby fostering inflammatory stress, mitochondrial dysfunction, and phagocytic failure in RPE cells. Rescue experiments in iPSC-derived RPE models using candidate drugs have validated the potential to restore complement regulation and RPE function (ebeling2021impairedmitochondrialfunction pages 15-16, ebeling2021impairedmitochondrialfunction pages 16-18, sharma2021epithelialphenotyperestoring pages 1-2, landowski2018unravelingthein pages 43-49).
+
+Genetic variants in C3 further modulate complement activation; animal models demonstrate that aberrant C3 activity contributes to RPE homeostatic imbalance and defective phagocytosis (bhumika2024geneticinsightsinto pages 6-7, malek2020modelsofpathologies pages 18-21).
+
+Genetic risk variants in ARMS2/HTRA1, CFH, and C3 converge to impair RPE phagocytosis by disrupting complement regulation. Targeted interventions that restore complement homeostasis have been validated in cell and animal models, offering promising therapeutic avenues for dry AMD.
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/7a9ba111-0678-40cd-834b-22c52ff63931
+
+References:
+1. (lin2018theroleof pages 67-70): Yuchen Lin. The role of age-related maculopathy susceptibility protein 2 (arms2) in the complement regulation of arpe-19 cells. ArXiv, Jan 2018. URL: https://doi.org/10.22032/dbt.34410, doi:10.22032/dbt.34410. This article has 0 citations.
+
+2. (bhumika2024geneticinsightsinto pages 7-9): Bhumika, Nalini S. Bora, and Puran S. Bora. Genetic insights into age-related macular degeneration. Biomedicines, 12:1479, Jul 2024. URL: https://doi.org/10.3390/biomedicines12071479, doi:10.3390/biomedicines12071479. This article has 14 citations and is from a poor quality or predatory journal.
+
+3. (lin2018theroleof pages 24-26): Yuchen Lin. The role of age-related maculopathy susceptibility protein 2 (arms2) in the complement regulation of arpe-19 cells. ArXiv, Jan 2018. URL: https://doi.org/10.22032/dbt.34410, doi:10.22032/dbt.34410. This article has 0 citations.
+
+4. (ebeling2021impairedmitochondrialfunction pages 15-16): Mara C. Ebeling, Zhaohui Geng, Rebecca J. Kapphahn, Heidi Roehrich, Sandra R. Montezuma, James R. Dutton, and Deborah A. Ferrington. Impaired mitochondrial function in ipsc-retinal pigment epithelium with the complement factor h polymorphism for age-related macular degeneration. Cells, 10:789, Apr 2021. URL: https://doi.org/10.3390/cells10040789, doi:10.3390/cells10040789. This article has 50 citations and is from a poor quality or predatory journal.
+
+5. (ebeling2021impairedmitochondrialfunction pages 16-18): Mara C. Ebeling, Zhaohui Geng, Rebecca J. Kapphahn, Heidi Roehrich, Sandra R. Montezuma, James R. Dutton, and Deborah A. Ferrington. Impaired mitochondrial function in ipsc-retinal pigment epithelium with the complement factor h polymorphism for age-related macular degeneration. Cells, 10:789, Apr 2021. URL: https://doi.org/10.3390/cells10040789, doi:10.3390/cells10040789. This article has 50 citations and is from a poor quality or predatory journal.
+
+6. (sharma2021epithelialphenotyperestoring pages 1-2): Ruchi Sharma, Aman George, Malika Nimmagadda, Davide Ortolan, Barbosa-Sabanero Karla, Zoya Qureshy, Devika Bose, Roba Dejene, Genqing Liang, Qin Wan, Justin Chang, Balendu Shekhar Jha, Omar Memon, Kiyoharu Joshua Miyagishima, Aaron Rising, Madhu Lal, Eric Hanson, Rebecca King, Mercedes Maria Campos, Marc Ferrer, Juan Amaral, David McGaughey, and Kapil Bharti. Epithelial phenotype restoring drugs suppress macular degeneration phenotypes in an ipsc model. Nature Communications, Dec 2021. URL: https://doi.org/10.1038/s41467-021-27488-x, doi:10.1038/s41467-021-27488-x. This article has 66 citations and is from a highest quality peer-reviewed journal.
+
+7. (landowski2018unravelingthein pages 43-49): M Landowski. Unraveling the in vivo effect of the amd-risk associated cfh h402 variant. Unknown journal, 2018.
+
+8. (bhumika2024geneticinsightsinto pages 6-7): Bhumika, Nalini S. Bora, and Puran S. Bora. Genetic insights into age-related macular degeneration. Biomedicines, 12:1479, Jul 2024. URL: https://doi.org/10.3390/biomedicines12071479, doi:10.3390/biomedicines12071479. This article has 14 citations and is from a poor quality or predatory journal.
+
+9. (malek2020modelsofpathologies pages 18-21): Goldis Malek, Pei-Li Yao, and Mayur Choudhary. Models of pathologies associated with age-related macular degeneration and their utilities in drug discovery. ArXiv, pages 83-123, Jan 2020. URL: https://doi.org/10.1007/7355\_2020\_93, doi:10.1007/7355\_2020\_93. This article has 2 citations.

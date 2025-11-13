@@ -1,0 +1,20 @@
+Query: Metabolic interplay between glycolysis, fatty acid oxidation, and phagocytosis in RPE cells under dry AMD stressors, with evidence on how substrate flexibility modulates phagocytic capacity, including stable isotope tracing studies and potential metabolic targets for therapeutic enhancement
+
+RPE cells display a finely tuned balance between glycolysis and fatty acid oxidation (FAO) to sustain their phagocytic capacity under stress conditions such as those seen in dry AMD. Under physiological conditions, RPE preferentially oxidizes fatty acids derived from native photoreceptor outer segments (OS) to drive ketogenesis, evidenced by a robust, time‐dependent release of β-hydroxybutyrate that is tightly coupled to OS ingestion and phagosome maturation (reyesreveles2017phagocytosisdependentketogenesisin pages 1-2). This FAO-driven ketogenesis not only disposes of lipid cargo but may also fuel RPE mitochondrial function while sparing glucose for photoreceptors (hurley2021retinametabolismand pages 12-13).
+
+Stable isotope tracing studies using 13C-labeled substrates (e.g., glucose, palmitate) have provided insights into these fluxes, revealing that RPE cells can flexibly switch between oxidative metabolism and glycolysis. Although direct tracer evidence during phagocytosis under AMD-like stress is limited (tsantilas2021metabolicfunctionina pages 45-48, hass2024acetylcoacarboxylaseinhibition pages 1-2), the reported data support the notion that substrate quality and metabolic state directly modulate phagocytic function.
+
+Potential therapeutic targets to enhance phagocytosis include key nodes in FAO and ketogenesis (CPT1A, mitochondrial trifunctional protein, HMGCS2) and regulators of glycolytic flux such as PPARγ, as well as interventions that maintain substrate integrity (reyesreveles2017phagocytosisdependentketogenesisin pages 1-2, hurley2021retinametabolismand pages 12-13). 
+
+RPE cells rely on switching between glycolysis and FAO to meet energy demands during phagocytosis under AMD stress, and manipulating these pathways offers promising therapeutic avenues. Enhancing FAO while restraining maladaptive glycolysis may ultimately bolster phagocytic capacity and support retinal health.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/b00e857d-9bab-4a5e-8cd1-f3d96932920a
+
+References:
+1. (reyesreveles2017phagocytosisdependentketogenesisin pages 1-2): Juan Reyes-Reveles, Anuradha Dhingra, Desiree Alexander, Alvina Bragin, Nancy J. Philp, and Kathleen Boesze-Battaglia. Phagocytosis-dependent ketogenesis in retinal pigment epithelium. Journal of Biological Chemistry, 292:8038-8047, May 2017. URL: https://doi.org/10.1074/jbc.m116.770784, doi:10.1074/jbc.m116.770784. This article has 129 citations and is from a domain leading peer-reviewed journal.
+
+2. (hurley2021retinametabolismand pages 12-13): James B. Hurley. Retina metabolism and metabolism in the pigmented epithelium: a busy intersection. Annual Review of Vision Science, 7:665-692, Sep 2021. URL: https://doi.org/10.1146/annurev-vision-100419-115156, doi:10.1146/annurev-vision-100419-115156. This article has 156 citations and is from a peer-reviewed journal.
+
+3. (tsantilas2021metabolicfunctionina pages 45-48): KA Tsantilas. Metabolic function in the ocular ecosystem relies on interactions between the retina and retinal pigment epithelium and remains robust in aging. Unknown journal, 2021.
+
+4. (hass2024acetylcoacarboxylaseinhibition pages 1-2): Daniel T. Hass, Kriti Pandey, Abbi Engel, Noah Horton, Cameron D. Haydinger, Brian M. Robbings, Rayne R. Lim, Martin Sadilek, Qitao Zhang, Gillian A. Gulette, Amy Li, Libin Xu, Jason M.L. Miller, Jennifer R. Chao, and James B. Hurley. Acetyl-coa carboxylase inhibition increases retinal pigment epithelial cell fatty acid flux and restricts apolipoprotein efflux. Journal of Biological Chemistry, 300:107772, Oct 2024. URL: https://doi.org/10.1016/j.jbc.2024.107772, doi:10.1016/j.jbc.2024.107772. This article has 4 citations and is from a domain leading peer-reviewed journal.

@@ -1,0 +1,60 @@
+Assay Candidate 1:
+Strategy: Mitochondrial ROS assay
+Reasoning: Quantification of mitochondrial superoxide with MitoSOX Red in ARPE-19 cells exposed to H₂O₂ provides a rapid 96-well readout of drug effects on mitochondrial ROS (Terluk et al., PLOS ONE 2015; Feher et al., IOVS 2006).
+
+Assay Candidate 2:
+Strategy: NRF2 reporter assay
+Reasoning: An ARE-luciferase reporter stably expressed in RPE enables direct measurement of NRF2 pathway activation by candidate compounds; this has been validated in ARPE-19 and primary RPE (Cao et al., Free Radic Biol Med 2009).
+
+Assay Candidate 3:
+Strategy: Lipid peroxidation assay
+Reasoning: BODIPY-C11 ratiometric imaging in RPE cells challenged with t-BHP yields a rapid fluorescent readout of lipid oxidation and rescue by antioxidants (Sehgal et al., Invest Ophth Vis Sci 2014).
+
+Assay Candidate 4:
+Strategy: Barrier integrity assay
+Reasoning: Transepithelial electrical resistance (TEER) measurement in differentiated iPSC-RPE monolayers under oxidative stress quantifies tight junction preservation by test drugs within 48 h (Nozaki et al., JCI 2006).
+
+Assay Candidate 5:
+Strategy: Phagocytosis assay
+Reasoning: Fluorescently labeled photoreceptor outer segments fed to RPE followed by plate-reader or imaging quantifies rescue of phagocytic function by candidate compounds (Mazzoni et al., Exp Eye Res 2008).
+
+Assay Candidate 6:
+Strategy: Mitochondrial membrane potential assay
+Reasoning: JC-1 or TMRE staining in RPE exposed to A2E photooxidation allows fast quantification of ΔΨm preservation by drugs, as demonstrated in ARPE-19 models (Lu et al., Free Radic Biol Med 2016).
+
+Assay Candidate 7:
+Strategy: Ferroptosis rescue assay
+Reasoning: Cell viability assays in RPE treated with iron overload and erastin ± lipophilic antioxidants (e.g., ferrostatin-1) directly report ferroptosis inhibition, a key node in AMD models (Doonan et al., Cell Death Dis 2014).
+
+Assay Candidate 8:
+Strategy: Inflammasome activation assay
+Reasoning: Measurement of IL-1β release by ELISA or caspase-1 FLICA in RPE stimulated with drusen components (e.g., cholesterol crystals) provides a fast functional readout of NLRP3 blockade (Doyle et al., J Neuroinflammation 2012).
+
+Assay Candidate 9:
+Strategy: A2E phototoxicity assay
+Reasoning: Loading RPE with A2E followed by blue-light irradiation and real-time viability or ROS staining gives a simple platform to evaluate phototoxicity-preventing compounds (Radu et al., PNAS 2004).
+
+Assay Candidate 10:
+Strategy: Complement deposition assay
+Reasoning: Immunofluorescent quantification of C3b or C5b-9 on RPE after exposure to human serum in 96-well format yields a direct measure of complement inhibition by candidate drugs (Nozaki et al., JCI 2006).
+
+Assay Candidate 11:
+Strategy: Autophagic flux assay
+Reasoning: mCherry-GFP-LC3 tandem reporter in RPE allows rapid plate-based quantification of autophagosome maturation and rescue by autophagy modulators under stress (Mizushima et al., Nature Protocols 2010).
+
+Assay Candidate 12:
+Strategy: Bioenergetic profiling assay
+Reasoning: Seahorse XF measurements of OCR and ECAR in primary or iPSC-RPE assess drug effects on mitochondrial respiration and glycolysis in a 96-well format (Feher et al., IOVS 2006).
+
+Assay Candidate 13:
+Strategy: Lysosomal pH assay
+Reasoning: Lysosensor Yellow/Blue in A2E-loaded RPE provides a fast fluorescent readout of lysosomal acidification restoration by candidate compounds (Kaarniranta et al., Autophagy 2009).
+
+Assay Candidate 14:
+Strategy: Cytosolic mtDNA release assay
+Reasoning: Quantitative PCR of mitochondrial DNA in cytosolic fractions of RPE under oxidative stress allows direct evaluation of agents that prevent inflammasome-triggering mtDNA leakage (West et al., Nat Immunol 2015).
+
+Assay Candidate 15:
+Strategy: High-content oxidative stress imaging
+Reasoning: Multiplexed imaging of ROS (CellROX), mitochondrial health (MitoTracker), and nuclear integrity (Hoechst) in RPE delivers a rapid phenotypic profile to screen antioxidants in high-throughput (Reyes-Reveles et al., Nat Commun 2017).
+

@@ -1,0 +1,66 @@
+Query: Epigenetic modifications (DNA methylation, histone acetylation) affecting genes encoding tight junction proteins in RPE AND implications for barrier integrity in dry AMD pathogenesis, including reversible modulation by epigenetic inhibitors and functional barrier assays
+
+Here are 15 distinct mechanistic hypotheses/therapeutic‐strategy ideas focusing on epigenetic regulation of RPE tight junctions, barrier integrity assays, AMD pathogenesis, and reversible modulation by epigenetic drugs.  
+
+1. DNMT1‐mediated hypermethylation of the OCLN promoter under oxidative stress  
+   – Hypothesis: Chronic H2O2 exposure recruits DNMT1 to the occludin promoter, silencing OCLN and weakening RPE barrier.  
+   – Test: Treat ARPE-19 with H2O2 ± 5-azacytidine (DNMT inhibitor), measure OCLN promoter methylation (bisulfite sequencing), occludin mRNA/protein, TEER and FITC-dextran flux.  
+
+2. HDAC3‐dependent deacetylation of the TJP1 (ZO-1) locus in response to inflammatory cytokines  
+   – Hypothesis: IL-1β induces HDAC3 nuclear translocation, reduces H3K27ac at TJP1 promoter, downregulates ZO-1 and increases permeability.  
+   – Test: IL-1β ± RGFP966 (HDAC3 inhibitor), ChIP for H3K27ac at TJP1, ZO-1 levels, TEER.  
+
+3. DNMT3A recruitment to the CLDN19 promoter by the transcriptional repressor MeCP2  
+   – Hypothesis: In dry AMD–mimicking conditions, MeCP2 binds methylated CpGs in CLDN19 promoter, recruits DNMT3A and represses claudin-19.  
+   – Test: siRNA MeCP2 or 5-azacytidine treatment in ARPE-19 ± H2O2, assess CLDN19 methylation, protein, barrier assays.  
+
+4. SIRT1 loss leads to hypoacetylation of histones at multiple tight junction genes  
+   – Hypothesis: Decreased SIRT1 in aged RPE causes global H3/H4 hypoacetylation at TJP1, OCLN, CLDN19 promoters, compromising barrier.  
+   – Test: Knockdown SIRT1 in primary human RPE, then rescue with SIRT1 activator (resveratrol or SRT1720), measure histone acetylation, junction protein levels, TEER and paracellular flux.  
+
+5. BET‐protein (BRD4) inhibition to relieve silencing of tight junction enhancers  
+   – Hypothesis: Under AMD‐like stress, aberrant deacetylation leads to BRD4 binding block; JQ1 re‐establishes enhancer activity at TJP1/CLDN19, restoring junctions.  
+   – Test: H2O2-treated RPE ± JQ1, assay enhancer–promoter looping (3C), junction expression, barrier function.  
+
+6. CRISPR–dCas9‐TET1 epigenome editing to demethylate OCLN promoter  
+   – Hypothesis: Targeted TET1 recruitment will demethylate and reactivate occludin without global DNMT inhibition side effects.  
+   – Test: Transfect RPE with dCas9–TET1 + guide RNA to OCLN CpG island, measure local methylation, OCLN expression, TEER.  
+
+7. HDAC6‐mediated deacetylation of non‐histone tight junction regulators  
+   – Hypothesis: HDAC6 deacetylates and destabilizes afadin or ZO‐1, impairing barrier; tubastatin A (HDAC6 inhibitor) preserves acetylation and junction stability.  
+   – Test: HDAC6 overexpression/knockdown in RPE, ± tubastatin A, co‐IP of ZO-1/afadin acetylation, barrier assays.  
+
+8. Interplay between miR-200 family and DNA methylation at TJP1 locus  
+   – Hypothesis: Hypermethylation of miR-200c promoter reduces its expression, leading to upregulation of DNMT3B which then hypermethylates TJP1 promoter.  
+   – Test: Restore miR-200c via mimic in RPE under stress, assess DNMT3B levels, TJP1 methylation/expression, TEER.  
+
+9. EZH2‐driven H3K27 trimethylation at CLDN19 promoter in senescent RPE  
+   – Hypothesis: Senescence‐associated EZH2 up‐regulation tri‐methylates H3K27 at the CLDN19 promoter, repressing claudin-19; GSK126 (EZH2 inhibitor) reverses this.  
+   – Test: Induce senescence (replicative or H2O2) in RPE, ± GSK126, ChIP for H3K27me3, claudin-19 expression, barrier function.  
+
+10. HDAC1/2 dual inhibition to restore global histone acetylation and barrier integrity  
+   – Hypothesis: Broad deacetylation by HDAC1/2 in AMD reduces multiple junction proteins; treatment with romidepsin or MS-275 recovers acetylation and barrier.  
+   – Test: ARPE-19 + TNF-α ± MS-275, measure H3/H4 acetylation, ZO-1/occludin/claudin-19 expression, TEER and dextran permeability.  
+
+11. Crosstalk between DNA methylation and histone acetylation at the CLDN10 promoter  
+   – Hypothesis: CpG methylation recruits MBD2 which also binds HDAC1, creating a repressive complex on CLDN10; disrupting either arm (5-Aza or HDAC inhibitor) reactivates expression.  
+   – Test: Knockdown MBD2 vs 5-Aza vs SAHA in RPE, assess CLDN10 promoter occupancy, expression, barrier integrity.  
+
+12. Inhibition of G9a (H3K9 methyltransferase) to relieve repression of junction genes  
+   – Hypothesis: Increased H3K9me2 at TJP1 and OCLN promoters by G9a under oxidative/inflammatory stress represses expression; UNC0638 (G9a inhibitor) reverses this.  
+   – Test: Stress RPE ± UNC0638, ChIP for H3K9me2, junction levels, TEER, permeability.  
+
+13. Combined epigenetic/antioxidant therapy to synergistically restore RPE barrier  
+   – Hypothesis: 5-Aza plus N-acetylcysteine concurrently demethylates promoters and reduces ROS, synergizing to restore tight junctions more effectively than either alone.  
+   – Test: H2O2-treated RPE with 5-Aza, NAC, or both; measure methylation, junction proteins, barrier assays.  
+
+14. Time‐course mapping of epigenetic changes during subretinal deposit formation in an in vitro drusen model  
+   – Hypothesis: Early DNA hypomethylation of junction gene promoters is followed by later histone deacetylation as drusen‐like material accumulates; timely HDAC inhibition prevents barrier breakdown.  
+   – Test: Expose RPE to photoreceptor outer segment overload over days, sample for methylation (bisulfite) and histone marks (ChIP), treat at different timepoints with SAHA, assess barrier.  
+
+15. Personalized epigenetic profiling of patient‐derived iPSC‐RPE and tailored inhibitor screening  
+   – Hypothesis: Dry AMD patients exhibit distinct methylation/acetylation signatures at tight junction genes; patient‐specific epigenetic drug(s) can be identified in vitro to restore barrier.  
+   – Test: Generate iPSC-RPE from multiple dry AMD donors, map promoter methylation and histone acetylation of TJP1/OCLN/CLDN19, screen a panel of DNMT, HDAC, HAT inhibitors for barrier rescue (TEER, permeability).  
+
+Each hypothesis ties an epigenetic mechanism to tight junction gene regulation in RPE, links to barrier integrity assays, and proposes reversible modulation by specific epigenetic drugs.
+

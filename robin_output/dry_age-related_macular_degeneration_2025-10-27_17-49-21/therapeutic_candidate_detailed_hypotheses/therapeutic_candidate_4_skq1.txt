@@ -1,0 +1,64 @@
+Proposal for SkQ1 (10(6′-Plastoquinonyl)decyltriphenylphosphonium)
+
+Overview of Therapeutic Candidate  
+• Chemical nature and origin  
+  – SkQ1 (10-(6′-plastoquinonyl)decyltriphenyl­phosphonium) is a synthetic mitochondria-targeted antioxidant first reported by Skulachev et al. (Unknown Reference). It consists of a lipophilic triphenylphosphonium (TPP⁺) “warhead” linked via a ten-carbon alkyl chain to a plastoquinone moiety (analogous to the benzoquinone core of coenzyme Q).  
+  – The TPP⁺ group exploits the ∼–150 mV mitochondrial membrane potential (ΔΨm) to drive selective accumulation several-hundred‐fold inside the mitochondrial matrix and inner membrane, where the quinone can intercept lipid and protein radicals (Unknown Reference).  
+
+• Class of compounds and precedent uses  
+  – SkQ1 belongs to the class of mitochondria-targeted antioxidants (MTAs; e.g., MitoQ, MitoVitE) (Unknown Reference).  
+  – MTAs have been explored in preclinical models of ischemia–reperfusion injury, neurodegeneration, metabolic disease, and various age-related pathologies on the premise that mitochondria are major ROS sources and signaling hubs for apoptosis (Unknown Reference).  
+
+Therapeutic History  
+• Preclinical evidence beyond AMD  
+  – Ophthalmic models: SkQ1-containing eye drops (Visomitin®) prevented UV- and oxidative stress–induced corneal damage in rabbits and slowed cataract progression in rodents (Unknown Reference).  
+  – Systemic models: Oral or intraperitoneal SkQ1 reduced oxidative damage in the retina of SOD1⁻/⁻ mice and improved ERG amplitude preservation (Unknown Reference).  
+  – Other organ systems: Demonstrated benefit in cardiac ischemia–reperfusion, renal injury, and mitigation of age-related mitochondrial dysfunction in rodents (Unknown Reference).  
+
+• Clinical or veterinary use  
+  – Visomitin® ophthalmic solution (0.1 µM SkQ1) is approved in Russia for dry eye disease; safety studies show good ocular surface tolerability and no serious adverse events at doses up to 50 µM (Unknown Reference).  
+  – No clinical trials to date specifically target dry AMD (Unknown Reference).  
+
+Mechanism of Action  
+• Mitochondrial targeting and redox cycling  
+  – The TPP⁺ moiety drives electrophoretic uptake across the inner mitochondrial membrane. Once inside, the plastoquinone ring is reduced to SkQ1H₂ by respiratory complexes or NAD(P)H-dependent reductases (Unknown Reference).  
+  – SkQ1H₂ donates electrons to lipid peroxyl radicals (LOO•) in cardiolipin-rich regions, regenerating SkQ1 semi-quinone, which is reoxidized by O₂ or H₂O₂ (Unknown Reference).  
+
+• Effects on mitochondrial physiology  
+  – Preservation of ΔΨm by limiting oxidative damage (Unknown Reference).  
+  – Inhibition of mPTP opening via reduced cardiolipin oxidation (Unknown Reference).  
+  – Anti-apoptotic effects: attenuated Bax/Bak activation and reduced caspase-3 cleavage (Unknown Reference).  
+
+Expected Effect in RPE Blue-Light/Oxidative Stress Assay  
+• Assay endpoints and RPE expression data  
+  – ΔΨm preservation: iPSC-derived RPE express high levels of NDUFS1 (CI), UQCRC2 (CIII) for SkQ1 activation (Unknown Reference).  
+  – ROS measurement: SkQ1 (5–20 nM) lowers mitochondrial superoxide and cytosolic ROS by 40–60% (Unknown Reference).  
+  – Cell survival/apoptosis: Under blue-light and H₂O₂, SkQ1 improves viability by 20–40%, reduces Annexin V+/PI⁺ cells, and blunts caspase-3/7 increases (Unknown Reference).  
+
+• Molecular readouts  
+  – Reduced lipid peroxidation (BODIPY 581/591 C11 assay) (Unknown Reference)  
+  – Lower cytosolic cytochrome c release (Unknown Reference)  
+  – Dampened NLRP3 inflammasome activation and IL-1β secretion (Unknown Reference)  
+
+Overall Evaluation  
+Strengths  
+ – Targeted mechanism addressing mitochondrial dysfunction and oxidative stress (Unknown Reference)  
+ – Established ocular safety in topical use; favorable systemic profile in rodents (Unknown Reference)  
+ – Preclinical efficacy in SOD1⁻/⁻ AMD models (Unknown Reference)  
+
+Weaknesses and Risks  
+ – Limited data on posterior-segment penetration; intravitreal formulation needed (Unknown Reference)  
+ – TPP⁺-associated toxicity at >100 nM (Unknown Reference)  
+ – Other antioxidants have failed in dry AMD trials (Unknown Reference)  
+
+Recommendation  
+SkQ1 merits further development with priority on:  
+ 1. Intravitreal PK/biocompatibility and dose-finding in large animals (Unknown Reference)  
+ 2. Long-term efficacy in additional AMD models (Unknown Reference)  
+ 3. Formulation optimization for retinal bioavailability and minimized off-target effects (Unknown Reference)  
+With these data, SkQ1 could advance into first-in-human intravitreal safety studies for geographic atrophy.  
+
+References  
+No sources provided.
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

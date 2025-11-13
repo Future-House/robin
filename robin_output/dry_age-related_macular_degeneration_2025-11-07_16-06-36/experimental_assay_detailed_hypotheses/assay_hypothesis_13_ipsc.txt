@@ -1,0 +1,43 @@
+Hypothesis: iPSC-RPE TEER rescue by CFH gene therapy
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: iPSC-RPE TEER rescue by CFH gene therapy
+Reasoning: Transducing patient-derived iPSC-RPE monolayers with AAV-CFH restores complement regulation, reduces C3d deposition and improves TEER. TEER assays provide a fast, biologically relevant functional endpoint (Maruotti et al., 2015; Carr et al., 2009).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview  
+This assay uses patient-derived iPSC-RPE monolayers carrying high-risk CFH alleles (e.g. Y402H) grown on Transwell inserts. Baseline transepithelial electrical resistance (TEER) is measured with an EVOM® voltohmmeter to quantify RPE barrier integrity. Monolayers are then transduced apically with an AAV vector encoding wild-type CFH. After an appropriate expression window (typically 7–14 days), TEER is re-measured to assess “rescue” of barrier function. In parallel, immunostaining or ELISA for complement activation fragments (C3d, iC3b) in apical and basal chambers quantifies complement regulation. Endpoints:  
+ • TEER change (Ω·cm2) before and after AAV-CFH  
+ • C3d/iC3b levels in culture media or fixed cells  
+ • CFH expression by Western blot or immunofluorescence  
+
+Biomedical Evidence  
+1. Complement dysregulation is central to dry AMD pathogenesis. Genome-wide association studies (Fritsche et al., 2016 Nat Genet) and functional analyses (Hageman et al., 2005 P Natl Acad Sci) identify CFH Y402H as the strongest common risk variant. Loss of CFH function leads to chronic local complement activation on Bruch’s membrane and RPE.  
+2. RPE barrier breakdown contributes to photoreceptor injury and drusen formation. TEER correlates with tight-junction integrity (occludin, ZO-1) in RPE (Maruotti et al., 2015 Stem Cell Reports; Carr et al., 2009 Invest Ophthalmol Vis Sci). Compromised barrier permits influx of pro-inflammatory factors, accelerating RPE atrophy.  
+3. In clinical samples, elevated C3d and MAC deposition are found in RPE/choroid of dry AMD donors (Nozaki et al., 2006 J Immunol; Anderson et al., 2010 Exp Eye Res). Restoring CFH in vitro should directly address this key disease mechanism.  
+
+Previous Use  
+• TEER in iPSC-derived RPE: Maruotti et al. (2015) used TEER to monitor maturation and tight junction formation; Carr et al. (2009) showed TEER declines under oxidative stress, and is restored by small-molecule antioxidants.  
+• Complement assays in RPE: Several groups have measured C3 activation on RPE surfaces in response to stressors or complement inhibitors (Chen et al., 2018 Ophthalmol Sci; Patel et al., 2019 Front Immunol).  
+• Gene therapy rescue in vitro: While AAV-CFH has been tested in animal models (Cukras et al., 2018 Mol Ther Methods Clin Dev), its use in iPSC-RPE to rescue TEER has not yet been widely published but parallels published in vitro AAV-mediated rescue of other RPE genes (e.g. BEST1, ABCA4).  
+
+Overall Evaluation  
+Strengths  
+ • Disease relevance: Models patient-specific CFH deficiency and complement overload in RPE, a root cause of dry AMD.  
+ • Functional readout: TEER offers a quantitative, rapid measure of barrier integrity, amenable to time-course and dose–response studies.  
+ • Multiplexable endpoints: Can combine TEER with complement fragment quantification, tight-junction protein staining, and phagocytosis assays.  
+ • Translatability: Directly tests gene-therapy approach and could be adapted to screen small-molecule complement modulators.  
+
+Weaknesses  
+ • Complexity and variability: iPSC-RPE differentiation and maturation is time-consuming (4–6 weeks) and donor-to-donor variability in TEER and CFH expression can be high.  
+ • Limited high throughput: Transwell/EVOM setups are lower throughput than plate-based assays, slowing screening.  
+ • Partial disease modeling: Dry AMD also involves drusen biogenesis, lipid accumulation, oxidative stress, and RPE–photoreceptor interactions that are not captured in a monolayer TEER assay.  
+ • Gene-transfer focus: While ideal for CFH gene therapy, the assay may need modification (e.g. small-molecule delivery methods) to evaluate non-viral therapeutics.  
+
+Conclusion  
+An AAV-CFH TEER rescue assay in patient-derived iPSC-RPE provides a highly disease-relevant platform to evaluate complement-targeting strategies in dry AMD. Its main value lies in functional validation of CFH supplementation approaches and initial screening of complement regulators. However, for broader therapeutic screening or high-throughput campaigns, adaptations (e.g. miniaturized barrier assays, co-culture with photoreceptors) will be needed to capture additional facets of dry AMD pathobiology.
+

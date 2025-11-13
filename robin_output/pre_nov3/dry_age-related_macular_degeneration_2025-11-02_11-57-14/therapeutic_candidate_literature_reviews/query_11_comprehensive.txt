@@ -1,0 +1,57 @@
+Query: Comprehensive studies dissecting the role of complement system dysregulation, particularly C3a/C5a and factor H polymorphisms, in RPE barrier breakdown and drusen formation in dry AMD, including genetic models, in vitro barrier assays, and identification of complement-targeted therapeutic strategies
+
+1. Hypothesis: C3a disrupts RPE tight junction integrity via MAPK-driven downregulation of ZO-1 and claudin-1.  
+   • Model: ARPE-19 monolayers treated with graded doses of recombinant C3a  
+   • Assays: TEER measurements, immunofluorescent ZO-1/claudin-1 staining, MAPK inhibitors rescue  
+
+2. Hypothesis: C5a activates the NLRP3 inflammasome in RPE, promoting IL-1β release and barrier breakdown.  
+   • Model: iPSC-derived RPE exposed to C5a  
+   • Assays: Caspase-1 activity, IL-1β ELISA, TEER, barrier rescue with MCC950 (NLRP3 inhibitor)  
+
+3. Hypothesis: The Y402H polymorphism in factor H impairs surface regulation of complement on RPE, driving sublytic MAC deposition and junctional leakage.  
+   • Model: ARPE-19 cells CRISPR-edited to homozygosity for FH Y402H  
+   • Assays: C5b-9 immunostaining, TEER, LDH release; rescue with exogenous wild-type FH protein  
+
+4. Hypothesis: RPE-derived extracellular vesicles enriched in C3 activation fragments propagate an autocrine complement amplification loop.  
+   • Model: Collect microvesicles from C3a/C5a-stimulated RPE and reapply to naïve cultures  
+   • Assays: qPCR for C3/C5 transcription, complement reporter assays, barrier integrity  
+
+5. Hypothesis: Oxidative stress synergizes with FH Y402H to enhance C3b deposition on RPE, accelerating drusen-like deposit formation.  
+   • Model: H₂O₂ treatment of FH Y402H vs. wild-type RPE  
+   • Assays: C3b immunoblot, sub-RPE deposit quantification on transwells, antioxidant (NAC) rescue  
+
+6. Hypothesis: C3a/C5a signaling skews RPE extracellular matrix output (fibronectin, collagen IV), seeding drusen biogenesis.  
+   • Model: Recombinant C3a/C5a exposures  
+   • Assays: Secreted ECM protein ELISAs, immunocytochemistry of ECM on transwell membranes  
+
+7. Hypothesis: Complement-activated choroidal endothelial cells release VEGF that synergizes with C5a to potentiate RPE barrier loss.  
+   • Model: Transwell co-culture of HUVECs (pre-activated with C5a) above RPE monolayers  
+   • Assays: TEER, ZO-1 staining, blockade with anti-VEGF and C5aR antagonist  
+
+8. Hypothesis: Sublytic complement attack induces RPE mitochondrial dysfunction, ROS overproduction, and barrier compromise.  
+   • Model: Low-level MAC deposition via serum + complement activators  
+   • Assays: JC-1 mitochondrial potential, ROS dyes, Seahorse OCR, TEER, rescue with MitoQ  
+
+9. Therapeutic Strategy: Develop and screen dual C3aR/C5aR small-molecule antagonists for prevention of complement-induced RPE barrier damage in vitro.  
+   • Assays: TEER under C3a/C5a challenge, downstream Ca²⁺ flux and MAPK activation  
+
+10. Therapeutic Strategy: AAV-mediated delivery of wild-type FH gene to RPE cultures harboring FH Y402H, restoring local complement regulation.  
+    • Assays: Complement deposition, TEER, cell viability under serum complement stress  
+
+11. Therapeutic Strategy: Lipid-based nanoparticles carrying siRNA against C3 mRNA in RPE, reducing local C3 synthesis and drusen-like deposit formation.  
+    • Assays: qPCR C3 knockdown, C3b staining, ECM deposit assays on transwells  
+
+12. Therapeutic Strategy: Apply next-generation compstatin derivatives (C3 convertase inhibitors) to RPE monolayers under complement challenge; measure inhibition of C3b deposition and barrier preservation.  
+    • Assays: C3b immunoassays, TEER, permeability to FITC-dextran  
+
+13. Hypothesis: Chronic C5a exposure induces epithelial-to-mesenchymal transition in RPE via TGF-β upregulation, weakening barrier and promoting fibrotic drusen components.  
+    • Model: Repeated low-dose C5a pulses  
+    • Assays: qPCR for α-SMA/vimentin, immunostaining, reversal by anti-C5a or anti-TGF-β antibodies  
+
+14. Therapeutic Strategy: Engineer mini-FH (a truncated factor H) conjugated to RPE-targeting peptides on nanoparticles to concentrate complement regulation at Bruch’s membrane.  
+    • Assays: Nanoparticle binding, complement deposition, TEER under complement activation  
+
+15. Hypothesis: Subclinical, repeated complement activation modulates RPE autophagy flux, leading to accumulation of lipofuscin-like drusen precursors.  
+    • Model: Pulsatile C3a/C5a treatment over days  
+    • Assays: LC3-II/I ratio, p62 levels, autophagosome count (TEM), downstream drusen precursor aggregates
+

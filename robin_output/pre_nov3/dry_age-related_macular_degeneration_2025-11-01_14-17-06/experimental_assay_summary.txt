@@ -1,0 +1,60 @@
+Assay Candidate 1:
+Strategy: Lipofuscin Reduction Assay
+Reasoning: Accumulation of A2E-derived lipofuscin in RPE cells promotes phototoxicity and cell death in dry AMD (Sparrow et al., 2003, Proc Natl Acad Sci U S A). Measuring autofluorescence reduction after drug treatment provides a rapid, direct readout of lipofuscin clearance.
+
+Assay Candidate 2:
+Strategy: Oxidative Stress Protection Assay
+Reasoning: RPE oxidative damage from H2O2 is a core mechanism in dry AMD (Beatty et al., 2000, Surv Ophthalmol). Quantifying intracellular ROS via DCFDA and cell viability after insult yields a simple, fast readout of antioxidant drug efficacy.
+
+Assay Candidate 3:
+Strategy: Complement Deposition Assay
+Reasoning: Aberrant activation of the alternative complement pathway and membrane attack complex (MAC) deposition on RPE underlies drusen formation (Johnson et al., 2000, J Clin Invest). Immunofluorescent detection of C5b-9 on cultured RPE offers a direct functional endpoint.
+
+Assay Candidate 4:
+Strategy: Autophagy Flux Assay
+Reasoning: Defective autophagy in RPE contributes to protein and lipid accumulation in dry AMD (Mitter et al., 2014, Autophagy). LC3-II turnover or p62 clearance measured by Western blot or immunofluorescence provides a rapid assessment of autophagy-modulating compounds.
+
+Assay Candidate 5:
+Strategy: Mitochondrial Respiration Assay
+Reasoning: Mitochondrial dysfunction is implicated in RPE degeneration in AMD (Karunadharma et al., 2010, Invest Ophthalmol Vis Sci). Seahorse XF analysis of oxygen consumption rate (OCR) in drug-treated RPE offers a quantitative, biologically relevant measure of mitochondrial health.
+
+Assay Candidate 6:
+Strategy: Cytokine Secretion Assay
+Reasoning: Chronic low‐grade inflammation via IL-6 and IL-8 secretion by RPE contributes to dry AMD pathogenesis (Zeng et al., 2008, Invest Ophthalmol Vis Sci). ELISA-based quantification after inflammatory challenge provides a fast functional readout.
+
+Assay Candidate 7:
+Strategy: Drusen-like Deposit Formation Assay
+Reasoning: In vitro RPE cultures on transwell membranes produce sub-RPE extracellular material resembling drusen (Finnemann et al., 2002, Exp Eye Res). Quantifying ECM components (e.g., vitronectin, C3) by immunostaining yields a relevant measure of deposit-inhibiting drug activity.
+
+Assay Candidate 8:
+Strategy: Photoreceptor Outer Segment Phagocytosis Assay
+Reasoning: Decline in RPE phagocytosis of shed photoreceptor outer segments is linked to dry AMD (Nandrot et al., 2007, Proc Natl Acad Sci U S A). Uptake of fluorescently labeled POS by RPE monolayers provides a direct functional endpoint for drug screening.
+
+Assay Candidate 9:
+Strategy: Nrf2 Reporter Activation Assay
+Reasoning: Activation of the Nrf2 antioxidant pathway protects RPE from oxidative insults (Kumar et al., 2014, Redox Biol). A luciferase or GFP reporter under control of the antioxidant response element (ARE) allows rapid screening of Nrf2 agonists.
+
+Assay Candidate 10:
+Strategy: Cellular Senescence Assay
+Reasoning: Senescent RPE contribute to AMD by secreting pro‐inflammatory factors (Laczynski et al., 2011, Aging Cell). SA-β-galactosidase staining and p16^INK4a expression in drug-treated RPE under stress provide functional endpoints for senolytic or senostatic compounds.
+
+Assay Candidate 11:
+Strategy: Lipid Peroxidation Assay
+Reasoning: Peroxidation of RPE lipids accelerates degeneration in dry AMD (Ueta et al., 2009, Free Radic Biol Med). BODIPY-C11 fluorescence shift assay offers a high-throughput measure of drug-mediated inhibition of lipid peroxidation.
+
+Assay Candidate 12:
+Strategy: Mitochondrial ROS Detection Assay
+Reasoning: Excess mitochondrial ROS in RPE triggers cell death pathways in AMD (Khatib et al., 2004, Invest Ophthalmol Vis Sci). MitoSOX fluorescence quantification in live cells provides a sensitive and rapid endpoint for antioxidant screening.
+
+Assay Candidate 13:
+Strategy: RPE Barrier Integrity Assay
+Reasoning: Loss of tight‐junction integrity in RPE monolayers contributes to AMD progression (Sonoda et al., 2009, Invest Ophthalmol Vis Sci). Measuring transepithelial electrical resistance (TEER) after drug treatment yields a direct functional readout of barrier protection.
+
+Assay Candidate 14:
+Strategy: Complement Factor H Binding Assay
+Reasoning: Polymorphisms in complement factor H (CFH) impair RPE ECM regulation in dry AMD (Hageman et al., 2005, Proc Natl Acad Sci U S A). ELISA-based binding of CFH to RPE-secreted ECM proteins evaluates drugs that restore normal complement control.
+
+Assay Candidate 15:
+Strategy: Inflammasome Activation Assay
+Reasoning: NLRP3 inflammasome activation in RPE leads to IL-1β secretion, promoting dry AMD (Tarallo et al., 2012, Nat Med). Caspase-1 activity assays or IL-1β ELISA after DICER1 knockdown or Alu RNA transfection provide a functional screen for inflammasome inhibitors.
+

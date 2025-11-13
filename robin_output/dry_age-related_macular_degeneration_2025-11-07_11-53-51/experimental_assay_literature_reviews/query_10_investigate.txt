@@ -1,0 +1,66 @@
+Query: Investigate cellular senescence and proteostasis decline in aged RPE culture models of dry AMD, focusing on expression of senescence markers (p16INK4a, β-galactosidase), lysosomal enzyme activity (cathepsins), impaired autophagic flux, and development of quantitative high-content assays for therapeutic evaluation.
+
+Here are 15 distinct mechanistic hypotheses or therapeutic‐strategy ideas—all testable in aged RPE monolayer or iPSC-derived RPE culture models of dry AMD, with readouts for p16INK4a, SA-β-gal, lysosomal cathepsins and autophagic flux, optimized for quantitative high-content imaging (HCI):
+
+1.  TFEB Loss-of-Function Drives Senescence and Proteostasis Collapse  
+    • Hypothesis: Endogenous decline in TFEB nuclear translocation in aged RPE reduces CLEAR‐network gene expression → impaired lysosomal biogenesis, cathepsin activity and autophagy → ↑p16, SA-β-gal+.  
+    • Assay: Transduce aged RPE with TFEB shRNA vs. control; HCI of TFEB localization, LAMP1, CatD activity probe, LC3‐GFP flux (± bafilomycin A1), p16 immunofluorescence and SA-β-gal dye.
+
+2.  mTOR Hyperactivation Suppresses Autophagy and Promotes RPE Senescence  
+    • Hypothesis: Chronic mTORC1 overactivity in aged RPE inhibits autophagosome–lysosome fusion, leading to proteotoxic stress and senescence marker upregulation.  
+    • Strategy: Treat with rapamycin or catalytic mTOR inhibitor; HCI measurement of p-S6K, LC3II turnover (mCherry‐GFP‐LC3), cathepsin B activity, p16 and β-gal staining.
+
+3.  V-ATPase Downregulation Impairs Lysosomal Acidification in Aged RPE  
+    • Hypothesis: Reduced expression of V-ATPase subunits (e.g. ATP6V1B2) elevates lysosomal pH, inactivates cathepsins and triggers proteostasis failure.  
+    • Strategy: Overexpress ATP6V1B2 or supply the small-molecule V-ATPase activator EN6; monitor LysoSensor, Magic Red cathepsin substrates, LC3 turnover, p16/β-gal by HCI.
+
+4.  AMPK Activation Restores Autophagy and Delays RPE Senescence  
+    • Hypothesis: Age‐associated AMPK inactivation decreases ULK1-dependent autophagy initiation, causing proteotoxic buildup and senescence.  
+    • Strategy: Use metformin or AICAR; HCI for p-AMPK, p-ULK1, LC3 flux, cathepsin L activity, p16INK4a immunostaining, SA-β-gal.
+
+5.  ER Proteostasis Stress Drives Senescence via PERK–eIF2α Pathway  
+    • Hypothesis: Chronic ER stress in aged RPE activates PERK–eIF2α → pro‐senescence via CHOP; proteostasis collapse due to misfolded rhodopsin clearance failure.  
+    • Strategy: Inhibit PERK (GSK2606414) or bolster chaperones with 4-PBA; HCI for p-eIF2α, BiP, aggresome count (Proteostat), p16, SA-β-gal.
+
+6.  Senolytic Clearing of p16High RPE Rescues Proteostasis in Neighboring Cells  
+    • Hypothesis: A small subset of highly senescent, p16High RPE drives paracrine proteostasis decline; their elimination improves overall culture health.  
+    • Strategy: Apply Dasatinib + Quercetin; multiplex HCI of p16–GFP reporter, cleaved caspase-3, cathepsin activity in surviving cells, LC3 flux.
+
+7.  NRF2 Decline Exacerbates Oxidative Proteostasis Failure and Lysosomal Dysfunction  
+    • Hypothesis: Aged RPE fail to mount NRF2 response → accumulation of oxidized proteins in lysosomes, impaired cathepsin activity → senescence.  
+    • Strategy: Overexpress NRF2 or use bardoxolone; HCI for ROS (CellROX), ubiquitin puncta, cathepsin B activity, p16, SA-β-gal.
+
+8.  DJ-1 (PARK7) Overexpression Protects RPE from Proteotoxic and Senescence Stress  
+    • Hypothesis: Age-related loss of DJ-1 antioxidant activity leads to increased protein carbonylation, proteostasis collapse and senescence.  
+    • Strategy: Transient DJ-1 overexpression; HCI for protein carbonyls (dinitrophenylhydrazine staining), LC3 flux, cathepsin D activity, p16 and β-gal.
+
+9.  Chaperone Co-Inducer Arimoclomol Reverses Proteostasis Decline and Senescence  
+    • Hypothesis: Pharmacological up-regulation of HSP70/HSP90 restores folding capacity, alleviates autophagy over-burden and reduces p16-driven arrest.  
+    • Strategy: Treat with arimoclomol; HCI for HSP70 levels, aggresome count, LC3‐GFP flux, cathepsin assays, SA-β-gal.
+
+10.  Lysosomal Calcium Channel TRPML1 Enhancement Stimulates Autophagy in Aged RPE  
+    • Hypothesis: Impaired TRPML1‐mediated Ca2+ release from lysosomes in aged RPE blocks TFEB activation and autophagy, promoting senescence.  
+    • Strategy: Apply ML-SA1 (TRPML1 agonist); HCI for cytosolic Ca2+ transients (Fluo-4), TFEB nuclear translocation, LC3 flux, p16/β-gal.
+
+11.  Proteasome–Lysosome Crosstalk: Proteasome Inhibition Drives Senescence via Autophagy Overload  
+    • Hypothesis: Age-dependent proteasome loss in RPE increases misfolded protein traffic to lysosomes, overwhelms autophagy and drives p16 induction.  
+    • Strategy: Partially inhibit proteasome (MG132 low dose) in young vs. aged RPE; HCI for ubiquitin foci, LC3 puncta, cathepsin activity, p16/β-gal.
+
+12.  Exosome-Mediated Delivery of Young RPE-Derived Proteostasis Factors  
+    • Hypothesis: Exosomes from early-passage RPE carry chaperones or miRNAs that restore autophagy and lysosomal function in aged RPE.  
+    • Strategy: Treat aged RPE with purified young RPE exosomes; HCI for HSP expression, LC3 flux, cathepsin probes, p16 and SA-β-gal.
+
+13.  SIRT1 Activation Rejuvenates Autophagy and Suppresses Senescence in Aged RPE  
+    • Hypothesis: Decline in SIRT1 → hyperacetylated autophagy machinery (Atg5/Atg7) and histones → reduced autophagy gene expression and senescence.  
+    • Strategy: Use SRT1720; HCI for SIRT1 target deacetylation (Ac-p53 K382), LC3 flux, cathepsin L activity, p16, SA-β-gal.
+
+14.  Glutamine Starvation Mimics Proteostasis Stress and Predicts Senescence Reversal Strategies  
+    • Hypothesis: Glutamine deprivation in aged RPE augments lysosomal stress; supplying α-ketoglutarate analogs restores TCA support, lysosomal function and reduces senescence.  
+    • Strategy: Perform glutamine withdrawal ± dimethyl‐KG; HCI for mitochondrial potential (JC-1), LysoSensor, cathepsin, p16 and β-gal.
+
+15.  Mitochondria–Lysosome Contact Sites Decline Drives Proteostasis Failure  
+    • Hypothesis: Age-related loss of RAB7–VDAC2 contacts between lysosomes and mitochondria impairs mitophagy, leading to ROS build-up and senescence.  
+    • Strategy: Overexpress RAB7 or ERMES‐like tethers; HCI for mitophagy reporter (mt‐Keima), ROS, cathepsin activity, p16 and β-gal.
+
+Each idea leverages high-content imaging to quantify senescence markers, lysosomal enzyme function and autophagic flux, creating a robust platform for downstream therapeutic screening.
+

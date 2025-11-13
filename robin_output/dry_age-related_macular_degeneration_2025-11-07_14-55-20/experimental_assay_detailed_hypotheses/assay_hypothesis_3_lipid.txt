@@ -1,0 +1,39 @@
+Hypothesis: Lipid Droplet Accumulation Assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Lipid Droplet Accumulation Assay
+Reasoning: Uses BODIPY or Oil Red O staining to quantify neutral lipid and bisretinoid-induced droplet formation in RPE, enabling screening of small molecules that modulate lipid homeostasis; based on Tang et al.’s identification of lipid accumulation driving complement activation (Tang et al., 2024).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+This assay employs BODIPY and Oil Red O staining to quantify the accumulation of neutral lipid droplets—and potentially bisretinoid‐induced droplets—in RPE cells, typically using ARPE‐19 or primary human RPE cultures. The assay models the intracellular lipid handling defect observed in dry AMD, where excess lipid accumulation compromises RPE function. Quantitative imaging (e.g., automated time‐lapse microscopy and fluorescence quantification) is used to measure lipid droplet number, size, and intensity.
+
+Biomedical Evidence:  
+Dysregulated lipid metabolism is central to dry AMD pathogenesis, as studies have linked intracellular lipid accumulation with impaired phagocytosis, oxidative stress, and downstream complement activation. Genetic models (e.g., RPE‐specific ABCA1/ABCG1 knockouts) recapitulate key AMD features by promoting lipid deposition and subsequent retinal degeneration. Moreover, both clinical correlations and in vitro data underscore the role of lipid dyshomeostasis in drusen biogenesis and inflammatory activation (federica2019impairedabca1abcg1mediatedlipid pages 2-3, landowski2022targetinglipidmetabolism pages 1-2).
+
+Previous Use:  
+Multiple studies using ARPE‐19 cells with fatty acid loading and oleic acid models have successfully employed lipid droplet staining to evaluate alterations in lipid homeostasis and to screen compounds such as GLP‐1 receptor agonists (tsou2025liraglutideattenuatesffainduced pages 1-2, tsou2025liraglutideattenuatesffainduced pages 10-11). These studies have revealed that pharmacologic inhibition of droplet formation rescues phagocytic and oxidative defects.
+
+Overall Evaluation:  
+The assay’s primary strength lies in its quantitative capture of a disease-relevant phenotype—altered lipid homeostasis—in a controlled in vitro system. Its simplicity, reproducibility, and adaptability for high-throughput screening make it attractive for early drug discovery. However, the assay does not encompass extracellular deposit formation, complement activation, or the full complexity of AMD pathology, necessitating complementary functional endpoints and in vivo validation (yako2022lipiddropletaccumulation pages 5-7, lin2022dyslipidemiainagerelated pages 5-6).
+
+This lipid droplet accumulation assay offers a valuable platform to screen compounds targeting lipid dysregulation in dry AMD. It should be integrated with additional assays to address broader aspects of disease pathogenesis.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/276ed170-f061-45b7-95c1-12585a876f08
+
+References:
+1. (federica2019impairedabca1abcg1mediatedlipid pages 2-3): Federica Storti, Katrin Klee, Vyara Todorova, Regula Steiner, Alaa Othman, Saskia van der Velde-Visser, Marijana Samardzija, Isabelle Meneau, Maya Barben, Duygu Karademir, Valda Pauzuolyte, Sanford L Boye, Frank Blaser, Christoph Ullmer, Joshua L Dunaief, Thorsten Hornemann, Lucia Rohrer, Anneke den Hollander, Arnold von Eckardstein, Jürgen Fingerle, Cyrille Maugeais, and Christian Grimm. Impaired abca1/abcg1-mediated lipid efflux in the mouse retinal pigment epithelium (rpe) leads to retinal degeneration. eLife, Mar 2019. URL: https://doi.org/10.7554/elife.45100, doi:10.7554/elife.45100. This article has 101 citations and is from a domain leading peer-reviewed journal.
+
+2. (landowski2022targetinglipidmetabolism pages 1-2): Michael Landowski and Catherine Bowes Rickman. Targeting lipid metabolism for the treatment of age-related macular degeneration: insights from preclinical mouse models. Journal of Ocular Pharmacology and Therapeutics, 38:3-32, Jan 2022. URL: https://doi.org/10.1089/jop.2021.0067, doi:10.1089/jop.2021.0067. This article has 47 citations and is from a peer-reviewed journal.
+
+3. (tsou2025liraglutideattenuatesffainduced pages 1-2): Sing-Hua Tsou, Kai-Shin Luo, Chien-Ning Huang, Edy Kornelius, I-Ting Cheng, Hui-Chih Hung, Yu-Chien Hung, Chih-Li Lin, and Min-Yen Hsu. Liraglutide attenuates ffa-induced retinal pigment epithelium dysfunction via ampk activation and lipid homeostasis regulation in arpe-19 cells. International Journal of Molecular Sciences, 26:3704, Apr 2025. URL: https://doi.org/10.3390/ijms26083704, doi:10.3390/ijms26083704. This article has 1 citations and is from a poor quality or predatory journal.
+
+4. (tsou2025liraglutideattenuatesffainduced pages 10-11): Sing-Hua Tsou, Kai-Shin Luo, Chien-Ning Huang, Edy Kornelius, I-Ting Cheng, Hui-Chih Hung, Yu-Chien Hung, Chih-Li Lin, and Min-Yen Hsu. Liraglutide attenuates ffa-induced retinal pigment epithelium dysfunction via ampk activation and lipid homeostasis regulation in arpe-19 cells. International Journal of Molecular Sciences, 26:3704, Apr 2025. URL: https://doi.org/10.3390/ijms26083704, doi:10.3390/ijms26083704. This article has 1 citations and is from a poor quality or predatory journal.
+
+5. (yako2022lipiddropletaccumulation pages 5-7): Tomohiro Yako, Wataru Otsu, Shinsuke Nakamura, Masamitsu Shimazawa, and Hideaki Hara. Lipid droplet accumulation promotes rpe dysfunction. International Journal of Molecular Sciences, 23:1790, Feb 2022. URL: https://doi.org/10.3390/ijms23031790, doi:10.3390/ijms23031790. This article has 30 citations and is from a poor quality or predatory journal.
+
+6. (lin2022dyslipidemiainagerelated pages 5-6): Jonathan B. Lin, Omar A. Halawa, Deeba Husain, Joan W. Miller, and Demetrios G. Vavvas. Dyslipidemia in age-related macular degeneration. Eye, 36:312-318, Jan 2022. URL: https://doi.org/10.1038/s41433-021-01780-y, doi:10.1038/s41433-021-01780-y. This article has 65 citations and is from a peer-reviewed journal.

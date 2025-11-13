@@ -1,0 +1,26 @@
+Query: Role of cathepsin D in RPE cell homeostasis and survival under oxidative and photo-oxidative stress: studies examining enzyme expression, maturation, activity, regulatory pathways altered in dry AMD patient tissues and in vitro iPSC-RPE models, including TFEB-mediated transcription, post-translational processing, lysosomal trafficking, interplay with other hydrolases, and impact on photoreceptor outer segment degradation
+
+Cathepsin D (CatD) is a pivotal lysosomal aspartic protease that maintains RPE homeostasis by mediating degradation of photoreceptor outer segments (POS) and clearance of autophagic cargo. It is synthesized as a precursor (proCatD, ~52 kDa) and undergoes sequential post‑translational processing into an intermediate (48 kDa) and a mature two‐chain (34 kDa) enzyme required for efficient proteolytic activity (cardoso2018stemcellderivedretinal pages 162-164, cardoso2018stemcellderivedretinal pages 125-129). Under oxidative or photo‑oxidative stress, as encountered in dry AMD, lysosomal pH disturbances and altered trafficking—often induced by agents such as chloroquine—impair CatD maturation. This results in the accumulation of immature proCatD forms, a reduction in mature enzyme, and ultimately defective degradation of phagocytosed POS, evidenced by persistent rhodopsin and extracellular deposit formation (cardoso2018stemcellderivedretinal pages 153-156, cardoso2018stemcellderivedretinal pages 137-140).
+
+Compensatory mechanisms involve the TFEB/MiT family of transcription factors that relocate to the nucleus in response to lysosomal stress to drive lysosomal biogenesis and the expression of multiple hydrolases (cardoso2018stemcellderivedretinal pages 21-23, cardoso2018stemcellderivedretinal pages 171-174). However, the concomitant increase in other hydrolases such as CatB and CatL is insufficient to counterbalance the loss of functional CatD, resulting in a proteolytic imbalance that compromises RPE survival (cardoso2018stemcellderivedretinal pages 153-156, cardoso2018stemcellderivedretinal pages 162-164). Disrupted lysosomal trafficking—mediated by M6PR‑dependent pathways—and enhanced lysosomal exocytosis further exacerbate the degradation defect, linking impaired CatD function to the pathophysiology of dry AMD (cardoso2018stemcellderivedretinal pages 53-56, cardoso2018stemcellderivedretinal pages 159-162).
+
+CatD’s proper maturation and activity are essential for RPE cellular clearance and survival under stress. Impairments in its processing and regulation contribute to defective POS degradation and the development of AMD‐related degenerative changes.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/3fc01c2a-71da-4d40-a5b1-e13b14730888
+
+References:
+1. (cardoso2018stemcellderivedretinal pages 162-164): MHS Cardoso. Stem cell-derived retinal pigment epithelium models of lysosomal dysfunction in disease. Unknown journal, 2018.
+
+2. (cardoso2018stemcellderivedretinal pages 125-129): MHS Cardoso. Stem cell-derived retinal pigment epithelium models of lysosomal dysfunction in disease. Unknown journal, 2018.
+
+3. (cardoso2018stemcellderivedretinal pages 153-156): MHS Cardoso. Stem cell-derived retinal pigment epithelium models of lysosomal dysfunction in disease. Unknown journal, 2018.
+
+4. (cardoso2018stemcellderivedretinal pages 137-140): MHS Cardoso. Stem cell-derived retinal pigment epithelium models of lysosomal dysfunction in disease. Unknown journal, 2018.
+
+5. (cardoso2018stemcellderivedretinal pages 21-23): MHS Cardoso. Stem cell-derived retinal pigment epithelium models of lysosomal dysfunction in disease. Unknown journal, 2018.
+
+6. (cardoso2018stemcellderivedretinal pages 171-174): MHS Cardoso. Stem cell-derived retinal pigment epithelium models of lysosomal dysfunction in disease. Unknown journal, 2018.
+
+7. (cardoso2018stemcellderivedretinal pages 53-56): MHS Cardoso. Stem cell-derived retinal pigment epithelium models of lysosomal dysfunction in disease. Unknown journal, 2018.
+
+8. (cardoso2018stemcellderivedretinal pages 159-162): MHS Cardoso. Stem cell-derived retinal pigment epithelium models of lysosomal dysfunction in disease. Unknown journal, 2018.

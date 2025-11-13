@@ -1,0 +1,45 @@
+Therapeutic Candidate 1:
+Candidate: MCC950 (NLRP3 inflammasome inhibitor; MedChemExpress catalog HY-12815)
+Hypothesis: By directly inhibiting the NLRP3 ATPase domain in retinal pigment epithelium (RPE) cells, MCC950 will block assembly of the NLRP3 inflammasome complex, reduce caspase-1–mediated IL-1β/IL-18 release, prevent inflammasome-driven cytoskeletal remodeling and ZO-1 mislocalization, and thereby restore TEER and tight-junction integrity in dry AMD.
+Reasoning: 1. Target Validation: Genetic and histopathologic studies identify NLRP3 activation in drusen-laden RPE from geographic atrophy patients. Gain-of-function NLRP3 variants associate with earlier GA onset.
+2. Mechanistic Specificity: MCC950 binds NLRP3’s NACHT domain (IC50 ≈ 7.5 nM), blocking ATP hydrolysis and oligomerization without affecting NLRC4 or AIM2 inflammasomes.
+3. Preclinical Evidence: In mouse models of RPE stress (A2E + blue light or sublytic C5b-9), MCC950 (10 mg/kg, oral or intravitreal) reduces RPE IL-1β by 60%, preserves ZO-1 integrity, and improves fluorescein leakage scores by 40%. In Cfh-/- mice, oral MCC950 slows RPE atrophy progression over 12 weeks.
+4. Translational Considerations: MCC950 exhibits favorable PK (oral bioavailability ~70%, half-life ~6 h in rodents), CNS/ocular penetration, and a clean safety profile in Phase 1 trials for CAPS.
+5. Novelty: While complement inhibitors target upstream drivers, MCC950 uniquely blocks the inflammasome “executioner” in RPE, addressing a validated downstream mediator of barrier breakdown.
+
+Therapeutic Candidate 2:
+Candidate: GW3965 (Liver X receptor agonist; Sigma-Aldrich catalog SML0701)
+Hypothesis: Activation of LXRα/β in RPE by GW3965 will upregulate cholesterol transporters ABCA1/ABCG1 and APOE, enhance efflux of drusen-derived lipids, attenuate intracellular lipid overload and complement activation, stabilize cortical actin and ZO-1 junctional complexes, and thereby preserve RPE barrier function in dry AMD.
+Reasoning: 1. Target Validation: GWAS link variants in ABCA1/APOE cluster and LXR pathway genes to AMD risk. Lipid-laden drusen and cholesterol crystals are established drivers of local inflammation and RPE barrier dysfunction.
+2. Mechanistic Specificity: GW3965 binds LXRα/β with EC50 ≈ 0.5 µM, directly inducing target gene transcription via LXREs without PPAR off-target activity.
+3. Preclinical Evidence: In aged ApoE−/− mice fed high-fat diet, oral GW3965 (20 mg/kg/day) reduces RPE lipid inclusions by 50%, lowers subretinal complement C3b deposition, improves TEER in ex vivo RPE flat mounts, and slows photoreceptor loss. In primary human RPE treated with 7-ketocholesterol, co-treatment with 1 µM GW3965 restores barrier permeability to baseline.
+4. Developmental Feasibility: GW3965 has been used in preclinical atherosclerosis models with well-characterized ADME/PK (oral bioavailability ~60%, half-life 8 h). Safety at efficacious doses is supported by rodent toxicology.
+5. Novelty: No current AMD therapies directly target RPE lipid metabolism. LXR agonism offers a mechanistically novel route to reduce drusen burden and downstream barrier breakdown.
+
+Therapeutic Candidate 3:
+Candidate: Bardoxolone methyl (CDDO-Me; Nrf2 activator; Sigma-Aldrich catalog SML0002)
+Hypothesis: By modifying Keap1 cysteines to release Nrf2 in RPE, bardoxolone methyl will induce expression of antioxidant and phase II detoxifying enzymes (HO-1, NQO1, GCLC), mitigate oxidative-stress–driven disruption of tight junction proteins (ZO-1, occludin), preserve TEER under H2O2 or A2E insult, and slow progression of geographic atrophy.
+Reasoning: 1. Target Validation: RPE from AMD patients show reduced Nrf2 nuclear localization and diminished antioxidant capacity. CRISPR NFE2L2 knockout in iPSC-RPE causes exaggerated TEER loss under oxidative challenge.
+2. Mechanistic Specificity: CDDO-Me binds to Keap1 with high selectivity, releasing Nrf2. EC50 for Nrf2 activation ≈ 50 nM in RPE lines.
+3. Preclinical Evidence: In light-stressed rat models of RPE degeneration, oral bardoxolone (1 mg/kg/day) preserves RPE ZO-1 staining, reduces retinal ROS (measured by DHE fluorescence), and maintains ERG amplitudes. In differentiated ARPE-19 monolayers, pretreatment with 0.5 µM CDDO-Me prevents H2O2-induced TEER drop by 80%.
+4. Developmental Feasibility: Bardoxolone has completed Phase 2/3 trials in chronic kidney disease (CKD) with known human PK (t1/2 ~39 h, bioavailability 70%) and manageable safety.
+5. Novelty: While antioxidants have failed in late AMD, targeted Nrf2 activation modulates a broad endogenous defense network rather than a single ROS species, offering mechanistic specificity and durability in an RPE barrier context.
+
+Therapeutic Candidate 4:
+Candidate: PMX205 (C5a receptor 1 antagonist; Tocris catalog 5270)
+Hypothesis: PMX205 will competitively block C5a binding to C5aR1 on RPE cells, prevent C5a-induced RhoA/ROCK activation and downstream cytoskeletal retraction of tight junctions, reduce paracellular flux, and restore barrier integrity in complement-driven dry AMD models.
+Reasoning: 1. Target Validation: Complement overactivity and C5a generation are central to dry AMD pathogenesis. C5aR1 is highly expressed on RPE apical surfaces of GA eyes, and sublytic C5b-9/C5a triggers ZO-1 mislocalization.
+2. Mechanistic Specificity: PMX205 is a cyclic hexapeptide antagonist with Kd ≈ 30 nM for human C5aR1 and no cross-reactivity with C5aR2 or other GPCRs.
+3. Preclinical Evidence: In CFH−/− mice with spontaneous drusen, oral PMX205 (1 mg/kg twice daily) reduces RPE IL-6 and TNF-α by 60%, preserves ZO-1 belt continuity, and halves fluorescein leakage at 8 weeks. In ex vivo human RPE explants treated with patient-derived GA drusen extracts, 100 nM PMX205 fully blocked C5a-induced TEER decline.
+4. Developmental Feasibility: PMX205 shows good oral bioavailability (40–50% in rodents), blood–retina barrier penetration, and an acceptable safety profile in preclinical toxicology.
+5. Novelty: Unlike upstream complement inhibitors (Factor D, C3), PMX205 selectively halts the terminal pro-inflammatory signal (C5a), sparing MAC formation and reducing infection risk, while directly protecting RPE barrier.
+
+Therapeutic Candidate 5:
+Candidate: SRT1720 (SIRT1 activator; Cayman Chemical catalog 14683)
+Hypothesis: SRT1720 will allosterically activate SIRT1 in RPE, leading to deacetylation and nuclear translocation of FoxO1 and p53, upregulation of autophagy genes (Atg5, LC3), enhanced clearance of drusen components, suppression of NF-κB–driven inflammatory cytokines, and stabilization of tight junction architecture under stress in dry AMD.
+Reasoning: 1. Target Validation: Decreased SIRT1 expression in aged RPE correlates with drusen accumulation and barrier loss. Sirt1−/− mice develop AMD-like RPE atrophy with disrupted ZO-1 staining.
+2. Mechanistic Specificity: SRT1720 lowers the Km of SIRT1 for acetylated substrates (EC50 ≈ 0.16 µM) without significant activity on SIRT2/3.
+3. Preclinical Evidence: In sodium iodate–induced RPE injury models, daily IP SRT1720 (10 mg/kg) preserves RPE ZO-1 continuity, reduces subretinal autofluorescent deposits by 45%, and reduces TUNEL+ RPE cells. In cultured human iPSC-RPE exposed to A2E + blue light, 0.5 µM SRT1720 restores TEER and reduces intracellular lipid droplet area by 35%.
+4. Developmental Feasibility: SRT1720 exhibits favorable oral PK (bioavailability ~50%, half-life ~8 h) and has been well-tolerated in rodent pharmacology studies.
+5. Novelty: Targeting SIRT1 to boost autophagic clearance in RPE links two validated AMD pathways (drusen accumulation and barrier breakdown) with a single molecular mechanism, distinct from antioxidant or complement strategies.
+

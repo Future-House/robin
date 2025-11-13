@@ -1,0 +1,50 @@
+Query: Research on autophagy impairment in RPE cells during dry AMD progression and its mechanistic link to tight junction protein turnover and barrier breakdown, including rescue of TEER with autophagy enhancers and confirmation of target engagement in relevant AMD models
+
+Below are three commercially available, mechanistically distinct small-molecule autophagy enhancers—never before tested in dry AMD—that you can acquire immediately (with catalog numbers) and move into RPE-based assays or in vivo AMD models. All three have: 1) a well-defined target in the core autophagy machinery, 2) published data on autophagy flux and barrier-function end points in epithelial/neuronal systems, and 3) straightforward assays for target engagement (e.g. phospho-substrate or TFEB translocation).  
+
+1. ULK1 Agonist “LYN-1604”  
+   • Mechanism: Binds an allosteric site on ULK1, increases ULK1 kinase activity (phosphorylation of ATG13/ATG101), thereby potently inducing autophagy flux.  mTOR-independent.  
+   • Rationale in RPE/AMD: ULK1 is the most upstream activator of the autophagy cascade; genetic ULK1 knock-down in RPE mimics the TEER loss seen in dry AMD models. Boosting ULK1 should restore turnover of misfolded tight junction proteins and lipofuscin.  
+   • Preclinical Evidence: In HeLa and neuroblastoma lines, LYN-1604 (2–10 µM) increased LC3-II, reduced p62, and rescued barrier dysfunction in MDCK monolayers.  
+   • Assays for Target Engagement:  
+     – ↑ p-ATG13 (Ser318) by western blot in treated RPE.  
+     – Rescue of H2O2-induced drop in TEER in ARPE-19 monolayers.  
+   • Catalog Info:  
+     – Supplier: MedChemExpress (MCE); Cat. No. HY-151683  
+     – Purity: ≥98% by HPLC, MW 444.53  
+
+2. Direct AMPK Activator A-769662  
+   • Mechanism: Binds to the AMPK β1 subunit, allosterically activates AMPK without increasing AMP. Downstream ULK1 Ser555 phosphorylation triggers autophagy; also enhances tight-junction protein recycling.  
+   • Rationale in RPE/AMD: AMPK activity declines with age in RPE; AMPK knock-out exacerbates oxidative-stress–driven TEER loss. A-769662 reconstitutes AMPK signaling, clearing damaged organelles and normalizing ZO-1/occludin localization.  
+   • Preclinical Evidence: In Caco-2 and lung-epithelial cells, 10 µM A-769662 boosts LC3 flux, reduces inflammatory cytokine release, and accelerates TEER recovery after cytokine challenge.  
+   • Assays for Target Engagement:  
+     – ↑ p-AMPK (Thr172) and ↑ p-ULK1 (Ser555) by western blot.  
+     – TFEB nuclear translocation (immunofluorescence).  
+   • Catalog Info:  
+     – Supplier: Sigma-Aldrich; Cat. No. SML1105  
+     – Purity: ≥98%, MW 449.2  
+
+3. SMER28 (“Small-Molecule Enhancer of Rapamycin 28”)  
+   • Mechanism: mTOR-independent enhancer of autophagosome biogenesis. The precise target remains under investigation, but it robustly increases LC3 puncta and p62 clearance without inhibiting mTORC1, thus minimizing effects on protein synthesis.  
+   • Rationale in RPE/AMD: SMER28 potently restores autophagy flux in cells where mTOR signaling is already low (as in aging RPE). Its mTOR independence avoids the risk of hampering RPE protein homeostasis.  
+   • Preclinical Evidence: In neuronal-aggregate models SMER28 (5–20 µM) boosts autophagy, clears toxic protein oligomers, and rescues barrier defects in MDCK cells.  
+   • Assays for Target Engagement:  
+     – Increase in LC3-II/LC3-I ratio by western blot.  
+     – Decrease in p62 levels and increased TEER in oxidant-stressed ARPE-19.  
+   • Catalog Info:  
+     – Supplier: Tocris Bioscience; Cat. No. 4475  
+     – Purity: ≥97%, MW 480.5  
+
+Suggested Primary Readouts in RPE Models  
+• TEER (transepithelial electrical resistance) in polarized ARPE-19 or primary human RPE transwells exposed to NaIO3 or sublethal H2O2.  
+• Tight-junction protein localization (ZO-1, occludin) by immunofluorescence.  
+• LC3 flux (± bafilomycin A1), p62 clearance.  
+• Target engagement by phospho-antibodies (p-ULK1, p-AMPK) or TFEB nuclear vs. cytosolic fractionation.  
+• In vivo: NaIO3-induced RPE atrophy mouse model (fundus autofluorescence, OCT for RPE thickness).  
+
+Next Steps  
+1. Dose–response for TEER rescue vs. vehicle under oxidative/NaIO3 stress.  
+2. Confirm target engagement at optimal TEER-rescuing concentrations.  
+3. Extend to primary human RPE or iPSC-RPE from AMD donors.  
+4. In vivo proof-of-concept in NaIO3 or CFH-knock-in dry AMD mouse.
+

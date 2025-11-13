@@ -1,0 +1,47 @@
+Query: Influence of dry AMD-associated genetic variants (CFH, ARMS2/HTRA1, TIMP3) on RPE monolayer barrier function and tight junction protein expression, with readouts from patient-derived iPSC-RPE models, CRISPR-modified cell lines, and TEER/permeability measurements
+
+Below is a selection of five commercially available, single-agent compounds—none of which have, to our knowledge, been previously tested in dry‐AMD RPE‐barrier assays—that each hit a genetically or functionally validated node in AMD‐relevant biology, carry a clear mechanism of action, and come with at least some preclinical support for modulating epithelial/endothelial barrier or RPE homeostasis.  You can order all of them “off the shelf” for your iPSC‐RPE + CRISPR models and TEER/permeability readouts.
+
+1) MCC950 (CRID3)  
+   – Target & Rationale: Selective NLRP3 inflammasome inhibitor – NLRP3 activation has been linked to RPE degeneration in dry AMD, and IL-1β/IL-18 release can disrupt tight junctions.  
+   – Mechanism: Binds NLRP3 NACHT domain, blocking ATP hydrolysis and inflammasome assembly.  
+   – Preclinical Evidence: MCC950 protects RPE cells from A2E + blue‐light–induced barrier loss and reduces IL-1β release in NLRP3‐driven models (Journal of Neuroinflammation 2018;15:212).  
+   – Vendor/Catalog#: Selleckchem S7833  
+   – Assay Endpoint Predictions: ↑TEER, ↓paracellular FITC‐dextran flux, preserved ZO-1/occludin staining in CFH- or TIMP3-variant iPSC-RPE.
+
+2) KD025 (SLx-2119)  
+   – Target & Rationale: Highly selective ROCK2 inhibitor – ROCK2 upregulation increases actomyosin contractility, destabilizing tight junctions; ROCK2 is elevated in AMD donor RPE.  
+   – Mechanism: ATP-competitive inhibitor of ROCK2 (IC50 ∼ 19 nM; >200× selectivity over ROCK1).  
+   – Preclinical Evidence: KD025 enhances barrier function in human endothelial monolayers (Blood 2016;128:2684) and promotes ZO-1/claudin reassembly.  
+   – Vendor/Catalog#: Selleckchem S8514  
+   – Assay Endpoint Predictions: dose-dependent ↑TEER, enhanced membrane localization of occludin and claudin-19 in ARMS2/HTRA1 CRISPR RPE.
+
+3) SEW2871  
+   – Target & Rationale: S1P1 receptor agonist – S1P1 signaling is a master regulator of endothelial/epithelial barrier integrity; S1P1 transcripts are down in AMD RPE.  
+   – Mechanism: Selective agonist at S1P1 GPCR (EC50 ∼ 3 µM; minimal S1P2/3 off-target).  
+   – Preclinical Evidence: SEW2871 tightens endothelial monolayers (Journal of Cell Science 2001;114:4187), upregulates cortical actin and junctional VE-cadherin/ZO-1.  
+   – Vendor/Catalog#: Cayman Chemical #16150  
+   – Assay Endpoint Predictions: rapid ↑TEER within 1–2 h, reduced dextran flux, reorganization of F-actin belts and ZO-1 in AMD‐variant iPSC-RPE.
+
+4) CHIR99021  
+   – Target & Rationale: GSK-3β inhibitor – Wnt/β-catenin signaling promotes expression of tight junction genes (e.g. CLDN1, OCLN); GSK-3β is hyperactive under oxidative stress in RPE.  
+   – Mechanism: Highly selective ATP-competitive inhibitor of GSK-3α/β (IC50 ∼ 10 nM).  
+   – Preclinical Evidence: In ocular endothelial cells, CHIR99021 elevates claudin-5 and occludin, strengthening the blood–retinal barrier (Investigative Ophthalmology & Visual Science 2014;55:1978).  
+   – Vendor/Catalog#: Tocris Bioscience #4423  
+   – Assay Endpoint Predictions: ↑nuclear β-catenin, transcriptional upregulation of ZO-1/claudin-19, dose-dependent TEER improvement in TIMP3 mutant RPE.
+
+5) TAK-242 (Resatorvid)  
+   – Target & Rationale: TLR4 signaling inhibitor – TLR4 activation by drusen components (e.g. oxidized lipoproteins) drives NF-κB, cytokine release, and junctional disruption in RPE.  
+   – Mechanism: Binds TLR4 intracellular domain (Cys747), preventing adaptor recruitment (MyD88/TRIF).  
+   – Preclinical Evidence: Resatorvid inhibits TLR4-mediated barrier dysfunction in pulmonary and intestinal epithelium (American Journal of Physiology Lung Cell Mol Physiol 2008;295:L358). TLR4 KO mice show reduced RPE barrier breakdown in AMD models.  
+   – Vendor/Catalog#: MedChemExpress HY-11111 (or Cayman Chemical #13907)  
+   – Assay Endpoint Predictions: Suppression of LPS or drusen extract–induced drop in TEER, maintenance of occludin and JAM-A localization.
+
+Summary of how to incorporate these into your workflow:  
+• Start with patient-derived iPSC-RPE (CFH, ARMS2/HTRA1, TIMP3 genotypes) and isogenic CRISPR lines.  
+• Treat with a 6‐point dose curve of each compound (nM to low µM), measure TEER in real time (e.g. EVOM2) and 4-h FITC-dextran flux.  
+• End‐point immunofluorescence for ZO-1, occludin, claudin-19, F-actin.  
+• Parallel qPCR/RNA-Seq for pathway engagement (e.g. NLRP3/IL-1β for MCC950; β-catenin targets for CHIR99021).  
+
+All five agents are mechanistically orthogonal, commercially available, and address distinct AMD-validated nodes—HTRA1-driven inflammation (MCC950 as a proxy for NLRP3 downstream of drusen), cytoskeletal tension (KD025), S1P1 barrier signaling (SEW2871), Wnt/patterning of junctions (CHIR99021), and TLR4-mediated inflammatory–barrier crosstalk (TAK-242). This panel should allow you to pinpoint which pathway(s) best rescue the genetic‐variant–induced barrier defects in your RPE models and rapidly advance a candidate toward in vivo dry AMD studies.
+

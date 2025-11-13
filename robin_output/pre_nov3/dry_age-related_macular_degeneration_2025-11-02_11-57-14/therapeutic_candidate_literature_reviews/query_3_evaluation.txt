@@ -1,0 +1,62 @@
+Query: Evaluation of Rho-ROCK pathway inhibitors and activators in improving junctional complex stability in RPE barrier assays, including mechanism confirmation by phosphorylation state analysis, efficacy in patient-derived RPE or animal dry AMD models, and safety/pharmacokinetic characterization for ocular delivery
+
+1. Activation of Nrf2 antioxidant signaling in RPE  
+Mechanistic hypothesis: Small‐molecule Nrf2 activators (e.g., sulforaphane analogs) enhance transcription of HO-1 and NQO1, reducing oxidative damage in RPE.  
+Assays/strategy: Treat ARPE-19 or patient‐derived iPSC‐RPE with activator ± H₂O₂; measure Nrf2 nuclear translocation by immunofluorescence, HO-1/NQO1 mRNA by qPCR, and ROS by DCFDA. Validate in dry AMD mouse by intravitreal dosing; assess RPE morphology, retinal function (ERG), and drug ocular PK.
+
+2. Inhibition of NLRP3 inflammasome to block IL-1β release  
+Mechanistic hypothesis: NLRP3 inhibitor MCC950 prevents inflammasome assembly and caspase-1 activation in response to Alu RNA or A2E.  
+Assays/strategy: Expose RPE cultures to Alu RNA or A2E; co-treat MCC950; assay ASC speck formation (confocal), caspase-1 p20 by western blot, IL-1β by ELISA. Test efficacy in NLRP3-driven dry AMD mouse models; monitor retinal inflammation and RPE integrity.
+
+3. Enhancement of autophagic flux via mTOR inhibition  
+Mechanistic hypothesis: Low-dose rapamycin or ULK1 agonists restore autophagy, clearing lipofuscin and damaged mitochondria in RPE.  
+Assays/strategy: Treat stressed RPE with rapamycin; track LC3-II/I and p62 levels by western blot, mitophagy via mitoKeima; quantify A2E accumulation by HPLC. Evaluate subretinal rapamycin in dry AMD rats; assess drusen-like deposits and visual acuity.
+
+4. Upregulation of mitochondrial biogenesis through PGC-1α  
+Mechanistic hypothesis: PGC-1α agonists (ZLN005) boost mitochondrial mass/function, reducing RPE senescence.  
+Assays/strategy: Apply ZLN005 to RPE under oxidative stress; measure PGC-1α expression, mtDNA copy number, OCR by Seahorse. Test in SOD2-deficient AMD mouse; evaluate RPE ultrastructure and photoreceptor survival.
+
+5. Targeting TLR2/4 signaling to dampen chronic inflammation  
+Mechanistic hypothesis: TLR2/4 antagonists decrease NF-κB activation and downstream cytokine release in RPE exposed to drusen components.  
+Assays/strategy: Stimulate RPE with drusen extracts ± CLI-095 (TLR4 inhibitor); assess NF-κB p65 phosphorylation, IL-6/TNFα secretion. Validate via intravitreal CLI-095 in Cfh−/− mice; monitor complement deposition and RPE cell loss.
+
+6. Modulation of complement factor H (CFH) expression by CRISPRa  
+Mechanistic hypothesis: CRISPRa upregulation of protective CFH variants in RPE reduces local complement overactivation.  
+Assays/strategy: Deliver dCas9–VP64 + guide RNAs targeting CFH promoter to RPE; quantify CFH secretion and C3b cleavage. In humanized CFH-risk allele mouse, test ocular injections; monitor complement activation and RPE integrity.
+
+7. MicroRNA-34a inhibition to boost SIRT1 and reduce inflammation  
+Mechanistic hypothesis: Anti-miR-34a increases SIRT1, suppresses NF-κB and senescence in RPE.  
+Assays/strategy: Transfect RPE with anti-miR-34a oligo; measure SIRT1 protein, acetylated p65, SA-β-gal. Evaluate intravitreal anti-miR in aging mouse; assess retinal inflammation and function.
+
+8. Senolytic clearance of senescent RPE with Bcl-2 inhibitors  
+Mechanistic hypothesis: Navitoclax selectively induces apoptosis in p16INK4a+ senescent RPE, reducing SASP factors.  
+Assays/strategy: Induce senescence in RPE (irradiation); treat navitoclax; assess cell viability, p16INK4a expression, IL-1β secretion. In old AMD-prone mice, deliver via periocular injection; track RPE cell turnover and retinal health.
+
+9. LXR agonists to enhance cholesterol efflux and prevent drusen formation  
+Mechanistic hypothesis: LXR activation upregulates ABCA1/G1 in RPE, reducing lipid deposition.  
+Assays/strategy: Treat RPE with GW3965; quantify ABCA1/G1 mRNA, cholesterol efflux to ApoA-I acceptors; stain intracellular lipids with Nile Red. Test topical/oral GW3965 in drusen mouse; image fundus lipids and ERG.
+
+10. Cathepsin D enhancement to clear lipofuscin precursors  
+Mechanistic hypothesis: Small-molecule enhancers of cathepsin D activity accelerate degradation of photoreceptor outer segment debris in RPE lysosomes.  
+Assays/strategy: Feed RPE POS ± enhancer; assay cathepsin D activity, A2E levels by mass spec, lysosomal pH by LysoSensor. Evaluate intravitreal dosing in dry AMD rat; monitor subretinal deposits and retinal function.
+
+11. Sphingosine-1-phosphate receptor modulation to restore barrier integrity  
+Mechanistic hypothesis: S1P1 agonists strengthen RPE tight junctions via Rac1 activation.  
+Assays/strategy: Treat RPE monolayers with S1P or selective agonist; measure TEER, ZO-1/occludin localization by immunostaining, Rac1-GTP pull-down. In AMD model, deliver topical S1P analogue; assess retinal permeability and RPE morphology.
+
+12. Exosome-mediated delivery of anti-inflammatory miRNAs  
+Mechanistic hypothesis: MSC-derived exosomes enriched in miR-146a suppress IRAK1/TRAF6 and dampen sterile inflammation in RPE.  
+Assays/strategy: Isolate exosomes, confirm miR-146a content; treat LPS-stimulated RPE; measure IRAK1/TRAF6 protein, IL-6/IL-8 ELISA. In mouse AMD, inject exosomes intravitreally; track cytokines and RPE health.
+
+13. Inhibition of advanced glycation end-products (AGEs) to limit phototoxicity  
+Mechanistic hypothesis: AGE inhibitors (aminoguanidine) reduce A2E crosslinking and RPE cell death on blue-light exposure.  
+Assays/strategy: Pre-treat RPE with aminoguanidine + A2E, expose to blue light; assess cell viability, AGE adducts by western blot, ROS. Test ocular topical aminoguanidine in light-induced AMD model; monitor fundus autofluorescence and ERG.
+
+14. Blocking HMGB1 release to prevent DAMP-mediated inflammation  
+Mechanistic hypothesis: Glycyrrhizin binding to HMGB1 prevents its extracellular release from stressed RPE, reducing TLR4/NLRP3 activation.  
+Assays/strategy: Stress RPE with H₂O₂ ± glycyrrhizin; assay HMGB1 in supernatant, TLR4 signaling by p-IRAK1, IL-1β. Validate via intravitreal glycyrrhizin in oxidative stress AMD model; assess retinal inflammation and RPE survival.
+
+15. Gene therapy delivery of CD59 to inhibit MAC formation  
+Mechanistic hypothesis: AAV-mediated overexpression of membrane-bound CD59 in RPE blocks complement membrane attack complex, preserving cell viability.  
+Assays/strategy: Transduce RPE with AAV2-CD59; challenge with human serum; measure MAC deposition (C5b-9 immunostain), cell lysis (LDH release). In complementary humanized dry AMD mouse, test subretinal AAV; evaluate complement markers and retinal structure/function.
+

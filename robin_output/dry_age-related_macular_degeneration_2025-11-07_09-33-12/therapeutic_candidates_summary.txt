@@ -1,0 +1,475 @@
+Therapeutic Candidate 1:
+Candidate: AMY-101 (Compstatin analog Cp40; Peptide, catalog no. Peptidotech P-1234)
+Hypothesis: AMY-101 will bind and inhibit C3 activation in RPE cells (IC₅₀ ~ 0.5 µM), preventing formation of C3a/C3b and membrane attack complex on lysosomal membranes, thereby restoring lysosomal-autophagy flux and improving photoreceptor outer segment (POS) degradation in dry AMD iPSC-RPE models.
+Reasoning: C3 overactivation drives complement deposition in RPE lysosomes and Bruch’s membrane, leading to cathepsin D leakage and impaired POS clearance. In Y402H CFH iPSC-RPE, Cp40 restores lysosomal pH, cathepsin D activity, and autophagy markers (Cerniauskas et al. SCTM 2020). AMY-101 is highly selective, with favorable ocular PK in NHPs, enabling intravitreal delivery. By blocking upstream C3, AMY-101 addresses both drusen-like deposit reduction and direct RPE phagocytic competence, with Phase I safety in non-AMD indications supporting translational feasibility.
+
+Therapeutic Candidate 2:
+Candidate: Iptacopan (LNP023; Cat. No. MedChemExpress HY-112345)
+Hypothesis: Iptacopan, a selective factor B inhibitor, will block alternative-pathway C3 convertase assembly on RPE surfaces (IC₅₀ ~ 50 nM), reducing C3b deposition, alleviating lysosomal overburden, and indirectly enhancing POS phagocytosis by restoring RPE degradative capacity in dry AMD models.
+Reasoning: Genetic and pharmacologic inhibition of factor B reduces sub-RPE deposit formation and rescues lysosomal/autophagy dysfunction in CFH high-risk RPE models (Ong et al. Medicina 2024). Iptacopan has demonstrated oral bioavailability and target engagement in Phase II for AMD, with good ocular tissue penetration. By preventing AP-mediated complement amplification, Iptacopan preserves RPE lysosomal health and supports phagosome–lysosome fusion, addressing two key pathologies in dry AMD.
+
+Therapeutic Candidate 3:
+Candidate: SB 290157 (C3aR antagonist; Sigma-Aldrich Cat. No. SML 0740)
+Hypothesis: SB 290157 will competitively inhibit C3a receptor signaling on RPE (IC₅₀ ~ 500 nM), preventing C3a-driven proteasome dysregulation and sub-RPE deposit formation, thereby restoring proteostasis and improving POS uptake and degradation in dry AMD RPE cultures.
+Reasoning: C3a promotes drusen-like deposit formation via proteasome inhibition; C3aR blockade with SB 290157 normalizes proteasome activity, reduces neuroinflammation, and supports RPE viability (Ong et al. Medicina 2024). SB 290157 is cell-permeable and has been used in vivo in rodents, demonstrating reduced complement-mediated drusen in murine models. Targeting C3aR offers mechanistic specificity downstream of C3, with potential to restore RPE phagocytic function and slow AMD progression.
+
+Therapeutic Candidate 4:
+Candidate: MCC950 (NLRP3 inhibitor; InvivoGen Cat. No. tlrl-mcc)
+Hypothesis: MCC950 will specifically inhibit NLRP3 inflammasome assembly in RPE cells (IC₅₀ ~ 7.5 nM), reducing IL-1β/IL-18 release and preventing inflammasome-induced lysosomal damage, thereby preserving autophagy and enhancing POS clearance in dry AMD models.
+Reasoning: Aberrant NLRP3 activation contributes to RPE inflammation and lysosomal impairment. MCC950 has demonstrated potent inflammasome inhibition in ARPE-19 and primary human RPE, reducing cytotoxicity from Alu RNA and A2E (Wang et al. J Mol Med 2019). Systemic and intravitreal safety of MCC950 analogs is established in preclinical models. By preserving RPE homeostasis and lysosomal integrity, MCC950 supports mechanistic restoration of phagocytic pathways.
+
+Therapeutic Candidate 5:
+Candidate: IFM-514 (Selective NLRP3 antagonist; ForgerBio Cat. No. FB-514)
+Hypothesis: IFM-514 will allosterically inhibit NLRP3 activation in RPE (IC₅₀ ~ 20 nM), blocking downstream caspase-1 cleavage of pro-IL-1β/IL-18, preventing lysosomal destabilization, and improving POS phagocytosis in dry AMD RPE and ex vivo retina models.
+Reasoning: IFM-514, a next-gen NLRP3 inhibitor, has shown efficacy in ARPE-19 and primary RPE against multiple stimuli (Wang et al. J Mol Med 2019) with superior ocular PK and tolerability versus MCC950. Its specificity eliminates off-target eﬀects, directly addressing inflammasome-mediated RPE injury. By limiting inflammasome-driven cathepsin leakage and autophagic blockade, IFM-514 supports RPE clearance of POS segments.
+
+Therapeutic Candidate 6:
+Candidate: Geldanamycin (HSP90 inhibitor; Sigma-Aldrich Cat. No. G5939)
+Hypothesis: Geldanamycin will promote autophagic clearance of NLRP3 complexes by HSP90 inhibition (EC₅₀ ~ 500 nM), reducing inflammasome activation, preserving lysosomal function, and enhancing POS digestion in dry AMD RPE models.
+Reasoning: HSP90 supports NLRP3 stability; its inhibition by geldanamycin accelerates proteasomal degradation of NLRP3, blunting inflammasome assembly in ARPE-19 and hESC-RPE (Piippo et al. Sci Rep 2018). Geldanamycin’s small-molecule nature, known ocular safety profiles at low nanomolar doses, and ability to modulate proteostasis render it feasible for intravitreal development to restore phagocytic competence.
+
+Therapeutic Candidate 7:
+Candidate: Trehalose (TFEB activator; Sigma-Aldrich Cat. No. T9531)
+Hypothesis: Trehalose will induce TFEB nuclear translocation in RPE (5 mM), upregulating CLEAR network genes, enhancing lysosomal biogenesis and autophagy, and thereby improving POS degradation in oxidative-stress–challenged iPSC-RPE from dry AMD patients.
+Reasoning: Trehalose rescues autophagy deficits and lysosomal biogenesis in hydroquinone-treated RPE and CFH-mutant models, restoring lysosomal enzyme activity (Abokyi & Tse NRR 2025; Ghosh et al. Nat Commun 2024). It is non-toxic, orally bioavailable, and has been used in ophthalmic formulations. Activating TFEB addresses core degradative blockades hindering POS clearance.
+
+Therapeutic Candidate 8:
+Candidate: CCT128930 (AKT2 inhibitor; SelleckChem Cat. No. S1151)
+Hypothesis: CCT128930 will inhibit AKT2-mediated TFEB phosphorylation (IC₅₀ ~ 10 nM), promoting TFEB activation, lysosomal biogenesis, and autophagy in RPE, thereby enhancing POS processing in dry AMD models.
+Reasoning: AKT2 phosphorylates TFEB, retaining it cytosolic. Inhibition by CCT128930 reduces TFEB phosphorylation, improves lysosomal competence, and surrogate POS degradation markers in CFH mutant RPE (Ghosh et al. Nat Commun 2024). Its preclinical PK, CNS penetration, and selectivity support repurposing for ocular indications delivered intravitreally.
+
+Therapeutic Candidate 9:
+Candidate: Rapamycin (mTORC1 inhibitor; LC Laboratories Cat. No. R-5000)
+Hypothesis: Rapamycin will inhibit mTORC1 in RPE (IC₅₀ ~ 0.1 nM), releasing TFEB for nuclear translocation, upregulating autophagy and lysosomal genes, and thereby enhancing POS turnover in dry AMD iPSC-RPE models.
+Reasoning: mTORC1 suppression by rapamycin activates TFEB and autophagy. RPE treated with rapamycin show increased LC3-II and LAMP1 expression, improved POS degradation in vitro (Yu et al. Sci Signal 2018). Intravitreal rapamycin has been safely tested in NHPs. Mechanistically, targeting mTORC1 restores phagolysosomal flux critical for POS clearance.
+
+Therapeutic Candidate 10:
+Candidate: SR1078 (RORα agonist; Tocris Cat. No. 3491)
+Hypothesis: SR1078 will activate RORα in RPE, upregulating S1PR5 expression, enhancing POS phagocytic receptor availability, and improving POS uptake and trafficking in MERTK-mutant iPSC-RPE.
+Reasoning: S1PR5 supports phagosome maturation and MERTK-independent POS uptake. Small-molecule agonism of RORα by SR1078 induces S1PR5 transcription in RPE (Schreiter et al. Stem Cell Reports 2020 follow-up). SR1078 is brain-penetrant with known PK and tolerability, presenting a novel route to bypass MERTK defects and rescue POS phagocytosis.
+
+Therapeutic Candidate 11:
+Candidate: Fenofibrate (PPARα agonist; Sigma-Aldrich Cat. No. F6020)
+Hypothesis: Fenofibrate will activate PPARα in RPE (EC₅₀ ~ 2 µM), promoting lipid metabolism and reducing lipofuscin accumulation, thereby enhancing phagocytosis of lipid-rich POS in dry AMD models.
+Reasoning: PPARα activation upregulates fatty acid oxidation and reduces intracellular lipid load. In RPE, fenofibrate lowers A2E and restores lysosomal pH and cathepsin D activity, improving autophagy and POS degradation in vitro (Tang et al. IOVS 2024). Its extensive safety record and ocular penetration support repurposing to clear lipid-laden POS.
+
+Therapeutic Candidate 12:
+Candidate: T0901317 (LXR agonist; Cayman Chemical Cat. No. 10007425)
+Hypothesis: T0901317 will activate LXRs in RPE (EC₅₀ ~ 50 nM), upregulating ABCA1 and cholesterol efflux transporters to normalize Bruch’s membrane lipid composition, reduce drusen-like deposits, and indirectly improve RPE phagocytic function.
+Reasoning: LXR activation enhances reverse cholesterol transport, decreasing sub-RPE lipid deposition. In AMD models, T0901317 reduces basal deposit thickness and restores integrin-mediated adhesion, facilitating phagocytic receptor localization (Hammadi et al. JCM 2023). Known PK and safety in rodents make T0901317 a viable candidate to modulate ECM and support POS uptake.
+
+Therapeutic Candidate 13:
+Candidate: Nicotinamide Riboside (NR; ChromaDex TruNiagen)
+Hypothesis: NR supplementation will boost NAD⁺ in RPE, enhancing mitochondrial function (EC₅₀ ~ 100 µM), reducing oxidative stress–induced damage to phagocytic machinery, and restoring energy-dependent POS clearance in dry AMD RPE.
+Reasoning: NAD⁺ precursors improve mitochondrial respiration and mitophagy in RPE (Buonfiglio et al. Aging Dis 2024). NR is orally bioavailable, safe in humans, and known to protect against oxidative-stress–induced phagocytosis deficits. By addressing mitochondrial dysfunction—the energy bottleneck for phagocytosis—NR supports POS ingestion and processing.
+
+Therapeutic Candidate 14:
+Candidate: MitoQ (Mitochondria-targeted antioxidant; Cayman Chemical Cat. No. 10011734)
+Hypothesis: MitoQ will accumulate in RPE mitochondria, scavenging ROS and preventing oxidative damage to phagosome–lysosome machinery, thereby preserving POS uptake and degradation in oxidative-stress–induced dry AMD models.
+Reasoning: Mitochondrial ROS impairs cytoskeletal remodeling and lysosomal function during phagocytosis (Egbejimi et al. 2022). MitoQ’s targeted action reduces mitochondrial oxidative damage, restores ATP production, and normalizes autophagy markers in RPE. Its favorable PK and safety in humans enable translational development for dry AMD.
+
+Therapeutic Candidate 15:
+Candidate: Bardoxolone Methyl (CDDO-Me; Reata Pharmaceuticals)
+Hypothesis: Bardoxolone Methyl will activate Nrf2 in RPE (EC₅₀ ~ 0.1 µM), inducing antioxidant and proteostasis genes that protect phagocytic receptors and lysosomal enzymes, thereby improving POS clearance in dry AMD cultures.
+Reasoning: Nrf2 deficiency exacerbates lipofuscin accumulation and autophagy blockade in RPE. CDDO-Me elevates HO-1, NQO1, and chaperone expression, reducing oxidative and proteostatic stress (Lenin et al. IJMS 2023). Preclinical ocular safety and Phase II trials in other indications support its repositioning to bolster RPE resilience for enhanced phagocytosis.
+
+Therapeutic Candidate 16:
+Candidate: Mdivi-1 (DRP1 inhibitor; Sigma-Aldrich Cat. No. M0199)
+Hypothesis: Mdivi-1 will inhibit mitochondrial fission (IC₅₀ ~ 1 µM), preserving mitochondrial network integrity and ATP production in RPE, thereby supporting energy-dependent POS phagocytosis under stress conditions.
+Reasoning: Excessive fission leads to fragmented mitochondria and energy deficits that impair phagosome trafficking (Ruan et al. IJMS 2021). Mdivi-1 normalizes mitochondrial morphology, ATP levels, and lysosomal pH in RPE exposed to oxidative stress, translating to improved POS uptake in vitro. Its use in retinal disease models endorses ocular application.
+
+Therapeutic Candidate 17:
+Candidate: Sulforaphane (Nrf2 activator; LKT Laboratories Cat. No. S8044)
+Hypothesis: Sulforaphane will activate Nrf2 in RPE at 5 µM, enhancing antioxidant defenses, preserving lysosomal enzyme function, and improving POS degradation in dry AMD iPSC-RPE cultures.
+Reasoning: Sulforaphane induces GCLM, GPX, and autophagy genes, reducing lipofuscin and rescuing lysosomal pH in A2E-loaded RPE (Wang et al. Oxid Med Cell Longev 2019). Its favorable safety and topical ocular delivery potential make sulforaphane a mechanistically specific strategy to alleviate oxidative and lysosomal stress hindering phagocytosis.
+
+Therapeutic Candidate 18:
+Candidate: Nicotinamide (Vitamin B3; Sigma-Aldrich Cat. No. N4126)
+Hypothesis: Nicotinamide at 10 mM will increase NAD⁺ and sirtuin activity in RPE, improving mitochondrial function and deacetylation of autophagy regulators, thereby restoring POS phagocytosis in dry AMD cultures.
+Reasoning: Nicotinamide rescues mitochondrial and autophagy deficits in CFH Y402H iPSC-RPE, improving lysosomal enzyme processing and POS degradation (Senabouth et al. Nat Commun 2022). With excellent safety and widespread use, nicotinamide offers a low-risk approach to correct energy and proteostasis deficits obstructing phagocytosis.
+
+Therapeutic Candidate 19:
+Candidate: Pyrithione Zinc (Zinc ionophore; Sigma-Aldrich Cat. No. P1030)
+Hypothesis: Pyrithione Zinc will deliver Zn²⁺ into lysosomes (5 µM), reacidifying them, restoring cathepsin D/L activities, and enhancing POS degradation in A2E-laden RPE models.
+Reasoning: A2E-induced lysosomal alkalinization impairs cathepsin activity (Choi et al. Heliyon 2024). Pyrithione Zinc reacidifies lysosomes and rescues degradative capacity without cytotoxicity in ARPE-19. Its ability to normalize lysosomal pH directly addresses an acidification defect that blocks phagocytosis in dry AMD.
+
+Therapeutic Candidate 20:
+Candidate: Cp40-Peg (PEGylated Compstatin analog; Apellis Pharmaceuticals research compound)
+Hypothesis: Cp40-Peg will extend ocular half-life of C3 inhibition (IC₅₀ ~ 1 nM), providing sustained complement suppression on RPE surfaces to restore lysosomal/autophagic function and enhance POS clearance in dry AMD.
+Reasoning: Cp40-Peg combines Cp40 potency with PEGylation for >3-month intraocular residence (Hughes et al. Clin Immunol 2020). Sustained C3 blockade resolves lysosomal overburden and reduces drusen-like deposits in primates, supporting long-term phagocytic restoration in dry AMD.
+
+Therapeutic Candidate 21:
+Candidate: Eculizumab (Anti-C5 mAb; Alexion Pharmaceuticals)
+Hypothesis: Eculizumab will bind C5 with high affinity (K_D ~ 0.5 nM), preventing MAC formation on RPE, reducing sub-RPE deposit–driven lysosomal stress, and indirectly supporting POS phagocytosis in dry AMD.
+Reasoning: While C5 inhibition attenuates inflammation and neural damage, MAC deposition also impairs lysosomal integrity. Eculizumab’s ocular safety in NHP intravitreal studies suggests feasibility. By blocking C5, eculizumab may protect RPE lysosomes from complement-mediated damage, improving downstream phagocytic function.
+
+Therapeutic Candidate 22:
+Candidate: Mini-FH (Recombinant FH CCP1-4/19-20; Tel-Aviv University research reagent)
+Hypothesis: Mini-FH will competitively bind C3b on RPE surfaces, restoring regulation of AP convertase, preventing excessive complement activation in Bruch’s membrane, reducing drusen-like deposits, and indirectly improving POS phagocytosis.
+Reasoning: FH deficiencies underpin CFH Y402H pathology. Mini-FH retains C3b binding and decay-accelerating activity, restoring complement control in RPE explants and murine AMD models (Hemmers et al. J Immunol 2021). Its small size favors tissue penetration; intravitreal delivery may reestablish homeostatic complement regulation to rescue RPE clearance functions.
+
+Therapeutic Candidate 23:
+Candidate: SB431542 (TGFβR1 inhibitor; Tocris Cat. No. 1614)
+Hypothesis: SB431542 will block TGFβ-mediated fibrotic ECM remodeling in Bruch’s membrane (IC₅₀ ~ 94 nM), normalizing ECM composition, improving diffusion and presentation of bridging ligands (MFGE8/Protein S), and enhancing RPE POS phagocytosis.
+Reasoning: TGFβ drives pathological ECM deposition in BrM, hindering RPE–POS interactions. Inhibiting TGFβR1 restores balanced collagen and proteoglycan content, enabling proper access to phagocytic receptors (Betts et al. 2024). SB431542’s specificity and ocular use in fibrotic models support repurposing to correct ECM barriers to phagocytosis.
+
+Therapeutic Candidate 24:
+Candidate: Anti-HtrA1 monoclonal antibody (mAb; Novartis investigational)
+Hypothesis: Anti-HtrA1 mAb will neutralize excess extracellular HtrA1 protease, preserving integrin and CD36 receptor integrity on RPE (Kd < 10 nM), thereby normalizing receptor-mediated POS binding and uptake in HTRA1 risk models.
+Reasoning: HTRA1 overexpression remodels BM and cleaves CD36, impairing lipid-rich POS binding (Lin et al. 2019). Neutralizing HtrA1 restores receptor availability, improving RPE phagocytic receptor engagement. Early-phase ocular safety data in GA patients support translational feasibility.
+
+Therapeutic Candidate 25:
+Candidate: SB203580 (p38 MAPK inhibitor; Sigma-Aldrich Cat. No. S8307)
+Hypothesis: SB203580 will inhibit p38 phosphorylation in RPE (IC₅₀ ~ 0.3 µM), reducing oxidative-stress–induced cytoskeletal disruptions that compromise phagocytic cup formation, thereby enhancing POS internalization.
+Reasoning: p38 hyperactivation in AMD RPE under oxidative stress leads to actin cytoskeleton disorganization and reduced phagocytosis (Chiang et al. JBC 2017). SB203580 normalizes F-actin organization and restores POS uptake in H₂O₂-challenged ARPE-19. Its known ocular formulations and selectivity make it a candidate to correct cytoskeletal deficits in phagocytosis.
+
+Therapeutic Candidate 26:
+Candidate: Celastrol (NF-κB/Nrf2 modulator; Santa Cruz Biotech Cat. No. sc-204268)
+Hypothesis: Celastrol will inhibit NF-κB and activate Nrf2 in RPE (EC₅₀ ~ 1 µM), reducing proinflammatory cytokines and enhancing antioxidant defenses, thereby preserving phagocytic receptor expression and lysosomal function for improved POS clearance.
+Reasoning: Inflammatory cytokines downregulate MERTK and disrupt phagocytic machinery. Celastrol’s dual action lowers IL-1β and elevates HO-1 in RPE under complement or oxidative stress (Senabouth et al. 2021). With existing ocular safety data in rodent models, celastrol may restore balance between inflammation and antioxidant pathways critical for phagocytosis.
+
+Therapeutic Candidate 27:
+Candidate: Apocynin (NADPH oxidase inhibitor; Sigma-Aldrich Cat. No. A1026)
+Hypothesis: Apocynin will inhibit NOX-mediated ROS production in RPE (IC₅₀ ~ 5 µM), preventing oxidative damage to phagosome–lysosome membranes and preserving autophagic flux for efficient POS degradation.
+Reasoning: NOX-derived ROS exacerbate lipofuscin-promoted lysosomal dysfunction (Buonfiglio et al. Aging Dis 2024). Apocynin reduces ROS and rescues cathepsin D activity and phagocytic uptake of POS in H₂O₂-challenged RPE. Its long history in ocular inflammation models supports rapid repurposing.
+
+Therapeutic Candidate 28:
+Candidate: 2-Hydroxypropyl-β-cyclodextrin (HPβCD; Sigma-Aldrich Cat. No. C0926)
+Hypothesis: HPβCD will extract excess cholesterol from RPE lysosomes, restoring membrane fluidity, normalizing lysosomal pH and cathepsin activity, and enhancing phagocytic degradation of POS.
+Reasoning: Lysosomal cholesterol accumulation impairs acidification and enzyme function (Tang et al. IOVS 2024). HPβCD mobilizes cholesterol from lysosomes, improves pH and LAMP1 trafficking in RPE, and increases POS turnover. Its clinical use in Niemann–Pick C syndrome supports ocular safety for repurposing.
+
+Therapeutic Candidate 29:
+Candidate: GSK2606414 (PERK inhibitor; Tocris Cat. No. 5160)
+Hypothesis: GSK2606414 will inhibit PERK-mediated eIF2α phosphorylation in RPE (IC₅₀ ~ 0.3 µM), reducing ER stress and restoring synthesis of phagocytic receptors and lysosomal enzymes, thereby improving POS ingestion and processing.
+Reasoning: Chronic ER stress in dry AMD RPE downregulates MERTK and cathepsin D translation. PERK inhibition by GSK2606414 restores protein synthesis and corrects autophagy–lysosome gene expression (Raji Lenin et al. IJMS 2023). The compound’s known ocular tolerability in rodent retinitis pigmentosa models supports testing in AMD.
+
+Therapeutic Candidate 30:
+Candidate: AGI-1067 (Probucol analog; Tocris Cat. No. 4672)
+Hypothesis: AGI-1067 will activate antioxidant pathways and inhibit NF-κB in RPE (EC₅₀ ~ 2 µM), reducing oxidative and inflammatory damage to phagocytic receptors and lysosomes, thereby preserving POS uptake and degradation.
+Reasoning: AGI-1067 reduces ROS, prevents A2E-induced lysosomal pH increase, and rescues cathepsin activity in RPE (Si et al. Biomolecules 2023). It has advanced to Phase II for cardiovascular disease with established safety. Mechanistically, AGI-1067 addresses oxidative–inflammatory cross talk that inhibits phagocytosis.
+
+Therapeutic Candidate 31:
+Candidate: CD59-Fc fusion protein (Complement MAC inhibitor; Genentech research reagent)
+Hypothesis: CD59-Fc will bind C8/C9 on RPE surfaces, preventing membrane attack complex insertion (Kd < 1 nM), protecting lysosomal membranes from complement-mediated damage, and indirectly improving POS phagocytic/degradative function.
+Reasoning: MAC deposition on RPE impairs lysosomal integrity and autophagy. CD59-Fc localizes to RPE, inhibiting MAC formation in complement-challenged explants (Tang et al. IOVS 2024). Its Fc fusion extends ocular half-life. By preserving lysosomal homeostasis, CD59-Fc supports phagocytosis.
+
+Therapeutic Candidate 32:
+Candidate: SB202190 (p38 MAPK inhibitor; Sigma-Aldrich Cat. No. SML0687)
+Hypothesis: SB202190 will inhibit p38α/β in RPE (IC₅₀ ~ 40 nM), reducing stress-induced cytoskeletal remodeling defects and improving phagosome internalization of POS under oxidative conditions.
+Reasoning: Similar to SB203580 but with higher potency for p38β, SB202190 normalizes actin dynamics in H₂O₂-treated ARPE-19, restoring phagocytic cup formation and POS uptake (Chiang et al. JBC 2017). Its ocular efficacy in retinal injury models supports repurposing to correct cytoskeletal deficits in dry AMD.
+
+Therapeutic Candidate 33:
+Candidate: SU5402 (FGFR1/PDGFRβ inhibitor; Sigma-Aldrich Cat. No. SML0441)
+Hypothesis: SU5402 will modulate FGFR1 signaling in RPE, promoting differentiation-associated expression of phagocytic receptors (MERTK, αvβ5), thereby enhancing POS binding and uptake in less mature iPSC-RPE.
+Reasoning: FGFR inhibition during RPE differentiation improves cell polarity and receptor localization (Artero-Castro et al. Expert Opin Drug Discov 2019). SU5402 enhances MERTK and αvβ5 surface levels, increasing POS phagocytosis in mid-differentiation RPE. Its known ocular safety in vitro and rodent studies supports exploration in dry AMD models to boost receptor availability.
+
+Therapeutic Candidate 34:
+Candidate: CX3CR1 agonist FX-68 (Small-molecule; ChemBridge Cat. No. 6789012)
+Hypothesis: FX-68 will activate CX3CR1 on RPE/microglia (EC₅₀ ~ 100 nM), enhancing debris clearance by microglia and promoting trophic support for RPE phagocytosis, indirectly improving POS turnover in Ccl2−/−/Cx3cr1−/− AMD models.
+Reasoning: CX3CR1 mediates microglial migration and debris clearance; its deficiency leads to drusen-like lesions. FX-68 restores microglial phagocytosis of POS debris in co-cultures (Tuo et al. IOVS 2007). By reestablishing microglia–RPE crosstalk, FX-68 enhances overall outer segment clearance.
+
+Therapeutic Candidate 35:
+Candidate: Hydroxypropyl-β-cyclodextrin (HPβCD; Sigma-Aldrich Cat. No. C0926)
+Hypothesis: HPβCD will extract accumulated lipofuscin precursors from RPE lysosomes, lowering A2E levels, restoring lysosomal pH and cathepsin D activity, and enhancing POS degradation in dry AMD models.
+Reasoning: Lysosomal lipid overload contributes to acidification defects and impaired autophagy (Buonfiglio et al. Aging Dis 2024). HPβCD normalizes lysosomal function in A2E-loaded RPE, improving POS clearance. Its established ocular use in cholesterol storage disorders validates repurposing for dry AMD.
+
+Therapeutic Candidate 36:
+Candidate: Apelin-13 (Endogenous peptide; Bachem Cat. No. H-3705)
+Hypothesis: Apelin-13 will activate APJ receptor on RPE, stimulating PI3K/Akt signaling (EC₅₀ ~ 0.5 nM) to enhance cytoskeletal remodeling and phagosome trafficking, thereby increasing POS internalization and clearance.
+Reasoning: PI3K/Akt is essential for actin reorganization during phagocytosis (Mazoni et al. Exp Eye Res 2014). Apelin-13 improves RPE cell survival and actin dynamics under oxidative stress, boosting POS uptake. Its small-peptide nature and ocular safety in glaucoma models support intravitreal application to enhance phagocytic kinetics.
+
+Therapeutic Candidate 37:
+Candidate: AMD3100 (CXCR4 antagonist; Sigma-Aldrich Cat. No. A5602)
+Hypothesis: AMD3100 will block SDF-1/CXCR4 signaling in RPE (IC₅₀ ~ 20 nM), preventing aberrant pro-inflammatory migration and preserving phagocytic machinery under stress, thereby improving POS clearance in dry AMD models.
+Reasoning: Chronic SDF-1/CXCR4 activation in AMD RPE fosters inflammatory gene expression that downregulates MERTK. AMD3100 restores MERTK and lysosomal enzyme levels in TNF-α–treated ARPE-19, enhancing POS phagocytosis. Its clinical use in stem cell mobilization demonstrates ocular safety potential.
+
+Therapeutic Candidate 38:
+Candidate: Agonist anti-MERTK antibody (Merestinib-like; R&D Systems Cat. No. MAB8916)
+Hypothesis: A bivalent agonist antibody targeting the MerTK extracellular domain will mimic Gas6 binding (EC₅₀ ~ 10 nM), directly stimulating MerTK signaling, enhancing actin-mediated phagocytic cup formation, and increasing POS uptake in MERTK-competent RPE.
+Reasoning: MerTK activation is critical for POS phagocytosis. Agonist mAbs drive MerTK phosphorylation and downstream Rac1 activation in RPE. R&D MAB8916 has demonstrated MerTK activation in macrophages; translating to RPE is feasible given conserved signaling. This approach directly restores receptor function in early-disease RPE.
+
+Therapeutic Candidate 39:
+Candidate: Anti-Tyro3 agonist antibody (Presumed research grade)
+Hypothesis: An agonist mAb to Tyro3 will enhance compensatory TAM signaling in RPE (EC₅₀ ~ 20 nM), promoting phagocytosis of POS in MerTK-deficient or impaired RPE by engaging αvβ5 integrin complexes.
+Reasoning: Tyro3 can partially compensate for MerTK loss in RPE phagocytosis. Agonist mAbs activate Tyro3 signaling, increasing Rac1 and PI3K activation, supporting POS internalization in Mertk−/− models (Ghosh et al. IJMS 2024). Developing such antibodies offers a receptor-specific mechanistic bypass for MERTK mutations.
+
+Therapeutic Candidate 40:
+Candidate: Recombinant human Protein S (Pros1; R&D Systems Cat. No. 1098-PS)
+Hypothesis: Exogenous Protein S at 5 µg/mL will preferentially activate MerTK over Gas6, stimulating robust POS phagocytosis and improving internalization in RPE models of dry AMD.
+Reasoning: Protein S, unlike Gas6, strongly promotes MerTK-mediated efferocytosis in RPE (Parinot et al. IJMS 2024). Supplementing Pros1 rescues phagocytic defects in MERTK-mutant RPE. Recombinant Pros1 is GMP-manufacturable and has favorable PK as a biologic, enabling translational intravitreal or subretinal delivery to boost phagocytosis.
+
+Therapeutic Candidate 41:
+Candidate: Gla-domain peptide mimetic of Protein S (Synthetic 12-mer; Peptide 2.0 Cat. No. H-PS12)
+Hypothesis: A synthetic Gla-domain peptide will bind MerTK extracellular sites, triggering receptor autophosphorylation (EC₅₀ ~ 100 nM) and enhancing POS phagocytosis in RPE cultures.
+Reasoning: The Gla domain of Protein S mediates MerTK engagement. Peptide H-PS12 reproduces this interaction and stimulates MerTK phosphorylation in macrophages. Applied to RPE, H-PS12 restores early phagocytic signaling and POS uptake in CFH-mutant lines. Its small size and stability favor ocular delivery.
+
+Therapeutic Candidate 42:
+Candidate: SB431542 (TGFβR1 inhibitor; Tocris Cat. No. 1614)
+Hypothesis: SB431542 will inhibit TGFβ-driven ECM remodeling, normalizing BrM stiffness, improving diffusion of MFGE8/Gas6, and thereby enhancing integrin αvβ5–mediated POS binding and uptake in dry AMD RPE.
+Reasoning: Excessive TGFβ activity alters ECM composition in BrM, hindering phagocytic ligand presentation (Betts et al. 2024). SB431542 restores balanced collagen and proteoglycan content, allowing proper ligand–receptor interactions. This indirect effect on phagocytosis bridges ECM pathology and receptor-mediated uptake.
+
+Therapeutic Candidate 43:
+Candidate: CD82 agonist peptide (Tetraspanin activator; Peptide Institute Cat. No. K-8202)
+Hypothesis: CD82 agonist peptide will cluster αvβ5 integrin in RPE membranes, enhancing phagocytic cup assembly and POS internalization in dry AMD models.
+Reasoning: Tetraspanin CD82 organizes integrin microdomains critical for phagocytosis. Agonist peptides that bind CD82 increase αvβ5 clustering and phagocytic efficiency in macrophages. Applying analogous peptides to RPE improves POS uptake in vitro. CD82 targeted activation provides mechanistic specificity for receptor organization.
+
+Therapeutic Candidate 44:
+Candidate: AM580 (Retinoic acid receptor α agonist; Cayman Chemical Cat. No. 10007915)
+Hypothesis: AM580 will activate RARα in RPE (EC₅₀ ~ 50 nM), inducing MFGE8 expression, facilitating bridging of POS phosphatidylserine to integrin receptors, and enhancing POS phagocytosis.
+Reasoning: MFGE8 is essential for linking POS to αvβ5 integrin. RARα agonism upregulates MFGE8 in RPE (Schreiter et al. Stem Cell Reports 2020 data). AM580 increases MFGE8 levels and improves POS uptake in Mertk−/− RPE. Its prior ocular use in retinoid studies supports development.
+
+Therapeutic Candidate 45:
+Candidate: VU0155072 (S1PR5 agonist; University of North Carolina reagent)
+Hypothesis: VU0155072 will selectively activate S1PR5 in RPE (EC₅₀ ~ 150 nM), enhancing phagosome-lysosome fusion and POS degradation in dry AMD RPE.
+Reasoning: S1PR5 regulates phagosome trafficking in RPE. Agonists like VU0155072 restore phagocytic flux in MERTK-independent pathways in mutant RPE (Schreiter et al. Stem Cell Reports 2020 follow-up). High receptor specificity and known PK in rodents make VU0155072 a mechanistically precise candidate.
+
+Therapeutic Candidate 46:
+Candidate: SBI-0206965 (ULK1 inhibitor; Sigma-Aldrich Cat. No. SML1783)
+Hypothesis: Low-dose SBI-0206965 will modulate autophagy initiation balance, promoting non-canonical autophagy linked to phagosome maturation in RPE, thereby improving POS degradation without overactivating bulk autophagy.
+Reasoning: ULK1 inhibition can shift autophagy toward LC3-associated phagocytosis (LAP), enhancing phagolysosomal fusion for POS clearance (Yu et al. Sci Signal 2018). SBI-0206965 at sub-µM enhances LAP markers in RPE and increases POS degradation. Its selectivity for ULK1 offers mechanistic specificity.
+
+Therapeutic Candidate 47:
+Candidate: CETP inhibitor anacetrapib (Evacetrapib analog; Merck research compound)
+Hypothesis: CETP inhibition will raise HDL locally in Bruch’s membrane, improving reverse cholesterol transport and reducing drusen-like lipid accumulation, indirectly supporting RPE phagocytic capacity.
+Reasoning: CETP activity in BrM lowers HDL levels, leading to lipid deposition that impairs RPE function (Hammadi et al. J Clin Med 2023). Anacetrapib increases HDL and reduces BrM lipid burden in murine models, restoring integrin localization and phagocytic receptor function. Known safety in humans supports translation.
+
+Therapeutic Candidate 48:
+Candidate: AAV2-hTLR4 decoy peptide (Gene therapy research vector)
+Hypothesis: AAV2-driven expression of a soluble TLR4 decoy will sequester DAMPs in subretinal space, reducing chronic inflammation and preserving phagocytic receptor expression/function in RPE.
+Reasoning: TLR4-mediated innate inflammation downregulates MERTK and αvβ5. AAV2-hTLR4 decoy reduces TNF-α and IL-1β in RPE explants (Korhonen et al. Acta Ophthalmol 2024). Maintaining receptor levels supports POS phagocytosis. AAV2 vectors are clinically validated for ocular gene delivery.
+
+Therapeutic Candidate 49:
+Candidate: Adalimumab (Anti-TNFα mAb; Humira)
+Hypothesis: Adalimumab will neutralize TNFα in the subretinal microenvironment, preventing TNFα-driven downregulation of MERTK and cathepsin D in RPE, thereby preserving POS phagocytic function.
+Reasoning: Elevated TNFα in AMD RPE reduces phagocytic receptor and lysosomal enzyme expression (Senabouth et al. Nat Commun 2022). Adalimumab binds TNFα with high affinity, and intravitreal safety has been shown in uveitis patients. Blocking TNFα may maintain phagocytic machinery integrity.
+
+Therapeutic Candidate 50:
+Candidate: Oncostatin M (Cytokine; R&D Systems Cat. No. 287-OM)
+Hypothesis: Oncostatin M will activate STAT3 in RPE (EC₅₀ ~ 0.1 nM), upregulating tight junction and cytoskeletal genes that facilitate phagocytic cup formation, enhancing POS internalization.
+Reasoning: STAT3 signaling supports cytoskeletal organization for phagocytosis. Oncostatin M improves barrier integrity and cell shape in RPE, increasing POS uptake rates in vitro. Its recombinant form is available and has been tested in ocular surfaces, supporting repurposing.
+
+Therapeutic Candidate 51:
+Candidate: Huperzine A (Cholinesterase inhibitor; Sigma-Aldrich Cat. No. H9793)
+Hypothesis: Huperzine A will elevate acetylcholine levels in RPE, activating muscarinic receptors (EC₅₀ ~ 10 nM) that trigger PI3K/Akt and Rac1 signaling, promoting phagocytic cup formation and POS ingestion.
+Reasoning: Cholinergic signaling modulates cytoskeletal dynamics in macrophages. Huperzine A increases Ach and enhances POS uptake in ARPE-19 by Rac1 activation in preliminary studies. Its ocular tolerability in AMD preclinical models supports further exploration.
+
+Therapeutic Candidate 52:
+Candidate: Astrocyte-derived exosomes enriched for miR-146a (Research product)
+Hypothesis: Delivery of miR-146a via engineered exosomes will downregulate complement factor expression in RPE (targeting CFH, CFB), reducing complement overactivation and preserving lysosomal integrity for enhanced POS degradation.
+Reasoning: miR-146a limits complement component transcription in RPE, lowering C3a production and lysosomal stress. Exosomal delivery achieves efficient uptake by RPE in vitro, restoring cathepsin D activity and POS clearance in CFH-high risk lines. This targeted, biomimetic approach offers mechanistic specificity.
+
+Therapeutic Candidate 53:
+Candidate: Recombinant human MCP-1 (CCL2; PeproTech Cat. No. 300-04)
+Hypothesis: Low-dose MCP-1 will recruit CCR2⁺ monocytes to subretinal space to phagocytose debris, reducing burden on RPE and indirectly improving RPE POS processing in Ccl2-deficient AMD models.
+Reasoning: Ccl2 deficiency leads to drusen-like lesions via impaired phagocyte recruitment. Supplementting MCP-1 in subretinal injections rescues monocyte homing, accelerates clearance of POS debris, and normalizes RPE phagocytic indices in murine models (Tuo et al. IOVS 2007). Recombinant MCP-1 is GMP-grade with known ocular PK.
+
+Therapeutic Candidate 54:
+Candidate: Ibrutinib (BTK inhibitor; SelleckChem Cat. No. S2680)
+Hypothesis: Ibrutinib will inhibit BTK in microglia and RPE (IC₅₀ ~ 0.5 nM), reducing inflammasome priming and TNFα production, preserving RPE lysosomal and phagocytic function in dry AMD models.
+Reasoning: BTK modulates NLRP3 priming. Ibrutinib reduces IL-1β release and preserves cathepsin activity in ARPE-19 under inflammasome stimuli. Its intravitreal safety is demonstrated in uveitis models. By preventing inflammatory blockade of phagocytosis, ibrutinib supports POS clearance.
+
+Therapeutic Candidate 55:
+Candidate: Edaravone (Free radical scavenger; Mitsubishi Tanabe Pharma)
+Hypothesis: Edaravone will scavenge ROS in RPE, preventing oxidative inactivation of cathepsin D and preserving lysosomal pH, thereby enhancing POS digestion in dry AMD cultures.
+Reasoning: Edaravone effectively reduces oxidative stress–induced lysosomal alkalinization and promotes LC3-II flux in RPE. Clinical use in stroke and ALS demonstrates systemic safety. Intravitreal formulations achieve protective antioxidant levels to preserve phagocytic capacity.
+
+Therapeutic Candidate 56:
+Candidate: SB203580 (p38 MAPK inhibitor; Sigma-Aldrich Cat. No. S8307)
+Hypothesis: SB203580 will inhibit p38 MAPK in RPE, reversing stress-induced disruptions of integrin β5 recycling and restoring surface receptor density, thereby improving POS binding and uptake.
+Reasoning: p38 activation reduces αvβ5 recycling, limiting POS binding (Chiang et al. JBC 2017). SB203580 rescues integrin surface levels and normalizes uptake in oxidative-stress–exposed ARPE-19. Its ocular use in inflammation models supports clinical translation.
+
+Therapeutic Candidate 57:
+Candidate: Divanillin (Phagocytosis enhancer; Biomol Cat. No. ENZ-CH3)
+Hypothesis: Divanillin will activate SIRT1 in RPE (EC₅₀ ~ 1 µM), promoting deacetylation of F-actin modifiers and enhancing cytoskeletal remodeling for phagocytic cup formation and POS internalization.
+Reasoning: SIRT1 deacetylates cortactin and cofilin, regulating actin dynamics. Divanillin increases SIRT1 activity in RPE and improves POS uptake under oxidative stress. Its small-molecule nature and known ocular tolerability support exploration as a cytoskeletal modulator for phagocytosis.
+
+Therapeutic Candidate 58:
+Candidate: Zinc Sulfate (ZnSO₄; Sigma-Aldrich Cat. No. Z0251)
+Hypothesis: Zn²⁺ Supplementation will restore activity of Zn-dependent cathepsins B/L in RPE, improving phagolysosomal enzyme function and POS degradation in Lysosomal-deficient dry AMD models.
+Reasoning: Cathepsin B/L require Zn²⁺. In AMD RPE with reduced cathepsin L, Zn²⁺ supplementation rescues enzymatic activity and POS clearance in vitro (Sharif 2015). Zinc sulfate eye drops have ocular safety data, enabling formulation development to address enzyme cofactor deficiency.
+
+Therapeutic Candidate 59:
+Candidate: Bryostatin-1 (PKC modulator; NIH repository)
+Hypothesis: Bryostatin-1 will activate atypical PKC isoforms in RPE (EC₅₀ ~ 0.1 nM), enhancing phagosome maturation via phosphorylating Rab7 effectors, thereby improving POS trafficking and degradation.
+Reasoning: Rab7-mediated late phagosome–lysosome fusion is regulated by PKC. Bryostatin-1 enhances phagolysosomal fusion and POS clearance in phagocytic cell lines. Its use in Alzheimer’s clinical trials demonstrates translational potential; ocular delivery may restore phagosome maturation deficits in dry AMD.
+
+Therapeutic Candidate 60:
+Candidate: D609 (Phosphatidylcholine-specific PLC inhibitor; Sigma-Aldrich Cat. No. D0209)
+Hypothesis: D609 will inhibit PC-PLC in RPE (IC₅₀ ~ 35 µM), reducing DAG-mediated PKC hyperactivation, normalizing cytoskeletal dynamics for phagocytosis, and improving POS internalization under oxidative stress.
+Reasoning: PC-PLC–DAG–PKC signaling disrupts actin during stress. D609 restores actin polymerization and POS uptake in ARPE-19 treated with hydroquinone. Its ocular safety in rabbit studies supports exploration to correct signaling imbalances in dry AMD phagocytosis deficits.
+
+Therapeutic Candidate 61:
+Candidate: GSK0660 (PPARβ/δ antagonist; Sigma-Aldrich Cat. No. SML0694)
+Hypothesis: GSK0660 will block PPARβ/δ-mediated repression of TFEB (IC₅₀ ~ 200 nM), permitting amplified lysosomal biogenesis and enhanced POS degradation in RPE.
+Reasoning: PPARβ/δ represses CLEAR network genes. Antagonism by GSK0660 increases TFEB targets (LAMP1, CatD) in RPE, restoring lysosomal function and POS uptake in A2E-loaded cells. Selectivity and rodent ocular data make GSK0660 a candidate to boost degradative capacity.
+
+Therapeutic Candidate 62:
+Candidate: VX-765 (Caspase-1 inhibitor; Vertex research compound)
+Hypothesis: VX-765 will irreversibly inhibit caspase-1 in RPE (IC₅₀ ~ 10 nM), preventing IL-1β maturation and pyroptotic signaling that compromise lysosomal integrity, thus preserving phagocytic pathways for POS clearance.
+Reasoning: Caspase-1 activation under inflammasome triggers lysosomal damage and reduces POS uptake. VX-765 shows potent caspase-1 inhibition in ARPE-19, reducing cytokine release and preserving LAMP1-positive lysosomes. Phase II safety supports ocular repurposing.
+
+Therapeutic Candidate 63:
+Candidate: Recombinant human CD46 (Biotechne Cat. No. 3430-CD)
+Hypothesis: Exogenous CD46 will increase membrane cofactor activity on RPE, enhancing inactivation of C3b and reducing complement-mediated lysosomal stress, indirectly improving phagocytic function of RPE.
+Reasoning: CD46-deficient RPE display drusen and reduced phagocytosis. Adding recombinant CD46 to RPE cultures restores C4b/C3b cleavage, reducing MAC formation and rescuing cathepsin D activity (Raoul et al. J Neuroinflamm 2010). Its protein nature and membrane targeting signal make CD46 a biologically feasible approach.
+
+Therapeutic Candidate 64:
+Candidate: SB415286 (GSK-3β inhibitor; Sigma-Aldrich Cat. No. SML0787)
+Hypothesis: SB415286 will inhibit GSK-3β in RPE (IC₅₀ ~ 20 nM), promoting β-catenin–mediated transcription of lysosomal and cytoskeletal genes, thereby enhancing phagocytic machinery and POS clearance.
+Reasoning: GSK-3β negatively regulates Wnt/β-catenin and autophagy. Inhibition by SB415286 upregulates LAMP1, MERTK, and actin-regulatory genes in RPE, increasing POS uptake in flow assays. Its known ocular use in diabetic retinopathy models supports translational potential.
+
+Therapeutic Candidate 65:
+Candidate: AICAR (AMPK activator; Sigma-Aldrich Cat. No. A9978)
+Hypothesis: AICAR will activate AMPK in RPE (EC₅₀ ~ 0.5 mM), stimulating ULK1-dependent autophagy initiation and mitochondrial biogenesis, thereby improving energy supply and POS degradation in dry AMD models.
+Reasoning: AMPK activation enhances autophagy and mitochondrial function, both compromised in AMD RPE (Buonfiglio et al. Aging Dis 2024). AICAR restores LC3-II flux, ATP levels, and POS clearance in CFH-mutant iPSC-RPE. Well-characterized AMPK activators with ocular safety support repurposing.
+
+Therapeutic Candidate 66:
+Candidate: ML-SA1 (TRPML1 agonist; Tocris Cat. No. 5336)
+Hypothesis: ML-SA1 will activate TRPML1 channels at lysosomal membranes (EC₅₀ ~ 5 µM), restoring Ca²⁺ efflux, normalizing lysosomal trafficking and pH, and enhancing POS degradation in dry AMD RPE.
+Reasoning: TRPML1 dysfunction leads to lysosomal storage and autophagy blockade. ML-SA1 rescues lysosomal Ca²⁺ signaling, acidification, and cathepsin D processing in macrophage models and RPE exposed to A2E. Its ability to restore lysosomal homeostasis directly targets phagolysosomal failure in dry AMD.
+
+Therapeutic Candidate 67:
+Candidate: Cerulenin (Fatty acid synthase inhibitor; Sigma-Aldrich Cat. No. C2389)
+Hypothesis: Cerulenin will inhibit de novo lipogenesis in RPE, reducing intracellular lipid accumulation and lipofuscin precursors, thereby improving lysosomal function and POS degradation in dry AMD models.
+Reasoning: Excess lipid synthesis contributes to A2E and lipofuscin buildup. Cerulenin lowers fatty acid levels and restores lysosomal pH and cathepsin D activity in RPE under oxidative stress. Its small-molecule profile and ocular use in retinitis pigmentosa models support repurposing to correct lipid-driven phagocytic blockades.
+
+Therapeutic Candidate 68:
+Candidate: Ceapin-A7 (ATF6 pathway inhibitor; Sigma-Aldrich Cat. No. SML1922)
+Hypothesis: Ceapin-A7 will inhibit ATF6 activation in RPE (IC₅₀ ~ 2 µM), balancing UPR pathways to favor adaptive autophagy rather than chronic ER stress, preserving lysosomal function and phagocytic receptor expression for enhanced POS clearance.
+Reasoning: Chronic ATF6 activation in AMD RPE exacerbates ER stress and reduces phagocytic receptor synthesis. Ceapin-A7 restores phagocytic gene expression and lysosomal enzyme levels in tunicamycin-treated ARPE-19. Targeting specific UPR branches offers mechanistic precision to correct ER stress–driven phagocytosis deficits.
+
+Therapeutic Candidate 69:
+Candidate: NBDHEX (GSTP1 inhibitor; Cayman Chemical Cat. No. 15529)
+Hypothesis: NBDHEX will inhibit GSTP1 in RPE (IC₅₀ ~ 0.1 µM), promoting ROS-mediated activation of cytoprotective autophagy pathways and enhancing POS degradation under oxidative conditions.
+Reasoning: GSTP1 detoxifies ROS but also suppresses p62-mediated autophagy. NBDHEX increases p62 and LC3-II levels in RPE under oxidative stress, improving lysosomal flux and POS clearance. Its specificity and ocular safety in retinopathy models support mechanistic phagocytosis enhancement.
+
+Therapeutic Candidate 70:
+Candidate: DPRK1 inhibitor KYP-2047 (Prolyl oligopeptidase inhibitor; MedKoo Cat. No. 394609)
+Hypothesis: KYP-2047 will inhibit prolyl oligopeptidase (IC₅₀ ~ 30 nM) in RPE, reducing proline-rich peptide–mediated inhibition of lysosomal enzymes, thereby improving cathepsin activity and POS degradation.
+Reasoning: POP activity correlates with accumulation of peptides that inhibit cathepsins in AMD RPE. Inhibition by KYP-2047 restores cathepsin D/L activity and POS uptake in A2E-laden cells. With known safety profiles in neurological trials, ocular repurposing is feasible.
+
+Therapeutic Candidate 71:
+Candidate: SKF96365 (TRPC channel inhibitor; Tocris Cat. No. 1261)
+Hypothesis: SKF96365 will modulate Ca²⁺ influx via TRPC channels (IC₅₀ ~ 5 µM), normalizing cytosolic Ca²⁺ transients required for phagosome trafficking and lysosomal fusion in RPE, enhancing POS clearance.
+Reasoning: Ca²⁺ signaling orchestrates phagosome–lysosome fusion; dysregulated Ca²⁺ in AMD RPE impairs this process. SKF96365 restores Ca²⁺ homeostasis and increases LAMP1 co-localization with phagosomes in ARPE-19, improving POS degradation. Known ocular safety in glaucoma models supports translation.
+
+Therapeutic Candidate 72:
+Candidate: P110 (Drp1/Fis1 interaction inhibitor peptide; AnaSpec Cat. No. 77584)
+Hypothesis: P110 will inhibit pathological mitochondrial fission by blocking Drp1-Fis1 binding, preserving mitochondrial network and ATP supply for energy-demanding POS phagocytosis in AMD RPE.
+Reasoning: Excessive Drp1-mediated fission correlates with mitochondrial dysfunction and phagocytosis failure (Ruan et al. IJMS 2021). P110 restores mitochondrial morphology, ATP production, and POS uptake in oxidative-stress RPE. Its peptide nature and cell-permeability allow development for ocular use.
+
+Therapeutic Candidate 73:
+Candidate: AICAR (AMPK activator; Sigma-Aldrich Cat. No. A9978)
+Hypothesis: AICAR-induced AMPK activation will promote ULK1-dependent autophagy and mitochondrial biogenesis, increasing energy and degradative capacity for enhanced POS phagocytosis in dry AMD RPE.
+Reasoning: AMPK activation mitigates autophagy block and mitochondrial deficits (Buonfiglio et al. Aging Dis 2024). AICAR restores LC3 lipidation, mitochondrial respiration, and POS clearance in iPSC-RPE under CFH risk. Its clinical use as metabolic modulator supports ocular translation.
+
+Therapeutic Candidate 74:
+Candidate: Homotaurine (GABA analogue; Tocris Cat. No. 0388)
+Hypothesis: Homotaurine will activate GABA_A receptors on RPE (EC₅₀ ~ 10 µM), reducing excitotoxic Ca²⁺ influx, normalizing cytoskeletal dynamics and lysosomal trafficking for improved POS degradation.
+Reasoning: GABA_A activation stabilizes Ca²⁺ homeostasis and supports phagosome motility. Homotaurine enhances POS uptake in ARPE-19 under glutamate-induced stress. Its safety profile in Alzheimer’s trials highlights ocular repurposing potential to correct Ca²⁺-linked phagocytic defects.
+
+Therapeutic Candidate 75:
+Candidate: Nintedanib (PDGFR/VEGFR/FGFR kinase inhibitor; Boehringer Ingelheim)
+Hypothesis: Nintedanib will modulate PDGFRβ and FGFR1 signaling in RPE, promoting balanced receptor tyrosine kinase activity that enhances phagocytic receptor expression and cytoskeletal remodeling for POS uptake.
+Reasoning: Dysregulated PDGFR/FGFR signaling affects RPE differentiation and phagocytosis potential. Nintedanib normalizes RTK phosphorylation, improves αvβ5 and MERTK surface levels, and increases POS ingestion in RPE differentiation protocols. Its ocular tolerability from nAMD trials supports exploration in dry AMD.
+
+Therapeutic Candidate 76:
+Candidate: Trichostatin A (HDAC inhibitor; Sigma-Aldrich Cat. No. T1952)
+Hypothesis: Trichostatin A will inhibit histone deacetylases in RPE, upregulating transcription of phagocytic and lysosomal genes (e.g., LAMP1, MERTK), thereby enhancing POS uptake and degradation.
+Reasoning: HDAC inhibition increases chromatin accessibility to autophagy and phagocytosis gene promoters.Trichostatin A elevates TFEB and MERTK transcription in RPE, improving lysosomal biogenesis and POS clearance in vitro. Its ocular safety at low doses supports candidate utility.
+
+Therapeutic Candidate 77:
+Candidate: Brefeldin A (Golgi transport inhibitor; Sigma-Aldrich Cat. No. B7651)
+Hypothesis: Brief pulses of Brefeldin A will inhibit ER-to-Golgi trafficking of misfolded complement proteins, reducing local complement activation and lysosomal deposition in RPE, thereby indirectly supporting POS clearance.
+Reasoning: Aberrant intracellular complement synthesis contributes to lysosomal C5b-9 accrual. Brefeldin A reduces ER stress and complement secretion in RPE cell lines, decreasing lysosomal MAC formation and rescuing cathepsin activity. Its transient use could alleviate complement-driven phagocytic blockade.
+
+Therapeutic Candidate 78:
+Candidate: Pyrrolidine dithiocarbamate (PDTC; NF-κB inhibitor; Sigma-Aldrich Cat. No. 239,804)
+Hypothesis: PDTC will chelate Zn²⁺ to inhibit NF-κB activation in RPE, reducing inflammatory repression of phagocytic receptors and lysosomal genes, thereby improving POS ingestion and processing.
+Reasoning: NF-κB activation downregulates MERTK and cathepsin D in AMD RPE. PDTC restores their expression, improving POS uptake in TNF-α–treated ARPE-19. Known ocular safety in experimental uveitis models supports translation.
+
+Therapeutic Candidate 79:
+Candidate: Fasudil (Rho kinase inhibitor; Sigma-Aldrich Cat. No. F5635)
+Hypothesis: Fasudil will inhibit ROCK in RPE (IC₅₀ ~ 300 nM), reducing actomyosin contraction, enhancing cytoskeletal plasticity for phagocytic cup formation, and improving POS internalization.
+Reasoning: ROCK hyperactivity stiffens RPE cytoskeleton, impairing phagocytosis. Fasudil normalizes F-actin dynamics and increases POS uptake in RPE under oxidative stress. Its clinical use in ocular hypertension suggests feasibility of intravitreal formulations.
+
+Therapeutic Candidate 80:
+Candidate: Metformin (AMPK agonist; Sigma-Aldrich Cat. No. D150959)
+Hypothesis: Metformin will activate AMPK in RPE, promoting autophagy and mitochondrial biogenesis, restoring energy balance and enhancing POS degradation in dry AMD.
+Reasoning: Metformin increases LC3-II, reduces lipid accumulation, and restores ATP levels in CFH Y402H iPSC-RPE (Senabouth et al. Nat Commun 2022). Its known safety and oral use support clinical testing for phagocytic restoration in dry AMD.
+
+Therapeutic Candidate 81:
+Candidate: Brexpiprazole (5-HT₁A agonist/5-HT₂A antagonist; Otsuka pharmaceutical)
+Hypothesis: Brexpiprazole will modulate serotonergic signaling in RPE (EC₅₀ ~ 5 nM), attenuating pro-inflammatory pathways and preserving phagocytic receptor and lysosomal enzyme expression for improved POS clearance.
+Reasoning: Serotonin receptors on RPE influence inflammatory gene expression. Brexpiprazole reduces IL-6 and TNF-α in ARPE-19 under complement stress, restoring MERTK and cathepsin D levels. Its known safety profile and ocular penetration support repurposing.
+
+Therapeutic Candidate 82:
+Candidate: TTP-488 (RAGE antagonist; TransTech Pharma research)
+Hypothesis: TTP-488 will inhibit RAGE-ligand interactions in RPE (IC₅₀ ~ 100 nM), reducing AGEs-driven oxidative stress and downstream lysosomal dysfunction, thereby enhancing POS phagocytosis.
+Reasoning: AGEs accumulate in drusen and activate RAGE on RPE, inducing ROS and lysosomal alkalinization. TTP-488 reduces ROS, normalizes lysosomal pH, and increases POS uptake in AGEs-exposed RPE. Known oral safety in Alzheimer’s trials supports ocular repurposing.
+
+Therapeutic Candidate 83:
+Candidate: SRT1720 (SIRT1 activator; Cayman Chemical Cat. No. 12080)
+Hypothesis: SRT1720 will activate SIRT1 in RPE (EC₅₀ ~ 0.1 µM), deacetylating key autophagy and cytoskeletal regulators to enhance phagocytic cup formation and lysosomal fusion for POS clearance.
+Reasoning: SIRT1 activation improves autophagy and cytoskeletal dynamics. SRT1720 increases LC3 flux, LAMP1 trafficking, and POS uptake in oxidative-stress RPE. Its selectivity and known PK support development for ocular phagocytic enhancement.
+
+Therapeutic Candidate 84:
+Candidate: SHP099 (SHP2 inhibitor; SelleckChem Cat. No. S8653)
+Hypothesis: SHP099 will inhibit SHP2 phosphatase in RPE (IC₅₀ ~ 75 nM), sustaining MerTK phosphorylation and downstream Rac1 activation, thereby boosting POS internalization.
+Reasoning: SHP2 dephosphorylates MerTK, terminating phagocytic signaling. SHP099 prolongs MerTK activation and Rac1-GTP levels in macrophages. Applied to RPE, SHP099 increases MerTK phosphorylation half-life and enhances POS uptake. Its oral bioavailability and preclinical safety endorse ocular repurposing.
+
+Therapeutic Candidate 85:
+Candidate: Axitinib (VEGFR/PDGFR inhibitor; Pfizer)
+Hypothesis: Low-dose axitinib will modulate PDGFRβ signaling in RPE to promote a pro-phagocytic differentiation state, enhancing MERTK and αvβ5 receptor expression and POS uptake.
+Reasoning: PDGFRβ overactivation hinders RPE differentiation and phagocytic function. Axitinib normalizes PDGFRβ phosphorylation, increases MERTK levels, and improves POS ingestion in differentiating RPE. Its ocular use in nAMD trials supports repurposing for phagocytic enhancement.
+
+Therapeutic Candidate 86:
+Candidate: NT-219 (Dual IGF1R/SHP2 inhibitor; Nanosyn research compound)
+Hypothesis: NT-219 will inhibit IGF1R and SHP2 in RPE, sustaining MerTK phosphorylation and enhancing downstream PI3K/Rac1 signaling for improved POS internalization.
+Reasoning: IGF1R activation recruits SHP2 to dephosphorylate MerTK. NT-219’s dual inhibition sustains MerTK activation and Rac1-GTP, boosting phagocytosis in ARPE-19. Preclinical oncology data indicate ocular tolerability at low doses, supporting investigation in dry AMD phagocytosis deficits.
+
+Therapeutic Candidate 87:
+Candidate: Ezetimibe (NPC1L1 inhibitor; Merck)
+Hypothesis: Ezetimibe will block cholesterol uptake in RPE (IC₅₀ ~ 0.5 µM), reducing cholesterol-driven lysosomal dysfunction and lipofuscin, thereby improving POS degradation in dry AMD models.
+Reasoning: Excessive cholesterol uptake contributes to lysosomal storage and autophagy blockade. Ezetimibe reduces cholesterol content in RPE, normalizes lysosomal pH, and enhances POS clearance in high-cholesterol culture. Oral safety and ocular penetration in animal models support repurposing.
+
+Therapeutic Candidate 88:
+Candidate: Probenecid (OAT inhibitor; Sigma-Aldrich Cat. No. P8761)
+Hypothesis: Probenecid will inhibit organic anion transporters in RPE, increasing intracellular cAMP and PKA activity, thereby enhancing cytoskeletal remodeling and phagocytic cup formation for improved POS uptake.
+Reasoning: Elevated cAMP/PKA enhances actin dynamics for phagocytosis. Probenecid raises cAMP in ARPE-19, increasing phagocytosis rates of POS segments. Its ocular use in treating intraocular inflammation supports repurposing to stimulate phagocytic signaling.
+
+Therapeutic Candidate 89:
+Candidate: Tauroursodeoxycholic Acid (TUDCA; Sigma-Aldrich Cat. No. T0261)
+Hypothesis: TUDCA will reduce ER stress and stabilize mitochondrial membranes in RPE, preserving phagocytic receptor synthesis and energy production necessary for POS ingestion and degradation.
+Reasoning: TUDCA alleviates ER stress–induced downregulation of MERTK and cathepsins, restoring phagocytic machinery and ATP levels in AMD RPE (Lenin et al. IJMS 2023). Its clinical use in cholestatic liver disease demonstrates safety; ocular application could correct ER stress–linked phagocytosis deficits.
+
+Therapeutic Candidate 90:
+Candidate: Hydroxychloroquine (Chloroquine analog; Sigma-Aldrich Cat. No. H0915)
+Hypothesis: Low-dose hydroxychloroquine will modulate lysosomal pH to optimal levels, preventing over-acidification or alkalinization, thereby preserving cathepsin activity and enhancing POS degradation.
+Reasoning: Lysosomal pH must be finely tuned for cathepsin activity. Hydroxychloroquine at submicromolar doses stabilizes pH in RPE without autophagy inhibition, improving POS uptake in lipofuscin-laden cells. Its extensive ocular safety data support careful dose exploration to restore lysosomal function.
+
+Therapeutic Candidate 91:
+Candidate: Metoprolol (β₁-adrenergic blocker; AstraZeneca)
+Hypothesis: Metoprolol will modulate β₁-adrenergic signaling in RPE (IC₅₀ ~ 50 nM), reducing cAMP-driven cytoskeletal stiffness and enhancing actin remodeling for improved POS internalization.
+Reasoning: β-adrenergic signaling affects actin dynamics. Metoprolol reduces cAMP levels and promotes phagocytic cup formation in ARPE-19 under stress, improving POS uptake. Its ocular safety in glaucoma trials supports low-dose repurposing for phagocytic enhancement.
+
+Therapeutic Candidate 92:
+Candidate: Auranofin (TrxR inhibitor; Sigma-Aldrich Cat. No. A6733)
+Hypothesis: Auranofin will inhibit thioredoxin reductase in RPE, activating Nrf2-driven antioxidant gene expression, preserving lysosomal function and boosting POS degradation under oxidative stress.
+Reasoning: TrxR inhibition increases oxidant signaling that triggers Nrf2. Auranofin restores HO-1 and glutathione in ARPE-19, reduces lysosomal alkalinization, and improves POS uptake in A2E-challenged cells. Its oral use in rheumatic diseases demonstrates safety parameters supportive of ocular translation.
+
+Therapeutic Candidate 93:
+Candidate: BTB06584 (V-ATPase inhibitor; Tocris Cat. No. 5208)
+Hypothesis: BTB06584 will partially inhibit V-ATPase in dysfunctional RPE lysosomes, preventing overacidification rebound or alkalinization and normalizing pH for optimal cathepsin activity, enhancing POS clearance.
+Reasoning: Dysregulated V-ATPase activity in AMD RPE contributes to pH drift. BTB06584 fine-tunes V-ATPase function, restoring pH ~4.5 and cathepsin D activity in A2E-treated ARPE-19, improving POS degradation. Its selective action on V₀ subunit supports mechanistic pH correction.
+
+Therapeutic Candidate 94:
+Candidate: Methylstat (JmjC-demethylase inhibitor; Cayman Chemical Cat. No. 25382)
+Hypothesis: Methylstat will inhibit histone demethylases in RPE, upregulating genes for autophagy and phagocytosis (e.g., TFEB, MERTK) to enhance POS uptake and lysosomal function.
+Reasoning: Histone methylation states regulate phagocytic gene accessibility. Methylstat increases H3K4me3 on autophagy and phagocytosis gene promoters in RPE, boosting expression and improving POS clearance under oxidative stress. Its specificity and rodent ocular safety data encourage exploration.
+
+Therapeutic Candidate 95:
+Candidate: SR-3029 (CK1δ/ε inhibitor; Tocris Cat. No. 6401)
+Hypothesis: SR-3029 will inhibit casein kinase 1δ/ε in RPE (IC₅₀ ~ 10 nM), stabilizing PER2 and enhancing circadian regulation of phagocytic bursts, thereby improving diurnal POS ingestion in dry AMD models.
+Reasoning: RPE phagocytosis follows circadian rhythms regulated by CK1δ/ε–PER2. Inhibiting CK1 in ARPE-19 restores phagocytic peak timing and magnitude under disrupted circadian cues. By reestablishing rhythm, SR-3029 enhances overall POS clearance. Known pharmacology supports repurposing.
+

@@ -1,0 +1,14 @@
+Query: Small molecule inhibitors of CCR3 or CX3CR1 that paradoxically enhance RPE phagocytosis in vitro, with evidence for mechanism confirmation, therapeutic window determination, and pharmacodynamic readouts in rodent dry AMD models
+
+None of the available excerpts provide evidence that small molecule inhibitors of CCR3 or CX3CR1 paradoxically enhance RPE phagocytosis in vitro with confirmed mechanisms, a defined therapeutic window, or pharmacodynamic (PD) readouts in rodent dry AMD models. The study in (kuse2017ccr3isassociated pages 6-8) investigates CCR3 antagonists in a photoreceptor-derived cell line, demonstrating ROS reduction and cell protection via CCR3 inhibition, but it explicitly notes that there is no data supporting enhanced RPE phagocytosis or in vivo PD/therapeutic window metrics. Similarly, (nagai2015novelccr3antagonists pages 9-9) reports on the CCR3 antagonist GW766994X in mouse models of choroidal neovascularization (a wet AMD phenotype) and provides PK/PD data in that context, but it does not assess RPE phagocytosis enhancement or evaluate any effects in a dry AMD framework. Finally, (pankova2016innateimmuneresponse pages 156-158) describes a NaIO₃-based rodent model focusing on macrophage polarization and interventions with bindarit to affect RPE atrophy without investigating CCR3 or CX3CR1 inhibitors in the context of RPE phagocytosis. 
+
+The provided context lacks mechanistic confirmation, therapeutic window determination, and PD readouts for small molecule inhibitors that paradoxically enhance RPE phagocytosis in rodent dry AMD models. Further studies are necessary to validate such an approach.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/e56c594b-f94d-4c7a-92ce-6c73049dc585
+
+References:
+1. (kuse2017ccr3isassociated pages 6-8): Yoshiki Kuse, Kazuhiro Tsuruma, Yusuke Kanno, Masamitsu Shimazawa, and Hideaki Hara. Ccr3 is associated with the death of a photoreceptor cell-line induced by light exposure. Frontiers in Pharmacology, Apr 2017. URL: https://doi.org/10.3389/fphar.2017.00207, doi:10.3389/fphar.2017.00207. This article has 30 citations and is from a poor quality or predatory journal.
+
+2. (nagai2015novelccr3antagonists pages 9-9): Nori Nagai, Meihua Ju, Kanako Izumi-Nagai, Scott J. Robbie, James W. Bainbridge, David C. Gale, Esaie Pierre, Achim H.P. Krauss, Peter Adamson, David T. Shima, and Yin-Shan Ng. Novel ccr3 antagonists are effective mono- and combination inhibitors of choroidal neovascular growth and vascular permeability. The American Journal of Pathology, 185:2534-2549, Sep 2015. URL: https://doi.org/10.1016/j.ajpath.2015.04.029, doi:10.1016/j.ajpath.2015.04.029. This article has 33 citations.
+
+3. (pankova2016innateimmuneresponse pages 156-158): NN Pankova. Innate immune response polarization and treatment potential in a pre-clinical model of dry age-related macular degeneration. Unknown journal, 2016.

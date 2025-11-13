@@ -1,0 +1,28 @@
+Query: Search for G-protein coupled receptor modulators (e.g., GPR91, GPR40) or downstream second messenger pathway activators that accelerate phagocytic uptake kinetics in RPE cells, with specificity assays, efficacy in dry AMD animal or ex vivo human RPE models, and known ocular pharmacokinetics and tolerability data
+
+The provided excerpts do not include any studies reporting that GPCR modulators—specifically targeting GPR91, GPR40, or downstream second messenger pathways—accelerate phagocytic uptake kinetics in RPE cells. Several reports focus on agents such as L‐2‑oxothiazolidine‑4‑carboxylate (OTC) acting through GPR109A to reduce inflammatory and oxidative stress markers in RPE cells and in AMD‐relevant mouse models (promsote2015rpeasa pages 102-107, promsote2015rpeasa pages 111-116, promsote2015rpeasa pages 222-226), yet no direct assessments of phagocytic uptake kinetics are provided. Similarly, studies investigating GPR143 activation by L-DOPA demonstrate effects on exosome release and pigment regulation (figueroa2020agproteincoupled pages 5-8, figueroa2020agproteincoupled pages 1-3, figueroa2020agproteincoupled pages 3-5) but do not examine enhancements in RPE phagocytic function. In addition, systems pharmacology efforts using combination GPCR modulators assessed receptor specificity and ocular pharmacokinetics with safety endpoints such as ERG recordings (orban2018acombinationof pages 1-2, orban2018acombinationof pages 13-14, orban2018acombinationof pages 4-6, orban2018acombinationof pages 8-9); however, these studies did not measure phagocytic uptake nor target GPR91 or GPR40. 
+
+There is no evidence in the provided context supporting GPCR modulators or second messenger activators that accelerate phagocytic uptake kinetics in RPE cells with validated specificity, efficacious outcomes in dry AMD or ex vivo human RPE models, and detailed ocular PK/tolerability profiles. Further research is required to identify and validate such agents.
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/9ada50ee-8aaa-496a-9378-175ca63cc571
+
+References:
+1. (promsote2015rpeasa pages 102-107): W Promsote. Rpe as a key modulator of oxidative stress, inflammation, and hemoglobin production in retinal health and disease. Unknown journal, 2015.
+
+2. (promsote2015rpeasa pages 111-116): W Promsote. Rpe as a key modulator of oxidative stress, inflammation, and hemoglobin production in retinal health and disease. Unknown journal, 2015.
+
+3. (promsote2015rpeasa pages 222-226): W Promsote. Rpe as a key modulator of oxidative stress, inflammation, and hemoglobin production in retinal health and disease. Unknown journal, 2015.
+
+4. (figueroa2020agproteincoupled pages 5-8): Anna G. Figueroa and Brian S. McKay. A g-protein coupled receptor and macular degeneration. Cells, 9:910, Apr 2020. URL: https://doi.org/10.3390/cells9040910, doi:10.3390/cells9040910. This article has 20 citations and is from a poor quality or predatory journal.
+
+5. (figueroa2020agproteincoupled pages 1-3): Anna G. Figueroa and Brian S. McKay. A g-protein coupled receptor and macular degeneration. Cells, 9:910, Apr 2020. URL: https://doi.org/10.3390/cells9040910, doi:10.3390/cells9040910. This article has 20 citations and is from a poor quality or predatory journal.
+
+6. (figueroa2020agproteincoupled pages 3-5): Anna G. Figueroa and Brian S. McKay. A g-protein coupled receptor and macular degeneration. Cells, 9:910, Apr 2020. URL: https://doi.org/10.3390/cells9040910, doi:10.3390/cells9040910. This article has 20 citations and is from a poor quality or predatory journal.
+
+7. (orban2018acombinationof pages 1-2): Tivadar Orban, Henri Leinonen, Tamar Getter, Zhiqian Dong, Wenyu Sun, Songqi Gao, Alexander Veenstra, Hossein Heidari-Torkabadi, Timothy S. Kern, Philip D. Kiser, and Krzysztof Palczewski. A combination of g protein–coupled receptor modulators protects photoreceptors from degeneration. The Journal of Pharmacology and Experimental Therapeutics, 364:207-220, Feb 2018. URL: https://doi.org/10.1124/jpet.117.245167, doi:10.1124/jpet.117.245167. This article has 25 citations.
+
+8. (orban2018acombinationof pages 13-14): Tivadar Orban, Henri Leinonen, Tamar Getter, Zhiqian Dong, Wenyu Sun, Songqi Gao, Alexander Veenstra, Hossein Heidari-Torkabadi, Timothy S. Kern, Philip D. Kiser, and Krzysztof Palczewski. A combination of g protein–coupled receptor modulators protects photoreceptors from degeneration. The Journal of Pharmacology and Experimental Therapeutics, 364:207-220, Feb 2018. URL: https://doi.org/10.1124/jpet.117.245167, doi:10.1124/jpet.117.245167. This article has 25 citations.
+
+9. (orban2018acombinationof pages 4-6): Tivadar Orban, Henri Leinonen, Tamar Getter, Zhiqian Dong, Wenyu Sun, Songqi Gao, Alexander Veenstra, Hossein Heidari-Torkabadi, Timothy S. Kern, Philip D. Kiser, and Krzysztof Palczewski. A combination of g protein–coupled receptor modulators protects photoreceptors from degeneration. The Journal of Pharmacology and Experimental Therapeutics, 364:207-220, Feb 2018. URL: https://doi.org/10.1124/jpet.117.245167, doi:10.1124/jpet.117.245167. This article has 25 citations.
+
+10. (orban2018acombinationof pages 8-9): Tivadar Orban, Henri Leinonen, Tamar Getter, Zhiqian Dong, Wenyu Sun, Songqi Gao, Alexander Veenstra, Hossein Heidari-Torkabadi, Timothy S. Kern, Philip D. Kiser, and Krzysztof Palczewski. A combination of g protein–coupled receptor modulators protects photoreceptors from degeneration. The Journal of Pharmacology and Experimental Therapeutics, 364:207-220, Feb 2018. URL: https://doi.org/10.1124/jpet.117.245167, doi:10.1124/jpet.117.245167. This article has 25 citations.

@@ -1,0 +1,47 @@
+Hypothesis: Apoptotic Caspase Activity Assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Apoptotic Caspase Activity Assay
+Reasoning: Quantifies caspase-3/7 activation in RPE via luminogenic substrates following oxidative or complement insult, capturing downstream apoptotic responses; this assay reflects Bax/caspase-mediated RPE atrophy observed in AMD (Buonfiglio et al., 2024; Somasundaran et al., 2020).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+This assay quantifies apoptotic caspase‐3/7 activity in retinal pigment epithelial (RPE) cells exposed to oxidative or complement insults. It models the intrinsic apoptotic pathway—specifically Bax‐mediated mitochondrial dysfunction that leads to cytochrome c release and caspase activation—which is implicated in dry age‐related macular degeneration (AMD) (kim2021molecularmechanismsof pages 6-7, ruan2021agerelatedmaculardegeneration pages 6-7). The measurement employs luminogenic substrates that emit light upon cleavage by active caspase‑3/7, with RPE cells such as ARPE‐19, primary human RPE, or hiPSC‑derived RPE serving as the biological material (borras2019cfhexertsantioxidant pages 6-8).
+
+Biomedical Evidence:  
+Oxidative stress and complement-derived insults are key inducers of mitochondrial dysfunction, leading to Bax‐triggered intrinsic apoptosis and caspase‑3 activation in RPE cells, a pathway central to RPE atrophy and geographic atrophy seen in dry AMD (somasundaran2020retinalpigmentepithelium pages 4-5, somasundaran2020retinalpigmentepithelium pages 8-10). Clinical studies have demonstrated active caspase‑3 in the RPE of AMD patients, reinforcing the assay’s relevance to disease pathogenesis (somasundaran2020retinalpigmentepithelium pages 4-5).
+
+Previous Use:  
+This luminogenic caspase‑3/7 assay has been used to monitor apoptosis in RPE cell culture models exposed to oxidative agents, such as NaIO₃ and tert‐butyl hydroperoxide, and to evaluate protective effects of compounds like quercetin, ginsenoside Rg3, and full‐length CFH (chang2021protectiveeffectof pages 12-14, hu2024ginsenosiderg3improved pages 10-11, sreekumar2022oxidativestressand pages 4-5).
+
+Overall Evaluation:  
+Strengths of this assay include its quantitative readout and direct measurement of a key apoptotic pathway implicated in dry AMD. Weaknesses include its inability to differentiate apoptosis from other cell death modalities such as necrosis or pyroptosis, necessitating complementary assays to fully validate therapeutic mechanisms (tong2020notallstressors pages 8-9, kim2021molecularmechanismsof pages 14-15).
+
+This assay is valuable for early-stage drug screening in dry AMD due to its focus on the pivotal caspase‐mediated apoptotic pathway. However, incorporating additional markers to distinguish cell death modes will enhance therapeutic evaluation.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/7f526112-86e7-4ee7-80b6-ffe2dcec3f12
+
+References:
+1. (kim2021molecularmechanismsof pages 6-7): Jongmin Kim, Yeo Jin Lee, and Jae Yon Won. Molecular mechanisms of retinal pigment epithelium dysfunction in age-related macular degeneration. International Journal of Molecular Sciences, 22:12298, Nov 2021. URL: https://doi.org/10.3390/ijms222212298, doi:10.3390/ijms222212298. This article has 54 citations and is from a poor quality or predatory journal.
+
+2. (ruan2021agerelatedmaculardegeneration pages 6-7): Yue Ruan, Subao Jiang, and Adrian Gericke. Age-related macular degeneration: role of oxidative stress and blood vessels. International Journal of Molecular Sciences, 22:1296, Jan 2021. URL: https://doi.org/10.3390/ijms22031296, doi:10.3390/ijms22031296. This article has 169 citations and is from a poor quality or predatory journal.
+
+3. (borras2019cfhexertsantioxidant pages 6-8): Céline Borras, Jérémie Canonica, Sylvie Jorieux, Toufik Abache, Mohamed El Sanharawi, Christophe Klein, Kimberley Delaunay, Laurent Jonet, Michèle Salvodelli, Marie-Christine Naud, Yvan Arsenijevic, Andrée Shalabi, Landry Souchaud, Francine Behar-Cohen, and Virginie Dinet. Cfh exerts anti-oxidant effects on retinal pigment epithelial cells independently from protecting against membrane attack complex. Scientific Reports, Sep 2019. URL: https://doi.org/10.1038/s41598-019-50420-9, doi:10.1038/s41598-019-50420-9. This article has 63 citations and is from a peer-reviewed journal.
+
+4. (somasundaran2020retinalpigmentepithelium pages 4-5): Shreya Somasundaran, Ian J. Constable, Carla B. Mellough, and Livia S. Carvalho. Retinal pigment epithelium and age‐related macular degeneration: a review of major disease mechanisms. Clinical &amp; Experimental Ophthalmology, 48:1043-1056, Aug 2020. URL: https://doi.org/10.1111/ceo.13834, doi:10.1111/ceo.13834. This article has 183 citations and is from a peer-reviewed journal.
+
+5. (somasundaran2020retinalpigmentepithelium pages 8-10): Shreya Somasundaran, Ian J. Constable, Carla B. Mellough, and Livia S. Carvalho. Retinal pigment epithelium and age‐related macular degeneration: a review of major disease mechanisms. Clinical &amp; Experimental Ophthalmology, 48:1043-1056, Aug 2020. URL: https://doi.org/10.1111/ceo.13834, doi:10.1111/ceo.13834. This article has 183 citations and is from a peer-reviewed journal.
+
+6. (chang2021protectiveeffectof pages 12-14): Yuan-Yen Chang, Yi-Ju Lee, Min-Yen Hsu, Meilin Wang, Shang-Chun Tsou, Ching-Chung Chen, Jer-An Lin, Yai-Ping Hsiao, and Hui-Wen Lin. Protective effect of quercetin on sodium iodate-induced retinal apoptosis through the reactive oxygen species-mediated mitochondrion-dependent pathway. International Journal of Molecular Sciences, 22:4056, Apr 2021. URL: https://doi.org/10.3390/ijms22084056, doi:10.3390/ijms22084056. This article has 40 citations and is from a poor quality or predatory journal.
+
+7. (hu2024ginsenosiderg3improved pages 10-11): Rui-Yi Hu, Si-Min Qi, Ya-Jun Wang, Wen-Lin Li, Wan-Chen Zou, Zi Wang, Shen Ren, and Wei Li. Ginsenoside rg3 improved age-related macular degeneration through inhibiting ros-mediated mitochondrion-dependent apoptosis in vivo and in vitro. International Journal of Molecular Sciences, 25:11414, Oct 2024. URL: https://doi.org/10.3390/ijms252111414, doi:10.3390/ijms252111414. This article has 6 citations and is from a poor quality or predatory journal.
+
+8. (sreekumar2022oxidativestressand pages 4-5): Parameswaran Gangadharan Sreekumar, Feng Su, Christine Spee, Eduardo Araujo, Steven Nusinowitz, Srinivasa T Reddy, and Ram Kannan. Oxidative stress and lipid accumulation augments cell death in ldlr-deficient rpe cells and ldlr −/− mice. Cells, 12:43, Dec 2022. URL: https://doi.org/10.3390/cells12010043, doi:10.3390/cells12010043. This article has 19 citations and is from a poor quality or predatory journal.
+
+9. (tong2020notallstressors pages 8-9): Yao Tong and Shusheng Wang. Not all stressors are equal: mechanism of stressors on rpe cell degeneration. Frontiers in Cell and Developmental Biology, Nov 2020. URL: https://doi.org/10.3389/fcell.2020.591067, doi:10.3389/fcell.2020.591067. This article has 63 citations and is from a poor quality or predatory journal.
+
+10. (kim2021molecularmechanismsof pages 14-15): Jongmin Kim, Yeo Jin Lee, and Jae Yon Won. Molecular mechanisms of retinal pigment epithelium dysfunction in age-related macular degeneration. International Journal of Molecular Sciences, 22:12298, Nov 2021. URL: https://doi.org/10.3390/ijms222212298, doi:10.3390/ijms222212298. This article has 54 citations and is from a poor quality or predatory journal.

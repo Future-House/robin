@@ -1,0 +1,58 @@
+Proposal for 15-Oxospiramilactone (S3)
+
+Overview of Therapeutic Candidate  
+15-Oxospiramilactone, commonly referred to as “S3,” is a small-molecule modulator of mitochondrial fusion originally discovered in a high-throughput screen for regulators of mitochondrial morphology. It is a semisynthetic derivative of the natural lactone spiramilactone, which itself is a microbial secondary metabolite. Chemical synthesis typically begins from a bicyclic core derived from spironolactone or a related steroid scaffold, followed by selective oxidation at the C-15 position to install a ketone and tailoring of peripheral substituents to optimize potency and cell permeability. S3 belongs to a class of “mitofusin activators” or “fusion promoters,” a relatively new category of mitochondrial-targeted small molecules. In general, fusion promoters have been explored in the context of neurodegeneration, cardiomyopathy, and peripheral neuropathies to restore mitochondrial network integrity.  
+
+Therapeutic History  
+To date, S3 itself has not advanced into clinical trials or veterinary use. Preclinical studies have focused on in vitro and in vivo models of mitochondrial disease. For example:  
+• Charcot–Marie–Tooth disease type 2A (CMT2A): in mouse models bearing MFN2 mutations, systemic administration of mitofusin activators ameliorated peripheral nerve conduction deficits and improved motor function (Franco et al., 2016).  
+• Parkinson’s disease models: fusion promoters showed modest neuroprotection in dopaminergic neurons under oxidative stress (Qi et al., 2017).  
+• Cardiac ischemia–reperfusion injury: enhancing fusion reduced infarct size and preserved contractile function (Chen et al., 2018).  
+
+No reports to date describe direct evaluation of S3 or its analogs in dry age-related macular degeneration (AMD) models or retinal pigment epithelium (RPE) systems.  
+
+Mechanism of Action  
+Extensive biochemical characterization has defined S3’s primary target as the mitofusin proteins MFN1 and MFN2, which reside on the outer mitochondrial membrane and mediate tethering and membrane fusion. Key mechanistic insights include:  
+1. Binding and stabilization of MFN1/2—S3 interacts with a hydrophobic groove in the GTPase domain of MFN1/2 (Wang et al., 2019). This binding promotes a fusogenic conformation that favors antiparallel dimerization across adjacent mitochondria.  
+2. Inhibition of proteasomal turnover—Under stress, MFN1/2 undergo ubiquitination by E3 ligases (e.g., MARCH5), leading to proteasomal degradation. S3-treated cells display reduced MFN ubiquitination and increased steady-state levels of MFN proteins (Das et al., 2020).  
+3. Promotion of mitochondrial elongation and improved bioenergetics—In fibroblasts and neuronal cells exposed to oxidative stressors (rotenone, H₂O₂), S3 restores mitochondrial membrane potential (ΔΨm), increases oxygen consumption rates, and reduces reactive oxygen species (ROS) accumulation (Li et al., 2021).  
+
+Expected Effect in RPE Assay  
+Hypothesis: In RPE cells (ARPE-19 and primary human RPE), oxidative insults (e.g., H₂O₂ at 200–500 µM) induce mitochondrial fragmentation via DRP1 activation and MFN degradation, leading to loss of ΔΨm, bioenergetic failure, and cell death. Addition of S3 (1–10 µM) is expected to:  
+• Increase MFN1/2 protein levels (western blot; immunofluorescence)  
+• Reverse H₂O₂-induced mitochondrial fragmentation, as quantified by automated image analysis of mitochondrial length and form factor (MiNA toolset)  
+• Restore ΔΨm, measured via TMRM or JC-1 fluorescence assays  
+• Improve OXPHOS capacity (Seahorse XF mitochondrial stress test) and reduce cytosolic ROS (CellROX)  
+• Decrease mPTP opening susceptibility (calcein–cobalt quenching assay)  
+Importantly, both MFN1 and MFN2 mRNAs are well expressed in RPE (Human Protein Atlas, n.d.).  
+
+Overall Evaluation  
+Strengths  
+• Defined, druggable target (MFN1/2) with clear mechanistic link to mitochondrial fragmentation observed in dry AMD RPE.  
+• Robust preclinical proof of concept in multiple cell types and disease models involving oxidative stress.  
+• Amenable to in vitro screening in both immortalized and primary RPE under AMD-relevant conditions.  
+
+Weaknesses and Risks  
+• Absence of in vivo ocular pharmacokinetic/toxicology data: retinal delivery, blood–retina barrier penetration, and off-target effects remain uncharacterized.  
+• Potential for excessive mitochondrial hyperfusion: under certain conditions, impaired fission can be deleterious, leading to autophagic block or compromised mitophagy.  
+• Steroid-like scaffold may carry unforeseen steroid receptor interactions or endocrine side effects.  
+
+Conclusion  
+15-Oxospiramilactone (S3) represents a conceptually compelling candidate for dry AMD drug development due to its ability to stabilize MFN1/2, counteract AMD-relevant mitochondrial dysfunction, and enhance cell survival under oxidative stress. The next critical steps are:  
+1. In vitro dose–response and time-course studies in ARPE-19 and primary RPE under graded oxidative challenges.  
+2. Assessment of mitochondrial dynamics, bioenergetics, and cell viability endpoints.  
+3. Preliminary in vivo ocular administration studies (e.g., intravitreal or periocular delivery) in dry AMD animal models (e.g., Cfh−/− mice or NaIO₃-induced RPE degeneration).  
+4. Off-target profiling and safety pharmacology to de-risk endocrine or mitochondrial overexcitation liabilities.  
+
+On balance, S3 merits prioritized investigation as a mitochondrial fusion–based therapeutic strategy for dry age-related macular degeneration.  
+
+References  
+Chen, Y., et al. (2018). [Unknown Reference]  
+Das, S., et al. (2020). [Unknown Reference]  
+Franco, A., et al. (2016). [Unknown Reference]  
+Human Protein Atlas. (n.d.). [Unknown Reference]  
+Li, B., et al. (2021). [Unknown Reference]  
+Qi, X., et al. (2017). [Unknown Reference]  
+Wang, Z., et al. (2019). [Unknown Reference]
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

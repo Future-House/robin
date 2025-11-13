@@ -1,0 +1,81 @@
+Query: Survey mechanistic insights into inflammasome activation by Alu RNA or other endogenous nucleic acid species in RPE cells in dry AMD, detailing involvement of NLRP3, caspase-1, IL-1β release, and relevant cell-culture assay readouts amenable to small molecule intervention screening.
+
+Below are 15 distinct mechanistic hypotheses or therapeutic‐screening strategies—each formulated for human RPE monolayer or polarized cultures challenged with Alu RNA (or related endogenous RNAs/DNAs)—that interrogate steps in NLRP3 inflammasome activation (priming, assembly, caspase-1 activation, IL-1β release) and are compatible with medium-throughput small-molecule screening.
+
+1. RIG-I–NF-κB Priming Blockade  
+   • Hypothesis: Cytosolic Alu RNA engages RIG-I, driving NF-κB–dependent transcription of NLRP3 and pro-IL-1β.  
+   • Assay Readouts: qRT-PCR for NLRP3/pro-IL-1β transcripts; NF-κB reporter (luciferase); IL-1β ELISA; caspase-1 FLICA.  
+   • Intervention Screen: RIG-I antagonists, TBK1/IKKε inhibitors.
+
+2. EndoRNA Uptake via Scavenger Receptors → Lysosomal Rupture  
+   • Hypothesis: Alu RNA is endocytosed via CD36/SR-B1, causing lysosomal membrane permeabilization, cathepsin B release and NLRP3 assembly.  
+   • Assay Readouts: Lysotracker destabilization imaging; Magic Red cathepsin B activity; ASC speck formation (immunofluorescence); IL-1β ELISA.  
+   • Intervention Screen: Cathepsin B inhibitors; SR-B1 blocking antibodies; lysosomal stabilizers.
+
+3. P2X7-Mediated K+ Efflux Trigger  
+   • Hypothesis: Alu RNA induces autocrine ATP release to activate P2X7, prompting K+ efflux and NLRP3 oligomerization.  
+   • Assay Readouts: Extracellular ATP (luminescence); intracellular K+ (fluorescent dye); caspase-1 cleavage (western blot); IL-1β release.  
+   • Intervention Screen: P2X7 antagonists; pannexin-1 channel blockers; ATP scavengers (apyrase).
+
+4. Mitochondrial ROS Amplification  
+   • Hypothesis: Alu RNA drives mitochondrial dysfunction and ROS generation, providing the second signal for NLRP3 activation.  
+   • Assay Readouts: MitoSOX fluorescence; Δψm (JC-1 assay); ASC oligomerization (cross-linking); IL-18/IL-1β ELISA.  
+   • Intervention Screen: Mitochondria-targeted antioxidants (MitoQ); electron transport chain modulators.
+
+5. cGAS-STING–Dependent Type I IFN Cross-Talk  
+   • Hypothesis: Nuclear Alu DNA byproducts activate cGAS–STING, upregulating IRF3/IFNβ and priming NLRP3.  
+   • Assay Readouts: cGAMP levels (LC-MS); p-STING, p-TBK1 western; IFNβ ELISA; NLRP3 mRNA.  
+   • Intervention Screen: cGAS or STING inhibitors; TBK1 inhibitors.
+
+6. TLR9/CpG DNA Engagement  
+   • Hypothesis: Endogenous Alu-derived DNA engages endosomal TLR9, contributing to pro-IL-1β transcription.  
+   • Assay Readouts: TLR9 reporter assay; NF-κB nuclear translocation (immunofluorescence); pro-IL-1β qPCR.  
+   • Intervention Screen: TLR9 antagonistic oligonucleotides; endosomal acidification blockers (chloroquine).
+
+7. Autophagy Dysfunction and Inflammasome Regulation  
+   • Hypothesis: Alu RNA impairs RPE autophagy flux, allowing accumulation of damaged mitochondria and NLRP3 activation.  
+   • Assay Readouts: LC3-II/ p62 by western; tandem mCherry-GFP-LC3 reporter; ROS and IL-1β.  
+   • Intervention Screen: Autophagy inducers (rapamycin analogs); TFEB activators.
+
+8. SIRT1/SIRT3 Modulation of NLRP3  
+   • Hypothesis: Alu RNA downregulates SIRT1/SIRT3, elevating acetylation of NF-κB/NLRP3 and boosting inflammasome activation.  
+   • Assay Readouts: NLRP3 acetylation (IP-western); SIRT activity assay; IL-1β ELISA.  
+   • Intervention Screen: SIRT1/SIRT3 activators (resveratrol analogs); nicotinamide phosphoribosyltransferase (NAMPT) enhancers.
+
+9. TXNIP as a ROS Sensor Linking to NLRP3  
+   • Hypothesis: Alu RNA–induced ROS dissociates TXNIP from thioredoxin permitting TXNIP–NLRP3 binding.  
+   • Assay Readouts: TXNIP–NLRP3 co-IP; ROS (DCFDA); caspase-1 activity.  
+   • Intervention Screen: TXNIP inhibitors; thioredoxin mimetics.
+
+10. HMGB1 Release and Autocrine TLR4 Priming  
+    • Hypothesis: Alu RNA causes HMGB1 secretion, which via TLR4 primes NLRP3 and pro-IL-1β expression.  
+    • Assay Readouts: HMGB1 ELISA; TLR4 reporter; pro-IL-1β qPCR; IL-1β ELISA.  
+    • Intervention Screen: HMGB1 neutralizing antibodies; TLR4 antagonists (TAK-242).
+
+11. Caspase-8 Crosstalk with Inflammasome  
+    • Hypothesis: Noncanonical cleavage of IL-1β by caspase-8 augments NLRP3 activation in response to Alu RNA.  
+    • Assay Readouts: Cleaved caspase-8 and caspase-1 (western); IL-1β processing; FLICA probes.  
+    • Intervention Screen: Caspase-8 selective inhibitors; pan-caspase inhibitors.
+
+12. Ca2+‐Dependent NLRP3 Activation  
+    • Hypothesis: Alu RNA elevates cytosolic Ca2+ via IP3R or TRPM2, promoting NLRP3 inflammasome assembly.  
+    • Assay Readouts: Fluo-4 Ca2+ imaging; IP3 levels; ASC speck count; IL-18 release.  
+    • Intervention Screen: IP3R blockers; TRPM2 antagonists; intracellular Ca2+ chelators.
+
+13. Lipid‐Mediator Modulation of Inflammasome  
+    • Hypothesis: Alu RNA alters sphingosine‐1‐phosphate or ceramide balance, affecting NLRP3 activation threshold.  
+    • Assay Readouts: Lipidomics (LC‐MS); ASC speck formation; IL-1β/IL-18 readouts.  
+    • Intervention Screen: S1P receptor modulators; ceramide synthase inhibitors.
+
+14. Ubiquitination/Deubiquitination Control of NLRP3  
+    • Hypothesis: Alu RNA shifts activity of E3 ligases (TRIM31) or DUBs (BRCC3), changing NLRP3 ubiquitination status and activation.  
+    • Assay Readouts: NLRP3 ubiquitination assay (IP); proteasome activity; IL-1β ELISA.  
+    • Intervention Screen: DUB inhibitors; proteasome modulators; E3 ligase enhancers.
+
+15. Small‐Molecule Direct NLRP3 Inhibitor Profiling  
+    • Hypothesis: Targeting NLRP3 NACHT domain prevents ATP‐induced conformational change and inflammasome assembly in Alu RNA–primed RPE.  
+    • Assay Readouts: BRET‐based NLRP3 oligomer assay; ASC-GFP speck quantification; caspase-1 FLICA; IL-1β ELISA.  
+    • Intervention Screen: MCC950 analogs; covalent NACHT binders; novel allosteric inhibitors.
+
+Each idea pairs a defined mechanistic step with RPE‐adapted readouts (qPCR, ELISA, imaging, activity probes, western blot, reporter assays) and suggests small‐molecule or biologic intervention classes for library screening.
+

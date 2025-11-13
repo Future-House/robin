@@ -1,0 +1,28 @@
+Query: Publications on cross-talk between Bruch’s membrane alterations and RPE phagocytosis dynamics in dry AMD, focusing on extracellular matrix influences on receptor-mediated uptake
+
+Bruch’s membrane (BrM) undergoes significant extracellular matrix alterations in dry AMD that influence RPE receptor‐mediated uptake and phagocytosis. ECM remodeling—manifested as age‐related thickening, altered collagen cross-linking, and changes in glycosaminoglycan composition (notably heparan sulfate and its proteoglycans)—impairs diffusion of nutrients and the clearance of oxidized photoreceptor outer segment (POS) debris, thereby increasing the phagocytic load on RPE cells (betts2024molecularmechanismsof pages 23-27, betts2024molecularmechanismsof pages 19-23, somasundaran2020retinalpigmentepithelium pages 1-2). These compositional changes also modify the availability and presentation of bridging molecules such as MFG-E8, Gas6, and Protein S that are essential for linking POS phosphatidylserine to RPE surface receptors like MerTK and integrin αvβ5 (betts2024molecularmechanismsof pages 27-30, kwon2020phagocytosisbythe pages 3-5).
+
+Furthermore, the basal adhesion of RPE cells to BrM via integrins (α3β1, α6β1, and αvβ3) is critical for maintaining proper cell polarity and receptor localization; disrupted ECM signals may lead to altered receptor trafficking and compromised phagocytic efficiency (sorrentino2025stemcelltherapy pages 2-4, sorrentino2025stemcelltherapy pages 4-5). In addition, extracellular vesicle dynamics influenced by ECM alterations may further modulate receptor recycling and downstream signaling, exacerbating RPE dysfunction (martins2024contributionofextracellular pages 7-8, martins2024contributionofextracellular pages 9-11).
+
+Alterations in BrM ECM thereby directly affect ligand availability, receptor localization, and signaling cascades that govern RPE phagocytosis. This cross-talk between ECM remodeling and receptor-mediated uptake represents a critical mechanism underlying dry AMD pathogenesis.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/11a63513-601c-466e-88f1-7182d8745041
+
+References:
+1. (betts2024molecularmechanismsof pages 23-27): JHJ Betts. Molecular mechanisms of timp-3 turnover in sorsby fundus dystrophy. Unknown journal, 2024.
+
+2. (betts2024molecularmechanismsof pages 19-23): JHJ Betts. Molecular mechanisms of timp-3 turnover in sorsby fundus dystrophy. Unknown journal, 2024.
+
+3. (somasundaran2020retinalpigmentepithelium pages 1-2): Shreya Somasundaran, Ian J. Constable, Carla B. Mellough, and Livia S. Carvalho. Retinal pigment epithelium and age‐related macular degeneration: a review of major disease mechanisms. Clinical &amp; Experimental Ophthalmology, 48:1043-1056, Aug 2020. URL: https://doi.org/10.1111/ceo.13834, doi:10.1111/ceo.13834. This article has 183 citations and is from a peer-reviewed journal.
+
+4. (betts2024molecularmechanismsof pages 27-30): JHJ Betts. Molecular mechanisms of timp-3 turnover in sorsby fundus dystrophy. Unknown journal, 2024.
+
+5. (kwon2020phagocytosisbythe pages 3-5): Whijin Kwon and Spencer A. Freeman. Phagocytosis by the retinal pigment epithelium: recognition, resolution, recycling. Frontiers in Immunology, Nov 2020. URL: https://doi.org/10.3389/fimmu.2020.604205, doi:10.3389/fimmu.2020.604205. This article has 156 citations and is from a peer-reviewed journal.
+
+6. (sorrentino2025stemcelltherapy pages 2-4): Francesco Saverio Sorrentino, Francesco Parmeggiani, Lorenzo Gardini, Luigi Fontana, Mutali Musa, Caterina Gagliano, and Marco Zeppieri. Stem cell therapy for retinal pigment epithelium disorders. World Journal of Stem Cells, May 2025. URL: https://doi.org/10.4252/wjsc.v17.i5.103100, doi:10.4252/wjsc.v17.i5.103100. This article has 0 citations.
+
+7. (sorrentino2025stemcelltherapy pages 4-5): Francesco Saverio Sorrentino, Francesco Parmeggiani, Lorenzo Gardini, Luigi Fontana, Mutali Musa, Caterina Gagliano, and Marco Zeppieri. Stem cell therapy for retinal pigment epithelium disorders. World Journal of Stem Cells, May 2025. URL: https://doi.org/10.4252/wjsc.v17.i5.103100, doi:10.4252/wjsc.v17.i5.103100. This article has 0 citations.
+
+8. (martins2024contributionofextracellular pages 7-8): Beatriz Martins, Maria Pires, António Francisco Ambrósio, Henrique Girão, and Rosa Fernandes. Contribution of extracellular vesicles for the pathogenesis of retinal diseases: shedding light on blood-retinal barrier dysfunction. Journal of Biomedical Science, May 2024. URL: https://doi.org/10.1186/s12929-024-01036-3, doi:10.1186/s12929-024-01036-3. This article has 27 citations and is from a domain leading peer-reviewed journal.
+
+9. (martins2024contributionofextracellular pages 9-11): Beatriz Martins, Maria Pires, António Francisco Ambrósio, Henrique Girão, and Rosa Fernandes. Contribution of extracellular vesicles for the pathogenesis of retinal diseases: shedding light on blood-retinal barrier dysfunction. Journal of Biomedical Science, May 2024. URL: https://doi.org/10.1186/s12929-024-01036-3, doi:10.1186/s12929-024-01036-3. This article has 27 citations and is from a domain leading peer-reviewed journal.

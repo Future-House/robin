@@ -1,0 +1,43 @@
+Hypothesis: Microglia-RPE crosstalk assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Microglia-RPE crosstalk assay
+Reasoning: Co‐culture primary retinal microglia with hiPSC-RPE on transwells, then measure TNF-α and IL-6 release in RPE to identify anti‐inflammatory drugs; microglia‐driven para‐inflammation exacerbates RPE degeneration (ma2009microgliainthe pages 9-10; wong2022exploringthepathogenesis pages 13-15).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+This assay uses a transwell co‐culture system in which primary retinal microglia are cultured in conjunction with hiPSC‐derived retinal pigment epithelial (RPE) cells. It models the paracrine interactions whereby microglia, upon activation, release soluble factors that trigger inflammatory responses in RPE cells. The proposed measurements include quantification of TNF‐α and IL‐6 levels—using immunoassays such as ELISA—to serve as readouts for microglia‐driven inflammation related to RPE degeneration (brandli2024thecontributionof pages 12-14, zhao2024crosstalkbetweenmicroglia pages 6-7).
+
+Biomedical Evidence:  
+The model targets microglia‐driven para-inflammation, a key pathogenic process in dry age-related macular degeneration. Elevated levels of pro-inflammatory cytokines, including TNF‐α and IL‐6, have been linked to RPE dysfunction and subsequent retinal degeneration. Clinical and preclinical data support the centrality of microglia–RPE crosstalk in disease progression, with evidence indicating that immune-mediated cytokine release creates a vicious cycle that exacerbates damage (chen2015parainflammationchronicinflammation pages 9-11, zhao2024crosstalkbetweenmicroglia pages 18-19).
+
+Previous Use:  
+Similar co-culture assays have been employed to characterize the effects of microglial activation on RPE inflammatory responses and to test pharmacological inhibitors targeting pathways such as A2AR and p38 MAPK. These studies demonstrated that modulating microglia activity could dampen cytokine production and protect RPE integrity (dietrich2020interactionofinflammatorily pages 6-7, madeira2018blockadeofmicroglial pages 9-10).
+
+Overall Evaluation:  
+The strengths of this assay include its human-cell basis and clear, quantitative cytokine endpoints that are highly relevant to dry AMD pathology. However, its limitations lie in the reductionist nature of the model. While TNF‐α and IL‐6 are valuable markers, they capture only part of the inflammatory network, omitting other key factors such as complement activation, inflammasome signaling, oxidative stress, and the chronicity found in vivo (dabouz2024neuroimmuneinteractionsin pages 80-84, dabouz2024neuroimmuneinteractionsin pages 9-15). Additionally, inter-donor variability in primary microglial preparations and the lack of full tissue architecture may restrict predictive accuracy.
+
+This transwell co-culture assay is a promising platform for screening anti-inflammatory therapies in dry AMD and for dissecting microglia–RPE interactions. Nevertheless, it should be complemented with additional readouts and more complex models to fully capture the multifactorial nature of the disease.
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/445f49ee-5fa4-4c0e-b7f6-f569690c9060
+
+References:
+1. (brandli2024thecontributionof pages 12-14): Alice Brandli, Kirstan A. Vessey, and Erica L. Fletcher. The contribution of pattern recognition receptor signalling in the development of age related macular degeneration: the role of toll-like-receptors and the nlrp3-inflammasome. Journal of Neuroinflammation, Mar 2024. URL: https://doi.org/10.1186/s12974-024-03055-1, doi:10.1186/s12974-024-03055-1. This article has 23 citations and is from a peer-reviewed journal.
+
+2. (zhao2024crosstalkbetweenmicroglia pages 6-7): Na Zhao, Xiao-Na Hao, Jie-Min Huang, Zongming Song, and Ye Tao. Crosstalk between microglia and müller glia in the age-related macular degeneration: role and therapeutic value of neuroinflammation. aging and disease, 15:1132-1154, Jan 2024. URL: https://doi.org/10.14336/ad.2023.0823-3, doi:10.14336/ad.2023.0823-3. This article has 27 citations and is from a peer-reviewed journal.
+
+3. (chen2015parainflammationchronicinflammation pages 9-11): Mei Chen and Heping Xu. Parainflammation, chronic inflammation, and age‐related macular degeneration. Journal of Leukocyte Biology, 98:713-725, Nov 2015. URL: https://doi.org/10.1189/jlb.3ri0615-239r, doi:10.1189/jlb.3ri0615-239r. This article has 370 citations and is from a peer-reviewed journal.
+
+4. (zhao2024crosstalkbetweenmicroglia pages 18-19): Na Zhao, Xiao-Na Hao, Jie-Min Huang, Zongming Song, and Ye Tao. Crosstalk between microglia and müller glia in the age-related macular degeneration: role and therapeutic value of neuroinflammation. aging and disease, 15:1132-1154, Jan 2024. URL: https://doi.org/10.14336/ad.2023.0823-3, doi:10.14336/ad.2023.0823-3. This article has 27 citations and is from a peer-reviewed journal.
+
+5. (dietrich2020interactionofinflammatorily pages 6-7): Luisa Dietrich, Ralph Lucius, Johann Roider, and Alexa Klettner. Interaction of inflammatorily activated retinal pigment epithelium with retinal microglia and neuronal cells. Experimental Eye Research, 199:108167, Oct 2020. URL: https://doi.org/10.1016/j.exer.2020.108167, doi:10.1016/j.exer.2020.108167. This article has 30 citations and is from a peer-reviewed journal.
+
+6. (madeira2018blockadeofmicroglial pages 9-10): M. Madeira, M. Madeira, K. Rashid, A. Ambrósio, A. R. Santiago, and T. Langmann. Blockade of microglial adenosine a2a receptor impacts inflammatory mechanisms, reduces arpe-19 cell dysfunction and prevents photoreceptor loss in vitro. Scientific Reports, Feb 2018. URL: https://doi.org/10.1038/s41598-018-20733-2, doi:10.1038/s41598-018-20733-2. This article has 67 citations and is from a peer-reviewed journal.
+
+7. (dabouz2024neuroimmuneinteractionsin pages 80-84): R Dabouz. Neuro-immune interactions in age-related macular degeneration: implications for future therapeutics. Unknown journal, 2024.
+
+8. (dabouz2024neuroimmuneinteractionsin pages 9-15): R Dabouz. Neuro-immune interactions in age-related macular degeneration: implications for future therapeutics. Unknown journal, 2024.

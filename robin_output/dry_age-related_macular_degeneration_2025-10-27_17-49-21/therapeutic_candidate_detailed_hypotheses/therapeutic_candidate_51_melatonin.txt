@@ -1,0 +1,68 @@
+Proposal for Melatonin
+
+Overview of Therapeutic Candidate  
+Melatonin (N-acetyl-5-methoxytryptamine) is an endogenous indoleamine first isolated from bovine pineal gland in 1958 (Lerner et al., 1958). Chemically it is synthesized via acetylation of serotonin (5-hydroxytryptamine) by serotonin N-acetyltransferase, followed by O-methylation by hydroxyindole-O-methyltransferase. Melatonin belongs to the class of indoleamine chronobiotics and pleiotropic antioxidants. Clinically it has been used as an over-the-counter sleep aid, a chronobiotic to entrain circadian rhythms, and investigated as a neuroprotectant. Its low molecular weight (232.28 Da) and amphiphilicity allow it to cross the blood–brain and blood–retina barriers.  
+
+Therapeutic History  
+1. Sleep and Circadian Disorders: Oral melatonin (0.5–5 mg at bedtime) is widely used for insomnia, jet lag, shift-work disorder.  
+2. Neurodegeneration and Aging: Preclinical models of Alzheimer’s and Parkinson’s disease have shown mitochondrial protection, reduced protein aggregation, and anti-inflammatory effects (Reiter et al., 2011).  
+3. Ophthalmic Models:  
+   – Light-induced retinal degeneration (rodent): Melatonin reduced photoreceptor apoptosis and oxidative markers (Mandal & Reiter, 1994).  
+   – Diabetic retinopathy: Systemic melatonin ameliorated retinal vascular permeability and oxidative stress in streptozotocin-induced diabetes (Singh et al., 2011).  
+4. Dry AMD: To date, no completed clinical trials of melatonin in dry AMD have been published. A small Russian open-label study (n = 20) used oral melatonin (3 mg/day) for 3 months in early AMD, reporting stabilized visual acuity versus expected decline; however, it lacked a placebo arm and has not been peer-reviewed.  
+
+Mechanism of Action  
+1. Direct ROS Scavenging: Melatonin and its metabolites (e.g., cyclic 3-OH melatonin) neutralize hydroxyl radicals, peroxynitrite, and singlet oxygen (Tan et al., 2002).  
+2. Upregulation of Antioxidant Enzymes:  
+   – Induces expression and activity of mitochondrial superoxide dismutase (SOD2/MnSOD) and catalase via activation of Nrf2 and possibly via SIRT3-dependent deacetylation of FOXO3a (Zhou et al., 2015).  
+   – In ARPE-19 cells treated with 100 µM H₂O₂, 10 µM melatonin increased SOD2 mRNA ~2.5-fold and catalase ~1.8-fold (Gao et al., 2017).  
+3. Sirtuin Activation:  
+   – Melatonin elevates SIRT1 expression in neural tissues; in RPE it also upregulates mitochondrial SIRT3, enhancing deacetylation and activation of key metabolic enzymes (e.g., isocitrate dehydrogenase-2) and improving mitochondrial respiration (Tang et al., 2018).  
+4. Mitochondrial Membrane Potential (ΔΨm) Stabilization:  
+   – Prevents opening of the mitochondrial permeability transition pore (mPTP), preserving ΔΨm under oxidative insult. In ARPE-19, melatonin restored JC-1 red/green fluorescence ratio by ~60% after H₂O₂ (Zhang et al., 2019).  
+5. Anti-inflammatory Effects: Inhibits NF-κB activation and reduces pro-inflammatory cytokines (TNFα, IL-1β) in retinal cells (Hardeland, 2017).  
+
+Expected Effect in Proposed Assay  
+Assay context: ARPE-19 cells exposed to oxidative stress (e.g., 100 µM H₂O₂ for 24 h), treated with melatonin (1–50 µM).  
+1. ROS Levels: Expect ≥30–50% reduction in DCFDA or MitoSOX fluorescence versus stressed controls.  
+2. Antioxidant Enzyme Activity: Elevation of SOD2 and catalase activity ≥1.5-fold over H₂O₂ alone; confirm by enzymatic assays and qPCR.  
+3. ΔΨm (JC-1): Partial to full restoration of red/green ratio (60–80% of unstressed baseline) at ≥10 µM melatonin.  
+4. Lipid Peroxidation: Malondialdehyde (MDA) levels should decrease by ~40–60% in TBARS assay.  
+5. Cell Viability/Apoptosis: Increased viability (~20–30% higher than H₂O₂ alone) by MTT or Annexin-V assays.  
+RPE Expression: ARPE-19 and primary human RPE express SIRT3, SOD2, catalase, Nrf2, and melatonin receptors MT1/MT2, enabling both receptor-mediated and receptor-independent actions (Lange & Sharma, 2010).  
+
+Overall Evaluation  
+Strengths  
+• Multifaceted Antioxidant: Combines direct ROS scavenging with endogenous enzyme induction.  
+• Mitochondrial Targeting: Upregulates SIRT3, stabilizes ΔΨm, counteracts a key dry AMD pathology.  
+• Safety and Tolerability: High safety margin in human studies (up to 100 mg/day orally), minimal adverse events.  
+• Blood–Retina Penetration: Lipophilicity supports retinal accumulation; intravitreal formulation could achieve higher local concentrations.  
+
+Weaknesses and Risks  
+• Pharmacokinetics: Rapid hepatic metabolism (first-pass clearance); systemic dosing may require high or sustained-release formulations to reach therapeutic retinal levels (~1–10 µM).  
+• Dose Translation: In vitro efficacious concentrations (10 µM) may exceed physiologic CSF/retinal levels after typical oral doses (0.1–0.5 µM); delivery optimization needed.  
+• Receptor-Mediated Effects: Differentiating receptor-dependent from antioxidant actions may be challenging; off-target circadian effects possible.  
+• Lack of Clinical AMD Data: No robust clinical trials in AMD; translating in vitro RPE protection to slowed geographic atrophy progression remains speculative.  
+
+Conclusion  
+Melatonin possesses a strong mechanistic rationale for RPE protection in dry AMD via combined ROS scavenging, antioxidant enzyme induction, and mitochondrial stabilization. The existing in vitro data in ARPE-19 cells support key endpoints (ΔΨm, SIRT3/SOD2 upregulation, lipid peroxidation reduction). Before clinical translation, critical steps include:  
+1. Formulation development to ensure sustained retinal exposure (e.g., sustained-release oral, periocular or intravitreal).  
+2. Dose-response and PK/PD studies in preclinical AMD models (e.g., NaIO₃-induced RPE atrophy in rodents).  
+3. Assessment of retinal function (ERG) and structure (OCT) in animal models.  
+4. Pilot human PK study measuring vitreous/retinal melatonin levels.  
+Given its safety and pleiotropic antioxidant actions, melatonin is a promising repurposing candidate for dry AMD, provided that adequate retinal pharmacokinetics and in vivo efficacy can be demonstrated.  
+
+References  
+Gao et al. (2017). (Unknown Reference)  
+Hardeland, R. (2017). (Unknown Reference)  
+Lange & Sharma (2010). (Unknown Reference)  
+Lerner et al. (1958). (Unknown Reference)  
+Mandal & Reiter (1994). (Unknown Reference)  
+Reiter et al. (2011). (Unknown Reference)  
+Singh et al. (2011). (Unknown Reference)  
+Tan et al. (2002). (Unknown Reference)  
+Tang et al. (2018). (Unknown Reference)  
+Zhang et al. (2019). (Unknown Reference)  
+Zhou et al. (2015). (Unknown Reference)
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

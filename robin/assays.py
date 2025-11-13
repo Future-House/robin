@@ -10,7 +10,9 @@ from aviary.core import Message
 from lmi import LiteLLMModel
 
 from .configuration import RobinConfiguration
+from futurehouse_client import JobNames
 from .utils import (
+    call_llm_direct,
     call_platform,
     format_assay_ideas,
     output_to_string,
@@ -66,13 +68,34 @@ async def experimental_assay(configuration: RobinConfiguration) -> str | None:
 
     # ### Step 2: Literature review on cell culture assays
 
-    logger.info("\nStep 2: Conducting literature search with FutureHouse platform...")
-
-    assay_lit_review = await call_platform(
-        queries=experimental_assay_queries_dict,
-        fh_client=configuration.fh_client,
-        job_name=configuration.agent_settings.assay_lit_search_agent,
+    job_name = configuration.agent_settings.assay_lit_search_agent
+    # Compare by enum name to handle both configuration_CROW_ablation and base configuration
+    use_direct_llm = (
+        configuration.agent_settings.use_direct_llm_for_crow
+        if job_name.name == "CROW"
+        else configuration.agent_settings.use_direct_llm_for_falcon
     )
+
+    # Convert to futurehouse_client JobNames enum for function calls
+    job_name_fh = JobNames[job_name.name]
+
+    if use_direct_llm:
+        logger.info("\nStep 2: Conducting literature search with direct LLM calls...")
+        assay_lit_review = await call_llm_direct(
+            queries=experimental_assay_queries_dict,
+            llm_client=configuration.llm_client,
+            job_name=job_name_fh,
+            configuration=configuration,
+        )
+    else:
+        logger.info(
+            f"\nStep 2: Conducting literature search with {job_name.value} platform agent..."
+        )
+        assay_lit_review = await call_platform(
+            queries=experimental_assay_queries_dict,
+            fh_client=configuration.fh_client,
+            job_name=job_name_fh,
+        )
 
     assay_lit_review_results = assay_lit_review["results"]
 
@@ -80,6 +103,7 @@ async def experimental_assay(configuration: RobinConfiguration) -> str | None:
         assay_lit_review_results,
         run_dir=f"robin_output/{configuration.run_folder_name}/experimental_assay_literature_reviews",
         prefix="query",
+        platform_base_url=configuration.platform_base_url,
     )
 
     assay_lit_review_output = output_to_string(assay_lit_review_results)
@@ -167,17 +191,40 @@ async def experimental_assay(configuration: RobinConfiguration) -> str | None:
         assay_idea_list=assay_idea_list
     )
 
-    assay_hypotheses = await call_platform(
-        queries=assay_hypothesis_queries,
-        fh_client=configuration.fh_client,
-        job_name=configuration.agent_settings.assay_hypothesis_report_agent,
+    job_name = configuration.agent_settings.assay_hypothesis_report_agent
+    # Compare by enum name to handle both configuration_CROW_ablation and base configuration
+    use_direct_llm = (
+        configuration.agent_settings.use_direct_llm_for_crow
+        if job_name.name == "CROW"
+        else configuration.agent_settings.use_direct_llm_for_falcon
     )
+
+    # Convert to futurehouse_client JobNames enum for function calls
+    job_name_fh = JobNames[job_name.name]
+
+    if use_direct_llm:
+        assay_hypotheses = await call_llm_direct(
+            queries=assay_hypothesis_queries,
+            llm_client=configuration.llm_client,
+            job_name=job_name_fh,
+            configuration=configuration,
+        )
+    else:
+        logger.info(
+            f"Using {job_name.value} platform agent for assay hypothesis reports..."
+        )
+        assay_hypotheses = await call_platform(
+            queries=assay_hypothesis_queries,
+            fh_client=configuration.fh_client,
+            job_name=job_name_fh,
+        )
 
     save_crow_files(
         assay_hypotheses["results"],
         run_dir=f"robin_output/{configuration.run_folder_name}/experimental_assay_detailed_hypotheses",
         prefix="assay_hypothesis",
         has_hypothesis=True,
+        platform_base_url=configuration.platform_base_url,
     )
 
     # ### Step 5: Selecting the top experimental assay

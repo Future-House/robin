@@ -1,0 +1,39 @@
+Hypothesis: p62 degradation assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: p62 degradation assay
+Reasoning: Assess p62 by Western blot or immunofluorescence in ARPE-19 under H2O2 stress and candidate autophagy enhancers; p62 accumulation reflects impaired proteostasis and inflammasome priming in AMD (si2023theroleof pages 7-9; bu onfiglio2024recentadvancesin pages 9-10).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+The proposed p62 degradation assay utilizes Western blotting or immunofluorescence to measure p62 protein levels in ARPE-19 cells exposed to H2O2-induced oxidative stress. This in vitro model simulates a key aspect of dry AMD pathogenesis—oxidative stress leading to autophagy impairment and disrupted proteostasis. The assay quantifies the accumulation of p62, a selective autophagy receptor, thereby serving as a surrogate readout for autophagic flux and inflammasome priming (govindaraju2017cigarettesmokeinduced pages 6-8, song2017oxidativestressmediatednfκb pages 20-21).
+
+Biomedical Evidence:  
+Autophagic dysfunction and impaired proteostasis are central to the progression of dry AMD. Elevated p62 levels have been associated with ineffective clearance of damaged proteins in retinal pigment epithelial cells, directly linking oxidative stress to disease pathogenesis. Clinical and preclinical studies emphasize that modulating autophagy may counteract RPE degeneration, making p62 a relevant biomarker in this context (song2017oxidativestressmediatednfκb pages 13-16, song2017oxidativestressmediatednfκb pages 2-4).
+
+Previous Use:  
+The p62 degradation assay has been employed in drug discovery to evaluate the efficacy of autophagy enhancers—including agents like cysteamine and fisetin—by demonstrating their potential to reduce p62 accumulation and restore proteostasis under oxidative conditions (govindaraju2017cigarettesmokeinduced pages 6-8, song2017oxidativestressmediatednfκb pages 20-21).
+
+Overall Evaluation:  
+Strengths of the assay include its direct mechanistic relevance to dry AMD, its capacity to model oxidative stress-induced autophagic impairment, and its utility for screening autophagy-enhancing therapeutics. Weaknesses include potential variability in ARPE-19 responses and the limitation of interpreting p62 accumulation without complementary markers, necessitating further confirmation of autophagic flux (zhang2020alltransretinalinducesautophagic pages 12-15, song2017oxidativestressmediatednfκb pages 7-10).
+
+This assay is a valuable tool for early-stage screening of therapeutics for dry AMD by linking drug effects to proteostasis and autophagy. Its combination with additional endpoints may improve the translational relevance of the findings.
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/657d0d49-d667-4838-a3e9-9bfecb2735a4
+
+References:
+1. (govindaraju2017cigarettesmokeinduced pages 6-8): Viren Kumar Govindaraju, Manish Bodas, and Neeraj Vij. Cigarette smoke induced autophagy-impairment regulates amd pathogenesis mechanisms in arpe-19 cells. PLoS ONE, 12:e0182420, Aug 2017. URL: https://doi.org/10.1371/journal.pone.0182420, doi:10.1371/journal.pone.0182420. This article has 24 citations and is from a peer-reviewed journal.
+
+2. (song2017oxidativestressmediatednfκb pages 20-21): Chunjuan Song, Sayak K. Mitter, Xiaoping Qi, Eleni Beli, Haripriya V. Rao, Jindong Ding, Colin S. Ip, Hongmei Gu, Debra Akin, William A. Dunn, Catherine Bowes Rickman, Alfred S. Lewin, Maria B. Grant, and Michael E. Boulton. Oxidative stress-mediated nfκb phosphorylation upregulates p62/sqstm1 and promotes retinal pigmented epithelial cell survival through increased autophagy. PLoS ONE, 12:e0171940, Feb 2017. URL: https://doi.org/10.1371/journal.pone.0171940, doi:10.1371/journal.pone.0171940. This article has 122 citations and is from a peer-reviewed journal.
+
+3. (song2017oxidativestressmediatednfκb pages 13-16): Chunjuan Song, Sayak K. Mitter, Xiaoping Qi, Eleni Beli, Haripriya V. Rao, Jindong Ding, Colin S. Ip, Hongmei Gu, Debra Akin, William A. Dunn, Catherine Bowes Rickman, Alfred S. Lewin, Maria B. Grant, and Michael E. Boulton. Oxidative stress-mediated nfκb phosphorylation upregulates p62/sqstm1 and promotes retinal pigmented epithelial cell survival through increased autophagy. PLoS ONE, 12:e0171940, Feb 2017. URL: https://doi.org/10.1371/journal.pone.0171940, doi:10.1371/journal.pone.0171940. This article has 122 citations and is from a peer-reviewed journal.
+
+4. (song2017oxidativestressmediatednfκb pages 2-4): Chunjuan Song, Sayak K. Mitter, Xiaoping Qi, Eleni Beli, Haripriya V. Rao, Jindong Ding, Colin S. Ip, Hongmei Gu, Debra Akin, William A. Dunn, Catherine Bowes Rickman, Alfred S. Lewin, Maria B. Grant, and Michael E. Boulton. Oxidative stress-mediated nfκb phosphorylation upregulates p62/sqstm1 and promotes retinal pigmented epithelial cell survival through increased autophagy. PLoS ONE, 12:e0171940, Feb 2017. URL: https://doi.org/10.1371/journal.pone.0171940, doi:10.1371/journal.pone.0171940. This article has 122 citations and is from a peer-reviewed journal.
+
+5. (zhang2020alltransretinalinducesautophagic pages 12-15): Lingmin Zhang, Yingying Zhou, Qingqing Xia, Ying Chen, and Jie Li. All-trans-retinal induces autophagic cell death via oxidative stress and the endoplasmic reticulum stress pathway in human retinal pigment epithelial cells. Toxicology Letters, 322:77-86, Apr 2020. URL: https://doi.org/10.1016/j.toxlet.2020.01.005, doi:10.1016/j.toxlet.2020.01.005. This article has 34 citations and is from a peer-reviewed journal.
+
+6. (song2017oxidativestressmediatednfκb pages 7-10): Chunjuan Song, Sayak K. Mitter, Xiaoping Qi, Eleni Beli, Haripriya V. Rao, Jindong Ding, Colin S. Ip, Hongmei Gu, Debra Akin, William A. Dunn, Catherine Bowes Rickman, Alfred S. Lewin, Maria B. Grant, and Michael E. Boulton. Oxidative stress-mediated nfκb phosphorylation upregulates p62/sqstm1 and promotes retinal pigmented epithelial cell survival through increased autophagy. PLoS ONE, 12:e0171940, Feb 2017. URL: https://doi.org/10.1371/journal.pone.0171940, doi:10.1371/journal.pone.0171940. This article has 122 citations and is from a peer-reviewed journal.

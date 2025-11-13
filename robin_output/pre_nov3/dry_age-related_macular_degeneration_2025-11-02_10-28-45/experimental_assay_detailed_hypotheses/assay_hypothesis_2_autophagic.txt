@@ -1,0 +1,43 @@
+Hypothesis: Autophagic flux imaging
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Autophagic flux imaging
+Reasoning: Use GFP-LC3 or mCherry-GFP-LC3 reporters in ARPE-19 with lysosomal inhibitors (E64d/pepstatin A) to measure LC3-II accumulation and p62 turnover, directly assessing enhancement of autophagic clearance—impaired autophagy underlies lipofuscin build-up in dry AMD (Golestaneh et al. 2018; Kaarniranta et al. 2023).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+This assay employs fluorescent autophagy reporters (GFP‐LC3 or mCherry‐GFP‐LC3) in ARPE-19 cells combined with lysosomal inhibitors (E64d/pepstatin A) to block degradation. The approach quantitatively measures LC3‐II accumulation and p62 turnover as surrogates for autophagic flux, directly modeling the impaired clearance mechanisms central to lipofuscin deposition in dry AMD (cox2025age‐associateddeclinein pages 1-2, nita2023antioxidativeroleof pages 9-11, szatmaritoth2016clearanceofautophagyassociated pages 11-12). Measurements are obtained via fluorescence microscopy, flow cytometry, and biochemical readouts.  
+
+Biomedical Evidence:  
+Robust evidence supports that autophagy dysfunction in the retinal pigment epithelium is a key pathogenic driver in dry AMD, contributing to the accumulation of deleterious substrates such as lipofuscin and triggering downstream oxidative stress and inflammation (kaarniranta2017autophagyregulatesdeath pages 4-7). Clinical and biochemical studies show that restoring autophagic flux can ameliorate RPE degeneration (golestaneh2018dysfunctionalautophagyin pages 5-9, cox2025age‐associateddeclinein pages 1-2). This assay thus targets a central disease mechanism relevant to both early and late stages of AMD.  
+
+Previous Use:  
+GFP-LC3 reporter assays have been widely used in RPE cell models to measure autophagic flux and assess the efficacy of autophagy-modulating compounds (szatmaritoth2016clearanceofautophagyassociated pages 11-12, viiri2013autophagyactivationclears pages 1-2). Such assays have contributed to our understanding of lysosomal dysfunction and proteostasis imbalance in AMD and have served as preliminary screening tools in early-stage drug discovery (cox2025age‐associateddeclinein pages 1-2).  
+
+Overall Evaluation:  
+The assay’s strengths lie in its direct measurement of autophagic flux using validated molecular markers and its quantitative, high-throughput potential. However, limitations include the use of ARPE-19 cells, which may not fully recapitulate primary RPE physiology, and the need for complementary endpoints given the complexity of autophagic regulation in AMD (liton2023autophagyinthe pages 23-24, si2023theroleof pages 9-10). Further validation in more physiologically relevant models is advisable.  
+
+This assay is a useful tool for screening therapeutics aimed at restoring autophagic clearance in dry AMD. It provides critical mechanistic insights while highlighting the importance of secondary validations to account for the in vitro model's limitations.
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/687708fd-3a53-44e3-8c03-0b756a1cf88c
+
+References:
+1. (cox2025age‐associateddeclinein pages 1-2): Katherine Cox, Gongyu Shi, Neve Read, Mohamed T. Patel, Kepeng Ou, Zijia Liu, Jiahui Wu, Suci Cendanawati, Jenna Le Brun Powell, Pola Goldberg Oppenheimer, Lisa J. Hill, Lindsay B. Nicholson, Andrew D. Dick, and Jian Liu. Age‐associated decline in autophagy pathways in the retinal pigment epithelium and protective effects of topical trehalose in light‐induced outer retinal degeneration in mice. Aging Cell, Apr 2025. URL: https://doi.org/10.1111/acel.70081, doi:10.1111/acel.70081. This article has 1 citations and is from a domain leading peer-reviewed journal.
+
+2. (nita2023antioxidativeroleof pages 9-11): Małgorzata Nita and Andrzej Grzybowski. Antioxidative role of heterophagy, autophagy, and mitophagy in the retina and their association with the age-related macular degeneration (amd) etiopathogenesis. Antioxidants, 12:1368, Jun 2023. URL: https://doi.org/10.3390/antiox12071368, doi:10.3390/antiox12071368. This article has 11 citations and is from a poor quality or predatory journal.
+
+3. (szatmaritoth2016clearanceofautophagyassociated pages 11-12): Mária Szatmári-Tóth, E. Kristóf, Z. Veréb, S. Akhtar, A. Facskó, L. Fésüs, A. Kauppinen, K. Kaarniranta, G. Petrovski, G. Petrovski, and G. Petrovski. Clearance of autophagy-associated dying retinal pigment epithelial cells – a possible source for inflammation in age-related macular degeneration. Cell Death &amp; Disease, 7:e2367-e2367, Sep 2016. URL: https://doi.org/10.1038/cddis.2016.133, doi:10.1038/cddis.2016.133. This article has 61 citations and is from a peer-reviewed journal.
+
+4. (kaarniranta2017autophagyregulatesdeath pages 4-7): Kai Kaarniranta, Paulina Tokarz, Ali Koskela, Jussi Paterno, and Janusz Blasiak. Autophagy regulates death of retinal pigment epithelium cells in age-related macular degeneration. Cell Biology and Toxicology, 33:113-128, Nov 2017. URL: https://doi.org/10.1007/s10565-016-9371-8, doi:10.1007/s10565-016-9371-8. This article has 200 citations and is from a peer-reviewed journal.
+
+5. (golestaneh2018dysfunctionalautophagyin pages 5-9): Nady Golestaneh, Yi Chu, Yang-Yu Xiao, Gianna L Stoleru, and Alexander C Theos. Dysfunctional autophagy in rpe, a contributing factor in age-related macular degeneration. Cell Death &amp; Disease, 8:e2537-e2537, Jan 2018. URL: https://doi.org/10.1038/cddis.2016.453, doi:10.1038/cddis.2016.453. This article has 393 citations and is from a peer-reviewed journal.
+
+6. (viiri2013autophagyactivationclears pages 1-2): Johanna Viiri, Marialaura Amadio, Nicoletta Marchesi, Juha M. T. Hyttinen, Niko Kivinen, Reijo Sironen, Kirsi Rilla, Saeed Akhtar, Alessandro Provenzani, Vito Giuseppe D'Agostino, Stefano Govoni, Alessia Pascale, Hansjurgen Agostini, Goran Petrovski, Antero Salminen, and Kai Kaarniranta. Autophagy activation clears elavl1/hur-mediated accumulation of sqstm1/p62 during proteasomal inhibition in human retinal pigment epithelial cells. PLoS ONE, 8:e69563, Jul 2013. URL: https://doi.org/10.1371/journal.pone.0069563, doi:10.1371/journal.pone.0069563. This article has 179 citations and is from a peer-reviewed journal.
+
+7. (liton2023autophagyinthe pages 23-24): Paloma B. Liton, Kathleen Boesze-Battaglia, Michael E. Boulton, Patricia Boya, Thomas A. Ferguson, Ian G. Ganley, Anu Kauppinnen, Gordon W. Laurie, Noboru Mizushima, Hideaki Morishita, Rossella Russo, Jaya Sadda, Rajalekshmy Shyam, Debasish Sinha, Debra A. Thompson, and David N. Zacks. Autophagy in the eye: from physiology to pathophysiology. Autophagy Reports, Mar 2023. URL: https://doi.org/10.1080/27694127.2023.2178996, doi:10.1080/27694127.2023.2178996. This article has 24 citations and is from a poor quality or predatory journal.
+
+8. (si2023theroleof pages 9-10): Zhibo Si, Yajuan Zheng, and Jing Zhao. The role of retinal pigment epithelial cells in age-related macular degeneration: phagocytosis and autophagy. Biomolecules, 13:901, May 2023. URL: https://doi.org/10.3390/biom13060901, doi:10.3390/biom13060901. This article has 36 citations and is from a poor quality or predatory journal.

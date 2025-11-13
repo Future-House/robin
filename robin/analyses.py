@@ -78,9 +78,10 @@ async def data_analysis(
 
     await data_analyzer.run_pipeline(output_dir)
 
+    trajectory_url = f"{configuration.platform_base_url}/trajectories/{data_analyzer.results[consensus_step.step_id]['task_ids'][0]}"
     logger.info(
         "View the final volcano plot at:"
-        f" https://platform.futurehouse.org/trajectories/{data_analyzer.results[consensus_step.step_id]['task_ids'][0]}"
+        f" {trajectory_url}"
     )
 
     consensus_output_filename = consensus_step.output_files["consensus_results.csv"]

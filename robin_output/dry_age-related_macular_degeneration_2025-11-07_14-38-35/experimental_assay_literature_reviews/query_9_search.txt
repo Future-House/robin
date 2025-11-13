@@ -1,0 +1,47 @@
+Query: search for development and validation of high-content imaging and multiplexed readouts in cell-based assays for dry age-related macular degeneration, capturing endpoints such as RPE morphology, mitochondrial integrity, oxidative damage, complement deposition, and autophagic flux simultaneously
+
+1. Hypothesis: Oxidative stress–induced complement activation on RPE surfaces drives morphological degeneration via C3b deposition.  
+   Assay: Expose ARPE-19 or iPSC-derived RPE to H₂O₂; label with CellMask (cell shape), MitoSOX (mito-ROS), Alexa-647 anti-C3b, γH2AX (DNA damage), and mCherry-GFP-LC3 tandem reporter. High-content confocal imaging + automated image analysis to correlate C3b intensity with RPE flattening, ROS spikes, DNA damage foci, and LC3 flux blockade.
+
+2. Therapeutic strategy: Screen novel small-molecule antioxidants for simultaneous rescue of mitochondrial integrity and suppression of complement deposition.  
+   Assay: Pre-treat RPE with compound library; challenge with A2E+blue light. Multiplex stains: TMRM (ΔΨm), CellROX (cytosolic ROS), anti-C5b-9 immunofluorescence, LysoTracker (lysosomal pH), and CellMask. High-content readouts quantify mitochondrial morphology, ROS, complement MAC puncta, lysosomal acidification, and cell shape.
+
+3. Hypothesis: Lipofuscin component A2E impairs mitophagy and promotes sublytic complement attack.  
+   Assay: Load RPE with A2E; transduce with Parkin-EGFP; stain for TOM20 (mito network), C3b, 8-OHdG (oxidative DNA damage), LAMP1 (lysosomes), and DRAQ7 (dead cells). High-content time-lapse imaging to measure Parkin recruitment to damaged mitochondria, complement deposition kinetics, and downstream cell death.
+
+4. Therapeutic strategy: Activate Nrf2 to restore antioxidant defenses, normalize autophagy, and limit complement deposition.  
+   Assay: Treat RPE with Nrf2 agonist (e.g., bardoxolone); induce oxidative stress. Multiplex: nuclear Nrf2 immuno, CellROX, mCherry-GFP-LC3, anti-C3aR, CellMask. Automated segmentation to link Nrf2 nuclear translocation with reductions in ROS, LC3 puncta accumulation (blocked flux), C3aR clustering, and morphological rescue.
+
+5. Hypothesis: Loss of complement regulator CD59 on RPE accelerates mitochondrial fragmentation and autophagic block.  
+   Assay: CRISPR knockout of CD59 in RPE; challenge with sublytic complement. Multiplex labels: MitoTracker Green, anti-C5b-9, mApple-LC3, CellROX, phalloidin (F-actin). High-content analysis quantifies mito-network fragmentation index, MAC deposition, autophagosome accumulation, ROS levels, and cytoskeletal collapse.
+
+6. Strategy: High-throughput screen for compounds that enhance lysosomal acidification and autophagic flux to prevent complement activation.  
+   Assay: Use LysoSensor, mCherry-GFP-LC3, complement C3b sensor, MitoTracker Red, and CellMask. Automated high-content imaging identifies hits that lower lysosomal pH, increase LC3-flux, reduce C3b puncta, maintain ΔΨm, and preserve morphology.
+
+7. Hypothesis: Accumulation of oxidized phospholipids on RPE triggers complement C1q binding and impedes mitophagy.  
+   Assay: Treat RPE with oxidized dipalmitoyl-PC; stain for C1q, Parkin immuno, LAMP2, CellROX, and CellMask. High-content spatial profiling reveals co-localization of C1q with oxidized lipids, Parkin recruitment failure, lysosomal overload, ROS elevation, and altered cell outlines.
+
+8. Strategy: Co-culture RPE with microglia-like cells in a microfluidic device to model paracrine complement amplification.  
+   Assay: In microchannels, label RPE with mCherry-LC3, MitoView 633, CellROX, anti-C3d, and CellMask; label microglia with GFP. High-content time-lapse imaging quantifies complement spillover from microglia, RPE autophagic flux, mitochondrial health, oxidative stress, and shape metrics.
+
+9. Hypothesis: Impaired LC3-associated phagocytosis (LAP) of photoreceptor outer segments (POS) augments complement deposition and oxidative injury.  
+   Assay: Feed RPE with fluorescent POS; knockdown Rubicon to block LAP. Multiplex stains: LC3 immuno, anti-C3b, CellROX, TOM20, and CellMask. High-content imaging measures POS uptake, LC3 recruitment to phagosomes, complement tag buildup, ROS spikes, and morphological collapse.
+
+10. Strategy: CRISPRa screen to up-regulate mitochondrial biogenesis genes (PGC-1α, TFAM) and identify protectors against complement-mediated damage.  
+    Assay: CRISPRa RPE library; induce complement; multiplex TMRM, anti-C5b-9, CellROX, LC3 reporter, CellMask. Automated analysis selects guides that preserve ΔΨm, prevent MAC deposition, limit ROS, restore autophagy flux, and maintain normal cell area.
+
+11. Hypothesis: Mitochondrial-derived vesicles (MDVs) carrying oxidized proteins activate surface complement on RPE.  
+    Assay: Label MDVs with mtKeima, stain extracellular C3a, LysoTracker, CellROX, and F-actin. High-content imaging quantifies MDV emergence, complement recruitment to vesicle-marked sites, lysosomal burden, ROS accumulation, and morphological disruptions.
+
+12. Strategy: Develop a FRET-based redox sensor (roGFP) plus pH- sensitive LC3 reporter and fluorescent complement probe for simultaneous live imaging of redox, autophagy, and complement.  
+    Assay: Express roGFP-mito, mCherry-LC3-pHluorin, and apply fluorescent C3b peptide; stain with CellMask. High-content confocal FRET analysis quantifies redox ratio, LC3 flux (pH shift), complement binding, and cell shape in real time under stress.
+
+13. Hypothesis: SIRT3 deficiency in RPE heightens oxidative damage, disrupts mitophagy, and increases complement deposition.  
+    Assay: Knockdown SIRT3; stress with NaIO₃. Multiplex: NAD+/NADH sensor, TMRM, mCherry-GFP-LC3, anti-C3d, CellMask. Automated imaging correlates NAD redox imbalance with mitochondrial depolarization, compromised autophagic flux, augmented C3d puncta, and morphological atrophy.
+
+14. Strategy: Test gene therapy–mediated overexpression of HTRA1 to degrade drusen precursors, reduce oxidative stress, and limit complement fixation.  
+    Assay: Transduce RPE with HTRA1 AAV; add drusen extract. Multiplex: 8-OHdG, anti-C3b, LysoTracker, TMRM, and CellMask. High-content screens detect lowered DNA oxidation, decreased C3b, improved lysosomal function, ΔΨm restoration, and morphology preservation.
+
+15. Hypothesis: Pharmacological induction of chaperone-mediated autophagy (CMA) alleviates RPE complement sensitivity and mitochondrial dysfunction.  
+    Assay: Treat RPE with AR7 (CMA activator); stress with oxidative agent. Multiplex: LAMP2A immuno, mCherry-GFP-LC3, anti-C5b-9, MitoSOX, and CellMask. High-content analysis assesses CMA activation, autophagy-lysosome throughput, MAC deposition, mito-ROS, and cell shape metrics.
+

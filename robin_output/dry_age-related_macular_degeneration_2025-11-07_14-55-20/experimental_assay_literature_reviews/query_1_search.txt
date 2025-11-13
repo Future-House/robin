@@ -1,0 +1,30 @@
+Query: Search the literature for the key molecular pathways driving retinal pigment epithelium (RPE) cell dysfunction and atrophy in dry age-related macular degeneration, including complement activation, inflammasome signaling, lipid accumulation, oxidative damage, and downstream pro-apoptotic factors, with emphasis on identifying specific molecular targets amenable to small molecule modulation in cell culture systems
+
+Multiple interrelated pathways contribute to RPE dysfunction in dry AMD. Dysregulated complement activation is central to the pathology, with excessive generation of C3a/C5a and MAC deposition on the RPE. Molecular targets include complement components (C3, C5), their activation enzymes (e.g., factor D), and regulators such as CFH and CD59 that are amenable to modulation in cell culture systems (buonfiglio2024recentadvancesin pages 14-15, buonfiglio2024recentadvancesin pages 33-34). 
+
+Inflammasome signaling, primarily via NLRP3, caspase-1, and Gasdermin D, promotes pyroptotic cell death in RPE cells. Targeting this axis with small molecules that inhibit NLRP3 assembly or caspase-1 activity offers an attractive strategy for reducing inflammation and subsequent cell loss (buonfiglio2024recentadvancesin pages 21-22, somasundaran2020retinalpigmentepithelium pages 11-12). 
+
+Lipid accumulation from lipofuscin and bisretinoids such as A2E drives complement overactivation and impairs lysosomal function. Inhibitors of acid sphingomyelinase, which lower ceramide levels, as well as agents targeting intracellular complement signaling through mTOR, are promising candidates for intervention (tang2024aberrantlipidmetabolism pages 11-12, tang2024aberrantlipidmetabolism pages 15-16). 
+
+Oxidative damage from mitochondrial dysfunction and overactive NADPH oxidase increases ROS and activates downstream pro-apoptotic factors like caspases and Bax. Small-molecule antioxidants, NOX inhibitors, and modulators of mitochondrial dynamics (e.g., Drp1 inhibitors) thus represent viable targets (dabouz2024neuroimmuneinteractionsin pages 31-34, somasundaran2020retinalpigmentepithelium pages 10-11).
+
+Dry AMD is driven by complement and inflammasome activation, lipid accumulation, oxidative stress, and pro-apoptotic signals in the RPE. Targeting these pathways with numerous small molecules offers a rational strategy to restore RPE homeostasis and potentially slow disease progression.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/6064d2b9-5c9d-42af-b376-5b377696f1c6
+
+References:
+1. (buonfiglio2024recentadvancesin pages 14-15): Francesco Buonfiglio, Christina A. Korb, Bernhard Stoffelns, Norbert Pfeiffer, and Adrian Gericke. Recent advances in our understanding of age-related macular degeneration: mitochondrial dysfunction, redox signaling, and the complement system. Aging and Disease, 16:1535-1575, Jan 2024. URL: https://doi.org/10.14336/ad.2024.0124, doi:10.14336/ad.2024.0124. This article has 23 citations and is from a peer-reviewed journal.
+
+2. (buonfiglio2024recentadvancesin pages 33-34): Francesco Buonfiglio, Christina A. Korb, Bernhard Stoffelns, Norbert Pfeiffer, and Adrian Gericke. Recent advances in our understanding of age-related macular degeneration: mitochondrial dysfunction, redox signaling, and the complement system. Aging and Disease, 16:1535-1575, Jan 2024. URL: https://doi.org/10.14336/ad.2024.0124, doi:10.14336/ad.2024.0124. This article has 23 citations and is from a peer-reviewed journal.
+
+3. (buonfiglio2024recentadvancesin pages 21-22): Francesco Buonfiglio, Christina A. Korb, Bernhard Stoffelns, Norbert Pfeiffer, and Adrian Gericke. Recent advances in our understanding of age-related macular degeneration: mitochondrial dysfunction, redox signaling, and the complement system. Aging and Disease, 16:1535-1575, Jan 2024. URL: https://doi.org/10.14336/ad.2024.0124, doi:10.14336/ad.2024.0124. This article has 23 citations and is from a peer-reviewed journal.
+
+4. (somasundaran2020retinalpigmentepithelium pages 11-12): Shreya Somasundaran, Ian J. Constable, Carla B. Mellough, and Livia S. Carvalho. Retinal pigment epithelium and age‐related macular degeneration: a review of major disease mechanisms. Clinical &amp; Experimental Ophthalmology, 48:1043-1056, Aug 2020. URL: https://doi.org/10.1111/ceo.13834, doi:10.1111/ceo.13834. This article has 183 citations and is from a peer-reviewed journal.
+
+5. (tang2024aberrantlipidmetabolism pages 11-12): Siao Tang, Jiaqi Yang, Bingqing Xiao, Yani Wang, Yiou Lei, Dongwei Lai, and Qinghua Qiu. Aberrant lipid metabolism and complement activation in age-related macular degeneration. Investigative Ophthalmology &amp; Visual Science, 65:20, Oct 2024. URL: https://doi.org/10.1167/iovs.65.12.20, doi:10.1167/iovs.65.12.20. This article has 12 citations and is from a domain leading peer-reviewed journal.
+
+6. (tang2024aberrantlipidmetabolism pages 15-16): Siao Tang, Jiaqi Yang, Bingqing Xiao, Yani Wang, Yiou Lei, Dongwei Lai, and Qinghua Qiu. Aberrant lipid metabolism and complement activation in age-related macular degeneration. Investigative Ophthalmology &amp; Visual Science, 65:20, Oct 2024. URL: https://doi.org/10.1167/iovs.65.12.20, doi:10.1167/iovs.65.12.20. This article has 12 citations and is from a domain leading peer-reviewed journal.
+
+7. (dabouz2024neuroimmuneinteractionsin pages 31-34): R Dabouz. Neuro-immune interactions in age-related macular degeneration: implications for future therapeutics. Unknown journal, 2024.
+
+8. (somasundaran2020retinalpigmentepithelium pages 10-11): Shreya Somasundaran, Ian J. Constable, Carla B. Mellough, and Livia S. Carvalho. Retinal pigment epithelium and age‐related macular degeneration: a review of major disease mechanisms. Clinical &amp; Experimental Ophthalmology, 48:1043-1056, Aug 2020. URL: https://doi.org/10.1111/ceo.13834, doi:10.1111/ceo.13834. This article has 183 citations and is from a peer-reviewed journal.

@@ -1,0 +1,60 @@
+Assay Candidate 1:
+Strategy: Complement deposition quantification
+Reasoning: Quantify C3b and C5b-9 deposition on iPSC-derived RPE by ELISA and flow cytometry to directly measure alternative pathway activation and MAC formation. Elevated complement fragment deposition correlates with barrier dysfunction and sub-RPE deposit formation in CFH(Y402H) models (Sharma et al. 2021; Cerniauskas et al. 2020).
+
+Assay Candidate 2:
+Strategy: C3a/C5a receptor functional readout
+Reasoning: Monitor intracellular Ca2+ flux or phosphorylated ERK/AKT in RPE upon exogenous C3a/C5a challenge and test antagonists for rescue of transepithelial resistance. This directly links anaphylatoxin signaling to barrier loss and sub-RPE deposit accumulation (Sharma et al. 2021).
+
+Assay Candidate 3:
+Strategy: Bisretinoid accumulation and autophagy flux
+Reasoning: Combine A2E autofluorescence quantification with tandem RFP-GFP-LC3 imaging and LC3/p62 immunoblotting to assess how candidate drugs restore phagosome/lysosome maturation and reduce lipofuscin build-up. Impaired heterophagy underlies A2E accumulation in AMD models (Rao et al. 2018).
+
+Assay Candidate 4:
+Strategy: Lysosomal pH and protease activity profiling
+Reasoning: Use ratiometric LysoSensor and BODIPY-pepstatin A probes to assess lysosomal acidification and cathepsin D activity under drug treatment. This distinguishes fusion/maturation blocks from pH dysregulation and verifies lysosomal competence (Cardoso et al. 2018; Rao et al. 2018).
+
+Assay Candidate 5:
+Strategy: Mitochondrial ROS and membrane potential assay
+Reasoning: Perform live-cell multiplexed imaging with CellROX and TMRM/MitoTracker to quantify mitochondrial ROS generation and Δψm under oxidative stress and test protective compounds. Mitochondrial dysfunction and elevated ROS are hallmarks of dry AMD RPE (Fisher 2022; Huang et al. 2023).
+
+Assay Candidate 6:
+Strategy: Seahorse mitochondrial stress test
+Reasoning: Apply the XF Cell Mito Stress Test (oligomycin, FCCP, rotenone/antimycin A) to measure OCR, ATP-linked respiration and spare capacity in RPE treated with menadione or H2O2 and candidate drugs. Bioenergetic deficits correlate with AMD pathology (Fisher 2022).
+
+Assay Candidate 7:
+Strategy: NRF2 antioxidant response reporter
+Reasoning: Use an ARE-luciferase reporter or NFE2L2-driven GFP to screen for compounds that activate NRF2 signaling, confirmed by qPCR/Western of HO-1 and SOD2. Robust NRF2 induction mitigates oxidative damage in AMD RPE (Fisher 2022; Huang et al. 2023).
+
+Assay Candidate 8:
+Strategy: NLRP3 inflammasome high-content screen
+Reasoning: Measure caspase-1 activation via FLICA, IL-1β/IL-18 release by ELISA, and ASC speck formation in RPE under ox-LDL stress to identify inhibitors of inflammasome assembly. Lysosomal destabilization and inflammasome activation drive RPE death in dry AMD (Ng et al. 2020).
+
+Assay Candidate 9:
+Strategy: Inflammatory cytokine multiplex profiling
+Reasoning: Combine Luminex or MSD bead arrays to quantify IL-1β, IL-6, IL-8, VEGF and complement regulators in RPE supernatants under combined oxidative and complement stress. This multiplexed approach reveals crosstalk between pathways and drug effects (Trakkides et al. 2019; Chen et al. 2022).
+
+Assay Candidate 10:
+Strategy: Lipid droplet and cholesterol assay
+Reasoning: Stain neutral lipids with Nile red and unesterified cholesterol with filipin to quantify intracellular lipid droplet burden and cholesterol accumulation in CFH(Y402H) iRPE. Modulating ACAT1 or ABCA1 activity restores lipid homeostasis and reduces drusen-like features (Al-Rashed 2016; Tsai et al. 2021).
+
+Assay Candidate 11:
+Strategy: Barrier integrity TEER and flux
+Reasoning: Measure transepithelial electrical resistance and paracellular fluorescent-dextran flux in RPE monolayers challenged with VEGF or complement. Compounds that preserve TEER and reduce flux demonstrate barrier-protective activity (Obert et al. 2015, 2017).
+
+Assay Candidate 12:
+Strategy: mtDNA copy number and damage qPCR
+Reasoning: Quantify mitochondrial DNA copy number and ROS-induced lesion frequency by long-amplicon qPCR in RPE treated with CCCP or NaIO3 and candidate drugs. This assay links mitochondrial biogenesis/damage to functional rescue (Datta et al. 2023; Skeie et al. 2021).
+
+Assay Candidate 13:
+Strategy: Parkin translocation mitophagy assay
+Reasoning: Monitor PINK1-dependent Parkin recruitment to depolarized mitochondria via immunofluorescence and subcellular fractionation. Drugs enhancing mitophagy flux may clear damaged mitochondria and improve RPE health (Datta et al. 2023).
+
+Assay Candidate 14:
+Strategy: Photoreceptor outer segment phagocytosis kinetics
+Reasoning: Use fluorescently labeled POS and LysoTracker colocalization in high-content imaging to quantify uptake rates and degradation half-life. Bafilomycin A1 chase distinguishes uptake from clearance, enabling screening of enhancers of RPE phagocytic function (Yogalingam et al. 2017; Wünkhaus 2021).
+
+Assay Candidate 15:
+Strategy: 3D RPE-endothelial drusen deposition model
+Reasoning: Establish long-term co-cultures of RPE and choroidal endothelial cells on thin porous supports or microfluidic chips to recapitulate sub-RPE deposit accumulation. Monitor APOE positivity and mineralization by immunostaining and SIMS to evaluate anti-drusen therapies (Pilgrim et al. 2017; Ghareeb et al. 2020).
+

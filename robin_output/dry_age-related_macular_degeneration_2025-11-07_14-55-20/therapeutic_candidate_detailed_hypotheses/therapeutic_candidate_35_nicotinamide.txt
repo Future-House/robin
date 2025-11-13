@@ -1,0 +1,61 @@
+Proposal for Nicotinamide riboside (NR)
+
+Overview of Therapeutic Candidate  
+Nicotinamide riboside (NR) is a naturally occurring vitamin B₃ analogue first identified in milk in the 1940s and rediscovered in mammalian tissues in the 2000s as a precursor to NAD⁺ via the nicotinamide riboside kinase (NRK) pathway. Chemically, it consists of a nicotinamide moiety linked to a ribose sugar. NR belongs to the class of NAD⁺ precursors (alongside nicotinamide, nicotinic acid, and nicotinamide mononucleotide). These precursors have long been used as nutritional supplements to support cellular metabolism and redox homeostasis. NR is distinguished by high oral bioavailability and the ability to raise intracellular NAD⁺ levels more efficiently than equivalent doses of nicotinamide or nicotinic acid, likely because it bypasses rate-limiting steps in the salvage pathway.
+
+Therapeutic History  
+• General uses of NAD⁺ precursors: nicotinic acid (niacin) has been used for decades to treat dyslipidemia; nicotinamide has been used as an over-the-counter supplement.  
+• NR in preclinical models: efficacy demonstrated in models of metabolic disease (obesity, insulin resistance), neurodegeneration (Alzheimer’s, Parkinson’s), muscular dystrophy, and age-related muscle decline.  
+• Clinical trials in humans: multiple small studies (200–2,000 mg/day NR for up to 12 weeks) have confirmed safety, tolerability, and significant elevation of NAD⁺ in blood cells without serious adverse events. Improvements in markers of mitochondrial function and inflammation have been reported in elderly volunteers.  
+• Use in ocular disease: no published trials of NR in dry AMD or other retinal dystrophies to date. A few preclinical studies in retinopathy models suggest NAD⁺ augmentation can protect photoreceptors and retinal ganglion cells from light or oxidative stress, but direct studies in RPE or AMD models remain very limited.
+
+Mechanism of Action  
+1. NAD⁺ Biosynthesis and Sirtuin Activation  
+   – NR is phosphorylated by NRKs to yield nicotinamide mononucleotide (NMN), then converted by NMN adenylyltransferases to NAD⁺.  
+   – Elevated NAD⁺ serves as an essential cofactor for sirtuin deacylases (SIRT1–SIRT7). In the RPE context, SIRT1 and SIRT3 are most relevant:  
+     • SIRT1 (nuclear/cytosolic) deacetylates transcription factors (PGC-1α) to promote mitochondrial biogenesis, antioxidant gene expression, and autophagy gene transcription.  
+     • SIRT3 (mitochondrial) deacetylates and activates enzymes in the TCA cycle and electron transport chain, reducing reactive oxygen species (ROS).
+
+2. Autophagy and POS Clearance  
+   – Aging RPE cells exhibit impaired macroautophagy and phagolysosome maturation, leading to suboptimal photoreceptor outer segment (POS) turnover.  
+   – SIRT1 activation upregulates autophagy-related proteins (LC3, ATG5/7) and enhances TFEB (master regulator of lysosomal biogenesis). Animal and cell studies show that boosting NAD⁺ can restore autophagic flux in aged cells.
+
+3. Mitochondrial Function and Oxidative Stress  
+   – NAD⁺ is a substrate for key dehydrogenases in glycolysis, TCA cycle, and fatty acid oxidation. Higher NAD⁺/NADH ratio improves mitochondrial respiration.  
+   – SIRT3-mediated deacetylation of mitochondrial superoxide dismutase (SOD2) and isocitrate dehydrogenase 2 (IDH2) reduces ROS accumulation.
+
+4. Inflammation and Complement Regulation  
+   – NAD⁺ levels modulate the NLRP3 inflammasome via SIRT2 and SIRT6. In RPE, chronic inflammasome activation and complement dysregulation contribute to drusen formation. Elevated NAD⁺ may dampen inflammatory cytokine release (IL-1β, IL-18).
+
+Expected Effect in RPE-Based Dry AMD Assay  
+Assay readouts might include:  
+• Intracellular NAD⁺ quantification (by cycling assay or LC-MS) – expected 2–5 fold increase with 0.1–1 mM NR in cultured RPE.  
+• Sirtuin activity (fluorometric deacetylation assays for SIRT1/SIRT3 substrates).  
+• Autophagic flux (LC3-II/I ratio, p62 degradation, tandem mCherry-GFP-LC3 reporter).  
+• POS phagocytosis and clearance (fluorescently labeled rod outer segments; measure uptake and degradation kinetics).  
+• Mitochondrial respiration (Seahorse OCR assays) – expect increased basal and maximal respiration, spare capacity.  
+• ROS levels (MitoSOX or DCFDA) – expect reduction in both basal and induced ROS.  
+• Inflammatory markers (qPCR/ELISA for IL-1β, C3 complement factor).
+
+Mechanistic linkage: RPE expresses NRK1/2, SIRT1, SIRT3, TFEB, and core autophagy machinery. Multiple transcriptomic datasets (e.g., Human Protein Atlas, GEO RPE‐specific studies) confirm these gene products are abundant in RPE cells.
+
+Overall Evaluation  
+Strengths  
+• Strong mechanistic rationale: addresses two key dry AMD pathologies—impaired POS clearance via autophagy defects and mitochondrial dysfunction/oxidative stress—through a single intervention.  
+• Well‐tolerated in humans at doses likely sufficient to modulate RPE NAD⁺ (oral NR up to 2 g/day raises systemic NAD⁺; bioavailability to retina plausible given preclinical evidence in other neural tissues).  
+• Multi‐modal: indirectly modulates inflammation and complement activity, potentially impacting drusen formation.  
+• Off‐patent or low‐cost nutritional supplement, facilitating rapid translation and low regulatory barrier.
+
+Weaknesses and Unknowns  
+• Retinal bioavailability: Few studies have directly measured NR or NAD⁺ elevation in the RPE/choroid after oral dosing. Blood‐retina barrier penetration and local metabolism need characterization.  
+• Dose and regimen optimization: effective concentrations in vitro (0.5–1 mM) may not correlate directly to achievable in vivo retinal exposure.  
+• Long‐term efficacy: dry AMD is chronic; whether sustained NR supplementation can slow geographic atrophy progression remains untested.  
+• Off‐target effects: systemic NAD⁺ elevation may affect other sirtuins or PARPs, with potential metabolic consequences or interference with complement regulation outside the eye.  
+• Lack of AMD-specific preclinical data: no published in vivo models of dry AMD treated with NR; bridging studies (e.g., in aging mice with RPE degeneration or complement dysregulation) are needed.
+
+Conclusion  
+Nicotinamide riboside is a promising repurposing candidate for dry AMD, with solid mechanistic underpinnings in NAD⁺ biology, sirtuin activation, and autophagy enhancement. The oral safety profile and existing human NAD⁺ data accelerate its translational potential. Key next steps include (1) pharmacokinetic studies to confirm RPE/NAD⁺ elevation in vivo, (2) efficacy testing in dry AMD animal models (e.g., Cfh–/–, Alu RNA–induced RPE atrophy), and (3) dose-finding biomarker trials in early dry AMD patients using noninvasive retinal imaging and tear/aqueous humor NAD⁺ markers.
+
+References
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

@@ -1,0 +1,36 @@
+Query: genetic association studies OR functional genomics AND complement factor H AND C3 AND CFB AND dry age-related macular degeneration AND iPSC-derived RPE models AND patient-derived cells AND target validation AND CRISPR/Cas9 knockout AND RNAi screening AND transcriptomic profiling
+
+Genetic association studies have robustly implicated key complement system genes—complement factor H (CFH), complement component 3 (C3), and complement factor B (CFB)—in dry age‐related macular degeneration (AMD). Genome‐wide association studies (GWAS) have identified both common variants, such as the well‐characterized CFH Y402H allele, and rare variants in these genes, linking them directly to increased AMD risk and suggesting a pivotal role of complement dysregulation in disease pathogenesis (neiteler2019establishingahuman pages 135-138).
+
+Functional genomics methods have been harnessed in induced pluripotent stem cell (iPSC)–derived retinal pigment epithelium (RPE) models and patient‐derived RPE cells to translate these genetic findings into mechanistic insights. These models recapitulate many hallmarks of AMD pathology—for example, the presence of drusen-like deposits, elevated reactive oxygen species, impaired autophagy, and altered expression of complement pathway components—which supports their utility in studying gene–disease relationships in a physiologically relevant context (kaye2025theroleof pages 51-53, neiteler2019establishingahuman pages 29-33).
+
+For target validation, CRISPR/Cas9 genome editing has emerged as a critical tool. By generating specific knockouts in iPSC-derived RPE cells, this approach allows investigators to directly assess the functional consequences of disrupting CFH, C3, or CFB on RPE homeostasis and complement activation. Such gene disruption experiments have laid the groundwork for understanding how loss of function in these targets contributes to the complement-mediated inflammatory cascade seen in dry AMD (kaye2025theroleof pages 13-15, neiteler2019establishingahuman pages 163-166).
+
+Complementary to gene knockout strategies, RNA interference (RNAi) screening has been employed to systematically downregulate the expression of these complement factors. RNAi screening enables high-throughput evaluation of downstream effects when CFH, C3, or CFB levels are reduced, thereby revealing critical connections between complement regulation and processes such as oxidative stress, inflammation, and cell survival in RPE cells (atkinson2024usinginducedpluripotent pages 178-182, neiteler2019establishingahuman pages 155-158).
+
+Transcriptomic profiling, particularly through RNA sequencing (RNA-seq), serves as an additional layer of functional validation by offering a global perspective on gene expression changes triggered by complement dysregulation in these models. Comparative analyses between patient-derived iPSC-RPE cells bearing risk alleles and isogenic controls have uncovered specific gene expression signatures, including altered levels of extracellular matrix proteins, inflammatory mediators, and additional complement regulators. These transcriptomic changes not only corroborate genetic and cellular findings but also provide clues for potential therapeutic intervention points (kaye2025theroleof pages 304-307, neiteler2019establishingahuman pages 181-183).
+
+Further reinforcing these molecular insights, data from comprehensive platforms such as the Open Targets Platform lends additional support to the genetic and pharmacological relevance of CFH, C3, and CFB in dry AMD (OpenTargets Search: dry age-related macular degeneration-CFH,C3,CFB).
+
+In summary, the integration of genetic association studies with functional genomics using patient-derived and iPSC-derived RPE models—augmented by targeted validation approaches including CRISPR/Cas9-mediated knockout, RNAi screening, and transcriptomic profiling—provides a robust framework for dissecting the mechanistic roles of CFH, C3, and CFB in dry AMD. This multi-layered strategy bridges genetic epidemiology with cellular function and offers promising avenues for therapeutic targeting aimed at restoring complement regulation in the RPE.
+
+References:
+1. (kaye2025theroleof pages 51-53): R Kaye. The role of tetraspanin-10 in the retinal pigment epithelium and its influence in age-related macular degeneration. Unknown journal, 2025.
+
+2. (neiteler2019establishingahuman pages 135-138): A Neiteler. Establishing a human cell-based model system for macular degeneration. Unknown journal, Dec 2019. URL: https://doi.org/10.7488/era/8, doi:10.7488/era/8. This article has 2 citations.
+
+3. (OpenTargets Search: dry age-related macular degeneration-CFH,C3,CFB): Open Targets Query (dry age-related macular degeneration-CFH,C3,CFB, 12 results). Ochoa, D. et al. (2023). The next-generation Open Targets Platform: reimagined, redesigned, rebuilt. Nucleic Acids Research.
+
+4. (atkinson2024usinginducedpluripotent pages 178-182): R Atkinson. Using induced pluripotent stem cells to discover advanced therapies for pre-mrna processing factor linked retinitis pigmentosa. Unknown journal, 2024.
+
+5. (neiteler2019establishingahuman pages 181-183): A Neiteler. Establishing a human cell-based model system for macular degeneration. Unknown journal, Dec 2019. URL: https://doi.org/10.7488/era/8, doi:10.7488/era/8. This article has 2 citations.
+
+6. (neiteler2019establishingahuman pages 29-33): A Neiteler. Establishing a human cell-based model system for macular degeneration. Unknown journal, Dec 2019. URL: https://doi.org/10.7488/era/8, doi:10.7488/era/8. This article has 2 citations.
+
+7. (kaye2025theroleof pages 13-15): R Kaye. The role of tetraspanin-10 in the retinal pigment epithelium and its influence in age-related macular degeneration. Unknown journal, 2025.
+
+8. (kaye2025theroleof pages 304-307): R Kaye. The role of tetraspanin-10 in the retinal pigment epithelium and its influence in age-related macular degeneration. Unknown journal, 2025.
+
+9. (neiteler2019establishingahuman pages 155-158): A Neiteler. Establishing a human cell-based model system for macular degeneration. Unknown journal, Dec 2019. URL: https://doi.org/10.7488/era/8, doi:10.7488/era/8. This article has 2 citations.
+
+10. (neiteler2019establishingahuman pages 163-166): A Neiteler. Establishing a human cell-based model system for macular degeneration. Unknown journal, Dec 2019. URL: https://doi.org/10.7488/era/8, doi:10.7488/era/8. This article has 2 citations.

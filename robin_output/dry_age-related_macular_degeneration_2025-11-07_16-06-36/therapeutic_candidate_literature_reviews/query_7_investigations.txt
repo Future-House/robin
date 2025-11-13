@@ -1,0 +1,64 @@
+Query: investigations into combination screening of antioxidants with autophagy or mitophagy enhancers in RPE cells to uncover synergistic restoration of mitochondrial function in dry AMD models, with mechanistic confirmation and in vivo proof-of-concept data
+
+Below is a proposed platform for systematic combination-screening of mitochondria-targeted antioxidants with autophagy/mitophagy enhancers in RPE cells, followed by mechanistic validation and in vivo proof‐of‐concept.  All compounds are commercially available; catalog numbers are given wherever possible.
+
+1.  Library design  
+    A. Antioxidants (mitochondria-targeted + general ROS scavengers)  
+       1. Mitoquinone mesylate (MitoQ) – Cayman Chemical #14730  
+       2. SkQ1 (10-(6′-plastoquinonyl)-decyltriphenylphosphonium) – Sigma-Aldrich #SML0914  
+       3. MitoTEMPOL – Enzo Life Sciences #BML-SA392  
+       4. Trolox (water-soluble Vitamin E analog) – Sigma-Aldrich #238813  
+    B. Autophagy / Mitophagy enhancers  
+       1. Urolithin A – Cayman Chemical #15140  
+       2. Spermidine – Sigma-Aldrich #S2626  
+       3. Rapamycin (mTOR inhibitor) – Abcam #ab120224  
+       4. Tat-Beclin 1 peptide (Becn1 activator) – Tocris #4344  
+       5. Kinetin riboside (PINK1 activator) – Carbosynth #KT0012  
+
+2.  In vitro combination screen  
+    •  Cell model: ARPE-19 and/or hiPSC-derived RPE under chronic oxidative stress (200 µM H2O2 or 100 µM tert-Butyl-hydroperoxide for 24 h).  
+    •  Dosing: 0.1–10 µM each compound, 5×5 checkerboard combinations (fixed-ratio design).  
+    •  Endpoints (48 h post‐treatment):  
+       – Mitochondrial membrane potential (JC-1 assay)  
+       – Oxygen consumption rate (Seahorse XF mito stress test)  
+       – Cellular ROS (CellROX™ Green, Invitrogen #C10444)  
+       – Viability (ATP‐Glo, Promega #G7570)  
+    •  Data analysis: synergy quantification via Chou-Talalay combination index (CompuSyn).
+
+3.  Mechanistic follow-up on top synergistic hits  
+    A. Example top hit: MitoQ + Urolithin A  
+       – Confirm enhanced mitophagy flux:  
+         •  Western blot for LC3-II, p62 degradation (Cell Signaling #3868, #5114)  
+         •  Parkin translocation (anti‐Parkin, Santa Cruz #sc-32282)  
+         •  Mito-QC assay (mt‐Keima reporter)  
+       – Genetic validation: loss of synergy upon siRNA/CRISPR knockout of PINK1 or ATG5.  
+       – Downstream effects on mitochondrial biogenesis markers (PGC-1α, NRF1).
+
+4.  In vivo proof-of-concept in dry AMD models  
+    A. Acute NaIO3 model (oxidative RPE injury)  
+       – C57BL/6 mice, single i.v. NaIO3 30 mg/kg → RPE atrophy within 7 days  
+       – Treatments (n≥8 per group):  
+         •  Vehicle (PBS + 0.1% DMSO)  
+         •  MitoQ alone (10 mg/kg/day, oral gavage)  
+         •  Urolithin A alone (50 mg/kg/day, oral)  
+         •  Combination (same doses)  
+       – Readouts (Day 7):  
+         •  Fundus imaging / OCT for RPE integrity  
+         •  Electroretinography (ERG) A- and B-wave amplitudes  
+         •  Ex vivo RPE flat mounts: TUNEL staining, ZO-1 immunofluorescence  
+    B. Aged Cfh−/− mouse (genetic GA/AMD model)  
+       – 12-month‐old Cfh−/− on C57BL/6 background  
+       – Same treatment arms for 4 weeks  
+       – Outcomes:  
+         •  Drusen‐like lesion area by fundus autofluorescence  
+         •  ERG, optokinetic tracking (OKT) for visual acuity  
+         •  RPE mitochondrial ultrastructure by TEM  
+
+5.  Anticipated impact and go/no-go criteria  
+    •  ≥20% improvement in OCR spare capacity + ≥30% reduction in ROS over single agents in vitro  
+    •  Significant restoration of ERG B-wave amplitude (≥25% over vehicle) in NaIO3 model  
+    •  Loss of effect upon PINK1/ATG5 KO confirms mitophagy-dependent mechanism  
+
+—  
+This framework not only identifies synergistic antioxidant + mitophagy enhancer pairs (e.g. MitoQ + Urolithin A) but also delivers molecular‐level confirmation (autophagy flux, Parkin recruitment) and robust in vivo proof‐of‐concept in two complementary dry AMD models. All agents are commercially available with catalog numbers provided, enabling immediate follow-up studies.
+

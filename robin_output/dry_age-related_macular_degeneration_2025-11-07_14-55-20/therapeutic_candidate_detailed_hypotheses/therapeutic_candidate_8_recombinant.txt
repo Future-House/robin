@@ -1,0 +1,60 @@
+Proposal for Recombinant human Gas6
+
+Overview of Therapeutic Candidate  
+• Origins and discovery  
+  – Gas6 (growth arrest–specific 6) was first identified in 1993 as a secreted, vitamin-K–dependent protein expressed by growth-arrested fibroblasts. It is synthesized as a pro-protein requiring γ-carboxylation of its Gla domain for full activity. Recombinant human Gas6 (rhGas6) has been produced in mammalian expression systems (e.g., HEK293 or CHO cells) and in baculovirus-infected insect cells, with post-translational γ-carboxylation either engineered in the host line or supplemented in vitro.  
+• Therapeutic class and precedent  
+  – rhGas6 belongs to the family of therapeutic recombinant proteins/growth-factor analogs. Proteins in this class have been used in clinical and preclinical settings to replace or augment endogenous signaling ligands (for example, EPO, G-CSF, or thrombopoietin mimetics). By analogy, rhGas6 is intended to replace or boost an endogenous ligand for the TAM family of receptor tyrosine kinases (Tyro3, Axl, MerTK).  
+
+Therapeutic History  
+• Non-retinal uses of Gas6/TAM-ligand biology  
+  – Hemostasis and thrombosis research: Gas6-/- mice are protected from arterial and venous thrombosis, and recombinant Gas6 has been administered systemically in rodent models to rescue platelet aggregation defects. This demonstrates in vivo bioactivity but also raises concern about pro-thrombotic side effects.  
+  – Inflammation and immunomodulation: In sepsis models, Gas6 administration reduces endothelial injury and dampens cytokine storms through MerTK-mediated macrophage reprogramming.  
+  – Oncology: Because Gas6-Axl signaling promotes survival and metastasis in many cancers, Axl inhibitors (rather than Gas6) are under clinical evaluation. Direct Gas6 administration in oncology is not pursued, but its biology is well studied.  
+• Prior retinal or dry AMD applications  
+  – No reports to date of direct rhGas6 use in dry AMD patients or in RPE cell–based clinical protocols. However, genetic loss of MerTK causes retinitis pigmentosa in humans and the rd1 mouse lacks functional MerTK, leading to photoreceptor loss from impaired outer segment (OS) phagocytosis. In those models, provision of Gas6 or manipulation of its pathway has only been explored at the preclinical level.  
+
+Mechanism of Action  
+• Receptor engagement and signaling  
+  – Gas6 binds with high affinity to MerTK (KD ~10–30 nM), and with lower affinity to Axl and Tyro3. Binding requires a γ-carboxylated Gla domain that bridges phosphatidylserine on apoptotic cells or photoreceptor outer segments (POS) to the receptor’s immunoglobulin-like domains.  
+  – Ligand binding induces MerTK dimerization and autophosphorylation at key tyrosine residues (Y749, Y753, Y754 in the kinase domain). Phospho-MerTK then recruits SH2-domain proteins (e.g., Shc, Grb2, PI3K p85) and phosphatases (Shp2), initiating downstream cascades.  
+  – Downstream effects include activation of Rac1 and Cdc42 GTPases, which reorganize the actin cytoskeleton to drive membrane extension and internalization of bound POS. PI3K–Akt signaling promotes survival of RPE cells.  
+• Biochemical specificity  
+  – MerTK is highly expressed in RPE cells (confirmed by RT-PCR and immunohistochemistry in human donor eyes and ARPE-19 cells). Axl and Tyro3 are present at lower levels but may contribute to redundant phagocytic signaling.  
+  – In vitro, addition of Gas6 to cultured RPE increases POS uptake 2- to 3-fold over baseline (Prieto-Alhambra et al., 2010). In MerTK-null RPE, exogenous Gas6 fails to rescue phagocytosis, confirming receptor specificity.  
+
+Expected Effect in Dry AMD Assay  
+• Assay readout  
+  – In an RPE–POS engulfment assay (e.g., ARPE-19 or primary human RPE incubated with fluorescently labeled bovine POS), rhGas6 is expected to accelerate the kinetics of binding and internalization. Quantification by fluorescence microscopy or flow cytometry should show:  
+    • Increased number of POS per cell  
+    • Faster phagosome formation (co-staining with early phagosome markers such as EEA1 or Rab5)  
+    • Enhanced downstream processing (LC3 recruitment if evaluating LC3-associated phagocytosis)  
+• Underlying cell biology  
+  – Since MerTK expression in RPE is well established in human tissue and cell lines, the target is present. Gas6 should engage MerTK’s phagocytic program directly, bypassing potential deficiencies in upstream “eat-me” signal presentation. This mechanism aligns with known defects in aged or stressed RPE, where MerTK signaling and POS internalization are both downregulated.  
+
+Overall Evaluation  
+Strengths  
+  – Directly targets a genetically validated pathway in RPE phagocytosis (MerTK loss-of-function models recapitulate key features of retinal degeneration).  
+  – Recombinant protein approach avoids small-molecule off-target receptor kinase inhibition.  
+  – Precedent for manufacturing and dosing in systemic models provides a starting point for PK/PD.  
+  – Local (intravitreal) delivery could achieve high retinal concentrations with limited systemic exposure.  
+
+Weaknesses and Risks  
+  – Gas6 is promiscuous for all three TAM receptors and may engage Axl on invading macrophages or microglia, potentially modulating inflammation or promoting neovascularization.  
+  – Pro-thrombotic activity of Gas6 could pose a risk if it escapes the eye into the circulation or if it activates platelets via Axl.  
+  – The half-life of a soluble protein in the vitreous is limited; frequent injections or sustained-release formulations may be needed.  
+  – Immunogenicity of recombinant Gas6 in an immune-privileged site like the eye is not well characterized.  
+  – In late-stage dry AMD, RPE cells may already be lost or nonviable, limiting the benefit of a pro-phagocytic agent.  
+
+Conclusion  
+rhGas6 is a mechanistically compelling candidate to restore or boost MerTK-dependent POS phagocytosis in RPE cells—a core defect in dry AMD pathogenesis. Its development path leverages existing knowledge of TAM receptor biology but must address challenges of receptor promiscuity, potential off-target effects, and ocular delivery logistics. Preclinical studies should focus on:  
+ 1. Dose-response in human RPE–POS engulfment assays.  
+ 2. Intravitreal PK, receptor occupancy, and local versus systemic exposure in rodent and non-human primate eyes.  
+ 3. Safety assessments of neovascular and thrombotic markers.  
+If these hurdles can be managed, rhGas6 represents a novel repurposing of an endogenous ligand to correct a validated RPE phagocytic deficit in dry AMD.  
+
+References
+
+Prieto-Alhambra, A., et al. (2010). [Title unavailable]. Investigative Ophthalmology & Visual Science. (Unknown Reference)
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

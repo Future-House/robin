@@ -1,0 +1,52 @@
+Query: profiling of mitochondrial DNA damage, deletions, and heteroplasmy in RPE cells during dry AMD progression, and evaluation of compounds enhancing mitochondrial DNA repair or mitohormesis in relevant models
+
+Below are six commercially available small molecules—each with a defined mitochondrial‐repair or mitohormetic mechanism—for testing in RPE models of dry AMD. All have strong mechanistic rationale for enhancing mitochondrial DNA (mtDNA) integrity or promoting adaptive mitochondrial stress responses, yet (to our knowledge) have not been advanced in dry AMD. Suggested assays include long‐amplicon qPCR for mtDNA lesion/deletion load, digital droplet PCR for heteroplasmy shifts, Seahorse XF analyses, ROS measurement, and RPE survival under chronic oxidative stress.
+
+1. ZLN005  
+   • Mechanism: Selective transcriptional activator of PGC-1α (PPARGC1A), master regulator of mitochondrial biogenesis, DNA repair genes (e.g. POLG, OGG1).  
+   • Target Validation: PGC-1α knockdown in RPE increases mtDNA damage and accelerates drusen‐like deposits; overexpression rescues.  
+   • Preclinical Evidence: ZLN005 (10–30 µM) upregulates PGC-1α and mitochondrial genes in HepG2 and C2C12 cells; shown to increase mtDNA copy number, reduce ROS.  
+   • Catalog#: Tocris #5180  
+   • Proposed RPE studies: 10 µM ZLN005 for 48 h, monitor mtDNA lesion frequency and copy number vs. vehicle.
+
+2. SS-31 (Elamipretide)  
+   • Mechanism: Mitochondria‐targeted tetrapeptide that binds cardiolipin, stabilizes inner‐membrane supercomplexes, enhances electron transport, reduces mtROS, and facilitates mitochondrial turnover (mitophagy).  
+   • Target Validation: Cardiolipin oxidation precedes RPE degeneration in dry AMD; SS-31 restores membrane potential in aged RPE.  
+   • Preclinical/Clinical Evidence: Improves mitochondrial structure/function in models of ischemia, neurodegeneration; phase 2 trials in mitochondrial myopathies.  
+   • Catalog#: Cayman Chemical #18428  
+   • Proposed RPE studies: 1 µM SS-31 co-treatment during chronic H₂O₂ challenge, assess mtDNA deletion burden (long-PCR) and heteroplasmy by NGS.
+
+3. Urolithin A  
+   • Mechanism: Gut‐microbiome–derived metabolite that activates mitophagy via AMPK/ULK1 and upregulates Parkin/PINK1 axis; enhances mitochondrial turnover and quality control.  
+   • Target Validation: Impaired mitophagy in RPE from dry AMD donors; boosting clearance of damaged mitochondria normalizes mtDNA integrity.  
+   • Preclinical Evidence: Oral dosing (50 mg/kg) in rodents increases mitophagy in muscle, improves mitochondrial markers; ongoing clinical trials in elderly.  
+   • Catalog#: Sigma–Aldrich #SML1791  
+   • Proposed RPE studies: 5–10 µM UA for 72 h, quantify mitophagy (mt‐Keima reporter) and subsequent changes in mtDNA damage vs. control.
+
+4. Nicotinamide Mononucleotide (NMN)  
+   • Mechanism: NAD+ precursor that bolsters PARP-mediated DNA repair, SIRT3/4–dependent deacetylation of mitochondrial repair enzymes (e.g. OGG1), supports mitohormesis.  
+   • Target Validation: NAD+ levels decline in aged RPE; supplementation rescues mitochondrial function and reduces oxidative lesions in mtDNA.  
+   • Preclinical Evidence: NMN (100–500 µM) restores mitochondrial respiration in senescent fibroblasts and protects against light-induced retinal damage in mice.  
+   • Catalog#: Sigma–Aldrich #N3501  
+   • Proposed RPE studies: 250 µM NMN for 48 h, measure NAD+/NADH, γH2A.X for mtDNA strand breaks, and long-PCR lesion assays.
+
+5. Mitochonic Acid-5 (MA-5)  
+   • Mechanism: Binds mitofilin (Mic60), enhances cristae stability, promotes ATP synthesis, and activates mitochondrial unfolded‐protein response (UPRmt) to upregulate DNA repair pathways.  
+   • Target Validation: Cristae disorganization and impaired UPRmt identified in AMD RPE; MA-5 shown to improve mitochondrial ultrastructure in fibroblasts from mitochondrial disease patients.  
+   • Preclinical Evidence: MA-5 (1–10 µM) rescues ATP levels and reduces ROS in MELAS and Leigh‐syndrome cells; prolongs C. elegans lifespan via UPRmt.  
+   • Catalog#: MedChemExpress #HY-104308  
+   • Proposed RPE studies: 5 µM MA-5, evaluate UPRmt markers (ATF5, HSP60), mtDNA deletion frequency, and cell survival under chronic low-grade oxidative stress.
+
+6. EPI-743 (Vatiquinone)  
+   • Mechanism: Para-benzoquinone antioxidant that replenishes reduced glutathione, modulates NADPH:quinone oxidoreductase-1 (NQO1), and indirectly supports base‐excision repair of mtDNA.  
+   • Target Validation: Oxidative base lesions (8-oxoG) are elevated in AMD RPE; boosting detoxification reduces substrate for mutagenic mtDNA damage.  
+   • Preclinical/Clinical Evidence: Improves mitochondrial respiratory chain function in Leigh syndrome models; pilot studies in Friedreich’s ataxia show biomarkers of oxidative damage decrease.  
+   • Catalog#: MedChemExpress #HY-113361  
+   • Proposed RPE studies: 0.5–2 µM EPI-743, quantify 8-oxoG levels in mtDNA by LC-MS/MS and lesion removal kinetics via OGG1 activity assay.
+
+Next steps in your dry AMD pipeline:  
+• Baseline profiling: long‐amplicon qPCR, digital droplet PCR for heteroplasmy, single‐cell mtDNA sequencing in RPE from donors vs. age‐matched controls to stratify damage signatures.  
+• Acute vs. chronic challenge: apply sublethal oxidative stress (e.g. 200 µM H₂O₂ or blue-light irradiation) and measure mtDNA damage kinetics with/without compounds.  
+• Endpoints: mtDNA copy number; frequency of common deletions (e.g. “mtDNA4977”); heteroplasmy shifts; mitochondrial membrane potential; RPE barrier integrity (TEER assays).  
+• Hits prioritization: compounds that restore mtDNA integrity without broad transcriptional changes (RNA-seq), minimal off‐target effects on nuclear DNA repair, and preserve RPE phenotype (RPE65, CRALBP).
+

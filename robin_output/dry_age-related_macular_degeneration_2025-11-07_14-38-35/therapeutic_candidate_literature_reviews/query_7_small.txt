@@ -1,0 +1,62 @@
+Query: Small molecules targeting inflammatory cytokines (IL-1β, TNF-α, IL-6 signaling inhibitors) AND evaluation of RPE barrier function preservation via TEER and permeability assays in dry AMD in vitro or in vivo models, including mechanistic pathway confirmation studies
+
+1. Hypothesis: A selective IL-1 receptor antagonist (e.g., anakinra derivative) preserves RPE tight junction integrity by blocking NLRP3-driven IL-1β release.  
+   • Assay: Treat ARPE-19 monolayers with recombinant IL-1β ± antagonist; measure TEER and FITC-dextran flux.  
+   • Mechanistic readouts: Western blot for NLRP3, ASC speck formation, caspase-1 cleavage, ZO-1/occludin localization by immunofluorescence.
+
+2. Hypothesis: TNF-α blockade with a small-molecule TNFR1 inhibitor prevents NF-κB–mediated downregulation of claudin-19 in RPE cells.  
+   • Assay: Expose primary human RPE to TNF-α ± inhibitor; monitor TEER and Lucifer Yellow permeability.  
+   • Mechanistic readouts: p65 nuclear translocation (immunocytochemistry), IκBα phosphorylation, claudin-19 mRNA/protein levels.
+
+3. Hypothesis: An IL-6 trans-signaling inhibitor (sgp130Fc mimetic) maintains RPE barrier function by inhibiting JAK/STAT3 activation.  
+   • Assay: Stimulate ARPE-19 with IL-6/sIL-6R ± sgp130Fc; assess TEER, 4 kDa dextran leakage.  
+   • Mechanistic readouts: STAT3 Tyr705 phosphorylation, SOCS3 induction, tight junction protein expression.
+
+4. Hypothesis: Dual inhibition of IL-1β and TNF-α (via a bivalent small molecule) synergistically prevents RPE barrier breakdown under oxidative stress.  
+   • Assay: H2O2 + IL-1β + TNF-α challenge on RPE monolayers with/without compound; TEER and permeability.  
+   • Mechanistic readouts: ROS levels (DCFDA), NF-κB and p38 MAPK phosphorylation, ZO-1 continuity by confocal microscopy.
+
+5. Hypothesis: A TACE (ADAM17) inhibitor reduces shedding of TNF-α and IL-6 receptor, thereby protecting RPE barrier integrity.  
+   • Assay: Treat RPE cells with LPS to induce TACE activity ± inhibitor; TEER and FITC-albumin flux.  
+   • Mechanistic readouts: Soluble TNF-α/sIL-6R in supernatant (ELISA), membrane-bound TNFR1/IL-6R levels, tight junction protein assays.
+
+6. Hypothesis: Small-molecule JAK2 inhibitor preserves RPE barrier by blocking IL-6–induced STAT3-driven MMP-9 expression.  
+   • Assay: IL-6 treatment of RPE ± JAK2 inhibitor; TEER and 70 kDa dextran assay.  
+   • Mechanistic readouts: MMP-9 activity (gel zymography), STAT3 phosphorylation, claudin-1 immunoblot.
+
+7. Hypothesis: Inhibition of p38 MAPK downstream of TNF-α prevents phosphorylation and internalization of occludin in RPE cells.  
+   • Assay: TNF-α + p38 inhibitor challenge; measure TEER and small-molecule permeability.  
+   • Mechanistic readouts: p38 and HSP27 phosphorylation, occludin cellular distribution, transepithelial fluorescein accumulation.
+
+8. Hypothesis: Targeting the IL-1β–MyD88–IRAK4 axis with a IRAK4 inhibitor maintains RPE barrier under inflammatory stress.  
+   • Assay: IL-1β stimulation ± IRAK4i; TEER and Lucifer Yellow permeability on ARPE-19 monolayers.  
+   • Mechanistic readouts: MyD88–IRAK4 complex formation (co-IP), NF-κB–driven cytokine mRNA, ZO-1 continuity.
+
+9. Hypothesis: A small-molecule inhibitor of IL-6–mediated ERK1/2 activation stabilizes RPE barrier by preventing junctional disassembly.  
+   • Assay: IL-6 ± MEK inhibitor on RPE cells; TEER and dextran permeability.  
+   • Mechanistic readouts: ERK1/2 phosphorylation kinetics, E-cadherin/occludin co-localization, barrier recovery time-course.
+
+10. Hypothesis: Modulating microglia-RPE crosstalk via a TNF-α neutralizing small molecule prevents secondary RPE barrier loss.  
+    • Assay: Co-culture human microglia and RPE with LPS stimulation ± TNF-α inhibitor; measure RPE TEER.  
+    • Mechanistic readouts: Microglial TNF-α secretion, RPE NF-κB activation, tight junction immunostaining.
+
+11. Hypothesis: A dual IL-1β/IL-6 PROTAC degrader reduces chronic cytokine signaling in RPE, preserving barrier in sodium iodate–induced dry AMD mice.  
+    • In vivo assay: Daily PROTAC dosing; ex vivo RPE flat mounts for permeability tracer penetration.  
+    • Mechanistic readouts: Retinal IL-1β/IL-6 levels, pSTAT3/p65 immunohistochemistry, ZO-1 continuity on RPE.
+
+12. Hypothesis: Activation of Nrf2 by a small‐molecule electrophile suppresses IL-1β– and TNF-α–induced barrier dysfunction via upregulation of antioxidant genes.  
+    • Assay: RPE cells with cytokine ± Nrf2 inducer; TEER and ROS-sensitive dye permeability.  
+    • Mechanistic readouts: Nrf2 nuclear translocation, HO-1/NQO1 expression, preservation of tight junction proteins.
+
+13. Hypothesis: A STAT3–DNA binding inhibitor mitigates IL-6–mediated transcription of pro-inflammatory genes, restoring RPE barrier function.  
+    • Assay: Treat IL-6–activated RPE with STAT3 DBD inhibitor; measure TEER and dextran flux.  
+    • Mechanistic readouts: ChIP for STAT3 at MMP-9/IL-8 promoters, qPCR of target genes, ZO-1/occludin levels.
+
+14. Hypothesis: A bromodomain inhibitor prevents TNF-α–induced epigenetic upregulation of barrier‐disrupting genes in RPE.  
+    • Assay: Expose RPE to TNF-α ± BET inhibitor; TEER and dextran permeability assays.  
+    • Mechanistic readouts: BRD4 occupancy at IL-1β/MMP promoters (ChIP), target gene expression, tight junction immunofluorescence.
+
+15. Hypothesis: A small molecule targeting IRF5 downstream of IL-6 reduces inflammatory chemokine release, preserving RPE monolayer integrity in dry AMD models.  
+    • Assay: IL-6 + IRF5 inhibitor on ARPE-19; TEER and permeability.  
+    • Mechanistic readouts: IRF5 phosphorylation, chemokine (CCL2/CXCL10) ELISA, tight junction protein distribution.
+

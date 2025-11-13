@@ -1,0 +1,47 @@
+Query: Characterization of autophagy-lysosomal pathway impairment in human RPE cells under oxidative and lipofuscin-induced stress in dry AMD: mechanistic insights into LC3-II flux assays, p62/SQSTM1 accumulation, high-content screening approaches and therapeutic target validation
+
+1. Activation of Nrf2 to rescue autophagy flux  
+   Mechanistic hypothesis: Sulforaphane‐mediated Nrf2 activation in ARPE-19 cells upregulates Atg5/Atg7 expression under combined A2E and H₂O₂ stress, increasing LC3-II turnover and reducing p62/SQSTM1 accumulation. Test via LC3-II flux assays, p62 immunoblotting, qPCR of autophagy genes and high-content imaging of p62 puncta.
+
+2. mTORC1 inhibition to restore lysosomal acidification  
+   Therapeutic strategy: Low-dose rapamycin treatment normalizes lysosomal pH (LysoSensor staining), enhances autophagic flux (LC3-II flux ± bafilomycin), and decreases autofluorescent lipofuscin granules in RPE cells under oxidative stress.
+
+3. TFEB overexpression for lysosomal biogenesis  
+   Mechanistic hypothesis: Adenoviral or lentiviral TFEB overexpression drives Lamp1/2 upregulation and increases autophagosome-lysosome fusion in A2E-laden RPE, lowering intracellular lipofuscin and improving cell viability. Assess by TFEB nuclear localization, Lamp1 immunofluorescence, LC3-p62 turnover.
+
+4. Cathepsin D augmentation to enhance degradation  
+   Therapeutic strategy: Overexpress or supply recombinant cathepsin D in RPE under lipofuscin stress to restore lysosomal proteolytic capacity, measured by Magic Red cathepsin assays, decreased p62 levels and improved autophagosome clearance.
+
+5. Trehalose-induced AMPK/TFEB activation  
+   Mechanistic hypothesis: Trehalose treatment activates AMPK, promotes TFEB nuclear translocation, and rescues autophagy flux blockade in H₂O₂-stressed RPE. Validate via phospho-AMPK, TFEB immunostaining, LC3-II flux and p62 assays.
+
+6. P38 MAPK inhibition to relieve ULK1 blockade  
+   Mechanistic hypothesis: Oxidative stress–activated P38 MAPK phosphorylates ULK1 at inhibitory sites in RPE, reducing autophagy initiation. SB203580 restores ULK1 activity, LC3 lipidation and decreases p62 bodies. Test by ULK1 phospho-site immunoblots and flux assays.
+
+7. NRBF2 overexpression to boost phagophore formation  
+   Mechanistic hypothesis: NRBF2 is downregulated under A2E/H₂O₂ stress; its overexpression increases WIPI2 puncta, enhances LC3-II flux and reduces lipofuscin-induced cytotoxicity. Quantify early autophagy markers and autophagosome numbers.
+
+8. V-ATPase activation to normalize lysosomal pH  
+   Therapeutic strategy: Apply small-molecule V-ATPase activators (e.g., ML-SA1) to restore lysosomal acidification, elevate cathepsin activity and clear p62 aggregates in stressed RPE. Monitor pH, cathepsin activity and autophagic flux.
+
+9. MitoQ to prevent ROS-induced LMP  
+   Mechanistic hypothesis: Mitochondrial ROS in RPE triggers lysosomal membrane permeabilization (LMP) and p62 buildup. MitoQ prevents LMP (galectin-3 recruitment assay), preserves LC3 flux and reduces p62 puncta under oxidative stress.
+
+10. Cyclodextrin-mediated cholesterol efflux  
+    Therapeutic strategy: Treat lipofuscin-loaded RPE with methyl-β-cyclodextrin to enhance cholesterol efflux, inhibit lipofuscin formation, restore lysosomal function (LysoTracker), and increase autophagy flux (LC3/p62 assays).
+
+11. HDAC6 inhibition to improve autophagosome trafficking  
+    Mechanistic hypothesis: Oxidative stress enhances HDAC6 activity, deacetylating α-tubulin and impairing autophagosome motility. Tubastatin A restores microtubule acetylation, increases autophagosome-lysosome fusion and reduces p62 accumulation.
+
+12. TRPML1 channel activation for lysosomal Ca²⁺ release  
+    Therapeutic strategy: Activate TRPML1 in RPE with ML-SA1 to promote Ca²⁺-dependent TFEB nuclear translocation, enhance autophagy gene expression and clear A2E-induced lipofuscin. Validate by Ca²⁺ imaging, TFEB localization and LC3 flux.
+
+13. Rubicon knockdown to relieve autophagy inhibition  
+    Mechanistic hypothesis: Rubicon is upregulated in lipofuscin-stressed RPE, blocking autophagosome maturation. siRNA against Rubicon increases LC3-II flux, decreases p62 puncta and improves cell survival under oxidative stress.
+
+14. High-content screening for autophagy enhancers  
+    Strategy: Screen an FDA-approved compound library in A2E-charged RPE using high-content imaging to identify hits that reduce p62/SQSTM1 bodies and increase LC3 puncta. Follow up with dose–response flux assays and lysosomal function tests.
+
+15. Nanoparticle co-delivery of rapamycin and recombinant TFEB  
+    Therapeutic strategy: Engineer lipid-polymer nanoparticles carrying rapamycin and recombinant TFEB protein to synergistically inhibit mTORC1 and boost lysosomal biogenesis in RPE. Assess efficacy by combined LC3-p62 flux assays, lysosomal marker quantification and lipofuscin clearance.
+

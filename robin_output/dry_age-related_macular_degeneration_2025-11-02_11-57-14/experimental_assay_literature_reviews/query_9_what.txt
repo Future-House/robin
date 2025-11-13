@@ -1,0 +1,65 @@
+Query: What design parameters and assay performance metrics (Z’-factor, signal-to-noise, robustness, reproducibility, throughput, miniaturization, automation compatibility) are critical for developing a high-throughput RPE cell assay platform targeting dry AMD mechanisms?
+
+Key design parameters for a high-throughput RPE assay targeting dry AMD mechanisms  
+1. Cell model and differentiation state  
+   • Human iPSC-derived RPE (bestrophin+, RPE65+, MITF+) or well-characterized ARPE-19 subclones.  
+   • Confirmation of polarized monolayer by TEER (>150–200 Ω·cm²) and tight-junction markers (ZO-1).  
+
+2. Plate format and miniaturization  
+   • 96-, 384- or 1,536-well plates; goal volume 5–20 µL/well to conserve cells and reagents.  
+   • Low-evaporation lids, cell-friendly coatings (e.g. Matrigel, laminin) for uniform attachment.  
+
+3. Seeding density and uniformity  
+   • Optimize for a confluent, differentiated monolayer (e.g. 10–20k cells/well in 384-well).  
+   • Automated dispensing and real-time imaging QC to ensure ≤10% well-to-well variation.  
+
+4. Dry AMD–relevant stressors & readouts  
+   • A2E or lipofuscin precursor loading + blue-light exposure; H₂O₂ or menadione for oxidative stress; C3a/C5a for complement activation.  
+   • Endpoints: ROS (e.g. CellROX), mitochondrial membrane potential (JC-1), lysosomal integrity (LysoTracker), autophagy flux (LC3 reporter), phagocytosis (FITC-labeled POS), barrier function (TEER).  
+
+5. Assay kinetics and timing  
+   • Acute (4–24 h) and chronic (48–72 h) stress windows to capture early vs late phenotypes.  
+   • Time-lapse or fixed-timepoint formats depending on readout.  
+
+6. Signal detection modality  
+   • High-content fluorescence imaging for subcellular phenotypes or plate-reader–based luminescence/fluorescence for viability and ROS.  
+   • Multiplexing potential (e.g. viability + ROS in same well).  
+
+7. Reagent stability & DMSO tolerance  
+   • Verified stability of fluorescent probes under assay conditions.  
+   • Tolerance to ≥0.5–1% DMSO in culture without perturbing baseline.  
+
+8. Automation compatibility  
+   • Robotic liquid handlers for cell plating, media changes, compound addition.  
+   • Integration with automated incubator, dispenser and high-content imager or plate reader.  
+
+Critical assay performance metrics  
+1. Z′-factor  
+   • ≥0.5 for screening suitability; ideally >0.6–0.7 to ensure a clear separation of positive/negative controls.  
+
+2. Signal-to-background (S/B) and signal-to-noise (S/N)  
+   • S/B ≥5 and S/N ≥10 to detect modest modulators of RPE stress pathways.  
+
+3. Coefficient of variation (CV)  
+   • Intra-plate CV <10%; inter-plate CV <15% across days and operators.  
+
+4. Dynamic range (assay window)  
+   • ≥3-fold change between vehicle and maximal perturbation control.  
+
+5. Throughput  
+   • ≥1,000–5,000 wells screened per day per instrument (depending on plate format).  
+
+6. Reproducibility  
+   • Plate-to-plate R² ≥0.9 for control wells across ≥3 independent runs.  
+
+7. Robustness / stability  
+   • ≤10% drift in control signals over a screening campaign (e.g. 5–10 plates/day for 2–3 weeks).  
+
+8. Miniaturization efficiency  
+   • Consistent readouts at reduced volumes (5–10 µL) to cut costs while preserving data quality.  
+
+9. Automation compatibility  
+   • Seamless integration with standard liquid-handling decks, stackers and imaging/workflow software to minimize manual interventions and error rates.  
+
+By optimizing each of these parameters, you establish a scalable, reliable RPE-based platform that can sensitively detect modulators of oxidative stress, mitochondrial dysfunction, autophagy, complement activation and other dry AMD–relevant pathways in a true high-throughput format.
+

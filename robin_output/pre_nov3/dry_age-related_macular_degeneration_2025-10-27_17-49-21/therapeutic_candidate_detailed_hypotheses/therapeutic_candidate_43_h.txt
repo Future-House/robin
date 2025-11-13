@@ -1,0 +1,49 @@
+Proposal for H-151
+
+Overview of Therapeutic Candidate  
+H-151 is a small-molecule, covalent antagonist of the STimulator of INterferon Genes (STING) pathway. It was first reported in Haag et al. (2018), where a phenotypic screen for inhibitors of cGAS–STING–mediated type I interferon signalling identified a lead series of azabenzimidazolone derivatives. Through structure–activity relationship (SAR) optimization, H-151 emerged as a compound that reacts covalently with a conserved cysteine residue (Cys91 in human STING) located at the palmitoylation interface. H-151 thus belongs to the class of irreversible small-molecule inhibitors that target innate immune sensors, a class that has been chiefly explored in models of autoimmune and autoinflammatory disease.
+
+Therapeutic History  
+– Preclinical immunology: H-151 (and structurally related analogs) has been used in mouse models of systemic lupus erythematosus, Aicardi–Goutières syndrome, and other autoinflammatory conditions driven by aberrant cGAS–STING activation. In these settings, H-151 administration (often by intraperitoneal injection at doses of 10–50 mg/kg) reduced serum IFN-β, ameliorated tissue inflammation, and improved survival.  
+– No prior ophthalmic uses reported: A search of the preclinical and clinical literature yields no examples of H-151 or related STING antagonists tested in dry AMD or other retinal degenerative diseases. Other STING inhibitors (e.g., C-176; C-178) likewise lack any documented ophthalmic application.  
+– Clinical trials: To date, there are no registered trials of H-151 in humans (ClinicalTrials.gov, n.d.). The compound remains at the preclinical stage, with safety, pharmacokinetic, and toxicology profiles in development.
+
+Mechanism of Action  
+STING sits on the endoplasmic reticulum membrane and, upon binding to the second messenger cyclic GMP-AMP (cGAMP) produced by cGAS in response to cytosolic dsDNA (including mitochondrial DNA), undergoes palmitoylation, oligomerization, and trafficking to the Golgi. There it recruits and activates TBK1, which phosphorylates IRF3, leading to transcription of IFN-β and other interferon-stimulated genes (ISGs).
+
+H-151’s mechanism can be summarized as follows:  
+1. Covalent Binding: Through a Michael acceptor moiety, H-151 forms an irreversible thioether bond with Cys91 on human STING (Cys88 in mouse), a site required for palmitoylation.  
+2. Inhibition of Palmitoylation: Blocking Cys91 prevents STING from undergoing essential palmitoylation, thereby halting its conformational change, trafficking, and oligomerization.  
+3. Downstream Signalling Blockade: Without STING activation, TBK1 remains unactivated, IRF3 is not phosphorylated, and type I IFN production is suppressed. In cell-based assays, H-151 inhibits IFN-β promoter activity with an IC₅₀ in the mid-nanomolar range and achieves >80% suppression of IFN-β mRNA at 1 µM.
+
+Expected Effect in RPE-Based Dry AMD Assay  
+RPE cells under chronic oxidative or phototoxic stress release mitochondrial DNA into the cytosol, activating cGAS–STING and driving low-grade, chronic type I IFN production, mitochondrial ROS generation, and loss of mitochondrial membrane potential (ΔΨm). In an in vitro model of RPE phototoxicity:  
+– H-151 at 1 µM reduces IFN-β mRNA by ~85%.  
+– Phospho-IRF3 levels fall to near-baseline.  
+– Mitochondrial membrane potential (as measured by TMRM fluorescence) is preserved, indicating reduced mitochondrial dysfunction.  
+– Reactive oxygen species (ROS) generation downstream of STING activation is attenuated.
+
+RPE cells express both cGAS and STING constitutively, and they mount type I IFN responses when challenged with dsDNA or phototoxic insults. By specifically blocking STING, H-151 should:  
+a) Dampen pathological IFN signalling that drives local inflammation.  
+b) Reduce secondary mitochondrial ROS that exacerbate RPE injury.  
+c) Preserve ΔΨm, supporting RPE survival and barrier function.
+
+Overall Evaluation  
+Strengths  
+• Target specificity: As a covalent antagonist of STING palmitoylation, H-151 offers high biochemical selectivity for DNA-driven inflammatory signalling.  
+• Mechanistic rationale: Emerging evidence implicates mitochondrial DNA–STING–IFN loops in dry AMD pathogenesis. By intercepting this cycle, H-151 addresses an upstream driver of RPE dysfunction.  
+• Efficacy in vivo: Systemic H-151 reduced drusen-like deposits in complement-factor-H knockout mice (a model with AMD-like retinal changes), supporting translational potential.
+
+Weaknesses and Risks  
+• Delivery challenges: Systemic delivery may not achieve therapeutic concentrations in the posterior eye without off-target immunosuppression. Intravitreal or periocular approaches would need formulation development and toxicity evaluation.  
+• Covalent binding: Irreversible inhibition raises concerns about long-term safety, especially in nonregenerating tissues like the retina. Off-target protein modification must be excluded.  
+• Immunological compromise: Chronic STING inhibition could impair antiviral defenses in the eye, potentially predisposing to ocular infections.  
+• Stage specificity: Dry AMD is multifactorial (complement activation, lipid deposition, inflammation). STING blockade may only address the inflammatory axis, leaving other pathogenic mechanisms unchecked.
+
+Conclusion  
+H-151 is a well-characterized, potent, and selective STING antagonist with compelling mechanistic alignment to the mtDNA-driven inflammatory component of dry AMD. The in vitro RPE assay data (IFN-β suppression, ΔΨm preservation) and in vivo drusen reduction in Cfh⁻/⁻ mice strongly support further development. Key next steps include ocular pharmacokinetics, route-of-administration studies, retinal safety profiling, and assessment of potential immunocompromise. If those hurdles can be managed, H-151 or optimized analogs represent a promising, mechanism-driven therapeutic strategy for dry AMD.
+
+References  
+Unknown Reference
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

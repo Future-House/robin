@@ -1,0 +1,43 @@
+Hypothesis: Drusen deposit assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Drusen deposit assay
+Reasoning: Quantify basal deposits of APOE and collagen IV on transwell membranes in hiPSC-RPE after prolonged culture with AMD serum and test deposit inhibitors; hiPSC-RPE recapitulate drusen‐like extracellular matrix with complement augmentation (dalvi2019pluripotentstemcells pages 11-13; bharti2022cellculturemodels pages 16-17).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+The assay utilizes hiPSC‐derived RPE cells cultured on transwell membranes to model RPE‐derived drusen formation. Prolonged culture with AMD serum induces the formation of basal extracellular deposits enriched in apolipoprotein E (APOE) and collagen IV, with concurrent activation of complement components such as C5b‐9. Quantification will be achieved by immunostaining and proteomic methods to measure deposit formation and assess complement augmentation (forest2015developmentofcell pages 36-41, bharti2022cellculturemodels pages 12-14).
+
+Biomedical Evidence:  
+Drusen deposition is a hallmark of dry age‐related macular degeneration and directly contributes to disease pathogenesis by promoting chronic inflammation, complement dysregulation, and subsequent RPE/photoreceptor degeneration. The local synthesis and accumulation of APOE and ECM proteins by RPE, combined with complement activation, are central to early AMD pathology as demonstrated by multiple studies (bharti2022cellculturemodels pages 16-17, forest2015developmentofcell pages 17-21). This model reflects these pathogenic processes and supports its relevance in elucidating disease mechanisms and therapeutic intervention points (hageman2001anintegratedhypothesis pages 10-13).
+
+Previous Use:  
+Previous investigations have successfully employed hiPSC‐RPE transwell assays to recapitulate drusen‐like deposit formation, demonstrating genotype‐dependent responses and the capability to screen compounds that inhibit deposit accumulation and complement activation. These studies have highlighted both the mechanistic insights and proof‐of-concept in drug discovery for AMD (bharti2022cellculturemodels pages 12-14, mesch2021towardsanina pages 24-27).
+
+Overall Evaluation:  
+Strengths of the assay include its mechanistic relevance, ability to quantify specific RPE-derived deposit components, and its suitability for early-stage screening of deposit inhibitors. Weaknesses include the reductionist nature of a monoculture system, which does not fully capture the complexity of Bruch’s membrane, choroidal, and immune cell interactions, and the need for prolonged culture durations to achieve mature deposit formation (mesch2021towardsanin pages 24-27, mesch2021towardsanina pages 77-79).
+
+This assay is a promising platform for screening therapeutics aimed at modulating RPE-driven basal deposit formation in dry AMD. However, complementary models will be necessary to address the full spectrum of disease complexity and to validate translational potential.
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/e8e69c53-3246-4ef3-abd2-4931487ded7a
+
+References:
+1. (forest2015developmentofcell pages 36-41): D Forest. Development of cell culture models for age-related macular degeneration. Unknown journal, 2015.
+
+2. (bharti2022cellculturemodels pages 12-14): Kapil Bharti, Anneke I. den Hollander, Aparna Lakkaraju, Debasish Sinha, David S. Williams, Silvia C. Finnemann, Catherine Bowes-Rickman, Goldis Malek, and Patricia A. D'Amore. Cell culture models to study retinal pigment epithelium-related pathogenesis in age-related macular degeneration. Experimental Eye Research, 222:109170, Sep 2022. URL: https://doi.org/10.1016/j.exer.2022.109170, doi:10.1016/j.exer.2022.109170. This article has 66 citations and is from a peer-reviewed journal.
+
+3. (bharti2022cellculturemodels pages 16-17): Kapil Bharti, Anneke I. den Hollander, Aparna Lakkaraju, Debasish Sinha, David S. Williams, Silvia C. Finnemann, Catherine Bowes-Rickman, Goldis Malek, and Patricia A. D'Amore. Cell culture models to study retinal pigment epithelium-related pathogenesis in age-related macular degeneration. Experimental Eye Research, 222:109170, Sep 2022. URL: https://doi.org/10.1016/j.exer.2022.109170, doi:10.1016/j.exer.2022.109170. This article has 66 citations and is from a peer-reviewed journal.
+
+4. (forest2015developmentofcell pages 17-21): D Forest. Development of cell culture models for age-related macular degeneration. Unknown journal, 2015.
+
+5. (hageman2001anintegratedhypothesis pages 10-13): G. Hageman, P. Luthert, N. V. Chong, L. V. Johnson, Don H. Anderson, and R. Mullins. An integrated hypothesis that considers drusen as biomarkers of immune-mediated processes at the rpe-bruch's membrane interface in aging and age-related macular degeneration. Progress in Retinal and Eye Research, 20:705-732, Nov 2001. URL: https://doi.org/10.1016/s1350-9462(01)00010-6, doi:10.1016/s1350-9462(01)00010-6. This article has 1643 citations and is from a highest quality peer-reviewed journal.
+
+6. (mesch2021towardsanina pages 24-27): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.
+
+7. (mesch2021towardsanin pages 24-27): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.
+
+8. (mesch2021towardsanina pages 77-79): L Mesch. Towards an in vitro model for age-related macular degeneration: characterization of human induced pluripotent stem cell derived retinal pigment epithelial cells …. Unknown journal, 2021.

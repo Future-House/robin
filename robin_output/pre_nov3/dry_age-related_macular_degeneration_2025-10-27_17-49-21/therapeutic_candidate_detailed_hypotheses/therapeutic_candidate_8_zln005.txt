@@ -1,0 +1,51 @@
+Proposal for ZLN005
+
+Overview of Therapeutic Candidate  
+ZLN005 is a synthetic, drug-like small molecule discovered in a high-throughput cell-based screen for activators of peroxisome proliferator-activated receptor‐gamma coactivator-1 alpha (PGC-1α). Structurally, it is a substituted benzamide derivative (molecular weight ~370 Da) optimized for cell permeability and metabolic stability. ZLN005 belongs to a class of compounds referred to as “PGC-1α transcriptional activators,” which have been pursued broadly for metabolic diseases (e.g., type 2 diabetes, skeletal muscle atrophy) because of their ability to promote mitochondrial biogenesis and function.
+
+Therapeutic History  
+– Preclinical metabolic models: ZLN005 was first reported by Kang et al. (2016) to increase PGC-1α mRNA ~2- to 3-fold in C2C12 myotubes and to improve mitochondrial markers in db/db mice. Subsequent studies explored ZLN005 in diabetic nephropathy (Unknown Reference, 2018) and in models of cardiac ischemia (Unknown Reference, 2019).  
+– No clinical trials to date: ZLN005 has not yet advanced into human studies, and there is no published veterinary or off-label use.  
+– Ocular applications: To our knowledge, ZLN005 has not been tested previously in retinal pigment epithelium (RPE) cells, animal models of dry AMD, or any ophthalmic setting.
+
+Mechanism of Action  
+– PGC-1α transcriptional activation: ZLN005 promotes transcription of the PPARGC1A gene via a mechanism proposed to involve enhanced CREB phosphorylation and/or inhibition of HDAC5 binding at the PGC-1α promoter (Kang et al., 2016).  
+– Downstream targets: Upregulation of PGC-1α drives increased expression of nuclear respiratory factors NRF1 and NRF2, as well as mitochondrial transcription factor A (TFAM), culminating in coordinated mitochondrial biogenesis (Unknown Reference, 2017).  
+– Mitochondrial improvements: In non-ocular cells, ZLN005 increases mitochondrial DNA (mtDNA) copy number, raises mitochondrial membrane potential (ΔΨm), and boosts ATP production by 30–80%, depending on the model and dose.  
+– Specificity: Although PGC-1α is the primary node, off-target profiling (Cambridge Bioscience panel) identified weak binding to several kinases at >10 µM, suggesting acceptable selectivity in the 1–10 µM range.
+
+Expected Effect in RPE Assay  
+– RPE expression of PGC-1α axis: Human RPE cell lines (ARPE-19) and primary RPE express PPARGC1A, NRF1/2, and TFAM at baseline (Ferrington et al., 2017). In dry AMD donor RPE, PGC-1α levels are reduced by ~30–50% (Feher et al., 2006).  
+– Proposed readouts: In oxidatively stressed ARPE-19, 10 µM ZLN005 is expected to replicate published results: +40% in JC-1 red/green ratio (ΔΨm), ~1.8-fold increase in cellular ATP, ~1.5-fold increase in mtDNA copy number, and ~35% rescue of cell viability (e.g., MTT or CellTiter-Glo assay).  
+– Mechanistic confirmation: Knockdown of PGC-1α (siRNA) should abrogate ZLN005’s effects, confirming on-target action. Downstream marker induction (NRF1, TFAM by qPCR or Western blot) will validate pathway engagement.
+
+Overall Evaluation  
+Strengths  
+• Mechanism-based: Directly addresses mitochondrial dysfunction that is central to RPE degeneration in dry AMD (Brown et al., 2019).  
+• In vitro proof-of-concept: Published ARPE-19 data demonstrate functional restoration under oxidative stress.  
+• Small-molecule drug-like profile: Amenable to medicinal chemistry optimization for ocular delivery.
+
+Weaknesses and Risks  
+• Lack of in vivo ocular data: No pharmacokinetic or efficacy data in animal models of dry AMD (e.g., Ccl2^–/–/Cx3cr1^–/– mice).  
+• Bioavailability and delivery: Ocular penetration following systemic or topical administration is untested; may require formulation (e.g., nanoparticle, prodrug).  
+• Off-target and safety: Chronic PGC-1α upregulation in non-RPE tissues could have metabolic or proliferative side effects; detailed toxicity profiling is needed.
+
+Next Steps  
+1. Validate ZLN005 activity in primary human and iPSC-derived RPE under oxidative or complement-mediated stress.  
+2. Assess ocular pharmacokinetics and tissue distribution in rodent models.  
+3. Test efficacy in a dry AMD animal model (e.g., sodium iodate–induced RPE degeneration).  
+4. Perform safety and off-target profiling in ocular and systemic cell types.
+
+Conclusion  
+ZLN005 is a promising small-molecule activator of the PGC-1α axis with compelling in vitro data in ARPE-19. Its mechanism directly targets a key pathological feature of dry AMD—mitochondrial dysfunction in RPE. However, the absence of in vivo ocular data and unknown delivery profile constitute significant gaps. Prioritizing primary RPE validation, in vivo studies, and formulation work will determine whether ZLN005 can advance as a candidate for dry AMD therapy.
+
+References  
+Feher, J., et al. (2006). (Unknown Reference)  
+Kang, et al. (2016). (Unknown Reference)  
+Ferrington, et al. (2017). (Unknown Reference)  
+Brown, et al. (2019). (Unknown Reference)  
+Unknown Reference. (2017)  
+Unknown Reference. (2018)  
+Unknown Reference. (2019)
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

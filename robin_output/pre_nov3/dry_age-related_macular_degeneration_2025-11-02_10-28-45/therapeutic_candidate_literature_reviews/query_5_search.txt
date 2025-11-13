@@ -1,0 +1,28 @@
+Query: Search for small molecules that specifically modulate lysosomal v-ATPase or cathepsin activity in RPE cells to improve phagosome acidification and outer segment degradation kinetics in dry AMD models, emphasizing target engagement assays, efficacy in RPE lines from AMD donors, and pharmacokinetic/safety characterization
+
+Across the provided sources, no small molecules are reported that directly and specifically modulate lysosomal v-ATPase activity or cathepsin enzymatic activity in RPE with demonstrated target engagement assays in RPE, efficacy in RPE lines from AMD donors, and pharmacokinetic/safety characterization; a targeted ClinicalTrials.gov query for such programs in dry AMD returned zero trials (boya2023lysosomesinretinal pages 22-27, falcao2025targetinglysosomaldysfunction pages 5-7, Clinical Trial Search: 34673d4504cc). 
+
+Adenosine receptor agonists NECA and CGS21680 restore lysosomal pH in RPE, improving degradation of photoreceptor outer segments and reducing lipofuscin in vitro, but there is no v-ATPase binding/engagement evidence, no testing in AMD donor–derived RPE, and no PK/safety data in these excerpts (boya2023lysosomesinretinal pages 4-6). 
+
+The Ezrin inhibitor NSC668394 increases lysosome number and cathepsin activity in RPE and promotes autophagy with in vivo protection in a rhodopsin-mutant mouse, yet it is not a direct cathepsin activator and lacks RPE donor–line efficacy and PK/safety details here (boya2023lysosomesinretinal pages 6-8). 
+
+Indirect strategies that secondarily raise v-ATPase subunits/cathepsins include TFEB activation and mTORC1 inhibition: rapamycin reduces A2E/lipofuscin-like granules in RPE models via TFEB-dependent lysosomal competence, and TFEB activation upregulates ATP6VOA1 and cathepsins, but these do not constitute direct v-ATPase/cathepsin pharmacology and clinical efficacy has been limited with adverse effects; donor-RPE and PK/ADME specifics are not provided (falcao2025targetinglysosomaldysfunction pages 5-7). 
+
+Mechanistic rationale underscores v-ATPase centrality (βA3/A1-crystallin–ATP6V0A1 complex) and lysosomal membrane integrity in RPE pathology, but no direct small-molecule v-ATPase modulators are named (boya2023lysosomesinretinal pages 4-6, kaarniranta2023autophagyinagerelated pages 2-3). 
+
+There are no identified small-molecule v-ATPase or cathepsin modulators in RPE that meet the requested bar of target engagement in RPE, AMD donor–RPE efficacy, and PK/safety within these sources (boya2023lysosomesinretinal pages 22-27, Clinical Trial Search: 34673d4504cc). Related agents (NECA/CGS21680, NSC668394, rapamycin/TFEB activators) show indirect lysosomal improvements but lack direct v-ATPase/cathepsin engagement and translational packages as requested (boya2023lysosomesinretinal pages 4-6, boya2023lysosomesinretinal pages 6-8, falcao2025targetinglysosomaldysfunction pages 5-7). I cannot answer.
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/951ccd2c-2efe-4834-aceb-cbb104335835
+
+References:
+1. (boya2023lysosomesinretinal pages 22-27): Patricia Boya, Kai Kaarniranta, James T. Handa, and Debasish Sinha. Lysosomes in retinal health and disease. Trends in Neurosciences, 46:1067-1082, Dec 2023. URL: https://doi.org/10.1016/j.tins.2023.09.006, doi:10.1016/j.tins.2023.09.006. This article has 8 citations and is from a highest quality peer-reviewed journal.
+
+2. (falcao2025targetinglysosomaldysfunction pages 5-7): Ana S. Falcão, Margarida L. Pedro, Sandra Tenreiro, and Miguel C. Seabra. Targeting lysosomal dysfunction and oxidative stress in age-related macular degeneration. Antioxidants, 14:596, May 2025. URL: https://doi.org/10.3390/antiox14050596, doi:10.3390/antiox14050596. This article has 2 citations and is from a poor quality or predatory journal.
+
+3. (Clinical Trial Search: 34673d4504cc): Clinical Trials Search via ClinicalTrials.gov: dry AMD AND (v-ATPase OR cathepsin) AND (lysosome OR RPE OR phagosome) AND (small molecule) AND (acidification OR degradation)
+
+4. (boya2023lysosomesinretinal pages 4-6): Patricia Boya, Kai Kaarniranta, James T. Handa, and Debasish Sinha. Lysosomes in retinal health and disease. Trends in Neurosciences, 46:1067-1082, Dec 2023. URL: https://doi.org/10.1016/j.tins.2023.09.006, doi:10.1016/j.tins.2023.09.006. This article has 8 citations and is from a highest quality peer-reviewed journal.
+
+5. (boya2023lysosomesinretinal pages 6-8): Patricia Boya, Kai Kaarniranta, James T. Handa, and Debasish Sinha. Lysosomes in retinal health and disease. Trends in Neurosciences, 46:1067-1082, Dec 2023. URL: https://doi.org/10.1016/j.tins.2023.09.006, doi:10.1016/j.tins.2023.09.006. This article has 8 citations and is from a highest quality peer-reviewed journal.
+
+6. (kaarniranta2023autophagyinagerelated pages 2-3): Kai Kaarniranta, Janusz Blasiak, Paloma Liton, Michael Boulton, Daniel J. Klionsky, and Debasish Sinha. Autophagy in age-related macular degeneration. Autophagy, 19:388-400, May 2023. URL: https://doi.org/10.1080/15548627.2022.2069437, doi:10.1080/15548627.2022.2069437. This article has 106 citations and is from a domain leading peer-reviewed journal.

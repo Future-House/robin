@@ -1,0 +1,74 @@
+Query: Mechanistic role of complement system activation in RPE cell death in dry age-related macular degeneration: key complement factors, regulatory pathways, in vitro complement activation models, and assay readouts for complement-mediated cytotoxicity
+
+1. Hypothesis: C3a–C3aR autocrine signaling amplifies inflammasome activation and pyroptosis in RPE  
+   • Model: Human primary RPE or ARPE-19 cells treated with purified C3a (± normal human serum as complement source).  
+   • Manipulation: Pharmacological C3aR antagonist (SB 290157) or C3aR siRNA.  
+   • Readouts: IL-1β and IL-18 secretion (ELISA), caspase-1 cleavage (western blot), Gasdermin D N-terminal fragment (WB), propidium iodide uptake.  
+
+2. Hypothesis: Sublytic MAC (C5b-9) deposition induces ER stress–mediated apoptosis in RPE  
+   • Model: RPE monolayers challenged with anti-RPE antibody plus complement‐active serum to generate sublytic MAC.  
+   • Manipulation: ER stress inhibitor (4-phenylbutyrate) or CHOP siRNA.  
+   • Readouts: CHOP and BiP expression (qPCR/WB), caspase-3 activity, TUNEL staining, mitochondrial membrane potential (JC-1).  
+
+3. Hypothesis: CFH loss‐of‐function accelerates alternative‐pathway amplification on RPE surfaces  
+   • Model: CRISPR/Cas9 CFH knockout in ARPE-19 cells, incubated with 10% normal human serum.  
+   • Manipulation: Genetic rescue with wild-type CFH versus AMD‐associated CFH Y402H variant.  
+   • Readouts: C3b/iC3b deposition (immunofluorescence), cell viability (MTT), LDH release.  
+
+4. Hypothesis: Aging‐associated downregulation of CD46 sensitizes RPE to complement‐mediated lysis  
+   • Model: siRNA knockdown of CD46 in primary RPE, exposure to pooled human serum.  
+   • Manipulation: Overexpression of CD46 cDNA or addition of soluble CD46 fusion protein.  
+   • Readouts: C3b and C5b-9 surface staining (flow cytometry), PI uptake, complement‐mediated cytotoxicity (LDH assay).  
+
+5. Hypothesis: Dysregulated complement factor D (FD) production by RPE drives local AP activation  
+   • Model: ARPE-19 cells stimulated with oxidative stress (H₂O₂) to induce FD, then incubated with factor D–deficient serum reconstituted with purified FD.  
+   • Manipulation: FD inhibitor (ACH-4471) or FD siRNA.  
+   • Readouts: C3a/C5a ELISA, C3b deposition (IF), cell death (Annexin V/PI).  
+
+6. Hypothesis: Complement component C1q binds to oxidized photoreceptor outer segment debris, triggering classical‐pathway–mediated RPE death  
+   • Model: RPE cells fed with photoreceptor outer segments oxidized by photo-oxidation, incubated with C1q‐replete versus C1q‐depleted serum.  
+   • Manipulation: Anti-C1q blocking antibody or C1q‐Fc decoy receptor.  
+   • Readouts: C4d and C3d deposition (immunostain), ROS generation (DCFDA), viability (ATP assay).  
+
+7. Hypothesis: Dysregulation of complement regulator CD59 on RPE enhances MAC‐driven necroptosis  
+   • Model: CD59 knockdown in RPE via shRNA, complement attack with normal serum.  
+   • Manipulation: Recombinant CD59 protein or necroptosis inhibitor (necrostatin-1).  
+   • Readouts: MLKL phosphorylation (WB), PI uptake, LDH release.  
+
+8. Hypothesis: Complement activation promotes RPE senescence via C5a–C5aR1 signaling  
+   • Model: Sublethal complement activation (low‐concentration serum) on RPE ± C5a.  
+   • Manipulation: C5aR1 antagonist (PMX53) or C5aR1 CRISPR knockout.  
+   • Readouts: Senescence‐associated β-galactosidase, p16^INK4a/p21^WAF1 expression (qPCR/WB).  
+
+9. Hypothesis: Intracellular complement activation (the “complosome”) in RPE contributes to mitochondrial dysfunction  
+   • Model: Measure intracellular C3 activation fragments in RPE under oxidative stress.  
+   • Manipulation: Cathepsin L inhibitor (blocks C3 activation inside cells) or C3 siRNA.  
+   • Readouts: Mitochondrial respiration (Seahorse), intracellular C3a (ELISA), cell viability.  
+
+10. Hypothesis: Complement‐induced upregulation of MMPs in RPE disrupts Bruch’s membrane integrity  
+    • Model: RPE cultured on extracellular matrix, exposed to 20% human serum.  
+    • Manipulation: Anti‐C5 antibody (eculizumab) or MMP inhibitors (GM6001).  
+    • Readouts: MMP-2/-9 activity (zymography), barrier permeability (dextran flux), viability (live/dead).  
+
+11. Hypothesis: miR-146a downregulation in RPE unleashes complement factor B overproduction and AP activation  
+    • Model: Transfect RPE with miR-146a inhibitor or mimic, then add 10% serum.  
+    • Manipulation: miR-146a mimic or anti‐sense inhibitor.  
+    • Readouts: Factor B mRNA/protein (qPCR/WB), C3b deposition, cell death (MTT).  
+
+12. Therapeutic strategy: AAV‐mediated overexpression of complement regulator CD55 (DAF) in RPE to block C3/C5 convertases  
+    • Model: AAV2/8‐CD55 transduction of human RPE, challenge with human serum.  
+    • Readouts: C3b/C5b-9 staining, cell survival (LDH), functional barrier (TEER).  
+
+13. Therapeutic strategy: Small‐molecule C3 inhibitor (compstatin analog) to prevent RPE complement activation  
+    • Model: Treat RPE + serum with Cp40 (AMY-101) pre‐incubation.  
+    • Readouts: C3a/C3b ELISA, caspase activation, viability (ATP luminescence).  
+
+14. Therapeutic strategy: Soluble recombinant FH‐SCR1-5 fusion protein targeted to RPE via RGD peptide to restore AP regulation  
+    • Model: Incubate RPE with FH‐SCR1-5‐RGD and 20% serum.  
+    • Readouts: C3b/iC3b deposition, MAC staining, cell death (Annexin V/PI).  
+
+15. Therapeutic strategy: CRISPR activation (CRISPRa) of endogenous complement regulators (CFI, CD46, CD59) in RPE  
+    • Model: dCas9‐VP64 plus sgRNAs targeting promoter regions of CFI, CD46, CD59 in ARPE-19.  
+    • Validation: Increased regulator expression (qPCR/WB), then serum challenge.  
+    • Readouts: Complement deposition (C3b, C5b-9), cytotoxicity (LDH), barrier integrity (TEER).
+

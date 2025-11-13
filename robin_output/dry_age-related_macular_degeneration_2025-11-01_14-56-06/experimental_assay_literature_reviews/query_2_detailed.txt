@@ -1,0 +1,30 @@
+Query: Detailed characterization of complement system activation in dry AMD pathogenesis and in vitro cell culture assays to measure C3a/C5a generation, membrane attack complex deposition, factor H regulation, and complement inhibitors in RPE models
+
+In dry AMD, dysregulation of the complement cascade is a central pathogenic driver where the alternative pathway’s amplification loop produces abundant C3a and C5a, potent anaphylatoxins that recruit and activate immune cells, and ultimately leads to membrane attack complex (MAC) deposition on RPE surfaces (behnke2022ifnβimmunomodulationand pages 31-33, desai2022complementcascadeinhibition pages 3-4). The chronic activation of complement is further exacerbated by impaired regulatory mechanisms, notably involving factor H (FH), whose altered binding—exemplified by the Y402H polymorphism—compromises its ability to restrain C3 convertase activity, thereby promoting sustained inflammation and sub-RPE deposit formation (behnke2022ifnβimmunomodulationand pages 31-33, wilke2024complementregulationin pages 5-6).
+
+In vitro RPE models (using ARPE19, hTERT-RPE1, or iPSC-derived RPE) are employed to quantify these key endpoints. Specific assays measure soluble C3a and C5a generation via ELISA or multiplex techniques, while MAC deposition is assessed with antibody‐based flow cytometry or immunostaining methods (ong2024thecomplementsystem pages 7-9, simmons2020complementreceptor1 pages 3-4). Complement activation can be modulated using serum or complement-depleted serum, providing early (C3b) and late (C6, MAC) activation markers. Factor H regulation is evaluated by quantifying its RNA and protein expression levels, addressing both extracellular secretion and intracellular accumulation (armento2021thecomplementsystem pages 10-11, biber2023thecomplementsystem pages 151-154).
+
+Complement inhibitors such as compstatins, C3a receptor antagonists, and anti‑C5 agents have been tested in these models to reduce C3a/C5a production and MAC formation, highlighting their therapeutic potential (ong2024thecomplementsystem pages 10-11, biber2023thecomplementsystem pages 16-19).
+
+These studies demonstrate that in vitro RPE assays enable detailed characterization of complement activation, revealing critical endpoints for evaluating novel complement inhibitors in dry AMD. This approach informs both mechanistic insights and translational therapeutic strategies.
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/4b63e7b7-766f-48f6-aff2-9ec7a47f5285
+
+References:
+1. (behnke2022ifnβimmunomodulationand pages 31-33): V Behnke. Ifn-β immunomodulation and complement receptor analysis in a mouse model of age-related macular degeneration (amd). Unknown journal, 2022.
+
+2. (desai2022complementcascadeinhibition pages 3-4): Dhaval Desai and Pravin U. Dugel. Complement cascade inhibition in geographic atrophy: a review. Eye, 36:294-302, Jan 2022. URL: https://doi.org/10.1038/s41433-021-01765-x, doi:10.1038/s41433-021-01765-x. This article has 69 citations and is from a peer-reviewed journal.
+
+3. (wilke2024complementregulationin pages 5-6): Georgia A. Wilke and Rajendra S. Apte. Complement regulation in the eye: implications for age-related macular degeneration. The Journal of Clinical Investigation, May 2024. URL: https://doi.org/10.1172/jci178296, doi:10.1172/jci178296. This article has 23 citations.
+
+4. (ong2024thecomplementsystem pages 7-9): Joshua Ong, Arman Zarnegar, Amrish Selvam, Matthew Driban, and Jay Chhablani. The complement system as a therapeutic target in retinal disease. Medicina, 60:945, Jun 2024. URL: https://doi.org/10.3390/medicina60060945, doi:10.3390/medicina60060945. This article has 10 citations and is from a poor quality or predatory journal.
+
+5. (simmons2020complementreceptor1 pages 3-4): Ken T. Simmons, John L. Mazzilli, Stacey L. Mueller-Ortiz, Aleksey Y. Domozhirov, Charles A. Garcia, Eva M. Zsigmond, and Rick A. Wetsel. Complement receptor 1 (cr1/cd35)-expressing retinal pigment epithelial cells as a potential therapy for age-related macular degeneration. Molecular Immunology, 118:91-98, Feb 2020. URL: https://doi.org/10.1016/j.molimm.2019.11.007, doi:10.1016/j.molimm.2019.11.007. This article has 7 citations and is from a peer-reviewed journal.
+
+6. (armento2021thecomplementsystem pages 10-11): Angela Armento, Marius Ueffing, and Simon J. Clark. The complement system in age-related macular degeneration. Cellular and Molecular Life Sciences: CMLS, 78:4487-4505, Mar 2021. URL: https://doi.org/10.1007/s00018-021-03796-9, doi:10.1007/s00018-021-03796-9. This article has 251 citations.
+
+7. (biber2023thecomplementsystem pages 151-154): Josef Biber. The complement system in the retina. Dissertation, Jan 2023. URL: https://doi.org/10.5282/edoc.32987, doi:10.5282/edoc.32987. This article has 0 citations.
+
+8. (ong2024thecomplementsystem pages 10-11): Joshua Ong, Arman Zarnegar, Amrish Selvam, Matthew Driban, and Jay Chhablani. The complement system as a therapeutic target in retinal disease. Medicina, 60:945, Jun 2024. URL: https://doi.org/10.3390/medicina60060945, doi:10.3390/medicina60060945. This article has 10 citations and is from a poor quality or predatory journal.
+
+9. (biber2023thecomplementsystem pages 16-19): Josef Biber. The complement system in the retina. Dissertation, Jan 2023. URL: https://doi.org/10.5282/edoc.32987, doi:10.5282/edoc.32987. This article has 0 citations.

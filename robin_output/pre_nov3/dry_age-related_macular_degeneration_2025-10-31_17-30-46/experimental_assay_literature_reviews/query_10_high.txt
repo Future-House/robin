@@ -1,0 +1,62 @@
+Query: High-content imaging and multi-parameter phenotypic screening methodologies for evaluating candidate therapeutics in RPE models of dry AMD, including live-cell imaging of mitochondrial potential, lysosomal pH probes, oxidative stress indicators, and assay optimization strategies
+
+1. Activate mitochondrial deacetylase SIRT3 to boost ΔΨm and lower ROS in A2E-loaded RPE  
+   • Hypothesis: SIRT3 agonists restore TMRE signal and reduce MitoSOX fluorescence under photo-oxidative stress.  
+   • Assay: Live‐cell TMRE + MitoSOX imaging in 384-well plates; optimize cell density, probe incubation, automated per-cell segmentation and Z′-factor.
+
+2. Rescue lysosomal acidification after V-ATPase inhibition  
+   • Hypothesis: Novel small-molecule V-ATPase modulators re-acidify lysosomes and restore autophagic flux in Bafilomycin-treated RPE.  
+   • Assay: Ratiometric LysoSensor DND-160 live-cell imaging calibrated across pH standards; automated object detection for lysosome size/intensity.
+
+3. NRF2 pathway activation to blunt oxidative damage  
+   • Hypothesis: Sulforaphane analogs reduce H₂DCFDA and CellROX signals while preserving TMRE in H₂O₂-challenged RPE.  
+   • Assay: Multiplex live-cell imaging of ROS (H₂DCFDA), ΔΨm (TMRE), and viability (propidium iodide); optimize probe concentrations and time-course sampling.
+
+4. Modulate mitochondrial dynamics via DRP1/MFN2 knockdown  
+   • Hypothesis: DRP1 inhibition or MFN2 overexpression maintains ΔΨm and lowers ROS upon blue-light exposure.  
+   • Assay: siRNA or CRISPRi + co-staining with MitoTracker Green (mass), TMRE (potential) and image‐based morphometrics for fragmentation index.
+
+5. Enhance lysosomal biogenesis with TFEB activation  
+   • Hypothesis: TFEB agonists normalize lysosomal pH (LysoSensor) and boost GFP-LC3 puncta resolution in aged RPE.  
+   • Assay: Dual-channel live imaging of LysoSensor and GFP-LC3; automated puncta counting and pH calibration curves.
+
+6. NAD+ precursor supplementation to improve mitochondrial health  
+   • Hypothesis: Nicotinamide riboside elevates TMRE and decreases autofluorescent lipofuscin granules.  
+   • Assay: Label-free NADH/NAD+ autofluorescence, complemented by TMRE and live-cell lipofuscin channel; multi-feature scoring for compound ranking.
+
+7. Inhibit NOX4 to suppress ROS generation  
+   • Hypothesis: NOX4 blockers reduce CellROX intensity and recover ΔΨm after A2E plus light exposure.  
+   • Assay: High-content CellROX/TMRE co-imaging; train machine‐learning classifier to segregate responders vs. non-responders.
+
+8. Stimulate TRPML1 to coordinate lysosomal Ca2+ and pH  
+   • Hypothesis: ML-SA1 normalizes acidic pH (LysoSensor) and reduces ROS build-up in drusen-model RPE.  
+   • Assay: Ratiometric Oregon Green 488-Dextran for pH and Cal-520 for Ca2+; optimize dual-excitation imaging and segmentation.
+
+9. Test mitochondria-targeted antioxidant peptides  
+   • Hypothesis: TPP-conjugated peptide X lowers MitoSOX and stabilizes TMRE under oxidative challenge.  
+   • Assay: Dose–response in 96-well; multiplex TMRE, MitoSOX, and a viability dye; optimize automated spot detection for peptide uptake.
+
+10. Autophagy enhancers to clear lipofuscin  
+   • Hypothesis: Rapalog derivatives acidify lysosomes (LysoTracker Red) and accelerate clearance of A2E deposits.  
+   • Assay: Live-cell LysoTracker + bright-field imaging for lipofuscin; develop custom pipeline for deposit quantification and pH readout.
+
+11. PGC-1α modulators to drive mitochondrial biogenesis  
+   • Hypothesis: Small molecules that upregulate PGC-1α boost Mitotracker Green signal and TMRE in senescent RPE.  
+   • Assay: Mitotracker Green (mass) + TMRE (function) multiplex; automated well-level feature extraction and dose profiling.
+
+12. Screen ferroptosis inhibitors to maintain lysosomal pH  
+   • Hypothesis: Ferrostatin-1 prevents lipid peroxidation (BODIPY C11) and preserves LysoSensor acidity in iron-loaded RPE.  
+   • Assay: BODIPY C11 plus LysoSensor dual imaging; optimize sequential excitation and spectral unmixing.
+
+13. siRNA knockdown of LAMP2 to probe autophagic flux  
+   • Hypothesis: LAMP2 depletion alkalinizes lysosomes, disrupts LC3 turnover, and impairs ΔΨm.  
+   • Assay: LysoSensor + GFP-LC3 + TMRE live imaging; integrate puncta counts, pH, and potential metrics for mechanistic fingerprinting.
+
+14. SOD2-mimetic compounds to scavenge mitochondrial ROS  
+   • Hypothesis: SOD2 mimetics lower MitoSOX and recover TMRE in rotenone-treated RPE.  
+   • Assay: Time‐lapse MitoSOX/TMRE acquisition; automate cell tracking to measure dynamics of rescue.
+
+15. Engineer RPE reporter line for mito-Ca2+ and lysosomal cross-talk  
+   • Hypothesis: Modulators of organelle contact sites stabilize Ca2+ homeostasis (mito-GCaMP) and maintain LysoTracker pH.  
+   • Assay: Dual reporter imaging, 3D confocal stack acquisition, automated organelle-colocalization analysis; optimize plate coating and imaging intervals.
+

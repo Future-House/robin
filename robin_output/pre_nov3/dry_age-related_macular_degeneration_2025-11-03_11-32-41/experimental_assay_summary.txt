@@ -1,0 +1,12 @@
+Assay Candidate 1:
+Strategy: Mitochondrial Rescue in Oxidative‐Stressed RPE
+Reasoning: This assay uses ARPE-19 or iPSC-RPE monolayers challenged with H2O2 or A2E plus blue‐light to induce mitochondrial depolarization, ROS production (measured by H2DCFDA), loss of membrane potential (TMRM/TMRE) and cytochrome c release (ELISA) followed by caspase-3/9 activity assays. Candidate compounds are screened for their ability to preserve ΔΨm, reduce ROS and block apoptotic signalling. This directly models the mitochondrial and oxidative‐stress axis in dry AMD, is rapid (readouts in 24–48 h), and uses well‐established reporters (ao2018retinalpigmentepithelium pages 14–19; chen2023oxidativestressin pages 1–2).
+
+Assay Candidate 2:
+Strategy: Complement Activation in RPE–Macrophage Coculture
+Reasoning: A co‐culture of ARPE-19 and THP-1-derived macrophages is exposed to CEP- or MDA/4-HNE-modified proteins to mimic drusen‐mediated complement activation. Deposition of C3b/C5b-9 on RPE is quantified by high‐content immunofluorescence, while C3a/C5a and VEGF/TGF-β2 secretion (ELISA) report downstream inflammatory and pro‐angiogenic signalling. Test drugs targeting CFH/CFB or C3 convertase are evaluated for their capacity to reduce MAC deposition and cytokine release. This assay recapitulates innate‐immune crosstalk central to dry AMD and has direct functional endpoints (park2021complementsystemand pages 2–4; chu2024therelationshipbetween pages 3–4).
+
+Assay Candidate 3:
+Strategy: Autophagy–Inflammasome Flux Reporter
+Reasoning: iPSC-RPE stably expressing LC3‐GFP/mCherry fusion reporters are treated with oxidized lipoproteins or 4-HNE to induce proteostatic stress. High‐content imaging quantifies autophagic flux (LC3 puncta, p62 turnover), lysosomal function (LAMP2 immunostaining) and colocalization, while IL-1β/IL-18 levels in supernatant measure NLRP3 inflammasome activation. Compounds that restore autophagic flux and suppress inflammasome outputs are identified in a 96-well format. This model addresses impaired autophagy and inflammasome signalling in RPE central to dry AMD (kaarniranta2019fattyacidsand pages 16–23; piippo2019inflammasomesignalingand pages 59–62).
+

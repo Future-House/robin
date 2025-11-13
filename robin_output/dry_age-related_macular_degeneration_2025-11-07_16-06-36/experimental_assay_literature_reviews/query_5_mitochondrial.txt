@@ -1,0 +1,47 @@
+Query: Mitochondrial bioenergetics and dynamics in dry AMD RPE models: assessment of mitochondrial membrane potential, oxygen consumption rate, ATP production assays, reactive oxygen species from mitochondria, and analysis of mitochondrial fission/fusion proteins under stress conditions
+
+1. Hypothesis: Chronic oxidative stress in dry-AMD RPE upregulates DRP1 phosphorylation, driving excessive mitochondrial fission, loss of membrane potential, and ATP depletion.  
+   Assays: TMRE or JC-1 for membrane potential; Western blot for total/p-DRP1; Seahorse OCR; ATP luminescence; rescue with DRP1 inhibitor Mdivi-1.
+
+2. Hypothesis: Impaired PINK1–Parkin–mediated mitophagy in AMD-stressed RPE leads to accumulation of dysfunctional mitochondria, increased mitoROS, and reduced bioenergetics.  
+   Assays: mito-Keima mitophagy flux; Parkin translocation by immunofluorescence; LC3-II/p62 levels; mitoSOX; OCR; Parkin overexpression rescue.
+
+3. Hypothesis: NAD+ depletion under chronic RPE stress diminishes complex I function, lowering OCR and ATP production.  
+   Assays: NAD+/NADH ratio; complex I enzymatic activity; ATP assay; OCR; rescue with nicotinamide riboside supplementation.
+
+4. Hypothesis: Downregulation of mitochondrial deacetylase Sirt3 in dry-AMD RPE increases acetylation of ETC proteins, impairing respiration and elevating ROS.  
+   Assays: global acetyl-lysine Western; individual ETC subunit acetylation; OCR; mitoROS; rescue with Honokiol (Sirt3 activator).
+
+5. Hypothesis: A2E accumulation in RPE lysosomes induces secondary mitochondrial dysfunction by boosting mitoROS and altering fission/fusion protein balance.  
+   Assays: mitoSOX; Western for DRP1, MFN1/2, OPA1; mitochondrial network morphology by confocal; antioxidant or A2E clearance rescue.
+
+6. Hypothesis: Excessive mitochondrial Ca2+ uptake via MCU in AMD RPE triggers permeability transition, collapses membrane potential, and reduces ATP.  
+   Assays: Rhod-2 or mito-GCaMP Ca2+ imaging; TMRE; OCR; cell viability; rescue with MCU inhibitor Ru360.
+
+7. Hypothesis: Iron overload in dry-AMD RPE catalyzes mitochondrial Fenton chemistry, increasing hydroxyl radicals, damaging ETC, and impairing ATP synthesis.  
+   Assays: MitoPerox probe; complex activities; OCR; ATP assay; rescue with deferiprone (iron chelator).
+
+8. Hypothesis: Suppression of PGC-1α in AMD-like RPE reduces mitochondrial biogenesis, lowers mtDNA copy number, and decreases respiratory capacity.  
+   Assays: qPCR for mtDNA copy number; TFAM/NRF1 by Western; OCR; rescue with PGC-1α overexpression or ZLN005.
+
+9. Hypothesis: Impaired Nrf2 signaling in dry-AMD RPE diminishes antioxidant enzyme expression, elevating mitoROS and collapsing respiration.  
+   Assays: Nrf2 nuclear translocation by immunofluorescence; HO-1/GCLC mRNA and protein; mitoROS; OCR; rescue with sulforaphane.
+
+10. Hypothesis: Altered ER–mitochondria contact via Mfn2 downregulation in AMD RPE disrupts Ca2+ shuttling, leading to bioenergetic failure.  
+    Assays: Proximity ligation assay for ER–mito contacts; mitochondrial Ca2+ imaging; OCR; rescue with Mfn2 overexpression.
+
+11. Hypothesis: Accumulation of lipid peroxidation product 4-HNE in RPE mitochondria adducts ETC enzymes, lowering complex activities and ATP yield.  
+    Assays: 4-HNE–protein adduct ELISA; complex I–V activity assays; ATP luminescence; rescue with Alda-1 (ALDH2 activator).
+
+12. Hypothesis: Upregulation of microRNA-34a in dry AMD targets BCL2 and DRP1 transcripts, shifting RPE mitochondria toward fragmentation and apoptosis.  
+    Assays: miR-34a levels by qPCR; BCL2/DRP1 protein by Western; TMRE; caspase activation; rescue with antagomiR-34a.
+
+13. Hypothesis: SOD2 deficiency in AMD RPE intensifies superoxide accumulation, causing oxidative damage to mitochondrial proteins and decreased respiration.  
+    Assays: mitoSOX/HPLC detection of superoxide; OCR; complex activity; rescue with MnTBAP (MnSOD mimetic).
+
+14. Hypothesis: Melatonin modulates RPE mitochondrial dynamics by stabilizing MMP, inhibiting DRP1 activation, and enhancing ATP output under AMD-mimicking stress.  
+    Assays: TMRE; p-DRP1 Western; OCR; mitoROS; ATP assay with/without melatonin pretreatment.
+
+15. Therapeutic strategy: Apply mitochondrial-targeted antioxidant MitoQ in dry-AMD RPE models to scavenge mitoROS, restore membrane potential, and normalize respiration.  
+    Assays: mitoROS (MitoSOX); TMRE; OCR; ATP production; barrier function (TEER).
+

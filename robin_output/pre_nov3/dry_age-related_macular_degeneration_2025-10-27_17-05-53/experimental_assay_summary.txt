@@ -1,0 +1,12 @@
+Assay Candidate 1:
+Strategy: Mitochondrial Function Rescue Assay
+Reasoning: Dry AMD RPE cells exhibit mitochondrial membrane potential (Δψm) loss and ATP depletion under oxidative stress (Ferrington et al., 2017). In a 96-well format using ARPE-19 or iPSC-derived RPE, cells are challenged with H₂O₂ (100–200 µM, 2 h) followed by treatment with test compounds. Δψm is read out by TMRE fluorescence and cellular ATP by a luminescent ATPlite assay. This dual readout directly reports mitochondrial health and energetic rescue in a high-throughput compatible workflow (Goldstein et al., 2018; Zhou et al., 2019).
+
+Assay Candidate 2:
+Strategy: Complement Deposition Inhibition Assay
+Reasoning: Local complement overactivation on the RPE contributes to dry AMD pathogenesis (Hageman et al., 2005). Primary human RPE or ARPE-19 monolayers in 96-well plates are exposed to 10% normal human serum to trigger C3b and MAC (C5b-9) deposition. Deposition is quantified by antibody-based ELISA or cell-based immunofluorescence (96-well HCS). Candidate inhibitors (e.g., FH mimetics or small molecules) are screened for reduction in complement fragment signal, providing a direct, biologically relevant functional endpoint of complement blockade (Shen et al., 2012; Espinosa-Heidmann et al., 2006). 
+
+Assay Candidate 3:
+Strategy: Phagocytosis Enhancement Assay
+Reasoning: Impaired daily clearance of photoreceptor outer segments (POS) by RPE accelerates dry AMD (Kevany & Palczewski, 2010). In a 96-well plate format, ARPE-19 or iPSC-RPE are fed fluorescently labeled bovine POS for 4 h in the presence of test compounds. Surface-bound POS are quenched with trypan blue and internalized POS quantified by high-content imaging or flow cytometry. A parallel cathepsin D activity readout monitors lysosomal digestion. This rapid functional assay directly measures restoration of RPE phagocytic capacity (Mazzoni et al., 2019; Swaroop et al., 2010). 
+

@@ -1,0 +1,62 @@
+Query: In vitro cellular and molecular mechanisms underlying lipofuscin accumulation and A2E-mediated phototoxicity in human retinal pigment epithelial cells relevant to dry AMD and assay methodologies for quantifying lysosomal dysfunction, oxidative damage and protective interventions
+
+1. v-ATPase inhibition by A2E leads to lysosomal alkalinization  
+   • Hypothesis: Photooxidized A2E binds and inhibits the V0 subunit of v-ATPase, raising lysosomal pH and blocking degradative enzyme activity.  
+   • Assays: LysoSensor Yellow/Blue ratiometric imaging for pH; cathepsin D activity assay; rescue with the v-ATPase allosteric activator EN6.  
+
+2. TFEB sequestration impairs lysosome biogenesis  
+   • Hypothesis: A2E prevents nuclear translocation of TFEB, reducing transcription of CLEAR network genes.  
+   • Assays: Immunofluorescence for TFEB localization; qPCR of LAMP1, CTSB, MCOLN1; rescue with mTOR inhibitor Torin1 to promote TFEB nuclear import.  
+
+3. A2E cross-links and inactivates cathepsins  
+   • Hypothesis: Reactive A2E photoproducts form adducts on cathepsin D and B, diminishing protease activity.  
+   • Assays: Fluorogenic cathepsin D/B substrates; Western blot for cathepsin fragmentation; rescue by co-treatment with recombinant cathepsin D.  
+
+4. Singlet-oxygen–mediated lipid peroxidation  
+   • Hypothesis: Under blue-light, A2E generates ^1O2 that peroxidizes lysosomal membranes.  
+   • Assays: BODIPY 581/591 C11 ratiometric lipid peroxidation; mass spectrometry for 4-HNE; rescue with sodium azide or TMPyP to quench ^1O2.  
+
+5. Autophagic flux blockade  
+   • Hypothesis: A2E accumulation stalls autophagosome maturation and fusion with lysosomes.  
+   • Assays: LC3-II turnover ± bafilomycin by Western blot; p62/SQSTM1 immunostaining; rescue with rapamycin to induce autophagy.  
+
+6. Lysosomal membrane permeabilization (LMP)–driven iron release  
+   • Hypothesis: A2E-induced LMP liberates Fe2+ into cytosol, promoting Fenton chemistry and ROS.  
+   • Assays: Acridine orange relocations; calcein-AM quenching for labile iron pool; rescue with deferiprone (DFP).  
+
+7. NLRP3 inflammasome activation  
+   • Hypothesis: A2E destabilizes lysosomes, releasing cathepsin B that activates the NLRP3 inflammasome.  
+   • Assays: Caspase-1 FLICA assay; IL-1β ELISA; rescue with MCC950 (NLRP3 inhibitor) or CA-074 Me (cathepsin B inhibitor).  
+
+8. Mitochondrial depolarization and apoptosis  
+   • Hypothesis: A2E photooxidation triggers mitochondrial ROS and Δψm loss, leading to caspase-3–mediated cell death.  
+   • Assays: JC-1 or TMRM staining for Δψm; DCFH-DA for ROS; caspase-3 activity kit; rescue with mitochondria-targeted antioxidant MitoQ.  
+
+9. Disrupted lysosomal Ca2+ signaling via TPC2  
+   • Hypothesis: A2E alters two-pore channel 2 (TPC2) function, impairing Ca2+-dependent endolysosomal trafficking.  
+   • Assays: GCaMP3 targeted to lysosomes for Ca2+ flux; dextran uptake assays; rescue with TPC2 agonist TPC2-A1-P.  
+
+10. Ceramide accumulation and sphingolipid dysregulation  
+   • Hypothesis: A2E elevates acid sphingomyelinase activity, raising ceramide levels that sensitize cells to oxidative stress.  
+   • Assays: LC–MS/MS lipidomics for ceramide species; immunostaining for ceramide; rescue with fumonisin B1 (ceramide synthase inhibitor).  
+
+11. NRF2–KEAP1 antioxidant response exhaustion  
+   • Hypothesis: Chronic A2E photooxidative stress leads to KEAP1 stabilization, preventing NRF2 nuclear translocation and antioxidant gene induction.  
+   • Assays: NRF2 immunofluorescence; ARE-luciferase reporter; qPCR for NQO1, HO-1; rescue with sulforaphane to activate NRF2.  
+
+12. miR-34a upregulation suppresses SIRT1  
+   • Hypothesis: A2E induces miR-34a, which downregulates SIRT1, impairing mitochondrial biogenesis and stress resistance.  
+   • Assays: qRT-PCR for miR-34a; Western blot for SIRT1; mitochondrial mass via MitoTracker; rescue with anti–miR-34a or resveratrol.  
+
+13. Impaired POS phagosome–lysosome fusion  
+   • Hypothesis: A2E accumulation disrupts Rab7 recruitment, delaying photoreceptor outer segment (POS) degradation.  
+   • Assays: FITC-labeled POS uptake and LAMP1 colocalization by confocal imaging; Rab7 GTPase activity assay; rescue with small-molecule Rab7 activator.  
+
+14. Ceria nanoparticle–mediated ROS scavenging  
+   • Strategy: PEGylated cerium oxide nanoparticles (CeO2) localize to lysosomes, neutralize ROS, and restore pH.  
+   • Assays: DCFH-DA for ROS; LysoSensor for pH; cell viability (MTT) and cathepsin D activity; dose–response analysis.  
+
+15. Liposomal glutathione delivery under blue-light blockade  
+   • Strategy: Encapsulate GSH in liposomes conjugated with a blue-light–absorbing chromophore to both shield A2E excitation and supply antioxidant.  
+   • Assays: Intracellular GSH/GSSG ratio (Ellman’s reagent); ROS (CellROX); lysosomal enzyme assays; phototoxicity measured by live/dead staining.
+

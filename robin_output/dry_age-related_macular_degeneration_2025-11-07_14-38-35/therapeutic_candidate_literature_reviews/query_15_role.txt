@@ -1,0 +1,62 @@
+Query: Role of lipid and lipofuscin accumulation, drusen components (complement proteins, lipoproteins) in disrupting RPE tight junction integrity and barrier function in dry AMD, with emphasis on paracellular permeability assays and physical remodeling of junctional complexes
+
+1. A2E-Induced Oxidative Downregulation of Tight Junctions  
+Hypothesis: Accumulation of the lipofuscin fluorophore A2E in RPE elevates ROS, triggering MAPK-mediated transcriptional repression and proteasomal degradation of ZO-1 and occludin.  
+Assay: Treat ARPE-19 or iPSC-derived RPE monolayers with graded A2E; measure paracellular flux (FITC-dextran), TEER, ROS levels; quantify junctional proteins by immunoblot and immunofluorescence.
+
+2. Complement C3a/C5a-Mediated Barrier Breakdown  
+Hypothesis: Drusen-derived anaphylatoxins C3a and C5a engage their receptors on RPE, activate p38/NF-κB signaling, and induce retraction of tight junctions.  
+Assay: Expose RPE monolayers to purified C3a/C5a; monitor TEER, FITC-dextran permeability; stain for ZO-1/claudin-19; block with C3aR/C5aR antagonists.
+
+3. Oxidized LDL Disruption of Membrane Microdomains  
+Hypothesis: Ox-LDL from lipoprotein-rich drusen inserts into RPE plasma membranes, altering lipid-raft integrity and destabilizing junctional complexes.  
+Assay: Treat RPE with ox-LDL; use FRAP of occludin-GFP to measure mobility; assess TEER; restore with LOX-1 inhibitors or lipid-raft stabilizers.
+
+4. CEP-Adduct-Induced ECM Crosslinking and Junctional Stress  
+Hypothesis: Carboxyethylpyrrole (CEP) adducts in drusen crosslink ECM proteins, generating tensile forces that physically disrupt RPE junctions.  
+Assay: Add CEP-modified albumin to RPE cultures; image cell–cell contacts by super-resolution microscopy; measure paracellular tracer leakage; test crosslink breakers (e.g., alagebrium).
+
+5. Cholesterol Crystal Formation and Cytoskeletal Tension  
+Hypothesis: Excess free cholesterol in RPE forms sub-membrane crystals that trigger RhoA/ROCK-dependent actin stress fiber formation, pulling apart junctions.  
+Assay: Load RPE with cholesterol or MβCD-cholesterol; measure RhoA activity, actin organization, TEER; rescue with statins or ROCK inhibitors.
+
+6. Lipofuscin Lysosomal Overload, Ca2+ Dysregulation, and Calpain Activation  
+Hypothesis: Lipofuscin granules disrupt lysosomal Ca2+ storage, elevating cytosolic Ca2+ and activating calpain-mediated cleavage of cadherins.  
+Assay: Expose RPE to synthetic lipofuscin; perform live Ca2+ imaging, calpain activity assays; detect cleaved N-cadherin; inhibit calpain therapeutically.
+
+7. Sublytic MAC Deposition and Junction Remodeling  
+Hypothesis: Complement membrane attack complex (MAC) sublytic insertion remodels the actin cytoskeleton and disassembles tight junctions.  
+Assay: Incubate RPE with drusen-derived or serum complement; detect C9 deposition; monitor TEER; upregulate CD59 via gene transfer to block MAC.
+
+8. ApoE Isoform-Specific Effects on Barrier Integrity  
+Hypothesis: ApoE4 in drusen more potently disrupts RPE tight junctions than ApoE3/2 through differential receptor-mediated endocytosis and intracellular signaling.  
+Assay: Treat RPE with recombinant ApoE2/3/4; measure TEER, paracellular permeability, junction protein localization; screen small molecules that modulate ApoE4 binding.
+
+9. Lysophosphatidylcholine (LPC)-Triggered Junction Disassembly via G2A  
+Hypothesis: LPC generated from drusen lipoproteins engages the G2A receptor on RPE, activating PKC and resulting in claudin-claudin dissociation.  
+Assay: Apply LPC to RPE; assay TEER, FITC-dextran flux; visualize claudin-19 distribution; knock down G2A or apply G2A antagonists.
+
+10. TLR-Mediated Inflammatory Downregulation of TJ Proteins  
+Hypothesis: Complement proteins and modified lipids in drusen activate TLR2/4 on RPE, driving NF-κB-dependent transcriptional suppression of tight junction genes.  
+Assay: Stimulate RPE with TLR agonists or drusen extracts; quantify mRNA/protein of ZO-1, occludin; block with specific TLR inhibitors.
+
+11. Caveolae Trafficking Disruption by Lipid Overload  
+Hypothesis: Excess membrane cholesterol impairs caveolin-1–mediated transport of junctional components, leading to junctional mislocalization.  
+Assay: Label caveolin-1 and occludin; perform proximity ligation assays under cholesterol loading; test ABCA1 agonists to restore caveolar function.
+
+12. 4-Hydroxynonenal (HNE) Adduction of Junction Proteins  
+Hypothesis: Lipid peroxidation product HNE forms covalent adducts on occludin and ZO-1, destabilizing the junction complex.  
+Assay: Treat RPE with HNE; immunoprecipitate junction proteins and detect HNE adducts via MS; measure TEER; apply aldehyde scavengers (e.g., hydralazine).
+
+13. Autophagy Impairment by Lipofuscin Leading to ROS-Mediated Junction Loss  
+Hypothesis: Lipofuscin inhibits autophagy, causing accumulation of damaged mitochondria, elevated ROS, and secondary degradation of junctional proteins.  
+Assay: Modulate autophagy (rapamycin vs chloroquine) in lipofuscin-loaded RPE; measure mitophagy, ROS, TEER; evaluate autophagy enhancers.
+
+14. Glycocalyx Alteration by Drusen Lipids Affecting Junction Anchoring  
+Hypothesis: Drusen-derived oxidized lipids degrade the RPE glycocalyx, weakening cadherin-cytoskeleton linkages.  
+Assay: Stain cell-surface glycoproteins with lectins; monitor junctional ultrastructure by EM; restore with glycocalyx protectants (e.g., sulodexide).
+
+15. HDL-Mimetic Peptide Restoration of Barrier Function  
+Hypothesis: ApoA-I mimetics promote efflux of excess cholesterol and oxidized lipids from RPE, rescuing tight junction architecture.  
+Assay: Load RPE with ox-LDL or cholesterol; treat with HDL mimetic peptides; measure TEER, FITC-dextran flux, junctional protein localization.
+

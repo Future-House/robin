@@ -1,0 +1,57 @@
+Query: What validated biochemical and functional biomarkers best reflect RPE barrier integrity, phagocytic activity of photoreceptor outer segments, and tight junction maintenance in vitro, and how can these multi-parametric readouts be integrated into a screening platform for potential dry AMD therapeutics?
+
+Validated biomarkers
+
+Barrier integrity and tight-junction maintenance
+- Functional: transepithelial electrical resistance (TEER/TER) and fluorescein/dye permeability to quantify barrier strength and paracellular leak (viherialaUnknownyearinvitromaturation pages 119-119, nicholls2024developmentofan pages 229-232).
+- Biochemical/structural: expression and junctional localization of claudins (RPE-enriched claudin-19, claudin-3; also occludin, JAMs) and ZO-1/ZO-2 scaffolds; claudin-19 loss lowers TEER, and inflammatory/oxidative stress reduces ZO-1, linking protein changes to barrier failure (du2023ocularimmuneprivilege pages 1-2, wong2022exploringthepathogenesis pages 6-7, naylor2019tightjunctionsof pages 6-8).
+- Imaging analytics: high-content ZO-1 morphometrics with machine-learning classification increases sensitivity and spatial resolution relative to bulk TEER (gao2024useofmachine pages 1-5).
+
+Phagocytic activity toward POS
+- Functional: quantitative POS phagocytosis assays (fluorescently labeled POS; internalized counts per cell and population homogeneity; assessment of phagosome–lysosome fusion/degradation) (viherialaUnknownyearinvitromaturation pages 119-119, viherialaUnknownyearinvitromaturation pages 23-26, wong2022exploringthepathogenesis pages 6-7).
+- Mechanistic markers: αvβ5 (binding), MerTK (internalization initiator), CD36 (rate regulator); MERTK protein as a competence marker; accumulation of sequestosome-1/p62 indicates impaired processing (viherialaUnknownyearinvitromaturation pages 23-26, nicholls2024developmentofan pages 115-118, du2023ocularimmuneprivilege pages 1-2, nicholls2024developmentofan pages 173-178).
+
+Ion transport/purinergic signaling relevant to RPE function
+- ATP-evoked Ca2+ responses (P2Y2–IP3–ER): maturation increases amplitudes; slowed rise/decay indicates downstream dysfunction relevant to fluid regulation (viherialaUnknownyearinvitromaturation pages 119-119, viherialaUnknownyearinvitromaturation pages 119-120, viherialaUnknownyearinvitromaturation pages 98-100).
+
+Integration into a dry AMD screening platform
+
+- Culture hPSC/primary RPE on permeable inserts or BRB-on-chip with continuous TEER and endpoint fluorescein permeability; apply oxidative/inflammatory challenge modules (e.g., H2O2, TNFα) to model disease and quantify rescue (nicholls2024developmentofan pages 229-232, nicholls2024developmentofan pages 47-51, du2023ocularimmuneprivilege pages 1-2).
+- Run high-content IF for ZO-1, claudin-19/3, occludin with ML-based TJ morphometry; pair with TEER to capture both spatial and bulk barrier effects (gao2024useofmachine pages 1-5, du2023ocularimmuneprivilege pages 1-2).
+- Implement standardized POS uptake/degradation assays; quantify internalization, MerTK/CD36 levels, and p62 accumulation to resolve binding vs processing defects (viherialaUnknownyearinvitromaturation pages 23-26, nicholls2024developmentofan pages 115-118, du2023ocularimmuneprivilege pages 1-2, viherialaUnknownyearinvitromaturation pages 119-119).
+- Add ATP-stimulated Ca2+ imaging to report transport/signaling competence and maturation state (viherialaUnknownyearinvitromaturation pages 119-119, viherialaUnknownyearinvitromaturation pages 119-120).
+- Include polarity readouts: apical PEDF and basolateral VEGF secretion as pharmacodynamic biomarkers; leverage on-chip readouts for anti-angiogenic response (viherialaUnknownyearinvitromaturation pages 23-26, nicholls2024developmentofan pages 229-232, nicholls2024developmentofan pages 47-51).
+- Optional early-sensitivity layer: basolateral sEV proteomics for desmosome/hemidesmosome cargo shifts as preclinical barrier-dysfunction indicators (hernandez2023polarizeddesmosomeand pages 1-2).
+
+Efficacy criteria: increased TEER/reduced permeability; restored TJ protein localization; normalized ATP–Ca2+ kinetics; improved POS uptake/degradation with reduced p62; and corrected VEGF/PEDF polarity (viherialaUnknownyearinvitromaturation pages 119-119, du2023ocularimmuneprivilege pages 1-2, viherialaUnknownyearinvitromaturation pages 23-26, nicholls2024developmentofan pages 229-232).
+
+In vitro, the most robust panel combines TEER/permeability, TJ protein expression/localization (claudin‑19/3, occludin, ZO‑1), quantitative POS phagocytosis (plus MerTK/CD36 and p62), and ATP‑evoked Ca2+ signaling. These readouts map barrier strength, junction maintenance, and phagocytic competence to therapeutic response. Embedding them in a TEER-enabled, high-content imaging platform with polarity biomarkers (VEGF/PEDF) yields a sensitive screen for dry AMD candidates (viherialaUnknownyearinvitromaturation pages 119-119, du2023ocularimmuneprivilege pages 1-2, viherialaUnknownyearinvitromaturation pages 23-26, nicholls2024developmentofan pages 229-232).
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/daca7078-5d27-49c9-8039-c167caae8f55
+
+References:
+1. (viherialaUnknownyearinvitromaturation pages 119-119): T VIHERIÄLÄ. In vitro maturation and functionality assessment of human pluripotent stem cell-derived retinal pigment epithelium for. Unknown journal, Unknown year.
+
+2. (nicholls2024developmentofan pages 229-232): ER Nicholls. Development of an outer blood-retina barrier-on-a-chip model for biomedical applications. Unknown journal, 2024.
+
+3. (du2023ocularimmuneprivilege pages 1-2): Yuxiang Du and Bo Yan. Ocular immune privilege and retinal pigment epithelial cells. Journal of leukocyte biology, 113:288-304, Feb 2023. URL: https://doi.org/10.1093/jleuko/qiac016, doi:10.1093/jleuko/qiac016. This article has 41 citations and is from a peer-reviewed journal.
+
+4. (wong2022exploringthepathogenesis pages 6-7): Josephine H. C. Wong, Jessica Y. W. Ma, Andrew I. Jobling, Alice Brandli, Ursula Greferath, Erica L. Fletcher, and Kirstan A. Vessey. Exploring the pathogenesis of age-related macular degeneration: a review of the interplay between retinal pigment epithelium dysfunction and the innate immune system. Frontiers in Neuroscience, Nov 2022. URL: https://doi.org/10.3389/fnins.2022.1009599, doi:10.3389/fnins.2022.1009599. This article has 85 citations and is from a peer-reviewed journal.
+
+5. (naylor2019tightjunctionsof pages 6-8): Aisling Naylor, Alan Hopkins, Natalie Hudson, and Matthew Campbell. Tight junctions of the outer blood retina barrier. International Journal of Molecular Sciences, 21:211, Dec 2019. URL: https://doi.org/10.3390/ijms21010211, doi:10.3390/ijms21010211. This article has 220 citations and is from a poor quality or predatory journal.
+
+6. (gao2024useofmachine pages 1-5): Yan Gao, Mark-Anthony Bray, Michael Twarog, YongYao Xu, Natasha Buchanan, Yiyun Zhang, Quintus Medley, Magali Saint-Geniez, Ganesh Prasanna, and Qin Zhang. Use of machine learning for quantification of retinal pigment epithelium tight junctions improves assay sensitivity. bioRxiv, May 2024. URL: https://doi.org/10.1101/2024.05.24.595580, doi:10.1101/2024.05.24.595580. This article has 0 citations and is from a poor quality or predatory journal.
+
+7. (viherialaUnknownyearinvitromaturation pages 23-26): T VIHERIÄLÄ. In vitro maturation and functionality assessment of human pluripotent stem cell-derived retinal pigment epithelium for. Unknown journal, Unknown year.
+
+8. (nicholls2024developmentofan pages 115-118): ER Nicholls. Development of an outer blood-retina barrier-on-a-chip model for biomedical applications. Unknown journal, 2024.
+
+9. (nicholls2024developmentofan pages 173-178): ER Nicholls. Development of an outer blood-retina barrier-on-a-chip model for biomedical applications. Unknown journal, 2024.
+
+10. (viherialaUnknownyearinvitromaturation pages 119-120): T VIHERIÄLÄ. In vitro maturation and functionality assessment of human pluripotent stem cell-derived retinal pigment epithelium for. Unknown journal, Unknown year.
+
+11. (viherialaUnknownyearinvitromaturation pages 98-100): T VIHERIÄLÄ. In vitro maturation and functionality assessment of human pluripotent stem cell-derived retinal pigment epithelium for. Unknown journal, Unknown year.
+
+12. (nicholls2024developmentofan pages 47-51): ER Nicholls. Development of an outer blood-retina barrier-on-a-chip model for biomedical applications. Unknown journal, 2024.
+
+13. (hernandez2023polarizeddesmosomeand pages 1-2): Belinda J. Hernandez, Nikolai P. Skiba, Karolina Plössl, Madison Strain, Yutao Liu, Daniel Grigsby, Una Kelly, Martha A. Cady, Vikram Manocha, Arvydas Maminishkis, TeddiJo Watkins, Sheldon S. Miller, Allison Ashley‐Koch, W. Daniel Stamer, Bernhard H. F. Weber, Catherine Bowes Rickman, and Mikael Klingeborn. Polarized desmosome and hemidesmosome shedding via small extracellular vesicles is an early indicator of outer blood‐retina barrier dysfunction. Journal of Extracellular Biology, Oct 2023. URL: https://doi.org/10.1002/jex2.116, doi:10.1002/jex2.116. This article has 14 citations and is from a peer-reviewed journal.

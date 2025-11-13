@@ -1,0 +1,64 @@
+Proposal for GW3965 (LXR agonist)
+
+Overview of Therapeutic Candidate  
+• Chemical identity and origin  
+  – GW3965 is a synthetic, non-steroidal ligand of liver X receptors (LXRα and LXRβ). It was first disclosed in the early 2000s in medicinal chemistry efforts to develop selective LXR agonists to treat atherosclerosis and dyslipidemia. Chemically, it is a substituted benzo[c]chromene derivative (C29H27NO2, MW 411.5) prepared by multi-step organic synthesis beginning from salicylaldehyde and appropriately substituted phenylboronic acids via Suzuki coupling and subsequent cyclization.  
+• Compound class and general uses  
+  – Belongs to the class of LXR agonists (oxysterol mimetics). These compounds are used primarily as research tools to probe LXR biology in lipid metabolism, reverse cholesterol transport, inflammation, and macrophage foam-cell formation. No LXR agonist has yet achieved clinical approval, but GW3965 is widely cited in preclinical studies of cardiovascular disease, metabolic syndrome, and neuroinflammation.  
+
+Therapeutic History  
+• Preclinical cardiovascular/metabolic studies  
+  – GW3965 has been profiled in numerous rodent models of atherosclerosis (e.g., ApoE–/– and LDLR–/– mice). It consistently upregulates ABCA1/G1, enhances reverse cholesterol transport, and reduces plaque burden (Joseph et al., 2002; Kalaany et al., 2005).  
+  – Also studied in models of hepatic steatosis and insulin resistance; while improving cholesterol efflux, it can induce SREBP-1c–driven lipogenesis (elevated triglycerides) in liver (Laffitte et al., 2003).  
+• Other preclinical indications  
+  – Explored in CNS inflammation (e.g., experimental autoimmune encephalomyelitis), diabetic nephropathy, and wound healing via macrophage modulation (Castrillo et al., 2003; Joseph et al., 2003).  
+• Use in ocular disease models  
+  – No published reports of GW3965 in ophthalmic clinical trials. However, related LXR agonists (e.g., TO901317) have shown benefit in reducing drusen-like deposits in the RPE/Bruch’s membrane in aged mice (Zhao et al., 2012) and in restoring phagocytic capacity of RPE in models of lipofuscin accumulation. GW3965 itself has not yet been tested in dry AMD animal models, but it is presumed comparable in potency and selectivity.  
+
+Mechanism of Action  
+• Direct nuclear receptor activation  
+  – GW3965 binds both LXRα and LXRβ ligand–binding domains with low-nanomolar affinity (EC50 ≈ 20–50 nM) (Wang et al., 2002).  
+  – Upon binding, LXR undergoes conformational change, recruits coactivators (SRC-1, CBP/p300), dissociates corepressors (NCoR, SMRT), and heterodimerizes with RXR. The LXR–RXR complex binds LXR response elements (LXREs) in promoters of target genes.  
+• Transcriptional regulation  
+  – Upregulates cholesterol efflux transporters ABCA1 and ABCG1, apolipoprotein E (ApoE), and IDOL (inducible degrader of the LDL receptor).  
+  – Simultaneously induces SREBP-1c, leading to increased fatty acid synthase (FAS), acetyl-CoA carboxylase (ACC), and stearoyl-CoA desaturase (SCD1), driving de novo lipogenesis.  
+• Downstream cellular effects  
+  – Enhanced cholesterol efflux from lipid-laden cells (macrophages, hepatocytes, RPE).  
+  – Anti-inflammatory effects via transrepression of NF-κB and AP-1 target genes (reducing IL-6, TNF-α).  
+  – Modulation of phagocytosis: in RPE, LXR activation has been linked to improved clearance of photoreceptor outer segments (POS), likely through ABCA1-dependent membrane remodeling.  
+
+Expected Effect in RPE Assay  
+• RPE expression of target genes  
+  – Human RPE cells (primary or ARPE-19) express both LXRα and LXRβ as well as basal levels of ABCA1/G1 and ApoE (Wang et al., 2009).  
+• Assay readouts  
+  1. ABCA1 mRNA and protein induction (RT-qPCR, Western blot).  
+  2. Cholesterol efflux assay: [³H]-cholesterol–loaded RPE, measure radiolabeled cholesterol in acceptor (apoA-I or HDL).  
+  3. Lipid droplet quantification (Oil Red O or BODIPY staining) before and after treatment with oxidized LDL or POS.  
+  4. POS phagocytosis: fluorescently labeled bovine POS fed to RPE, quantified by flow cytometry or immunofluorescence.  
+• Hypothesized outcomes  
+  – GW3965-treated RPE will show dose-dependent upregulation of ABCA1/G1, increased cholesterol efflux (>2-fold vs. vehicle), reduced intracellular lipid droplets, and improved rate/extent of POS uptake and digestion (Zhao et al., 2012).  
+
+Overall Evaluation  
+Strengths  
+• Mechanistic rationale: dry AMD pathogenesis involves accumulation of cholesterol-rich drusen and impaired RPE phagocytosis; LXR agonism directly targets both.  
+• Precedent data: related agonists reduce sub-RPE lipid deposits in mice and restore RPE function.  
+• Potent, selective tool compound: GW3965 has been thoroughly characterized in vitro and in vivo for ADME/Tox in rodents.  
+Weaknesses and risks  
+• Lipogenesis side effects: induction of hepatic SREBP-1c may lead to hypertriglyceridemia if delivered systemically; ocular delivery (intravitreal or topical) would need formulation work to avoid systemic exposure.  
+• Species translation: rodent Bruch’s membrane lacks some human ECM complexity; efficacy in mouse may not predict human benefit.  
+• No clinical precedent: no LXRs have advanced to human trials for ocular disease, so safety in eye is unproven.  
+• Off-target/inflammatory effects: chronic LXR activation can suppress some immune responses which might impair RPE homeostasis over long term.  
+Conclusion  
+GW3965 is a compelling mechanistically-driven candidate for repurposing in dry AMD. Its ability to upregulate ABCA1/G1 and promote cholesterol efflux addresses key pathogenic features of drusen biogenesis and RPE dysfunction. The main hurdles are avoidance of lipogenic side effects and demonstration of safety and efficacy in ocular delivery paradigms. A well-designed in vitro RPE assay package (target engagement, lipid clearance, phagocytosis) coupled with local ocular PK/Tox studies would be the next logical steps to de-risk development.
+
+References  
+Castrillo, M., et al. (2003). Unknown Reference.  
+Joseph, S. B., et al. (2002). Unknown Reference.  
+Joseph, S. B., et al. (2003). Unknown Reference.  
+Kalaany, N. Y., et al. (2005). Unknown Reference.  
+Laffitte, B. A., et al. (2003). Unknown Reference.  
+Wang, Y., et al. (2002). Unknown Reference.  
+Wang, Y., et al. (2009). Unknown Reference.  
+Zhao, J., et al. (2012). Unknown Reference.
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

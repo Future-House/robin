@@ -1,0 +1,43 @@
+Hypothesis: Ferroptosis protection assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Ferroptosis protection assay
+Reasoning: Use lipid peroxidation sensors (e.g., Liperfluo) and viability readouts in ARPE-19 treated with erastin to screen ferroptosis inhibitors; iron‐driven lipid peroxidation and ferroptosis contribute to RPE loss in AMD (buonfiglio2024recentadvancesin pages 10-12; buonfiglio2024recentadvancesin pages 9-10).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview:  
+This assay utilizes ARPE‑19 cells to model ferroptosis—a regulated cell death process driven by iron‐dependent lipid peroxidation—as observed in dry age‑related macular degeneration. Erastin is employed to disrupt the cystine/glutathione axis, leading to labile iron accumulation and oxidative lipid damage that is quantified using lipid‑peroxidation sensors (e.g., Liperfluo) and complemented by viability measurements (MTS/CCK‑8) (tang2021ho1mediatedferroptosisas pages 2-4, zhao2021ironaccumulationand pages 11-12).
+
+Biomedical Evidence:  
+Ferroptosis, mediated by iron overload and lipid peroxidation, is central to RPE degeneration implicated in dry AMD. Studies demonstrate that disruptions in antioxidant defenses (e.g., GPX4 inactivation, system Xc– inhibition) result in RPE cell death, a phenomenon recapitulated both in vitro and in vivo. These molecular hallmarks directly correlate with clinical findings of increased retinal iron and lipid markers in AMD patients (tang2021ho1mediatedferroptosisas pages 1-2, dohl2025theintersectionof pages 7-8).
+
+Previous Use:  
+Similar platforms using ARPE‑19 cells challenged with ferroptosis inducers such as erastin, sodium iodate, or atRAL have successfully demonstrated the rescue of cell viability by ferroptosis inhibitors (e.g., Fer‑1) and iron chelators. These studies have advanced our understanding of the underlying molecular pathways and provided proof‑of‑concept data for therapeutic screening (shen2025ferrostatin1aferroptosis pages 1-2, shen2025ferrostatin1aferroptosis pages 4-6).
+
+Overall Evaluation:  
+This assay is robust and mechanistically specific, offering quantifiable endpoints that directly map onto key dry AMD pathologies. Its strengths include the ability to dissect iron‑driven lipid peroxidation and evaluate drug efficacy in a controlled in vitro setting. However, limitations include potential discrepancies between ARPE‑19 responses and primary RPE cell behavior or in vivo complexity, which necessitate subsequent validation in complementary models (zhao2025ferroptosisanenergetic pages 20-21, zhao2025ferroptosisanenergetic pages 13-14).
+
+The ferroptosis protection assay in ARPE‑19 cells is a valuable model for testing dry AMD therapeutics because it effectively recapitulates iron-dependent lipid peroxidation and cell viability loss. It provides a strong mechanistic and screening platform for identifying potential ferroptosis inhibitors in the early stages of drug discovery.
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/976fb8e9-ee9d-4bf6-9b3f-b621b38b3456
+
+References:
+1. (tang2021ho1mediatedferroptosisas pages 2-4): Zhimin Tang, Yahan Ju, Xiaochan Dai, Ni Ni, Yan Liu, Dandan Zhang, Huiqin Gao, Hao Sun, Jing Zhang, and Ping Gu. Ho-1-mediated ferroptosis as a target for protection against retinal pigment epithelium degeneration. Redox Biology, 43:101971, Jul 2021. URL: https://doi.org/10.1016/j.redox.2021.101971, doi:10.1016/j.redox.2021.101971. This article has 284 citations and is from a domain leading peer-reviewed journal.
+
+2. (zhao2021ironaccumulationand pages 11-12): Tantai Zhao, Xiaojian Guo, and Yun Sun. Iron accumulation and lipid peroxidation in the aging retina: implication of ferroptosis in age-related macular degeneration. Aging and Disease, 12:529-551, Apr 2021. URL: https://doi.org/10.14336/ad.2020.0912, doi:10.14336/ad.2020.0912. This article has 154 citations and is from a peer-reviewed journal.
+
+3. (tang2021ho1mediatedferroptosisas pages 1-2): Zhimin Tang, Yahan Ju, Xiaochan Dai, Ni Ni, Yan Liu, Dandan Zhang, Huiqin Gao, Hao Sun, Jing Zhang, and Ping Gu. Ho-1-mediated ferroptosis as a target for protection against retinal pigment epithelium degeneration. Redox Biology, 43:101971, Jul 2021. URL: https://doi.org/10.1016/j.redox.2021.101971, doi:10.1016/j.redox.2021.101971. This article has 284 citations and is from a domain leading peer-reviewed journal.
+
+4. (dohl2025theintersectionof pages 7-8): Jacob Dohl, Gordon Burns, and Mithalesh Singh. The intersection of mitochondria, lipids, and ferroptosis: a new avenue for dry age-related macular degeneration. Apoptosis, Aug 2025. URL: https://doi.org/10.1007/s10495-025-02165-2, doi:10.1007/s10495-025-02165-2. This article has 0 citations and is from a peer-reviewed journal.
+
+5. (shen2025ferrostatin1aferroptosis pages 1-2): Xiaoqing Shen, Yuling Chen, Beiting He, Ruitong Xi, Jing-meng Chen, and Yalin Wu. Ferrostatin-1, a ferroptosis inhibitor, mitigates all-trans-retinal-induced retinal pigment epithelium degeneration in mice. Journal of Translational Medicine, Oct 2025. URL: https://doi.org/10.1186/s12967-025-07195-7, doi:10.1186/s12967-025-07195-7. This article has 0 citations and is from a peer-reviewed journal.
+
+6. (shen2025ferrostatin1aferroptosis pages 4-6): Xiaoqing Shen, Yuling Chen, Beiting He, Ruitong Xi, Jing-meng Chen, and Yalin Wu. Ferrostatin-1, a ferroptosis inhibitor, mitigates all-trans-retinal-induced retinal pigment epithelium degeneration in mice. Journal of Translational Medicine, Oct 2025. URL: https://doi.org/10.1186/s12967-025-07195-7, doi:10.1186/s12967-025-07195-7. This article has 0 citations and is from a peer-reviewed journal.
+
+7. (zhao2025ferroptosisanenergetic pages 20-21): Na Zhao, Siyu Li, Hao Wu, Dong Wei, Ning Pu, Kexin Wang, Yashuang Liu, Ye Tao, and Zongming Song. Ferroptosis: an energetic villain of age-related macular degeneration. Biomedicines, 13:986, Apr 2025. URL: https://doi.org/10.3390/biomedicines13040986, doi:10.3390/biomedicines13040986. This article has 4 citations and is from a poor quality or predatory journal.
+
+8. (zhao2025ferroptosisanenergetic pages 13-14): Na Zhao, Siyu Li, Hao Wu, Dong Wei, Ning Pu, Kexin Wang, Yashuang Liu, Ye Tao, and Zongming Song. Ferroptosis: an energetic villain of age-related macular degeneration. Biomedicines, 13:986, Apr 2025. URL: https://doi.org/10.3390/biomedicines13040986, doi:10.3390/biomedicines13040986. This article has 4 citations and is from a poor quality or predatory journal.

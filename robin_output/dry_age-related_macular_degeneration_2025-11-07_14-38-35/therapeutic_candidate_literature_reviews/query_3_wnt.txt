@@ -1,0 +1,47 @@
+Query: Wnt/beta-catenin signaling modulators AND effects on tight junction proteins (ZO-1, claudin-1, occludin) in retinal pigment epithelium AND evaluation of barrier function via TEER AND paracellular flux assays in dry AMD or oxidative stress–induced models
+
+1. Hypothesis: Pharmacologic activation of Wnt/β-catenin with CHIR99021 restores ZO-1 localization and rescues TEER in H2O2-stressed ARPE-19 cells.  
+   Assay: Pretreat cells with CHIR99021, induce oxidative stress (200 µM H2O2), measure ZO-1 (IF), claudin-1/occludin (WB), TEER, and FITC-dextran flux.
+
+2. Hypothesis: Dkk1 antibody blockade of endogenous Wnt inhibitors enhances β-catenin nuclear translocation and prevents tight junction disruption in A2E + blue light–treated primary human RPE.  
+   Assay: Add anti-Dkk1, expose to A2E (10 µM) + 430 nm light, assess claudin-1 distribution, occludin levels, TEER, Na-fluorescein permeability.
+
+3. Hypothesis: siRNA knockdown of β-catenin exacerbates oxidative stress–induced barrier breakdown via downregulation of ZO-1 transcription in RPE cells.  
+   Assay: Transfect β-catenin siRNA, treat with 300 µM tBHP, measure ZO-1 mRNA (qPCR), protein (WB/IF), TEER, paracellular flux.
+
+4. Hypothesis: Overexpression of constitutively active β-catenin mutant (S33Y) upregulates claudin-1 promoter activity and protects against hydroquinone-induced barrier loss.  
+   Assay: Transfect S33Y β-catenin, add 100 µM hydroquinone, perform luciferase reporter for CLDN1, TEER, FITC-dextran leakage.
+
+5. Hypothesis: Small-molecule Wnt inhibitor XAV939 exacerbates RPE barrier permeability under oxidative challenge by promoting occludin ubiquitination and degradation.  
+   Assay: Co-treat ARPE-19 with XAV939 + 150 µM H2O2, immunoprecipitate occludin, detect ubiquitin (WB), TEER, paracellular tracer flux.
+
+6. Hypothesis: Recombinant Wnt3a protein preserves tight junction integrity via β-catenin–mediated upregulation of ZO-1 in sodium iodate–injured iPSC-derived RPE.  
+   Assay: Treat cells with Wnt3a, injure with 2 mM NaIO3, quantify ZO-1 (IF), claudin-1/occludin (WB), measure TEER and 4 kDa FITC-dextran permeability.
+
+7. Hypothesis: Co-delivery of Wnt activator (CHIR99021) and antioxidant N-acetylcysteine synergistically enhances barrier restoration by dual stabilization of β-catenin and ROS scavenging.  
+   Assay: Combined CHIR + NAC pretreatment before 250 µM H2O2, assess tight junction proteins and TEER recovery kinetics.
+
+8. Hypothesis: Exosomal delivery of Wnt5a from retinal ganglion cells activates non-canonical Wnt signaling to indirectly stabilize RPE tight junctions under oxidative stress.  
+   Assay: Collect RGC exosomes overexpressing Wnt5a, treat stressed ARPE-19, measure JNK/Ca2+ pathway activation, ZO-1, TEER, paracellular flux.
+
+9. Hypothesis: CRISPRa-mediated upregulation of endogenous Wnt2b in RPE enhances barrier resistance to blue light–induced oxidative damage via increased occludin gene transcription.  
+   Assay: Use dCas9-VP64 sgRNA targeting WNT2B promoter, expose to high-energy light, quantify occludin mRNA/protein, TEER, flux.
+
+10. Hypothesis: Inhibition of GSK-3β by lithium chloride stabilizes β-catenin, leading to enhanced claudin-1 expression and attenuation of paraquat-induced RPE barrier disruption.  
+    Assay: Pre-treat with LiCl, treat with 500 µM paraquat, assess GSK-3β pSer9, β-catenin levels, claudin-1 (WB/IF), TEER, 70 kDa FITC-dextran leakage.
+
+11. Hypothesis: Peptide inhibitor of β-catenin/TCF interaction (iCRT14) will sensitize RPE cells to oxidative stress by impairing tight junction gene expression.  
+    Assay: Apply iCRT14, challenge with 200 µM H2O2, measure TCF/LEF reporter activity, ZO-1/occludin transcript levels, TEER, paracellular marker flux.
+
+12. Hypothesis: Sclerostin (a natural Wnt antagonist) secreted by senescent RPE impairs barrier function; neutralizing sclerostin with antibody restores tight junction integrity in aged RPE cultures.  
+    Assay: Generate senescent RPE by serial passage, treat with anti-sclerostin, measure β-catenin activation, tight junction protein localization, TEER, FITC dextran flux.
+
+13. Hypothesis: Activation of Wnt/β-catenin by sulforaphane confers protective effects on RPE barrier by epigenetic upregulation of CLDN1 promoter via histone acetylation.  
+    Assay: Treat ARPE-19 with sulforaphane + H2O2, perform ChIP for H3K27ac at CLDN1 promoter, evaluate claudin-1 levels, TEER, paracellular permeability.
+
+14. Hypothesis: MicroRNA-34a inhibits β-catenin signaling and contributes to tight junction breakdown in oxidative stress; antagomiR-34a restores barrier function in RPE.  
+    Assay: Transfect antagomiR-34a, induce with 200 µM H2O2, measure β-catenin target genes, ZO-1/occludin protein, TEER, Na-fluorescein flux.
+
+15. Hypothesis: Nanoparticle-mediated delivery of ICG-001 (a CBP/β-catenin interaction inhibitor) selectively modulates gene subsets to reinforce barrier recovery post-oxidative insult without broad Wnt suppression.  
+    Assay: Encapsulate ICG-001 in liposomes, treat tBHP-stressed RPE, perform RNA-seq for junction genes, WB/IF for ZO-1/claudin-1/occludin, TEER, FITC-dextran assay.
+

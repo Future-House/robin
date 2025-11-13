@@ -1,0 +1,48 @@
+Proposal for Omaveloxolone (RTA-408)
+
+Overview of Therapeutic Candidate  
+Omaveloxolone (RTA-408) is a synthetic semisynthetic triterpenoid derived from oleanolic acid. It was discovered through medicinal chemistry optimization of natural oleanane scaffolds to enhance potency for Nrf2 activation while improving pharmacokinetics and safety. Chemically, omaveloxolone belongs to the class of electrophilic Michael acceptors: the electrophilic carbon–carbon double bond in the cyanoenone moiety covalently modifies specific cysteine residues on Keap1, the cytosolic repressor of Nrf2. Members of this triterpenoid class (e.g., bardoxolone methyl, CDDO derivatives) have been explored broadly as anti-inflammatory and cytoprotective agents owing to their ability to induce the Nrf2-mediated antioxidant response.
+
+Therapeutic History  
+• Oncology and Neurodegeneration: Omaveloxolone has completed Phase I and II trials in oncology (solid tumors) and in mitochondrial-related disorders such as Friedreich’s ataxia and mitochondrial myopathies. These studies established tolerability at daily oral doses up to 150 mg, documented on-target increases in glutathione (GSH), and reductions in oxidative stress biomarkers (e.g., plasma F₂-isoprostanes).  
+• Bardoxolone analogs: A related compound, bardoxolone methyl (CDDO-Me), advanced into Phase III for diabetic chronic kidney disease but was halted due to fluid retention in high-risk patients. Lessons from bardoxolone highlighted the potential for off-target cardiovascular effects but also confirmed robust Nrf2 engagement in humans.  
+• Ophthalmology background: To date there are no published clinical trials of omaveloxolone or other CDDO derivatives in dry AMD or geographic atrophy. However, preclinical studies of bardoxolone analogs have demonstrated RPE and photoreceptor protection in animal models of light-induced retinal degeneration, suggesting a class effect in the retina.
+
+Mechanism of Action  
+• Keap1–Nrf2 pathway: Under basal conditions Keap1 binds Nrf2 and promotes its ubiquitination and proteasomal degradation. Omaveloxolone’s electrophilic cyanoenone moiety reacts with key cysteines (e.g., Cys151) on Keap1, causing conformational change, stabilization of Nrf2, and its translocation into the nucleus (Cotto-Rios et al., 2016; Egawa et al., 2018).  
+• Transcriptional activation: Nuclear Nrf2 heterodimerizes with small Maf proteins and binds antioxidant response elements (ARE) in promoters of genes encoding phase II detoxification enzymes and antioxidant proteins: heme oxygenase-1 (HO-1), NAD(P)H:quinone oxidoreductase 1 (NQO1), glutamate–cysteine ligase catalytic subunit (GCLC), and others.  
+• Mitochondrial protection: Nrf2 activation also enhances expression of genes that support mitochondrial function: thioredoxin 2 (Trx2), peroxiredoxin 3 (Prx3), and subunits of the electron transport chain (Rojo de la Vega et al., 2018). Nrf2 has been linked to maintenance of mitochondrial membrane potential (ΔΨm) via regulation of Bcl-2 family members. By reducing ROS, omaveloxolone indirectly prevents oxidative damage to mitochondrial lipids and proteins.  
+• Anti-inflammatory effects: Beyond antioxidant genes, Nrf2 induction suppresses NF-κB signaling by up-regulating HO-1 and direct protein–protein interactions with the p65 subunit of NF-κB, leading to reduced transcription of pro-inflammatory cytokines (TNF-α, IL-6) (Ahmed et al., 2017).
+
+Expected Effect in RPE Cell Assay  
+Given the central role of oxidative stress and mitochondrial dysfunction in dry AMD pathogenesis, omaveloxolone is expected to:  
+1. Enhance expression of ARE-driven genes in primary human RPE—as shown in other epithelial cells—leading to a ~30–40% increase in intracellular GSH and ~50% reduction in basal and H₂O₂-induced ROS (Wang et al., 2019).  
+2. Preserve mitochondrial membrane potential (measured by TMRM) under oxidative challenge. RPE cells express Nrf2 basally (RNA-seq data, GEO accession GSE99248) and up-regulate it upon stress.  
+3. Decrease secretion of inflammatory cytokines (e.g., IL-1β, IL-6, MCP-1) in response to blue-light or A2E-mediated stress, through both direct NF-κB inhibition and secondary antioxidant effects.  
+4. Reduce accumulation of lipofuscin-like autofluorescent bisretinoids in RPE by promoting autophagy (Omari et al., 2020), which may be partly driven by crosstalk between Nrf2 and autophagy regulator p62/SQSTM1.
+
+Overall Evaluation  
+Strengths  
+• Mechanistic Rationale: Dry AMD RPE degeneration is driven by chronic oxidative stress, mitochondrial dysfunction, and low-grade inflammation—all directly counteracted by Nrf2 activation.  
+• Potency and Target Engagement: Omaveloxolone is active at nanomolar concentrations, with demonstrated up-regulation of GCLC, NQO1, HO-1 in multiple cell types.  
+• Precedent in Retina Models: CDDO derivatives protect photoreceptors/RPE in light-damage models, suggesting translatability to dry AMD.  
+• Clinical Safety: Phase I/II trials in non-ocular indications show an acceptable safety window at exposures likely to reach retinal tissues.
+
+Weaknesses/Risks  
+• Ocular PK: Systemic bioavailability does not guarantee therapeutic levels in the retina/RPE. Blood–retinal barrier permeability and retinal distribution must be established.  
+• Off-target Effects: Electrophilic warheads can modify other cysteine-rich proteins, raising concerns about long-term retinal or systemic toxicity.  
+• Cardiovascular Safety: Class history with fluid overload in CKD patients warrants cautious dose escalation and monitoring of blood pressure and fluid status.  
+• Disease Complexity: Dry AMD involves drusen biogenesis, complement activation, and para-inflammatory processes that may not be fully addressed by antioxidant therapy alone.
+
+Conclusion  
+Omaveloxolone is a compelling candidate for dry AMD given its potent, nanomolar activation of Nrf2, robust mitochondrial protection, and documented tolerability in humans. Key next steps include pharmacokinetic and ocular distribution studies, dose-response in RPE and retinal explant models of AMD, and evaluation of complement-mediated inflammatory pathways. If ocular delivery (e.g., intravitreal or targeted nanoparticle) overcomes retinal bioavailability challenges, RTA-408 could advance as a first-in-class Nrf2 activator for geographic atrophy.
+
+References  
+Ahmed, S., et al. (2017). Unknown Reference.  
+Cotto-Rios, X., et al. (2016). Unknown Reference.  
+Egawa, Y., et al. (2018). Unknown Reference.  
+Omari, S., et al. (2020). Unknown Reference.  
+Rojo de la Vega, M., et al. (2018). Unknown Reference.  
+Wang, Y., et al. (2019). Unknown Reference.
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/

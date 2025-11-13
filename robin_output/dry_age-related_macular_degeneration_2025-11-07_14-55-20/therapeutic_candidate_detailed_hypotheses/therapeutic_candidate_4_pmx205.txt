@@ -1,0 +1,43 @@
+Proposal for PMX205 (C5aR antagonist)
+
+Overview of Therapeutic Candidate  
+PMX205 is a synthetic cyclic hexapeptide antagonist of the complement 5a receptor (C5aR, CD88). It was derived by structure–activity optimization of the earlier peptide antagonist PMX53, incorporating non-proteinogenic amino acids and a cyclization scaffold to improve metabolic stability, receptor affinity, and oral bioavailability. PMX205 belongs to the class of small-molecule/peptidomimetic complement inhibitors targeting G-protein-coupled receptor (GPCR) signaling. Compounds of this class have been explored broadly as anti-inflammatory agents in diseases where excessive complement activation drives pathology (e.g., rheumatoid arthritis, systemic lupus erythematosus, neuroinflammation).  
+
+Therapeutic History  
+• Preclinical models: PMX205 (and its predecessor PMX53) have been tested in multiple rodent models of inflammatory and neurodegenerative disease—including Alzheimer’s disease, amyotrophic lateral sclerosis, spinal cord injury, and ischemia–reperfusion injury—where blockade of C5aR reduced microglial activation, cytokine release (IL-1β, TNF-α), and tissue damage.  
+• Pharmacokinetics/Toxicology: Compared to PMX53, PMX205 shows improved half-life after oral dosing, higher tissue penetration (including brain and eye tissues), and a favorable safety profile in rodents, with no overt immunosuppression at efficacious doses.  
+• Clinical status: To date, no completed Phase I–III trials of PMX205 in humans have been published. Related C5aR antagonists (e.g., avacopan, vilobelimab) have advanced in other indications, validating the receptor as a druggable target.  
+• Use in ocular disease: There are no reports of direct PMX205 use in age-related macular degeneration (AMD) or other retinal degenerations. However, C5aR blockade has been proposed as a strategy in dry AMD by multiple groups, and complement inhibitors (C3, C5 antibodies) are in clinical trials for geographic atrophy.
+
+Mechanism of Action  
+• Target engagement: PMX205 binds with high affinity to the C5aR1 (CD88) binding pocket, acting as a competitive antagonist that prevents the pro-inflammatory anaphylatoxin C5a from activating its GPCR.  
+• Downstream signaling: In the absence of C5aR1 activation, intracellular Ca2+ flux, MAPK (ERK1/2, p38) phosphorylation, NF-κB nuclear translocation, and NLRP3 inflammasome priming are reduced in myeloid and epithelial cells. This suppresses activation of caspase-1 and maturation/secretion of IL-1β and IL-18.  
+• Impact on RPE/Phagolysosomes: Published studies in RPE cell lines (e.g., ARPE-19, primary human RPE) document expression of C5aR1. C5a exposure in vitro induces lysosomal alkalinization, reduced cathepsin D processing, accumulation of undigested photoreceptor outer segment (POS) material, and NLRP3 activation. By preventing C5a/C5aR1 engagement, PMX205 is expected to restore lysosomal acidification, hydrolytic enzyme activity, and effective POS clearance.  
+
+Expected Effect in Dry AMD–Relevant Assays  
+In an in vitro RPE assay combining oxidative stress (e.g., H2O2 or blue-light exposure), complement activation (addition of recombinant human C5a or serum with activated complement), and POS feeding:  
+• PMX205 should dose-dependently inhibit C5a-mediated Ca2+ influx (IC50 in low nM range).  
+• It should reduce expression of NLRP3, pro-IL-1β, cleavage of caspase-1 (p20 fragment), and secretion of mature IL-1β/IL-18 (reportable by ELISA).  
+• Restoration of lysosomal pH can be assayed with LysoTracker or pH-sensitive probes, and cathepsin D activity monitored with fluorogenic substrates.  
+• POS uptake and degradation can be quantified by immunofluorescence or flow cytometry; PMX205 should normalize the rate of rhodopsin clearance relative to untreated, complement-challenged controls.  
+• Viability assays (e.g., MTT, LDH release) should show improved RPE survival under complement-driven stress.  
+
+Overall Evaluation  
+Strengths  
+• Mechanistic Rationale: C5a/C5aR1–driven inflammasome activation and lysosomal dysfunction are well documented in dry AMD pathogenesis. Targeting this axis addresses both inflammation and RPE clearance impairment.  
+• Preclinical Validation: Robust data exist for PMX205 (and analogs) in inflammatory/neurodegenerative models, including ocular tissue penetration.  
+• Drug-like Properties: Oral bioavailability, favorable PK, and safety in animal studies support feasibility of systemic dosing or potential formulation for intraocular delivery.  
+• Rapid Translation: PMX205 is a repurposing candidate; synthetic route and formulation are established, facilitating IND-enabling studies.  
+
+Weaknesses and Risks  
+• Ocular Exposure: Systemic dosing may not achieve therapeutic concentrations in the subretinal space; local delivery strategies (intravitreal or periocular) may be required and entail formulation challenges.  
+• Immunocompromise: Chronic complement blockade can increase susceptibility to encapsulated bacteria; risk–benefit must be assessed, particularly in elderly patients.  
+• Redundancy and Compensation: Complement system has multiple receptors (C5aR2) and cross-talk with other inflammatory pathways; C5aR1 antagonism alone may be insufficient.  
+• Lack of Direct Clinical Data: No existing trials in AMD; efficacy in human RPE/retina remains to be demonstrated.  
+
+Conclusion  
+PMX205 represents a highly rational, mechanism-focused candidate for dry AMD based on strong preclinical evidence linking C5aR1 signaling to RPE dysfunction and inflammation. Key next steps would include in vitro confirmation of target engagement and functional rescue in RPE/POS assays, PK studies of ocular distribution, and assessment of immunological safety in relevant animal models. If these studies are supportive, PMX205 merits advancement toward a first-in-eye proof-of-concept study.
+
+References
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

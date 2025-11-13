@@ -1,0 +1,81 @@
+Query: Search literature on the complement cascade dysregulation in dry age-related macular degeneration, focusing on mechanistic studies of C3 and membrane attack complex deposition in retinal pigment epithelial cells, identification of relevant biomarkers, and development of quantitative cell-based complement activation assays.
+
+Here are 15 distinct mechanistic hypotheses or therapeutic‐strategy ideas—each testable in RPE cell–culture assays, with proposed readouts (biomarkers) and/or intervention points—centered on C3/MAC dysregulation in dry AMD:
+
+1. CFH-Y402H Variant Increases C3b Deposition  
+Hypothesis: The AMD‐risk CFH Y402H polymorphism on RPE surfaces impairs C3b inactivation, leading to elevated C3b/iC3b and downstream MAC.  
+Assay: CRISPR‐edit ARPE-19 to homozygosity for 402H vs wild-type, expose to 10% normal human serum (NHS), quantify surface C3b/iC3b by flow cytometry and MAC (C5b-9) by immunofluorescence.  
+Biomarker readout: C3b:iC3b ratio; mean fluorescence intensity (MFI) of C5b-9.
+
+2. Oxidative Stress–Modified Heparan Sulfate Fails to Recruit CFH  
+Hypothesis: H₂O₂–induced desulfation of pericellular glycosaminoglycans impairs CFH binding, promoting local C3 convertase activity.  
+Assay: Treat ARPE-19 with sublethal H₂O₂, add NHS ± exogenous CFH, then measure cell‐surface C3a and C3b by ELISA and MAC by cell‐based ELISA.  
+Biomarkers: Heparan sulfate sulfation level (antibody); supernatant C3a; cell‐surface C3b, C5b-9.
+
+3. drusen-Derived Amyloid-β Fibrils Trigger Complement Activation  
+Hypothesis: Aβ oligomers in drusen nucleate C1q binding and classical‐pathway activation on RPE, escalating C3 cleavage and MAC formation.  
+Assay: Coat ARPE-19 with synthetic Aβ₁₋₄₂ oligomers, add serum, quantify C4b, C3b, C5b-9 by multiplexed immunoassay.  
+Biomarkers: C4d fragment in supernatant; ratio of C3a:C3.
+
+4. C3aR–Mediated Proinflammatory Signaling Amplifies Complement Loop  
+Hypothesis: Autocrine C3a–C3aR engagement on RPE upregulates pro-complement genes (C3, FB), creating a feed-forward loop.  
+Assay: Stimulate ARPE-19 with recombinant C3a ± C3aR antagonist (SB290157), measure mRNA (qPCR) and secreted protein (ELISA) for C3 and FB; assess C3b deposition after serum restimulation.  
+Biomarkers: C3, FB transcript levels; secreted C3a concentration.
+
+5. Mitochondrial DNA Release Activates Complement via cGAS–STING  
+Hypothesis: mtDNA leakage from dysfunctional RPE triggers both intracellular STING signaling and extracellular complement activation.  
+Assay: Induce mild mitochondrial damage (rotenone), collect supernatant, apply to naïve ARPE-19, then add NHS, measure C3b/C5b-9 deposition and STING pathway activation (p-TBK1 by Western).  
+Biomarkers: extracellular mtDNA (qPCR); p-TBK1; C5b-9.
+
+6. MicroRNA-146a Downregulates CFH and CFI in RPE  
+Hypothesis: Upregulated miR-146a in aging RPE targets CFH/CFI transcripts, diminishing complement regulation.  
+Assay: Transfect ARPE-19 with miR-146a mimic vs inhibitor, then expose to NHS, quantify CFH/CFI mRNA and protein, measure MAC by high‐content imaging.  
+Biomarkers: CFH/CFI mRNA (qPCR); secreted CFH by ELISA.
+
+7. High Glucose Exacerbates Complement Activation  
+Hypothesis: Diabetic‐range glucose induces advanced glycation end products on RPE surfaces, reducing factor H binding and boosting C3b/MAC.  
+Assay: Culture ARPE-19 in 25 mM vs 5 mM glucose, add NHS, measure C3a, iC3b, and C5b-9 by multiplex bead assay.  
+Biomarkers: AGE–RAGE levels; C3a:C3 ratio.
+
+8. Vitamin D3 Analogs Enhance Complement Regulation  
+Hypothesis: Calcitriol upregulates CFH and CFI expression in RPE, lowering C3 activation and MAC deposition.  
+Assay: Pre-treat ARPE-19 with calcitriol, challenge with NHS, quantify gene (CFH/CFI qPCR) and protein (ELISA), assess C5b-9 by IF.  
+Biomarkers: CFH/CFI protein; % C5b-9–positive cells.
+
+9. Nanoparticle-Mediated Compstatin Delivery to Suppress C3  
+Hypothesis: RPE‐targeted liposomes carrying compstatin (C3 inhibitor) reduce local complement activation more efficiently than free drug.  
+Assay: Compare free vs liposome‐encapsulated compstatin in ARPE-19 + NHS model; measure C3a, iC3b, C5b-9 via ELISA/immunocytochemistry.  
+Biomarkers: EC50 for C3a inhibition; % C5b-9 reduction.
+
+10. Fatty Acid–Induced Membrane Rigidity Promotes MAC Insertion  
+Hypothesis: Drusen‐associated saturated fatty acids stiffen RPE membranes, facilitating MAC pore formation.  
+Assay: Load ARPE-19 with palmitate vs oleate, then add NHS; assess membrane order by Laurdan dye and quantify MAC by flow cytometry.  
+Biomarkers: Generalized polarization (Laurdan); C5b-9 MFI.
+
+11. CR1 Shedding From RPE Surface Enhances C3b Accumulation  
+Hypothesis: Metalloprotease‐mediated cleavage of CR1 on aging RPE reduces cell‐surface C3b clearance.  
+Assay: Treat ARPE-19 with PMA to induce shedding, measure soluble CR1 (sCR1) in media (Western/ELISA), then examine residual surface CR1 and C3b deposition after NHS.  
+Biomarkers: sCR1; surface CR1 by FACS; C3b.
+
+12. Pyroptosis via Complement-Activated NLRP3 Inflammasome  
+Hypothesis: Sublytic MAC induces NLRP3 activation in RPE, leading to Gasdermin D cleavage and inflammatory cell death.  
+Assay: Expose ARPE-19 to sublytic C5b-9 (reconstituted), assess caspase-1 activity, GSDMD‐NT formation (WB), IL-1β release (ELISA); test MCC950 (NLRP3 inhibitor).  
+Biomarkers: cleaved GSDMD; IL-1β levels.
+
+13. Drusen APOE4 Aggregates Amplify C3 Convertase Formation  
+Hypothesis: APOE4 in drusen enhances C3 convertase stability on RPE, increasing C3b deposition and terminal pathway activation.  
+Assay: Coat ARPE-19 with recombinant APOE3 vs APOE4, add NHS, measure C3b/iC3b by immunoassay, monitor decay‐accelerating factor (DAF) activity.  
+Biomarkers: half‐life of C3 convertase (fluid‐phase assay); C3b density.
+
+14. Circadian Clock–Dependent Regulation of Complement Genes  
+Hypothesis: BMAL1/CLOCK oscillations in RPE drive daily rhythms in expression of complement regulators (CFH, CFI) and activators (C3, FB).  
+Assay: Synchronize ARPE-19 via serum shock, sample every 6 h, quantify transcripts (qPCR) and complement activation upon NHS challenge at each time point (C5b-9 IF).  
+Biomarkers: rhythmic expression profiles; time‐point MAC levels.
+
+15. Bispecific Antibody Targeting C3b and RPE-Specific Antigen  
+Therapeutic Strategy: Engineer a bispecific antibody that binds C3b and an RPE‐restricted antigen (e.g. RPE65), concentrating C3b neutralization locally.  
+Assay: Test in co-culture of ARPE-19 and choroidal endothelial cells with NHS, measure selective blockade of C3b deposition on RPE vs endothelium (flow cytometry).  
+Biomarkers: ratio of C3b on RPE:EC; antibody binding kinetics.
+
+Each idea provides a clear mechanistic hypothesis, a cell‐culture–compatible assay format, and quantitative biomarker readouts to track complement activation or therapeutic efficacy.
+

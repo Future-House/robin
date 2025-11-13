@@ -1,0 +1,91 @@
+Query: Investigate the cellular and molecular mechanisms driving retinal pigment epithelium (RPE) degeneration in dry age-related macular degeneration—including oxidative stress and mitochondrial dysfunction, lipofuscin and drusen component accumulation, complement activation, inflammasome engagement, and autophagy impairment—and survey cell-culture assay approaches (ROS and lipid peroxidation detection, mitochondrial membrane potential assays, drusen-like deposit formation, complement protein deposition, inflammasome marker expression, phagocytic capacity) optimized for high-throughput screening of candidate therapeutics.
+
+Below is a concise survey of the key pathogenic mechanisms implicated in RPE degeneration in dry AMD, together with the most widely-used cell culture readouts for each mechanism—each adapted or demonstrated in a medium-to high-throughput format.  For each assay we note typical cell systems, stimuli/readouts, and scalability considerations.
+
+1.  Oxidative Stress and Lipid Peroxidation  
+   •  Biology: Chronic light exposure, high metabolic rate and phagocytosis of POS lead to excess reactive oxygen species (ROS), damaging proteins, lipids and DNA in RPE.  
+   •  Cell Models: ARPE-19, primary human RPE, iPSC-derived RPE on 96- to 384-well plates.  
+   •  Assays:  
+     –  General ROS: H2DCFDA (DCF) or CellROX™ probes; read by fluorescence plate‐reader or high‐content imager.  
+     –  Mitochondrial superoxide: MitoSOX™ Red (fluorescence).  
+     –  Lipid peroxidation: BODIPY 581/591 C11—spectral shift quantified by HCS.  
+   •  Throughput: 96–384 wells; amenable to automated liquid handling.  
+   •  Key refs: Kaarniranta et al., 2013 (Oxidative Stress in AMD); Zhou et al., 2019 (CellROX in RPE).
+
+2.  Mitochondrial Dysfunction  
+   •  Biology: mtDNA damage, impaired respiration and ATP depletion are hallmarks of RPE senescence in dry AMD (Ferrington et al., 2017).  
+   •  Cell Models: Same as above; specialized Seahorse assays require well-coated microplates.  
+   •  Assays:  
+     –  Δψm: JC-1 or TMRE/TMRM fluorescent dyes, measured by plate reader or HCS.  
+     –  Bioenergetics: Seahorse XF “Mito Stress Test” for basal/maximal respiration, ATP production, spare capacity.  
+   •  Throughput: JC-1/TMRE—96–384 wells; Seahorse—24–96 wells.  
+   •  Key refs: Ferrington et al., 2014 (mito in AMD RPE); Goldstein et al., 2018 (Seahorse in RPE).
+
+3.  Lipofuscin (A2E) Accumulation  
+   •  Biology: A2E and other bisretinoids accumulate in lysosomes, sensitize RPE to blue‐light–induced ROS (Sparrow et al., 2012).  
+   •  Cell Models: ARPE-19 or iPSC-RPE loaded with synthetic A2E (5–20 μM) for 24–48 h.  
+   •  Assays:  
+     –  Autofluorescence: Excitation ∼430 nm/emission ∼600 nm by microplate reader or imaging.  
+     –  Viability under blue‐light stress: CellTiter-Glo or LDH release.  
+   •  Throughput: 96–384 wells; can be combined with HCS morphometry.  
+   •  Key refs: Mann et al., 2000 (A2E loading); Holmkvist et al., 2014.
+
+4.  Drusen-Like Deposit Formation  
+   •  Biology: Drusen contain lipids, APOE, complement proteins and amyloid‐β.  RPE grown on artificial Bruch’s membrane can secrete drusen‐components basally (Curcio et al., 2013).  
+   •  Cell Models: Primary or iPSC-RPE on Transwell or collagen IV/laminin–coated plates.  
+   •  Assays:  
+     –  Immunofluorescence or ELISA of basal media or ECM for APOE, vitronectin, complement C3 fragments.  
+     –  Nile Red or Oil Red O staining for neutral lipid aggregates.  
+   •  Throughput: 24–96 Transwells; can miniaturize to 96‐well filter plates.  
+   •  Key refs: Johnson et al., 2011 (in vitro drusen model); Luibl et al., 2006.
+
+5.  Complement Activation and Regulation  
+   •  Biology: Genetic variants in CFH/CFI and local complement overactivation are linked to dry AMD (Hageman et al., 2005).  
+   •  Cell Models: RPE treated with human serum (5–20%) or recombinant C3a/C5a.  
+   •  Assays:  
+     –  Deposition of C3b/iC3b, C5b-9 membrane attack complex by immunostaining or ELISA on cell lysates/supernatant.  
+     –  Expression of complement regulators (CFH, CD46, CD55) by qPCR or flow cytometry.  
+   •  Throughput: 96 wells; plate‐based immunoassays.  
+   •  Key refs: Shen et al., 2012 (RPE complement activation); Espinosa-Heidmann et al., 2006.
+
+6.  Inflammasome Engagement  
+   •  Biology: NLRP3 inflammasome activation in RPE drives IL-1β and IL-18 release, promotes geographic atrophy (Doyle & Chan, 2018).  
+   •  Cell Models: ARPE-19 or primary RPE primed with LPS or A2E, then ATP or drusen extracts.  
+   •  Assays:  
+     –  Caspase-1 activity: FAM-FLICA probes or luminescent caspase-1 kits.  
+     –  IL-1β/IL-18 release: ELISA from culture supernatant.  
+     –  ASC speck formation: immunofluorescence and HCS spot‐count analysis.  
+   •  Throughput: 96–384 wells; compatible with HCS.  
+   •  Key refs: Doyle et al., 2012; Tseng et al., 2013.
+
+7.  Autophagy Impairment  
+   •  Biology: Defective autophagic clearance of POS and damaged organelles exacerbates RPE stress (Mitter et al., 2014).  
+   •  Cell Models: RPE expressing mCherry-GFP-LC3 reporters or stimulated with A2E/H₂O₂.  
+   •  Assays:  
+     –  Autophagic flux: ratio of mCherry to GFP puncta by HCS.  
+     –  LC3-II and p62 levels by immunoblot or immunofluorescence.  
+     –  LysoTracker Red for lysosomal mass/function.  
+   •  Throughput: 96–384 wells; high‐content imaging preferred.  
+   •  Key refs: Mitter et al., 2014; Kaarniranta et al., 2011.
+
+8.  Phagocytic Capacity  
+   •  Biology: RPE daily phagocytosis of photoreceptor outer segments (POS) is essential—impaired uptake/lysosomal digestion contributes to AMD (Kevany & Palczewski, 2010).  
+   •  Cell Models: RPE fed fluorescently labelled bovine or porcine POS for 3–6 h.  
+   •  Assays:  
+     –  Quantify internalized POS by fluorescence microscopy or flow cytometry (after trypan blue quenching of surface‐bound POS).  
+     –  Cathepsin D activity assays for lysosomal degradation.  
+   •  Throughput: 96 wells; can adapt to 384 wells with automated seeding and imaging.  
+   •  Key refs: Swaroop et al., 2010; Mazzoni et al., 2019.
+
+Integration into a Screening Cascade  
+•  Primary Screen (384-well): ROS/lipid peroxidation, Δψm, cell viability under A2E+light, caspase-1 FLICA.  
+•  Secondary Phenotypic Assays (96-well or Transwell): Complement deposition ELISA, drusen component immunostain, LC3 reporter flux, POS phagocytosis.  
+•  Tertiary Validation: Seahorse bioenergetics, gene expression of CFH/CFI, IL-1β/IL-18 secreted cytokines.
+
+Conclusions  
+A multi-parametric, high-content/high-throughput panel of RPE assays—spanning oxidative stress, mitochondrial health, lipofuscin/drusen modeling, complement and inflammasome readouts, autophagy flux, and phagocytic function—enables mechanistic deconvolution of candidate compounds’ effects and improves translatability to dry AMD pathology. Using ARPE-19 for primary screens and iPSC-RPE or primary cells for confirmatory assays strikes a balance between throughput and physiological relevance.
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/llm_direct_4467135257616985466
+
+References:
+

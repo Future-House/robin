@@ -1,0 +1,46 @@
+Proposal for Iptacopan (LNP023, Factor B inhibitor)
+
+Overview of Therapeutic Candidate  
+Iptacopan (also known as LNP023) is a small-molecule, orally bioavailable inhibitor of complement factor B (FB), discovered initially by high-throughput screening at Achillion Pharmaceuticals and subsequently optimized by medicinal chemistry (structure-based design around a 2,4-dihydrobenzo[1,4]oxazin scaffold). It belongs to the class of peptidomimetic complement inhibitors targeting serine proteases of the alternative pathway (AP). Small-molecule AP inhibitors have been explored for indications in which chronic AP overactivation drives pathology (e.g., paroxysmal nocturnal hemoglobinuria, C3 glomerulopathy, IgA nephropathy).
+
+Therapeutic History  
+– Paroxysmal nocturnal hemoglobinuria (PNH): Iptacopan is in late-stage clinical trials (Phase III) for PNH, where oral FB inhibition reduces hemolysis and transfusion needs with a favorable safety profile (No significant infections or thromboses).  
+– C3 glomerulopathy, IgA nephropathy: Early-phase studies demonstrated reduced glomerular C3 deposition and improved proteinuria.  
+– Ophthalmology: To date, there are no published preclinical or clinical studies of iptacopan in dry AMD or other retinal diseases. By contrast, other AP inhibitors such as anti-factor D (lampalizumab) and anti-C3 (pegcetacoplan) have reached AMD trials—with mixed or negative outcomes—highlighting both the validity and challenges of complement targeting in dry AMD.
+
+Mechanism of Action  
+– Molecular target: Factor B is the serine protease zymogen that, upon binding to C3b, is cleaved by factor D into Ba (regulatory fragment) and Bb (catalytic subunit). The C3bBb complex constitutes the AP C3 convertase, driving C3 amplification and downstream MAC (C5b-9) formation.  
+– Iptacopan binds the active-site cleft of factor B, stabilizing it in an inactive conformation and preventing Bb generation. Crystallography (PDB entries for FB-iptacopan complexes) shows hydrogen bonds to the S1 pocket and van der Waals contacts that confer high selectivity over other complement proteases (factor D, C1s).  
+– By blocking AP C3 convertase assembly, it reduces C3b “tick-over” amplification loops without directly inhibiting the classical or lectin pathways. This preserves systemic immune competence while attenuating local complement-driven inflammation.
+
+Expected Effect in RPE/Choroid Cell-Culture Assay  
+– RPE and choroidal endothelial cells are known to synthesize FB and other complement components (Anderson et al., 2010; Bora et al., 2005). Genetic studies (CFH, CFB risk alleles) and proteomic analyses of drusen contain elevated FB, C3b, and MAC.  
+– In an in vitro co-culture of human iPSC-derived RPE plus choroidal endothelial cells, activation of AP (e.g., via oxidative stress or sublytic C5b-9 exposure) leads to lysosomal dysfunction and impaired photoreceptor outer segment (POS) phagocytosis.  
+– Addition of iptacopan is expected to (1) reduce deposition of C3b and sublytic MAC on RPE basal surfaces, (2) preserve lysosomal acidification and degradation capacity (tracked by LysoTracker and DQ-BSA assays), and (3) restore or maintain POS phagocytosis (measured by fluorescently labeled POS uptake assays).  
+– Literature support: Lampalizumab (anti-FD) prevented MAC formation and preserved RPE viability under complement stress (e.g., Lyzenga et al., 2018). Given FB sits upstream of FD, iptacopan may achieve wider reduction in C3b amplification.
+
+Overall Evaluation  
+Strengths  
+• Mechanistic alignment with AMD genetics: FB inhibition directly targets the overactive AP amplification loop implicated by CFH, CFB, and C3 risk variants.  
+• Oral dosing and favorable systemic safety in PNH/C3G trials suggest manageable risk.  
+• Selectivity for AP minimizes impact on classical/lectin pathways, reducing infection risk versus broad C3 or C5 inhibitors.  
+• Precedent of small-molecule complement inhibitors enables formulation flexibility; potential to test both systemic and localized delivery (e.g., periocular).
+
+Weaknesses & Risks  
+• Ocular bioavailability: Human retinal penetration after oral dosing is not yet published; drug concentrations in RPE/choroid must reach IC₅₀ (~5–20 nM) for FB.  
+• Alternative pathway redundancy: Local complement regulators (e.g., CFH) are reduced in AMD; whether FB blockade alone suffices to normalize complement control in the subretinal space remains unproven.  
+• Previous complement trials in AMD have failed (e.g., lampalizumab) possibly due to patient selection or insufficient target engagement; iptacopan must demonstrate robust local C3b and MAC suppression in vivo.  
+• Long-term complement suppression risks: chronic FB inhibition may alter retinal homeostasis and microbiome, and eye-specific immunity.
+
+Conclusion  
+Iptacopan is mechanistically compelling for dry AMD due to its targeted blockade of the AP amplification loop, favorable systemic safety, and robust preclinical efficacy in other complement-driven diseases. Critical next steps include quantitative retinal pharmacokinetics (ocular distribution after oral or periocular dosing), ex vivo human RPE/choroid tissue assays to confirm local target engagement, and selection of AMD patient genotypes (e.g., CFB risk carriers) for future proof-of-concept studies.
+
+References
+
+Anderson et al. (2010). [Unknown Reference]
+
+Bora et al. (2005). [Unknown Reference]
+
+Lyzenga et al. (2018). [Unknown Reference]
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

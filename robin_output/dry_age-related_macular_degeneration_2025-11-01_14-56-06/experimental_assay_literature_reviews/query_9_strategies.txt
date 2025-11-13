@@ -1,0 +1,52 @@
+Query: Strategies to culture co-culture systems of RPE and choroidal endothelial cells or macrophages to model chronic inflammation and drusen biogenesis, with relevant readouts like cytokine profiles, phagocytic capacity, ECM remodeling, and tunable microenvironments using hydrogels
+
+Co-culture architectures. A single‑material, compartmentalized pullulan–dextran hydrogel membrane provides a smooth, non‑porous face for a polarized hiPSC‑RPE monolayer and an opposing porous face for choroidal ECs±pericytes; porosity, stiffness and transport are tuned by STMP crosslinking, annealing, and sequential freeze‑drying (e.g., useful pores increased from 37.3% to 62.6% after a second FD; ~10 kPa modulus; ~133 kDa exclusion limit), with collagen/laminin coatings to promote RPE adhesion and EC infiltration (stable collagen fibrils ≥14 days) (dujardin2024developmentofa pages 293-296, dujardin2024developmentofa pages 303-305, dujardin2024developmentofa pages 17-20, dujardin2024developmentofa pages 5-7). Microfluidic chips layer RPE over fibrin/PEG hydrogels encapsulating ECs, enable perfusion, and use a blank fibrin spacer (~300 µm) or higher-density fibrin to prevent EC invasion while preserving paracrine signaling and anti‑angiogenic drug testing (dujardin2024developmentofa pages 268-268, dujardin2024developmentofa pages 264-265, dujardin2024developmentofa pages 43-49, dujardin2024developmentofa pages 276-277). Transwells remain useful for indirect RPE–EC/macrophage co‑culture and TEER (dujardin2024developmentofa pages 264-265, dujardin2024developmentofa pages 43-49).
+
+Cell sources and stabilization. Prefer hiPSC‑RPE and ocular ECs (HRMVEC or hiPSC‑EC); HUVECs can acquire choroid‑like fenestrations in RPE co‑culture, but RF/6A are unsuitable; authenticate commercial CECs stringently (morphology, markers, function) (dujardin2024developmentofa pages 273-274, dujardin2024developmentofa pages 146-150). Add pericytes to stabilize nascent microvessels and extend culture longevity (dujardin2024developmentofa pages 277-277, dujardin2024developmentofa pages 205-208). For macrophage modules, THP‑1 protocols (PMA→M0; IFN‑γ+LPS→M1; IL‑4+IL‑10→M2) allow polarity control; M2 co‑culture rescues RPE barrier under high glucose (이석재2023studiesontreatment pages 72-79).
+
+Pathology induction. Apply hypoxia/HIF‑1α or VEGF to model CNV; add complement‑competent human serum to drive drusen‑like lipid deposits; expose oxidized POS to trigger angiogenic cytokines; use aged/nitrite‑modified ECM to mimic Bruch’s aging; maintain long cultures to generate sub‑basal deposits with COL4 accumulation (dujardin2024developmentofa pages 268-268, dujardin2024developmentofa pages 205-208, dujardin2024developmentofa pages 276-277, dujardin2024developmentofa pages 234-237, dujardin2024developmentofa pages 267-268).
+
+Readouts. Barrier integrity: TEER, permeability, ZO‑1/occludin (dujardin2024developmentofa pages 264-265, dujardin2024developmentofa pages 271-272). Cytokine/angiocrine panels: VEGF, PEDF, FGF‑2, MMP‑1/2, HGF/EGF, VCAM‑1, CCL2 via ELISA/Luminex; quantify RPE–EC±PC interactive inflammatory signatures (dujardin2024developmentofa pages 268-268, dujardin2024developmentofa pages 293-296, dujardin2024developmentofa pages 303-305, dujardin2024developmentofa pages 17-20, dujardin2024developmentofa pages 146-150). ECM remodeling: laminin, COL I/IV, fibronectin deposition and MMP activity; SHG for fibrillarity (dujardin2024developmentofa pages 293-296, dujardin2024developmentofa pages 271-272). Drusen metrics: sub‑basal deposits under prolonged culture or complement challenge (dujardin2024developmentofa pages 268-268, dujardin2024developmentofa pages 276-277). Vascular maturation: VE‑cadherin/CD31, PLVAP/fenestrations; pericyte coverage (dujardin2024developmentofa pages 273-274, dujardin2024developmentofa pages 303-305, dujardin2024developmentofa pages 277-277). RPE phagocytosis: POS uptake assays (dujardin2024developmentofa pages 265-266, dujardin2024developmentofa pages 271-272).
+
+Tuning knobs. Adjust STMP and FD cycles for stiffness/porosity/transport in membranes; modulate fibrin density or spacer thickness for EC–RPE coupling; impose flow in chips; include pericytes/fibroblasts/MSC to stabilize networks and support multi‑week studies (dujardin2024developmentofa pages 17-20, dujardin2024developmentofa pages 293-296, dujardin2024developmentofa pages 303-305, dujardin2024developmentofa pages 43-49, dujardin2024developmentofa pages 264-265, dujardin2024developmentofa pages 274-276, dujardin2024developmentofa pages 277-277).
+
+A practical strategy is to culture hiPSC‑RPE on a laminin–collagen–coated, non‑porous hydrogel face while forming EC±pericyte networks in the opposing porous compartment or perfused fibrin gels, then induce AMD‑like stress (VEGF/hypoxia or complement) and quantify barrier, cytokines, ECM remodeling, deposits, fenestration, and phagocytosis (dujardin2024developmentofa pages 293-296, dujardin2024developmentofa pages 268-268, dujardin2024developmentofa pages 17-20). Macrophage modules (THP‑1 polarity) can be layered into Transwell or chip formats to dissect inflammatory control of RPE barrier and secretome (이석재2023studiesontreatment pages 72-79, dujardin2024developmentofa pages 264-265).
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/bcdfaabb-17ba-4f3e-bc55-ffc97be07690
+
+References:
+1. (dujardin2024developmentofa pages 293-296): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+2. (dujardin2024developmentofa pages 303-305): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+3. (dujardin2024developmentofa pages 17-20): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+4. (dujardin2024developmentofa pages 5-7): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+5. (dujardin2024developmentofa pages 268-268): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+6. (dujardin2024developmentofa pages 264-265): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+7. (dujardin2024developmentofa pages 43-49): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+8. (dujardin2024developmentofa pages 276-277): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+9. (dujardin2024developmentofa pages 273-274): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+10. (dujardin2024developmentofa pages 146-150): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+11. (dujardin2024developmentofa pages 277-277): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+12. (dujardin2024developmentofa pages 205-208): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+13. (이석재2023studiesontreatment pages 72-79): 이석재. Studies on treatment of disease phenotypes of vision-threatening ocular disease mouse models via intraocular drugs delivery. Unknown journal, 2023.
+
+14. (dujardin2024developmentofa pages 234-237): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+15. (dujardin2024developmentofa pages 267-268): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+16. (dujardin2024developmentofa pages 271-272): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+17. (dujardin2024developmentofa pages 265-266): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.
+
+18. (dujardin2024developmentofa pages 274-276): C Dujardin. Development of a 3d pre-vascularized structured hydrogel membrane for outer blood-retinal barrier modelling and therapy for choroidal dystrophies. Unknown journal, 2024.

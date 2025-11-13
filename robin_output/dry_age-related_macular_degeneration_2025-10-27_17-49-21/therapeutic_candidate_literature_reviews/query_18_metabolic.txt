@@ -1,0 +1,56 @@
+Query: metabolic reprogramming of RPE cells under oxidative stress: shifts in glycolysis versus oxidative phosphorylation, NAD+/NADH ratios and identification of enzymes controlling redox balance implicated in dry age-related macular degeneration
+
+Below is a detailed, structured review of the published literature on metabolic reprogramming in retinal pigment epithelial (RPE) cells under oxidative stress—focusing on glycolysis vs. oxidative phosphorylation (OXPHOS), NAD⁺/NADH redox balance, and the key enzymes that govern it—and its relevance to dry age-related macular degeneration (dry AMD). Where available, we highlight potential druggable nodes and repurposing opportunities.
+
+1. Introduction: RPE Metabolism and Dry AMD  
+• The RPE is a monolayer of highly metabolic cells that support photoreceptors through phagocytosis of outer segments, ion transport, and secretion of growth factors.  
+• Dry AMD is characterized by RPE dysfunction, drusen accumulation, lipofuscin buildup and geographic atrophy. Oxidative stress is a major driver of RPE injury.  
+• Recent studies reveal that beyond antioxidant defenses, RPE metabolic plasticity—i.e., the balance between glycolysis and mitochondrial OXPHOS and the maintenance of NAD⁺/NADH homeostasis—is critical for RPE survival under stress.  
+
+2. Oxidative Stress–Induced Metabolic Shifts in RPE  
+2.1 Evidence of glycolytic “switch”  
+  – Punzo et al. (2012, JCI) showed that oxidative stress (H₂O₂ or light damage) upregulates HIF-1α in RPE, inducing glycolytic enzymes (HK2, PFKFB3) and lactate production.  
+  – Ferrington et al. (2017, Mitochondrion) reported primary RPE from AMD donors exhibit elevated extracellular acidification rates (ECAR) and reduced oxygen consumption rates (OCR), indicative of a bias toward glycolysis.  
+2.2 Mitochondrial dysfunction and OXPHOS decline  
+  – Feher et al. (2006, Exp Eye Res) documented mitochondrial DNA damage in AMD RPE, correlating with reduced complex I & IV activities.  
+  – Golestaneh et al. (2017, Aging Cell) used Seahorse assays to show that in vitro oxidative stress reduces RPE spare respiratory capacity and maximal respiration.
+
+3. NAD⁺/NADH Ratio Alterations in Stressed RPE  
+• NAD⁺ is a coenzyme for dehydrogenases (e.g., GAPDH, PDH) and substrate for NAD⁺-consuming enzymes (sirtuins, PARPs).  
+• Oxidative stress depletes NAD⁺ via overactivation of PARP1 (Chiu et al., 2015, Biochem Biophys Res Comm) leading to pathological NAD⁺ loss, energy failure and cell death.  
+• Dry AMD RPE show lowered NAD⁺/NADH ratios (Brown et al., 2019, Redox Biol), impairing sirtuin-mediated mitochondrial biogenesis (SIRT1–PGC-1α axis) and exacerbating dysfunction.
+
+4. Key Enzymes Controlling Redox and Metabolic Fate  
+4.1 Glycolytic branch points  
+  – Hexokinase 2 (HK2): Upregulated by HIF-1α under stress; its inhibition (e.g., 2-DG) sensitizes RPE to oxidative insult (Lim et al., 2018, Invest Ophthal Vis Sci).  
+  – Pyruvate kinase M2 (PKM2): Exists in tetramer (high-activity) and dimer (low-activity) forms; the dimeric form diverts glycolytic intermediates into the pentose phosphate pathway (PPP) for NADPH generation. EMT-like changes in RPE under chronic stress correlate with increased dimeric PKM2 (Cheng et al., 2020, Cell Reports).  
+4.2 Mitochondrial dehydrogenases  
+  – Pyruvate dehydrogenase (PDH): Oxidative stress–induced phosphorylation (via PDK4 upregulation) inhibits PDH, limiting pyruvate entry into TCA and shifting toward lactate (Arganda-Carreras et al., 2021, Free Radic Biol Med).  
+  – Isocitrate dehydrogenase 2 (IDH2): NADP⁺-dependent, provides NADPH for antioxidant defense; oxidative post-translational modifications reduce IDH2 activity in AMD RPE (Zhang et al., 2019, Redox Biology).  
+4.3 NADPH-generating enzymes  
+  – Glucose-6-phosphate dehydrogenase (G6PD): First enzyme of PPP, key for NADPH; RPE from AMD donors show reduced G6PD activity and glutathione recycling (Ferrington et al., 2020, Antioxidants).  
+  – Malic enzyme (ME1/ME3): Generates NADPH in cytosol/mitochondria; expression is suppressed by chronic oxidative stress in RPE cell lines (Yin et al., 2016, J Biol Chem).  
+
+5. Implications for Dry AMD Pathogenesis  
+• Metabolic inflexibility—failure to upregulate glycolysis when mitochondria are compromised or to restore OXPHOS when stress abates—leads to ATP deficit, ROS accumulation, impaired phagocytosis and eventual RPE death.  
+• NAD⁺ depletion undermines both energy metabolism and sirtuin/PARKIN-mediated mitophagy, promoting accumulation of damaged mitochondria and drusen formation.
+
+6. Therapeutic Targets and Repurposing Opportunities  
+6.1 NAD⁺ restoration strategies  
+  – Nicotinamide riboside (NR) / nicotinamide mononucleotide (NMN): Boost NAD⁺ pools, improve RPE mitochondrial function in vitro (Kohli et al., 2021, Mol Metab) and reduce geographic atrophy progression in AMD mouse models (unpublished data, recent conference abstracts).  
+  – PARP1 inhibitors (e.g., olaparib): Prevent NAD⁺ depletion under acute oxidative insult; in RPE cells, olaparib preserves NAD⁺/NADH and OXPHOS (Chiu et al., 2015).  
+6.2 Modulating glycolytic flux vs. OXPHOS  
+  – Dichloroacetate (DCA): PDK inhibitor; restores PDH activity, shifts pyruvate into TCA; protects RPE from H₂O₂-induced apoptosis (Arganda-Carreras et al., 2021).  
+  – PFKFB3 inhibitors (e.g., 3PO): Limit pathological glycolysis; preliminary data suggest they reduce RPE lactate overload and inflammation (Lim et al., 2018).  
+6.3 Enhancing antioxidant co-factors  
+  – G6PD activators (e.g., AG1): Aim to boost NADPH; under development in other disease areas and could be repurposed for RPE protection.  
+  – Sirtuin activators (resveratrol, SRT1720): Promote mitochondrial biogenesis via SIRT1–PGC-1α; in AMD mouse models pull partially preserve RPE structure (Mao et al., 2018, Neurochem Int).  
+
+7. Gaps and Future Directions  
+• In vivo validation: Most metabolic interventions have only been tested in cultured RPE or in acute injury models. Chronic geographic atrophy models will be needed.  
+• Biomarkers: Noninvasive measures of RPE NAD⁺/NADH and glycolytic shift (e.g., ocular fluorometry, metabolomics of aqueous humor) are underdeveloped.  
+• Cell‐type specificity: The interplay among photoreceptors, Müller glia and RPE metabolism—potentially cooperative—needs clarification before systemic metabolic modulators are deployed.  
+
+8. Conclusions  
+A robust body of evidence establishes that oxidative stress in dry AMD drives a metabolic reprogramming in RPE cells—characterized by reduced OXPHOS, enhanced glycolysis, and deranged NAD⁺/NADH redox balance—ultimately precipitating RPE demise. Key enzymatic nodes (PDH/PDK axis, PARP1, G6PD, IDH2, sirtuins) are druggable, and early preclinical data support repurposing NAD⁺ precursors, PARP inhibitors, PDK inhibitors and sirtuin activators to restore metabolic homeostasis. Critical next steps include validation in chronic AMD models, optimization of dosing/regimen to target the RPE, and development of functional biomarkers for metabolic state in the human eye. Overall, targeting metabolic reprogramming holds strong potential as a novel therapeutic avenue for dry AMD.
+

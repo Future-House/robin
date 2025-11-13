@@ -1,0 +1,34 @@
+Query: Investigation into complement system activation and regulation in dry AMD, highlighting key complement proteins (C3a, C5b-9), genetic polymorphisms (CFH, C3), inflammasome involvement, and cell culture assays for complement-mediated RPE cytotoxicity
+
+Complement activation is central to dry AMD at the RPE–Bruch’s membrane–choriocapillaris interface, with complement proteins enriched in drusen and age-associated increases in terminal pathway activity including MAC deposition in choroid (C5b-9) (cao2016theroleof pages 129-131, jiao2018theroleof pages 35-40). Genetic susceptibility converges on alternative-pathway regulation: common CFH Y402H and C3 variants impair control of complement activation, and eyes homozygous for CFH Y402H show increased C5a immunoreactivity and elevated MAC locally, paralleling systemic complement activation markers (jiao2018theroleof pages 35-40, ong2024thecomplementsystem pages 5-7, cao2016theroleof pages 86-91, cao2016theroleof pages 129-131).
+
+Functionally, anaphylatoxin signaling and terminal complex assembly drive RPE inflammatory programs. In ARPE-19, C5a—but not C3a—activates NF‑κB and upregulates IL‑6, IL‑8, and IL‑18, implicating C5a as a potent RPE activator; C5a also correlates with local MAC deposition in risk genotypes (cao2016theroleof pages 151-151, cao2016theroleof pages 120-125). Sublytic MAC triggers Ca2+ influx, NLRP3 inflammasome activation, and IL‑1β/IL‑18 maturation; amyloid‑β in drusen can initiate antibody‑independent complement activation on RPE by downregulating CD55 and promoting sublytic MAC, linking drusen biochemistry to inflammasome‑mediated injury (cao2016theroleof pages 129-131, cao2016theroleof pages 120-125).
+
+Experimental interrogation uses RPE culture systems: ARPE‑19 and polarized RPE with NF‑κB–luciferase reporters stimulated basally with C3a/C5a or TNF‑α, followed by RT‑qPCR for cytokines and inflammasome genes (cao2016theroleof pages 86-91). Complement-mediated cytotoxicity is modeled by oxidatively stressing RPE (H2O2) and challenging with normal human serum to quantify C3b deposition, MAC, and viability; factor H limits C3 deposition but protection is weakened on oxidized surfaces, modeling CFH dysfunction (lin2018theroleof pages 67-70). Additional platforms include drusen‑like deposit/RPE assays, hiPSC‑RPE testing of C3 knockdown versus metabolic rescue, and FH‑loss RPE lines revealing NF‑κB–dependent cytokine upregulation with increased C3/CFB/CFI (ong2024thecomplementsystem pages 24-25, saini2017retinaldiseasemodeling pages 127-133, schmidt2023investigationofcomplement pages 71-75). Methodological caveats include small human cohorts and the need for polarized RPE to better approximate in vivo physiology (cao2016theroleof pages 120-125).
+
+Therapeutically, complement blockade at C3 or C5 has shown clinical and preclinical efficacy in geographic atrophy, while MAC inhibition or CD59 augmentation suppresses inflammasome activation and RPE damage in experimental systems (ong2024thecomplementsystem pages 24-25, ong2024thecomplementsystem pages 5-7, cao2016theroleof pages 120-125).
+
+Complement dysregulation in dry AMD is driven by genetic variants in CFH/C3 and manifests as C5a signaling and MAC formation that activate NF‑κB and the NLRP3 inflammasome in RPE. Robust in vitro assays—NF‑κB reporter RPE, oxidative‑stress plus serum cytotoxicity, and FH manipulation—quantify cytokine induction, complement deposition, MAC, and cell death. These platforms support targeted interventions at C3/C5 or MAC to blunt inflammasome‑mediated RPE injury (cao2016theroleof pages 151-151, lin2018theroleof pages 67-70, ong2024thecomplementsystem pages 24-25).
+
+Full trajectory link: https://dev.platform.edisonscientific.com/trajectories/d0a12a73-6915-4f01-bca2-1d321aebab5b
+
+References:
+1. (cao2016theroleof pages 129-131): Sijia Cao. The role of complement activation in age-related macular degeneration. ArXiv, Jan 2016. URL: https://doi.org/10.14288/1.0307354, doi:10.14288/1.0307354. This article has 0 citations.
+
+2. (jiao2018theroleof pages 35-40): Helen Jiao. The role of complement in a new mouse model of focal retinal degeneration. ArXiv, Jan 2018. URL: https://doi.org/10.25911/5d611de917770, doi:10.25911/5d611de917770. This article has 0 citations.
+
+3. (ong2024thecomplementsystem pages 5-7): Joshua Ong, Arman Zarnegar, Amrish Selvam, Matthew Driban, and Jay Chhablani. The complement system as a therapeutic target in retinal disease. Medicina, 60:945, Jun 2024. URL: https://doi.org/10.3390/medicina60060945, doi:10.3390/medicina60060945. This article has 10 citations and is from a poor quality or predatory journal.
+
+4. (cao2016theroleof pages 86-91): Sijia Cao. The role of complement activation in age-related macular degeneration. ArXiv, Jan 2016. URL: https://doi.org/10.14288/1.0307354, doi:10.14288/1.0307354. This article has 0 citations.
+
+5. (cao2016theroleof pages 151-151): Sijia Cao. The role of complement activation in age-related macular degeneration. ArXiv, Jan 2016. URL: https://doi.org/10.14288/1.0307354, doi:10.14288/1.0307354. This article has 0 citations.
+
+6. (cao2016theroleof pages 120-125): Sijia Cao. The role of complement activation in age-related macular degeneration. ArXiv, Jan 2016. URL: https://doi.org/10.14288/1.0307354, doi:10.14288/1.0307354. This article has 0 citations.
+
+7. (lin2018theroleof pages 67-70): Yuchen Lin. The role of age-related maculopathy susceptibility protein 2 (arms2) in the complement regulation of arpe-19 cells. ArXiv, Jan 2018. URL: https://doi.org/10.22032/dbt.34410, doi:10.22032/dbt.34410. This article has 0 citations.
+
+8. (ong2024thecomplementsystem pages 24-25): Joshua Ong, Arman Zarnegar, Amrish Selvam, Matthew Driban, and Jay Chhablani. The complement system as a therapeutic target in retinal disease. Medicina, 60:945, Jun 2024. URL: https://doi.org/10.3390/medicina60060945, doi:10.3390/medicina60060945. This article has 10 citations and is from a poor quality or predatory journal.
+
+9. (saini2017retinaldiseasemodeling pages 127-133): Janmeet Saini. Retinal disease modeling and drug screening using stem cell derived retinal pigment epithelium. ArXiv, 2017. URL: https://doi.org/10.54014/tq69-20d8, doi:10.54014/tq69-20d8. This article has 0 citations.
+
+10. (schmidt2023investigationofcomplement pages 71-75): Tiziana Luisa Schmidt. Investigation of complement system dependent inflammatory pathways in retinal pigment epithelium (rpe) cells. Unknown, Feb 2023. URL: https://doi.org/10.15496/publikation-77448, doi:10.15496/publikation-77448. This article has 0 citations.

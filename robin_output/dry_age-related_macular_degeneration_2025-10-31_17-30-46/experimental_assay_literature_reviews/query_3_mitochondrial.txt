@@ -1,0 +1,96 @@
+Query: Mitochondrial dysfunction, ROS generation, and bioenergetic deficits in RPE cell culture models of dry AMD: mechanistic pathways, role of PGC-1α, mitophagy markers, and assays to measure mitochondrial membrane potential, ATP production and oxidative stress
+
+Below are 15 distinct mechanistic hypotheses or therapeutic‐strategy ideas—all formulated for RPE cell–culture models of dry AMD—to interrogate mitochondrial dysfunction, ROS generation and bioenergetic deficits. Each entry lists the core hypothesis, the intervention or genetic manipulation, key mitophagy markers to track, and recommended assays for ΔΨm, ATP and oxidative stress.
+
+1. PGC-1α Overexpression Rescues ΔΨm and Lowers ROS  
+   • Hypothesis: Forced PGC-1α expression drives mitochondrial biogenesis and stabilizes membrane potential.  
+   • Intervention: Adenoviral or lentiviral PGC-1α in ARPE-19 or primary human RPE.  
+   • Mitophagy markers: PINK1, Parkin, LC3-II/I ratio, p62 turnover.  
+   • Assays: JC-1 or TMRM for ΔΨm; luciferase‐based ATP assay; MitoSOX Red for mitochondrial superoxide.
+
+2. AMPK Activation Amplifies PGC-1α-Mediated Mitophagy  
+   • Hypothesis: AICAR or metformin activation of AMPK will drive PGC-1α expression, enhance PINK1/Parkin recruitment to damaged mitochondria.  
+   • Intervention: 500 μM AICAR pretreatment ± Compound C control.  
+   • Mitophagy markers: PINK1, Parkin translocation (immunofluorescence), BNIP3, NIX.  
+   • Assays: TMRM; Seahorse XF measurement of OCR (basal & maximal); H2DCFDA for total ROS.
+
+3. SIRT1 Agonist–Mediated Deacetylation of PGC-1α  
+   • Hypothesis: SRT1720 or resveratrol deacetylates PGC-1α, boosting its activity to restore ΔΨm and limit oxidative stress.  
+   • Intervention: 5 μM SRT1720 for 24 h.  
+   • Mitophagy markers: LC3 puncta quantification, p62 degradation, Parkin Western blot.  
+   • Assays: JC-1; ATP luminescence; Amplex Red for H2O2 production.
+
+4. Inhibition of DRP1‐Dependent Fission (Fusion Promotion)  
+   • Hypothesis: mdivi-1–mediated DRP1 inhibition prevents excess fragmentation, improving mitochondrial function and biogenesis downstream of PGC-1α.  
+   • Intervention: 50 μM mdivi-1 for 16 h.  
+   • Mitophagy markers: OPA1 isoform ratio, LC3 colocalization with mitochondria.  
+   • Assays: MitoTracker Green morphology imaging; TMRM; luciferase ATP assay.
+
+5. Urolithin A–Induced Mitophagy to Clear Damaged Mitochondria  
+   • Hypothesis: Urolithin A will up-regulate PINK1/Parkin and BNIP3 to selectively remove dysfunctional mitochondria, lowering ROS and restoring energy output.  
+   • Intervention: 10 μM Urolithin A over 48 h.  
+   • Mitophagy markers: PINK1, Parkin, BNIP3, LC3-II accumulation after bafilomycin A1 block.  
+   • Assays: JC-1; ATP measurement; MitoSOX.
+
+6. TFAM Co-Overexpression with PGC-1α to Boost mtDNA Copy Number  
+   • Hypothesis: Dual PGC-1α/TFAM overexpression synergizes to drive mitochondrial biogenesis and reduce oxidative damage.  
+   • Intervention: Bicistronic vector for TFAM + PGC-1α.  
+   • Mitophagy markers: NIX, Parkin levels; mtDNA copy number by qPCR.  
+   • Assays: TMRE; ATP luciferase; DCFDA for cytosolic ROS.
+
+7. NAD+ Precursor (Nicotinamide Riboside) to Activate SIRT1-PGC-1α Axis  
+   • Hypothesis: NR supplementation raises NAD+, activating SIRT1, enhancing PGC-1α–driven biogenesis and mitophagy.  
+   • Intervention: 500 μM NR for 24 h.  
+   • Mitophagy markers: Parkin recruitment; LC3 flux; p62 clearance.  
+   • Assays: JC-1; ATP; MitoSOX; intracellular NAD⁺/NADH ratio.
+
+8. Parkin Overexpression Alone to Drive Selective Mitophagy  
+   • Hypothesis: Ectopic Parkin will translocate on depolarized mitochondria to promote their clearance, restoring network health.  
+   • Intervention: Parkin–GFP plasmid transfection + CCCP challenge (10 μM, 2 h).  
+   • Mitophagy markers: GFP-Parkin puncta on mitochondria; LC3 colocalization; p62 drop.  
+   • Assays: TMRM; ATP measurement; MitoSOX.
+
+9. CRISPRa Up-Regulation of NIX/BNIP3 to Enhance Mitophagy  
+   • Hypothesis: Targeted activation of NIX or BNIP3 promoters will promote receptor‐mediated mitophagy and reduce ROS load.  
+   • Intervention: dCas9-VP64 plus sgRNAs targeting BNIP3 or NIX.  
+   • Mitophagy markers: BNIP3/NIX expression (qPCR, WB); LC3-II increase.  
+   • Assays: JC-1; Seahorse OCR; H2DCFDA.
+
+10. OMA1 Inhibition to Preserve OPA1-Mediated Fusion  
+   • Hypothesis: Small‐molecule OMA1 inhibitor will prevent OPA1 cleavage, maintaining fusion, interacting with PGC-1α to enhance bioenergetics.  
+   • Intervention: Newly characterized OMA1 inhibitor (e.g. Mitochondrial protease inhibitor) at published IC₅₀.  
+   • Mitophagy markers: OPA1 L- to S-isoform ratio; Parkin levels.  
+   • Assays: MitoTracker morphology; TMRE; ATP; MitoSOX.
+
+11. Transient Glucose Starvation to Stimulate PGC-1α and Test Bioenergetic Shift  
+   • Hypothesis: Low-glucose stress will up-regulate PGC-1α, shift metabolism toward oxidative phosphorylation and trigger mitophagy of damaged mitochondria.  
+   • Intervention: 0.5 mM glucose medium for 8 h then recovery.  
+   • Mitophagy markers: PGC-1α mRNA; PINK1/Parkin translocation; LC3 puncta.  
+   • Assays: Seahorse OCR/ECAR; TMRM; DCFDA.
+
+12. Pharmacologic Inhibition of NOX4 to Lower ROS and Preserve ΔΨm  
+   • Hypothesis: GKT137831 inhibition of NOX4 will reduce NADPH‐dependent ROS, indirectly stabilizing mitochondria and promoting PGC-1α activity.  
+   • Intervention: 10 μM GKT137831 for 24 h.  
+   • Mitophagy markers: Parkin, LC3; p62 degradation.  
+   • Assays: JC-1; ATP; Amplex Red.
+
+13. Overexpression of Thioredoxin-2 to Boost Mitochondrial Antioxidant Capacity  
+   • Hypothesis: Trx2 up-regulation will buffer intra­mitochondrial ROS, preserve ΔΨm, and synergize with PGC-1α–driven biogenesis.  
+   • Intervention: Trx2 plasmid transfection.  
+   • Mitophagy markers: PINK1/Parkin; BNIP3; LC3-II.  
+   • Assays: TMRM; ATP; MitoPY1 for mitochondrial H₂O₂.
+
+14. ZIP14 (Zn²⁺ Transporter) Knockdown to Test Metal‐Induced Oxidative Stress Effects  
+   • Hypothesis: Lowered mitochondrial Zn²⁺ uptake reduces ROS‐mediated ΔΨm collapse, preserving PGC-1α expression and function.  
+   • Intervention: siRNA against ZIP14.  
+   • Mitophagy markers: Parkin, LC3; p62.  
+   • Assays: TMRM; ATP; FluoZin-3 for Zn²⁺; MitoSOX.
+
+15. ZLN005 (Small-Molecule PGC-1α Agonist) for Therapeutic Activation  
+   • Hypothesis: ZLN005 directly up-regulates PGC-1α transcription in RPE, enhancing mitophagy and mitochondrial function.  
+   • Intervention: 10 μM ZLN005 for 24 h.  
+   • Mitophagy markers: PINK1, Parkin, LC3 flux, p62.  
+   • Assays: JC-1; ATP; DCFDA; Seahorse OCR.
+
+Each of these ideas can be run in parallel or sequentially to map detailed mechanistic pathways, validate the role of PGC-1α in RPE mitochondrial health, profile mitophagy flux, and screen for compounds that restore bioenergetics in dry AMD models.
+

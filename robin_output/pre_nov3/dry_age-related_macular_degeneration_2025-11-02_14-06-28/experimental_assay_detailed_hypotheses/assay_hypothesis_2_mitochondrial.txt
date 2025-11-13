@@ -1,0 +1,13 @@
+Hypothesis: Mitochondrial Respiration Assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Mitochondrial Respiration Assay
+Reasoning: Mitochondrial dysfunction and bioenergetic failure are central to RPE degeneration in dry AMD (Feher et al., 2006). Using a Seahorse extracellular flux analyzer on RPE monolayers under mild oxidative challenge (e.g., low-dose H2O2), we can quantify basal respiration, ATP-linked OCR, maximal respiration, and spare respiratory capacity. Therapeutics that preserve or restore these parameters indicate improved mitochondrial resilience. This approach provides rapid, label-free measurements of real-time cellular energetics with high reproducibility and direct relevance to RPE pathology (Eells et al., 2019).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+
+

@@ -1,0 +1,36 @@
+Query: Characterization of photoreceptor outer segment shedding, opsin degradation, and RPE phagosome maturation defects in animal and organoid models of dry AMD, with emphasis on molecular markers, time-course analyses, and correlation with retinal morphology and function in vivo
+
+Photoreceptor outer segment (POS) shedding, opsin degradation, and RPE phagosome maturation represent critical processes in maintaining retinal homeostasis that are disrupted in dry age‐related macular degeneration (AMD). Animal and organoid models have been established that recapitulate these defects, enabling detailed time‐course analyses and correlation with retinal morphology and function.
+
+In these models, POS shedding begins as a light‐driven mechanism wherein the distal portions of rod and cone outer segments are cleaved and subsequently phagocytosed by the retinal pigment epithelium (RPE). The RPE recognizes the shed POS via signals such as phosphatidylserine exposure and engages cellular machinery involving integrins and MerTK, initiating phagosome formation and maturation with subsequent lysosomal fusion (ferraz2023exosomesintranscellular pages 22-25). In healthy tissue, this orderly process ensures proper degradation of opsin proteins (e.g., rhodopsin in rods) and prevents intracellular accumulation of toxic materials. However, animal models of AMD, such as the Aipl1-/- mouse, demonstrate disrupted POS shedding evidenced by the shortening and disorganization of outer segments, mislocalization of opsins from the outer segment to the cell body, and subsequent accumulation of undigested POS debris (ribeiro2020retinalrepairfor pages 124-128).
+
+Molecular markers used to characterize these processes include opsin proteins (rhodopsin, S-opsin and M-opsin), cone Arrestin for cone identification, and Peripherin2 as an indicator of mature outer segment formation. In addition, synaptic markers like Ribeye give insight into downstream effects on retinal circuitry that occur as a consequence of defective POS processing (ribeiro2020retinalrepairfor pages 169-172, ribeiro2020retinalrepairfor pages 128-135). Lysosomal and proteostasis markers such as ubiquitinated proteins and LAMP2A have also been employed to ascertain the RPE’s capacity for phagosome maturation and protein clearance. LAMP2A, in particular, is implicated in selectively packaging undegraded protein cargo into exosomes, and its deficiency correlates with altered exosome secretion and intracellular accumulation of opsin, further aggravating RPE dysfunction (ferraz2023exosomesintranscellular pages 13-19, ferraz2023exosomesintranscellular pages 47-54).
+
+Time-course analyses in these models reveal that defects in POS shedding and opsin degradation are progressive events. For example, in the Aipl1-/- mouse, photoreceptor degeneration is detectable as early as postnatal day 11, with marked outer nuclear layer thinning and significant mislocalization of opsin proteins observed by postnatal day 18 and beyond, concomitant with functional loss measured by the absence of retinal electrophysiological responses (ribeiro2020retinalrepairfor pages 124-128, ribeiro2020retinalrepairfor pages 169-172). In organoid models derived from human induced pluripotent stem cells, similar time-dependent alterations in photoreceptor morphology and RPE-photoreceptor interactions have been observed, reinforcing the translational relevance of these systems for studying dry AMD pathology (ribeiro2020retinalrepairfor pages 343-346, ribeiro2020retinalrepairfor pages 340-343).
+
+The correlation between these molecular and cellular defects with retinal morphology and function is significant. Abnormalities in outer segment structure, loss of proper opsin localization, and disrupted synaptic connectivity collectively result in impaired phototransduction, as evidenced by diminished or absent electroretinographic (ERG) responses. Furthermore, the accumulation of undigested POS debris and associated lipofuscin components such as A2E contribute to RPE stress, drusen formation, and progressive retinal thinning, hallmark features of dry AMD (ferraz2023exosomesintranscellular pages 9-13, ferraz2023exosomesintranscellular pages 54-58).
+
+In summary, animal and organoid models of dry AMD have delineated a cascade in which disrupted POS shedding leads to impaired opsin degradation and defective RPE phagosome maturation. This is characterized by the mislocalization of opsin proteins, defects in lysosomal degradation pathways, and disrupted synaptic architecture—all of which correlate with progressive morphological deterioration and functional vision loss. These insights, derived from detailed molecular marker analyses and time-course studies, lay a critical foundation for the development of targeted therapies aimed at restoring proteostasis and retinal health in AMD (ferraz2023exosomesintranscellular pages 19-22, ribeiro2020retinalrepairfor pages 128-135).
+
+References:
+1. (ferraz2023exosomesintranscellular pages 13-19): LFM de Carvalho Ferraz. Exosomes in transcellular proteostasis and age-related macular degeneration. Unknown journal, 2023.
+
+2. (ferraz2023exosomesintranscellular pages 22-25): LFM de Carvalho Ferraz. Exosomes in transcellular proteostasis and age-related macular degeneration. Unknown journal, 2023.
+
+3. (ferraz2023exosomesintranscellular pages 47-54): LFM de Carvalho Ferraz. Exosomes in transcellular proteostasis and age-related macular degeneration. Unknown journal, 2023.
+
+4. (ferraz2023exosomesintranscellular pages 54-58): LFM de Carvalho Ferraz. Exosomes in transcellular proteostasis and age-related macular degeneration. Unknown journal, 2023.
+
+5. (ferraz2023exosomesintranscellular pages 9-13): LFM de Carvalho Ferraz. Exosomes in transcellular proteostasis and age-related macular degeneration. Unknown journal, 2023.
+
+6. (ribeiro2020retinalrepairfor pages 124-128): JF Claudio Ribeiro. Retinal repair for macular degeneration. Unknown journal, 2020.
+
+7. (ribeiro2020retinalrepairfor pages 169-172): JF Claudio Ribeiro. Retinal repair for macular degeneration. Unknown journal, 2020.
+
+8. (ferraz2023exosomesintranscellular pages 19-22): LFM de Carvalho Ferraz. Exosomes in transcellular proteostasis and age-related macular degeneration. Unknown journal, 2023.
+
+9. (ribeiro2020retinalrepairfor pages 128-135): JF Claudio Ribeiro. Retinal repair for macular degeneration. Unknown journal, 2020.
+
+10. (ribeiro2020retinalrepairfor pages 340-343): JF Claudio Ribeiro. Retinal repair for macular degeneration. Unknown journal, 2020.
+
+11. (ribeiro2020retinalrepairfor pages 343-346): JF Claudio Ribeiro. Retinal repair for macular degeneration. Unknown journal, 2020.

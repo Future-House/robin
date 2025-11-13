@@ -1,0 +1,60 @@
+Proposal for Pegcetacoplan (APL-2, C3 inhibitor)
+
+Overview of Therapeutic Candidate  
+• Origins and discovery  
+  – Pegcetacoplan (APL-2) is a second-generation compstatin analogue. Compstatin peptides were first identified by phage-display screening for cyclic peptides that bind human complement component C3 and block its activation. Through structure-based optimization (amino-acid substitutions to improve affinity and stability) and N-terminal conjugation of linear methoxy-polyethylene glycol (PEG) chains, APL-2 was generated. The PEG moieties (two ~40 kDa branches) prolong ocular and systemic half-life and reduce renal clearance.  
+• Therapeutic class  
+  – Belongs to the class of complement inhibitors (specifically C3 inhibitors). Clinically, complement blockade has been used in paroxysmal nocturnal hemoglobinuria (PNH; anti-C5 eculizumab) and atypical hemolytic uremic syndrome (aHUS), and investigationally in C3 glomerulopathy. Compstatin analogues target upstream at C3, thereby preventing generation of all downstream effectors (C3a/C3b and the membrane attack complex).  
+
+Therapeutic History  
+• Preclinical and clinical studies outside ophthalmology  
+  – PNH and complement-mediated hemolysis: APL-2 demonstrated decreased C3b deposition on erythrocytes and reduced extravascular hemolysis in Phase 1/2 studies. Subsequent pivotal trials led to FDA approval (Empaveli™) for PNH in May 2021.  
+  – C3 glomerulopathy: Early‐stage trials showed reductions in proteinuria and slowed decline in renal function.  
+• Application to geographic atrophy (GA) in dry AMD  
+  – FILLY Phase 2 trial (monthly or every-other-month intravitreal APL-2) showed ~29% reduction in GA area growth at 12 months with monthly dosing versus sham (ClinicalTrials.gov, n.d.).  
+  – Phase 3 OAKS/DERBY trials: OAKS met the primary endpoint at 12 months (significant GA growth reduction with monthly APL-2), whereas DERBY did not reach statistical significance. Safety signals included a small increase in conversion to neovascular AMD in treated eyes.  
+• Prior use in similar ophthalmic indications  
+  – To date, APL-2’s only ophthalmic indication under clinical study is geographic atrophy secondary to dry AMD. No published reports of its use in other RPE or photoreceptor degenerative diseases; no prior veterinary ophthalmic applications.  
+
+Mechanism of Action  
+• Molecular interaction with complement C3  
+  – Pegcetacoplan binds with high affinity (sub-nanomolar KD) to native C3 and its activation fragment C3b, at the MG4/5 domains, sterically preventing access of the C3 convertases (C4b2a and C3bBb) to their substrate. This blockade halts cleavage of C3 into C3a (anaphylatoxin) and C3b (opsonin).  
+  – By inhibiting C3b generation, formation of downstream C5 convertase, generation of C5a, and assembly of the membrane attack complex (C5b-9) are all suppressed.  
+• Downstream cellular and tissue effects  
+  – In RPE, complement activation leads to sub-lytic MAC deposition, lysosomal overload, and chronic oxidative/inflammatory stress that impairs photoreceptor outer segment (POS) phagocytosis. APL-2’s inhibition of C3 cleavage should reduce MAC burden, lower local cytokine release (e.g., IL-18, IL-1β), and preserve RPE function.  
+  – RPE cells express complement components de novo (C3, factor B, factor D) and complement receptors (CR3, CRIg), and are subject to autocrine/paracrine complement activation (Anderson et al., 2010).  
+
+Expected Effect in RPE-Based Assay  
+• Proposed assay  
+  – Co-culture of human RPE cells (primary hfRPE or ARPE-19 differentiated on transwell membranes) with isolated bovine or human POS; addition of human serum or purified complement to trigger C3 activation on RPE/POS interfaces.  
+• Readouts  
+  – Reduction in C3b/iC3b and C5b-9 deposition on RPE surface by immunofluorescence or ELISA (Holers, 2014).  
+  – Rescue of POS phagocytosis measured by fluorescence-labeled POS uptake (Mazzoni et al., 2018).  
+  – Improvement in lysosomal integrity (LAMP-1 staining, cathepsin D activity assays) and reduction in markers of RPE stress (e.g., CHOP, caspase-3 activation).  
+• Mechanistic anchoring  
+  – C3 blockade should directly reduce generation of opsonins (C3b) that also interfere with the phagocytic machinery. Literature shows ARPE-19 and primary RPE express complement regulators (CD46, CD55, CD59) but remain susceptible to exogenous complement challenge (Johnson et al., 2001).  
+
+Overall Evaluation  
+Strengths  
+  – Target validation: Genetic and histopathological studies implicate complement dysregulation in AMD (Yates et al., 2007; Nozaki et al., 2006).  
+  – Clinical proof-of-concept: FILLY and OAKS trials demonstrate slowing of GA progression. Intravitreal route ensures ocular bioavailability.  
+  – Mechanistic clarity: Direct upstream inhibition of all complement pathways at the C3 node, reducing both inflammatory anaphylatoxins and MAC formation.  
+Weaknesses and Risks  
+  – Infection risk: C3 blockade can impair opsonophagocytic clearance of pathogens; though intravitreal delivery confines exposure, low-level systemic absorption remains possible.  
+  – Conversion to neovascular AMD: Slightly increased incidence observed in trials, possibly due to shifts in VEGF/C3a signaling balance.  
+  – High molecular weight and PEGylation may hinder tissue penetration in certain RPE subdomains or sub-RPE deposits (drusen).  
+  – Cost and manufacturing: Complex peptide-PEG conjugate with stringent stability and sterility requirements.  
+  – Residual complement activation: Incomplete C3 inhibition (dosing/frequency-dependent) may leave low-grade chronic activation.  
+Conclusion  
+Pegcetacoplan is a highly promising candidate for dry AMD, with solid genetic, biochemical, and clinical rationale. For in vitro RPE assays, it offers a direct test of complement-mediated RPE dysfunction and rescue of phagocytic capacity. Key considerations include ensuring physiologically relevant complement activation conditions and monitoring off-target cytotoxicity. Given existing clinical data, progressing pegcetacoplan into refined RPE/POS co-culture assays should strongly inform potential biomarkers of efficacy and dosing strategies ahead of further in vivo or translational studies.
+
+References  
+Anderson, D. H., et al. (2010). (Unknown Reference).  
+ClinicalTrials.gov. (n.d.). APL-2 (pegcetacoplan) intravitreal injection for geographic atrophy: FILLY Phase 2 trial (NCT02503332). Retrieved from https://clinicaltrials.gov/ct2/show/NCT02503332  
+Holers, V. M. (2014). (Unknown Reference).  
+Johnson, P. T., et al. (2001). (Unknown Reference).  
+Mazzoni, F., et al. (2018). (Unknown Reference).  
+Nozaki, M., et al. (2006). (Unknown Reference).  
+Yates, J. R. W., et al. (2007). (Unknown Reference).
+
+Full trajectory link: https://platform.edisonscientific.com/trajectories/

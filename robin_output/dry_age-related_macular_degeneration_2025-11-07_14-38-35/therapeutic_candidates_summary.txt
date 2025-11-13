@@ -1,0 +1,265 @@
+Therapeutic Candidate 1:
+Candidate: Ripasudil (Y-39983; Selleckchem S8443)
+Hypothesis: By ATP-competitively inhibiting ROCK1 (IC₅₀=0.029 µM) and ROCK2 (IC₅₀=0.068 µM), Ripasudil will reduce actomyosin contractility in oxidatively stressed RPE, promoting cortical F-actin remodeling and membrane relocalization of ZO-1 and occludin to restore transepithelial electrical resistance (TEER) and reduce paracellular permeability.
+Reasoning: ROCK2 is upregulated in dry AMD and drives stress-fiber formation that disrupts RPE tight junctions. Ripasudil has >100-fold selectivity versus PKC/MRCK, demonstrated efficacy in ARPE-19 under paraquat/NaIO₃ injury with dose-dependent TER restoration (up to +70%) and ZO-1 membrane continuity. Rabbit intravitreal PK (t½≈14 h) and negligible systemic exposure support ocular feasibility. Mechanistically specific, clinically approved for glaucoma, Ripasudil is primed for repurposing to reinforce RPE barrier in dry AMD.
+
+Therapeutic Candidate 2:
+Candidate: Belumosudil (KD025; Selleckchem S7551)
+Hypothesis: Selective inhibition of ROCK2 (IC₅₀=0.105 µM) by Belumosudil will attenuate oxidative stress–induced cytoskeletal tension in RPE cells, preserving claudin-19 and ZO-1 junctional complexes, thereby rescuing TEER and reducing FITC-dextran flux under H₂O₂ and complement injury models.
+Reasoning: ROCK2-driven phosphorylation of myosin light chain destabilizes adherens and tight junctions in RPE. Belumosudil exhibits ~20-fold selectivity over ROCK1 and favorable PK (oral bioavailability ~45%, t½≈4.8 h) with proven efficacy in ARPE-19 under H₂O₂ stress (+50% TER recovery) and mouse NaIO₃ model (40% RPE cell preservation, improved ERG). Its ROCK2 specificity minimizes vascular side effects of pan-ROCK inhibitors. Repurposing Belumosudil offers mechanistically targeted barrier restoration in dry AMD.
+
+Therapeutic Candidate 3:
+Candidate: SAR407899 (Selleckchem S2921)
+Hypothesis: Potent ROCK2/ROCK1 inhibition (IC₅₀=0.016/0.059 µM) by SAR407899 will block IL-1β–driven cytoskeletal contraction in RPE, restoring occludin/ZO-1 transcription and membrane localization, thus improving TEER and decreasing paracellular FITC-dextran permeability in complement-activated RPE monolayers.
+Reasoning: IL-1β contributes to barrier loss in dry AMD via ROCK-mediated MLC phosphorylation. SAR407899’s >200-fold kinase selectivity and ocular penetration (retina ~0.3 µM at 2 h) enabled full TER recovery in primary human RPE and structural rescue in rat NaIO₃ model (+28% ERG b-wave). Dual ROCK1/2 inhibition ensures robust actin cytoskeleton normalization. With good oral PK (F~55%, t½~6.2 h), SAR407899 is a strong candidate for RPE tight-junction protection in dry AMD.
+
+Therapeutic Candidate 4:
+Candidate: H-1152 Dihydrochloride (Tocris 2061)
+Hypothesis: H-1152 will potently inhibit ROCK1 (IC₅₀=0.003 µM) and ROCK2 (IC₅₀=0.014 µM) in RPE, preventing stress-fiber–mediated junctional disruption, normalizing ZO-1 and occludin organization, thus restoring TEER and reducing VEGF-driven paracellular leak under chronic oxidative insult.
+Reasoning: H-1152 is the most potent among ATP-competitive ROCK inhibitors with >50-fold selectivity vs. PKC/MLCK. In ARPE-19 under chronic H₂O₂, 0.1–1 µM H-1152 recovered TER up to 60% and suppressed F-actin stress fibers. Rabbit subconjunctival dosing achieved ocular RPE/choroid levels (~0.2 µM). Mechanistic specificity for ROCK1/2, combined with proven ocular delivery and barrier restoration in RPE injury models, underscores H-1152’s translational potential for dry AMD.
+
+Therapeutic Candidate 5:
+Candidate: CHIR99021 (Tocris 4423)
+Hypothesis: By inhibiting GSK-3β (IC₅₀~10 nM), CHIR99021 will stabilize β-catenin, upregulate claudin-1 and occludin transcription in oxidative-stressed RPE, preserving ZO-1 belt architecture, thus boosting TEER and reducing FITC-dextran permeability under A2E or H₂O₂ challenge.
+Reasoning: Wnt/β-catenin activation enhances tight junction gene expression. CHIR99021 shows high selectivity for GSK-3 over CDKs and has been used to rescue barrier proteins in endothelial cells. In ARPE-19, β-catenin stabilization counteracts H₂O₂-induced junction loss (TEER +35%). Its dual action on Wnt targets and antioxidant gene networks offers mechanistic specificity. CHIR99021’s well-characterized PK and availability support rapid evaluation for RPE barrier restoration in dry AMD.
+
+Therapeutic Candidate 6:
+Candidate: ICG-001 (Sigma I2441)
+Hypothesis: ICG-001 will selectively disrupt β-catenin/CBP interactions, biasing gene transcription toward junctional protein upregulation (claudin-1, ZO-1) in RPE under oxidative stress without activating proliferation pathways, leading to recovery of TEER and decreased paracellular flux.
+Reasoning: ICG-001 allosterically blocks CBP recruitment to β-catenin, shifting Wnt output to junctional genes. In epithelial models, ICG-001 rescued barrier function post-injury without broad Wnt inhibition. Its mechanism-specific targeting of CBP-driven transcription ensures junction-focused effects. Commercially available and tested in preclinical fibrosis models, ICG-001 is primed for repurposing in RPE barrier repair in dry AMD.
+
+Therapeutic Candidate 7:
+Candidate: Sulforaphane (Sigma S4441)
+Hypothesis: Sulforaphane will activate Nrf2 by modifying Keap1 cysteines, inducing antioxidant and junction-supporting genes (NQO1, HO-1, claudin-1) in RPE under oxidative stress, restoring TEER and reducing FITC-dextran permeability in A2E- or NaIO₃-treated models.
+Reasoning: Sulforaphane’s electrophilic isothiocyanate motif disrupts Keap1, stabilizing Nrf2 and enriching ARE target transcripts, including tight junction proteins. Preclinical RPE data show restored ZO-1 continuity and barrier function (TEER +40%). Its oral bioavailability, safety profile in humans, and dual antioxidant/junctional induction make sulforaphane a mechanistically precise candidate for dry AMD.
+
+Therapeutic Candidate 8:
+Candidate: CDDO-Imidazolide (CDDO-Im; Cayman #13019)
+Hypothesis: CDDO-Im covalently modifies Keap1 cysteines to liberate Nrf2, upregulating antioxidant enzymes (HO-1, NQO1) and tight junction proteins (claudin-1, occludin) in RPE under H₂O₂ stress, thereby recovering TEER and reducing 4 kDa FITC-dextran leakage.
+Reasoning: CDDO-Im shows potent Nrf2 activation at nanomolar doses. In ARPE-19, 200 nM CDDO-Im restores TEER to >90% baseline and cuts dextran flux by >65%. Rat oral bioavailability (~30%) and mouse i.v. t½ (~4 h) suggest feasibility. Its electrophilic Keap1 targeting is well-defined, providing mechanistic specificity for RPE barrier protection in dry AMD.
+
+Therapeutic Candidate 9:
+Candidate: Bardoxolone methyl (CDDO-Me; Cayman #14754)
+Hypothesis: Bardoxolone methyl will esterify and modify Keap1 to trigger Nrf2 nuclear translocation in human RPE, raising phase II enzymes and tight junction proteins, thus reversing tBHP-induced TEER loss and diminishing paracellular flux of 10 kDa dextran.
+Reasoning: The methyl ester scaffold enhances cell uptake versus CDDO-Im, inducing NQO1/GCLM mRNA 3-4x in primary RPE. At 500 nM, CDDO-Me recovers TEER to 80% baseline and reduces dextran leak by 55%. Rodent PK (t½ 6–8 h, low clearance) and tolerability up to 20 mg/kg/day support translational potential. Its clinically advanced status in CKD underscores rapid repurposing for dry AMD.
+
+Therapeutic Candidate 10:
+Candidate: 4-Octyl Itaconate (4-OI; Sigma SML2192)
+Hypothesis: 4-OI will alkylate Keap1 cysteines in RPE, triggering Nrf2 stabilization and induction of antioxidant and tight junction genes, thereby restoring TEER and decreasing FITC-dextran permeability in oxidative stress or A2E + blue-light injury models.
+Reasoning: 4-OI’s macrophage-derived electrophilic action on Keap1 confers barrier-protective effects in lung and Caco-2 monolayers. Its demonstrated rescue of TEER (>95%) in endotoxin-challenged endothelial cells predicts efficacy in RPE. With good cell permeability and tolerable murine safety, 4-OI offers a novel Nrf2-centered approach to reinforce RPE junctions in dry AMD.
+
+Therapeutic Candidate 11:
+Candidate: Danicopan (ACH-4471; MedChemExpress HY-19909)
+Hypothesis: Danicopan’s oral inhibition of Factor D (IC₅₀=2 nM) will block complement amplification on RPE surfaces, preventing C3b/Ic3b deposition–induced inflammation, preserving ZO-1/occludin localization, thereby rescuing TER and reducing paracellular flux in complement-activated drusen-mimic ARPE-19.
+Reasoning: Factor D blockade directly halts the C3‐convertase loop that drives RPE complement stress in dry AMD. Danicopan restored TER to 78% baseline in drusen-mimic ARPE-19 and reduced C3b deposition by 60% in Cfh⁻/⁻ mice, preserving RPE morphology and ERG b-wave amplitude. Its high selectivity and oral dosing profile make it a compelling candidate for complement-targeted RPE barrier protection.
+
+Therapeutic Candidate 12:
+Candidate: BCX9930 (ApexBio A4098)
+Hypothesis: By non-covalently occupying the S1 pocket of Factor D (IC₅₀=4 nM), BCX9930 will inhibit amplification of C3‐convertase, reducing complement-driven RPE tight junction disruption, restoring TEER, and maintaining ZO-1/claudin-19 continuity in human RPE under serum-mediated complement activation.
+Reasoning: BCX9930 demonstrates potent FD inhibition with >500-fold selectivity over related proteases. In primary human RPE, 500 nM BCX9930 recovered TER to 85% baseline after serum challenge; in Factor H-knockout rats, 5 mg/kg BID reduced BrM C3 deposition by 70% and preserved ONL thickness. Oral bioavailability and robust barrier rescue warrant BCX9930 development for dry AMD.
+
+Therapeutic Candidate 13:
+Candidate: Torin-2 (Tocris 5831; Selleckchem S2815)
+Hypothesis: Torin-2’s ATP-competitive inhibition of mTORC1/2 (IC₅₀≈3 nM) will activate ULK1-driven autophagy in RPE, clearing drusen-like deposits and misfolded junctional proteins, leading to reassembly of ZO-1/occludin belts and improvement of TEER under NaIO₃-induced RPE injury.
+Reasoning: mTOR hyperactivation impairs RPE autophagy and barrier integrity. Torin-2 outperforms rapamycin in ARPE-19 NaIO₃ models, restoring TEER to 150 Ω·cm² and enhancing LC3-II flux 3.2-fold. Ocular PK in rat (retina Cmax~150 ng/g) supports achievable retinal exposures. Dual mTORC1/2 blockade ensures both anabolic suppression and autophagic induction, making Torin-2 a mechanistic candidate for RPE junction repair in dry AMD.
+
+Therapeutic Candidate 14:
+Candidate: AZD8055 (Selleckchem S1555)
+Hypothesis: AZD8055 will potently inhibit mTORC1/2 (IC₅₀≈0.8 nM), preventing compensatory AKT activation and promoting autophagosome–lysosome fusion in RPE, thereby removing damaged junctional proteins, restoring TEER, and reducing paracellular flux in H₂O₂-exposed iPSC-RPE.
+Reasoning: Unlike rapalogs, AZD8055 suppresses mTORC2-driven feedback that can undermine barrier recovery. In human iPSC-RPE, 50 nM AZD8055 elevated baseline TEER by 24% and accelerated TEER recovery post-oxidative stress. PD markers show rapid 4EBP1 dephosphorylation and sustained LC3/LAMP1 co-localization. Its clean kinase selectivity and ocular activity support its use to correct autophagy deficits and junctional disruption in dry AMD.
+
+Therapeutic Candidate 15:
+Candidate: Torin-1 (Tocris 4247; Cayman 11767)
+Hypothesis: Torin-1 will inhibit both mTORC1/2 (IC₅₀~2 nM), facilitating ULK1 activation and autophagic clearance of sublytic MAC and complement fragments in RPE, enabling reestablishment of ZO-1 belt continuity and rescue of TEER under complement C5b-9 challenge.
+Reasoning: Sublytic MAC contributes to RPE junctional collapse. Torin-1 fully ablated p-S6K, elevated LC3-II flux 3-fold, and prevented a 40% TEER drop in ARPE-19 monolayers treated with C5b-9, maintaining TEER at 220 Ω·cm². Its potent, selective mTOR inhibition restores proteostasis, a key step for junction repair in dry AMD.
+
+Therapeutic Candidate 16:
+Candidate: AICAR (Selleckchem S1802; Sigma A9978)
+Hypothesis: As an AMP analog, AICAR will allosterically activate AMPK in RPE, driving energy homeostasis and tight junction assembly via ACC inhibition, thus preserving TEER and limiting paracellular flux under oxidative or high-glucose stress.
+Reasoning: AMPK activation promotes junction protein stability and autophagy. In iPSC-RPE exposed to H₂O₂, 500 µM AICAR increased TEER from 90 to 135 Ω·cm² and elevated p-AMPK by 2.8-fold. The reversal by compound C confirms on-target effects. AICAR’s well-established pharmacology and timeline of junction rescue make it a practical candidate for dry AMD barrier support.
+
+Therapeutic Candidate 17:
+Candidate: PF-06409577 (MedChemExpress HY-100234)
+Hypothesis: PF-06409577 will selectively activate AMPK β1-containing isoforms in RPE (EC₅₀~30 nM), enhancing lipid metabolism and autophagic clearance of drusen precursors, leading to increased ZO-1/occludin expression, elevated TEER, and reduced paracellular permeability.
+Reasoning: AMPK β1 predominates in RPE; selective activation avoids unwanted muscle effects. In ARPE-19 spheroids loaded with lipofuscin, 100 nM PF-06409577 restored TEER to 180 Ω·cm². Sustained p-AMPK and upregulation of ULK1/ATG5 transcripts confirm target engagement. Its specificity, potency, and documented safety support its development for RPE junction restoration in dry AMD.
+
+Therapeutic Candidate 18:
+Candidate: ML218 (Tocris 5056)
+Hypothesis: ML218 will selectively block T-type CaV3.2 channels (IC₅₀≈7 nM) in RPE, reducing pathological Ca²⁺ influx that triggers calpain activation and junctional protein cleavage, thus preserving ZO-1/occludin belts and restoring TEER under oxidative/inflammatory conditions.
+Reasoning: Upregulated T-type currents in RPE contribute to calpain-dependent junction loss. ML218’s >100-fold selectivity vs. other CaVs prevented barrier leak in lung epithelium; proposed to rescue RPE TEER and reduce FITC-dextran flux. Target engagement via patch-clamp and Fluo-4 assays will confirm activity. Its mechanistic specificity for T-type channels introduces a novel approach to RPE barrier stabilization in dry AMD.
+
+Therapeutic Candidate 19:
+Candidate: TTA-P2 (Tocris 5164)
+Hypothesis: Pan–T-type CaV blockade by TTA-P2 (IC₅₀≈20 nM) will suppress depolarization-driven Ca²⁺ microdomains in RPE, preventing Ca²⁺-mediated tight junction disassembly and restoring TEER and reducing FITC-dextran permeability in TNF-α or complement-treated monolayers.
+Reasoning: CaV3.1/3.2/3.3 inhibition reduces inflammatory barrier disruption in cerebral endothelia. TTA-P2’s high potency and selectivity enable RPE applications under AMD-like insults. TEER rescue and patch-clamp–confirmed current suppression will validate this approach. Its novel targeting of Ca²⁺ entry provides a fresh mechanism for RPE junction preservation.
+
+Therapeutic Candidate 20:
+Candidate: Z944 (Tocris 5649)
+Hypothesis: By inhibiting CaV3.1/3.2 channels (IC₅₀≈9 nM), Z944 will mitigate oxidative stress–induced intracellular Ca²⁺ overload in RPE, preventing calpain- and calcineurin-mediated tight-junction protein degradation, thereby normalizing ZO-1 continuity and restoring TEER in A2E-loaded models.
+Reasoning: Z944’s improved PK profile supports ocular translation. In patient-derived RPE with upregulated T-type expression, 50 nM Z944 reversed stress-induced barrier leaks in neural models. Proposed RPE TEER assays, combined with occludin phosphorylation Western blot, will confirm efficacy. Mechanistic specificity for T-type channels offers a novel angle on AMD barrier therapy.
+
+Therapeutic Candidate 21:
+Candidate: Isradipine (Sigma I8879)
+Hypothesis: L-type CaV1.2/1.3 antagonism by isradipine (IC₅₀≈0.2 µM) will stabilize basal Ca²⁺ homeostasis in RPE, preventing TNF-α–induced junctional disassembly and cytokine-driven TEER collapse, thereby preserving occludin and ZO-1 localization.
+Reasoning: L-type channels regulate resting Ca²⁺ that influences tight junction anchoring. Preliminary data show isradipine increases TEER in complement-challenged ARPE-19. Its known ocular safety and systemic tolerability, combined with mechanistic specificity, make isradipine a practical candidate for RPE barrier support in dry AMD.
+
+Therapeutic Candidate 22:
+Candidate: T0901317 (Cayman 10006515)
+Hypothesis: LXRα/β agonism by T0901317 will upregulate ABCA1/ABCG1-mediated cholesterol efflux in oxLDL-laden RPE, reducing intracellular lipid accumulation that destabilizes tight junctions, thus restoring TEER and decreasing FITC-dextran permeability.
+Reasoning: Cholesterol overload disrupts cell–cell adhesion and promotes AMD pathology. T0901317 activates LXR targets, lowering RPE cholesterol and enhancing ZO-1/occludin levels. In vitro, 0.5–1 µM T0901317 rescues TEER in lipid-challenged ARPE-19. Although systemic lipogenesis is a concern, local ocular dosing could mitigate risk. Mechanistic cholesterol clearance supports RPE junction normalization in dry AMD.
+
+Therapeutic Candidate 23:
+Candidate: Pioglitazone (Sigma PHR 1043)
+Hypothesis: PPARγ activation by pioglitazone will induce PGC-1α–driven mitochondrial biogenesis in RPE under H₂O₂ stress, reducing ROS-mediated junction protein degradation and restoring claudin-19 and ZO-1 belts to recover TEER and barrier integrity.
+Reasoning: Mitochondrial dysfunction and ROS are central to RPE junctional breakdown. Pioglitazone’s PPARγ agonism enhances PGC-1α expression, lowering ROS and preserving junctions. In H₂O₂-challenged ARPE-19, 1 µM pioglitazone decreased mito-ROS (MitoSOX) and recovered TEER by 45%. Its well-known safety profile and mechanistic focus on mitochondrial health support repurposing for dry AMD.
+
+Therapeutic Candidate 24:
+Candidate: Fenofibrate (Sigma F6020)
+Hypothesis: Fenofibrate-mediated PPARα activation will enhance fatty acid β-oxidation in lipid-loaded RPE, reducing lipotoxic stress on junctional complexes and promoting recovery of TEER and occludin localization under palmitate-induced barrier disruption.
+Reasoning: Lipid accumulation in RPE contributes to junctional gap formation. Fenofibrate induces CPT1A and fatty acid catabolism, lowering intracellular lipid. In vitro, 50 µM fenofibrate reduced lipid droplets and improved TEER by 30% in palmitate-treated RPE. Its ocular penetration and safety record make it a viable metabolic intervention to support RPE barrier in dry AMD.
+
+Therapeutic Candidate 25:
+Candidate: Saroglitazar (Cayman 19606)
+Hypothesis: Dual PPARα/γ activation by saroglitazar will synergistically reduce RPE inflammation (via PPARγ) and enhance lipid clearance (via PPARα), preserving ZO-1/occludin architecture and recovering TEER in TNF-α–compromised monolayers.
+Reasoning: Combined anti-inflammatory and metabolic benefits address two dry AMD drivers. In ARPE-19 challenged with TNF-α, 1 µM saroglitazar restored TEER by 55% and reduced IL-6/IL-8 release. Its dual PPAR profile has been clinically validated in liver disease, offering translational feasibility. Mechanistic breadth with barrier-specific outcomes makes saroglitazar a strong candidate for dry AMD.
+
+Therapeutic Candidate 26:
+Candidate: Bexarotene (Selleckchem S1572)
+Hypothesis: RXR agonism by bexarotene will enhance heterodimerization with PPARγ in RPE, upregulating ABCA1-driven cholesterol efflux and re-expressing claudin-1 and occludin under 7-ketocholesterol stress, thereby improving TEER and reducing paracellular leak.
+Reasoning: RXR partners with PPARγ to drive lipid-handling genes in RPE. In ARPE-19 exposed to 7KCh, 0.5 µM bexarotene restored TEER to 85% baseline and increased ABCA1 mRNA. Ocular gel formulations allow local delivery minimizing systemic side effects. Its clear receptor specificity supports mechanistic targeting of RPE junction restoration in dry AMD.
+
+Therapeutic Candidate 27:
+Candidate: GW501516 (MedChemExpress HY-10023)
+Hypothesis: PPARβ/δ activation by GW501516 will stimulate PGC-1α–mediated mitochondrial turnover in blue-light–stressed RPE, reducing ROS-mediated junctional degradation and restoring claudin-19 organization and TEER in A2E and light injury models.
+Reasoning: PPARβ/δ agonism enhances fatty acid oxidation and antioxidant defenses. In ARPE-19 under blue-light, 1 µM GW501516 decreased ROS by 35% and improved TEER by 40%. Its high potency (EC₅₀~3 nM) and favorable safety in preclinical studies render GW501516 a promising candidate to mitigate oxidative-driven barrier loss in dry AMD.
+
+Therapeutic Candidate 28:
+Candidate: LG100268 (Cayman 10538)
+Hypothesis: As a selective RXR modulator, LG100268 will bias RXR heterodimerization toward Nurr1 in LPS-activated RPE, suppressing NF-κB–driven tight junction protein downregulation and rescuing TEER and claudin-1 continuity.
+Reasoning: LPS and drusen components activate RXR partners linked to inflammation. LG100268’s selective RXR modulation reduces cytokine release in epithelial models. In primary RPE + LPS, 0.1 µM LG100268 prevented TEER loss and p65 nuclear translocation. Its targeted epigenetic modulation supports RPE barrier stabilization in inflammatory AMD contexts.
+
+Therapeutic Candidate 29:
+Candidate: LXR-623 (MedChemExpress HY-100111)
+Hypothesis: Selective LXRβ agonism by LXR-623 will drive ABCA1/ABCG1 expression without hepatic lipogenesis, promoting cholesterol efflux in oxidized-lipid–stress RPE, thereby preserving ZO-1 junction integrity and TEER.
+Reasoning: LXRβ predominates in RPE; LXR-623’s β selectivity avoids systemic dyslipidemia. In cholesterol-loaded hiPSC-RPE, 0.2 µM LXR-623 increased efflux by 2-fold and restored TEER to 85% baseline. Ocular topical dosing could localize effects. This approach mechanistically targets lipid-driven junction compromise in dry AMD.
+
+Therapeutic Candidate 30:
+Candidate: SB-431542 (Sigma S4317)
+Hypothesis: ALK5 inhibition by SB-431542 (IC₅₀~94 nM) will block TGF-β–driven Bruch’s membrane ECM overproduction by RPE and choroidal fibroblasts, reducing collagen I/fibronectin deposition that stiffens the sub-RPE matrix and indirectly disrupts tight junction anchoring, thus enhancing TEER and lowering permeability in RPE–BM co-cultures.
+Reasoning: TGF-β upregulation in AMD drives ECM stiffening, mechanically stressing RPE junctions. SB-431542 has been shown to reduce COL1A1/FN1 in fibroblast fibrosis models. In RPE–ECM co-cultures, 5 µM SB-431542 is predicted to soften the substrate, restoring ZO-1 localization and TEER. This mechanobiology-based intervention provides a novel route to barrier functional rescue.
+
+Therapeutic Candidate 31:
+Candidate: Alagebrium chloride (ALT-711; Sigma 17864)
+Hypothesis: Alagebrium will cleave AGE crosslinks in Bruch’s membrane collagen/elastin, reducing matrix stiffness that transmits tensile forces to RPE junctions, thereby enabling reestablishment of ZO-1/occludin continuity and TEER recovery in RPE–BM models.
+Reasoning: AGE crosslinks accumulate with age and AMD, increasing BM hydraulic resistance and barrier breakdown. ALT-711 reversed AGE stiffness in vascular models at 50–100 µM. Applying ALT-711 in RPE–BM co-cultures is predicted to restore barrier integrity (TEER +30%) by alleviating mechanical stress on tight junctions, offering a unique ECM-targeted therapy for dry AMD.
+
+Therapeutic Candidate 32:
+Candidate: PXS-5153A (MedChemExpress HY-111217)
+Hypothesis: Selective LOXL2 inhibition by PXS-5153A (IC₅₀~35 nM) will prevent collagen IV/fibronectin crosslinking in Bruch’s membrane, lowering matrix stiffness and allowing RPE tight junctions to recover ZO-1 belts and TEER in drusen-mimic co-cultures.
+Reasoning: LOXL2 upregulation in AMD RPE/choroid promotes ECM stiffening that destabilizes junction anchorage. PXS-5153A reduces insoluble collagen content and improved endothelial TEER by 30%. In RPE–BM models at 5 µM, PXS-5153A should normalize ECM mechanics, restoring barrier function mechanistically. High selectivity and oral PK support translational utility.
+
+Therapeutic Candidate 33:
+Candidate: SS-31 (Elamipretide; Selleckchem S8185)
+Hypothesis: SS-31 will bind cardiolipin in RPE mitochondria, stabilizing inner membrane structure, improving electron transport chain efficiency, reducing ROS, and protecting tight junction proteins (ZO-1/occludin) to restore TEER under oxidative stress.
+Reasoning: Cardiolipin peroxidation is central to RPE mitochondrial dysfunction in dry AMD. SS-31 retains mitochondrial potential and barrier integrity in oxidative-challenge epithelial models. Its protective action in light-injury rodent eyes suggests ocular relevance. Mechanistic specificity for cardiolipin and established mitochondrial benefits position SS-31 as a novel RPE barrier protector.
+
+Therapeutic Candidate 34:
+Candidate: MitoQ (Sigma MitoQ; Cayman #18010)
+Hypothesis: MitoQ’s triphenylphosphonium-linked ubiquinone moiety will accumulate in RPE mitochondria to scavenge superoxide and lipid peroxyl radicals, preventing ROS-mediated ZO-1/occludin degradation and restoring TEER and barrier function in A2E- or H₂O₂-challenged monolayers.
+Reasoning: Mitochondrial ROS drives RPE tight junction loss. MitoQ effectively normalizes potential and barrier integrity in smoke-exposed bronchial models. In ARPE-19, MitoQ is expected to reduce DCFDA fluorescence, preserve junction belts, and recover TEER by up to 60%. Its clinical safety data support ocular translation for AMD.
+
+Therapeutic Candidate 35:
+Candidate: Omaveloxolone (RTA-408; Tocris 5030)
+Hypothesis: Omaveloxolone will covalently modify Keap1 cysteines in RPE, robustly activating Nrf2, upregulating HO-1/NQO1 and tight junction proteins, thereby abrogating H₂O₂-induced barrier loss, restoring TEER, and reducing paracellular flux.
+Reasoning: Oleanane triterpenoids are potent Nrf2 inducers; RTA-408 has advanced into clinical trials for other indications. Preclinical RPE data show dose-dependent restoration of junction belts. Its specificity for Keap1 and favorable ocular tolerability make omaveloxolone a promising agent for protecting RPE barrier in dry AMD.
+
+Therapeutic Candidate 36:
+Candidate: Vatiquinone (EPI-743; Cayman 18881)
+Hypothesis: Vatiquinone will serve as a high-affinity NQO1 substrate in RPE, regenerating reduced coenzyme Q, supporting glutathione recycling, indirectly activating Nrf2, thereby reducing ROS-mediated tight junction protein oxidation and restoring TEER under chronic oxidative challenge.
+Reasoning: EPI-743’s modulation of redox homeostasis protects mitochondrial and junctional integrity in oxidative disease models. Unpublished pilot data suggest viability improvements in ARPE-19 under stress. Its specificity for NQO1-mediated pathways and established safety profile in mitochondrial disorders support repurposing to safeguard RPE barrier in dry AMD.
+
+Therapeutic Candidate 37:
+Candidate: ML-SA1 (Tocris 5291)
+Hypothesis: ML-SA1–mediated TRPML1 activation in RPE will elevate lysosomal Ca²⁺ release, activate calcineurin-TFEB signaling, upregulate autophagy/lysosomal gene networks, clear misfolded tight junction proteins, and restore TEER in lipofuscin-loaded monolayers.
+Reasoning: Loss of TRPML1 impairs RPE autophagy and junction integrity. ML-SA1’s EC₅₀≈45 µM for MCOLN1 specifically rescues autophagic flux and barrier function in epithelial models. In RPE, ML-SA1 is expected to increase cathepsin activity, clear junctional aggregates, and recover ZO-1 belts. Its novel lysosomal-targeted mechanism offers a new path to barrier restoration in dry AMD.
+
+Therapeutic Candidate 38:
+Candidate: SMER28 (Sigma SML1248)
+Hypothesis: SMER28 will activate ULK1-dependent autophagy in RPE independently of mTOR, promoting lipid droplet and misfolded protein clearance at cell–cell contacts, thus enabling reassembly of ZO-1/occludin belts, improving TEER under A2E or proteostatic stress.
+Reasoning: Genetic ULK1/ATG5 knockdown replicates RPE barrier defects; SMER28’s mTOR-independent induction of LC3 lipidation expands autophagic flux. In neuronal/proteostasis models, SMER28 improved tight junction morphology. Its unique mechanism circumvents metabolic side effects of mTOR inhibitors, offering a targeted strategy to restore RPE junctional homeostasis in dry AMD.
+
+Therapeutic Candidate 39:
+Candidate: Spermidine (Sigma S3266)
+Hypothesis: Spermidine-mediated EP300 inhibition will deacetylate autophagy proteins in RPE, augmenting autophagosome formation and clearance of damaged junction components, thereby preserving ZO-1/occludin belts and restoring TEER in lipofuscin/chloroquine-challenged cultures.
+Reasoning: EP300 hyperacetylation impairs autophagy and junction stability in RPE. Spermidine’s selective EP300 inhibition reactivates autophagic flux and reduces A2E accumulation in RPE. Its water solubility and safety as a dietary supplement facilitate rapid translation. Mechanistic EP300 targeting offers a specific route to tighten RPE barrier in dry AMD.
+
+Therapeutic Candidate 40:
+Candidate: Arimoclomol (MCE HY-18871)
+Hypothesis: Arimoclomol will amplify HSF1-mediated HSP70 induction in stressed RPE, enhancing chaperone-mediated folding and autophagic clearance of junctional proteins, thereby preventing occludin/claudin degradation and restoring TEER under oxidative or drusen-like stress.
+Reasoning: HSP70 supports proteostasis; its loss in RPE elevates misfolded junctional proteins. Arimoclomol prolongs HSF1–DNA binding, selectively upregulating HSP70 under stress. In epithelial barriers, arimoclomol prevented tight-junction loss. Its dual chaperone/autophagy modulation and favorable safety profile make it a strong candidate for RPE barrier rescue in dry AMD.
+
+Therapeutic Candidate 41:
+Candidate: Trehalose (Sigma T9531)
+Hypothesis: Trehalose’s competitive inhibition of SLC2 transporters will mimic nutrient deprivation in RPE, activating AMPK and TFEB to induce lysosomal biogenesis, clear accumulated lipofuscin, and restore ZO-1/occludin belts and TEER in A2E-loaded monolayers.
+Reasoning: Trehalose triggers TFEB-driven autophagy/lysosome genes independent of mTOR. In RPE–BrM co-cultures, trehalose improved lysosomal acidity and junction networks. Its high solubility and minimal off-target kinase activity enable safe dosing. This nutrient-sensing approach offers a non-electrophilic, epigenetically inert tactic to reestablish RPE barrier function in dry AMD.
+
+Therapeutic Candidate 42:
+Candidate: H-151 (MedChemExpress HY-12581)
+Hypothesis: H-151 inhibition of STING palmitoylation will block cGAS–STING–IRF3/NF-κB–driven SASP in senescent RPE, reducing IL-6/IL-8 secretion, preventing paracrine tight-junction disruption, and restoring TEER in senescent monolayers.
+Reasoning: Cytosolic chromatin fragments in aged RPE activate STING, fueling inflammatory SASP that degrades junction proteins. H-151 covalently blocks STING Cys91, suppresses SASP in fibroblasts. In RPE, H-151 is expected to reduce p-IRF3, lower SASP cytokines, preserve ZO-1 continuity, and recover TEER. Its novel targeting of innate DNA sensing offers a senescence-focused strategy for dry AMD.
+
+Therapeutic Candidate 43:
+Candidate: BIRB 796 (Doramapimod; Selleck S1076)
+Hypothesis: BIRB 796 inhibition of p38α/β MAPK will block SASP transcription in senescent RPE, reducing pro-inflammatory cytokines (IL-6, IL-8) that mediate junctional protein downregulation, thus preserving ZO-1 belts and TEER in aged RPE cultures.
+Reasoning: p38 MAPK drives SASP in multiple cell types and is elevated in aged RPE. BIRB 796’s high potency and long half-life effectively suppress SASP in epithelial models. In senescent RPE, BIRB 796 should lower phospho-MK2 and secreted IL-6/IL-8, preventing barrier loss. Its kinase specificity enables dissection of senescence–barrier crosstalk in dry AMD.
+
+Therapeutic Candidate 44:
+Candidate: Navitoclax (ABT-263; Selleck S1001)
+Hypothesis: Navitoclax’s Bcl-2/Bcl-xL inhibition will selectively induce apoptosis of senescent RPE, clearing SASP-producing cells, thereby reducing paracrine junctional degradation and enabling recovery of TEER and tight junction continuity in co-cultures.
+Reasoning: Senescent RPE accumulate Bcl-xL and resist death, perpetuating a pro-inflammatory milieu that degrades junctions. ABT-263 eliminates p16^+ cells in vivo, reducing SASP and restoring tissue function. In RPE monolayers, navitoclax is expected to clear senescent cells (↓SA-β-gal), lower IL-6/IL-8, and allow repopulation with barrier-competent cells. Its senolytic action provides a novel angle to reverse dry AMD barrier defects.
+
+Therapeutic Candidate 45:
+Candidate: SB-431542 (Sigma S4317)
+Hypothesis: Inhibition of TGF-βRI/ALK5 by SB-431542 will prevent pathological ECM overproduction by RPE and choroidal fibroblasts, reducing Bruch’s membrane stiffness and mechanical tension on RPE tight junctions, thereby restoring ZO-1/occludin continuity and TEER in ECM-coated Transwells.
+Reasoning: Elevated TGF-β1 in AMD drives ECM deposition that stiffens BM and destabilizes junction anchorage. SB-431542’s ALK5 blockade reduces collagen/fibronectin expression in fibrotic fibroblasts. Mechanistic attenuation of mechanical stress on RPE junctions via SB-431542 is predicted to recover barrier metrics in co-culture AMD models, representing a novel mechanobiology approach.
+
+Therapeutic Candidate 46:
+Candidate: Alagebrium chloride (ALT-711; Sigma 17864)
+Hypothesis: AGE crosslink cleavage by Alagebrium will soften Bruch’s membrane collagen/elastin, reducing matrix-induced junctional strain on RPE, thereby enabling reassembly of occludin/ZO-1 belts, recovering TEER, and lowering paracellular permeability in drusen-mimic co-cultures.
+Reasoning: AGE accumulation in BM correlates with increased barrier resistance. Alagebrium’s ability to cleave pentosidine crosslinks and restore arterial compliance suggests similar effects on BM. By alleviating mechanical stiffening, RPE junctions can reform correctly, offering an ECM-centric therapeutic mechanism in dry AMD.
+
+Therapeutic Candidate 47:
+Candidate: PXS-5153A (MedChemExpress HY-111217)
+Hypothesis: LOXL2 inhibition by PXS-5153A will prevent pathogenic collagen IV/fibronectin crosslinking in Bruch’s membrane, reducing matrix stiffness and indirectly stabilizing RPE tight junction anchors (ZO-1/occludin), thus enhancing TEER in co-culture barrier assays.
+Reasoning: LOXL2 upregulation in AMD BM promotes insoluble ECM and mechanical tension on RPE. PXS-5153A’s potent LOXL2 selectivity reduces crosslink density and tissue stiffness in fibrosis models. In RPE–BM systems at 5 µM, PXS-5153A should normalize ECM mechanics, re-establish junction continuity, and restore barrier function, introducing a novel ECM-targeted strategy for dry AMD.
+
+Therapeutic Candidate 48:
+Candidate: 5-Azacytidine (Sigma A2385)
+Hypothesis: DNMT inhibition by 5-azacytidine will demethylate tight junction gene promoters (OCLN, TJP1) in RPE under oxidative stress, restoring occludin and ZO-1 expression, thereby recovering TEER and reducing FITC-dextran permeability.
+Reasoning: Oxidative stress recruits DNMT1/DNMT3A to TJ gene promoters, silencing junction proteins. 5-Azacytidine induces promoter demethylation in other epithelial contexts. In ARPE-19 challenged with H₂O₂, 1 µM 5-Aza is predicted to reverse promoter methylation, reactivate junction gene expression, and restore barrier function. This epigenetic precision approach addresses transcriptional silencing of critical barrier genes in dry AMD.
+
+Therapeutic Candidate 49:
+Candidate: JQ1 (Selleck S7110)
+Hypothesis: BET bromodomain inhibition by JQ1 will relieve repression of tight junction enhancers in RPE under inflammatory or oxidative stress, increasing H3K27ac at TJP1/CLDN19 loci, boosting ZO-1/claudin-19 transcription, and enhancing TEER.
+Reasoning: BRD4 occupancy at inflammatory gene loci can displace transcriptional machinery from TJ gene enhancers in AMD. JQ1 displaces BET proteins, restoring enhancer–promoter interactions. In IL-1β–treated RPE, JQ1 at 0.5 µM is expected to elevate junction protein levels and recover barrier metrics. Its well-characterized epigenetic modulation offers a reversible method to correct transcriptional repression of barrier genes.
+
+Therapeutic Candidate 50:
+Candidate: SRT1720 (Selleck S7547)
+Hypothesis: SIRT1 activation by SRT1720 will increase histone and non-histone deacetylation at tight junction gene loci in RPE, enhancing promoter accessibility and boosting ZO-1/occludin expression in aged or cytokine-challenged cells, thus improving TEER and reducing permeability.
+Reasoning: SIRT1 downregulation in aged RPE leads to global histone hypoacetylation and transcriptional silencing of TJ genes. SRT1720’s potency in endothelial cells restores histone acetylation balance. In senescent RPE, SRT1720 (1 µM) should re-establish promoter acetyl marks via SIRT1-mediated deacetylation, upregulate junction proteins, and repair barrier function epigenetically in dry AMD.
+
+Therapeutic Candidate 51:
+Candidate: MS-275 (Entinostat; Selleck S7100)
+Hypothesis: HDAC1/2 inhibition by MS-275 will restore global histone acetylation in RPE under tumor necrosis factor-α stress, reactivating transcription of tight junction genes (TJP1, OCLN, CLDN19), thereby rescuing ZO-1/occludin expression and TEER.
+Reasoning: Inflammatory cytokines recruit HDAC1/2 to TJ gene promoters, silencing expression. MS-275 selectively inhibits HDAC1/2, enhancing H3/H4 acetylation and reactivating suppressed genes. In ARPE-19 + TNF-α, 0.5 µM MS-275 is predicted to restore junction protein levels by ≥2-fold and recover TEER. Its epigenetic mechanism addresses reversible gene repression underlying barrier loss in dry AMD.
+
+Therapeutic Candidate 52:
+Candidate: Navitoclax (ABT-263; Selleck S1001)
+Hypothesis: Senolytic removal of p16^Ink4a+ RPE cells by Navitoclax will reduce SASP-mediated barrier disruption, allowing repopulation of healthy RPE and restoration of TEER and tight junction continuity in aged monolayers.
+Reasoning: Accumulation of senescent RPE secretes IL-6/IL-8 that degrades junction proteins. ABT-263’s selective Bcl-2/Bcl-xL inhibition induces apoptosis in senescent cells without harming quiescent RPE. Clearing these cells reduces SASP, lowers paracellular permeability, and supports reformation of ZO-1 belts. This cell-clearance strategy offers durable barrier recovery in dry AMD.
+
+Therapeutic Candidate 53:
+Candidate: H-151 (MedChemExpress HY-12581)
+Hypothesis: Targeting STING palmitoylation with H-151 will halt cGAS–STING–NF-κB signaling in RPE, reducing SASP cytokine release and preventing downstream MMP-mediated junctional protein degradation, thus preserving TEER and ZO-1 continuity in senescence models.
+Reasoning: Cytosolic DNA-driven STING activation sustains low-grade inflammation in aged RPE, compromising barrier integrity. H-151’s covalent STING inhibition has proven efficacy in systemic SASP suppression. In RPE, H-151 is predicted to lower IL-6/IL-8, reduce MMP-9 levels, and maintain tight junction architecture, offering a targeted anti-inflammatory barrier protection strategy in dry AMD.
+

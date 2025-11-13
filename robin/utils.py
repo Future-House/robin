@@ -8,14 +8,19 @@ import logging
 import random
 import re
 from pathlib import Path
-from typing import Any, cast
+from typing import Any, cast, TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from .configuration import RobinConfiguration
 
 import aiofiles
 import pandas as pd
 from aviary.core import Message
-from futurehouse_client import FutureHouseClient, JobNames, TaskResponse
+from edison_client import EdisonClient
+from futurehouse_client import JobNames, TaskResponse
 from lmi import LiteLLMModel
 from tqdm.asyncio import tqdm_asyncio
+from tqdm import tqdm
 
 from .prompts import (
     FINAL_REPORT_FORMATTING_SYSTEM_MESSAGE,
@@ -28,8 +33,38 @@ POLLING_INTERVAL = 5  # seconds
 OVERALL_TIMEOUT = 6000  # seconds
 
 
+def get_platform_base_url(service_uri: str) -> str:
+    """
+    Derives the platform UI base URL from the API service URI.
+    
+    Converts API URIs like 'https://dev.api.platform.edisonscientific.com' 
+    to platform URIs like 'https://dev.platform.edisonscientific.com'
+    by replacing '.api.platform' or 'api.platform' with 'platform'.
+    
+    Args:
+        service_uri: The API service URI (e.g., 'https://dev.api.platform.edisonscientific.com')
+        
+    Returns:
+        The platform UI base URL (e.g., 'https://dev.platform.edisonscientific.com')
+    """
+    # Replace '.api.platform' with '.platform' to convert API URI to platform URI
+    if ".api.platform" in service_uri:
+        platform_url = service_uri.replace(".api.platform", ".platform")
+    elif "api.platform" in service_uri:
+        # Handle case where there's no dot before 'api' (e.g., https://api.platform...)
+        platform_url = service_uri.replace("api.platform", "platform")
+    elif "/api" in service_uri:
+        # Fallback: remove '/api' if present (for different URI patterns)
+        platform_url = service_uri.replace("/api", "")
+    else:
+        # If it doesn't match expected patterns, assume it's already a platform URL
+        platform_url = service_uri
+        
+    return platform_url.rstrip("/")
+
+
 async def poll_for_task_completion(
-    task_id: str, fh_client: FutureHouseClient
+    task_id: str, fh_client: EdisonClient
 ) -> TaskResponse | dict[str, str]:
     """Asynchronously polls a single task until it completes (success/failure)."""
     while True:
@@ -60,7 +95,7 @@ async def poll_for_task_completion(
 
 
 async def gather_results(
-    task_ids: list[str], fh_client: FutureHouseClient
+    task_ids: list[str], fh_client: EdisonClient
 ) -> list[TaskResponse | dict[str, str]]:
     """Gathers results for multiple task IDs by polling concurrently."""
     tasks = [poll_for_task_completion(t_id, fh_client) for t_id in task_ids]
@@ -68,7 +103,7 @@ async def gather_results(
 
 
 async def call_platform(  # noqa: PLR0912
-    queries: dict[str, str], fh_client: FutureHouseClient, job_name: JobNames
+    queries: dict[str, str], fh_client: EdisonClient, job_name: JobNames
 ) -> dict[str, Any]:
     logger.info(
         f"Starting literature search for {len(queries)} queries using {job_name}."
@@ -85,7 +120,7 @@ async def call_platform(  # noqa: PLR0912
             task_run_id = fh_client.create_task(task_data)
             if not isinstance(task_run_id, str):
                 logger.warning(
-                    "FutureHouseClient.create_task did not return a string ID for"
+                    "EdisonClient.create_task did not return a string ID for"
                     f" query '{q}'. Got: {type(task_run_id)}. Skipping."
                 )
                 continue
@@ -237,11 +272,112 @@ async def call_platform(  # noqa: PLR0912
     }
 
 
+async def call_llm_direct(
+    queries: dict[str, str], 
+    llm_client: LiteLLMModel, 
+    job_name: JobNames,
+    configuration: "RobinConfiguration"
+) -> dict[str, Any]:
+    """
+    Replace CROW agent calls with direct LLM calls using appropriate prompts.
+    
+    Args:
+        queries: Dictionary mapping hypothesis names to query strings
+        llm_client: LiteLLMModel instance for making calls
+        job_name: Type of job (determines which prompt to use)
+        configuration: RobinConfiguration instance for accessing prompts
+        
+    Returns:
+        Dictionary with same structure as call_platform results
+    """
+    logger.info(
+        f"Starting direct LLM call for {len(queries)} queries using {job_name}."
+    )
+    
+    all_results = []
+    errors_occurred = False
+    
+    for hypothesis, query in queries.items():
+        try:
+            # Determine which prompts to use based on job_name
+            if job_name == JobNames.CROW:
+                # For literature search, we need to determine the context
+                # Check if this is assay or candidate literature search based on query content
+                if "assay" in hypothesis.lower() or "assay" in query.lower():
+                    # Assay literature search
+                    system_message = configuration.prompts.assay_literature_system_message.format(
+                        num_assays=configuration.num_assays
+                    )
+                    user_message = query  # The query itself is the user message
+                else:
+                    # Candidate literature search
+                    system_message = configuration.prompts.candidate_query_generation_system_message.format(
+                        disease_name=configuration.disease_name
+                    )
+                    user_message = query  # The query itself is the user message
+            else:
+                # For hypothesis reports, determine if assay or candidate
+                if "assay" in hypothesis.lower() or "assay" in query.lower():
+                    # Assay hypothesis report
+                    system_message = configuration.prompts.assay_hypothesis_system_prompt.format(
+                        disease_name=configuration.disease_name
+                    )
+                    user_message = query  # The query contains the full prompt
+                else:
+                    # Candidate hypothesis report
+                    system_message = configuration.prompts.candidate_lit_review_direction_prompt.format(
+                        disease_name=configuration.disease_name
+                    )
+                    user_message = query  # The query contains the full prompt
+            
+            messages = [
+                Message(role="system", content=system_message),
+                Message(role="user", content=user_message),
+            ]
+            
+            response = await llm_client.call_single(messages)
+            answer = cast(str, response.text)
+            
+            result_context = f"Query: {query}\nAnswer: {answer}"
+            
+            all_results.append(
+                {
+                    "hypothesis": hypothesis,
+                    "query": query,
+                    "answer": answer,
+                    "context": result_context,
+                    "status": "success",
+                    "task_run_id": f"llm_direct_{hash(query)}",  # Mock task ID
+                }
+            )
+            
+        except Exception as e:
+            errors_occurred = True
+            logger.exception(f"Failed to process query '{query}' for hypothesis '{hypothesis}': {e}")
+            all_results.append(
+                {
+                    "hypothesis": hypothesis,
+                    "query": query,
+                    "error": str(e),
+                    "status": "error",
+                    "task_run_id": f"llm_direct_error_{hash(query)}",
+                }
+            )
+    
+    logger.info(f"Finished processing {len(queries)} queries with direct LLM calls.")
+    return {
+        "results": all_results,
+        "count": len(all_results),
+        "has_errors": errors_occurred,
+    }
+
+
 def save_crow_files(
     data_list: list[dict[str, Any]],
     run_dir: str | Path,
     prefix: str,
     has_hypothesis: bool = False,
+    platform_base_url: str | None = None,
 ) -> None:
     run_dir_path = Path(run_dir)
     run_dir_path.mkdir(parents=True, exist_ok=True)
@@ -275,8 +411,16 @@ def save_crow_files(
             content = f"Hypothesis: {hypothesis_text}\n\n"
         content += f"Query: {query_text}\n\n"
         content += f"{answer_text}\n\n"
-        content += f"Full trajectory link: https://platform.futurehouse.org/trajectories/{task_id_text}\n\n"
-        content += f"References:\n{sources_text}\n"
+        
+        # Only add trajectory link and References section if there are actual sources (CROW agents)
+        if sources_text:
+            if platform_base_url:
+                trajectory_url = f"{platform_base_url}/trajectories/{task_id_text}"
+            else:
+                # Fallback to old hardcoded URL for backward compatibility
+                trajectory_url = f"https://platform.futurehouse.org/trajectories/{task_id_text}"
+            content += f"Full trajectory link: {trajectory_url}\n\n"
+            content += f"References:\n{sources_text}\n"
 
         try:
             filepath.write_text(content, encoding="utf-8")
@@ -291,6 +435,7 @@ def save_falcon_files(
     data_list: list[dict[str, Any]],
     run_dir: str | Path,
     prefix: str,
+    platform_base_url: str | None = None,
 ) -> None:
 
     run_dir_path = Path(run_dir)
@@ -320,7 +465,12 @@ def save_falcon_files(
 
         content = f"Proposal for {hypothesis_text}\n\n"
         content += f"{formatted_output_text}\n\n"
-        content += f"Full trajectory link: https://platform.futurehouse.org/trajectories/{task_id_text}\n"
+        if platform_base_url:
+            trajectory_url = f"{platform_base_url}/trajectories/{task_id_text}"
+        else:
+            # Fallback to old hardcoded URL for backward compatibility
+            trajectory_url = f"https://platform.futurehouse.org/trajectories/{task_id_text}"
+        content += f"Full trajectory link: {trajectory_url}\n"
 
         try:
             filepath.write_text(content, encoding="utf-8")
@@ -621,9 +771,46 @@ async def process_comparison_pair(
             Message(role="user", content=user_prompt),
         ]
 
-        response = await client.call_single(messages)
-
-        response_content = cast(str, response.text)
+        try:
+            response = await client.call_single(messages)
+            response_content = cast(str, response.text)
+        except Exception as e:
+            # Check if this is a timeout or connection error
+            error_type = type(e).__name__
+            error_message = str(e)
+            
+            # Check for timeout-related exceptions
+            is_timeout = (
+                "Timeout" in error_type
+                or "timeout" in error_message.lower()
+                or "timed out" in error_message.lower()
+                or "Connection timed out" in error_message
+            )
+            
+            if is_timeout:
+                error_detail = f"Timeout Error: {error_message}"
+                logger.warning(
+                    f"Timeout for pair {pair} (Index {idx}): {error_detail}. "
+                    f"Candidates: {hypo_1_info.get('hypothesis', 'N/A')} vs "
+                    f"{hypo_2_info.get('hypothesis', 'N/A')}"
+                )
+            else:
+                error_detail = f"API Error ({error_type}): {error_message}"
+                logger.warning(
+                    f"API Error for pair {pair} (Index {idx}): {error_detail}. "
+                    f"Candidates: {hypo_1_info.get('hypothesis', 'N/A')} vs "
+                    f"{hypo_2_info.get('hypothesis', 'N/A')}"
+                )
+            
+            return {
+                "status": "error",
+                "pair": pair,
+                "error": error_detail,
+                "error_type": error_type,
+                "details": {"exception": error_message},
+                "input_hypo_1": hypo_1_info,
+                "input_hypo_2": hypo_2_info,
+            }
 
         # Attempt to find JSON within the response, even if there's extra text
         json_start = response_content.find("{")
@@ -727,18 +914,89 @@ async def run_comparisons(  # noqa: PLR0912
         for idx, pair in enumerate(pairs_list)
     ]
 
-    results = await tqdm_asyncio.gather(*tasks, desc="Comparing Hypotheses")
+    # Use asyncio.gather with return_exceptions=True to prevent one failure from stopping all tasks
+    # tqdm_asyncio.gather doesn't support return_exceptions, so we use regular gather
+    # Wrap tasks to track progress as they complete
+    task_results = {}
+    
+    async def track_task(task_idx, task):
+        try:
+            result = await task
+            task_results[task_idx] = result
+        except Exception as e:
+            task_results[task_idx] = e
+    
+    # Create tracked tasks
+    tracked_tasks = [
+        track_task(idx, task) for idx, task in enumerate(tasks)
+    ]
+    
+    # Use tqdm for progress tracking as tasks complete
+    # Exceptions are already handled in process_comparison_pair and track_task
+    async def gather_with_progress():
+        pbar = tqdm(total=len(tracked_tasks), desc="Comparing Hypotheses")
+        try:
+            for coro in asyncio.as_completed(tracked_tasks):
+                await coro
+                pbar.update(1)
+        finally:
+            pbar.close()
+        # Return results in original order
+        return [task_results[i] for i in range(len(tasks))]
+    
+    results = await gather_with_progress()
 
     # Process results
-    for result in results:
-        if result and result["status"] == "success":
+    for idx, result in enumerate(results):
+        # Handle exceptions that weren't caught in process_comparison_pair
+        if isinstance(result, Exception):
+            pair = pairs_list[idx] if idx < len(pairs_list) else "unknown"
+            error_detail = f"Unhandled Exception: {type(result).__name__}: {str(result)}"
+            logger.error(
+                f"Unhandled exception for pair {pair} (Index {idx}): {error_detail}"
+            )
+            error_log.append({
+                "status": "error",
+                "pair": pair,
+                "error": error_detail,
+                "error_type": type(result).__name__,
+                "details": {"exception": str(result)},
+            })
+        elif result and result.get("status") == "success":
             all_comparison_results.append(result["data"])
-        elif result and result["status"] == "error":
+        elif result and result.get("status") == "error":
             error_log.append(result)
+        else:
+            # Unexpected result format
+            logger.warning(
+                f"Unexpected result format for index {idx}: {result}"
+            )
+            error_log.append({
+                "status": "error",
+                "pair": pairs_list[idx] if idx < len(pairs_list) else "unknown",
+                "error": f"Unexpected result format: {type(result)}",
+                "error_type": "UnexpectedFormat",
+                "details": {"result": str(result)},
+            })
 
     logger.info("\nFinished processing pairs.")
     logger.info(f" - Successful comparisons: {len(all_comparison_results)}")
     logger.info(f" - Errors encountered: {len(error_log)}")
+    
+    # Log summary of timeout errors specifically
+    timeout_errors = [
+        err for err in error_log 
+        if (
+            err.get("error_type") and "Timeout" in err.get("error_type", "")
+        ) or (
+            err.get("error") and "timeout" in str(err.get("error", "")).lower()
+        )
+    ]
+    if timeout_errors:
+        logger.warning(
+            f" - Timeout errors: {len(timeout_errors)}. "
+            "These comparisons were skipped and can be retried later."
+        )
 
     if not all_comparison_results:
         logger.error("No results to save. CSV file will not be created.")

@@ -1,0 +1,64 @@
+Query: Autophagy and lysosomal dysfunction in RPE cells during dry AMD progression: key regulators of autophagic flux impairment, methods to measure LC3 conversion and p62 accumulation, lysosomal pH monitoring, A2E autofluorescence assays, and high‐throughput autophagy modulators screening
+
+Below are 15 distinct mechanistic hypotheses or cell-culture–based therapeutic strategies focused on autophagy and lysosomal dysfunction in RPE cells during dry AMD. Each can be tested by measuring LC3-II/LC3-I conversion and p62 levels, monitoring lysosomal pH, and/or assaying A2E autofluorescence.
+
+1. TFEB Overexpression to Rescue Autophagic Flux  
+   Hypothesis: Forced nuclear translocation of TFEB restores lysosomal biogenesis and autophagic flux in A2E-loaded RPE.  
+   Assays: Transduce RPE with TFEB-GFP; quantify LC3-II/LC3-I ratio, p62 clearance, LysoSensor fluorescence, and A2E autofluorescence before/after chloroquine challenge.
+
+2. Cathepsin D Activity Decline Drives Lysosomal Alkalinization  
+   Hypothesis: Loss of cathepsin D activity in aged RPE leads to lysosomal pH elevation and autophagosome accumulation.  
+   Assays: Inhibit cathepsin D pharmacologically or siRNA; measure lysosomal pH (LysoSensor), LC3/p62 by Western blot, cathepsin D activity assay.
+
+3. CFH Y402H Variant Directly Impairs Autophagy  
+   Hypothesis: The AMD-risk CFH Y402H protein binds RPE surface receptors, triggering mTOR activation and autophagy blockage.  
+   Assays: Treat RPE with recombinant CFH WT vs. Y402H; monitor mTOR phosphorylation, LC3 conversion, p62, and lysosomal pH.
+
+4. V-ATPase Modulators Restore Lysosomal Acidity  
+   Strategy: Screen small-molecule V-ATPase activators to reacidify lysosomes in A2E-loaded RPE.  
+   Assays: High-throughput lysosomal pH screen (LysoSensor) in 96-well format, secondary readouts of LC3/p62 and A2E clearance.
+
+5. Microtubule Stabilizers Promote Autophagosome–Lysosome Fusion  
+   Hypothesis: A2E disrupts microtubule tracks required for autophagosome transport; microtubule stabilizers (e.g., epothilone) can restore fusion.  
+   Assays: Treat A2E-loaded RPE with epothilone; quantify LC3 puncta co-localized with LAMP1 by confocal imaging, p62 levels, and A2E removal.
+
+6. SIRT1 Activation Enhances Autophagic Flux  
+   Hypothesis: Pharmacological activation of SIRT1 (e.g., resveratrol) deacetylates key autophagy proteins and overcomes A2E-induced block.  
+   Assays: Treat RPE with resveratrol; measure acetyl-LC3 by immunoprecipitation, total LC3/p62 ratio, and lysosomal pH shifts.
+
+7. STX17 Downregulation as a Mechanism of Fusion Failure  
+   Hypothesis: A2E accumulation reduces syntaxin-17 expression, blocking autophagosome–lysosome SNARE assembly.  
+   Assays: Knock down STX17 by siRNA in RPE; measure LC3-II accumulation, p62, and rescue with STX17 overexpression.
+
+8. Rab7 Overexpression to Drive Late-Stage Autophagy  
+   Strategy: Enhance Rab7 activity to promote autophagosome maturation and lysosomal fusion in aged RPE.  
+   Assays: Transfect RPE with Rab7-WT or GTP-locked mutant; quantify LC3 puncta clearance, p62 degradation, and A2E autofluorescence.
+
+9. Beclin1-Targeted Peptides to Bypass PI3K-III Block  
+   Strategy: Deliver cell-penetrating Beclin1 peptides to restore autophagosome nucleation in A2E-stressed RPE.  
+   Assays: Treat RPE with TAT-Beclin1; monitor LC3 lipidation, p62 turnover, and lysosomal structure by Lysotracker.
+
+10. NRF2 Pathway Activation to Indirectly Boost Autophagy  
+    Hypothesis: Activation of NRF2 (e.g., with sulforaphane) upregulates p62 transcription and enhances selective autophagy of damaged organelles.  
+    Assays: Treat RPE with sulforaphane; measure NRF2 nuclear translocation, p62 mRNA/protein, LC3-II, and A2E removal.
+
+11. ER Stress/UPR Modulation Affects Lysosomal Function  
+    Hypothesis: Chronic ER stress in RPE (e.g., tunicamycin treatment) impairs lysosomal acidification via altered V-ATPase assembly.  
+    Assays: Induce UPR in RPE; measure BiP/CHOP, lysosomal pH, LC3/p62 levels, and rescue with chemical chaperones (4-PBA).
+
+12. Galectin-12 Overexpression to Facilitate Lysosomal Repair  
+    Strategy: Express galectin-12 in RPE to promote lysosomal membrane repair and restore autophagic flux post-A2E damage.  
+    Assays: Adenoviral galectin-12 delivery; quantify LC3/p62, lysosomal integrity (galectin puncta assay), and A2E clearance.
+
+13. CRISPR Knockout Screen of Lysosomal Genes  
+    Strategy: Pooled CRISPR/Cas9 screen targeting all known lysosomal-associated genes in LC3-GFP RPE to identify new regulators of autophagy flux.  
+    Assays: FACS-sort high/low LC3-GFP populations under A2E stress, deconvolve sgRNA enrichment, validate hits by individual knockout.
+
+14. FDA-Approved Drug Repurposing via LC3-RFP Reporter Assay  
+    Strategy: High-throughput screen of an FDA-approved library in RPE stably expressing tandem RFP-GFP-LC3 to identify autophagy enhancers that lower A2E autofluorescence.  
+    Assays: Automated microscopy for GFP quenching/RFP persistence, secondary readouts of lysosomal pH and p62.
+
+15. Nanoparticle–siRNA Delivery to Knock Down mTORC1 Components  
+    Strategy: Use lipid nanoparticles to deliver siRNA against mTORC1 subunits (Raptor) specifically to RPE, thereby stimulating autophagy.  
+    Assays: Treat RPE with nanoparticles; measure mTOR pathway inhibition, LC3-II increase, p62 reduction, and A2E phototoxicity protection.
+

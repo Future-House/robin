@@ -1,0 +1,24 @@
+Query: Assay development for modeling RPE barrier integrity and trans-epithelial electrical resistance changes in dry AMD, referencing TEER measurement techniques, tight junction protein immunostaining, permeability assays in cultured RPE, and microfluidic platforms for flow-induced stress
+
+Assay development for modeling RPE barrier integrity in dry AMD integrates several complementary methodologies. TEER measurement is executed using an EVOM manual volt/ohm meter and STX4 electrodes, with precise electrode orientation and normalization by the RPE area; such configurations yield TEER values of approximately 84.1 Ω·cm² for intact oBRBs (김지호2025developmentofa pages 55-60, 김지호2025developmentofab pages 55-60). Immunostaining of tight junction proteins, particularly ZO-1, involves fixation with 4% paraformaldehyde, permeabilization with 0.2% Triton X-100 in 3% BSA, followed by a 48-hour primary antibody incubation at 4°C and one-day Alexa 647 secondary incubation, enabling high-resolution confocal imaging of hexagonal RPE morphology (kim2024high‐throughputmicrofluidic3d pages 1-4, 김지호2025developmentofac pages 55-60). Permeability assays employ FITC-dextran (70 kDa) to quantify paracellular leaks over 30 minutes using time-lapse confocal imaging and automated ROI-based intensity quantification (김지호2025developmentofa pages 60-66, 김지호2025developmentofac pages 60-66). Additionally, microfluidic platforms designed with three-channel architectures allow for controlled fluid flow and shear stress application; these systems support multiplexed readouts and are adapted for high-throughput screening, enabling the simulation of mechanical forces relevant to dry AMD (김지호2025developmentofac pages 81-88, 김지호2025developmentofaa pages 55-60).
+
+This integrated assay platform facilitates simultaneous assessments of electrical resistance, junctional integrity, and permeability in cultured RPE. It provides dynamic and reproducible measures essential for investigating barrier disruption and therapeutic interventions in dry AMD.
+
+Full trajectory link: https://platform.futurehouse.org/trajectories/08db6c13-c974-4f94-9d56-ff251d09de41
+
+References:
+1. (김지호2025developmentofa pages 55-60): 김지호. Development of a reproducible high-throughput microphysiological system. Unknown journal, 2025.
+
+2. (김지호2025developmentofab pages 55-60): 김지호. Development of a reproducible high-throughput microphysiological system. Unknown journal, 2025.
+
+3. (kim2024high‐throughputmicrofluidic3d pages 1-4): Jiho Kim, Youngsook Song, Amber L. Jolly, Taeseon Hwang, Suryong Kim, Byungjun Lee, Jinhwan Jang, Dong Hyun Jo, Kyusuk Baek, Tsung‐Li Liu, Sanghee Yoo, and Noo Li Jeon. High‐throughput microfluidic 3d outer blood‐retinal barrier model in a 96‐well format: analysis of cellular interactions and barrier function in retinal health and disease. Advanced Materials Technologies, Jul 2024. URL: https://doi.org/10.1002/admt.202400634, doi:10.1002/admt.202400634. This article has 5 citations and is from a peer-reviewed journal.
+
+4. (김지호2025developmentofac pages 55-60): 김지호. Development of a reproducible high-throughput microphysiological system. Unknown journal, 2025.
+
+5. (김지호2025developmentofa pages 60-66): 김지호. Development of a reproducible high-throughput microphysiological system. Unknown journal, 2025.
+
+6. (김지호2025developmentofac pages 60-66): 김지호. Development of a reproducible high-throughput microphysiological system. Unknown journal, 2025.
+
+7. (김지호2025developmentofac pages 81-88): 김지호. Development of a reproducible high-throughput microphysiological system. Unknown journal, 2025.
+
+8. (김지호2025developmentofaa pages 55-60): 김지호. Development of a reproducible high-throughput microphysiological system. Unknown journal, 2025.

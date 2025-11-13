@@ -1,0 +1,32 @@
+Query: Screening of natural product libraries or FDA approved drug repurposing libraries in RPE barrier assays to identify enhancers of tight junction stability under lipofuscin or A2E accumulation stress, including secondary assays validating mechanism of action, in vivo efficacy in dry AMD animal models, and repurposing feasibility studies
+
+1. Screening of natural flavonoid derivatives in RPE trans‐epithelial electrical resistance (TEER) assays under A2E accumulation to identify compounds that preserve ZO-1 and claudin-19 localization; secondary assays: ROS quantification, lipid peroxidation, and siRNA knockdown of NRF2; in vivo: oral gavage in NaIO₃-induced dry AMD mice; repurposing feasibility: ADME/Tox profiling of lead flavonoids.  
+
+2. High-throughput repurposing screen of FDA-approved PPARγ agonists in polarized RPE monolayers loaded with lipofuscin granules to boost autophagic flux (LC3-II:I ratio); secondary assays: p62 turnover, Cathepsin D activity, and chloroquine rescue; in vivo: topical ocular delivery in Ccl2−/−/Cx3cr1−/− AMD model; repurposing feasibility: retinal pharmacokinetics and off-target profiling.  
+
+3. Natural product library screen for sphingosine-1-phosphate (S1P) receptor modulators that tighten RPE junctions under photooxidative stress; secondary assays: barrier permeability to FITC-dextran, S1P receptor subtype CRISPR knockouts; in vivo: intravitreal injection in light-induced retinal degeneration rats; repurposing feasibility: S1P analog patent landscapes and ocular safety.  
+
+4. FDA-approved HDAC inhibitor screen in RPE cells stressed with A2E to upregulate antioxidant gene expression (NRF2, HO-1) and maintain TEER; secondary assays: ChIP-qPCR for histone acetylation at tight junction promoters, mitochondrial membrane potential; in vivo: subcutaneous dosing in aged C57BL/6J mice with focal laser injury; repurposing feasibility: blood–retina barrier penetration and dose reduction potential.  
+
+5. Screening of CFTR modulators (e.g., ivacaftor analogs) in lipofuscin-loaded RPE to restore lysosomal pH and reduce A2E buildup; secondary assays: LysoSensor fluorescence, A2E HPLC quantification, CFTR siRNA validation; in vivo: systemic administration in ABCA4−/− mice; repurposing feasibility: existing ocular formulation routes.  
+
+6. mTOR inhibitor repurposing screen (rapalogs) in A2E-treated RPE to enhance selective autophagy (mitophagy) and preserve barrier integrity; secondary assays: Parkin translocation, mitochondrial ROS, junctional protein immunofluorescence; in vivo: intraperitoneal treatment in SAMP8 senescence-accelerated AMD model; repurposing feasibility: immunosuppression risk and retinal dosing strategies.  
+
+7. Library screen of small-molecule NLRP3 inhibitors in RPE under lipofuscin plus IL-1β challenge to prevent inflammasome-mediated junctional disruption; secondary assays: caspase-1 activity, IL-18 secretion, CRISPR/Cas9 NLRP3 knockout; in vivo: topical eye drops in drusen-forming Ccl2−/− mice; repurposing feasibility: oral vs. topical safety.  
+
+8. Screening of epigenetic DNMT inhibitors in aged RPE cultures with high lipofuscin to reactivate suppressed tight junction loci; secondary assays: bisulfite sequencing of CLDN1/3 promoters, TEER recovery, cell viability; in vivo: retrobulbar injection in aged Brown Norway rats; repurposing feasibility: minimizing genotoxicity.  
+
+9. FDA-approved SIRT1 activator screen (e.g., resveratrol mimetics) in RPE with A2E to enhance mitochondrial biogenesis and junctional protein turnover; secondary assays: PGC-1α expression, mitochondrial DNA copy number, junctional half-life via FRAP; in vivo: dietary supplementation in light-stress C57BL/6 mice; repurposing feasibility: dose optimization for retinal targeting.  
+
+10. Peptide-mimetic screen of TGF-β1 receptor modulators in RPE under chronic lipofuscin accumulation to prevent epithelial-mesenchymal transition and junctional loss; secondary assays: E-cadherin/α-SMA ratio, SMAD2/3 phosphorylation, wound-healing assays; in vivo: periocular peptide delivery in subretinal fibrosis AMD model; repurposing feasibility: peptide stability and delivery technologies.  
+
+11. Repurposing anti-VEGF cancer drugs (e.g., sorafenib analogs) in RPE co-cultured with choroidal endothelial cells to block VEGF-induced barrier leakage in A2E-stressed RPE; secondary assays: transwell permeability, VEGFR2 phosphorylation, endothelial tube formation; in vivo: intravitreal injection in laser-CNV mouse model; repurposing feasibility: retinal toxicity and dosing intervals.  
+
+12. Bile acid (UDCA/TUDCA) natural product library screen in lipofuscin-laden RPE to mitigate ER stress and preserve ZO-1 integrity; secondary assays: BiP/CHOP expression, XBP1 splicing, calcium imaging; in vivo: systemic UDCA in NaIO₃-induced RPE degeneration rats; repurposing feasibility: existing clinical use and ocular bioavailability.  
+
+13. Wnt pathway modulator screen (FDA library) in polarized RPE with accumulated A2E to restore cell polarity and tight junction assembly; secondary assays: β-catenin localization, Axin2 luciferase reporter, scratch recovery; in vivo: intraocular Wnt agonist delivery in Dkk1-overexpressing AMD mouse; repurposing feasibility: canonical vs. non-canonical pathway selectivity.  
+
+14. Selective JAK/STAT inhibitor screen in RPE treated with IL-6 plus lipofuscin to block cytokine-driven barrier disruption; secondary assays: STAT3 phosphorylation, SOCS3 induction, TEER rescue; in vivo: topical JAK inhibitor in IL-6 transgenic rat retina; repurposing feasibility: systemic immunosuppression risk.  
+
+15. Screening of soluble guanylate cyclase (sGC) stimulators in A2E-loaded RPE to increase cGMP, reduce oxidative damage, and stabilize tight junctions; secondary assays: cGMP ELISA, PKG activation, junctional protein half-life; in vivo: intravitreal sGC agonist in light-damage AMD model; repurposing feasibility: ocular delivery and vasodilatory side effects.
+

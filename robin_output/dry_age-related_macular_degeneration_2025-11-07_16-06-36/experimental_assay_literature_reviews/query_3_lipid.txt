@@ -1,0 +1,62 @@
+Query: Lipid metabolism dysregulation and drusen formation in dry AMD: pathways for cholesterol, phospholipid and retinaldehyde deposition in RPE cells, in vitro modeling of drusen components, lipid overload paradigms, and accumulation assays using BODIPY, Nile red, and targeted lipidomics
+
+1. LXR Agonist to Enhance Cholesterol Efflux  
+Hypothesis: Activating LXR in RPE under LDL-overload reduces drusen-like lipid droplets.  
+Assay: Treat ARPE-19 or primary human RPE with T0901317 plus native LDL; quantify neutral lipids by BODIPY493/503, track cholesterol, cholesteryl esters and phospholipids via targeted lipidomics.
+
+2. APOE Isoform–Dependent Phospholipid Handling  
+Hypothesis: APOE4–expressing RPE accumulates more drusen-like phospholipids than APOE3.  
+Assay: Lentiviral transduction of APOE2/3/4 in ARPE-19, lipid overload with photoreceptor outer-segment debris; stain droplets by Nile Red and profile phosphatidylcholine species by LC-MS.
+
+3. ABCA1 Knockdown–Driven Cholesterol Aggregation  
+Hypothesis: Loss of ABCA1 in RPE impairs cholesterol export and promotes drusen deposition.  
+Assay: siRNA ABCA1 in primary RPE + acetylated LDL; visualize free cholesterol with filipin and neutral lipids with BODIPY; quantify efflux to ApoA-I acceptors and lipid composition by MS.
+
+4. Lysosomal Acid Lipase (LIPA) Inhibition  
+Hypothesis: Blocking LIPA leads to cholesteryl ester buildup and drusen precursor formation.  
+Assay: Treat RPE with lalistat-1 under high cholesterol conditions; stain esterified lipid droplets by BODIPY C12 and measure cholesteryl esters by targeted shotgun lipidomics.
+
+5. Autophagy Blockade Amplifies Lipid Retention  
+Hypothesis: Impaired autophagy (via chloroquine) in RPE fed oxidized POS increases drusen-like deposits.  
+Assay: Feed primary RPE oxidized photoreceptor outer segments ± chloroquine; co-stain LC3 and Nile Red; quantify lipid droplet number/size and analyze lipid species by LC-MS.
+
+6. PPARα Activation to Reduce Oxysterols  
+Hypothesis: Fenofibrate diminishes 7-ketocholesterol–induced phospholipid accumulation in RPE.  
+Assay: Challenge RPE with 7-ketocholesterol ± fenofibrate; stain with BODIPY and quantify oxysterols and phospholipids by targeted lipidomics.
+
+7. CETP Inhibition Blocks Cholesterol Transfer  
+Hypothesis: Anacetrapib in RPE–endothelial cocultures reduces HDL-to-RPE cholesterol flux and drusen‐like formation.  
+Assay: Radiolabeled HDL cholesterol efflux assay ± anacetrapib; stain residual RPE droplets with Nile Red; lipidomic profiling of cell and media fractions.
+
+8. SR-BI Blockade of HDL Uptake  
+Hypothesis: BLT-1–mediated SR-BI inhibition reduces HDL‐derived lipid deposition in RPE.  
+Assay: Treat RPE with HDL ± BLT-1; quantify internalized lipids by BODIPY and bead-based lipidomics for HDL‐specific phospholipids.
+
+9. PLTP Overexpression Drives Extracellular Phospholipid Matrix  
+Hypothesis: Elevated PLTP in RPE enhances phospholipid transfer to Bruch’s membrane–like matrix.  
+Assay: Adenoviral PLTP overexpression in RPE; collect ECM deposits, stain with Nile Red and perform targeted phosphatidylcholine/glycerophospholipid analysis.
+
+10. Visual‐Cycle Modulation of Retinaldehyde Deposition  
+Hypothesis: Emixustat reduces all-trans-retinal overload and consequent drusen‐like autofluorescent deposits.  
+Assay: Expose RPE to excess at-RAL ± emixustat; measure retinaldehyde by HPLC-MS, stain lipid droplets with BODIPY, assess autofluorescent deposit formation.
+
+11. SREBP2 Inhibition to Curtail Cholesterol Synthesis  
+Hypothesis: Fatostatin–mediated blockade of SREBP2 in RPE under lipid stress decreases de novo cholesterol and drusen deposits.  
+Assay: Treat lipid-overloaded RPE with fatostatin; quantify lipid droplets by Nile Red and track mevalonate pathway intermediates via targeted metabolomics.
+
+12. NPC1 Overexpression to Enhance Lysosomal Export  
+Hypothesis: Boosting NPC1 in RPE improves lysosomal cholesterol trafficking, reducing drusen‐like aggregates.  
+Assay: Transfect RPE with NPC1‐GFP; overload with LDL; stain free cholesterol by filipin and lipids by BODIPY; lipidomic analysis of secreted aggregates.
+
+13. GPAT1 Inhibition to Limit TAG Droplets  
+Hypothesis: FSG67 inhibition of glycerol-3-phosphate acyltransferase-1 in RPE reduces triacylglycerol droplet formation.  
+Assay: Treat RPE with FSG67 under fatty acid overload; stain with Nile Red; quantify TAG species by targeted lipidomics.
+
+14. miR-33 Antagomir to Upregulate Cholesterol Transporters  
+Hypothesis: miR-33 inhibition in RPE increases ABCA1/ABCG1, enhancing cholesterol efflux and preventing drusen.  
+Assay: Deliver locked‐nucleic‐acid miR-33 inhibitor to RPE; lipid overload; measure transporter expression, cholesterol efflux, and droplet burden via BODIPY.
+
+15. HDL-Mimetic Peptide Therapy  
+Hypothesis: 22A peptide fosters cholesterol efflux from lipid-laden RPE, reducing drusen‐like droplet formation.  
+Assay: Incubate RPE with oxidized LDL then 22A; stain droplets with Nile Red; perform targeted lipidomics of cell and media fractions.
+

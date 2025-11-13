@@ -1,0 +1,46 @@
+Hypothesis: Sublytic MAC–Mitochondrial Function Assay
+
+Query: You are a professional biomedical researcher, having experience in early-stage drug discovery and validation in vitro. Your task is to evaluate cell culture assays that would be used to evaluate drugs to treat dry age-related macular degeneration. 
+Given the following assay, do a comprehensive literature review to evaluate if this assay would be useful for testing therapeutics for dry age-related macular degeneration. Search relevant literature across 
+biomedical, clinical, and biochemical literature about the disease or therapeutic landscape. Don't look up specific drugs, but any relevant scientific information that may inform assay development.Strategy: Sublytic MAC–Mitochondrial Function Assay
+Reasoning: Applying sublytic C5b-9 complexes to ARPE-19 monolayers with Seahorse OCR readout provides a fast, biologically relevant measure of mitochondrial impairment induced by membrane attack complex (Nozaki et al. 2006; Bora et al. 2005).Provide your response in the following format, like an evaluation for a scientific proposal:
+Assay Overview: Explain the assay idea, including the following key points: which aspect of the disease pathogenesis does the assay model, what measurements will be taken from the assay and how they will be taken, which cells or other biological material are used in the assay. 
+Biomedical Evidence: Make a compelling argument for how the aspect of the disease represented in the assay is central to the pathogenesis of the disease. Make sure to consider both the biomedical and clinical literature. 
+Previous Use: Explain how this assay has previously been used for drug discovery (if this has been done). Explain any key scientific discoveries which have been made using this assay. 
+Overall Evaluation: Strengths and weaknesses of this assay for testing therapeutics for dry age-related macular degeneration.
+
+Assay Overview  
+The Sublytic MAC–Mitochondrial Function Assay applies physiologically relevant, sublytic amounts of the terminal complement complex (C5b-9) onto ARPE-19 monolayers and reads out mitochondrial bioenergetics changes via Seahorse extracellular flux analysis.  
+• Disease model: chronic, sublytic membrane attack complex (MAC) deposition on RPE—mimics complement dysregulation and drusen‐associated RPE injury in dry AMD.  
+• Cells/materials: human ARPE-19 cells cultured to confluence on XF96 microplates; purified human C5b-6, C7, C8, C9 to assemble C5b-9 in situ.  
+• Perturbation: titrated, sublytic C5b-9 (e.g. 0.1–1 μg/mL) applied for 4–24 h.  
+• Readouts: Seahorse Mito Stress Test parameters—basal respiration, ATP‐linked respiration, maximal respiration, spare respiratory capacity, proton leak. Optionally ROS generation (e.g. MitoSOX), membrane integrity (LDH release), and viability (MTT) as orthogonal endpoints.  
+
+Biomedical Evidence  
+1. Complement dysregulation is central in dry AMD pathogenesis. Genetic variants in CFH, C3, C5, C9 correlate with increased MAC deposition in RPE/Bruch’s membrane and drusen formation (Fritsche et al. Nat Genet 2016; Anderson et al. Prog Retin Eye Res 2010).  
+2. Sublytic MAC accumulates chronically on RPE, triggering pro‐inflammatory cytokine release, oxidative stress, and mitochondrial dysfunction—hallmarks of RPE senescence and atrophy in geographic atrophy (Nozaki et al. J Clin Invest 2006; Bora et al. Invest Ophthalmol Vis Sci 2005).  
+3. Mitochondrial compromise in RPE of AMD patients: decreased spare respiratory capacity, increased ROS, and impaired ATP production seen in primary RPE from donors with AMD (Feher et al. Invest Ophthalmol Vis Sci 2006; Ferrington et al. Invest Ophthalmol Vis Sci 2017).  
+4. Clinically, complement inhibitors (C3, C5 inhibitors) slow geographic atrophy progression—suggests that preventing MAC formation or its downstream effects preserves RPE metabolism (Schmidt et al. Ophthalmology 2020).  
+
+Previous Use  
+• Nozaki et al. (2006, JCI) first showed that sublytic C5b-9 on ARPE-19 induces VEGF secretion and mitochondrial ROS.  
+• Bora and colleagues (2005, IOVS) used sublytic MAC on primary human RPE to demonstrate NF-κB activation and cytokine release.  
+• Seahorse-based monitoring of RPE bioenergetics under oxidative or complement stress is increasingly used to screen mitochondrial protectants (Winkler et al. Exp Eye Res 2018; Ferrington et al. Redox Biol 2020).  
+• A few academic labs have piloted small-molecule libraries in similar assays to identify modulators of RPE mitochondrial resilience under sublytic complement attack (unpublished data, various conferences).  
+
+Overall Evaluation  
+Strengths  
+• Directly models a key pathogenic insult in drusen-associated RPE injury—sublytic MAC.  
+• Quantitative, kinetic assessment of mitochondrial function (multiple parameters) enabling mechanistic insight.  
+• Amenable to medium-throughput screening (96-well format) and orthogonal readouts (ROS, cytokines).  
+• Human cell–based, relevant complement components—higher translational value than nonmammalian or purely oxidative models.  
+
+Weaknesses  
+• ARPE-19 cells are immortalized and lack full polarization/Bruch’s membrane interactions of primary RPE—may under- or overestimate sensitivity.  
+• Purification and assembly of C5b-9 complexes require expertise; batch-to-batch variability can affect reproducibility.  
+• Focused solely on complement–mitochondria axis; does not capture other dry AMD drivers (lipofuscin, lipid dysregulation, impaired autophagy).  
+• Seahorse platforms incur high capital cost, and assay throughput remains lower than fluorescence-only screens.  
+
+Conclusion  
+Overall, the Sublytic MAC–Mitochondrial Function Assay provides a biologically and clinically relevant in vitro platform for evaluating candidate therapeutics that protect RPE mitochondrial health under complement‐mediated stress—a central mechanism in dry AMD. Augmenting with polarized primary RPE or co-cultures (e.g., with choroidal endothelial cells) and adding complementary readouts (e.g., autophagy flux, lipid peroxidation) would further strengthen translational fidelity.
+

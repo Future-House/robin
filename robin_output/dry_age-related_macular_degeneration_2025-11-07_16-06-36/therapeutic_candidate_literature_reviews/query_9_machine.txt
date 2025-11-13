@@ -1,0 +1,77 @@
+Query: machine-learning-driven virtual screening approaches for mitochondria-targeted antioxidants against RPE oxidative stress signatures from patient transcriptomes, followed by empirical mitoQ assay validation and ADME/Tox assessment
+
+1. Hypothesis: G6PD overexpression in hepatocellular carcinoma (HCC) maintains redox balance and drives sorafenib resistance.  
+   Model: HepG2 cells ± G6PD siRNA or CRISPR knockout.  
+   Assays: Measure intracellular NADPH/NADP+ ratio, ROS (DCFDA), cell viability (CellTiter-Glo) ± sorafenib.  
+   Therapeutic strategy: Combine a small-molecule G6PD inhibitor with sorafenib.
+
+2. Hypothesis: IL-17A induces Notch1 activation in keratinocytes, promoting psoriatic hyperproliferation.  
+   Model: HaCaT cells treated with recombinant IL-17A ± γ-secretase inhibitor DAPT.  
+   Assays: Proliferation (EdU incorporation), Notch1 intracellular domain nuclear translocation (IF), qPCR for KRT16/IL-36γ.  
+   Therapeutic strategy: Topical Notch inhibition formulation.
+
+3. Hypothesis: DRP1-mediated mitochondrial fission under hyperglycemia impairs insulin signaling in cardiomyocytes.  
+   Model: H9c2 cells cultured in high-glucose media ± DRP1 inhibitor Mdivi-1.  
+   Assays: Mitochondrial morphology (MitoTracker), p-AKT/AKT Western blot after insulin challenge, glucose uptake assay.  
+   Therapeutic strategy: DRP1 inhibitors to preserve cardiac insulin sensitivity.
+
+4. Hypothesis: Cancer-associated fibroblast (CAF) exosomes deliver miR-210 to colorectal cancer (CRC) cells, enhancing angiogenic signaling.  
+   Model: CAF-conditioned medium or isolated exosomes added to COLO205 cells ± anti-miR-210.  
+   Assays: Tube formation in HUVECs using CRC-conditioned medium, VEGF secretion (ELISA), CRC proliferation/migration.  
+   Therapeutic strategy: Exosome uptake blockers or miR-210 sponges.
+
+5. Hypothesis: S-nitrosylation of Parkin in dopaminergic neurons inhibits mitophagy, promoting α-synuclein accumulation.  
+   Model: iPSC-derived dopaminergic neurons treated with S-nitrosothiol donors ± denitrosylase activator.  
+   Assays: Mitophagy flux (mt-Keima reporter), α-synuclein aggregates (Thioflavin T), cell viability.  
+   Therapeutic strategy: Small molecules enhancing Parkin denitrosylation.
+
+6. Hypothesis: AMPK activation reverses lipid accumulation in nonalcoholic fatty liver disease (NAFLD).  
+   Model: Oleate-loaded HepG2 cells ± AMPK agonist AICAR or novel AMPK activators.  
+   Assays: Oil Red O lipid staining, ACC phosphorylation, transcriptomics for lipogenic genes.  
+   Therapeutic strategy: Oral AMPK activators to treat hepatic steatosis.
+
+7. Hypothesis: Aberrant HERV-K envelope expression in ALS motor neurons triggers ER stress and neurotoxicity.  
+   Model: ALS patient-derived iPSC motor neurons with HERV-K env knockdown.  
+   Assays: UPR marker expression (BiP, CHOP), lactate dehydrogenase release, electrophysiological firing.  
+   Therapeutic strategy: Monoclonal antibody or RNAi targeting HERV-K env.
+
+8. Hypothesis: P2X7 receptor hyperactivation in macrophages exacerbates NLRP3 inflammasome–driven IL-1β release in atherosclerosis.  
+   Model: THP-1-derived macrophages stimulated with modified LDL and ATP ± P2X7 antagonist.  
+   Assays: Caspase-1 cleavage, IL-1β ELISA, foam cell formation (Oil Red O).  
+   Therapeutic strategy: P2X7 inhibitors to dampen vascular inflammation.
+
+9. Hypothesis: Zonulin-mediated tight junction disruption in intestinal endothelial cells fuels systemic inflammation in IBD.  
+   Model: HUVEC monolayers treated with recombinant zonulin ± zonulin antagonist larazotide.  
+   Assays: Transendothelial electrical resistance (TEER), FITC-dextran permeability, NF-κB activation.  
+   Therapeutic strategy: Larazotide to restore barrier integrity.
+
+10. Hypothesis: A cell-penetrating peptide that disrupts HIF-1α/VHL binding sensitizes glioblastoma to oxy-radiotherapy.  
+    Model: U87MG cells under hypoxia treated with peptide ± radiotherapy.  
+    Assays: HIF target gene expression (qPCR), clonogenic survival assay, apoptosis (Annexin V).  
+    Therapeutic strategy: Peptide plus radiotherapy regimen.
+
+11. Hypothesis: DNA methyltransferase (DNMT) overactivity in aged mesenchymal stem cells (MSCs) induces senescence and SASP.  
+    Model: Human bone marrow MSCs from donors >65 years treated with DNMT inhibitor 5-aza.  
+    Assays: SA-β-gal staining, SASP cytokine array, differentiation capacity (osteogenic/adipogenic).  
+    Therapeutic strategy: Epigenetic reprogramming for rejuvenated MSC therapies.
+
+12. Hypothesis: PD-L1 palmitoylation by ZDHHC3 stabilizes its membrane expression in melanoma, promoting immune escape.  
+    Model: A375 cells treated with palmitoylation inhibitor 2-BP or ZDHHC3 siRNA.  
+    Assays: PD-L1 surface levels (flow cytometry), T cell–mediated cytotoxicity, co-IP for palmitoylation.  
+    Therapeutic strategy: ZDHHC3 inhibitors as immunotherapy adjuvants.
+
+13. Hypothesis: Lipotoxic ceramide accumulation in pancreatic β-cells activates JNK signaling, triggering apoptosis in type 2 diabetes.  
+    Model: INS-1 cells exposed to palmitate ± ceramide synthase inhibitor myriocin.  
+    Assays: Phospho-JNK Western blot, TUNEL apoptosis assay, insulin secretion.  
+    Therapeutic strategy: Ceramide synthesis blockers to preserve β-cell mass.
+
+14. Hypothesis: MSC-derived exosomal lncRNA H19 fosters keratinocyte proliferation and migration via FOXO1 suppression.  
+    Model: Human keratinocytes in scratch assays treated with MSC exosomes ± H19 knockdown.  
+    Assays: Scratch closure rate, FOXO1 protein levels, EMT markers (E-cadherin/vimentin).  
+    Therapeutic strategy: Exosome-based wound-healing dressings.
+
+15. Hypothesis: NFATc1 decoy oligonucleotides inhibit osteoclastogenesis in rheumatoid arthritis (RA) synoviocytes.  
+    Model: RAW264.7 cells or RA patient synoviocytes stimulated with RANKL ± NFATc1 decoy.  
+    Assays: TRAP staining for osteoclasts, bone resorption pit assay, NFATc1 nuclear translocation.  
+    Therapeutic strategy: Intra-articular delivery of NFATc1 decoys to prevent bone erosion.
+
