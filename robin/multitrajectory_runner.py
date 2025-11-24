@@ -9,7 +9,7 @@ from collections.abc import Callable
 from os import PathLike
 from typing import Any
 
-from futurehouse_client.models import RuntimeConfig, TaskRequest
+from edison_client.models import RuntimeConfig, TaskRequest
 from pydantic import BaseModel, Field
 
 from .configuration import RobinConfiguration
@@ -35,7 +35,7 @@ class Step(BaseModel):
 
     name: str = Field(
         description=(
-            "Name of the job to run (e.g. 'job-futurehouse-data-analysis-crow-high')"
+            "Name of the job to run (e.g. 'JobNames.FINCH')"
         )
     )
     prompt_template: str = Field(description="Prompt template to use for the step")
@@ -105,9 +105,9 @@ class MultiTrajectoryRunner:
     """Runner for multi-step agent pipelines."""
 
     def __init__(self, configuration: RobinConfiguration):
-        """Initialize the multi-trajectory runner framework with FutureHouse API key."""
+        """Initialize the multi-trajectory runner framework with Edison API key."""
         self.configuration = configuration
-        self.client = configuration.fh_client
+        self.client = configuration.edison_client
         self.steps: list[Step] = []
         self.results: dict[str, Any] = {}
 

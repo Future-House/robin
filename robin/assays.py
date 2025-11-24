@@ -77,7 +77,7 @@ async def experimental_assay_lit_review(
     """
     Step 2: Conduct a literature review for experimental assays.
 
-    Uses the FutureHouse platform to run the generated queries and returns a
+    Uses the Edison platform to run the generated queries and returns a
     summarized string of the results.
 
     Args:
@@ -87,11 +87,11 @@ async def experimental_assay_lit_review(
     Returns:
         A string containing the summarized literature review.
     """
-    logger.info("\n\nStep 2: Conducting literature search with FutureHouse platform...")
+    logger.info("\n\nStep 2: Conducting literature search with Edison platform...")
 
     assay_lit_review = await call_platform(
         queries=experimental_assay_queries_dict,
-        fh_client=configuration.fh_client,
+        edison_client=configuration.edison_client,
         job_name=configuration.agent_settings.assay_lit_search_agent,
     )
 
@@ -178,7 +178,7 @@ async def experimental_assay_detailed_reports(
     """
     Step 4: Generate detailed reports for all proposed experimental assays.
 
-    For each proposed assay, this function uses the FutureHouse platform to generate
+    For each proposed assay, this function uses the Edison platform to generate
     a detailed report, which is then saved to disk.
 
     Args:
@@ -216,7 +216,7 @@ async def experimental_assay_detailed_reports(
 
     assay_hypotheses = await call_platform(
         queries=assay_hypothesis_queries,
-        fh_client=configuration.fh_client,
+        edison_client=configuration.edison_client,
         job_name=configuration.agent_settings.assay_hypothesis_report_agent,
     )
 

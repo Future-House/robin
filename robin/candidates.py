@@ -112,13 +112,13 @@ async def candidate_lit_review(
     Returns:
         A string containing the summarized literature review.
     """
-    logger.info("\n\nStep 2: Conducting literature search with FutureHouse platform...")
+    logger.info("\n\nStep 2: Conducting literature search with Edison platform...")
 
     run_folder_name = str(configuration.run_folder_name)
 
     therapeutic_candidate_review = await call_platform(
         queries=candidate_queries_dict,
-        fh_client=configuration.fh_client,
+        edison_client=configuration.edison_client,
         job_name=configuration.agent_settings.candidate_lit_search_agent,
     )
 
@@ -345,7 +345,7 @@ async def candidate_detailed_reports(
 
     therapeutic_candidate_hypotheses = await call_platform(
         queries=therapeutic_candidate_queries,
-        fh_client=configuration.fh_client,
+        edison_client=configuration.edison_client,
         job_name=configuration.agent_settings.candidate_hypothesis_report_agent,
     )
 

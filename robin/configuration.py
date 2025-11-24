@@ -3,7 +3,7 @@ import os
 import re
 from datetime import datetime
 
-from futurehouse_client import FutureHouseClient, JobNames
+from edison_client import EdisonClient, JobNames
 from lmi import LiteLLMModel
 from pydantic import BaseModel, Field, PrivateAttr, model_validator
 
@@ -285,7 +285,10 @@ class AgentConfig(BaseModel):
             "Agent to use for generating detailed reports on therapeutic candidates."
         ),
     )
-
+    data_analysis_agent: JobNames = Field(
+        default=JobNames.FINCH,
+        description="Agent to use for data analysis.",
+    )
 
 class RobinConfiguration(BaseModel):
 
@@ -315,12 +318,12 @@ class RobinConfiguration(BaseModel):
             "using the disease_name and the timestamp."
         ),
     )
-    futurehouse_api_key: str = "insert_futurehouse_api_key_here"
+    edison_api_key: str = "insert_edison_api_key_here"
     llm_name: str = Field(default="o4-mini")
     llm_formatter_name: str = Field(default="claude-opus-4")
     llm_config: dict = Field(default_factory=get_default_llm_config)
     agent_settings: AgentConfig = Field(default_factory=AgentConfig)
-    _fh_client: FutureHouseClient | None = PrivateAttr(default=None)
+    _edison_client: EdisonClient | None = PrivateAttr(default=None)
     _llm_client: LiteLLMModel | None = PrivateAttr(default=None)
     _llm_formatter: LiteLLMModel | None = PrivateAttr(default=None)
 
@@ -333,16 +336,16 @@ class RobinConfiguration(BaseModel):
         return self
 
     @property
-    def fh_client(self) -> FutureHouseClient:
-        if self._fh_client is None:
-            api_key = os.getenv("FUTUREHOUSE_API_KEY") or self.futurehouse_api_key
+    def edison_client(self) -> EdisonClient:
+        if self._edison_client is None:
+            api_key = os.getenv("EDISON_API_KEY") or self.edison_api_key
             if not api_key:
                 raise ValueError(
-                    "FutureHouse API key is not set. Please provide it in the"
-                    " configuration or set FUTUREHOUSE_API_KEY env variable."
+                    "Edison API key is not set. Please provide it in the"
+                    " configuration or set EDISON_API_KEY env variable."
                 )
-            self._fh_client = FutureHouseClient(api_key=api_key)
-        return self._fh_client
+            self._edison_client = EdisonClient(api_key=api_key)
+        return self._edison_client
 
     @property
     def llm_client(self) -> LiteLLMModel:
