@@ -1,9 +1,8 @@
-import copy
 import os
 import re
 from datetime import datetime
 
-from futurehouse_client import FutureHouseClient, JobNames
+from edison_client import EdisonClient, JobNames
 from lmi import LiteLLMModel
 from pydantic import BaseModel, Field, PrivateAttr, model_validator
 
@@ -41,22 +40,67 @@ from .prompts import (
     SYNTHESIZE_USER_CONTENT,
 )
 
-_DEFAULT_LLM_CONFIG_DATA = {
-    "model_list": [
-        {
-            "model_name": "o4-mini",
-            "litellm_params": {
-                "model": "o4-mini",
-                "api_key": os.getenv("OPENAI_API_KEY", "insert_openai_key_here"),
-                "timeout": 300,
-            },
-        }
-    ]
+# Provider to environment variable mapping for API keys
+_PROVIDER_API_KEY_ENV_VARS: dict[str, str] = {
+    "openai": "OPENAI_API_KEY",
+    "anthropic": "ANTHROPIC_API_KEY",
+    "gemini": "GEMINI_API_KEY",
+    "google": "GEMINI_API_KEY",
+    "azure": "AZURE_API_KEY",
+    "cohere": "COHERE_API_KEY",
+    "mistral": "MISTRAL_API_KEY",
+    "groq": "GROQ_API_KEY",
+    "together": "TOGETHER_API_KEY",
+    "deepseek": "DEEPSEEK_API_KEY",
 }
 
 
-def get_default_llm_config():
-    return copy.deepcopy(_DEFAULT_LLM_CONFIG_DATA)
+def get_provider_from_model(model: str) -> str:
+    """Extract provider from LiteLLM model string (e.g., 'openai/gpt-4o' -> 'openai')."""
+    if "/" in model:
+        return model.split("/")[0].lower()
+    return "openai"
+
+
+def _get_api_key_for_model(model: str) -> str:
+    """Get the API key for a model from the appropriate environment variable."""
+    provider = get_provider_from_model(model)
+    env_var = _PROVIDER_API_KEY_ENV_VARS.get(provider, f"{provider.upper()}_API_KEY")
+    api_key = os.getenv(env_var)
+    if not api_key:
+        raise ValueError(
+            f"API key for model '{model}' (provider: {provider}) not found. "
+            f"Please set the {env_var} environment variable."
+        )
+    return api_key
+
+
+def _build_litellm_config(model: str) -> dict:
+    """Build LiteLLM config dict for a model, automatically resolving API key."""
+    provider = get_provider_from_model(model)
+
+    # Build litellm_params dict
+    litellm_params: dict = {
+        "model": model,
+        "api_key": _get_api_key_for_model(model),
+    }
+
+    if provider in {"openai", "anthropic", "gemini", "google"}:
+        litellm_params["timeout"] = 300
+
+    if provider == "openai":
+        litellm_params["reasoning_effort"] = "high"
+
+    config: dict = {
+        "model_list": [
+            {
+                "model_name": model,
+                "litellm_params": litellm_params,
+            }
+        ]
+    }
+
+    return config
 
 
 def _get_prompt_args(template_string: str) -> set[str]:
@@ -252,6 +296,10 @@ class AgentConfig(BaseModel):
             "Agent to use for generating detailed reports on therapeutic candidates."
         ),
     )
+    data_analysis_agent: JobNames = Field(
+        default=JobNames.FINCH,
+        description="Agent to use for data analysis.",
+    )
 
 
 class RobinConfiguration(BaseModel):
@@ -282,12 +330,24 @@ class RobinConfiguration(BaseModel):
             "using the disease_name and the timestamp."
         ),
     )
-    futurehouse_api_key: str = "insert_futurehouse_api_key_here"
-    llm_name: str = "o4-mini"
-    llm_config: dict | None = Field(default_factory=get_default_llm_config)
+    edison_api_key: str = "insert_edison_api_key_here"
+    llm_name: str = Field(
+        default="openai/gpt-5",
+        description="LiteLLM model name (e.g., 'openai/gpt-4o').",
+    )
+    llm_formatter_name: str = Field(
+        default="anthropic/claude-opus-4-5-20251101",
+        description="LiteLLM model name for formatting (e.g., 'anthropic/claude-opus-4-5-20251101').",
+    )
+    llm_judge_name: str = Field(
+        default="anthropic/claude-sonnet-4-5",
+        description="LiteLLM model name for judging comparisons (e.g., 'anthropic/claude-sonnet-4-5').",
+    )
     agent_settings: AgentConfig = Field(default_factory=AgentConfig)
-    _fh_client: FutureHouseClient | None = PrivateAttr(default=None)
+    _edison_client: EdisonClient | None = PrivateAttr(default=None)
     _llm_client: LiteLLMModel | None = PrivateAttr(default=None)
+    _llm_formatter: LiteLLMModel | None = PrivateAttr(default=None)
+    _llm_judge: LiteLLMModel | None = PrivateAttr(default=None)
 
     @model_validator(mode="after")
     def set_run_folder_name_default(self) -> "RobinConfiguration":
@@ -298,22 +358,39 @@ class RobinConfiguration(BaseModel):
         return self
 
     @property
-    def fh_client(self) -> FutureHouseClient:
-        if self._fh_client is None:
-            api_key = os.getenv("FUTUREHOUSE_API_KEY") or self.futurehouse_api_key
+    def edison_client(self) -> EdisonClient:
+        if self._edison_client is None:
+            api_key = os.getenv("EDISON_API_KEY") or self.edison_api_key
             if not api_key:
                 raise ValueError(
-                    "FutureHouse API key is not set. Please provide it in the"
-                    " configuration or set FUTUREHOUSE_API_KEY env variable."
+                    "Edison API key is not set. Please provide it in the"
+                    " configuration or set EDISON_API_KEY env variable."
                 )
-            self._fh_client = FutureHouseClient(api_key=api_key)
-        return self._fh_client
+            self._edison_client = EdisonClient(api_key=api_key)
+        return self._edison_client
 
     @property
     def llm_client(self) -> LiteLLMModel:
         if self._llm_client is None:
-            self._llm_client = LiteLLMModel(name=self.llm_name, config=self.llm_config)
+            config = _build_litellm_config(self.llm_name)
+            self._llm_client = LiteLLMModel(name=self.llm_name, config=config)
         return self._llm_client
+
+    @property
+    def llm_formatter(self) -> LiteLLMModel:
+        if self._llm_formatter is None:
+            config = _build_litellm_config(self.llm_formatter_name)
+            self._llm_formatter = LiteLLMModel(
+                name=self.llm_formatter_name, config=config
+            )
+        return self._llm_formatter
+
+    @property
+    def llm_judge(self) -> LiteLLMModel:
+        if self._llm_judge is None:
+            config = _build_litellm_config(self.llm_judge_name)
+            self._llm_judge = LiteLLMModel(name=self.llm_judge_name, config=config)
+        return self._llm_judge
 
     def get_da_client(self):
         from .multitrajectory_runner import MultiTrajectoryRunner

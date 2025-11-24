@@ -53,7 +53,7 @@ async def data_analysis(
 
     # Step 1: Gating, MFI and statistical analysis
     analysis_step = Step(
-        name="job-futurehouse-data-analysis-crow-high",
+        name=configuration.agent_settings.data_analysis_agent,
         prompt_template=analysis_prompt,
         cot_prompt=False,
         input_files={data_path: "flow_250508/"},  # change this to your input folder
@@ -65,7 +65,7 @@ async def data_analysis(
 
     # Step 2: Consensus Analysis
     consensus_step = Step(
-        name="job-futurehouse-data-analysis-crow-high",
+        name=configuration.agent_settings.data_analysis_agent,
         prompt_template=consensus_prompt,
         cot_prompt=False,
         input_files={
@@ -80,7 +80,7 @@ async def data_analysis(
 
     logger.info(
         "View the final volcano plot at:"
-        f" https://platform.futurehouse.org/trajectories/{data_analyzer.results[consensus_step.step_id]['task_ids'][0]}"
+        f" https://platform.edisonscientific.com/trajectories/{data_analyzer.results[consensus_step.step_id]['task_ids'][0]}"
     )
 
     consensus_output_filename = consensus_step.output_files["consensus_results.csv"]

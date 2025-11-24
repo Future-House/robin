@@ -6,9 +6,9 @@ See our [blog](https://www.futurehouse.org/research-announcements/demonstrating-
 
 - **Python:** Version 3.12 or higher.
 - **API Keys:**
-  - `FUTUREHOUSE_API_KEY`: For accessing FutureHouse platform agents (Crow, Falcon).
+  - `EDISON_API_KEY`: For accessing Edison platform agents (Crow, Falcon).
   - An API key for your chosen LLM provider (e.g., `OPENAI_API_KEY` if using OpenAI models). Robin uses LiteLLM, so it can support various providers.
-  - The "Finch" (data analysis) portion of this repo needs access to the FutureHouse platform closed beta. To request access, visit https://platform.futurehouse.org/profile, and use the "Rate Limit Increase" form to request access to Finch. Without access, all the hypothesis and experiment generation code can still be run.
+  - The "Finch" (data analysis) portion of this repo needs access to the Edison platform closed beta. To request access, visit https://platform.edisonscientific.com, and use the "Rate Limit Increase" form to request access to Finch. Without access, all the hypothesis and experiment generation code can still be run.
 
 ## Setup Instructions
 
@@ -49,7 +49,7 @@ See our [blog](https://www.futurehouse.org/research-announcements/demonstrating-
 4.  **Set API Keys:**
     It's highly recommended to set your API keys as environment variables. Create a `.env` file in the `robin` directory:
     ```
-    FUTUREHOUSE_API_KEY="your_futurehouse_api_key_here"
+    EDISON_API_KEY="your_edison_api_key_here"
     OPENAI_API_KEY="your_openai_api_key_here"
     # etc. for other LLM providers
     ```
@@ -76,7 +76,7 @@ See our [blog](https://www.futurehouse.org/research-announcements/demonstrating-
     config = RobinConfiguration(
         disease_name="DISEASE_NAME",  # <-- Customize the disease name here
         # You can also explicitly set API keys here if not using environment variables:
-        # futurehouse_api_key="your_futurehouse_api_key_here"
+        # edison_api_key="your_edison_api_key_here"
     )
     ```
 

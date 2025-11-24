@@ -13,10 +13,11 @@ from typing import Any, cast
 import aiofiles
 import pandas as pd
 from aviary.core import Message
-from futurehouse_client import FutureHouseClient, JobNames, TaskResponse
+from edison_client import EdisonClient, JobNames, TaskResponse
 from lmi import LiteLLMModel
 from tqdm.asyncio import tqdm_asyncio
 
+from .configuration import RobinConfiguration
 from .prompts import (
     FINAL_REPORT_FORMATTING_SYSTEM_MESSAGE,
     FINAL_REPORT_FORMATTING_USER_MESSAGE,
@@ -29,12 +30,12 @@ OVERALL_TIMEOUT = 6000  # seconds
 
 
 async def poll_for_task_completion(
-    task_id: str, fh_client: FutureHouseClient
+    task_id: str, edison_client: EdisonClient
 ) -> TaskResponse | dict[str, str]:
     """Asynchronously polls a single task until it completes (success/failure)."""
     while True:
         try:
-            task_response = fh_client.get_task(task_id)
+            task_response = edison_client.get_task(task_id)
             logger.debug(f"Polling task {task_id}: Status = {task_response.status}")
 
             if task_response.status == "success":
@@ -60,15 +61,15 @@ async def poll_for_task_completion(
 
 
 async def gather_results(
-    task_ids: list[str], fh_client: FutureHouseClient
+    task_ids: list[str], edison_client: EdisonClient
 ) -> list[TaskResponse | dict[str, str]]:
     """Gathers results for multiple task IDs by polling concurrently."""
-    tasks = [poll_for_task_completion(t_id, fh_client) for t_id in task_ids]
+    tasks = [poll_for_task_completion(t_id, edison_client) for t_id in task_ids]
     return await asyncio.gather(*tasks)
 
 
 async def call_platform(  # noqa: PLR0912
-    queries: dict[str, str], fh_client: FutureHouseClient, job_name: JobNames
+    queries: dict[str, str], edison_client: EdisonClient, job_name: JobNames
 ) -> dict[str, Any]:
     logger.info(
         f"Starting literature search for {len(queries)} queries using {job_name}."
@@ -82,10 +83,10 @@ async def call_platform(  # noqa: PLR0912
             "query": q,
         }
         try:
-            task_run_id = fh_client.create_task(task_data)
+            task_run_id = edison_client.create_task(task_data)
             if not isinstance(task_run_id, str):
                 logger.warning(
-                    "FutureHouseClient.create_task did not return a string ID for"
+                    "EdisonClient.create_task did not return a string ID for"
                     f" query '{q}'. Got: {type(task_run_id)}. Skipping."
                 )
                 continue
@@ -98,7 +99,7 @@ async def call_platform(  # noqa: PLR0912
     completed_tasks_results = []
     try:
         completed_tasks_results = await asyncio.wait_for(
-            gather_results(submitted_ids, fh_client), timeout=OVERALL_TIMEOUT
+            gather_results(submitted_ids, edison_client), timeout=OVERALL_TIMEOUT
         )
     except TimeoutError:
         logger.exception(
@@ -108,7 +109,7 @@ async def call_platform(  # noqa: PLR0912
 
         for task_id in submitted_ids:
             try:
-                task_status_obj = await fh_client.get_task(task_id)
+                task_status_obj = await edison_client.get_task(task_id)
                 final_statuses[task_id] = task_status_obj.status
             except Exception:
                 final_statuses[task_id] = "unknown (timeout during final fetch)"
@@ -162,7 +163,7 @@ async def call_platform(  # noqa: PLR0912
             task_result,
             (
                 TaskResponse,
-                fh_client.get_task.__annotations__.get("return", type(None)),
+                edison_client.get_task.__annotations__.get("return", type(None)),
             ),
         ):
             current_task_id = str(task_result.task_id)
@@ -175,7 +176,7 @@ async def call_platform(  # noqa: PLR0912
 
             if task_result.status == "success":
                 answer = task_result.answer
-                verbose_task_result = fh_client.get_task(
+                verbose_task_result = edison_client.get_task(
                     task_result.task_id, verbose=True
                 )
                 sources = verbose_task_result.environment_frame["state"]["state"][
@@ -275,7 +276,7 @@ def save_crow_files(
             content = f"Hypothesis: {hypothesis_text}\n\n"
         content += f"Query: {query_text}\n\n"
         content += f"{answer_text}\n\n"
-        content += f"Full trajectory link: https://platform.futurehouse.org/trajectories/{task_id_text}\n\n"
+        content += f"Full trajectory link: https://platform.edisonscientific.com/trajectories/{task_id_text}\n\n"
         content += f"References:\n{sources_text}\n"
 
         try:
@@ -320,7 +321,7 @@ def save_falcon_files(
 
         content = f"Proposal for {hypothesis_text}\n\n"
         content += f"{formatted_output_text}\n\n"
-        content += f"Full trajectory link: https://platform.futurehouse.org/trajectories/{task_id_text}\n"
+        content += f"Full trajectory link: https://platform.edisonscientific.com/trajectories/{task_id_text}\n"
 
         try:
             filepath.write_text(content, encoding="utf-8")
@@ -621,7 +622,7 @@ async def process_comparison_pair(
             Message(role="user", content=user_prompt),
         ]
 
-        response = await client.call_single(messages)
+        response = await client.call_single(messages, temperature=1)
 
         response_content = cast(str, response.text)
 
@@ -819,12 +820,10 @@ async def run_comparisons(  # noqa: PLR0912
 
 
 async def format_single_report(
-    report: dict[str, Any], client: LiteLLMModel
-) -> dict[str, str]:
+    report: dict[str, Any], configuration: RobinConfiguration
+) -> dict[str, Any]:
 
-    hypothesis_text = report.get("hypothesis", "").strip()
     answer_text = report.get("answer", "").strip()
-
     sources_data = report.get("sources", [])
 
     sources_for_prompt_string = ""
@@ -847,19 +846,33 @@ async def format_single_report(
         Message(role="user", content=final_report_formatting_user_message),
     ]
 
-    final_report_formatted_result = await client.call_single(formatting_messages)
+    final_report_formatted_result = None
 
-    return {
-        "hypothesis": hypothesis_text,
-        "formatted_output": cast(str, final_report_formatted_result.text),
-    }
+    final_report_formatted_result = await configuration.llm_formatter.call_single(
+        formatting_messages,
+        timeout=600,
+        temperature=1,
+        reasoning_effort="high",
+    )
+
+    updated_report = report.copy()
+
+    if final_report_formatted_result.text:
+        # If the LLM call was successful, use its text.
+        updated_report["formatted_output"] = final_report_formatted_result.text
+    else:
+        updated_report["formatted_output"] = (
+            answer_text + "\n\n" + sources_for_prompt_string
+        )
+
+    return updated_report
 
 
 async def format_final_report(
-    data_list: list[dict[str, Any]], client: LiteLLMModel
+    data_list: list[dict[str, Any]], configuration: RobinConfiguration
 ) -> list[dict[str, str]]:
 
-    tasks = [format_single_report(item, client) for item in data_list]
+    tasks = [format_single_report(item, configuration) for item in data_list]
 
     processed_results = await asyncio.gather(*tasks)
     return list(processed_results)

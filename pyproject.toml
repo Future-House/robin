@@ -21,9 +21,10 @@ dependencies = [
     "aiofiles",
     "anthropic",
     "choix",
+    "dm-tree>=0.1.9",
+    "edison_client",
     "fhaviary",
     "fhlmi",
-    "futurehouse_client>=0.3.19",
     "openai>=1",  # Pin to keep recent
     "pandas>=2",  # Pin to keep recent
     "pydantic>=2",  # Pin to keep recent
@@ -118,7 +119,7 @@ ignore_missing_imports = true
 # Per-module configuration options
 module = [
     "choix",
-    "futurehouse_client.*",
+    "edison_client.*",
 ]
 
 [tool.pylint]
