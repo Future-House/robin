@@ -43,7 +43,7 @@ async def generate_candidate_queries(
     Returns:
         A dictionary of queries for the literature search.
     """
-    logger.info("\n\nStep 1: Formulating relevant queries for literature search...")
+    logger.info("Step 1: Formulating relevant queries for literature search...")
 
     candidate_query_generation_system_message = (
         configuration.prompts.candidate_query_generation_system_message.format(
@@ -112,7 +112,7 @@ async def candidate_lit_review(
     Returns:
         A string containing the summarized literature review.
     """
-    logger.info("\n\nStep 2: Conducting literature search with Edison platform...")
+    logger.info("Step 2: Conducting literature search with Edison platform...")
 
     run_folder_name = str(configuration.run_folder_name)
 
@@ -157,7 +157,7 @@ async def propose_therapeutic_candidates(  # noqa: PLR0912
         A list of formatted strings, each representing a proposed candidate.
     """
     logger.info(
-        f"\n\nStep 3: Generating {configuration.num_candidates} ideas for therapeutic"
+        f"Step 3: Generating {configuration.num_candidates} ideas for therapeutic"
         " candidates..."
     )
 
@@ -199,19 +199,12 @@ async def propose_therapeutic_candidates(  # noqa: PLR0912
         Message(role="user", content=candidate_generation_user_message),
     ]
 
-    if "claude" in configuration.llm_name:
-        candidate_generation_result = await configuration.llm_client.call_single(
-            messages,
-            timeout=600,
-            temperature=1,
-            max_tokens=32000,
-            reasoning_effort="high",
-        )
-    else:
-        candidate_generation_result = await configuration.llm_client.call_single(
-            messages,
-            temperature=1,
-        )
+    candidate_generation_result = await configuration.llm_client.call_single(
+        messages,
+        timeout=600,
+        temperature=1,
+        reasoning_effort="high",
+    )
 
     llm_raw_output = cast(str, candidate_generation_result.text)
     candidate_ideas_json = []
@@ -301,7 +294,7 @@ async def propose_therapeutic_candidates(  # noqa: PLR0912
             await f.write(f"Therapeutic Candidate {i + 1}:\n")
             await f.write(f"{parts[0]}\n")  # Candidate
             await f.write(f"{parts[1]}\n")  # Hypothesis
-            await f.write(f"{parts[2]}\n\n")  # Reasoning
+            await f.write(f"{parts[2]}")  # Reasoning
 
     logger.info(f"Successfully exported to {export_file}")
     return candidate_idea_list
@@ -320,7 +313,7 @@ async def candidate_detailed_reports(
         candidate_idea_list: The list of proposed candidate strings.
         experimental_insights: Optional insights from experimental data analysis.
     """
-    logger.info("\n\nStep 4: Detailed investigation and evaluation for candidates...")
+    logger.info("Step 4: Detailed investigation and evaluation for candidates...")
     run_folder_name = str(configuration.run_folder_name)
 
     def create_therapeutic_candidate_queries(
@@ -380,7 +373,7 @@ async def rank_therapeutic_candidates(  # noqa: PLR0912
         configuration: The RobinConfiguration object for the run.
         experimental_insights: Optional insights from experimental data analysis.
     """
-    logger.info("\n\nStep 5: Ranking the strength of the therapeutic candidates...")
+    logger.info("Step 5: Ranking the strength of the therapeutic candidates...")
 
     run_folder_name = str(configuration.run_folder_name)
     hypotheses_folder = (
@@ -412,7 +405,7 @@ async def rank_therapeutic_candidates(  # noqa: PLR0912
 
     await run_comparisons(
         pairs_list=pairs_list,
-        client=configuration.llm_client,
+        client=configuration.llm_judge,
         system_prompt=system_prompt,
         ranking_prompt_format=prompt_format,
         assay_hypothesis_df=candidate_information_df,

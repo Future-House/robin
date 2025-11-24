@@ -53,7 +53,7 @@ async def data_analysis(
 
     # Step 1: Gating, MFI and statistical analysis
     analysis_step = Step(
-        name="job-futurehouse-data-analysis-crow-high",
+        name=configuration.agent_settings.data_analysis_agent,
         prompt_template=analysis_prompt,
         cot_prompt=False,
         input_files={data_path: "flow_250508/"},  # change this to your input folder
@@ -65,7 +65,7 @@ async def data_analysis(
 
     # Step 2: Consensus Analysis
     consensus_step = Step(
-        name="job-futurehouse-data-analysis-crow-high",
+        name=configuration.agent_settings.data_analysis_agent,
         prompt_template=consensus_prompt,
         cot_prompt=False,
         input_files={
