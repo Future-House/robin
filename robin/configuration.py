@@ -290,6 +290,7 @@ class AgentConfig(BaseModel):
         description="Agent to use for data analysis.",
     )
 
+
 class RobinConfiguration(BaseModel):
 
     class Config:

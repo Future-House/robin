@@ -33,11 +33,7 @@ class StepConfig(BaseModel):
 class Step(BaseModel):
     """A step in the agent execution pipeline."""
 
-    name: str = Field(
-        description=(
-            "Name of the job to run (e.g. 'JobNames.FINCH')"
-        )
-    )
+    name: str = Field(description=("Name of the job to run (e.g. 'JobNames.FINCH')"))
     prompt_template: str = Field(description="Prompt template to use for the step")
     cot_prompt: bool = Field(
         default=False, description="Whether to augment the query with COT prompting"
