@@ -848,19 +848,12 @@ async def format_single_report(
 
     final_report_formatted_result = None
 
-    if "claude" in configuration.llm_formatter_name:
-        final_report_formatted_result = await configuration.llm_formatter.call_single(
-            formatting_messages,
-            timeout=600,
-            temperature=1,
-            max_tokens=32000,
-            reasoning_effort="high",
-        )
-    else:
-        final_report_formatted_result = await configuration.llm_formatter.call_single(
-            formatting_messages,
-            temperature=1,
-        )
+    final_report_formatted_result = await configuration.llm_formatter.call_single(
+        formatting_messages,
+        timeout=600,
+        temperature=1,
+        reasoning_effort="high",
+    )
 
     updated_report = report.copy()
 

@@ -1,4 +1,3 @@
-import copy
 import os
 import re
 from datetime import datetime
@@ -41,55 +40,67 @@ from .prompts import (
     SYNTHESIZE_USER_CONTENT,
 )
 
-_DEFAULT_LLM_CONFIG_DATA = {
-    "model_list": [
-        {
-            "model_name": "o4-mini",
-            "litellm_params": {
-                "model": "o4-mini",
-                "api_key": os.getenv("OPENAI_API_KEY", "insert_openai_key_here"),
-            },
-        },
-        {
-            "model_name": "o3-mini",
-            "litellm_params": {
-                "model": "o3-mini",
-                "api_key": os.getenv("OPENAI_API_KEY", "insert_openai_key_here"),
-            },
-        },
-        {
-            "model_name": "claude-opus-4",
-            "litellm_params": {
-                "model": "anthropic/claude-opus-4-20250514",
-                "api_key": os.getenv("ANTHROPIC_API_KEY"),
-                "timeout": 300,
-                "reasoning_effort": "high",
-            },
-        },
-        {
-            "model_name": "claude-sonnet-4",
-            "litellm_params": {
-                "model": "anthropic/claude-sonnet-4-20250514",
-                "api_key": os.getenv("ANTHROPIC_API_KEY"),
-                "timeout": 300,
-                "reasoning_effort": "high",
-            },
-        },
-        {
-            "model_name": "gemini-2.5-flash-preview",
-            "litellm_params": {
-                "model": "gemini/gemini-2.5-flash-preview-04-17",
-                "api_key": os.getenv("GEMINI_API_KEY"),
-                "timeout": 300,
-                "reasoning_effort": "high",
-            },
-        },
-    ]
+# Provider to environment variable mapping for API keys
+_PROVIDER_API_KEY_ENV_VARS: dict[str, str] = {
+    "openai": "OPENAI_API_KEY",
+    "anthropic": "ANTHROPIC_API_KEY",
+    "gemini": "GEMINI_API_KEY",
+    "google": "GEMINI_API_KEY",
+    "azure": "AZURE_API_KEY",
+    "cohere": "COHERE_API_KEY",
+    "mistral": "MISTRAL_API_KEY",
+    "groq": "GROQ_API_KEY",
+    "together": "TOGETHER_API_KEY",
+    "deepseek": "DEEPSEEK_API_KEY",
 }
 
 
-def get_default_llm_config():
-    return copy.deepcopy(_DEFAULT_LLM_CONFIG_DATA)
+def get_provider_from_model(model: str) -> str:
+    """Extract provider from LiteLLM model string (e.g., 'openai/gpt-4o' -> 'openai')."""
+    if "/" in model:
+        return model.split("/")[0].lower()
+    return "openai"
+
+
+def _get_api_key_for_model(model: str) -> str:
+    """Get the API key for a model from the appropriate environment variable."""
+    provider = get_provider_from_model(model)
+    env_var = _PROVIDER_API_KEY_ENV_VARS.get(provider, f"{provider.upper()}_API_KEY")
+    api_key = os.getenv(env_var)
+    if not api_key:
+        raise ValueError(
+            f"API key for model '{model}' (provider: {provider}) not found. "
+            f"Please set the {env_var} environment variable."
+        )
+    return api_key
+
+
+def _build_litellm_config(model: str) -> dict:
+    """Build LiteLLM config dict for a model, automatically resolving API key."""
+    provider = get_provider_from_model(model)
+
+    # Build litellm_params dict
+    litellm_params: dict = {
+        "model": model,
+        "api_key": _get_api_key_for_model(model),
+    }
+
+    if provider in {"openai", "anthropic", "gemini", "google"}:
+        litellm_params["timeout"] = 300
+
+    if provider == "openai":
+        litellm_params["reasoning_effort"] = "high"
+
+    config: dict = {
+        "model_list": [
+            {
+                "model_name": model,
+                "litellm_params": litellm_params,
+            }
+        ]
+    }
+
+    return config
 
 
 def _get_prompt_args(template_string: str) -> set[str]:
@@ -320,13 +331,23 @@ class RobinConfiguration(BaseModel):
         ),
     )
     edison_api_key: str = "insert_edison_api_key_here"
-    llm_name: str = Field(default="o4-mini")
-    llm_formatter_name: str = Field(default="claude-opus-4")
-    llm_config: dict = Field(default_factory=get_default_llm_config)
+    llm_name: str = Field(
+        default="openai/gpt-5",
+        description="LiteLLM model name (e.g., 'openai/gpt-4o').",
+    )
+    llm_formatter_name: str = Field(
+        default="anthropic/claude-opus-4-5-20251101",
+        description="LiteLLM model name for formatting (e.g., 'anthropic/claude-opus-4-5-20251101').",
+    )
+    llm_judge_name: str = Field(
+        default="anthropic/claude-sonnet-4-5",
+        description="LiteLLM model name for judging comparisons (e.g., 'anthropic/claude-sonnet-4-5').",
+    )
     agent_settings: AgentConfig = Field(default_factory=AgentConfig)
     _edison_client: EdisonClient | None = PrivateAttr(default=None)
     _llm_client: LiteLLMModel | None = PrivateAttr(default=None)
     _llm_formatter: LiteLLMModel | None = PrivateAttr(default=None)
+    _llm_judge: LiteLLMModel | None = PrivateAttr(default=None)
 
     @model_validator(mode="after")
     def set_run_folder_name_default(self) -> "RobinConfiguration":
@@ -351,118 +372,25 @@ class RobinConfiguration(BaseModel):
     @property
     def llm_client(self) -> LiteLLMModel:
         if self._llm_client is None:
-            target_model_definition = None
-            for model_def in self.llm_config["model_list"]:
-                if model_def.get("model_name") == self.llm_name:
-                    target_model_definition = model_def
-                    break
-
-            if target_model_definition is None:
-                available_aliases = [
-                    md.get("model_name") for md in self.llm_config.get("model_list", [])
-                ]
-                raise ValueError(
-                    f"LLM alias '{self.llm_name}' not found in llm_config.model_list. "
-                    f"Available model aliases: {available_aliases}. "
-                    f"Ensure '{self.llm_name}' is defined in _DEFAULT_LLM_CONFIG_DATA."
-                )
-
-            litellm_params_for_model = target_model_definition.get("litellm_params", {})
-            provider_model_string = litellm_params_for_model.get("model")
-
-            if not provider_model_string:
-                raise ValueError(
-                    f"Missing 'model' key in litellm_params for alias '{self.llm_name}'"
-                )
-
-            resolved_api_key = litellm_params_for_model.get("api_key")
-            if resolved_api_key is None or resolved_api_key == "insert_openai_key_here":
-                key_env_var_name = "RELEVANT_API_KEY_ENV_VAR"
-                if (
-                    "o4-mini" in self.llm_name
-                    or "openai" in provider_model_string.lower()
-                ):
-                    key_env_var_name = "OPENAI_API_KEY"
-                elif (
-                    "claude" in self.llm_name
-                    or "anthropic" in provider_model_string.lower()
-                ):
-                    key_env_var_name = "ANTHROPIC_API_KEY"
-                elif (
-                    "gemini" in self.llm_name
-                    or "google" in provider_model_string.lower()
-                ):
-                    key_env_var_name = "GEMINI_API_KEY"
-
-                raise ValueError(
-                    f"API key for LLM alias '{self.llm_name}' (provider model: {provider_model_string}) "
-                    f"is not set or is still the placeholder. Please ensure the environment variable "
-                    f"(e.g., {key_env_var_name}) is correctly set."
-                )
-
-            self._llm_client = LiteLLMModel(
-                name=provider_model_string, config=litellm_params_for_model
-            )
+            config = _build_litellm_config(self.llm_name)
+            self._llm_client = LiteLLMModel(name=self.llm_name, config=config)
         return self._llm_client
 
     @property
     def llm_formatter(self) -> LiteLLMModel:
         if self._llm_formatter is None:
-            target_model_definition = None
-            formatter_alias_to_find = self.llm_formatter_name
-
-            for model_def in self.llm_config["model_list"]:
-                if model_def.get("model_name") == formatter_alias_to_find:
-                    target_model_definition = model_def
-                    break
-
-            if target_model_definition is None:
-                available_aliases = [
-                    md.get("model_name") for md in self.llm_config.get("model_list", [])
-                ]
-                raise ValueError(
-                    f"LLM formatter alias '{formatter_alias_to_find}' not found in llm_config.model_list. "
-                    f"Available model aliases: {available_aliases}. "
-                    f"Ensure '{formatter_alias_to_find}' is defined in _DEFAULT_LLM_CONFIG_DATA."
-                )
-
-            litellm_params_for_model = target_model_definition.get("litellm_params", {})
-            provider_model_string = litellm_params_for_model.get("model")
-
-            if not provider_model_string:
-                raise ValueError(
-                    f"Missing 'model' key in litellm_params for formatter alias '{formatter_alias_to_find}'"
-                )
-
-            resolved_api_key = litellm_params_for_model.get("api_key")
-            if resolved_api_key is None or resolved_api_key == "insert_openai_key_here":
-                key_env_var_name = "RELEVANT_API_KEY_ENV_VAR"
-                if (
-                    "o4-mini" in formatter_alias_to_find
-                    or "openai" in provider_model_string.lower()
-                ):
-                    key_env_var_name = "OPENAI_API_KEY"
-                elif (
-                    "claude" in formatter_alias_to_find  # FIXED
-                    or "anthropic" in provider_model_string.lower()
-                ):
-                    key_env_var_name = "ANTHROPIC_API_KEY"
-                elif (
-                    "gemini" in formatter_alias_to_find  # FIXED
-                    or "google" in provider_model_string.lower()
-                ):
-                    key_env_var_name = "GEMINI_API_KEY"
-
-                raise ValueError(
-                    f"API key for LLM formatter alias '{formatter_alias_to_find}' (provider model: {provider_model_string}) "
-                    f"is not set or is still the placeholder. Please ensure the environment variable "
-                    f"(e.g., {key_env_var_name}) is correctly set."
-                )
-
+            config = _build_litellm_config(self.llm_formatter_name)
             self._llm_formatter = LiteLLMModel(
-                name=provider_model_string, config=litellm_params_for_model
+                name=self.llm_formatter_name, config=config
             )
         return self._llm_formatter
+
+    @property
+    def llm_judge(self) -> LiteLLMModel:
+        if self._llm_judge is None:
+            config = _build_litellm_config(self.llm_judge_name)
+            self._llm_judge = LiteLLMModel(name=self.llm_judge_name, config=config)
+        return self._llm_judge
 
     def get_da_client(self):
         from .multitrajectory_runner import MultiTrajectoryRunner

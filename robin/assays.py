@@ -38,7 +38,7 @@ async def generate_assay_queries(
         A dictionary of queries for the literature search, where keys and values
         are the query strings.
     """
-    logger.info("\n\nStep 1: Formulating relevant queries for literature search...")
+    logger.info("Step 1: Formulating relevant queries for literature search...")
 
     assay_literature_system_message = (
         configuration.prompts.assay_literature_system_message.format(
@@ -87,7 +87,7 @@ async def experimental_assay_lit_review(
     Returns:
         A string containing the summarized literature review.
     """
-    logger.info("\n\nStep 2: Conducting literature search with Edison platform...")
+    logger.info("Step 2: Conducting literature search with Edison platform...")
 
     assay_lit_review = await call_platform(
         queries=experimental_assay_queries_dict,
@@ -122,7 +122,7 @@ async def propose_experimental_assay(
     Returns:
         A list of formatted strings, where each string represents a proposed assay.
     """
-    logger.info("\n\nStep 3: Generating ideas for relevant experimental assays...")
+    logger.info("Step 3: Generating ideas for relevant experimental assays...")
 
     assay_proposal_system_message = (
         configuration.prompts.assay_proposal_system_message.format(
@@ -165,7 +165,7 @@ async def propose_experimental_assay(
 
             await f.write(f"Assay Candidate {i + 1}:\n")
             await f.write(f"{strategy}\n")
-            await f.write(f"{reasoning}\n\n")
+            await f.write(f"{reasoning}")
 
     logger.info(f"Successfully exported to {assay_list_export_file}")
 
@@ -188,7 +188,7 @@ async def experimental_assay_detailed_reports(
     Returns:
         A dictionary containing the raw results from the platform call.
     """
-    logger.info("\n\nStep 4: Detailed investigation and evaluation for each assay...")
+    logger.info("Step 4: Detailed investigation and evaluation for each assay...")
 
     def create_assay_hypothesis_queries(assay_idea_list: list[str]) -> dict[str, str]:
         assay_hypothesis_system_prompt = (
@@ -247,7 +247,7 @@ async def select_top_experimental_assay(
     Returns:
         The name (hypothesis) of the top-ranked experimental assay.
     """
-    logger.info("\n\nStep 5: Selecting the top experimental assay...")
+    logger.info("Step 5: Selecting the top experimental assay...")
 
     assay_hypothesis_df = pd.DataFrame(assay_hypotheses["results"])
     assay_hypothesis_df["index"] = assay_hypothesis_df.index
@@ -271,7 +271,7 @@ async def select_top_experimental_assay(
 
     await run_comparisons(
         pairs_list=assay_pairs_list,
-        client=configuration.llm_client,
+        client=configuration.llm_judge,
         system_prompt=assay_ranking_system_prompt,
         ranking_prompt_format=assay_ranking_prompt_format,
         assay_hypothesis_df=assay_hypothesis_df,
@@ -353,7 +353,6 @@ async def experimental_assay(configuration: RobinConfiguration) -> str:
         The synthesized candidate generation goal, or None if the process fails.
     """
     logger.info("Starting selection of a relevant experimental assay.")
-    logger.info("————————————————————————————————————————————————————")
 
     # Step 1: Generate queries for Crow
     experimental_assay_queries_dict = await generate_assay_queries(configuration)
