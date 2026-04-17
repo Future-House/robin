@@ -6,9 +6,37 @@ See our [blog](https://www.futurehouse.org/research-announcements/demonstrating-
 
 - **Python:** Version 3.12 or higher.
 - **API Keys:**
-  - `FUTUREHOUSE_API_KEY`: For accessing FutureHouse platform agents (Crow, Falcon).
+  - `EDISON_API_KEY`: For accessing Edison platform agents (Crow, Falcon). Obtain from https://platform.edisonscientific.com/profile. You must first create an Edison profile, purchase credits and then create an API key (Account -> Profile -> API Tokens). Educational users may be eligible for free credits. 
   - An API key for your chosen LLM provider (e.g., `OPENAI_API_KEY` if using OpenAI models). Robin uses LiteLLM, so it can support various providers.
-  - The "Finch" (data analysis) portion of this repo needs access to the FutureHouse platform closed beta. To request access, visit https://platform.futurehouse.org/profile, and use the "Rate Limit Increase" form to request access to Finch. Without access, all the hypothesis and experiment generation code can still be run.
+  - The "Finch" (data analysis) portion of this repo needs access to the Edison platform closed beta. To request access, visit https://platform.edisonscientific.com/profile and use the "Rate Limit Increase" form to request access to Finch. Without access, all the hypothesis and experiment generation code can still be run.
+
+## Docker (Alternative Setup)
+
+Docker is a tool that packages software into a self-contained "container" that runs the same way on any computer, regardless of your operating system or what else is installed. It's the recommended approach for Robin as it avoids the most common installation issues.
+
+**Install Docker first:** Download and install [Docker Desktop](https://www.docker.com/products/docker-desktop/) for your operating system (Mac or Windows). Once installed, open Docker Desktop and make sure it is running (you should see the Docker icon in your menu bar/system tray) before proceeding.
+
+For a fully self-contained environment that avoids OS-level dependency conflicts, Docker is the recommended approach:
+
+1. **Build the image:**
+   ```bash
+   docker build -t robin .
+   ```
+
+2. **Set up API keys:**
+   ```bash
+   cp .env.example .env
+   # Edit .env and fill in your EDISON_API_KEY and OPENAI_API_KEY
+   ```
+   Important: do **not** wrap values in quotes (e.g. `OPENAI_API_KEY=sk-abc123`, not `OPENAI_API_KEY="sk-abc123"`). Docker reads the file differently from Python and will include the quotes as part of the key.
+
+3. **Run Jupyter:**
+   ```bash
+   docker run -p 8888:8888 --env-file .env robin
+   ```
+   Jupyter will print three URLs — use only the one that starts with `http://127.0.0.1:8888/` (the other two are internal container addresses and will not work). Your URL will look like: `http://127.0.0.1:8888/lab/tree/robin_demo.ipynb?token=...`
+
+---
 
 ## Setup Instructions
 
@@ -47,13 +75,12 @@ See our [blog](https://www.futurehouse.org/research-announcements/demonstrating-
     ```
 
 4.  **Set API Keys:**
-    It's highly recommended to set your API keys as environment variables. Create a `.env` file in the `robin` directory:
+    Copy the provided template and fill in your keys:
+    ```bash
+    cp .env.example .env
+    # Then edit .env with your actual keys
     ```
-    FUTUREHOUSE_API_KEY="your_futurehouse_api_key_here"
-    OPENAI_API_KEY="your_openai_api_key_here"
-    # etc. for other LLM providers
-    ```
-    The notebook and `RobinConfiguration` will attempt to load these. Alternatively, you can pass them directly when creating the `RobinConfiguration` object in the notebook.
+    Robin will automatically load this `.env` file at startup. Alternatively, you can export the variables in your shell, or pass them directly when creating the `RobinConfiguration` object.
 
 ## Running Robin via `robin_demo.ipynb`
 
@@ -76,7 +103,7 @@ See our [blog](https://www.futurehouse.org/research-announcements/demonstrating-
     config = RobinConfiguration(
         disease_name="DISEASE_NAME",  # <-- Customize the disease name here
         # You can also explicitly set API keys here if not using environment variables:
-        # futurehouse_api_key="your_futurehouse_api_key_here"
+        # edison_api_key="your_edison_api_key_here"
     )
     ```
 

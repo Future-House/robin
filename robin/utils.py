@@ -13,7 +13,7 @@ from typing import Any, cast
 import aiofiles
 import pandas as pd
 from aviary.core import Message
-from futurehouse_client import FutureHouseClient, JobNames, TaskResponse
+from edison_client import EdisonClient, JobNames, TaskResponse
 from lmi import LiteLLMModel
 from tqdm.asyncio import tqdm_asyncio
 
@@ -29,7 +29,7 @@ OVERALL_TIMEOUT = 6000  # seconds
 
 
 async def poll_for_task_completion(
-    task_id: str, fh_client: FutureHouseClient
+    task_id: str, fh_client: EdisonClient
 ) -> TaskResponse | dict[str, str]:
     """Asynchronously polls a single task until it completes (success/failure)."""
     while True:
@@ -60,7 +60,7 @@ async def poll_for_task_completion(
 
 
 async def gather_results(
-    task_ids: list[str], fh_client: FutureHouseClient
+    task_ids: list[str], fh_client: EdisonClient
 ) -> list[TaskResponse | dict[str, str]]:
     """Gathers results for multiple task IDs by polling concurrently."""
     tasks = [poll_for_task_completion(t_id, fh_client) for t_id in task_ids]
@@ -68,7 +68,7 @@ async def gather_results(
 
 
 async def call_platform(  # noqa: PLR0912
-    queries: dict[str, str], fh_client: FutureHouseClient, job_name: JobNames
+    queries: dict[str, str], fh_client: EdisonClient, job_name: JobNames
 ) -> dict[str, Any]:
     logger.info(
         f"Starting literature search for {len(queries)} queries using {job_name}."
@@ -85,7 +85,7 @@ async def call_platform(  # noqa: PLR0912
             task_run_id = fh_client.create_task(task_data)
             if not isinstance(task_run_id, str):
                 logger.warning(
-                    "FutureHouseClient.create_task did not return a string ID for"
+                    "EdisonClient.create_task did not return a string ID for"
                     f" query '{q}'. Got: {type(task_run_id)}. Skipping."
                 )
                 continue
@@ -275,7 +275,7 @@ def save_crow_files(
             content = f"Hypothesis: {hypothesis_text}\n\n"
         content += f"Query: {query_text}\n\n"
         content += f"{answer_text}\n\n"
-        content += f"Full trajectory link: https://platform.futurehouse.org/trajectories/{task_id_text}\n\n"
+        content += f"Full trajectory link: https://platform.edisonscientific.com/trajectories/{task_id_text}\n\n"
         content += f"References:\n{sources_text}\n"
 
         try:
@@ -320,7 +320,7 @@ def save_falcon_files(
 
         content = f"Proposal for {hypothesis_text}\n\n"
         content += f"{formatted_output_text}\n\n"
-        content += f"Full trajectory link: https://platform.futurehouse.org/trajectories/{task_id_text}\n"
+        content += f"Full trajectory link: https://platform.edisonscientific.com/trajectories/{task_id_text}\n"
 
         try:
             filepath.write_text(content, encoding="utf-8")

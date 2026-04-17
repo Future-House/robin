@@ -1,0 +1,13 @@
+.git
+.venv
+.robin_env
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+robin_output/
+examples/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/

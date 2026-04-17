@@ -80,7 +80,7 @@ async def data_analysis(
 
     logger.info(
         "View the final volcano plot at:"
-        f" https://platform.futurehouse.org/trajectories/{data_analyzer.results[consensus_step.step_id]['task_ids'][0]}"
+        f" https://platform.edisonscientific.com/trajectories/{data_analyzer.results[consensus_step.step_id]['task_ids'][0]}"
     )
 
     consensus_output_filename = consensus_step.output_files["consensus_results.csv"]

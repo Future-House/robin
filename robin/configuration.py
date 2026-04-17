@@ -3,9 +3,12 @@ import os
 import re
 from datetime import datetime
 
-from futurehouse_client import FutureHouseClient, JobNames
+from dotenv import load_dotenv
+from edison_client import EdisonClient, JobNames
 from lmi import LiteLLMModel
 from pydantic import BaseModel, Field, PrivateAttr, model_validator
+
+load_dotenv()
 
 from .prompts import (
     ANALYSIS_QUERIES,
@@ -47,7 +50,7 @@ _DEFAULT_LLM_CONFIG_DATA = {
             "model_name": "o4-mini",
             "litellm_params": {
                 "model": "o4-mini",
-                "api_key": os.getenv("OPENAI_API_KEY", "insert_openai_key_here"),
+                "api_key": "",
                 "timeout": 300,
             },
         }
@@ -56,7 +59,11 @@ _DEFAULT_LLM_CONFIG_DATA = {
 
 
 def get_default_llm_config():
-    return copy.deepcopy(_DEFAULT_LLM_CONFIG_DATA)
+    data = copy.deepcopy(_DEFAULT_LLM_CONFIG_DATA)
+    data["model_list"][0]["litellm_params"]["api_key"] = os.getenv(
+        "OPENAI_API_KEY", "insert_openai_key_here"
+    )
+    return data
 
 
 def _get_prompt_args(template_string: str) -> set[str]:
@@ -282,11 +289,11 @@ class RobinConfiguration(BaseModel):
             "using the disease_name and the timestamp."
         ),
     )
-    futurehouse_api_key: str = "insert_futurehouse_api_key_here"
+    edison_api_key: str = "insert_edison_api_key_here"
     llm_name: str = "o4-mini"
     llm_config: dict | None = Field(default_factory=get_default_llm_config)
     agent_settings: AgentConfig = Field(default_factory=AgentConfig)
-    _fh_client: FutureHouseClient | None = PrivateAttr(default=None)
+    _fh_client: EdisonClient | None = PrivateAttr(default=None)
     _llm_client: LiteLLMModel | None = PrivateAttr(default=None)
 
     @model_validator(mode="after")
@@ -298,15 +305,15 @@ class RobinConfiguration(BaseModel):
         return self
 
     @property
-    def fh_client(self) -> FutureHouseClient:
+    def fh_client(self) -> EdisonClient:
         if self._fh_client is None:
-            api_key = os.getenv("FUTUREHOUSE_API_KEY") or self.futurehouse_api_key
+            api_key = os.getenv("EDISON_API_KEY") or self.edison_api_key
             if not api_key:
                 raise ValueError(
-                    "FutureHouse API key is not set. Please provide it in the"
-                    " configuration or set FUTUREHOUSE_API_KEY env variable."
+                    "Edison API key is not set. Please provide it in the"
+                    " configuration or set EDISON_API_KEY env variable."
                 )
-            self._fh_client = FutureHouseClient(api_key=api_key)
+            self._fh_client = EdisonClient(api_key=api_key)
         return self._fh_client
 
     @property

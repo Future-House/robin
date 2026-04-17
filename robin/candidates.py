@@ -98,7 +98,7 @@ async def therapeutic_candidates(  # noqa: PLR0912
 
     # ### Step 2: Literature review on therapeutic candidates
 
-    logger.info("\nStep 2: Conducting literature search with FutureHouse platform...")
+    logger.info("\nStep 2: Conducting literature search with Edison platform...")
 
     therapeutic_candidate_review = await call_platform(
         queries=candidate_generation_queries_dict,

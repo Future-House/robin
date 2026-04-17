@@ -66,7 +66,7 @@ async def experimental_assay(configuration: RobinConfiguration) -> str | None:
 
     # ### Step 2: Literature review on cell culture assays
 
-    logger.info("\nStep 2: Conducting literature search with FutureHouse platform...")
+    logger.info("\nStep 2: Conducting literature search with Edison platform...")
 
     assay_lit_review = await call_platform(
         queries=experimental_assay_queries_dict,
@@ -111,7 +111,16 @@ async def experimental_assay(configuration: RobinConfiguration) -> str | None:
         assay_proposal_messages
     )
 
-    assay_idea_json = json.loads(cast(str, experimental_assay_ideas.text))
+    response_text = cast(str, experimental_assay_ideas.text)
+    if not response_text.strip():
+        raise ValueError("LLM returned an empty response during assay proposal generation.")
+    json_start = response_text.find("[")
+    json_end = response_text.rfind("]")
+    if json_start == -1 or json_end == -1:
+        raise ValueError(
+            f"LLM response did not contain a JSON array. Response: {response_text[:200]}"
+        )
+    assay_idea_json = json.loads(response_text[json_start : json_end + 1])
     assay_idea_list = format_assay_ideas(assay_idea_json)
 
     for assay_idea in assay_idea_list:
