@@ -6,7 +6,7 @@ See our [blog](https://www.futurehouse.org/research-announcements/demonstrating-
 
 - **Python:** Version 3.12 or higher.
 - **API Keys:**
-  - `EDISON_API_KEY`: For accessing Edison platform agents (Crow, Falcon - now called 'Literature'). Obtain from https://platform.edisonscientific.com/profile. You must first create an Edison profile, purchase credits and then create an API key (Account -> Profile -> API Tokens). 
+  - `EDISON_API_KEY`: For accessing Edison platform agents (Crow, Falcon - now called 'Literature'). Obtain from https://platform.edisonscientific.com/profile. You must first create an Edison profile, purchase credits and then create an API key (Account -> Profile -> API Tokens).
   - An API key for your chosen LLM provider (e.g., `OPENAI_API_KEY` if using OpenAI models). Robin uses LiteLLM, so it can support various providers.
   - The data analysis portion of this repo requires access to the Edison platform. Without access, all the hypothesis and experiment generation code can still be run.
 
@@ -19,15 +19,18 @@ Docker is a tool that packages software into a self-contained "container" that r
 For a fully self-contained environment that avoids OS-level dependency conflicts, Docker is the recommended approach:
 
 1. **Build the image:**
+
    ```bash
    docker build -t robin .
    ```
 
 2. **Set up API keys:**
+
    ```bash
    cp .env.example .env
    # Edit .env and fill in your EDISON_API_KEY and OPENAI_API_KEY
    ```
+
    Important: do **not** wrap values in quotes (e.g. `OPENAI_API_KEY=sk-abc123`, not `OPENAI_API_KEY="sk-abc123"`). Docker reads the file differently from Python and will include the quotes as part of the key.
 
 3. **Run Jupyter:**
@@ -159,6 +162,6 @@ These example outputs are provided to help users to understand the depth, format
 
 ## Advanced Usage
 
-A full example trajectory of both the initial therapeutic candidate generation and experimental data analysis can be found in the `robin_full.ipynb` notebook. This notebook includes the parameters and agents used in the paper. 
+A full example trajectory of both the initial therapeutic candidate generation and experimental data analysis can be found in the `robin_full.ipynb` notebook. This notebook includes the parameters and agents used in the paper.
 
 While this guide focuses on the `robin_demo.ipynb` notebook, the `robin` Python module (in the `robin/` directory) can be imported and its functions (`experimental_assay`, `therapeutic_candidates`, `data_analysis`) can be used programmatically in your own Python scripts for more customized workflows.

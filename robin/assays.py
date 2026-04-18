@@ -114,15 +114,17 @@ async def experimental_assay(configuration: RobinConfiguration) -> str | None:
 
     response_text = cast(str, experimental_assay_ideas.text)
     if not response_text.strip():
-        raise ValueError("LLM returned an empty response during assay proposal generation.")
+        raise ValueError(
+            "LLM returned an empty response during assay proposal generation."
+        )
     try:
         assay_idea_json = json.loads(response_text)
-    except json.JSONDecodeError:
+    except json.JSONDecodeError as err:
         match = re.search(r"\[.*\]", response_text, re.DOTALL)
         if not match:
             raise ValueError(
                 f"LLM response did not contain a JSON array. Response: {response_text[:200]}"
-            )
+            ) from err
         assay_idea_json = json.loads(match.group())
     assay_idea_list = format_assay_ideas(assay_idea_json)
 

@@ -2,13 +2,12 @@ import copy
 import os
 import re
 from datetime import datetime
+from typing import Any
 
 from dotenv import load_dotenv
 from edison_client import EdisonClient, JobNames
 from lmi import LiteLLMModel
 from pydantic import BaseModel, Field, PrivateAttr, model_validator
-
-load_dotenv()
 
 from .prompts import (
     ANALYSIS_QUERIES,
@@ -44,6 +43,8 @@ from .prompts import (
     SYNTHESIZE_USER_CONTENT,
 )
 
+load_dotenv()
+
 _DEFAULT_LLM_CONFIG_DATA = {
     "model_list": [
         {
@@ -58,9 +59,9 @@ _DEFAULT_LLM_CONFIG_DATA = {
 }
 
 
-def get_default_llm_config():
+def get_default_llm_config() -> dict[str, Any]:
     # Key is read on each instantiation so env vars set after import are picked up.
-    data = copy.deepcopy(_DEFAULT_LLM_CONFIG_DATA)
+    data: dict[str, Any] = copy.deepcopy(_DEFAULT_LLM_CONFIG_DATA)
     data["model_list"][0]["litellm_params"]["api_key"] = os.getenv(
         "OPENAI_API_KEY", "insert_openai_key_here"
     )

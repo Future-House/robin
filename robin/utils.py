@@ -558,7 +558,7 @@ def processing_ranking_output(ranking_csv_path: str) -> pd.DataFrame:
                 game_scores.append(None)
         else:
             game_scores.append(None)
-    processed_ranking_results["Game Score"] = game_scores
+    processed_ranking_results["Game Score"] = cast(Any, game_scores)
 
     processed_ranking_results = processed_ranking_results.dropna(subset=["Game Score"])
 
