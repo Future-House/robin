@@ -107,7 +107,7 @@ class MultiTrajectoryRunner:
     def __init__(self, configuration: RobinConfiguration):
         """Initialize the multi-trajectory runner framework with Edison API key."""
         self.configuration = configuration
-        self.client = configuration.fh_client
+        self.client = configuration.edison_client
         self.steps: list[Step] = []
         self.results: dict[str, Any] = {}
 

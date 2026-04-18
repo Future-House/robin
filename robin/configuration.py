@@ -59,6 +59,7 @@ _DEFAULT_LLM_CONFIG_DATA = {
 
 
 def get_default_llm_config():
+    # Key is read on each instantiation so env vars set after import are picked up.
     data = copy.deepcopy(_DEFAULT_LLM_CONFIG_DATA)
     data["model_list"][0]["litellm_params"]["api_key"] = os.getenv(
         "OPENAI_API_KEY", "insert_openai_key_here"
@@ -293,7 +294,7 @@ class RobinConfiguration(BaseModel):
     llm_name: str = "o4-mini"
     llm_config: dict | None = Field(default_factory=get_default_llm_config)
     agent_settings: AgentConfig = Field(default_factory=AgentConfig)
-    _fh_client: EdisonClient | None = PrivateAttr(default=None)
+    _edison_client: EdisonClient | None = PrivateAttr(default=None)
     _llm_client: LiteLLMModel | None = PrivateAttr(default=None)
 
     @model_validator(mode="after")
@@ -305,16 +306,16 @@ class RobinConfiguration(BaseModel):
         return self
 
     @property
-    def fh_client(self) -> EdisonClient:
-        if self._fh_client is None:
+    def edison_client(self) -> EdisonClient:
+        if self._edison_client is None:
             api_key = os.getenv("EDISON_API_KEY") or self.edison_api_key
             if not api_key:
                 raise ValueError(
                     "Edison API key is not set. Please provide it in the"
                     " configuration or set EDISON_API_KEY env variable."
                 )
-            self._fh_client = EdisonClient(api_key=api_key)
-        return self._fh_client
+            self._edison_client = EdisonClient(api_key=api_key)
+        return self._edison_client
 
     @property
     def llm_client(self) -> LiteLLMModel:

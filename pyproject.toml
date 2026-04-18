@@ -23,7 +23,7 @@ dependencies = [
     "choix",
     "fhaviary",
     "fhlmi",
-    "edison-client",
+    "edison-client>=0.11",  # Pin to keep recent
     "openai>=1",  # Pin to keep recent
     "pandas>=2",  # Pin to keep recent
     "pydantic>=2",  # Pin to keep recent
@@ -42,6 +42,7 @@ requires-python = ">=3.12"
 dev = [
     "ipykernel>=6.29",  # For running Jupter notebooks, and pin to keep recent
     "ipython>=8",  # Pin to keep recent
+    "jupyterlab>=4",  # Pin to keep recent
     "mypy>=1.8",  # Pin for mutable-override
     "pandas-stubs",
     "pre-commit>=3.4",  # Pin to keep recent

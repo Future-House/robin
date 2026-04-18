@@ -10,7 +10,6 @@ COPY robin_demo.ipynb .
 COPY robin_full.ipynb .
 
 RUN SETUPTOOLS_SCM_PRETEND_VERSION=0.0.0 uv pip install --system -e '.[dev]'
-RUN uv pip install --system jupyterlab
 
 EXPOSE 8888
 

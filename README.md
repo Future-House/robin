@@ -6,9 +6,9 @@ See our [blog](https://www.futurehouse.org/research-announcements/demonstrating-
 
 - **Python:** Version 3.12 or higher.
 - **API Keys:**
-  - `EDISON_API_KEY`: For accessing Edison platform agents (Crow, Falcon). Obtain from https://platform.edisonscientific.com/profile. You must first create an Edison profile, purchase credits and then create an API key (Account -> Profile -> API Tokens). Educational users may be eligible for free credits. 
+  - `EDISON_API_KEY`: For accessing Edison platform agents (Crow, Falcon - now called 'Literature'). Obtain from https://platform.edisonscientific.com/profile. You must first create an Edison profile, purchase credits and then create an API key (Account -> Profile -> API Tokens). Educational users may be eligible for free credits.
   - An API key for your chosen LLM provider (e.g., `OPENAI_API_KEY` if using OpenAI models). Robin uses LiteLLM, so it can support various providers.
-  - The "Finch" (data analysis) portion of this repo needs access to the Edison platform closed beta. To request access, visit https://platform.edisonscientific.com/profile and use the "Rate Limit Increase" form to request access to Finch. Without access, all the hypothesis and experiment generation code can still be run.
+  - The data analysis portion of this repo requires access to the Edison platform. Without access, all the hypothesis and experiment generation code can still be run.
 
 ## Docker (Alternative Setup)
 
@@ -116,7 +116,7 @@ For a fully self-contained environment that avoids OS-level dependency conflicts
     Execute the cells in the notebook sequentially. The notebook is structured to guide you through:
     - **Experimental Assay Generation:** Generates and ranks potential experimental assays.
     - **Therapeutic Candidate Generation:** Based on the top assay, generates and ranks therapeutic candidates.
-    - **(Optional) Experimental Data Analysis:** If you have experimental data, this section can analyze it and feed insights back into candidate generation. This currently requires access to the Finch closed beta.
+    - **(Optional) Experimental Data Analysis:** If you have experimental data, this section can analyze it and feed insights back into candidate generation. This requires access to the Edison platform data analysis features.
 
 ## Expected Output
 

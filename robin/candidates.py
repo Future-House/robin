@@ -102,7 +102,7 @@ async def therapeutic_candidates(  # noqa: PLR0912
 
     therapeutic_candidate_review = await call_platform(
         queries=candidate_generation_queries_dict,
-        fh_client=configuration.fh_client,
+        fh_client=configuration.edison_client,
         job_name=configuration.agent_settings.candidate_lit_search_agent,
     )
 
@@ -306,7 +306,7 @@ async def therapeutic_candidates(  # noqa: PLR0912
 
     therapeutic_candidate_hypotheses = await call_platform(
         queries=therapeutic_candidate_queries,
-        fh_client=configuration.fh_client,
+        fh_client=configuration.edison_client,
         job_name=configuration.agent_settings.candidate_hypothesis_report_agent,
     )
 

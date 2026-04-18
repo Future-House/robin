@@ -70,7 +70,7 @@ async def experimental_assay(configuration: RobinConfiguration) -> str | None:
 
     assay_lit_review = await call_platform(
         queries=experimental_assay_queries_dict,
-        fh_client=configuration.fh_client,
+        fh_client=configuration.edison_client,
         job_name=configuration.agent_settings.assay_lit_search_agent,
     )
 
@@ -114,13 +114,15 @@ async def experimental_assay(configuration: RobinConfiguration) -> str | None:
     response_text = cast(str, experimental_assay_ideas.text)
     if not response_text.strip():
         raise ValueError("LLM returned an empty response during assay proposal generation.")
-    json_start = response_text.find("[")
-    json_end = response_text.rfind("]")
-    if json_start == -1 or json_end == -1:
-        raise ValueError(
-            f"LLM response did not contain a JSON array. Response: {response_text[:200]}"
-        )
-    assay_idea_json = json.loads(response_text[json_start : json_end + 1])
+    try:
+        assay_idea_json = json.loads(response_text)
+    except json.JSONDecodeError:
+        match = re.search(r"\[.*\]", response_text, re.DOTALL)
+        if not match:
+            raise ValueError(
+                f"LLM response did not contain a JSON array. Response: {response_text[:200]}"
+            )
+        assay_idea_json = json.loads(match.group())
     assay_idea_list = format_assay_ideas(assay_idea_json)
 
     for assay_idea in assay_idea_list:
@@ -178,7 +180,7 @@ async def experimental_assay(configuration: RobinConfiguration) -> str | None:
 
     assay_hypotheses = await call_platform(
         queries=assay_hypothesis_queries,
-        fh_client=configuration.fh_client,
+        fh_client=configuration.edison_client,
         job_name=configuration.agent_settings.assay_hypothesis_report_agent,
     )
 
