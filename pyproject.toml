@@ -23,10 +23,10 @@ dependencies = [
     "choix",
     "fhaviary",
     "fhlmi",
-    "edison-client>=0.11",  # Pin to keep recent
-    "openai>=1",  # Pin to keep recent
-    "pandas>=2",  # Pin to keep recent
-    "pydantic>=2",  # Pin to keep recent
+    "edison-client>=0.11",  
+    "openai>=1", 
+    "pandas>=2",  
+    "pydantic>=2",  
     "python-dotenv",
     "tqdm",
 ]
