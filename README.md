@@ -86,7 +86,7 @@ For a fully self-contained environment that avoids OS-level dependency conflicts
     Robin will automatically load this `.env` file at startup. Alternatively, you can export the variables in your shell, or pass them directly when creating the `RobinConfiguration` object.
 
 ## Running Robin via `robin_demo.ipynb`
-*In order to run Robin as used in the manuscript, a user must only input the name of a disease, with no other text. If a user wishes to optimize how Robin searches for experimental models and therapeutic candidates, we suggest changing the internal prompts of Robin (via prompts.py), not the initial input to the pipeline.* 
+*In order to run Robin as used in the manuscript, only input the name of a disease, with no other text. If you wish to optimize how Robin searches for experimental models and therapeutic candidates, we suggest changing the internal prompts of Robin (via prompts.py), not the initial input to the pipeline.* 
 
 1.  **Launch Jupyter Notebook or JupyterLab:**
     Navigate to the `robin` directory in your terminal (ensure your virtual environment is activated) and run:
